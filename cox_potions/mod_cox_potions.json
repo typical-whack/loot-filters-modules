@@ -6,14 +6,14 @@
             "macroName": "VAR_COX_POTIONS_HIDE",
             "label": "Potions to hide",
             "enum": [
-                "elder potion",
-                "twisted potion",
-                "kodai potion",
-                "revitalisation potion",
-                "prayer enhance",
-                "xeric's aid",
-                "antipoison potion",
-                "overload"
+                "Elder potion",
+                "Twisted potion",
+                "Kodai potion",
+                "Revitalisation potion",
+                "Prayer enhance",
+                "Xeric's aid",
+                "Antipoison potion",
+                "Overload"
             ],
             "default": []
         },
