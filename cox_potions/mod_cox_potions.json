@@ -25,7 +25,7 @@
             "type": "boolean",
             "macroName": "VAR_COX_POTIONS_HIDE_LOWER",
             "label": "Hide lower tier potions",
-            "default": false
+            "default": true
         },
         {
             "type": "boolean",
