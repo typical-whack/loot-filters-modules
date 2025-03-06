@@ -1,0 +1,72 @@
+{
+    "name": "Commander Zilyana",
+    "inputs": [
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_COMMANDER_ZILYANA_UNIQUES_SHOW",
+                "excludes": "VAR_COMMANDER_ZILYANA_UNIQUES_HIDE"
+            },
+            "label": "Commander Zilyana uniques",
+            "default": {
+                "includes": [
+                    "Saradomin sword",
+                    "Saradomin's light",
+                    "Armadyl crossbow",
+                    "Saradomin hilt"
+                ],
+                "excludes": []
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_COMMANDER_ZILYANA_COMMON_SHOW",
+                "excludes": "VAR_COMMANDER_ZILYANA_COMMON_HIDE"
+            },
+            "label": "Commander Zilyana common drops",
+            "default": {
+                "includes": [
+                    "Coins",
+                    "Grimy ranarr weed",
+                    "Ranarr seed",
+                    "Magic seed"
+                ],
+                "excludes": [
+                    "Adamant platebody",
+                    "Rune dart",
+                    "Rune kiteshield",
+                    "Rune plateskirt",
+                    "Diamond",
+                    "Law rune",
+                    "Steel arrow",
+                    "Steel dart",
+                    "Summer pie",
+                    "Unicorn horn",
+                    "Snape grass"
+                ]
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_COMMANDER_ZILYANA_SUPPLY_SHOW",
+                "excludes": "VAR_COMMANDER_ZILYANA_SUPPLY_HIDE"
+            },
+            "label": "Commander Zilyana supply drops",
+            "default": {
+                "includes": [
+                    "Prayer potion(4)",
+                    "Super defence(3)",
+                    "Magic potion(3)",
+                    "Saradomin brew(3)",
+                    "Super restore(4)",
+                    "Monkfish"
+                ],
+                "excludes": [
+                    "Bones"
+                ]
+            }
+        }
+    ]
+}
