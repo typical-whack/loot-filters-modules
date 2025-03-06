@@ -1,15 +1,15 @@
 // module:cox_potions
 
-#define CONST_COX_POTIONS_DEFAULTBG                   "#000000"
+#define CONST_COX_POTIONS_DEFAULTBG                   "#00000000"
 
-#define CONST_COX_POTIONS_ELDER_DEFAULTCOLOR          "#845b5c"
-#define CONST_COX_POTIONS_TWISTED_DEFAULTCOLOR        "#657e69"
-#define CONST_COX_POTIONS_KODAI_DEFAULTCOLOR          "#7288a8"
-#define CONST_COX_POTIONS_REVITALISATION_DEFAULTCOLOR "#a56785"
-#define CONST_COX_POTIONS_PRAYER_ENHANCE_DEFAULTCOLOR "#9257ba"
-#define CONST_COX_POTIONS_XERICS_AID_DEFAULTCOLOR     "#afac73"
-#define CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR     "#a4d27e"
-#define CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR       "#130f0f"
+#define CONST_COX_POTIONS_ELDER_DEFAULTCOLOR          "#FF845b5c"
+#define CONST_COX_POTIONS_TWISTED_DEFAULTCOLOR        "#FF657e69"
+#define CONST_COX_POTIONS_KODAI_DEFAULTCOLOR          "#FF7288a8"
+#define CONST_COX_POTIONS_REVITALISATION_DEFAULTCOLOR "#FFa56785"
+#define CONST_COX_POTIONS_PRAYER_ENHANCE_DEFAULTCOLOR "#FF9257ba"
+#define CONST_COX_POTIONS_XERICS_AID_DEFAULTCOLOR     "#FFafac73"
+#define CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR     "#FFa4d27e"
+#define CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR       "#FF130f0f"
 
 #define CONST_COX_POTIONS_LOWER_TIER ["elder (-)*", "twisted (-)*", "kodai (-)*", "revitalisation (-)*", "prayer enhance (-)*", "xeric's aid (-)*", "antipoison (-)*", "overload (-)*", "elder potion*", "twisted potion*", "kodai potion*", "revitalisation potion*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "overload (4)", "overload (3)", "overload (2)", "overload (1)"]
 
