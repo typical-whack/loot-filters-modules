@@ -22,7 +22,10 @@
                 "Dwarf weed",
                 "Torstol"
             ],
-            "default": []
+            "default": [
+                "Tarromin",
+                "Harralander"
+            ]
         },
         {
             "type": "boolean",
