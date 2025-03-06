@@ -27,6 +27,11 @@
             "name": "Kree'arra",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gwd/kree/mod_kree.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gwd/kree/mod_kree.rs2f"
+        },
+        {
+            "name": "General Graardor",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gwd/general_graardor/mod_general_graardor.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gwd/general_graardor/mod_general_graardor.rs2f"
         }
     ]
 }
