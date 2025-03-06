@@ -1,5 +1,7 @@
 // module:herbs
 
+#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
+
 #define VAR_HERBS_HIDE []
 
 #define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE   nop;   
@@ -16,13 +18,18 @@
 #define VAR_HERBS_CADANTINE_CUSTOMSTYLE   nop;   
 #define VAR_HERBS_LANTADYME_CUSTOMSTYLE   nop;   
 #define VAR_HERBS_DWARF_WEED_CUSTOMSTYLE  nop;  
-#define VAR_HERBS_TORSTOL_CUSTOMSTYLE     nop;     
+#define VAR_HERBS_TORSTOL_CUSTOMSTYLE     nop;
+
+#define VAR_HERBS_COLOR_MENU_TEXT nop;
 
 if (name:["grimy guam leaf", "guam leaf"]) {
     if ("Guam leaf":VAR_HERBS_HIDE) {
         hidden=true;
     }
     VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy marrentill", "marrentill"]) {
@@ -30,6 +37,9 @@ if (name:["grimy marrentill", "marrentill"]) {
         hidden=true;
     }
     VAR_HERBS_MARRENTILL_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy tarromin", "tarromin"]) {
@@ -37,6 +47,9 @@ if (name:["grimy tarromin", "tarromin"]) {
         hidden=true;
     }
     VAR_HERBS_TARROMIN_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy harralander", "harralander"]) {
@@ -44,6 +57,9 @@ if (name:["grimy harralander", "harralander"]) {
         hidden=true;
     }
     VAR_HERBS_HARRALANDER_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy ranarr weed", "ranarr weed"]) {
@@ -51,6 +67,9 @@ if (name:["grimy ranarr weed", "ranarr weed"]) {
         hidden=true;
     }
     VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy toadflax", "toadflax"]) {
@@ -58,6 +77,9 @@ if (name:["grimy toadflax", "toadflax"]) {
         hidden=true;
     }
     VAR_HERBS_TOADFLAX_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy irit leaf", "irit leaf"]) {
@@ -65,6 +87,9 @@ if (name:["grimy irit leaf", "irit leaf"]) {
         hidden=true;
     }
     VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy avantoe", "avantoe"]) {
@@ -72,6 +97,9 @@ if (name:["grimy avantoe", "avantoe"]) {
         hidden=true;
     }
     VAR_HERBS_AVANTOE_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy kwuarm", "kwuarm"]) {
@@ -79,6 +107,9 @@ if (name:["grimy kwuarm", "kwuarm"]) {
         hidden=true;
     }
     VAR_HERBS_KWUARM_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy huasca", "huasca"]) {
@@ -86,6 +117,9 @@ if (name:["grimy huasca", "huasca"]) {
         hidden=true;
     }
     VAR_HERBS_HUASCA_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy snapdragon", "snapdragon"]) {
@@ -93,6 +127,9 @@ if (name:["grimy snapdragon", "snapdragon"]) {
         hidden=true;
     }
     VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy cadantine", "cadantine"]) {
@@ -100,6 +137,9 @@ if (name:["grimy cadantine", "cadantine"]) {
         hidden=true;
     }
     VAR_HERBS_CADANTINE_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy lantadyme", "lantadyme"]) {
@@ -107,6 +147,9 @@ if (name:["grimy lantadyme", "lantadyme"]) {
         hidden=true;
     }
     VAR_HERBS_LANTADYME_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy dwarf_weed", "dwarf_weed"]) {
@@ -114,6 +157,9 @@ if (name:["grimy dwarf_weed", "dwarf_weed"]) {
         hidden=true;
     }
     VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 if (name:["grimy torstol", "torstol"]) {
@@ -121,6 +167,9 @@ if (name:["grimy torstol", "torstol"]) {
         hidden=true;
     }
     VAR_HERBS_TORSTOL_CUSTOMSTYLE
+    if (!VAR_HERBS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
 }
 
 // endmodule:herbs

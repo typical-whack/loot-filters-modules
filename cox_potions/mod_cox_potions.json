@@ -28,13 +28,20 @@
             "default": false
         },
         {
+            "type": "boolean",
+            "macroName": "VAR_HERBS_COLOR_MENU_TEXT",
+            "label": "Color herb menu text",
+            "default": true
+        },
+        {
             "macroName": "VAR_COX_POTIONS_ELDER_CUSTOMSTYLE",
             "label": "Elder",
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF845b5c"
+                "textColor": "#FF845b5c",
+                "menuTextColor": "#FF845b5c"
              }
         },
         {
@@ -44,7 +51,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF657e69"
+                "textColor": "#FF657e69",
+                "menuTextColor": "#FF657e69"
              }
         },
         {
@@ -54,7 +62,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF7288a8"
+                "textColor": "#FF7288a8",
+                "menuTextColor": "#FF7288a8"
              }
         },
         {
@@ -64,7 +73,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FFa56785"
+                "textColor": "#FFa56785",
+                "menuTextColor": "#FFa56785"
              }
         },
         {
@@ -74,7 +84,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF9257ba"
+                "textColor": "#FF9257ba",
+                "menuTextColor": "#FF9257ba"
              }
         },
         {
@@ -84,7 +95,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FFafac73"
+                "textColor": "#FFafac73",
+                "menuTextColor": "#FFafac73"
              }
         },
         {
@@ -94,7 +106,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FFa4d27e"
+                "textColor": "#FFa4d27e",
+                "menuTextColor": "#FFa4d27e"
              }
         },
         {
@@ -104,7 +117,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF130f0f"
+                "textColor": "#FF130f0f",
+                "menuTextColor": "#FF130f0f"
              }
         }
     ]
