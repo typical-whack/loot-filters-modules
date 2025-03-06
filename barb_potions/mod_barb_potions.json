@@ -1,0 +1,455 @@
+{
+    "name": "Barbarian Potions",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_BARB_POTIONS_HIDE",
+            "label": "Potions to hide",
+            "enum": [
+                "Attack mix",
+                "Antipoison mix",
+                "Relicym's mix",
+                "Strength mix",
+                "Restore mix",
+                "Energy mix",
+                "Defence mix",
+                "Agility mix",
+                "Combat mix",
+                "Prayer mix",
+                "Superattack mix",
+                "Anti-poison supermix",
+                "Fishing mix",
+                "Super energy mix",
+                "Hunting mix",
+                "Super str. mix",
+                "Magic essence mix",
+                "Super restore mix",
+                "Super def. mix",
+                "Antidote+ mix",
+                "Antifire mix",
+                "Ranging mix",
+                "Magic mix",
+                "Zamorak mix",
+                "Stamina mix",
+                "Extended antifire mix",
+                "Ancient mix",
+                "Super antifire mix",
+                "Extended super antifire mix"
+            ],
+            "default": [
+                "Attack mix",
+                "Antipoison mix",
+                "Relicym's mix",
+                "Strength mix",
+                "Restore mix",
+                "Energy mix",
+                "Defence mix",
+                "Agility mix",
+                "Combat mix",
+                "Prayer mix",
+                "Superattack mix",
+                "Anti-poison supermix",
+                "Fishing mix",
+                "Super energy mix",
+                "Hunting mix",
+                "Super str. mix",
+                "Magic essence mix",
+                "Super restore mix",
+                "Super def. mix",
+                "Antidote+ mix",
+                "Antifire mix",
+                "Ranging mix",
+                "Magic mix",
+                "Zamorak mix",
+                "Stamina mix",
+                "Extended antifire mix",
+                "Ancient mix",
+                "Super antifire mix",
+                "Extended super antifire mix"
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_BARB_POTIONS_COLOR_MENU_TEXT",
+            "label": "Color potion menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ATTACK_MIX_CUSTOMSTYLE",
+            "label": "Attack mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ANTIPOISON_MIX_CUSTOMSTYLE",
+            "label": "Antipoison mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#b8f785",
+                "menuTextColor": "#b8f785",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_RELICYMS_MIX_CUSTOMSTYLE",
+            "label": "Relicym's mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#dfc5ae",
+                "menuTextColor": "#dfc5ae",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_STRENGTH_MIX_CUSTOMSTYLE",
+            "label": "Strength mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#f1ef78",
+                "menuTextColor": "#f1ef78",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_RESTORE_MIX_CUSTOMSTYLE",
+            "label": "Restore mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#f08f87",
+                "menuTextColor": "#f08f87",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ENERGY_MIX_CUSTOMSTYLE",
+            "label": "Energy mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#d499a4",
+                "menuTextColor": "#d499a4",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_DEFENCE_MIX_CUSTOMSTYLE",
+            "label": "Defence mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#9af59c",
+                "menuTextColor": "#9af59c",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_AGILITY_MIX_CUSTOMSTYLE",
+            "label": "Agility mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#b5c15c",
+                "menuTextColor": "#b5c15c",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_COMBAT_MIX_CUSTOMSTYLE",
+            "label": "Combat mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#afd89b",
+                "menuTextColor": "#afd89b",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_PRAYER_MIX_CUSTOMSTYLE",
+            "label": "Prayer mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#99f1d1",
+                "menuTextColor": "#99f1d1",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_SUPERATTACK_MIX_CUSTOMSTYLE",
+            "label": "Superattack mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#999bf1",
+                "menuTextColor": "#999bf1",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ANTI_POISON_SUPERMIX_CUSTOMSTYLE",
+            "label": "Anti-poison supermix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#d85cac",
+                "menuTextColor": "#d85cac",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_FISHING_MIX_CUSTOMSTYLE",
+            "label": "Fishing mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#868a86",
+                "menuTextColor": "#868a86",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_SUPER_ENERGY_MIX_CUSTOMSTYLE",
+            "label": "Super energy mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#db8ec9",
+                "menuTextColor": "#db8ec9",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_HUNTING_MIX_CUSTOMSTYLE",
+            "label": "Hunting mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#519294",
+                "menuTextColor": "#519294",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_SUPER_STR_MIX_CUSTOMSTYLE",
+            "label": "Super str. mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#e2e3e3",
+                "menuTextColor": "#e2e3e3",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_MAGIC_ESSENCE_MIX_CUSTOMSTYLE",
+            "label": "Magic essence mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#ebba8a",
+                "menuTextColor": "#ebba8a",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_SUPER_RESTORE_MIX_CUSTOMSTYLE",
+            "label": "Super restore mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#c77798",
+                "menuTextColor": "#c77798",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_SUPER_DEF_MIX_CUSTOMSTYLE",
+            "label": "Super def. mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#e7d090",
+                "menuTextColor": "#e7d090",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ANTIDOTE_MIX_CUSTOMSTYLE",
+            "label": "Antidote+ mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#abab98",
+                "menuTextColor": "#abab98",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ANTIFIRE_MIX_CUSTOMSTYLE",
+            "label": "Antifire mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#9e56b7",
+                "menuTextColor": "#9e56b7",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_RANGING_MIX_CUSTOMSTYLE",
+            "label": "Ranging mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#8fcfe8",
+                "menuTextColor": "#8fcfe8",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_MAGIC_MIX_CUSTOMSTYLE",
+            "label": "Magic mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#e6bfb1",
+                "menuTextColor": "#e6bfb1",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ZAMORAK_MIX_CUSTOMSTYLE",
+            "label": "Zamorak mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#f0c760",
+                "menuTextColor": "#f0c760",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_STAMINA_MIX_CUSTOMSTYLE",
+            "label": "Stamina mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#b7997b",
+                "menuTextColor": "#b7997b",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_EXTENDED_ANTIFIRE_MIX_CUSTOMSTYLE",
+            "label": "Extended antifire mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#946dda",
+                "menuTextColor": "#946dda",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_ANCIENT_MIX_CUSTOMSTYLE",
+            "label": "Ancient mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#c09ce2",
+                "menuTextColor": "#c09ce2",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE",
+            "label": "Super antifire mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#9d56b5",
+                "menuTextColor": "#9d56b5",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BARB_POTIONS_EXTENDED_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE",
+            "label": "Extended super antifire mix",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#c7b6da",
+                "menuTextColor": "#c7b6da",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        }
+    ]
+}
