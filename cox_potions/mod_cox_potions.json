@@ -41,7 +41,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FF845b5c",
-                "menuTextColor": "#FF845b5c"
+                "menuTextColor": "#FF845b5c",
+                "textAccent": 2,
              }
         },
         {
@@ -52,7 +53,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FF657e69",
-                "menuTextColor": "#FF657e69"
+                "menuTextColor": "#FF657e69",
+                "textAccent": 2,
              }
         },
         {
@@ -63,7 +65,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FF7288a8",
-                "menuTextColor": "#FF7288a8"
+                "menuTextColor": "#FF7288a8",
+                "textAccent": 2,
              }
         },
         {
@@ -74,7 +77,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FFa56785",
-                "menuTextColor": "#FFa56785"
+                "menuTextColor": "#FFa56785",
+                "textAccent": 2,
              }
         },
         {
@@ -85,7 +89,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FF9257ba",
-                "menuTextColor": "#FF9257ba"
+                "menuTextColor": "#FF9257ba",
+                "textAccent": 2,
              }
         },
         {
@@ -96,7 +101,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FFafac73",
-                "menuTextColor": "#FFafac73"
+                "menuTextColor": "#FFafac73",
+                "textAccent": 2,
              }
         },
         {
@@ -107,7 +113,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FFa4d27e",
-                "menuTextColor": "#FFa4d27e"
+                "menuTextColor": "#FFa4d27e",
+                "textAccent": 2,
              }
         },
         {
@@ -118,7 +125,8 @@
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
                 "textColor": "#FF130f0f",
-                "menuTextColor": "#FF130f0f"
+                "menuTextColor": "#FF130f0f",
+                "textAccent": 2,
              }
         }
     ]
