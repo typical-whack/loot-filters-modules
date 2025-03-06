@@ -15,7 +15,11 @@
                 "Antipoison potion",
                 "Overload"
             ],
-            "default": []
+            "default": [
+                "Elder potion",
+                "Twisted potion",
+                "Kodai potion"
+            ]
         },
         {
             "type": "boolean",
@@ -27,49 +31,81 @@
             "macroName": "VAR_COX_POTIONS_ELDER_CUSTOMSTYLE",
             "label": "Elder",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF845b5c"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE",
             "label": "Twisted",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF657e69"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_KODAI_CUSTOMSTYLE",
             "label": "Kodai",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF7288a8"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE",
             "label": "Revitalisation",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FFa56785"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE",
             "label": "Prayer enhance",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF9257ba"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE",
             "label": "Xeric's aid",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FFafac73"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE",
             "label": "Antipoison",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FFa4d27e"
+             }
         },
         {
             "macroName": "VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE",
             "label": "Overload",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF130f0f"
+             }
         }
     ]
 }
