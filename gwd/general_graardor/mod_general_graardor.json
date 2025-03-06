@@ -39,7 +39,11 @@
                     "Rune platebody",
                     "Rune pickaxe",
                     "Snapdragon seed",
-                    "Nature rune"
+                    "Nature rune",
+                    "Cosmic rune",
+                    "Steel arrow",
+                    "Limpwurt root",
+                    "Steel dart"
                 ]
             }
         },
@@ -54,9 +58,15 @@
                 "includes": [
                     "Bones",
                     "Big bones",
-                    "Super restore(4)"
+                    "Super restore(4)",
+                    "Shark",
+                    "Chilli potato",
+                    "Kebab"
                 ],
-                "excludes": []
+                "excludes": [
+                    "Combat potion(3)",
+                    "Super strength(3)"
+                ]
             }
         }
     ]
