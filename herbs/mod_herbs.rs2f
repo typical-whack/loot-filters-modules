@@ -41,7 +41,7 @@ if (name:["grimy guam leaf", "guam leaf"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_GUAM_LEAF_DEFAULTCOLOR)
+  textColor = CONST_HERBS_GUAM_LEAF_DEFAULTCOLOR
   VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
 }
 
@@ -50,7 +50,7 @@ if (name:["grimy marrentill", "marrentill"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_MARRENTILL_DEFAULTCOLOR)
+  textColor = CONST_HERBS_MARRENTILL_DEFAULTCOLOR
   VAR_HERBS_MARRENTILL_CUSTOMSTYLE
 }
 
@@ -59,7 +59,7 @@ if (name:["grimy tarromin", "tarromin"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_TARROMIN_DEFAULTCOLOR)
+  textColor = CONST_HERBS_TARROMIN_DEFAULTCOLOR
   VAR_HERBS_TARROMIN_CUSTOMSTYLE
 }
 
@@ -68,7 +68,7 @@ if (name:["grimy harralander", "harralander"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_HARRALANDER_DEFAULTCOLOR)
+  textColor = CONST_HERBS_HARRALANDER_DEFAULTCOLOR
   VAR_HERBS_HARRALANDER_CUSTOMSTYLE
 }
 
@@ -77,7 +77,7 @@ if (name:["grimy ranarr weed", "ranarr weed"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_RANARR_WEED_DEFAULTCOLOR)
+  textColor = CONST_HERBS_RANARR_WEED_DEFAULTCOLOR
   VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
 }
 
@@ -86,7 +86,7 @@ if (name:["grimy toadflax", "toadflax"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_TOADFLAX_DEFAULTCOLOR)
+  textColor = CONST_HERBS_TOADFLAX_DEFAULTCOLOR
   VAR_HERBS_TOADFLAX_CUSTOMSTYLE
 }
 
@@ -95,7 +95,7 @@ if (name:["grimy irit leaf", "irit leaf"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_IRIT_LEAF_DEFAULTCOLOR)
+  textColor = CONST_HERBS_IRIT_LEAF_DEFAULTCOLOR
   VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
 }
 
@@ -104,7 +104,7 @@ if (name:["grimy avantoe", "avantoe"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_AVANTOE_DEFAULTCOLOR)
+  textColor = CONST_HERBS_AVANTOE_DEFAULTCOLOR
   VAR_HERBS_AVANTOE_CUSTOMSTYLE
 }
 
@@ -113,7 +113,7 @@ if (name:["grimy kwuarm", "kwuarm"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_KWUARM_DEFAULTCOLOR)
+  textColor = CONST_HERBS_KWUARM_DEFAULTCOLOR
   VAR_HERBS_KWUARM_CUSTOMSTYLE
 }
 
@@ -122,7 +122,7 @@ if (name:["grimy huasca", "huasca"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_HUASCA_DEFAULTCOLOR)
+  textColor = CONST_HERBS_HUASCA_DEFAULTCOLOR
   VAR_HERBS_HUASCA_CUSTOMSTYLE
 }
 
@@ -131,7 +131,7 @@ if (name:["grimy snapdragon", "snapdragon"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_SNAPDRAGON_DEFAULTCOLOR)
+  textColor = CONST_HERBS_SNAPDRAGON_DEFAULTCOLOR
   VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
 }
 
@@ -140,7 +140,7 @@ if (name:["grimy cadantine", "cadantine"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_CADANTINE_DEFAULTCOLOR)
+  textColor = CONST_HERBS_CADANTINE_DEFAULTCOLOR
   VAR_HERBS_CADANTINE_CUSTOMSTYLE
 }
 
@@ -149,7 +149,7 @@ if (name:["grimy lantadyme", "lantadyme"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_LANTADYME_DEFAULTCOLOR)
+  textColor = CONST_HERBS_LANTADYME_DEFAULTCOLOR
   VAR_HERBS_LANTADYME_CUSTOMSTYLE
 }
 
@@ -158,7 +158,7 @@ if (name:["grimy dwarf_weed", "dwarf_weed"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_DWARF_WEED_DEFAULTCOLOR)
+  textColor = CONST_HERBS_DWARF_WEED_DEFAULTCOLOR
   VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
 }
 
@@ -167,7 +167,7 @@ if (name:["grimy torstol", "torstol"]) {
     hidden=true;
   }
   backgroundColor = CONST_HERBS_DEFAULTBG;
-  LIB_COLOR2(CONST_HERBS_TORSTOL_DEFAULTCOLOR)
+  textColor = CONST_HERBS_TORSTOL_DEFAULTCOLOR
   VAR_HERBS_TORSTOL_CUSTOMSTYLE
 }
 

@@ -34,7 +34,7 @@ if (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_ELDER_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_ELDER_DEFAULTCOLOR
     VAR_COX_POTIONS_ELDER_CUSTOMSTYLE
 }
 
@@ -43,7 +43,7 @@ if (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_TWISTED_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_TWISTED_DEFAULTCOLOR
     VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE
 }
 
@@ -52,7 +52,7 @@ if (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_KODAI_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_KODAI_DEFAULTCOLOR
     VAR_COX_POTIONS_KODAI_CUSTOMSTYLE
 }
 
@@ -61,7 +61,7 @@ if (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_REVITALISATION_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_REVITALISATION_DEFAULTCOLOR
     VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE
 }
 
@@ -70,7 +70,7 @@ if (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "pr
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_PRAYER_ENHANCE_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_PRAYER_ENHANCE_DEFAULTCOLOR
     VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE
 }
 
@@ -79,7 +79,7 @@ if (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_XERICS_AID_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_XERICS_AID_DEFAULTCOLOR
     VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE
 }
 
@@ -88,7 +88,7 @@ if (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR
     VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE
 }
 
@@ -97,7 +97,7 @@ if (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "over
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
-    LIB_COLOR2(CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR)
+    textColor = CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR
     VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE
 }
 
