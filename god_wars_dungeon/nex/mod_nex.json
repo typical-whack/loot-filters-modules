@@ -1,0 +1,80 @@
+{
+    "name": "Nex",
+    "inputs": [
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_NEX_UNIQUES_SHOW",
+                "excludes": "VAR_NEX_UNIQUES_HIDE"
+            },
+            "label": "Nex uniques",
+            "default": {
+                "includes": [
+                    "Zaryte vambraces",
+                    "Nihil horn",
+                    "Torva full helm (damaged)",
+                    "Torva platebody (damaged)",
+                    "Torva platelegs (damaged)",
+                    "Ancient hilt",
+                    "Ancient ceremonial mask",
+                    "Ancient ceremonial top",
+                    "Ancient ceremonial legs",
+                    "Ancient ceremonial gloves",
+                    "Ancient ceremonial boots"
+                ],
+                "excludes": []
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_NEX_COMMON_SHOW",
+                "excludes": "VAR_NEX_COMMON_HIDE"
+            },
+            "label": "Nex common drops",
+            "default": {
+                "includes": [
+                    "Rune sword",
+                    "Runite ore",
+                    "Ecumenical key shard",
+                    "Nihil shard",
+                    "Blood essence",
+                    "Onyx bolts (e)",
+                    "Dragon bolts (unf)",
+                    "Coins",
+                    "Blood rune",
+                    "Death rune",
+                    "Soul rune",
+                    "Cannonball",
+                    "Uncut ruby",
+                    "Uncut diamond",
+                    "Wine of zamorak"
+                ],
+                "excludes": [
+                    "Air rune",
+                    "Fire rune",
+                    "Water rune",
+                    "Air orb",
+                    "Coal"
+                ]
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_NEX_SUPPLY_SHOW",
+                "excludes": "VAR_NEX_SUPPLY_HIDE"
+            },
+            "label": "Nex supply drops",
+            "default": {
+                "includes": [
+                    "Shark",
+                    "Prayer potion(4)",
+                    "Saradomin brew(4)",
+                    "Super restore(4)"
+                ],
+                "excludes": []
+            }
+        }
+    ]
+}
