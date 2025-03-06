@@ -11,24 +11,7 @@
 #define CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR     "#a4d27e"
 #define CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR       "#130f0f"
 
-#define CONST_COX_POTIONS_LOWER_TIER [
-    "elder (-)",
-    "twisted (-)",
-    "kodai (-)",
-    "revitalisation (-)",
-    "prayer enhance (-)",
-    "xeric's aid (-)",
-    "antipoison (-)",
-    "overload (-)",
-    "elder potion",
-    "twisted potion",
-    "kodai potion",
-    "revitalisation potion",
-    "prayer enhance",
-    "xeric's aid",
-    "antipoison",
-    "overload"
-]
+#define CONST_COX_POTIONS_LOWER_TIER ["elder (-)*", "twisted (-)*", "kodai (-)*", "revitalisation (-)*", "prayer enhance (-)*", "xeric's aid (-)*", "antipoison (-)*", "overload (-)*", "elder potion*", "twisted potion*", "kodai potion*", "revitalisation potion*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "overload (4)", "overload (3)", "overload (2)", "overload (1)"]
 
 #define VAR_COX_POTIONS_HIDE []
 #define VAR_COX_POTIONS_HIDE_LOWER false;
@@ -46,7 +29,7 @@ if (VAR_COX_POTIONS_HIDE_LOWER && name:CONST_COX_POTIONS_LOWER_TIER) {
     hidden = true;
 }
 
-if (name:["elder (-)", "elder potion", "elder (+)"]) {
+if (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
     if ("elder potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -55,7 +38,7 @@ if (name:["elder (-)", "elder potion", "elder (+)"]) {
     VAR_COX_POTIONS_ELDER_CUSTOMSTYLE
 }
 
-if (name:["twisted (-)", "twisted potion", "twisted (+)"]) {
+if (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
     if ("twisted potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -64,7 +47,7 @@ if (name:["twisted (-)", "twisted potion", "twisted (+)"]) {
     VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE
 }
 
-if (name:["kodai (-)", "kodai potion", "kodai (+)"]) {
+if (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
     if ("kodai potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -73,7 +56,7 @@ if (name:["kodai (-)", "kodai potion", "kodai (+)"]) {
     VAR_COX_POTIONS_KODAI_CUSTOMSTYLE
 }
 
-if (name:["revitalisation (-)", "revitalisation potion", "revitalisation (+)"]) {
+if (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
     if ("revitalisation potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -82,7 +65,7 @@ if (name:["revitalisation (-)", "revitalisation potion", "revitalisation (+)"]) 
     VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE
 }
 
-if (name:["prayer enhance (-)", "prayer enhance", "prayer enhance (+)"]) {
+if (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
     if ("prayer enhance":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -91,7 +74,7 @@ if (name:["prayer enhance (-)", "prayer enhance", "prayer enhance (+)"]) {
     VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE
 }
 
-if (name:["xeric's aid (-)", "xeric's aid", "xeric's aid (+)"]) {
+if (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
     if ("xeric's aid":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -100,7 +83,7 @@ if (name:["xeric's aid (-)", "xeric's aid", "xeric's aid (+)"]) {
     VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE
 }
 
-if (name:["antipoison (-)", "antipoison", "antipoison (+)"]) {
+if (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
     if ("antipoison":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
@@ -109,7 +92,7 @@ if (name:["antipoison (-)", "antipoison", "antipoison (+)"]) {
     VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE
 }
 
-if (name:["overload (-)", "overload", "overload (+)"]) {
+if (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
     if ("overload":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
