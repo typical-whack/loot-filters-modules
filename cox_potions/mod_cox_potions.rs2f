@@ -1,0 +1,121 @@
+// module:cox_potions
+
+#define CONST_COX_POTIONS_DEFAULTBG                   "#000000"
+
+#define CONST_COX_POTIONS_ELDER_DEFAULTCOLOR          "#09550d"
+#define CONST_COX_POTIONS_TWISTED_DEFAULTCOLOR        "#09550d"
+#define CONST_COX_POTIONS_KODAI_DEFAULTCOLOR          "#09550d"
+#define CONST_COX_POTIONS_REVITALISATION_DEFAULTCOLOR "#09550d"
+#define CONST_COX_POTIONS_PRAYER_ENHANCE_DEFAULTCOLOR "#09550d"
+#define CONST_COX_POTIONS_XERICS_AID_DEFAULTCOLOR     "#09550d"
+#define CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR     "#09550d"
+#define CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR       "#09550d"
+
+#define CONST_COX_POTIONS_LOWER_TIER [
+    "elder (-)",
+    "twisted (-)",
+    "kodai (-)",
+    "revitalisation (-)",
+    "prayer enhance (-)",
+    "xeric's aid (-)",
+    "antipoison (-)",
+    "overload (-)",
+    "elder potion",
+    "twisted potion",
+    "kodai potion",
+    "revitalisation potion",
+    "prayer enhance",
+    "xeric's aid",
+    "antipoison",
+    "overload"
+]
+
+#define VAR_COX_POTIONS_HIDE []
+#define VAR_COX_POTIONS_HIDE_LOWER false;
+
+#define VAR_COX_POTIONS_ELDER_CUSTOMSTYLE             nop;
+#define VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE           nop;
+#define VAR_COX_POTIONS_KODAI_CUSTOMSTYLE             nop;
+#define VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE    nop;
+#define VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE    nop;
+#define VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE        nop;
+#define VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE        nop;
+#define VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE          nop;
+
+if (VAR_COX_POTIONS_HIDE_LOWER && name:CONST_COX_POTIONS_LOWER_TIER) {
+    hidden = true;
+}
+
+if (name:["elder (-)", "elder potion", "elder (+)"]) {
+    if ("elder potion":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_ELDER_DEFAULTCOLOR)
+    VAR_COX_POTIONS_ELDER_CUSTOMSTYLE
+}
+
+if (name:["twisted (-)", "twisted potion", "twisted (+)"]) {
+    if ("twisted potion":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_TWISTED_DEFAULTCOLOR)
+    VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE
+}
+
+if (name:["kodai (-)", "kodai potion", "kodai (+)"]) {
+    if ("kodai potion":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_KODAI_DEFAULTCOLOR)
+    VAR_COX_POTIONS_KODAI_CUSTOMSTYLE
+}
+
+if (name:["revitalisation (-)", "revitalisation potion", "revitalisation (+)"]) {
+    if ("revitalisation potion":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_REVITALISATION_DEFAULTCOLOR)
+    VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE
+}
+
+if (name:["prayer enhance (-)", "prayer enhance", "prayer enhance (+)"]) {
+    if ("prayer enhance":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_PRAYER_ENHANCE_DEFAULTCOLOR)
+    VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE
+}
+
+if (name:["xeric's aid (-)", "xeric's aid", "xeric's aid (+)"]) {
+    if ("xeric's aid":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_XERICS_AID_DEFAULTCOLOR)
+    VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE
+}
+
+if (name:["antipoison (-)", "antipoison", "antipoison (+)"]) {
+    if ("antipoison":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_ANTIPOISON_DEFAULTCOLOR)
+    VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE
+}
+
+if (name:["overload (-)", "overload", "overload (+)"]) {
+    if ("overload":VAR_COX_POTIONS_HIDE) {
+        hidden = true;
+    }
+    backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
+    LIB_COLOR2(CONST_COX_POTIONS_OVERLOAD_DEFAULTCOLOR)
+    VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE
+}
+
+// endmodule:cox_potions

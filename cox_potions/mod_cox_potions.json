@@ -1,0 +1,75 @@
+{
+    "name": "COX Potions",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_COX_POTIONS_HIDE",
+            "label": "Potions to Hide",
+            "enum": [
+                "Elder potion",
+                "Twisted potion",
+                "Kodai potion",
+                "Revitalisation potion",
+                "Prayer enhance",
+                "Xeric's aid",
+                "Antipoison potion",
+                "Overload"
+            ],
+            "default": []
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_COX_POTIONS_HIDE_LOWER",
+            "label": "Hide lower tier potions",
+            "default": false
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_ELDER_CUSTOMSTYLE",
+            "label": "ELDER",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE",
+            "label": "TWISTED",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_KODAI_CUSTOMSTYLE",
+            "label": "KODAI",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE",
+            "label": "REVITALISATION",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE",
+            "label": "PRAYER_ENHANCE",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE",
+            "label": "XERICS_AID",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE",
+            "label": "ANTIPOISON",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE",
+            "label": "OVERLOAD",
+            "type": "style",
+            "default": { }
+        }
+    ]
+}
