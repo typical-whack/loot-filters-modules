@@ -30,7 +30,7 @@ if (VAR_COX_POTIONS_HIDE_LOWER && name:CONST_COX_POTIONS_LOWER_TIER) {
 }
 
 if (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
-    if ("elder potion":VAR_COX_POTIONS_HIDE) {
+    if ("Elder potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -39,7 +39,7 @@ if (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
 }
 
 if (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
-    if ("twisted potion":VAR_COX_POTIONS_HIDE) {
+    if ("Twisted potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -48,7 +48,7 @@ if (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
 }
 
 if (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
-    if ("kodai potion":VAR_COX_POTIONS_HIDE) {
+    if ("Kodai potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -57,7 +57,7 @@ if (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
 }
 
 if (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
-    if ("revitalisation potion":VAR_COX_POTIONS_HIDE) {
+    if ("Revitalisation potion":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -66,7 +66,7 @@ if (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"
 }
 
 if (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
-    if ("prayer enhance":VAR_COX_POTIONS_HIDE) {
+    if ("Prayer enhance":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -75,7 +75,7 @@ if (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "pr
 }
 
 if (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
-    if ("xeric's aid":VAR_COX_POTIONS_HIDE) {
+    if ("Xeric's aid":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -84,7 +84,7 @@ if (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid
 }
 
 if (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
-    if ("antipoison":VAR_COX_POTIONS_HIDE) {
+    if ("Antipoison":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
@@ -93,7 +93,7 @@ if (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)
 }
 
 if (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
-    if ("overload":VAR_COX_POTIONS_HIDE) {
+    if ("Overload":VAR_COX_POTIONS_HIDE) {
         hidden = true;
     }
     backgroundColor = CONST_COX_POTIONS_DEFAULTBG;
