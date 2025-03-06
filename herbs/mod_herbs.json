@@ -25,13 +25,20 @@
             "default": []
         },
         {
+            "type": "boolean",
+            "macroName": "VAR_HERBS_COLOR_MENU_TEXT",
+            "label": "Color herb menu text",
+            "default": true
+        },
+        {
             "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",
             "label": "Guam leaf",
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF09550d"
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d"
             }
         },
         {
@@ -41,7 +48,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF0c7610"
+                "textColor": "#FF0c7610",
+                "menuTextColor": "#FF0c7610"
              }
         },
         {
@@ -51,7 +59,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF0c7138"
+                "textColor": "#FF0c7138",
+                "menuTextColor": "#FF0c7138"
              }
         },
         {
@@ -61,7 +70,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF54780c"
+                "textColor": "#FF54780c",
+                "menuTextColor": "#FF54780c"
              }
         },
         {
@@ -71,7 +81,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF3c5f09"
+                "textColor": "#FF3c5f09",
+                "menuTextColor": "#FF3c5f09"
              }
         },
         {
@@ -81,7 +92,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF002400"
+                "textColor": "#FF002400",
+                "menuTextColor": "#FF002400"
              }
         },
         {
@@ -91,7 +103,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF507436"
+                "textColor": "#FF507436",
+                "menuTextColor": "#FF507436"
              }
         },
         {
@@ -101,7 +114,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF145326"
+                "textColor": "#FF145326",
+                "menuTextColor": "#FF145326"
              }
         },
         {
@@ -111,7 +125,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF4d5709"
+                "textColor": "#FF4d5709",
+                "menuTextColor": "#FF4d5709"
              }
         },
         {
@@ -121,7 +136,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF513748"
+                "textColor": "#FF513748",
+                "menuTextColor": "#FF513748"
              }
         },
         {
@@ -131,7 +147,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF3e4b08"
+                "textColor": "#FF3e4b08",
+                "menuTextColor": "#FF3e4b08"
              }
         },
         {
@@ -141,7 +158,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF44501c"
+                "textColor": "#FF44501c",
+                "menuTextColor": "#FF44501c"
              }
         },
         {
@@ -151,7 +169,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF08473c"
+                "textColor": "#FF08473c",
+                "menuTextColor": "#FF08473c"
              }
         },
         {
@@ -161,7 +180,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF094809"
+                "textColor": "#FF094809",
+                "menuTextColor": "#FF094809"
              }
         },
         {
@@ -171,7 +191,8 @@
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",
-                "textColor": "#FF09570c"
+                "textColor": "#FF09570c",
+                "menuTextColor": "#FF09570c"
              }
         }
     ]
