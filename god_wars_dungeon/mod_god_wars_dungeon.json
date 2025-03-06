@@ -1,0 +1,21 @@
+{
+    "name": "God Wars Dungeon",
+    "inputs": [
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW",
+                "excludes": "VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE"
+            },
+            "label": "God Wars Dungeon uniques",
+            "default": {
+                "includes": [
+                    "Godsword shard 1",
+                    "Godsword shard 2",
+                    "Godsword shard 3"
+                ],
+                "excludes": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+// module:god_wars_dungeon
+
+#define CONST_GOD_WARS_DUNGEON_AREA [2816, 5184, 0, 2943, 5375, 3]
+
+#define VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW []
+#define VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE []
+
+if (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE) {
+    hidden = true;
+}
+
+if (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW) {
+    hidden = false;
+}
+
+// endmodule:god_wars_dungeon
