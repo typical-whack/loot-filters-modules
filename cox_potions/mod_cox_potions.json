@@ -30,7 +30,7 @@
         {
             "type": "boolean",
             "macroName": "VAR_COX_POTIONS_COLOR_MENU_TEXT",
-            "label": "Color herb menu text",
+            "label": "Color potion menu text",
             "default": true
         },
         {
