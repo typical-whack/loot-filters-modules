@@ -22,6 +22,11 @@
             "name": "Rare drop table",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.rs2f"
+        },
+        {
+            "name": "Kree'arra",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gwd/kree/mod_kree.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gwd/kree/mod_kree.rs2f"
         }
     ]
 }
