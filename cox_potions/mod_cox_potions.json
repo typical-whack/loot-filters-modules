@@ -43,6 +43,7 @@
                 "textColor": "#FF845b5c",
                 "menuTextColor": "#FF845b5c",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -55,6 +56,7 @@
                 "textColor": "#FF657e69",
                 "menuTextColor": "#FF657e69",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -67,6 +69,7 @@
                 "textColor": "#FF7288a8",
                 "menuTextColor": "#FF7288a8",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -79,6 +82,7 @@
                 "textColor": "#FFa56785",
                 "menuTextColor": "#FFa56785",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -91,6 +95,7 @@
                 "textColor": "#FF9257ba",
                 "menuTextColor": "#FF9257ba",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -103,6 +108,7 @@
                 "textColor": "#FFafac73",
                 "menuTextColor": "#FFafac73",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -115,6 +121,7 @@
                 "textColor": "#FFa4d27e",
                 "menuTextColor": "#FFa4d27e",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         },
         {
@@ -127,6 +134,7 @@
                 "textColor": "#FF130f0f",
                 "menuTextColor": "#FF130f0f",
                 "textAccent": 2,
+                "textAccentColor": "#FFb2acb7"
              }
         }
     ]
