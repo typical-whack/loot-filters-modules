@@ -28,91 +28,136 @@
             "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",
             "label": "Guam leaf",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF09550d"
+            }
         },
         {
             "macroName": "VAR_HERBS_MARRENTILL_CUSTOMSTYLE",
             "label": "Marrentill",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF0c7610"
+             }
         },
         {
             "macroName": "VAR_HERBS_TARROMIN_CUSTOMSTYLE",
             "label": "Tarromin",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF0c7138"
+             }
         },
         {
             "macroName": "VAR_HERBS_HARRALANDER_CUSTOMSTYLE",
             "label": "Harralander",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF54780c"
+             }
         },
         {
             "macroName": "VAR_HERBS_RANARR_WEED_CUSTOMSTYLE",
             "label": "Ranarr weed",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF3c5f09"
+             }
         },
         {
             "macroName": "VAR_HERBS_TOADFLAX_CUSTOMSTYLE",
             "label": "Toadflax",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF002400"
+             }
         },
         {
             "macroName": "VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE",
             "label": "Irit leaf",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF507436"
+             }
         },
         {
             "macroName": "VAR_HERBS_AVANTOE_CUSTOMSTYLE",
             "label": "Avantoe",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF145326"
+             }
         },
         {
             "macroName": "VAR_HERBS_KWUARM_CUSTOMSTYLE",
             "label": "Kwuarm",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF4d5709"
+             }
         },
         {
             "macroName": "VAR_HERBS_HUASCA_CUSTOMSTYLE",
             "label": "Huasca",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF513748"
+             }
         },
         {
             "macroName": "VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE",
             "label": "Snapdragon",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF3e4b08"
+             }
         },
         {
             "macroName": "VAR_HERBS_CADANTINE_CUSTOMSTYLE",
             "label": "Cadantine",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF44501c"
+             }
         },
         {
             "macroName": "VAR_HERBS_LANTADYME_CUSTOMSTYLE",
             "label": "Lantadyme",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF08473c"
+             }
         },
         {
             "macroName": "VAR_HERBS_DWARF_WEED_CUSTOMSTYLE",
             "label": "Dwarf weed",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF094809"
+             }
         },
         {
             "macroName": "VAR_HERBS_TORSTOL_CUSTOMSTYLE",
             "label": "Torstol",
             "type": "style",
-            "default": { }
+            "default": {
+                "backgroundColor": "#00000000",
+                "textColor": "#FF09570c"
+             }
         }
     ]
 }
