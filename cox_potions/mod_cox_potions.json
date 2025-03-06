@@ -49,13 +49,13 @@
         },
         {
             "macroName": "VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE",
-            "label": "Prayer_enhance",
+            "label": "Prayer enhance",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE",
-            "label": "Xerics_aid",
+            "label": "Xeric's aid",
             "type": "style",
             "default": { }
         },
