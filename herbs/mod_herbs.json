@@ -30,6 +30,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF09550d"
             }
         },
@@ -39,6 +40,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF0c7610"
              }
         },
@@ -48,6 +50,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF0c7138"
              }
         },
@@ -57,6 +60,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF54780c"
              }
         },
@@ -66,6 +70,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF3c5f09"
              }
         },
@@ -75,6 +80,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF002400"
              }
         },
@@ -84,6 +90,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF507436"
              }
         },
@@ -93,6 +100,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF145326"
              }
         },
@@ -102,6 +110,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF4d5709"
              }
         },
@@ -111,6 +120,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF513748"
              }
         },
@@ -120,6 +130,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF3e4b08"
              }
         },
@@ -129,6 +140,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF44501c"
              }
         },
@@ -138,6 +150,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF08473c"
              }
         },
@@ -147,6 +160,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF094809"
              }
         },
@@ -156,6 +170,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
                 "textColor": "#FF09570c"
              }
         }
