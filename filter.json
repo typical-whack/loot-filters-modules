@@ -24,6 +24,11 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/commander_zilyana/mod_commander_zilyana.rs2f"
         },
         {
+            "name": "K'ril Tsutsaroth",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/kril_tsutsaroth/mod_kril_tsutsaroth.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/kril_tsutsaroth/mod_kril_tsutsaroth.rs2f"
+        },
+        {
             "name": "Chambers of Xeric Potions",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/cox_potions/mod_cox_potions.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/cox_potions/mod_cox_potions.rs2f"

@@ -1,0 +1,39 @@
+// module:kril_tsutsaroth
+
+#define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
+
+
+#define VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE []
+#define VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW []
+
+#define VAR_KRIL_TSUTSAROTH_COMMON_HIDE []
+#define VAR_KRIL_TSUTSAROTH_COMMON_SHOW []
+
+#define VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE []
+#define VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW []
+
+if (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE) {
+    hidden = true;
+}
+
+if (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_COMMON_HIDE) {
+    hidden = true;
+}
+
+if (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE) {
+    hidden = true;
+}
+
+if (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW) {
+    hidden = false;
+}
+
+if (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_COMMON_SHOW) {
+    hidden = false;
+}
+
+if (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+// endmodule:kril_tsutsaroth
