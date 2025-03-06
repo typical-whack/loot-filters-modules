@@ -15,8 +15,8 @@
         },
         {
             "name": "Kree'arra",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/kree/mod_kree.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/kree/mod_kree.rs2f"
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/kreearra/mod_kreearra.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/kreearra/mod_kreearra.rs2f"
         },
         {
             "name": "Chambers of Xeric Potions",
