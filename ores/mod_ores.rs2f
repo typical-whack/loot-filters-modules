@@ -1,0 +1,122 @@
+// module:ores
+
+#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
+
+#define VAR_ORES_HIDE []
+
+#define VAR_COPPER_ORE_CUSTOMSTYLE nop;
+#define VAR_TIN_ORE_CUSTOMSTYLE nop;
+#define VAR_BLURITE_ORE_CUSTOMSTYLE nop;
+#define VAR_IRON_ORE_CUSTOMSTYLE nop;
+#define VAR_DAEYALT_ORE_CUSTOMSTYLE nop;
+#define VAR_SILVER_ORE_CUSTOMSTYLE nop;
+#define VAR_COAL_ORE_CUSTOMSTYLE nop;
+#define VAR_GOLD_ORE_CUSTOMSTYLE nop;
+#define VAR_BLASTED_ORE_CUSTOMSTYLE nop;
+#define VAR_MITHRIL_ORE_CUSTOMSTYLE nop;
+#define VAR_LUNAR_ORE_CUSTOMSTYLE nop;
+#define VAR_LOVAKITE_ORE_CUSTOMSTYLE nop;
+#define VAR_ADAMANTITE_ORE_CUSTOMSTYLE nop;
+#define VAR_RUNITE_ORE_CUSTOMSTYLE nop;
+
+#define VAR_ORES_COLOR_MENU_TEXT nop;
+
+if (name:"copper ore") {
+    VAR_COPPER_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"tin ore") {
+    VAR_TIN_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"blurite ore") {
+    VAR_BLURITE_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"iron ore") {
+    VAR_IRON_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"daeyalt ore") {
+    VAR_DAEYALT_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"silver ore") {
+    VAR_SILVER_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"coal ore") {
+    VAR_COAL_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"gold ore") {
+    VAR_GOLD_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"blasted ore") {
+    VAR_BLASTED_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"mithril ore") {
+    VAR_MITHRIL_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"lunar ore") {
+    VAR_LUNAR_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"lovakite ore") {
+    VAR_LOVAKITE_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"adamantite ore") {
+    VAR_ADAMANTITE_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"runite ore") {
+    VAR_RUNITE_ORE_CUSTOMSTYLE
+    if (!VAR_ORES_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+// endmodule:ores

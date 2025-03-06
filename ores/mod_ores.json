@@ -1,0 +1,217 @@
+{
+    "name": "Ores",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_ORES_HIDE",
+            "label": "Ores to hide",
+            "enum": [
+                "copper ore",
+                "tin ore",
+                "blurite ore",
+                "iron ore",
+                "daeyalt ore",
+                "silver ore",
+                "coal ore",
+                "gold ore",
+                "blasted ore",
+                "mithril ore",
+                "lunar ore",
+                "lovakite ore",
+                "adamantite ore",
+                "runite ore"
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_ORES_COLOR_MENU_TEXT",
+            "label": "Color ore menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_COPPER_ORE_CUSTOMSTYLE",
+            "label": "Copper ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_TIN_ORE_CUSTOMSTYLE",
+            "label": "Tin ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BLURITE_ORE_CUSTOMSTYLE",
+            "label": "Blurite ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_IRON_ORE_CUSTOMSTYLE",
+            "label": "Iron ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DAEYALT_ORE_CUSTOMSTYLE",
+            "label": "Daeyalt ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SILVER_ORE_CUSTOMSTYLE",
+            "label": "Silver ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_COAL_ORE_CUSTOMSTYLE",
+            "label": "Coal ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_GOLD_ORE_CUSTOMSTYLE",
+            "label": "Gold ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BLASTED_ORE_CUSTOMSTYLE",
+            "label": "Blasted ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_MITHRIL_ORE_CUSTOMSTYLE",
+            "label": "Mithril ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_LUNAR_ORE_CUSTOMSTYLE",
+            "label": "Lunar ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_LOVAKITE_ORE_CUSTOMSTYLE",
+            "label": "Lovakite ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ADAMANTITE_ORE_CUSTOMSTYLE",
+            "label": "Adamantite ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_RUNITE_ORE_CUSTOMSTYLE",
+            "label": "Runite ore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        }
+    ]
+}
