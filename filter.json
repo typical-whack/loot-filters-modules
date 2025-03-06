@@ -1,0 +1,12 @@
+{
+    "type": "filter",
+    "name": "typical-whack/loot-filters-modules",
+    "description": "A collection of loot filters for OSRS",
+    "modules": [
+        {
+            "name": "Herbs",
+            "moduleJson": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.json",
+            "rs2f": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.rs2f"
+        }
+    ]
+}

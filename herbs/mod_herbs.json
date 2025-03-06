@@ -1,0 +1,133 @@
+{
+    "name": "Herbs",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_HERBS_HIDE",
+            "label": "Herbs to Hide",
+            "enum": [
+                "grimy guam leaf",
+                "guam leaf",
+                "grimy marrentill",
+                "marrentill",
+                "grimy tarromin",
+                "tarromin",
+                "grimy harralander",
+                "harralander",
+                "grimy ranarr weed",
+                "ranarr weed",
+                "grimy toadflax",
+                "toadflax",
+                "grimy irit leaf",
+                "irit leaf",
+                "grimy avantoe",
+                "avantoe",
+                "grimy kwuarm",
+                "kwuarm",
+                "grimy huasca",
+                "huasca",
+                "grimy snapdragon",
+                "snapdragon",
+                "grimy cadantine",
+                "cadantine",
+                "grimy lantadyme",
+                "lantadyme",
+                "grimy dwarf weed",
+                "dwarf weed",
+                "grimy torstol",
+                "torstol"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",
+            "label": "GUAM_LEAF",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_MARRENTILL_CUSTOMSTYLE",
+            "label": "MARRENTILL",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_TARROMIN_CUSTOMSTYLE",
+            "label": "TARROMIN",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_HARRALANDER_CUSTOMSTYLE",
+            "label": "HARRALANDER",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_RANARR_WEED_CUSTOMSTYLE",
+            "label": "RANARR_WEED",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_TOADFLAX_CUSTOMSTYLE",
+            "label": "TOADFLAX",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE",
+            "label": "IRIT_LEAF",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_AVANTOE_CUSTOMSTYLE",
+            "label": "AVANTOE",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_KWUARM_CUSTOMSTYLE",
+            "label": "KWUARM",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_HUASCA_CUSTOMSTYLE",
+            "label": "HUASCA",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE",
+            "label": "SNAPDRAGON",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_CADANTINE_CUSTOMSTYLE",
+            "label": "CADANTINE",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_LANTADYME_CUSTOMSTYLE",
+            "label": "LANTADYME",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_DWARF_WEED_CUSTOMSTYLE",
+            "label": "DWARF_WEED",
+            "type": "style",
+            "default": { }
+        },
+        {
+            "macroName": "VAR_HERBS_TORSTOL_CUSTOMSTYLE",
+            "label": "TORSTOL",
+            "type": "style",
+            "default": { }
+        }
+    ]
+}
