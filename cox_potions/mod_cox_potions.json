@@ -4,7 +4,7 @@
         {
             "type": "enumlist",
             "macroName": "VAR_COX_POTIONS_HIDE",
-            "label": "Potions to Hide",
+            "label": "Potions to hide",
             "enum": [
                 "elder potion",
                 "twisted potion",
@@ -25,49 +25,49 @@
         },
         {
             "macroName": "VAR_COX_POTIONS_ELDER_CUSTOMSTYLE",
-            "label": "ELDER",
+            "label": "Elder",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE",
-            "label": "TWISTED",
+            "label": "Twisted",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_KODAI_CUSTOMSTYLE",
-            "label": "KODAI",
+            "label": "Kodai",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE",
-            "label": "REVITALISATION",
+            "label": "Revitalisation",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE",
-            "label": "PRAYER_ENHANCE",
+            "label": "Prayer_enhance",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE",
-            "label": "XERICS_AID",
+            "label": "Xerics_aid",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE",
-            "label": "ANTIPOISON",
+            "label": "Antipoison",
             "type": "style",
             "default": { }
         },
         {
             "macroName": "VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE",
-            "label": "OVERLOAD",
+            "label": "Overload",
             "type": "style",
             "default": { }
         }
