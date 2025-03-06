@@ -1,0 +1,269 @@
+// module:rdt
+
+#define VAR_RDT_HIDE []
+#define VAR_RDT_SHOW []
+
+if (name:"Nature rune" && quantity:==67) {
+    if ("Nature rune":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Nature rune":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Adamant javelin" && quantity:==20) {
+    if ("Adamant javelin":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Adamant javelin":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Death rune" && quantity:==45) {
+    if ("Death rune":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Death rune":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Law rune" && quantity:==45) {
+    if ("Law rune":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Law rune":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune arrow" && quantity:==42) {
+    if ("Rune arrow":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune arrow":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Steel arrow" && quantity:==150) {
+    if ("Steel arrow":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Steel arrow":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune 2h sword" && quantity:==1) {
+    if ("Rune 2h sword":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune 2h sword":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune battleaxe" && quantity:==1) {
+    if ("Rune battleaxe":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune battleaxe":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune sq shield" && quantity:==1) {
+    if ("Rune sq shield":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune sq shield":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Dragon med helm" && quantity:==1) {
+    if ("Dragon med helm":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Dragon med helm":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune kiteshield" && quantity:==1) {
+    if ("Rune kiteshield":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune kiteshield":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Coins" && quantity:==3000) {
+    if ("Coins":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Coins":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Loop half of key" && quantity:==1) {
+    if ("Loop half of key":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Loop half of key":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Tooth half of key" && quantity:==1) {
+    if ("Tooth half of key":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Tooth half of key":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Runite bar" && quantity:==1) {
+    if ("Runite bar":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Runite bar":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Dragonstone" && quantity:==1) {
+    if ("Dragonstone":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Dragonstone":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Silver ore" && quantity:==100) {
+    if ("Silver ore":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Silver ore":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Uncut sapphire" && quantity:==1) {
+    if ("Uncut sapphire":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Uncut sapphire":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Uncut emerald" && quantity:==1) {
+    if ("Uncut emerald":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Uncut emerald":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Uncut ruby" && quantity:==1) {
+    if ("Uncut ruby":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Uncut ruby":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Chaos talisman" && quantity:==1) {
+    if ("Chaos talisman":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Chaos talisman":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Nature talisman" && quantity:==1) {
+    if ("Nature talisman":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Nature talisman":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Uncut diamond" && quantity:==1) {
+    if ("Uncut diamond":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Uncut diamond":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune javelin" && quantity:==5) {
+    if ("Rune javelin":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune javelin":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Loop half of key" && quantity:==1) {
+    if ("Loop half of key":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Loop half of key":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Tooth half of key" && quantity:==1) {
+    if ("Tooth half of key":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Tooth half of key":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Rune spear" && quantity:==1) {
+    if ("Rune spear":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Rune spear":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Shield left half" && quantity:==1) {
+    if ("Shield left half":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Shield left half":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+if (name:"Dragon spear" && quantity:==1) {
+    if ("Dragon spear":VAR_RDT_HIDE) {
+        hidden=true;
+    }
+    if ("Dragon spear":VAR_RDT_SHOW) {
+        hidden=false;
+    }
+}
+
+
+
+// endmodule:herbs

@@ -1,0 +1,81 @@
+{
+    "name": "Rare drop table",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_RDT_HIDE",
+            "label": "Drops to hide",
+            "enum": [
+                "Nature rune",
+                "Adamant javelin",
+                "Death rune",
+                "Law rune",
+                "Rune arrow",
+                "Steel arrow",
+                "Rune 2h sword",
+                "Rune battleaxe",
+                "Rune sq shield",
+                "Dragon med helm",
+                "Rune kiteshield",
+                "Coins",
+                "Loop half of key",
+                "Tooth half of key",
+                "Runite bar",
+                "Dragonstone",
+                "Silver ore",
+                "Uncut sapphire",
+                "Uncut emerald",
+                "Uncut ruby",
+                "Chaos talisman",
+                "Nature talisman",
+                "Uncut diamond",
+                "Rune javelin",
+                "Rune spear",
+                "Shield left half",
+                "Dragon spear"
+            ],
+            "default": []
+        },
+        {
+            "type": "enumlist",
+            "macroName": "VAR_RDT_SHOW",
+            "label": "Drops to show",
+            "enum": [
+                "Nature rune",
+                "Adamant javelin",
+                "Death rune",
+                "Law rune",
+                "Rune arrow",
+                "Steel arrow",
+                "Rune 2h sword",
+                "Rune battleaxe",
+                "Rune sq shield",
+                "Dragon med helm",
+                "Rune kiteshield",
+                "Coins",
+                "Loop half of key",
+                "Tooth half of key",
+                "Runite bar",
+                "Dragonstone",
+                "Silver ore",
+                "Uncut sapphire",
+                "Uncut emerald",
+                "Uncut ruby",
+                "Chaos talisman",
+                "Nature talisman",
+                "Uncut diamond",
+                "Rune javelin",
+                "Rune spear",
+                "Shield left half",
+                "Dragon spear"
+            ],
+            "default": [
+                "Loop half of key",
+                "Tooth half of key",
+                "Rune spear",
+                "Shield left half",
+                "Dragon spear"
+            ]
+        }
+    ]
+}
