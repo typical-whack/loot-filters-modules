@@ -1,0 +1,161 @@
+{
+    "name": "Gems",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_GEMS_HIDE",
+            "label": "Gems to hide",
+            "enum": [
+                "Sapphire",
+                "Emerald",
+                "Ruby",
+                "Diamond",
+                "Opal",
+                "Jade",
+                "Red topaz",
+                "Dragonstone",
+                "Onyx",
+                "Zenyte"
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_GEMS_COLOR_MENU_TEXT",
+            "label": "Color gems menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_SAPPHIRE_CUSTOMSTYLE",
+            "label": "Sapphire",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_EMERALD_CUSTOMSTYLE",
+            "label": "Emerald",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_RUBY_CUSTOMSTYLE",
+            "label": "Ruby",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_DIAMOND_CUSTOMSTYLE",
+            "label": "Diamond",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_OPAL_CUSTOMSTYLE",
+            "label": "Opal",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_JADE_CUSTOMSTYLE",
+            "label": "Jade",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_RED_TOPAZ_CUSTOMSTYLE",
+            "label": "Red topaz",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_DRAGONSTONE_CUSTOMSTYLE",
+            "label": "Dragonstone",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_ONYX_CUSTOMSTYLE",
+            "label": "Onyx",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        },
+        {
+            "macroName": "VAR_ZENYTE_CUSTOMSTYLE",
+            "label": "Zenyte",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1e4b8f",
+                "borderColor": "#1e4b8f",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#1e4b8f"
+            }
+        }
+    ]
+}

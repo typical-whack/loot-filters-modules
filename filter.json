@@ -4,6 +4,11 @@
     "description": "A collection of loot filters for OSRS",
     "modules": [
         {
+            "name": "Gems",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gems/mod_gems.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gems/mod_gems.rs2f"
+        },
+        {
             "name": "Ores",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/ores/mod_ores.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/ores/mod_ores.rs2f"
