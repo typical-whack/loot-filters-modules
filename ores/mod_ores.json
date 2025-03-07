@@ -18,7 +18,6 @@
                 "Daeyalt ore",
                 "Blasted ore",
                 "Blurite ore",
-                "Lunar ore",
                 "Lovakite ore"
             ],
             "default": [
@@ -185,19 +184,6 @@
                 "textAccent": 1,
                 "textAccentColor": "#FFFFFF",
                 "menuTextColor": "#787acf"
-            }
-        },
-        {
-            "macroName": "VAR_LUNAR_ORE_CUSTOMSTYLE",
-            "label": "Lunar ore",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#69716c",
-                "borderColor": "#69716c",
-                "textColor": "#000000",
-                "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
-                "menuTextColor": "#69716c"
             }
         },
         {

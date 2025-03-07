@@ -14,7 +14,6 @@
 #define VAR_GOLD_ORE_CUSTOMSTYLE nop;
 #define VAR_BLASTED_ORE_CUSTOMSTYLE nop;
 #define VAR_MITHRIL_ORE_CUSTOMSTYLE nop;
-#define VAR_LUNAR_ORE_CUSTOMSTYLE nop;
 #define VAR_LOVAKITE_ORE_CUSTOMSTYLE nop;
 #define VAR_ADAMANTITE_ORE_CUSTOMSTYLE nop;
 #define VAR_RUNITE_ORE_CUSTOMSTYLE nop;
@@ -44,7 +43,7 @@ if (name:"tin ore") {
 if (name:"blurite ore") {
     if ("blurite ore":VAR_ORES_HIDE) {
         hidden = true;
-    })
+    }
     VAR_BLURITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -64,7 +63,7 @@ if (name:"iron ore") {
 if (name:"daeyalt ore") {
     if ("daeyalt ore":VAR_ORES_HIDE) {
         hidden = true;
-    })
+    }
     VAR_DAEYALT_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -104,7 +103,7 @@ if (name:"gold ore") {
 if (name:"blasted ore") {
     if ("blasted ore":VAR_ORES_HIDE) {
         hidden = true;
-    })
+    }
     VAR_BLASTED_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -114,18 +113,8 @@ if (name:"blasted ore") {
 if (name:"mithril ore") {
     if ("mithril ore":VAR_ORES_HIDE) {
         hidden = true;
-    })
+    }
     VAR_MITHRIL_ORE_CUSTOMSTYLE
-    if (!VAR_ORES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"lunar ore") {
-    if ("lunar ore":VAR_ORES_HIDE) {
-        hidden = true;
-    }
-    VAR_LUNAR_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
     }
@@ -134,7 +123,7 @@ if (name:"lunar ore") {
 if (name:"lovakite ore") {
     if ("lovakite ore":VAR_ORES_HIDE) {
         hidden = true;
-    })
+    }
     VAR_LOVAKITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -144,7 +133,7 @@ if (name:"lovakite ore") {
 if (name:"adamantite ore") {
     if ("adamantite ore":VAR_ORES_HIDE) {
         hidden = true;
-    })
+    }
     VAR_ADAMANTITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
