@@ -1,0 +1,234 @@
+{
+    "name": "Bars",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_BARS_HIDE",
+            "label": "Bars to hide",
+            "enum": [
+                "Bronze bar",
+                "Iron bar",
+                "Silver bar",
+                "Steel bar",
+                "Gold bar",
+                "Mithril bar",
+                "Adamantite bar",
+                "Runite bar",
+                "Elemental metal",
+                "Primed bar",
+                "Primed mind bar",
+                "Blurite bar",
+                "Enchanted bar",
+                "Lovakite bar",
+                "'Perfect' gold bar"
+            ],
+            "default": [
+                "Bronze bar",
+                "Iron bar",
+                "Silver bar",
+                "Gold bar"
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_BARS_COLOR_MENU_TEXT",
+            "label": "Color bar menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_BRONZE_BAR_CUSTOMSTYLE",
+            "label": "Bronze bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_IRON_BAR_CUSTOMSTYLE",
+            "label": "Iron bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SILVER_BAR_CUSTOMSTYLE",
+            "label": "Silver bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_STEEL_BAR_CUSTOMSTYLE",
+            "label": "Steel bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_GOLD_BAR_CUSTOMSTYLE",
+            "label": "Gold bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_MITHRIL_BAR_CUSTOMSTYLE",
+            "label": "Mithril bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ADAMANTITE_BAR_CUSTOMSTYLE",
+            "label": "Adamantite bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_RUNITE_BAR_CUSTOMSTYLE",
+            "label": "Runite bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ELEMENTAL_METAL_CUSTOMSTYLE",
+            "label": "Elemental metal",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_PRIMED_BAR_CUSTOMSTYLE",
+            "label": "Primed bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_PRIMED_MIND_BAR_CUSTOMSTYLE",
+            "label": "Primed mind bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BLURITE_BAR_CUSTOMSTYLE",
+            "label": "Blurite bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ENCHANTED_BAR_CUSTOMSTYLE",
+            "label": "Enchanted bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_LOVAKITE_BAR_CUSTOMSTYLE",
+            "label": "Lovakite bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE",
+            "label": "'Perfect' gold bar",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FF09550d",
+                "menuTextColor": "#FF09550d",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        }
+    ]
+}
