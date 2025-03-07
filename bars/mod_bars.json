@@ -40,11 +40,11 @@
             "label": "Bronze bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#554127",
+                "borderColor": "#554127",
+                "textColor": "#000000",
+                "menuTextColor": "#554127",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -53,11 +53,11 @@
             "label": "Iron bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#4c4545",
+                "borderColor": "#4c4545",
+                "textColor": "#000000",
+                "menuTextColor": "#4c4545",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -66,11 +66,11 @@
             "label": "Silver bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#9c9ca7",
+                "borderColor": "#9c9ca7",
+                "textColor": "#000000",
+                "menuTextColor": "#9c9ca7",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -79,11 +79,11 @@
             "label": "Steel bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#887e7e",
+                "borderColor": "#887e7e",
+                "textColor": "#000000",
+                "menuTextColor": "#887e7e",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -92,11 +92,11 @@
             "label": "Gold bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#cba618",
+                "borderColor": "#cba618",
+                "textColor": "#000000",
+                "menuTextColor": "#cba618",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -105,11 +105,11 @@
             "label": "Mithril bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#484869",
+                "borderColor": "#484869",
+                "textColor": "#000000",
+                "menuTextColor": "#484869",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -118,11 +118,11 @@
             "label": "Adamantite bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#485a48",
+                "borderColor": "#485a48",
+                "textColor": "#000000",
+                "menuTextColor": "#485a48",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -131,11 +131,11 @@
             "label": "Runite bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#4b6570",
+                "borderColor": "#4b6570",
+                "textColor": "#000000",
+                "menuTextColor": "#4b6570",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -144,11 +144,11 @@
             "label": "Elemental metal",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#691094",
+                "borderColor": "#691094",
+                "textColor": "#000000",
+                "menuTextColor": "#691094",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -157,11 +157,11 @@
             "label": "Primed bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#9f9f93",
+                "borderColor": "#9f9f93",
+                "textColor": "#000000",
+                "menuTextColor": "#9f9f93",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -170,11 +170,11 @@
             "label": "Primed mind bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#9b6913",
+                "borderColor": "#9b6913",
+                "textColor": "#000000",
+                "menuTextColor": "#9b6913",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -183,11 +183,11 @@
             "label": "Blurite bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#8485c8",
+                "borderColor": "#8485c8",
+                "textColor": "#000000",
+                "menuTextColor": "#8485c8",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -196,11 +196,11 @@
             "label": "Enchanted bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#6f6e4b",
+                "borderColor": "#6f6e4b",
+                "textColor": "#000000",
+                "menuTextColor": "#6f6e4b",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -209,11 +209,11 @@
             "label": "Lovakite bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#5e1409",
+                "borderColor": "#5e1409",
+                "textColor": "#000000",
+                "menuTextColor": "#5e1409",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         },
@@ -222,11 +222,11 @@
             "label": "'Perfect' gold bar",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
+                "backgroundColor": "#b79517",
+                "borderColor": "#b79517",
+                "textColor": "#000000",
+                "menuTextColor": "#b79517",
+                "textAccent": 1,
                 "textAccentColor": "#FFFFFFFF"
             }
         }
