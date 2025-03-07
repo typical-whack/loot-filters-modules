@@ -1,9 +1,9 @@
 {
-    "name": "Barbarian Potions",
+    "name": "Potions",
     "inputs": [
         {
             "type": "enumlist",
-            "macroName": "VAR_BARB_POTIONS_HIDE",
+            "macroName": "VAR_POTIONS_HIDE",
             "label": "Potions to hide",
             "enum": [
                 "Attack potion",
