@@ -36,12 +36,12 @@
             "label": "Copper ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#da7d37",
+                "borderColor": "#da7d37",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#da7d37"
             }
         },
         {
@@ -49,12 +49,12 @@
             "label": "Tin ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#887f7e",
+                "borderColor": "#887f7e",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#887f7e"
             }
         },
         {
@@ -62,12 +62,12 @@
             "label": "Iron ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#4c2d22",
+                "borderColor": "#4c2d22",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#4c2d22"
             }
         },
         {
@@ -75,12 +75,12 @@
             "label": "Silver ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#9999a5",
+                "borderColor": "#9999a5",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#9999a5"
             }
         },
         {
@@ -88,12 +88,12 @@
             "label": "Coal ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#383725",
+                "borderColor": "#383725",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#383725"
             }
         },
         {
@@ -101,12 +101,12 @@
             "label": "Gold ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#c6a118",
+                "borderColor": "#c6a118",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#c6a118"
             }
         },
         {
@@ -114,12 +114,12 @@
             "label": "Mithril ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#48486a",
+                "borderColor": "#48486a",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#48486a"
             }
         },
         {
@@ -127,12 +127,12 @@
             "label": "Adamantite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#485b49",
+                "borderColor": "#485b49",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#485b49"
             }
         },
         {
@@ -140,12 +140,12 @@
             "label": "Runite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#4d6671",
+                "borderColor": "#4d6671",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#4d6671"
             }
         },
         {
@@ -153,12 +153,12 @@
             "label": "Daeyalt ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#0a645b",
+                "borderColor": "#0a645b",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#0a645b"
             }
         },
         {
@@ -166,12 +166,12 @@
             "label": "Blasted ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#515757",
+                "borderColor": "#515757",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#515757"
             }
         },
         {
@@ -179,12 +179,12 @@
             "label": "Blurite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#787acf",
+                "borderColor": "#787acf",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#787acf"
             }
         },
         {
@@ -192,12 +192,12 @@
             "label": "Lunar ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#69716c",
+                "borderColor": "#69716c",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#69716c"
             }
         },
         {
@@ -205,12 +205,12 @@
             "label": "Lovakite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
-                "textAccent": 2,
-                "textAccentColor": "#FFFFFFFF"
+                "backgroundColor": "#5c1009",
+                "borderColor": "#5c1009",
+                "textColor": "#000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFF",
+                "menuTextColor": "#5c1009"
             }
         }
     ]
