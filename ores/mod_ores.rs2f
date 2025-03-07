@@ -22,6 +22,9 @@
 #define VAR_ORES_COLOR_MENU_TEXT nop;
 
 if (name:"copper ore") {
+    if ("copper ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_COPPER_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -29,6 +32,9 @@ if (name:"copper ore") {
 }
 
 if (name:"tin ore") {
+    if ("tin ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_TIN_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -36,6 +42,9 @@ if (name:"tin ore") {
 }
 
 if (name:"blurite ore") {
+    if ("blurite ore":VAR_ORES_HIDE) {
+        hidden = true;
+    })
     VAR_BLURITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -43,6 +52,9 @@ if (name:"blurite ore") {
 }
 
 if (name:"iron ore") {
+    if ("iron ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_IRON_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -50,6 +62,9 @@ if (name:"iron ore") {
 }
 
 if (name:"daeyalt ore") {
+    if ("daeyalt ore":VAR_ORES_HIDE) {
+        hidden = true;
+    })
     VAR_DAEYALT_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -57,6 +72,9 @@ if (name:"daeyalt ore") {
 }
 
 if (name:"silver ore") {
+    if ("silver ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_SILVER_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -64,6 +82,9 @@ if (name:"silver ore") {
 }
 
 if (name:"coal ore") {
+    if ("coal ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_COAL_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -71,6 +92,9 @@ if (name:"coal ore") {
 }
 
 if (name:"gold ore") {
+    if ("gold ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_GOLD_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -78,6 +102,9 @@ if (name:"gold ore") {
 }
 
 if (name:"blasted ore") {
+    if ("blasted ore":VAR_ORES_HIDE) {
+        hidden = true;
+    })
     VAR_BLASTED_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -85,6 +112,9 @@ if (name:"blasted ore") {
 }
 
 if (name:"mithril ore") {
+    if ("mithril ore":VAR_ORES_HIDE) {
+        hidden = true;
+    })
     VAR_MITHRIL_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -92,6 +122,9 @@ if (name:"mithril ore") {
 }
 
 if (name:"lunar ore") {
+    if ("lunar ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_LUNAR_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -99,6 +132,9 @@ if (name:"lunar ore") {
 }
 
 if (name:"lovakite ore") {
+    if ("lovakite ore":VAR_ORES_HIDE) {
+        hidden = true;
+    })
     VAR_LOVAKITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -106,6 +142,9 @@ if (name:"lovakite ore") {
 }
 
 if (name:"adamantite ore") {
+    if ("adamantite ore":VAR_ORES_HIDE) {
+        hidden = true;
+    })
     VAR_ADAMANTITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
@@ -113,6 +152,9 @@ if (name:"adamantite ore") {
 }
 
 if (name:"runite ore") {
+    if ("runite ore":VAR_ORES_HIDE) {
+        hidden = true;
+    }
     VAR_RUNITE_ORE_CUSTOMSTYLE
     if (!VAR_ORES_COLOR_MENU_TEXT) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
