@@ -1,0 +1,732 @@
+{
+    "name": "Barbarian Potions",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_BARB_POTIONS_HIDE",
+            "label": "Potions to hide",
+            "enum": [
+                "Attack potion",
+                "Antipoison",
+                "Strength potion",
+                "Serum 207",
+                "Compost potion",
+                "Restore potion",
+                "Energy potion",
+                "Defence potion",
+                "Agility potion",
+                "Combat potion",
+                "Prayer potion",
+                "Super attack",
+                "Superantipoison",
+                "Fishing potion",
+                "Super energy",
+                "Hunter potion",
+                "Goading potion",
+                "Super strength",
+                "Prayer regeneration potion",
+                "Super restore",
+                "Sanfew serum",
+                "Super defence",
+                "Antidote+",
+                "Antifire potion",
+                "Divine super attack potion",
+                "Divine super defence potion",
+                "Divine super strength potion",
+                "Ranging potion",
+                "Divine ranging potion",
+                "Magic potion",
+                "Stamina potion",
+                "Zamorak brew",
+                "Divine magic potion",
+                "Antidote++",
+                "Bastion potion",
+                "Battlemage potion",
+                "Saradomin brew",
+                "Extended antifire",
+                "Ancient brew",
+                "Divine bastion potion",
+                "Divine battlemage potion",
+                "Anti-venom",
+                "Menaphite remedy",
+                "Super combat potion",
+                "Forgotten brew",
+                "Super antifire potion",
+                "Anti-venom+",
+                "Extended anti-venom+",
+                "Divine super combat potion",
+                "Extended super antifire"
+            ],
+            "default": [
+                "Attack potion",
+                "Strength potion",
+                "Serum 207",
+                "Compost potion",
+                "Restore potion",
+                "Energy potion",
+                "Defence potion",
+                "Agility potion",
+                "Combat potion",
+                "Fishing potion",
+                "Hunter potion",
+                "Antidote+"
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_POTIONS_COLOR_MENU_TEXT",
+            "label": "Color potion menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_ATTACK_POTION_CUSTOMSTYLE",
+            "label": "Attack potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANTIPOISON_CUSTOMSTYLE",
+            "label": "Antipoison",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_STRENGTH_POTION_CUSTOMSTYLE",
+            "label": "Strength potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SERUM_207_CUSTOMSTYLE",
+            "label": "Serum 207",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_COMPOST_POTION_CUSTOMSTYLE",
+            "label": "Compost potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_RESTORE_POTION_CUSTOMSTYLE",
+            "label": "Restore potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ENERGY_POTION_CUSTOMSTYLE",
+            "label": "Energy potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DEFENCE_POTION_CUSTOMSTYLE",
+            "label": "Defence potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_AGILITY_POTION_CUSTOMSTYLE",
+            "label": "Agility potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_COMBAT_POTION_CUSTOMSTYLE",
+            "label": "Combat potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_PRAYER_POTION_CUSTOMSTYLE",
+            "label": "Prayer potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_ATTACK_CUSTOMSTYLE",
+            "label": "Super attack",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPERANTIPOISON_CUSTOMSTYLE",
+            "label": "Superantipoison",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_FISHING_POTION_CUSTOMSTYLE",
+            "label": "Fishing potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_ENERGY_CUSTOMSTYLE",
+            "label": "Super energy",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_HUNTER_POTION_CUSTOMSTYLE",
+            "label": "Hunter potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_GOADING_POTION_CUSTOMSTYLE",
+            "label": "Goading potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_STRENGTH_CUSTOMSTYLE",
+            "label": "Super strength",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE",
+            "label": "Prayer regeneration potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_RESTORE_CUSTOMSTYLE",
+            "label": "Super restore",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SANFEW_SERUM_CUSTOMSTYLE",
+            "label": "Sanfew serum",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_DEFENCE_CUSTOMSTYLE",
+            "label": "Super defence",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANTIDOTE_PLUS_CUSTOMSTYLE",
+            "label": "Antidote+",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANTIFIRE_POTION_CUSTOMSTYLE",
+            "label": "Antifire potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE",
+            "label": "Divine super attack potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE",
+            "label": "Divine super defence potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE",
+            "label": "Divine super strength potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_RANGING_POTION_CUSTOMSTYLE",
+            "label": "Ranging potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE",
+            "label": "Divine ranging potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_MAGIC_POTION_CUSTOMSTYLE",
+            "label": "Magic potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_STAMINA_POTION_CUSTOMSTYLE",
+            "label": "Stamina potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ZAMORAK_BREW_CUSTOMSTYLE",
+            "label": "Zamorak brew",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE",
+            "label": "Divine magic potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE",
+            "label": "Antidote++",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BASTION_POTION_CUSTOMSTYLE",
+            "label": "Bastion potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_BATTLEMAGE_POTION_CUSTOMSTYLE",
+            "label": "Battlemage potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SARADOMIN_BREW_CUSTOMSTYLE",
+            "label": "Saradomin brew",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE",
+            "label": "Extended antifire",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANCIENT_BREW_CUSTOMSTYLE",
+            "label": "Ancient brew",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE",
+            "label": "Divine bastion potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE",
+            "label": "Divine battlemage potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANTI_VENOM_CUSTOMSTYLE",
+            "label": "Anti-venom",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_MENAPHITE_REMEDY_CUSTOMSTYLE",
+            "label": "Menaphite remedy",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE",
+            "label": "Super combat potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_FORGOTTEN_BREW_CUSTOMSTYLE",
+            "label": "Forgotten brew",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE",
+            "label": "Super antifire potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE",
+            "label": "Anti-venom+",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE",
+            "label": "Extended anti-venom+",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE",
+            "label": "Divine super combat potion",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE",
+            "label": "Extended super antifire",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#74e2e6",
+                "menuTextColor": "#74e2e6",
+                "textAccent": 2,
+                "textAccentColor": "#FFFFFFFF"
+            }
+        }
+    ]
+}
