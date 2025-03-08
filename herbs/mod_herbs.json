@@ -38,7 +38,7 @@
             "label": "Guam leaf",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF09550d",
+                "backgroundColor": "#8009550d",
                 "borderColor": "#FF09550d",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -51,7 +51,7 @@
             "label": "Marrentill",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF0c7610",
+                "backgroundColor": "#800c7610",
                 "borderColor": "#FF0c7610",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -64,7 +64,7 @@
             "label": "Tarromin",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF0c7138",
+                "backgroundColor": "#800c7138",
                 "borderColor": "#FF0c7138",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -77,7 +77,7 @@
             "label": "Harralander",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF54780c",
+                "backgroundColor": "#8054780c",
                 "borderColor": "#FF54780c",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -90,7 +90,7 @@
             "label": "Ranarr weed",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF3c5f09",
+                "backgroundColor": "#803c5f09",
                 "borderColor": "#FF3c5f09",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -103,7 +103,7 @@
             "label": "Toadflax",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF002400",
+                "backgroundColor": "#80002400",
                 "borderColor": "#FF002400",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -116,7 +116,7 @@
             "label": "Irit leaf",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF507436",
+                "backgroundColor": "#80507436",
                 "borderColor": "#FF507436",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -129,7 +129,7 @@
             "label": "Avantoe",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF145326",
+                "backgroundColor": "#80145326",
                 "borderColor": "#FF145326",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -142,7 +142,7 @@
             "label": "Kwuarm",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF4d5709",
+                "backgroundColor": "#804d5709",
                 "borderColor": "#FF4d5709",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -155,7 +155,7 @@
             "label": "Huasca",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF513748",
+                "backgroundColor": "#80513748",
                 "borderColor": "#FF513748",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -168,7 +168,7 @@
             "label": "Snapdragon",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF3e4b08",
+                "backgroundColor": "#803e4b08",
                 "borderColor": "#FF3e4b08",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -181,7 +181,7 @@
             "label": "Cadantine",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF44501c",
+                "backgroundColor": "#8044501c",
                 "borderColor": "#FF44501c",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -194,7 +194,7 @@
             "label": "Lantadyme",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF08473c",
+                "backgroundColor": "#8008473c",
                 "borderColor": "#FF08473c",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -207,7 +207,7 @@
             "label": "Dwarf weed",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF094809",
+                "backgroundColor": "#80094809",
                 "borderColor": "#FF094809",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -220,7 +220,7 @@
             "label": "Torstol",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF09570c",
+                "backgroundColor": "#8009570c",
                 "borderColor": "#FF09570c",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,

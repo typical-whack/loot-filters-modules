@@ -35,7 +35,7 @@
             "label": "Bronze equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF43341d",
+                "backgroundColor": "#8043341d",
                 "borderColor": "#FF43341d",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -48,7 +48,7 @@
             "label": "Bronze (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF43341d",
+                "backgroundColor": "#8043341d",
                 "borderColor": "#FF615c2d",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -61,7 +61,7 @@
             "label": "Bronze (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF43341d",
+                "backgroundColor": "#8043341d",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -74,7 +74,7 @@
             "label": "Iron equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF4f4948",
+                "backgroundColor": "#804f4948",
                 "borderColor": "#FF4f4948",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -87,7 +87,7 @@
             "label": "Iron (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF4f4948",
+                "backgroundColor": "#804f4948",
                 "borderColor": "#FF151111",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -100,7 +100,7 @@
             "label": "Iron (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF4f4948",
+                "backgroundColor": "#804f4948",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -113,7 +113,7 @@
             "label": "Steel equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF857c7b",
+                "backgroundColor": "#80857c7b",
                 "borderColor": "#FF857c7b",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -126,7 +126,7 @@
             "label": "Steel (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF857c7b",
+                "backgroundColor": "#80857c7b",
                 "borderColor": "#FFb1a6a6",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -139,7 +139,7 @@
             "label": "Steel (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF857c7b",
+                "backgroundColor": "#80857c7b",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -152,7 +152,7 @@
             "label": "Black equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF1d1b1b",
+                "backgroundColor": "#801d1b1b",
                 "borderColor": "#FF1d1b1b",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -165,7 +165,7 @@
             "label": "Black (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF1d1b1b",
+                "backgroundColor": "#801d1b1b",
                 "borderColor": "#FF423e3e",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -178,7 +178,7 @@
             "label": "Black (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF1d1b1b",
+                "backgroundColor": "#801d1b1b",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -191,7 +191,7 @@
             "label": "Black heraldic equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF1d1b1b",
+                "backgroundColor": "#801d1b1b",
                 "borderColor": "#FF1d1b1b",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -204,7 +204,7 @@
             "label": "Mithril equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF414161",
+                "backgroundColor": "#80414161",
                 "borderColor": "#FF414161",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -217,7 +217,7 @@
             "label": "Mithril (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF414161",
+                "backgroundColor": "#80414161",
                 "borderColor": "#FF6e8aa3",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -230,7 +230,7 @@
             "label": "Mithril (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF414161",
+                "backgroundColor": "#80414161",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -243,7 +243,7 @@
             "label": "Adamant equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF405140",
+                "backgroundColor": "#80405140",
                 "borderColor": "#FF405140",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -256,7 +256,7 @@
             "label": "Adamant (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF405140",
+                "backgroundColor": "#80405140",
                 "borderColor": "#FF6a725a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -269,7 +269,7 @@
             "label": "Adamant (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF405140",
+                "backgroundColor": "#80405140",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -282,7 +282,7 @@
             "label": "Adamant heraldic equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF405140",
+                "backgroundColor": "#80405140",
                 "borderColor": "#FF405140",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -295,7 +295,7 @@
             "label": "Rune equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF415760",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -308,7 +308,7 @@
             "label": "Rune (t) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF6d88a1",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -321,7 +321,7 @@
             "label": "Rune (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -334,7 +334,7 @@
             "label": "Rune heraldic equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF415760",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -347,7 +347,7 @@
             "label": "Gilded equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFc39318",
+                "backgroundColor": "#80c39318",
                 "borderColor": "#FF7c540c",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -360,7 +360,7 @@
             "label": "Rune ancient equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF552f53",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -373,7 +373,7 @@
             "label": "Rune armadyl equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF706868",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -386,7 +386,7 @@
             "label": "Rune bandos equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF746228",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -399,7 +399,7 @@
             "label": "Rune guthix equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF437745",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -412,7 +412,7 @@
             "label": "Rune saradomin equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FFacab88",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -425,7 +425,7 @@
             "label": "Rune zamorak equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF415760",
+                "backgroundColor": "#80415760",
                 "borderColor": "#FF801a0d",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -438,7 +438,7 @@
             "label": "Dragon equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF541109",
+                "backgroundColor": "#80541109",
                 "borderColor": "#FF541109",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -451,7 +451,7 @@
             "label": "Dragon (g) equipment style",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF541109",
+                "backgroundColor": "#80541109",
                 "borderColor": "#FFdea71a",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,

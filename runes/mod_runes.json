@@ -44,7 +44,7 @@
             "label": "Air rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFE1DEDE",
+                "backgroundColor": "#80E1DEDE",
                 "borderColor": "#FFE1DEDE",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -57,7 +57,7 @@
             "label": "Water rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF151AA7",
+                "backgroundColor": "#80151AA7",
                 "borderColor": "#FF151AA7",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -70,7 +70,7 @@
             "label": "Earth rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF6D490D",
+                "backgroundColor": "#806D490D",
                 "borderColor": "#FF6D490D",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -83,7 +83,7 @@
             "label": "Fire rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFA72215",
+                "backgroundColor": "#80A72215",
                 "borderColor": "#FFA72215",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -96,7 +96,7 @@
             "label": "Mind rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFD58A2E",
+                "backgroundColor": "#80D58A2E",
                 "borderColor": "#FFD58A2E",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -109,7 +109,7 @@
             "label": "Body rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF1A21CF",
+                "backgroundColor": "#801A21CF",
                 "borderColor": "#FF1A21CF",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -122,7 +122,7 @@
             "label": "Cosmic rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFE0DE1A",
+                "backgroundColor": "#80E0DE1A",
                 "borderColor": "#FFE0DE1A",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -135,7 +135,7 @@
             "label": "Chaos rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFE0A81A",
+                "backgroundColor": "#80E0A81A",
                 "borderColor": "#FFE0A81A",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -148,7 +148,7 @@
             "label": "Nature rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF168B1A",
+                "backgroundColor": "#80168B1A",
                 "borderColor": "#FF168B1A",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -161,7 +161,7 @@
             "label": "Law rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF1A22E0",
+                "backgroundColor": "#801A22E0",
                 "borderColor": "#FF1A22E0",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -174,7 +174,7 @@
             "label": "Death rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFE4E1E1",
+                "backgroundColor": "#80E4E1E1",
                 "borderColor": "#FFE4E1E1",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -187,7 +187,7 @@
             "label": "Sunfire rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFDFA81A",
+                "backgroundColor": "#80DFA81A",
                 "borderColor": "#FFDFA81A",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -200,7 +200,7 @@
             "label": "Astral rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFCDB5CD",
+                "backgroundColor": "#80CDB5CD",
                 "borderColor": "#FFCDB5CD",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -213,7 +213,7 @@
             "label": "Blood rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF891D11",
+                "backgroundColor": "#80891D11",
                 "borderColor": "#FF891D11",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -226,7 +226,7 @@
             "label": "Soul rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF9192D3",
+                "backgroundColor": "#809192D3",
                 "borderColor": "#FF9192D3",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -239,7 +239,7 @@
             "label": "Wrath rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF353030",
+                "backgroundColor": "#80353030",
                 "borderColor": "#FF353030",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -252,7 +252,7 @@
             "label": "Mist rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFC8C0C0",
+                "backgroundColor": "#80C8C0C0",
                 "borderColor": "#FFC8C0C0",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -265,7 +265,7 @@
             "label": "Dust rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF746241",
+                "backgroundColor": "#80746241",
                 "borderColor": "#FF746241",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -278,7 +278,7 @@
             "label": "Mud rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF5D3B17",
+                "backgroundColor": "#805D3B17",
                 "borderColor": "#FF5D3B17",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -291,7 +291,7 @@
             "label": "Smoke rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF534D4D",
+                "backgroundColor": "#80534D4D",
                 "borderColor": "#FF534D4D",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -304,7 +304,7 @@
             "label": "Steam rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFAEAEB7",
+                "backgroundColor": "#80AEAEB7",
                 "borderColor": "#FFAEAEB7",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -317,7 +317,7 @@
             "label": "Lava rune",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFD28019",
+                "backgroundColor": "#80D28019",
                 "borderColor": "#FFD28019",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,

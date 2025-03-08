@@ -35,7 +35,7 @@
             "label": "Copper ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFDA7D37",
+                "backgroundColor": "#80DA7D37",
                 "borderColor": "#FFDA7D37",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -48,7 +48,7 @@
             "label": "Tin ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF887F7E",
+                "backgroundColor": "#80887F7E",
                 "borderColor": "#FF887F7E",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -61,7 +61,7 @@
             "label": "Iron ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF4C2D22",
+                "backgroundColor": "#804C2D22",
                 "borderColor": "#FF4C2D22",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -74,7 +74,7 @@
             "label": "Silver ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF9999A5",
+                "backgroundColor": "#809999A5",
                 "borderColor": "#FF9999A5",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -87,7 +87,7 @@
             "label": "Coal ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF383725",
+                "backgroundColor": "#80383725",
                 "borderColor": "#FF383725",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -100,7 +100,7 @@
             "label": "Gold ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFC6A118",
+                "backgroundColor": "#80C6A118",
                 "borderColor": "#FFC6A118",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -113,7 +113,7 @@
             "label": "Mithril ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF48486A",
+                "backgroundColor": "#8048486A",
                 "borderColor": "#FF48486A",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -126,7 +126,7 @@
             "label": "Adamantite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF485B49",
+                "backgroundColor": "#80485B49",
                 "borderColor": "#FF485B49",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -139,7 +139,7 @@
             "label": "Runite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF4D6671",
+                "backgroundColor": "#804D6671",
                 "borderColor": "#FF4D6671",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -152,7 +152,7 @@
             "label": "Daeyalt ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF0A645B",
+                "backgroundColor": "#800A645B",
                 "borderColor": "#FF0A645B",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -165,7 +165,7 @@
             "label": "Blasted ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF515757",
+                "backgroundColor": "#80515757",
                 "borderColor": "#FF515757",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -178,7 +178,7 @@
             "label": "Blurite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF787ACF",
+                "backgroundColor": "#80787ACF",
                 "borderColor": "#FF787ACF",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -191,7 +191,7 @@
             "label": "Lovakite ore",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF5C1009",
+                "backgroundColor": "#805C1009",
                 "borderColor": "#FF5C1009",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,

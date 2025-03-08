@@ -38,7 +38,7 @@
             "label": "Elder",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF845b5c",
+                "backgroundColor": "#80845b5c",
                 "borderColor": "#FF845b5c",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -51,7 +51,7 @@
             "label": "Twisted",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF657e69",
+                "backgroundColor": "#80657e69",
                 "borderColor": "#FF657e69",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -64,7 +64,7 @@
             "label": "Kodai",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF7288a8",
+                "backgroundColor": "#807288a8",
                 "borderColor": "#FF7288a8",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -77,7 +77,7 @@
             "label": "Revitalisation",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFa56785",
+                "backgroundColor": "#80a56785",
                 "borderColor": "#FFa56785",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -90,7 +90,7 @@
             "label": "Prayer enhance",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF9257ba",
+                "backgroundColor": "#809257ba",
                 "borderColor": "#FF9257ba",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -103,7 +103,7 @@
             "label": "Xeric's aid",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFafac73",
+                "backgroundColor": "#80afac73",
                 "borderColor": "#FFafac73",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -116,7 +116,7 @@
             "label": "Antipoison",
             "type": "style",
             "default": {
-                "backgroundColor": "#FFa4d27e",
+                "backgroundColor": "#80a4d27e",
                 "borderColor": "#FFa4d27e",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
@@ -129,7 +129,7 @@
             "label": "Overload",
             "type": "style",
             "default": {
-                "backgroundColor": "#FF130f0f",
+                "backgroundColor": "#80130f0f",
                 "borderColor": "#FF130f0f",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
