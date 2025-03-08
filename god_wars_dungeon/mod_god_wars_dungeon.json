@@ -18,7 +18,8 @@
                 "includes": [
                     "Godsword shard 1",
                     "Godsword shard 2",
-                    "Godsword shard 3"
+                    "Godsword shard 3",
+                    "Hammer"
                 ],
                 "excludes": []
             }
