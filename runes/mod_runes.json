@@ -53,19 +53,6 @@
             }
         },
         {
-            "macroName": "VAR_MIND_RUNE_CUSTOMSTYLE",
-            "label": "Mind rune",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#FFD58A2E",
-                "borderColor": "#FFD58A2E",
-                "textColor": "#FFFFFFFF",
-                "textAccent": 1,
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFD58A2E"
-            }
-        },
-        {
             "macroName": "VAR_WATER_RUNE_CUSTOMSTYLE",
             "label": "Water rune",
             "type": "style",
@@ -102,6 +89,19 @@
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFA72215"
+            }
+        },
+        {
+            "macroName": "VAR_MIND_RUNE_CUSTOMSTYLE",
+            "label": "Mind rune",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FFD58A2E",
+                "borderColor": "#FFD58A2E",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFD58A2E"
             }
         },
         {
