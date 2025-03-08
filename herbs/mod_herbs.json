@@ -38,12 +38,12 @@
             "label": "Guam leaf",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09550d",
-                "menuTextColor": "#FF09550d",
+                "backgroundColor": "#FF09550d",
+                "borderColor": "#FF09550d",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF09550d"
             }
         },
         {
@@ -51,12 +51,12 @@
             "label": "Marrentill",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF0c7610",
-                "menuTextColor": "#FF0c7610",
+                "backgroundColor": "#FF0c7610",
+                "borderColor": "#FF0c7610",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF0c7610"
              }
         },
         {
@@ -64,12 +64,12 @@
             "label": "Tarromin",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF0c7138",
-                "menuTextColor": "#FF0c7138",
+                "backgroundColor": "#FF0c7138",
+                "borderColor": "#FF0c7138",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF0c7138"
              }
         },
         {
@@ -77,12 +77,12 @@
             "label": "Harralander",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF54780c",
-                "menuTextColor": "#FF54780c",
+                "backgroundColor": "#FF54780c",
+                "borderColor": "#FF54780c",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF54780c"
              }
         },
         {
@@ -90,12 +90,12 @@
             "label": "Ranarr weed",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF3c5f09",
-                "menuTextColor": "#FF3c5f09",
+                "backgroundColor": "#FF3c5f09",
+                "borderColor": "#FF3c5f09",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF3c5f09"
              }
         },
         {
@@ -103,12 +103,12 @@
             "label": "Toadflax",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF002400",
-                "menuTextColor": "#FF002400",
+                "backgroundColor": "#FF002400",
+                "borderColor": "#FF002400",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF002400"
              }
         },
         {
@@ -116,12 +116,12 @@
             "label": "Irit leaf",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF507436",
-                "menuTextColor": "#FF507436",
+                "backgroundColor": "#FF507436",
+                "borderColor": "#FF507436",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF507436"
              }
         },
         {
@@ -129,12 +129,12 @@
             "label": "Avantoe",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF145326",
-                "menuTextColor": "#FF145326",
+                "backgroundColor": "#FF145326",
+                "borderColor": "#FF145326",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF145326"
              }
         },
         {
@@ -142,12 +142,12 @@
             "label": "Kwuarm",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF4d5709",
-                "menuTextColor": "#FF4d5709",
+                "backgroundColor": "#FF4d5709",
+                "borderColor": "#FF4d5709",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF4d5709"
              }
         },
         {
@@ -155,12 +155,12 @@
             "label": "Huasca",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF513748",
-                "menuTextColor": "#FF513748",
+                "backgroundColor": "#FF513748",
+                "borderColor": "#FF513748",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF513748"
              }
         },
         {
@@ -168,12 +168,12 @@
             "label": "Snapdragon",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF3e4b08",
-                "menuTextColor": "#FF3e4b08",
+                "backgroundColor": "#FF3e4b08",
+                "borderColor": "#FF3e4b08",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF3e4b08"
              }
         },
         {
@@ -181,12 +181,12 @@
             "label": "Cadantine",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF44501c",
-                "menuTextColor": "#FF44501c",
+                "backgroundColor": "#FF44501c",
+                "borderColor": "#FF44501c",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF44501c"
              }
         },
         {
@@ -194,12 +194,12 @@
             "label": "Lantadyme",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF08473c",
-                "menuTextColor": "#FF08473c",
+                "backgroundColor": "#FF08473c",
+                "borderColor": "#FF08473c",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF08473c"
              }
         },
         {
@@ -207,12 +207,12 @@
             "label": "Dwarf weed",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF094809",
-                "menuTextColor": "#FF094809",
+                "backgroundColor": "#FF094809",
+                "borderColor": "#FF094809",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF094809"
              }
         },
         {
@@ -220,12 +220,12 @@
             "label": "Torstol",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF09570c",
-                "menuTextColor": "#FF09570c",
+                "backgroundColor": "#FF09570c",
+                "borderColor": "#FF09570c",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF"
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF09570c"
              }
         }
     ]
