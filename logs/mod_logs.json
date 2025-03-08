@@ -1,0 +1,231 @@
+{
+    "name": "Logs",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_LOGS_HIDE",
+            "label": "Logs to hide",
+            "enum": [
+                "Logs",
+                "Oak logs",
+                "Willow logs",
+                "Maple logs",
+                "Yew logs",
+                "Magic logs",
+                "Redwood logs",
+                "Teak logs",
+                "Mahogany logs",
+                "Achey tree logs",
+                "Arctic pine logs",
+                "Scrapey tree logs",
+                "Juniper logs",
+                "Bark",
+                "Blisterwood logs"
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_LOGS_COLOR_MENU_TEXT",
+            "label": "Color log menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_LOGS_CUSTOMSTYLE",
+            "label": "Logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF7F623A",
+                "borderColor": "#FFAF8F51",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF7F623A"
+            }
+        },
+        {
+            "macroName": "VAR_OAK_LOGS_CUSTOMSTYLE",
+            "label": "Oak logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF8B6B40",
+                "borderColor": "#FFA7875E",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF8B6B40"
+            }
+        },
+        {
+            "macroName": "VAR_WILLOW_LOGS_CUSTOMSTYLE",
+            "label": "Willow logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF564D20",
+                "borderColor": "#FF71673F",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF564D20"
+            }
+        },
+        {
+            "macroName": "VAR_MAPLE_LOGS_CUSTOMSTYLE",
+            "label": "Maple logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF704C0D",
+                "borderColor": "#FF846230",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF704C0D"
+            }
+        },
+        {
+            "macroName": "VAR_YEW_LOGS_CUSTOMSTYLE",
+            "label": "Yew logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF5C4409",
+                "borderColor": "#FF856D3D",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF5C4409"
+            }
+        },
+        {
+            "macroName": "VAR_MAGIC_LOGS_CUSTOMSTYLE",
+            "label": "Magic logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF8F8560",
+                "borderColor": "#FF2AA79A",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF8F8560"
+            }
+        },
+        {
+            "macroName": "VAR_REDWOOD_LOGS_CUSTOMSTYLE",
+            "label": "Redwood logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF73460D",
+                "borderColor": "#FFB87242",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF73460D"
+            }
+        },
+        {
+            "macroName": "VAR_TEAK_LOGS_CUSTOMSTYLE",
+            "label": "Teak logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FFBFA26C",
+                "borderColor": "#FF937243",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFBFA26C"
+            }
+        },
+        {
+            "macroName": "VAR_MAHOGANY_LOGS_CUSTOMSTYLE",
+            "label": "Mahogany logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FFBEA16C",
+                "borderColor": "#FF693F09",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFBEA16C"
+            }
+        },
+        {
+            "macroName": "VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE",
+            "label": "Achey tree logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF746642",
+                "borderColor": "#FF8C805E",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF746642"
+            }
+        },
+        {
+            "macroName": "VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE",
+            "label": "Arctic pine logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FFAB8C4E",
+                "borderColor": "#FFCBAC73",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFAB8C4E"
+            }
+        },
+        {
+            "macroName": "VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE",
+            "label": "Scrapey tree logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF7F683A",
+                "borderColor": "#FF3F6409",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF7F683A"
+            }
+        },
+        {
+            "macroName": "VAR_JUNIPER_LOGS_CUSTOMSTYLE",
+            "label": "Juniper logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF988667",
+                "borderColor": "#FFA28F6E",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF988667"
+            }
+        },
+        {
+            "macroName": "VAR_BARK_CUSTOMSTYLE",
+            "label": "Bark",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF483A20",
+                "borderColor": "#FF87734B",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF483A20"
+            }
+        },
+        {
+            "macroName": "VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE",
+            "label": "Blisterwood logs",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FFDFDBDB",
+                "borderColor": "#FF923A34",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFDFDBDB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+// module:logs
+
+#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
+
+#define VAR_LOGS_HIDE []
+
+#define VAR_LOGS_CUSTOMSTYLE nop;
+#define VAR_OAK_LOGS_CUSTOMSTYLE nop;
+#define VAR_WILLOW_LOGS_CUSTOMSTYLE nop;
+#define VAR_MAPLE_LOGS_CUSTOMSTYLE nop;
+#define VAR_YEW_LOGS_CUSTOMSTYLE nop;
+#define VAR_MAGIC_LOGS_CUSTOMSTYLE nop;
+#define VAR_REDWOOD_LOGS_CUSTOMSTYLE nop;
+#define VAR_TEAK_LOGS_CUSTOMSTYLE nop;
+#define VAR_MAHOGANY_LOGS_CUSTOMSTYLE nop;
+#define VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE nop;
+#define VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE nop;
+#define VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE nop;
+#define VAR_JUNIPER_LOGS_CUSTOMSTYLE nop;
+#define VAR_BARK_CUSTOMSTYLE nop;
+#define VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE nop;
+
+#define VAR_LOGS_COLOR_MENU_TEXT nop;
+
+if (name:"Logs") {
+    if ("Logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Oak logs") {
+    if ("Oak logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_OAK_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Willow logs") {
+    if ("Willow logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_WILLOW_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Maple logs") {
+    if ("Maple logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_MAPLE_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Yew logs") {
+    if ("Yew logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_YEW_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Magic logs") {
+    if ("Magic logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_MAGIC_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Redwood logs") {
+    if ("Redwood logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_REDWOOD_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Teak logs") {
+    if ("Teak logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_TEAK_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Mahogany logs") {
+    if ("Mahogany logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_MAHOGANY_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Achey tree logs") {
+    if ("Achey tree logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Arctic pine logs") {
+    if ("Arctic pine logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Scrapey tree logs") {
+    if ("Scrapey tree logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Juniper logs") {
+    if ("Juniper logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_JUNIPER_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Bark") {
+    if ("Bark":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_BARK_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+if (name:"Blisterwood logs") {
+    if ("Blisterwood logs":VAR_LOGS_HIDE) {
+        hidden = true;
+    }
+    VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE
+    if (!VAR_LOGS_COLOR_MENU_TEXT) {
+        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+    }
+}
+
+// endmodule:logs
