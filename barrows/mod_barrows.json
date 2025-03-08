@@ -1,0 +1,89 @@
+{
+    "name": "Ores",
+    "inputs": [
+        {
+            "type": "boolean",
+            "macroName": "VAR_BARROWS_COLOR_MENU_TEXT",
+            "label": "Color barrows menu text",
+            "default": true
+        },
+        {
+            "macroName": "VAR_AHRIMS_CUSTOMSTYLE",
+            "label": "Ahrim's",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF4E4E35",
+                "borderColor": "#FF2E2E20",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_KARILS_CUSTOMSTYLE",
+            "label": "Karil's",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF4E4E35",
+                "borderColor": "#FF938563",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_DHAROKS_CUSTOMSTYLE",
+            "label": "Dharok's",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF4E4E35",
+                "borderColor": "#FF73726B",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_GUTHANS_CUSTOMSTYLE",
+            "label": "Guthan's",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF4E4E35",
+                "borderColor": "#FFAEA063",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_TORAGS_CUSTOMSTYLE",
+            "label": "Torag's",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF4E4E35",
+                "borderColor": "#FFB4A666",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFFFFFFF"
+            }
+        },
+        {
+            "macroName": "VAR_VERACS_CUSTOMSTYLE",
+            "label": "Verac's",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#FF4E4E35",
+                "borderColor": "#FF7D7D74",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFFFFFFF"
+            }
+        },
+    ]
+}
