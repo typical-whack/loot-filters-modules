@@ -1,0 +1,29 @@
+{
+    "name": "Global defaults",
+    "inputs": [
+        {
+            "macroName": "VAR_GLOBAL_CUSTOMSTYLE",
+            "label": "Global default style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#00000000",
+                "borderColor": "#00000000",
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000"
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_GLOBAL_SHOW",
+                "excludes": "VAR_GLOBAL_HIDE"
+            },
+            "label": "Global shown and hidden items",
+            "default": {
+                "includes": [],
+                "excludes": []
+            }
+        }
+    ]
+}

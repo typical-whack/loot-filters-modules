@@ -4,6 +4,11 @@
     "description": "A collection of loot filters for OSRS",
     "modules": [
         {
+            "name": "Global",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/global/mod_global.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/global/mod_global.rs2f"
+        },
+        {
             "name": "God Wars Dungeon",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/mod_god_wars_dungeon.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/mod_god_wars_dungeon.rs2f"
