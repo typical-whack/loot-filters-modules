@@ -38,12 +38,12 @@
             "label": "Elder",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF845b5c",
-                "menuTextColor": "#FF845b5c",
+                "backgroundColor": "#FF845b5c",
+                "borderColor": "#FF845b5c",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FF845b5c"
              }
         },
         {
@@ -51,12 +51,12 @@
             "label": "Twisted",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF657e69",
-                "menuTextColor": "#FF657e69",
+                "backgroundColor": "#FF657e69",
+                "borderColor": "#FF657e69",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FF657e69"
              }
         },
         {
@@ -64,12 +64,12 @@
             "label": "Kodai",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF7288a8",
-                "menuTextColor": "#FF7288a8",
+                "backgroundColor": "#FF7288a8",
+                "borderColor": "#FF7288a8",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FF7288a8"
              }
         },
         {
@@ -77,12 +77,12 @@
             "label": "Revitalisation",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFa56785",
-                "menuTextColor": "#FFa56785",
+                "backgroundColor": "#FFa56785",
+                "borderColor": "#FFa56785",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FFa56785"
              }
         },
         {
@@ -90,12 +90,12 @@
             "label": "Prayer enhance",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF9257ba",
-                "menuTextColor": "#FF9257ba",
+                "backgroundColor": "#FF9257ba",
+                "borderColor": "#FF9257ba",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FF9257ba"
              }
         },
         {
@@ -103,12 +103,12 @@
             "label": "Xeric's aid",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFafac73",
-                "menuTextColor": "#FFafac73",
+                "backgroundColor": "#FFafac73",
+                "borderColor": "#FFafac73",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FFafac73"
              }
         },
         {
@@ -116,12 +116,12 @@
             "label": "Antipoison",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFa4d27e",
-                "menuTextColor": "#FFa4d27e",
+                "backgroundColor": "#FFa4d27e",
+                "borderColor": "#FFa4d27e",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FFa4d27e"
              }
         },
         {
@@ -129,12 +129,12 @@
             "label": "Overload",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF130f0f",
-                "menuTextColor": "#FF130f0f",
+                "backgroundColor": "#FF130f0f",
+                "borderColor": "#FF130f0f",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFb2acb7"
+                "textAccentColor": "#FFb2acb7",
+                "menuTextColor": "#FF130f0f"
              }
         }
     ]
