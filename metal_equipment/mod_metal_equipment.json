@@ -32,7 +32,7 @@
         },
         {
             "macroName":"VAR_BRONZE_CUSTOMSTYLE",
-            "label": "Bronze equipment style",
+            "label": "Bronze",
             "type": "style",
             "default": {
                 "backgroundColor": "#8043341d",
@@ -45,7 +45,7 @@
         },
         {
             "macroName":"VAR_BRONZE_TRIMMED_CUSTOMSTYLE",
-            "label": "Bronze (t) equipment style",
+            "label": "Bronze (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#8043341d",
@@ -58,7 +58,7 @@
         },
         {
             "macroName":"VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Bronze (g) equipment style",
+            "label": "Bronze (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#8043341d",
@@ -71,7 +71,7 @@
         },
         {
             "macroName":"VAR_IRON_CUSTOMSTYLE",
-            "label": "Iron equipment style",
+            "label": "Iron",
             "type": "style",
             "default": {
                 "backgroundColor": "#804f4948",
@@ -84,7 +84,7 @@
         },
         {
             "macroName":"VAR_IRON_TRIMMED_CUSTOMSTYLE",
-            "label": "Iron (t) equipment style",
+            "label": "Iron (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#804f4948",
@@ -97,7 +97,7 @@
         },
         {
             "macroName":"VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Iron (g) equipment style",
+            "label": "Iron (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#804f4948",
@@ -110,7 +110,7 @@
         },
         {
             "macroName":"VAR_STEEL_CUSTOMSTYLE",
-            "label": "Steel equipment style",
+            "label": "Steel",
             "type": "style",
             "default": {
                 "backgroundColor": "#80857c7b",
@@ -123,7 +123,7 @@
         },
         {
             "macroName":"VAR_STEEL_TRIMMED_CUSTOMSTYLE",
-            "label": "Steel (t) equipment style",
+            "label": "Steel (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80857c7b",
@@ -136,7 +136,7 @@
         },
         {
             "macroName":"VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Steel (g) equipment style",
+            "label": "Steel (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80857c7b",
@@ -149,7 +149,7 @@
         },
         {
             "macroName":"VAR_BLACK_CUSTOMSTYLE",
-            "label": "Black equipment style",
+            "label": "Black",
             "type": "style",
             "default": {
                 "backgroundColor": "#801d1b1b",
@@ -162,7 +162,7 @@
         },
         {
             "macroName":"VAR_BLACK_TRIMMED_CUSTOMSTYLE",
-            "label": "Black (t) equipment style",
+            "label": "Black (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#801d1b1b",
@@ -175,7 +175,7 @@
         },
         {
             "macroName":"VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Black (g) equipment style",
+            "label": "Black (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#801d1b1b",
@@ -188,7 +188,7 @@
         },
         {
             "macroName":"VAR_BLACK_HERALDIC_CUSTOMSTYLE",
-            "label": "Black heraldic equipment style",
+            "label": "Black heraldic",
             "type": "style",
             "default": {
                 "backgroundColor": "#801d1b1b",
@@ -201,7 +201,7 @@
         },
         {
             "macroName":"VAR_MITHRIL_CUSTOMSTYLE",
-            "label": "Mithril equipment style",
+            "label": "Mithril",
             "type": "style",
             "default": {
                 "backgroundColor": "#80414161",
@@ -214,7 +214,7 @@
         },
         {
             "macroName":"VAR_MITHRIL_TRIMMED_CUSTOMSTYLE",
-            "label": "Mithril (t) equipment style",
+            "label": "Mithril (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80414161",
@@ -227,7 +227,7 @@
         },
         {
             "macroName":"VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Mithril (g) equipment style",
+            "label": "Mithril (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80414161",
@@ -240,7 +240,7 @@
         },
         {
             "macroName":"VAR_ADAMANT_CUSTOMSTYLE",
-            "label": "Adamant equipment style",
+            "label": "Adamant",
             "type": "style",
             "default": {
                 "backgroundColor": "#80405140",
@@ -253,7 +253,7 @@
         },
         {
             "macroName":"VAR_ADAMANT_TRIMMED_CUSTOMSTYLE",
-            "label": "Adamant (t) equipment style",
+            "label": "Adamant (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80405140",
@@ -266,7 +266,7 @@
         },
         {
             "macroName":"VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Adamant (g) equipment style",
+            "label": "Adamant (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80405140",
@@ -279,7 +279,7 @@
         },
         {
             "macroName":"VAR_ADAMANT_HERALDIC_CUSTOMSTYLE",
-            "label": "Adamant heraldic equipment style",
+            "label": "Adamant heraldic",
             "type": "style",
             "default": {
                 "backgroundColor": "#80405140",
@@ -292,7 +292,7 @@
         },
         {
             "macroName":"VAR_RUNE_CUSTOMSTYLE",
-            "label": "Rune equipment style",
+            "label": "Rune",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -305,7 +305,7 @@
         },
         {
             "macroName":"VAR_RUNE_TRIMMED_CUSTOMSTYLE",
-            "label": "Rune (t) equipment style",
+            "label": "Rune (t)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -318,7 +318,7 @@
         },
         {
             "macroName":"VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Rune (g) equipment style",
+            "label": "Rune (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -331,7 +331,7 @@
         },
         {
             "macroName":"VAR_RUNE_HERALDIC_CUSTOMSTYLE",
-            "label": "Rune heraldic equipment style",
+            "label": "Rune heraldic",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -344,7 +344,7 @@
         },
         {
             "macroName":"VAR_RUNE_GILDED_CUSTOMSTYLE",
-            "label": "Gilded equipment style",
+            "label": "Gilded",
             "type": "style",
             "default": {
                 "backgroundColor": "#80c39318",
@@ -357,7 +357,7 @@
         },
         {
             "macroName":"VAR_RUNE_ANCIENT_CUSTOMSTYLE",
-            "label": "Rune ancient equipment style",
+            "label": "Rune ancient",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -370,7 +370,7 @@
         },
         {
             "macroName":"VAR_RUNE_ARMADYL_CUSTOMSTYLE",
-            "label": "Rune armadyl equipment style",
+            "label": "Rune armadyl",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -383,7 +383,7 @@
         },
         {
             "macroName":"VAR_RUNE_BANDOS_CUSTOMSTYLE",
-            "label": "Rune bandos equipment style",
+            "label": "Rune bandos",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -396,7 +396,7 @@
         },
         {
             "macroName":"VAR_RUNE_GUTHIX_CUSTOMSTYLE",
-            "label": "Rune guthix equipment style",
+            "label": "Rune guthix",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -409,7 +409,7 @@
         },
         {
             "macroName":"VAR_RUNE_SARADOMIN_CUSTOMSTYLE",
-            "label": "Rune saradomin equipment style",
+            "label": "Rune saradomin",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -422,7 +422,7 @@
         },
         {
             "macroName":"VAR_RUNE_ZAMORAK_CUSTOMSTYLE",
-            "label": "Rune zamorak equipment style",
+            "label": "Rune zamorak",
             "type": "style",
             "default": {
                 "backgroundColor": "#80415760",
@@ -435,7 +435,7 @@
         },
         {
             "macroName":"VAR_DRAGON_CUSTOMSTYLE",
-            "label": "Dragon equipment style",
+            "label": "Dragon",
             "type": "style",
             "default": {
                 "backgroundColor": "#80541109",
@@ -448,7 +448,7 @@
         },
         {
             "macroName":"VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Dragon (g) equipment style",
+            "label": "Dragon (g)",
             "type": "style",
             "default": {
                 "backgroundColor": "#80541109",
