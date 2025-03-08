@@ -1,0 +1,245 @@
+{
+    "name": "Item values",
+    "inputs": [
+        {
+            "macroName": "VAR_VALUE_T9_ENABLED",
+            "label": "T9: Enabled",
+            "type": "boolean",
+            "default": false,
+            "group": "t9"
+        },
+        {
+            "macroName": "VAR_VALUE_T8_ENABLED",
+            "label": "T8: Enabled",
+            "type": "boolean",
+            "default": false,
+            "group": "t8"
+        },
+        {
+            "macroName": "VAR_VALUE_T7_ENABLED",
+            "label": "T7: Enabled",
+            "type": "boolean",
+            "default": false,
+            "group": "t7"
+        },
+        {
+            "macroName": "VAR_VALUE_T6_ENABLED",
+            "label": "T6: Enabled",
+            "type": "boolean",
+            "default": false,
+            "group": "t6"
+        },
+        {
+            "macroName": "VAR_VALUE_T5_ENABLED",
+            "label": "T5: Enabled",
+            "type": "boolean",
+            "default": true,
+            "group": "t5"
+        },
+        {
+            "macroName": "VAR_VALUE_T4_ENABLED",
+            "label": "T4: Enabled",
+            "type": "boolean",
+            "default": true,
+            "group": "t4"
+        },
+        {
+            "macroName": "VAR_VALUE_T3_ENABLED",
+            "label": "T3: Enabled",
+            "type": "boolean",
+            "default": true,
+            "group": "t3"
+        },
+        {
+            "macroName": "VAR_VALUE_T2_ENABLED",
+            "label": "T2: Enabled",
+            "type": "boolean",
+            "default": true,
+            "group": "t2"
+        },
+        {
+            "macroName": "VAR_VALUE_T1_ENABLED",
+            "label": "T1: Enabled",
+            "type": "boolean",
+            "default": true,
+            "group": "t1"
+        },
+        {
+            "macroName": "VAR_VALUE_T0_ENABLED",
+            "label": "T0: Enabled",
+            "type": "boolean",
+            "default": true,
+            "group": "t0"
+        },
+        {
+            "macroName": "VAR_VALUE_T9_VALUE",
+            "label": "T9: Min value",
+            "type": "number",
+            "default": 0,
+            "group": "t9"
+        },
+        {
+            "macroName": "VAR_VALUE_T8_VALUE",
+            "label": "T8: Min value",
+            "type": "number",
+            "default": 0,
+            "group": "t8"
+        },
+        {
+            "macroName": "VAR_VALUE_T7_VALUE",
+            "label": "T7: Min value",
+            "type": "number",
+            "default": 0,
+            "group": "t7"
+        },
+        {
+            "macroName": "VAR_VALUE_T6_VALUE",
+            "label": "T6: Min value",
+            "type": "number",
+            "default": 0,
+            "group": "t6"
+        },
+        {
+            "macroName": "VAR_VALUE_T5_VALUE",
+            "label": "T5: Min value",
+            "type": "number",
+            "default": 100000000,
+            "group": "t5"
+        },
+        {
+            "macroName": "VAR_VALUE_T4_VALUE",
+            "label": "T4: Min value",
+            "type": "number",
+            "default": 10000000,
+            "group": "t4"
+        },
+        {
+            "macroName": "VAR_VALUE_T3_VALUE",
+            "label": "T3: Min value",
+            "type": "number",
+            "default": 1000000,
+            "group": "t3"
+        },
+        {
+            "macroName": "VAR_VALUE_T2_VALUE",
+            "label": "T2: Min value",
+            "type": "number",
+            "default": 500000,
+            "group": "t2"
+        },
+        {
+            "macroName": "VAR_VALUE_T1_VALUE",
+            "label": "T1: Min value",
+            "type": "number",
+            "default": 100000,
+            "group": "t1"
+        },
+        {
+            "macroName": "VAR_VALUE_T0_VALUE",
+            "label": "T0: Min value",
+            "type": "number",
+            "default": 10000,
+            "group": "t0"
+        },
+        {
+            "macroName": "VAR_VALUE_T9_CUSTOMSTYLE",
+            "label": "T9: Display",
+            "type": "style",
+            "default": {},
+            "group": "t9"
+        },
+        {
+            "macroName": "VAR_VALUE_T8_CUSTOMSTYLE",
+            "label": "T8: Display",
+            "type": "style",
+            "default": {},
+            "group": "t8"
+        },
+        {
+            "macroName": "VAR_VALUE_T7_CUSTOMSTYLE",
+            "label": "T7: Display",
+            "type": "style",
+            "default": {},
+            "group": "t7"
+        },
+        {
+            "macroName": "VAR_VALUE_T6_CUSTOMSTYLE",
+            "label": "T6: Display",
+            "type": "style",
+            "default": {},
+            "group": "t6"
+        },
+        {
+            "macroName": "VAR_VALUE_T5_CUSTOMSTYLE",
+            "label": "T5: Display",
+            "type": "style",
+            "default": {
+                "group": "t5",
+                "textColor": "#ff0000",
+                "borderColor": "#ff0000",
+                "backgroundColor": "#ffffff",
+                "fontType": 2,
+                "textAccent": 3,
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUE_T4_CUSTOMSTYLE",
+            "label": "T4: Display",
+            "type": "style",
+            "group": "t4",
+            "default": {
+                "textColor": "#ffffff",
+                "borderColor": "#ffffff",
+                "backgroundColor": "#f0a523",
+                "textAccent": 3,
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUE_T3_CUSTOMSTYLE",
+            "label": "T3: Display",
+            "type": "style",
+            "group": "t3",
+            "default": {
+                "textColor": "#000000",
+                "borderColor": "#000000",
+                "backgroundColor": "#f0a523",
+                "textAccent": 3,
+                "showLootbeam": true,
+                "lootbeamColor": "#f0a523",
+                "menuTextColor": "#f0a523"
+            }
+        },
+        {
+            "macroName": "VAR_VALUE_T2_CUSTOMSTYLE",
+            "label": "T2: Display",
+            "type": "style",
+            "group": "t2",
+            "default": {
+                "textColor": "#f99619",
+                "borderColor": "#f99619",
+                "textAccent": 2
+            }
+        },
+        {
+            "macroName": "VAR_VALUE_T1_CUSTOMSTYLE",
+            "label": "T1: Display",
+            "type": "style",
+            "group": "t1",
+            "default": {
+                "textColor": "#d59f00",
+                "textAccent": 2
+            }
+        },
+        {
+            "macroName": "VAR_VALUE_T0_CUSTOMSTYLE",
+            "label": "T0: Display",
+            "type": "style",
+            "group": "t0",
+            "default": {
+                "textColor": "#beb287"
+            }
+        }
+    ]
+}
