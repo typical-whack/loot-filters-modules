@@ -79,9 +79,9 @@
             "label": "Attack mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF74E2E6",
+                "backgroundColor": "#FF74E2E6",
+                "borderColor": "#FF74E2E6",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF74E2E6"
@@ -92,9 +92,9 @@
             "label": "Antipoison mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFB8F785",
+                "backgroundColor": "#FFB8F785",
+                "borderColor": "#FFB8F785",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFB8F785"
@@ -105,9 +105,9 @@
             "label": "Relicym's mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFDFC5AE",
+                "backgroundColor": "#FFDFC5AE",
+                "borderColor": "#FFDFC5AE",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFDFC5AE"
@@ -118,9 +118,9 @@
             "label": "Strength mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFF1EF78",
+                "backgroundColor": "#FFF1EF78",
+                "borderColor": "#FFF1EF78",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFF1EF78"
@@ -131,9 +131,9 @@
             "label": "Restore mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFF08F87",
+                "backgroundColor": "#FFF08F87",
+                "borderColor": "#FFF08F87",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFF08F87"
@@ -144,9 +144,9 @@
             "label": "Energy mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFD499A4",
+                "backgroundColor": "#FFD499A4",
+                "borderColor": "#FFD499A4",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFD499A4"
@@ -157,9 +157,9 @@
             "label": "Defence mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF9AF59C",
+                "backgroundColor": "#FF9AF59C",
+                "borderColor": "#FF9AF59C",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF9AF59C"
@@ -170,9 +170,9 @@
             "label": "Agility mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFB5C15C",
+                "backgroundColor": "#FFB5C15C",
+                "borderColor": "#FFB5C15C",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFB5C15C"
@@ -183,9 +183,9 @@
             "label": "Combat mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFAFD89B",
+                "backgroundColor": "#FFAFD89B",
+                "borderColor": "#FFAFD89B",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFAFD89B"
@@ -196,9 +196,9 @@
             "label": "Prayer mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF99F1D1",
+                "backgroundColor": "#FF99F1D1",
+                "borderColor": "#FF99F1D1",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF99F1D1"
@@ -209,9 +209,9 @@
             "label": "Superattack mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF999BF1",
+                "backgroundColor": "#FF999BF1",
+                "borderColor": "#FF999BF1",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF999BF1"
@@ -222,9 +222,9 @@
             "label": "Anti-poison supermix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFD85CAC",
+                "backgroundColor": "#FFD85CAC",
+                "borderColor": "#FFD85CAC",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFD85CAC"
@@ -235,9 +235,9 @@
             "label": "Fishing mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF868A86",
+                "backgroundColor": "#FF868A86",
+                "borderColor": "#FF868A86",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF868A86"
@@ -248,9 +248,9 @@
             "label": "Super energy mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFDB8EC9",
+                "backgroundColor": "#FFDB8EC9",
+                "borderColor": "#FFDB8EC9",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFDB8EC9"
@@ -261,9 +261,9 @@
             "label": "Hunting mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF519294",
+                "backgroundColor": "#FF519294",
+                "borderColor": "#FF519294",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF519294"
@@ -274,9 +274,9 @@
             "label": "Super str. mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFE2E3E3",
+                "backgroundColor": "#FFE2E3E3",
+                "borderColor": "#FFE2E3E3",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFE2E3E3"
@@ -287,9 +287,9 @@
             "label": "Magic essence mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFEBBA8A",
+                "backgroundColor": "#FFEBBA8A",
+                "borderColor": "#FFEBBA8A",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFEBBA8A"
@@ -300,9 +300,9 @@
             "label": "Super restore mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFC77798",
+                "backgroundColor": "#FFC77798",
+                "borderColor": "#FFC77798",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFC77798"
@@ -313,9 +313,9 @@
             "label": "Super def. mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFE7D090",
+                "backgroundColor": "#FFE7D090",
+                "borderColor": "#FFE7D090",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFE7D090"
@@ -326,9 +326,9 @@
             "label": "Antidote+ mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFABAB98",
+                "backgroundColor": "#FFABAB98",
+                "borderColor": "#FFABAB98",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFABAB98"
@@ -339,9 +339,9 @@
             "label": "Antifire mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF9E56B7",
+                "backgroundColor": "#FF9E56B7",
+                "borderColor": "#FF9E56B7",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF9E56B7"
@@ -352,9 +352,9 @@
             "label": "Ranging mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF8FCFE8",
+                "backgroundColor": "#FF8FCFE8",
+                "borderColor": "#FF8FCFE8",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF8FCFE8"
@@ -365,9 +365,9 @@
             "label": "Magic mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFE6BFB1",
+                "backgroundColor": "#FFE6BFB1",
+                "borderColor": "#FFE6BFB1",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFE6BFB1"
@@ -378,9 +378,9 @@
             "label": "Zamorak mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFF0C760",
+                "backgroundColor": "#FFF0C760",
+                "borderColor": "#FFF0C760",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFF0C760"
@@ -391,9 +391,9 @@
             "label": "Stamina mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFB7997B",
+                "backgroundColor": "#FFB7997B",
+                "borderColor": "#FFB7997B",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFB7997B"
@@ -404,9 +404,9 @@
             "label": "Extended antifire mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF946DDA",
+                "backgroundColor": "#FF946DDA",
+                "borderColor": "#FF946DDA",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF946DDA"
@@ -417,9 +417,9 @@
             "label": "Ancient mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFC09CE2",
+                "backgroundColor": "#FFC09CE2",
+                "borderColor": "#FFC09CE2",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFC09CE2"
@@ -430,9 +430,9 @@
             "label": "Super antifire mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FF9D56B5",
+                "backgroundColor": "#FF9D56B5",
+                "borderColor": "#FF9D56B5",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF9D56B5"
@@ -443,9 +443,9 @@
             "label": "Extended super antifire mix",
             "type": "style",
             "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFC7B6DA",
+                "backgroundColor": "#FFC7B6DA",
+                "borderColor": "#FFC7B6DA",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFC7B6DA"
