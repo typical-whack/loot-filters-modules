@@ -860,3 +860,5 @@ if (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR) {
         menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
     }
 }
+
+// endmodule:metal_equipment
