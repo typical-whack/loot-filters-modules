@@ -10,9 +10,9 @@
         },
         {
             "name": "Value Thresholds",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/value/mod_value.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/value/mod_value.rs2f"
-        },
+            "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
+          },
         {
             "name": "God Wars Dungeon",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/god_wars_dungeon/mod_god_wars_dungeon.json",
