@@ -34,9 +34,9 @@
             "default": {
                 "backgroundColor": "#FF0C1273",
                 "borderColor": "#FF0C1273",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF0C1273"
             }
         },
@@ -47,9 +47,9 @@
             "default": {
                 "backgroundColor": "#FF0C6B0F",
                 "borderColor": "#FF0C6B0F",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF0C6B0F"
             }
         },
@@ -60,9 +60,9 @@
             "default": {
                 "backgroundColor": "#FF4E0F08",
                 "borderColor": "#FF4E0F08",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF4E0F08"
             }
         },
@@ -73,9 +73,9 @@
             "default": {
                 "backgroundColor": "#FF857D7D",
                 "borderColor": "#FF857D7D",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF857D7D"
             }
         },
@@ -86,9 +86,9 @@
             "default": {
                 "backgroundColor": "#FF7E7D63",
                 "borderColor": "#FF7E7D63",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF7E7D63"
             }
         },
@@ -99,9 +99,9 @@
             "default": {
                 "backgroundColor": "#FF6E7E64",
                 "borderColor": "#FF6E7E64",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF6E7E64"
             }
         },
@@ -112,9 +112,9 @@
             "default": {
                 "backgroundColor": "#FF830E4F",
                 "borderColor": "#FF830E4F",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF830E4F"
             }
         },
@@ -125,9 +125,9 @@
             "default": {
                 "backgroundColor": "#FF4C0B62",
                 "borderColor": "#FF4C0B62",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF4C0B62"
             }
         },
@@ -138,9 +138,9 @@
             "default": {
                 "backgroundColor": "#FF1C1A1A",
                 "borderColor": "#FF1C1A1A",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF1C1A1A"
             }
         },
@@ -151,9 +151,9 @@
             "default": {
                 "backgroundColor": "#FF833A0E",
                 "borderColor": "#FF833A0E",
-                "textColor": "#FF000000",
+                "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF833A0E"
             }
         }
