@@ -12,28 +12,36 @@
 #define VAR_GENERAL_GRAARDOR_SUPPLY_HIDE []
 #define VAR_GENERAL_GRAARDOR_SUPPLY_SHOW []
 
-if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_UNIQUES_HIDE) {
-    hidden = true;
-}
 
-if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_COMMON_HIDE) {
-    hidden = true;
-}
 
-if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_SUPPLY_HIDE) {
-    hidden = true;
-}
+#define VAR_DISABLE_GENERAL_GRAARDOR_MODULE nop;
 
-if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_UNIQUES_SHOW) {
-    hidden = false;
-}
+if (!VAR_DISABLE_GENERAL_GRAARDOR_MODULE) {
 
-if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_COMMON_SHOW) {
-    hidden = false;
-}
+    if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_UNIQUES_HIDE) {
+        hidden = true;
+    }
 
-if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_SUPPLY_SHOW) {
-    hidden = false;
+    if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_COMMON_HIDE) {
+        hidden = true;
+    }
+
+    if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_SUPPLY_HIDE) {
+        hidden = true;
+    }
+
+    if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_UNIQUES_SHOW) {
+        hidden = false;
+    }
+
+    if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_COMMON_SHOW) {
+        hidden = false;
+    }
+
+    if (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_SUPPLY_SHOW) {
+        hidden = false;
+    }
+
 }
 
 // endmodule:general_graardor

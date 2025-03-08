@@ -57,506 +57,510 @@
 
 #define VAR_POTIONS_COLOR_MENU_TEXT nop;
 
-if (name:"Attack potion (*") {
-    if ("Attack potion":VAR_POTIONS_HIDE) {
-        hidden = true;
+#define VAR_DISABLE_POTIONS_MODULE nop;
+
+if (!VAR_DISABLE_POTIONS_MODULE) {
+
+    if (name:"Attack potion (*") {
+        if ("Attack potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ATTACK_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_ATTACK_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+
+    if (name:"Antipoison (*") {
+        if ("Antipoison":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANTIPOISON_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
+
+    if (name:"Strength potion (*") {
+        if ("Strength potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_STRENGTH_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Serum 207 (*") {
+        if ("Serum 207":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SERUM_207_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Compost potion (*") {
+        if ("Compost potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_COMPOST_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Restore potion (*") {
+        if ("Restore potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_RESTORE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Energy potion (*") {
+        if ("Energy potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ENERGY_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Defence potion (*") {
+        if ("Defence potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DEFENCE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Agility potion (*") {
+        if ("Agility potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_AGILITY_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Combat potion (*") {
+        if ("Combat potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_COMBAT_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Prayer potion (*") {
+        if ("Prayer potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_PRAYER_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super attack (*") {
+        if ("Super attack":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_ATTACK_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Superantipoison (*") {
+        if ("Superantipoison":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPERANTIPOISON_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Fishing potion (*") {
+        if ("Fishing potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_FISHING_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super energy (*") {
+        if ("Super energy":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_ENERGY_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Hunter potion (*") {
+        if ("Hunter potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_HUNTER_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Goading potion (*") {
+        if ("Goading potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_GOADING_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super strength (*") {
+        if ("Super strength":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_STRENGTH_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Prayer regeneration potion (*") {
+        if ("Prayer regeneration potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super restore (*") {
+        if ("Super restore":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_RESTORE_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Sanfew serum (*") {
+        if ("Sanfew serum":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SANFEW_SERUM_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super defence (*") {
+        if ("Super defence":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_DEFENCE_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Antidote+ (*") {
+        if ("Antidote+":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANTIDOTE_PLUS_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Antifire potion (*") {
+        if ("Antifire potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANTIFIRE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine super attack potion (*") {
+        if ("Divine super attack potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine super defence potion (*") {
+        if ("Divine super defence potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine super strength potion (*") {
+        if ("Divine super strength potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Ranging potion (*") {
+        if ("Ranging potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_RANGING_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine ranging potion (*") {
+        if ("Divine ranging potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Magic potion (*") {
+        if ("Magic potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_MAGIC_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Stamina potion (*") {
+        if ("Stamina potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_STAMINA_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Zamorak brew (*") {
+        if ("Zamorak brew":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ZAMORAK_BREW_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine magic potion (*") {
+        if ("Divine magic potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Antidote++ (*") {
+        if ("Antidote++":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Bastion potion (*") {
+        if ("Bastion potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_BASTION_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Battlemage potion (*") {
+        if ("Battlemage potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_BATTLEMAGE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Saradomin brew (*") {
+        if ("Saradomin brew":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SARADOMIN_BREW_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Extended antifire (*") {
+        if ("Extended antifire":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Ancient brew (*") {
+        if ("Ancient brew":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANCIENT_BREW_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine bastion potion (*") {
+        if ("Divine bastion potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine battlemage potion (*") {
+        if ("Divine battlemage potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Anti-venom (*") {
+        if ("Anti-venom":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANTI_VENOM_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Menaphite remedy (*") {
+        if ("Menaphite remedy":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_MENAPHITE_REMEDY_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super combat potion (*") {
+        if ("Super combat potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Forgotten brew (*") {
+        if ("Forgotten brew":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_FORGOTTEN_BREW_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Super antifire potion (*") {
+        if ("Super antifire potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Anti-venom+ (*") {
+        if ("Anti-venom+":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Extended anti-venom+ (*") {
+        if ("Extended anti-venom+":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Divine super combat potion (*") {
+        if ("Divine super combat potion":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:"Extended super antifire (*") {
+        if ("Extended super antifire":VAR_POTIONS_HIDE) {
+            hidden = true;
+        }
+        VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE
+        if (!VAR_POTIONS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
 }
-
-if (name:"Antipoison (*") {
-    if ("Antipoison":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANTIPOISON_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Strength potion (*") {
-    if ("Strength potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_STRENGTH_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Serum 207 (*") {
-    if ("Serum 207":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SERUM_207_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Compost potion (*") {
-    if ("Compost potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_COMPOST_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Restore potion (*") {
-    if ("Restore potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_RESTORE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Energy potion (*") {
-    if ("Energy potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ENERGY_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Defence potion (*") {
-    if ("Defence potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DEFENCE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Agility potion (*") {
-    if ("Agility potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_AGILITY_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Combat potion (*") {
-    if ("Combat potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_COMBAT_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Prayer potion (*") {
-    if ("Prayer potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_PRAYER_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super attack (*") {
-    if ("Super attack":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_ATTACK_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Superantipoison (*") {
-    if ("Superantipoison":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPERANTIPOISON_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Fishing potion (*") {
-    if ("Fishing potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_FISHING_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super energy (*") {
-    if ("Super energy":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_ENERGY_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Hunter potion (*") {
-    if ("Hunter potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_HUNTER_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Goading potion (*") {
-    if ("Goading potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_GOADING_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super strength (*") {
-    if ("Super strength":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_STRENGTH_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Prayer regeneration potion (*") {
-    if ("Prayer regeneration potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super restore (*") {
-    if ("Super restore":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_RESTORE_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Sanfew serum (*") {
-    if ("Sanfew serum":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SANFEW_SERUM_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super defence (*") {
-    if ("Super defence":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_DEFENCE_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Antidote+ (*") {
-    if ("Antidote+":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANTIDOTE_PLUS_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Antifire potion (*") {
-    if ("Antifire potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANTIFIRE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine super attack potion (*") {
-    if ("Divine super attack potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine super defence potion (*") {
-    if ("Divine super defence potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine super strength potion (*") {
-    if ("Divine super strength potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Ranging potion (*") {
-    if ("Ranging potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_RANGING_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine ranging potion (*") {
-    if ("Divine ranging potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Magic potion (*") {
-    if ("Magic potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_MAGIC_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Stamina potion (*") {
-    if ("Stamina potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_STAMINA_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Zamorak brew (*") {
-    if ("Zamorak brew":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ZAMORAK_BREW_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine magic potion (*") {
-    if ("Divine magic potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Antidote++ (*") {
-    if ("Antidote++":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Bastion potion (*") {
-    if ("Bastion potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_BASTION_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Battlemage potion (*") {
-    if ("Battlemage potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_BATTLEMAGE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Saradomin brew (*") {
-    if ("Saradomin brew":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SARADOMIN_BREW_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Extended antifire (*") {
-    if ("Extended antifire":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Ancient brew (*") {
-    if ("Ancient brew":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANCIENT_BREW_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine bastion potion (*") {
-    if ("Divine bastion potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine battlemage potion (*") {
-    if ("Divine battlemage potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Anti-venom (*") {
-    if ("Anti-venom":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANTI_VENOM_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Menaphite remedy (*") {
-    if ("Menaphite remedy":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_MENAPHITE_REMEDY_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super combat potion (*") {
-    if ("Super combat potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Forgotten brew (*") {
-    if ("Forgotten brew":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_FORGOTTEN_BREW_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Super antifire potion (*") {
-    if ("Super antifire potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Anti-venom+ (*") {
-    if ("Anti-venom+":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Extended anti-venom+ (*") {
-    if ("Extended anti-venom+":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Divine super combat potion (*") {
-    if ("Divine super combat potion":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:"Extended super antifire (*") {
-    if ("Extended super antifire":VAR_POTIONS_HIDE) {
-        hidden = true;
-    }
-    VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE
-    if (!VAR_POTIONS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
 
 // endmodule:potions

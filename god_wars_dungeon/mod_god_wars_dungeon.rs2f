@@ -5,12 +5,20 @@
 #define VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW []
 #define VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE []
 
-if (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE) {
-    hidden = true;
-}
 
-if (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW) {
-    hidden = false;
+
+#define VAR_DISABLE_GOD_WARS_DUNGEON_MODULE nop;
+
+if (!VAR_DISABLE_GOD_WARS_DUNGEON_MODULE) {
+
+    if (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE) {
+        hidden = true;
+    }
+
+    if (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW) {
+        hidden = false;
+    }
+
 }
 
 // endmodule:god_wars_dungeon

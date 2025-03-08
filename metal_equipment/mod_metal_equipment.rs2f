@@ -127,738 +127,744 @@
 
 
 
-if (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
+#define VAR_DISABLE_METAL_EQUIPMENT_MODULE nop;
+
+if (!VAR_DISABLE_METAL_EQUIPMENT_MODULE) {
+
+    if (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_RANGED_WEAPONS) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_AMMO) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_ARMOUR) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_TRIMMED_ARMOUR) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BRONZE_OTHER) {
+        if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BRONZE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_RANGED_WEAPONS) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_AMMO) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_ARMOUR) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_TRIMMED_ARMOUR) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_IRON_OTHER) {
+        if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_IRON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_RANGED_WEAPONS) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_AMMO) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_ARMOUR) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_TRIMMED_ARMOUR) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_STEEL_OTHER) {
+        if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_STEEL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_RANGED_WEAPONS) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_AMMO) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_ARMOUR) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_TRIMMED_ARMOUR) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_OTHER) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_BLACK_HERALDIC_ARMOUR) {
+        if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_BLACK_HERALDIC_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_RANGED_WEAPONS) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_AMMO) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_ARMOUR) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_MITHRIL_OTHER) {
+        if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_MITHRIL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_RANGED_WEAPONS) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_AMMO) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_ARMOUR) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_OTHER) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
+        if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_ADAMANT_HERALDIC_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_RANGED_WEAPONS) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_AMMO) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_OTHER) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_HERALDIC_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_HERALDIC_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_GILDED) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_GILDED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_ANCIENT_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_ANCIENT_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_ARMADYL_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_ARMADYL_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_BANDOS_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_BANDOS_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_GUTHIX_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_GUTHIX_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_SARADOMIN_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
+        if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUNE_ZAMORAK_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+
+
+    if (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS) {
+        if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS) {
+        if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_DRAGON_RANGED_WEAPONS) {
+        if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_DRAGON_AMMO) {
+        if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_DRAGON_ARMOUR) {
+        if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGON_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR) {
+        if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE
+        if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_BRONZE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_RANGED_WEAPONS) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_AMMO) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_ARMOUR) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_TRIMMED_ARMOUR) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BRONZE_OTHER) {
-    if ("Bronze":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BRONZE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_RANGED_WEAPONS) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_AMMO) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_ARMOUR) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_TRIMMED_ARMOUR) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_IRON_OTHER) {
-    if ("Iron":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_IRON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_RANGED_WEAPONS) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_AMMO) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_ARMOUR) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_TRIMMED_ARMOUR) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_STEEL_OTHER) {
-    if ("Steel":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_STEEL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_RANGED_WEAPONS) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_AMMO) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_ARMOUR) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_TRIMMED_ARMOUR) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_OTHER) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_BLACK_HERALDIC_ARMOUR) {
-    if ("Black":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_BLACK_HERALDIC_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_RANGED_WEAPONS) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_AMMO) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_ARMOUR) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_MITHRIL_OTHER) {
-    if ("Mithril":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_MITHRIL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_RANGED_WEAPONS) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_AMMO) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_ARMOUR) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_OTHER) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
-    if ("Adamant":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_ADAMANT_HERALDIC_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_RANGED_WEAPONS) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_AMMO) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_OTHER) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_HERALDIC_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_HERALDIC_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_GILDED) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_GILDED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_ANCIENT_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_ANCIENT_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_ARMADYL_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_ARMADYL_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_BANDOS_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_BANDOS_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_GUTHIX_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_GUTHIX_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_SARADOMIN_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
-    if ("Rune":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUNE_ZAMORAK_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-
-
-if (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS) {
-    if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_DRAGON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS) {
-    if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_DRAGON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_DRAGON_RANGED_WEAPONS) {
-    if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_DRAGON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:CONST_DRAGON_AMMO) {
-    if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_DRAGON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_DRAGON_ARMOUR) {
-    if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_DRAGON_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
-
-if (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR) {
-    if ("Dragon":VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-        hidden = true;
-    }
-    VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE
-    if (!VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
 }
 
 // endmodule:metal_equipment

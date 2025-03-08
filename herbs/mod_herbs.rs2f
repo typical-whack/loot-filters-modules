@@ -22,154 +22,162 @@
 
 #define VAR_HERBS_COLOR_MENU_TEXT nop;
 
-if (name:["grimy guam leaf", "guam leaf"]) {
-    if ("Guam leaf":VAR_HERBS_HIDE) {
-        hidden=true;
-    }
-    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy marrentill", "marrentill"]) {
-    if ("Marrentill":VAR_HERBS_HIDE) {
-        hidden=true;
-    }
-    VAR_HERBS_MARRENTILL_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy tarromin", "tarromin"]) {
-    if ("Tarromin":VAR_HERBS_HIDE) {
-        hidden=true;
-    }
-    VAR_HERBS_TARROMIN_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
+#define VAR_DISABLE_HERBS_MODULE nop;
 
-if (name:["grimy harralander", "harralander"]) {
-    if ("Harralander":VAR_HERBS_HIDE) {
-        hidden=true;
-    }
-    VAR_HERBS_HARRALANDER_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
+if (!VAR_DISABLE_HERBS_MODULE) {
 
-if (name:["grimy ranarr weed", "ranarr weed"]) {
-    if ("Ranarr weed":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy guam leaf", "guam leaf"]) {
+        if ("Guam leaf":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy toadflax", "toadflax"]) {
-    if ("Toadflax":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy marrentill", "marrentill"]) {
+        if ("Marrentill":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_MARRENTILL_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_TOADFLAX_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy irit leaf", "irit leaf"]) {
-    if ("Irit leaf":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy tarromin", "tarromin"]) {
+        if ("Tarromin":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_TARROMIN_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy avantoe", "avantoe"]) {
-    if ("Avantoe":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy harralander", "harralander"]) {
+        if ("Harralander":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_HARRALANDER_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_AVANTOE_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy kwuarm", "kwuarm"]) {
-    if ("Kwuarm":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy ranarr weed", "ranarr weed"]) {
+        if ("Ranarr weed":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_KWUARM_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy huasca", "huasca"]) {
-    if ("Huasca":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy toadflax", "toadflax"]) {
+        if ("Toadflax":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_TOADFLAX_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_HUASCA_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy snapdragon", "snapdragon"]) {
-    if ("Snapdragon":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy irit leaf", "irit leaf"]) {
+        if ("Irit leaf":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy cadantine", "cadantine"]) {
-    if ("Cadantine":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy avantoe", "avantoe"]) {
+        if ("Avantoe":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_AVANTOE_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_CADANTINE_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy lantadyme", "lantadyme"]) {
-    if ("Lantadyme":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy kwuarm", "kwuarm"]) {
+        if ("Kwuarm":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_KWUARM_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_LANTADYME_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy dwarf_weed", "dwarf_weed"]) {
-    if ("Dwarf_weed":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy huasca", "huasca"]) {
+        if ("Huasca":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_HUASCA_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["grimy torstol", "torstol"]) {
-    if ("Torstol":VAR_HERBS_HIDE) {
-        hidden=true;
+    if (name:["grimy snapdragon", "snapdragon"]) {
+        if ("Snapdragon":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_HERBS_TORSTOL_CUSTOMSTYLE
-    if (!VAR_HERBS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+
+    if (name:["grimy cadantine", "cadantine"]) {
+        if ("Cadantine":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_CADANTINE_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
+
+    if (name:["grimy lantadyme", "lantadyme"]) {
+        if ("Lantadyme":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_LANTADYME_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:["grimy dwarf_weed", "dwarf_weed"]) {
+        if ("Dwarf_weed":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:["grimy torstol", "torstol"]) {
+        if ("Torstol":VAR_HERBS_HIDE) {
+            hidden=true;
+        }
+        VAR_HERBS_TORSTOL_CUSTOMSTYLE
+        if (!VAR_HERBS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
 }
 
 // endmodule:herbs

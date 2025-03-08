@@ -17,104 +17,112 @@
 
 #define VAR_GEMS_COLOR_MENU_TEXT nop;
 
-if (name:["Uncut sapphire", "Sapphire"]) {
-    if ("Sapphire":VAR_GEMS_HIDE) {
-        hidden = true;
-    }
-    VAR_SAPPHIRE_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Uncut emerald", "Emerald"]) {
-    if ("Emerald":VAR_GEMS_HIDE) {
-        hidden = true;
-    }
-    VAR_EMERALD_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Uncut ruby", "Ruby"]) {
-    if ("Ruby":VAR_GEMS_HIDE) {
-        hidden = true;
-    }
-    VAR_RUBY_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
+#define VAR_DISABLE_GEMS_MODULE nop;
 
-if (name:["Uncut diamond", "Diamond"]) {
-    if ("Diamond":VAR_GEMS_HIDE) {
-        hidden = true;
-    }
-    VAR_DIAMOND_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
+if (!VAR_DISABLE_GEMS_MODULE) {
 
-if (name:["Uncut opal", "Opal"]) {
-    if ("Opal":VAR_GEMS_HIDE) {
-        hidden = true;
+    if (name:["Uncut sapphire", "Sapphire"]) {
+        if ("Sapphire":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_SAPPHIRE_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_OPAL_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Uncut jade", "Jade"]) {
-    if ("Jade":VAR_GEMS_HIDE) {
-        hidden = true;
+    if (name:["Uncut emerald", "Emerald"]) {
+        if ("Emerald":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_EMERALD_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_JADE_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Uncut red topaz", "Red topaz"]) {
-    if ("Red topaz":VAR_GEMS_HIDE) {
-        hidden = true;
+    if (name:["Uncut ruby", "Ruby"]) {
+        if ("Ruby":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_RUBY_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_RED_TOPAZ_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Uncut dragonstone", "Dragonstone"]) {
-    if ("Dragonstone":VAR_GEMS_HIDE) {
-        hidden = true;
+    if (name:["Uncut diamond", "Diamond"]) {
+        if ("Diamond":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_DIAMOND_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_DRAGONSTONE_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Uncut onyx", "Onyx"]) {
-    if ("Onyx":VAR_GEMS_HIDE) {
-        hidden = true;
+    if (name:["Uncut opal", "Opal"]) {
+        if ("Opal":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_OPAL_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_ONYX_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:["Zenyte shard", "Uncut zenyte", "Zenyte"]) {
-    if ("Zenyte":VAR_GEMS_HIDE) {
-        hidden = true;
+    if (name:["Uncut jade", "Jade"]) {
+        if ("Jade":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_JADE_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_ZENYTE_CUSTOMSTYLE
-    if (!VAR_GEMS_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+
+    if (name:["Uncut red topaz", "Red topaz"]) {
+        if ("Red topaz":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_RED_TOPAZ_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
+
+    if (name:["Uncut dragonstone", "Dragonstone"]) {
+        if ("Dragonstone":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_DRAGONSTONE_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:["Uncut onyx", "Onyx"]) {
+        if ("Onyx":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_ONYX_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
+    if (name:["Zenyte shard", "Uncut zenyte", "Zenyte"]) {
+        if ("Zenyte":VAR_GEMS_HIDE) {
+            hidden = true;
+        }
+        VAR_ZENYTE_CUSTOMSTYLE
+        if (!VAR_GEMS_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
 }
 
 // endmodule:gems

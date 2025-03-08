@@ -29,224 +29,230 @@
 
 #define VAR_RUNES_COLOR_MENU_TEXT nop;
 
-if (name:"Air rune") {
-    if ("Air rune":VAR_RUNES_HIDE) {
-        hidden = true;
-    }
-    VAR_AIR_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
+#define VAR_DISABLE_RUNES_MODULE nop;
 
-if (name:"Mind rune") {
-    if ("Mind rune":VAR_RUNES_HIDE) {
-        hidden = true;
-    }
-    VAR_MIND_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
+if (!VAR_DISABLE_RUNES_MODULE) {
 
-if (name:"Water rune") {
-    if ("Water rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Air rune") {
+        if ("Air rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_AIR_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_WATER_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Earth rune") {
-    if ("Earth rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Mind rune") {
+        if ("Mind rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_MIND_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_EARTH_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Fire rune") {
-    if ("Fire rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Water rune") {
+        if ("Water rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_WATER_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_FIRE_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Body rune") {
-    if ("Body rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Earth rune") {
+        if ("Earth rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_EARTH_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_BODY_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Cosmic rune") {
-    if ("Cosmic rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Fire rune") {
+        if ("Fire rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_FIRE_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_COSMIC_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Chaos rune") {
-    if ("Chaos rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Body rune") {
+        if ("Body rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_BODY_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_CHAOS_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Nature rune") {
-    if ("Nature rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Cosmic rune") {
+        if ("Cosmic rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_COSMIC_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_NATURE_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Law rune") {
-    if ("Law rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Chaos rune") {
+        if ("Chaos rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_CHAOS_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_LAW_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Death rune") {
-    if ("Death rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Nature rune") {
+        if ("Nature rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_NATURE_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_DEATH_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Sunfire rune") {
-    if ("Sunfire rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Law rune") {
+        if ("Law rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_LAW_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_SUNFIRE_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Astral rune") {
-    if ("Astral rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Death rune") {
+        if ("Death rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_DEATH_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_ASTRAL_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Blood rune") {
-    if ("Blood rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Sunfire rune") {
+        if ("Sunfire rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_SUNFIRE_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_BLOOD_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Soul rune") {
-    if ("Soul rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Astral rune") {
+        if ("Astral rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_ASTRAL_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_SOUL_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Wrath rune") {
-    if ("Wrath rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Blood rune") {
+        if ("Blood rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_BLOOD_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_WRATH_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Mist rune") {
-    if ("Mist rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Soul rune") {
+        if ("Soul rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_SOUL_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_MIST_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Dust rune") {
-    if ("Dust rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Wrath rune") {
+        if ("Wrath rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_WRATH_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_DUST_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Mud rune") {
-    if ("Mud rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Mist rune") {
+        if ("Mist rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_MIST_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_MUD_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Smoke rune") {
-    if ("Smoke rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Dust rune") {
+        if ("Dust rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_DUST_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_SMOKE_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Steam rune") {
-    if ("Steam rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Mud rune") {
+        if ("Mud rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_MUD_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_STEAM_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-    }
-}
 
-if (name:"Lava rune") {
-    if ("Lava rune":VAR_RUNES_HIDE) {
-        hidden = true;
+    if (name:"Smoke rune") {
+        if ("Smoke rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_SMOKE_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
-    VAR_LAVA_RUNE_CUSTOMSTYLE
-    if (!VAR_RUNES_COLOR_MENU_TEXT) {
-        menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+
+    if (name:"Steam rune") {
+        if ("Steam rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_STEAM_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
     }
+
+    if (name:"Lava rune") {
+        if ("Lava rune":VAR_RUNES_HIDE) {
+            hidden = true;
+        }
+        VAR_LAVA_RUNE_CUSTOMSTYLE
+        if (!VAR_RUNES_COLOR_MENU_TEXT) {
+            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
+        }
+    }
+
 }
 
 // endmodule:ores

@@ -10,28 +10,36 @@
 #define VAR_KREE_COMMON_SHOW []
 #define VAR_KREE_SUPPLY_SHOW []
 
-if (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_HIDE) {
-    hidden = true;
-}
 
-if (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_HIDE) {
-    hidden = true;
-}
 
-if (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_HIDE) {
-    hidden = true;
-}
+#define VAR_DISABLE_KREE_MODULE nop;
 
-if (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_SHOW) {
-    hidden = false;
-}
+if (!VAR_DISABLE_KREE_MODULE) {
 
-if (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_SHOW) {
-    hidden = false;
-}
+    if (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_HIDE) {
+        hidden = true;
+    }
 
-if (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_SHOW) {
-    hidden = false;
+    if (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_HIDE) {
+        hidden = true;
+    }
+
+    if (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_HIDE) {
+        hidden = true;
+    }
+
+    if (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_SHOW) {
+        hidden = false;
+    }
+
+    if (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_SHOW) {
+        hidden = false;
+    }
+
+    if (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_SHOW) {
+        hidden = false;
+    }
+
 }
 
 // endmodule:kree
