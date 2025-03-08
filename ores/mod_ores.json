@@ -37,9 +37,9 @@
             "default": {
                 "backgroundColor": "#da7d37",
                 "borderColor": "#da7d37",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#da7d37"
             }
         },
@@ -50,9 +50,9 @@
             "default": {
                 "backgroundColor": "#887f7e",
                 "borderColor": "#887f7e",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#887f7e"
             }
         },
@@ -63,9 +63,9 @@
             "default": {
                 "backgroundColor": "#4c2d22",
                 "borderColor": "#4c2d22",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#4c2d22"
             }
         },
@@ -76,9 +76,9 @@
             "default": {
                 "backgroundColor": "#9999a5",
                 "borderColor": "#9999a5",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#9999a5"
             }
         },
@@ -89,9 +89,9 @@
             "default": {
                 "backgroundColor": "#383725",
                 "borderColor": "#383725",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#383725"
             }
         },
@@ -102,9 +102,9 @@
             "default": {
                 "backgroundColor": "#c6a118",
                 "borderColor": "#c6a118",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#c6a118"
             }
         },
@@ -115,9 +115,9 @@
             "default": {
                 "backgroundColor": "#48486a",
                 "borderColor": "#48486a",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#48486a"
             }
         },
@@ -128,9 +128,9 @@
             "default": {
                 "backgroundColor": "#485b49",
                 "borderColor": "#485b49",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#485b49"
             }
         },
@@ -141,9 +141,9 @@
             "default": {
                 "backgroundColor": "#4d6671",
                 "borderColor": "#4d6671",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#4d6671"
             }
         },
@@ -154,9 +154,9 @@
             "default": {
                 "backgroundColor": "#0a645b",
                 "borderColor": "#0a645b",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#0a645b"
             }
         },
@@ -167,9 +167,9 @@
             "default": {
                 "backgroundColor": "#515757",
                 "borderColor": "#515757",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#515757"
             }
         },
@@ -180,9 +180,9 @@
             "default": {
                 "backgroundColor": "#787acf",
                 "borderColor": "#787acf",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#787acf"
             }
         },
@@ -193,9 +193,9 @@
             "default": {
                 "backgroundColor": "#5c1009",
                 "borderColor": "#5c1009",
-                "textColor": "#000000",
+                "textColor": "#FF000000",
                 "textAccent": 1,
-                "textAccentColor": "#FFFFFF",
+                "textAccentColor": "#FFFFFFFF",
                 "menuTextColor": "#5c1009"
             }
         }
