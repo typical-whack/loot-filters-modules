@@ -4,6 +4,11 @@
     "description": "A collection of loot filters for OSRS",
     "modules": [
         {
+            "name": "Metal equipment",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.rs2f"
+        },
+        {
             "name": "Runes",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/runes/mod_runes.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/runes/mod_runes.rs2f"

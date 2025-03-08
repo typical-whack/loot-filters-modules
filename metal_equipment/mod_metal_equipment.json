@@ -1,0 +1,463 @@
+{
+    "name": "Standard Metal Equipment",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_METAL_EQUIPMENT_TIERS_HIDE",
+            "label": "Metal equipment to hide",
+            "enum": [
+                "Bronze",
+                "Iron",
+                "Steel",
+                "Black",
+                "Mithril",
+                "Adamant",
+                "Rune",
+                "Dragon"
+            ],
+            "default": [
+                "Bronze",
+                "Iron",
+                "Steel",
+                "Black",
+                "Mithril",
+                "Adamant"
+            ]
+        },
+        {
+            "type": "boolean",
+            "macroName": "VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT",
+            "label": "Color metal equipment menu text",
+            "default": true
+        },
+        {
+            "macroName":"VAR_BRONZE_CUSTOMSTYLE",
+            "label": "Bronze equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#43341d",
+                "borderColor": "#43341d",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#43341d"
+            }
+        },
+        {
+            "macroName":"VAR_BRONZE_TRIMMED_CUSTOMSTYLE",
+            "label": "Bronze (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#43341d",
+                "borderColor": "#615c2d",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#43341d"
+            }
+        },
+        {
+            "macroName":"VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Bronze (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#43341d",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#43341d"
+            }
+        },
+        {
+            "macroName":"VAR_IRON_CUSTOMSTYLE",
+            "label": "Iron equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#4f4948",
+                "borderColor": "#4f4948",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#4f4948"
+            }
+        },
+        {
+            "macroName":"VAR_IRON_TRIMMED_CUSTOMSTYLE",
+            "label": "Iron (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#4f4948",
+                "borderColor": "#151111",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#4f4948"
+            }
+        },
+        {
+            "macroName":"VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Iron (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#4f4948",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#4f4948"
+            }
+        },
+        {
+            "macroName":"VAR_STEEL_CUSTOMSTYLE",
+            "label": "Steel equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#857c7b",
+                "borderColor": "#857c7b",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#857c7b"
+            }
+        },
+        {
+            "macroName":"VAR_STEEL_TRIMMED_CUSTOMSTYLE",
+            "label": "Steel (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#857c7b",
+                "borderColor": "#b1a6a6",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#857c7b"
+            }
+        },
+        {
+            "macroName":"VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Steel (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#857c7b",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#857c7b"
+            }
+        },
+        {
+            "macroName":"VAR_BLACK_CUSTOMSTYLE",
+            "label": "Black equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1d1b1b",
+                "borderColor": "#1d1b1b",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#1d1b1b"
+            }
+        },
+        {
+            "macroName":"VAR_BLACK_TRIMMED_CUSTOMSTYLE",
+            "label": "Black (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1d1b1b",
+                "borderColor": "#423e3e",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#1d1b1b"
+            }
+        },
+        {
+            "macroName":"VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Black (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1d1b1b",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#1d1b1b"
+            }
+        },
+        {
+            "macroName":"VAR_BLACK_HERALDIC_CUSTOMSTYLE",
+            "label": "Black heraldic equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#1d1b1b",
+                "borderColor": "#1d1b1b",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#1d1b1b"
+            }
+        },
+        {
+            "macroName":"VAR_MITHRIL_CUSTOMSTYLE",
+            "label": "Mithril equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#414161",
+                "borderColor": "#414161",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#414161"
+            }
+        },
+        {
+            "macroName":"VAR_MITHRIL_TRIMMED_CUSTOMSTYLE",
+            "label": "Mithril (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#414161",
+                "borderColor": "#6e8aa3",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#414161"
+            }
+        },
+        {
+            "macroName":"VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Mithril (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#414161",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#414161"
+            }
+        },
+        {
+            "macroName":"VAR_ADAMANT_CUSTOMSTYLE",
+            "label": "Adamant equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#405140",
+                "borderColor": "#405140",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#405140"
+            }
+        },
+        {
+            "macroName":"VAR_ADAMANT_TRIMMED_CUSTOMSTYLE",
+            "label": "Adamant (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#405140",
+                "borderColor": "#6a725a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#405140"
+            }
+        },
+        {
+            "macroName":"VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Adamant (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#405140",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#405140"
+            }
+        },
+        {
+            "macroName":"VAR_ADAMANT_HERALDIC_CUSTOMSTYLE",
+            "label": "Adamant heraldic equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#405140",
+                "borderColor": "#405140",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#405140"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_CUSTOMSTYLE",
+            "label": "Rune equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#415760",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_TRIMMED_CUSTOMSTYLE",
+            "label": "Rune (t) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#6d88a1",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Rune (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_HERALDIC_CUSTOMSTYLE",
+            "label": "Rune heraldic equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#415760",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_GILDED_CUSTOMSTYLE",
+            "label": "Gilded equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#c39318",
+                "borderColor": "#7c540c",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_ANCIENT_CUSTOMSTYLE",
+            "label": "Rune ancient equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#552f53",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_ARMADYL_CUSTOMSTYLE",
+            "label": "Rune armadyl equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#706868",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_BANDOS_CUSTOMSTYLE",
+            "label": "Rune bandos equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#746228",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_GUTHIX_CUSTOMSTYLE",
+            "label": "Rune guthix equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#437745",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_SARADOMIN_CUSTOMSTYLE",
+            "label": "Rune saradomin equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#acab88",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_RUNE_ZAMORAK_CUSTOMSTYLE",
+            "label": "Rune zamorak equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#415760",
+                "borderColor": "#801a0d",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#415760"
+            }
+        },
+        {
+            "macroName":"VAR_DRAGON_CUSTOMSTYLE",
+            "label": "Dragon equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#541109",
+                "borderColor": "#541109",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#541109"
+            }
+        },
+        {
+            "macroName":"VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE",
+            "label": "Dragon (g) equipment style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#541109",
+                "borderColor": "#dea71a",
+                "textColor": "#FF000000",
+                "textAccent": 1,
+                "textAccentColor": "#FFFFFFFF",
+                "menuTextColor": "#541109"
+            }
+        }
+    ]
+}
