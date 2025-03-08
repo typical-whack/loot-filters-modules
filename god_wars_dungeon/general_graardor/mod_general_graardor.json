@@ -2,6 +2,12 @@
     "name": "General Graardor",
     "inputs": [
         {
+            "type": "boolean",
+            "macroName": "VAR_DISABLE_GENERAL_GRAARDOR_MODULE",
+            "label": "Disable module",
+            "default": false
+        },
+        {
             "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_GENERAL_GRAARDOR_UNIQUES_SHOW",

@@ -2,6 +2,12 @@
     "name": "Logs",
     "inputs": [
         {
+            "type": "boolean",
+            "macroName": "VAR_DISABLE_LOGS_MODULE",
+            "label": "Disable module",
+            "default": false
+        },
+        {
             "type": "enumlist",
             "macroName": "VAR_LOGS_HIDE",
             "label": "Logs to hide",

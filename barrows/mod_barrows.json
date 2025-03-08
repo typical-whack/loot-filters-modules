@@ -3,6 +3,12 @@
     "inputs": [
         {
             "type": "boolean",
+            "macroName": "VAR_DISABLE_BARROWS_MODULE",
+            "label": "Disable module",
+            "default": false
+        },
+        {
+            "type": "boolean",
             "macroName": "VAR_BARROWS_COLOR_MENU_TEXT",
             "label": "Color barrows menu text",
             "default": true

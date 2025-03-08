@@ -2,6 +2,12 @@
     "name": "Herbs",
     "inputs": [
         {
+            "type": "boolean",
+            "macroName": "VAR_DISABLE_HERBS_MODULE",
+            "label": "Disable module",
+            "default": false
+        },
+        {
             "type": "enumlist",
             "macroName": "VAR_HERBS_HIDE",
             "label": "Herbs to hide",

@@ -2,6 +2,12 @@
     "name": "Barbarian Potions",
     "inputs": [
         {
+            "type": "boolean",
+            "macroName": "VAR_DISABLE_BARB_POTIONS_MODULE",
+            "label": "Disable module",
+            "default": false
+        },
+        {
             "type": "enumlist",
             "macroName": "VAR_BARB_POTIONS_HIDE",
             "label": "Potions to hide",
