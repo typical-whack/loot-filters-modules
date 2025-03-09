@@ -1,7 +1,5 @@
 // module:logs
 
-#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
-
 #define VAR_LOGS_HIDE []
 
 #define VAR_LOGS_CUSTOMSTYLE 
@@ -20,164 +18,68 @@
 #define VAR_BARK_CUSTOMSTYLE 
 #define VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE 
 
-#define VAR_LOGS_COLOR_MENU_TEXT 
+apply (name:VAR_LOGS_HIDE) {
+    hidden = true;
+}
 
+apply (name:"Logs") {
+    VAR_LOGS_CUSTOMSTYLE
+}
 
+apply (name:"Oak logs") {
+    VAR_OAK_LOGS_CUSTOMSTYLE
+}
 
-#define VAR_DISABLE_LOGS_MODULE 
+apply (name:"Willow logs") {
+    VAR_WILLOW_LOGS_CUSTOMSTYLE
+}
 
-apply (!VAR_DISABLE_LOGS_MODULE) {
+apply (name:"Maple logs") {
+    VAR_MAPLE_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Logs") {
-        apply ("Logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Yew logs") {
+    VAR_YEW_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Oak logs") {
-        apply ("Oak logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_OAK_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Magic logs") {
+    VAR_MAGIC_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Willow logs") {
-        apply ("Willow logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_WILLOW_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Redwood logs") {
+    VAR_REDWOOD_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Maple logs") {
-        apply ("Maple logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_MAPLE_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Teak logs") {
+    VAR_TEAK_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Yew logs") {
-        apply ("Yew logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_YEW_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Mahogany logs") {
+    VAR_MAHOGANY_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Magic logs") {
-        apply ("Magic logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_MAGIC_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Achey tree logs") {
+    VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Redwood logs") {
-        apply ("Redwood logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_REDWOOD_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Arctic pine logs") {
+    VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Teak logs") {
-        apply ("Teak logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_TEAK_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Scrapey tree logs") {
+    VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Mahogany logs") {
-        apply ("Mahogany logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_MAHOGANY_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Juniper logs") {
+    VAR_JUNIPER_LOGS_CUSTOMSTYLE
+}
 
-    apply (name:"Achey tree logs") {
-        apply ("Achey tree logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Bark") {
+    VAR_BARK_CUSTOMSTYLE
+}
 
-    apply (name:"Arctic pine logs") {
-        apply ("Arctic pine logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:"Scrapey tree logs") {
-        apply ("Scrapey tree logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:"Juniper logs") {
-        apply ("Juniper logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_JUNIPER_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:"Bark") {
-        apply ("Bark":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_BARK_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:"Blisterwood logs") {
-        apply ("Blisterwood logs":VAR_LOGS_HIDE) {
-            hidden = true;
-        }
-        VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE
-        apply (!VAR_LOGS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
+apply (name:"Blisterwood logs") {
+    VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE
 }
 
 // endmodule:logs
