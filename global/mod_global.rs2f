@@ -3,7 +3,7 @@
 #define VAR_GLOBAL_HIDE []
 #define VAR_GLOBAL_SHOW []
 
-#define VAR_GLOBAL_CUSTOMSTYLE nop;
+#define VAR_GLOBAL_CUSTOMSTYLE 
 
 
 

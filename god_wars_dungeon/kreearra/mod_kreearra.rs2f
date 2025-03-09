@@ -12,7 +12,7 @@
 
 
 
-#define VAR_DISABLE_KREE_MODULE nop;
+#define VAR_DISABLE_KREE_MODULE 
 
 if (!VAR_DISABLE_KREE_MODULE) {
 

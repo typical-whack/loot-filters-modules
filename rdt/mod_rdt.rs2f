@@ -3,7 +3,7 @@
 #define VAR_RDT_HIDE []
 #define VAR_RDT_SHOW []
 
-#define VAR_DISABLE_RDT_MODULE nop;
+#define VAR_DISABLE_RDT_MODULE 
 
 if (!VAR_DISABLE_RDT_MODULE) {
 
