@@ -6,21 +6,21 @@
             "macroName": "VAR_METAL_EQUIPMENT_TIERS_HIDE",
             "label": "Metal equipment to hide",
             "enum": [
-                "Bronze",
-                "Iron",
-                "Steel",
-                "Black",
-                "Mithril",
-                "Adamant",
-                "Rune",
-                "Dragon"
+                "Bronze*",
+                "Iron*",
+                "Steel*",
+                "Black*",
+                "Mithril*",
+                "Adamant*",
+                "Rune*",
+                "Dragon*"
             ],
             "default": [
-                "Bronze",
-                "Iron",
-                "Steel",
-                "Black",
-                "Mithril"
+                "Bronze*",
+                "Iron*",
+                "Steel*",
+                "Black*",
+                "Mithril*"
             ]
         },
         {
