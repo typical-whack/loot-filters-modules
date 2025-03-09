@@ -1,7 +1,5 @@
 // module:herbs
 
-#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
-
 #define VAR_HERBS_HIDE []
 
 #define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE    
@@ -20,164 +18,68 @@
 #define VAR_HERBS_DWARF_WEED_CUSTOMSTYLE   
 #define VAR_HERBS_TORSTOL_CUSTOMSTYLE 
 
-#define VAR_HERBS_COLOR_MENU_TEXT 
+apply (name:VAR_HERBS_HIDE) {
+    hidden = true;
+}
 
+apply (name:["grimy guam leaf", "guam leaf"]) {
+    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
+}
 
+apply (name:["grimy marrentill", "marrentill"]) {
+    VAR_HERBS_MARRENTILL_CUSTOMSTYLE
+}
 
-#define VAR_DISABLE_HERBS_MODULE 
+apply (name:["grimy tarromin", "tarromin"]) {
+    VAR_HERBS_TARROMIN_CUSTOMSTYLE
+}
 
-apply (!VAR_DISABLE_HERBS_MODULE) {
+apply (name:["grimy harralander", "harralander"]) {
+    VAR_HERBS_HARRALANDER_CUSTOMSTYLE
+}
 
-    apply (name:["grimy guam leaf", "guam leaf"]) {
-        apply ("Guam leaf":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy ranarr weed", "ranarr weed"]) {
+    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
+}
 
-    apply (name:["grimy marrentill", "marrentill"]) {
-        apply ("Marrentill":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_MARRENTILL_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy toadflax", "toadflax"]) {
+    VAR_HERBS_TOADFLAX_CUSTOMSTYLE
+}
 
-    apply (name:["grimy tarromin", "tarromin"]) {
-        apply ("Tarromin":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_TARROMIN_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy irit leaf", "irit leaf"]) {
+    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
+}
 
-    apply (name:["grimy harralander", "harralander"]) {
-        apply ("Harralander":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_HARRALANDER_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy avantoe", "avantoe"]) {
+    VAR_HERBS_AVANTOE_CUSTOMSTYLE
+}
 
-    apply (name:["grimy ranarr weed", "ranarr weed"]) {
-        apply ("Ranarr weed":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy kwuarm", "kwuarm"]) {
+    VAR_HERBS_KWUARM_CUSTOMSTYLE
+}
 
-    apply (name:["grimy toadflax", "toadflax"]) {
-        apply ("Toadflax":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_TOADFLAX_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy huasca", "huasca"]) {
+    VAR_HERBS_HUASCA_CUSTOMSTYLE
+}
 
-    apply (name:["grimy irit leaf", "irit leaf"]) {
-        apply ("Irit leaf":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy snapdragon", "snapdragon"]) {
+    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
+}
 
-    apply (name:["grimy avantoe", "avantoe"]) {
-        apply ("Avantoe":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_AVANTOE_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy cadantine", "cadantine"]) {
+    VAR_HERBS_CADANTINE_CUSTOMSTYLE
+}
 
-    apply (name:["grimy kwuarm", "kwuarm"]) {
-        apply ("Kwuarm":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_KWUARM_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy lantadyme", "lantadyme"]) {
+    VAR_HERBS_LANTADYME_CUSTOMSTYLE
+}
 
-    apply (name:["grimy huasca", "huasca"]) {
-        apply ("Huasca":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_HUASCA_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["grimy dwarf_weed", "dwarf_weed"]) {
+    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
+}
 
-    apply (name:["grimy snapdragon", "snapdragon"]) {
-        apply ("Snapdragon":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["grimy cadantine", "cadantine"]) {
-        apply ("Cadantine":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_CADANTINE_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["grimy lantadyme", "lantadyme"]) {
-        apply ("Lantadyme":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_LANTADYME_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["grimy dwarf_weed", "dwarf_weed"]) {
-        apply ("Dwarf_weed":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["grimy torstol", "torstol"]) {
-        apply ("Torstol":VAR_HERBS_HIDE) {
-            hidden=true;
-        }
-        VAR_HERBS_TORSTOL_CUSTOMSTYLE
-        apply (!VAR_HERBS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
+apply (name:["grimy torstol", "torstol"]) {
+    VAR_HERBS_TORSTOL_CUSTOMSTYLE
 }
 
 // endmodule:herbs
