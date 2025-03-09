@@ -3,176 +3,207 @@
 #define VAR_RDT_HIDE []
 #define VAR_RDT_SHOW []
 
+#define VAR_RDT_CUSTOMSTYLE 
+
 if (name:"Nature rune" && quantity:==67 && "Nature rune":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Nature rune" && quantity:==67 && "Nature rune":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Adamant javelin" && quantity:==20 && "Adamant javelin":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Adamant javelin" && quantity:==20 && "Adamant javelin":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Death rune" && quantity:==45 && "Death rune":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Death rune" && quantity:==45 && "Death rune":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Law rune" && quantity:==45 && "Law rune":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Law rune" && quantity:==45 && "Law rune":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune arrow" && quantity:==42 && "Rune arrow":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune arrow" && quantity:==42 && "Rune arrow":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Steel arrow" && quantity:==150 && "Steel arrow":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Steel arrow" && quantity:==150 && "Steel arrow":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune 2h sword" && quantity:==1 && "Rune 2h sword":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune 2h sword" && quantity:==1 && "Rune 2h sword":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune battleaxe" && quantity:==1 && "Rune battleaxe":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune battleaxe" && quantity:==1 && "Rune battleaxe":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune sq shield" && quantity:==1 && "Rune sq shield":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune sq shield" && quantity:==1 && "Rune sq shield":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Dragon med helm" && quantity:==1 && "Dragon med helm":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Dragon med helm" && quantity:==1 && "Dragon med helm":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune kiteshield" && quantity:==1 && "Rune kiteshield":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune kiteshield" && quantity:==1 && "Rune kiteshield":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Coins" && quantity:==3000 && "Coins":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Coins" && quantity:==3000 && "Coins":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Loop half of key" && quantity:==1 && "Loop half of key":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Loop half of key" && quantity:==1 && "Loop half of key":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Tooth half of key" && quantity:==1 && "Tooth half of key":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Tooth half of key" && quantity:==1 && "Tooth half of key":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Runite bar" && quantity:==1 && "Runite bar":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Runite bar" && quantity:==1 && "Runite bar":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Dragonstone" && quantity:==1 && "Dragonstone":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Dragonstone" && quantity:==1 && "Dragonstone":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Silver ore" && quantity:==100 && "Silver ore":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Silver ore" && quantity:==100 && "Silver ore":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Uncut sapphire" && quantity:==1 && "Uncut sapphire":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Uncut sapphire" && quantity:==1 && "Uncut sapphire":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Uncut emerald" && quantity:==1 && "Uncut emerald":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Uncut emerald" && quantity:==1 && "Uncut emerald":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Uncut ruby" && quantity:==1 && "Uncut ruby":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Uncut ruby" && quantity:==1 && "Uncut ruby":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Chaos talisman" && quantity:==1 && "Chaos talisman":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Chaos talisman" && quantity:==1 && "Chaos talisman":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Nature talisman" && quantity:==1 && "Nature talisman":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Nature talisman" && quantity:==1 && "Nature talisman":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Uncut diamond" && quantity:==1 && "Uncut diamond":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Uncut diamond" && quantity:==1 && "Uncut diamond":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune javelin" && quantity:==5 && "Rune javelin":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune javelin" && quantity:==5 && "Rune javelin":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Loop half of key" && quantity:==1 && "Loop half of key":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Loop half of key" && quantity:==1 && "Loop half of key":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Tooth half of key" && quantity:==1 && "Tooth half of key":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Tooth half of key" && quantity:==1 && "Tooth half of key":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Rune spear" && quantity:==1 && "Rune spear":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Rune spear" && quantity:==1 && "Rune spear":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Shield left half" && quantity:==1 && "Shield left half":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Shield left half" && quantity:==1 && "Shield left half":VAR_RDT_HIDE) {
     hidden=true;
 }
 if (name:"Dragon spear" && quantity:==1 && "Dragon spear":VAR_RDT_SHOW) {
     hidden=false;
+    VAR_RDT_CUSTOMSTYLE
 }
 if (name:"Dragon spear" && quantity:==1 && "Dragon spear":VAR_RDT_HIDE) {
     hidden=true;

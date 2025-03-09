@@ -76,6 +76,14 @@
                 "Shield left half",
                 "Dragon spear"
             ]
+        },
+        {
+            "macroName":"VAR_RDT_CUSTOMSTYLE",
+            "label": "RDT custom style",
+            "type": "style",
+            "default": {
+                "borderColor": "#FFdea71a"
+            }
         }
     ]
 }
