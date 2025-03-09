@@ -7,9 +7,7 @@
 
 
 
-apply (true) {
-    VAR_GLOBAL_CUSTOMSTYLE
-}
+VAR_GLOBAL_CUSTOMSTYLE
 
 if (name:VAR_GLOBAL_HIDE) {
     hidden = true;
