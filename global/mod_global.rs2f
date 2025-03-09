@@ -7,7 +7,9 @@
 
 
 
-VAR_GLOBAL_CUSTOMSTYLE
+apply (name:"*") {
+    VAR_GLOBAL_CUSTOMSTYLE
+}
 
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
@@ -16,5 +18,7 @@ apply (name:VAR_GLOBAL_HIDE) {
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
+
+
 
 // endmodule:global
