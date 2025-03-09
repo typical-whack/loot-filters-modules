@@ -24,88 +24,88 @@
 
 #define VAR_DISABLE_COX_POTIONS_MODULE 
 
-if (!VAR_DISABLE_COX_POTIONS_MODULE) {
+apply (!VAR_DISABLE_COX_POTIONS_MODULE) {
 
-    if (area:CONST_COX_AREA && VAR_COX_POTIONS_HIDE_LOWER && name:CONST_COX_POTIONS_LOWER_TIER) {
+    apply (area:CONST_COX_AREA && VAR_COX_POTIONS_HIDE_LOWER && name:CONST_COX_POTIONS_LOWER_TIER) {
         hidden = true;
     }
 
-    if (area:CONST_COX_AREA && name:["elder (-)*", "elder potion*", "elder (+)*"]) {
-        if ("Elder potion":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["elder (-)*", "elder potion*", "elder (+)*"]) {
+        apply ("Elder potion":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_ELDER_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
-        if ("Twisted potion":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
+        apply ("Twisted potion":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_TWISTED_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
-        if ("Kodai potion":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
+        apply ("Kodai potion":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_KODAI_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
-        if ("Revitalisation potion":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
+        apply ("Revitalisation potion":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_REVITALISATION_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
-        if ("Prayer enhance":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
+        apply ("Prayer enhance":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_PRAYER_ENHANCE_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
-        if ("Xeric's aid":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
+        apply ("Xeric's aid":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_XERICS_AID_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
-        if ("Antipoison":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
+        apply ("Antipoison":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_ANTIPOISON_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (area:CONST_COX_AREA && name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
-        if ("Overload":VAR_COX_POTIONS_HIDE) {
+    apply (area:CONST_COX_AREA && name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
+        apply ("Overload":VAR_COX_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_COX_POTIONS_OVERLOAD_CUSTOMSTYLE
-        if (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_COX_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }

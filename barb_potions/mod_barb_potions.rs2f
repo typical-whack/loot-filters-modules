@@ -40,294 +40,294 @@
 
 #define VAR_DISABLE_BARB_POTIONS_MODULE 
 
-if (!VAR_DISABLE_BARB_POTIONS_MODULE) {
+apply (!VAR_DISABLE_BARB_POTIONS_MODULE) {
 
-    if (name:["Attack mix*"]) {
-        if ("Attack mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Attack mix*"]) {
+        apply ("Attack mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ATTACK_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Antipoison mix*"]) {
-        if ("Antipoison mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Antipoison mix*"]) {
+        apply ("Antipoison mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ANTIPOISON_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Relicym's mix*"]) {
-        if ("Relicym's mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Relicym's mix*"]) {
+        apply ("Relicym's mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_RELICYMS_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Strength mix*"]) {
-        if ("Strength mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Strength mix*"]) {
+        apply ("Strength mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_STRENGTH_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Restore mix*"]) {
-        if ("Restore mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Restore mix*"]) {
+        apply ("Restore mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_RESTORE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Energy mix*"]) {
-        if ("Energy mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Energy mix*"]) {
+        apply ("Energy mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ENERGY_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Defence mix*"]) {
-        if ("Defence mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Defence mix*"]) {
+        apply ("Defence mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_DEFENCE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Agility mix*"]) {
-        if ("Agility mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Agility mix*"]) {
+        apply ("Agility mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_AGILITY_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Combat mix*"]) {
-        if ("Combat mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Combat mix*"]) {
+        apply ("Combat mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_COMBAT_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Prayer mix*"]) {
-        if ("Prayer mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Prayer mix*"]) {
+        apply ("Prayer mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_PRAYER_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Superattack mix*"]) {
-        if ("Superattack mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Superattack mix*"]) {
+        apply ("Superattack mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_SUPERATTACK_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Anti-poison supermix*"]) {
-        if ("Anti-poison supermix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Anti-poison supermix*"]) {
+        apply ("Anti-poison supermix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ANTI_POISON_SUPERMIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Fishing mix*"]) {
-        if ("Fishing mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Fishing mix*"]) {
+        apply ("Fishing mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_FISHING_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Super energy mix*"]) {
-        if ("Super energy mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Super energy mix*"]) {
+        apply ("Super energy mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_SUPER_ENERGY_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Hunting mix*"]) {
-        if ("Hunting mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Hunting mix*"]) {
+        apply ("Hunting mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_HUNTING_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Super str. mix*"]) {
-        if ("Super str. mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Super str. mix*"]) {
+        apply ("Super str. mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_SUPER_STR_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Magic essence mix*"]) {
-        if ("Magic essence mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Magic essence mix*"]) {
+        apply ("Magic essence mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_MAGIC_ESSENCE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Super restore mix*"]) {
-        if ("Super restore mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Super restore mix*"]) {
+        apply ("Super restore mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_SUPER_RESTORE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Super def. mix*"]) {
-        if ("Super def. mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Super def. mix*"]) {
+        apply ("Super def. mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_SUPER_DEF_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Antidote+ mix*"]) {
-        if ("Antidote+ mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Antidote+ mix*"]) {
+        apply ("Antidote+ mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ANTIDOTE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Antifire mix*"]) {
-        if ("Antifire mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Antifire mix*"]) {
+        apply ("Antifire mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ANTIFIRE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Ranging mix*"]) {
-        if ("Ranging mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Ranging mix*"]) {
+        apply ("Ranging mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_RANGING_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Magic mix*"]) {
-        if ("Magic mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Magic mix*"]) {
+        apply ("Magic mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_MAGIC_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Zamorak mix*"]) {
-        if ("Zamorak mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Zamorak mix*"]) {
+        apply ("Zamorak mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ZAMORAK_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Stamina mix*"]) {
-        if ("Stamina mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Stamina mix*"]) {
+        apply ("Stamina mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_STAMINA_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Extended antifire mix*"]) {
-        if ("Extended antifire mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Extended antifire mix*"]) {
+        apply ("Extended antifire mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_EXTENDED_ANTIFIRE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Ancient mix*"]) {
-        if ("Ancient mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Ancient mix*"]) {
+        apply ("Ancient mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_ANCIENT_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Super antifire mix*"]) {
-        if ("Super antifire mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Super antifire mix*"]) {
+        apply ("Super antifire mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }
 
-    if (name:["Extended super antifire mix*"]) {
-        if ("Extended super antifire mix":VAR_BARB_POTIONS_HIDE) {
+    apply (name:["Extended super antifire mix*"]) {
+        apply ("Extended super antifire mix":VAR_BARB_POTIONS_HIDE) {
             hidden = true;
         }
         VAR_BARB_POTIONS_EXTENDED_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE
-        if (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
+        apply (!VAR_BARB_POTIONS_COLOR_MENU_TEXT) {
             menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
         }
     }

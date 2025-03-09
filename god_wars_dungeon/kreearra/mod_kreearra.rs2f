@@ -14,29 +14,29 @@
 
 #define VAR_DISABLE_KREE_MODULE 
 
-if (!VAR_DISABLE_KREE_MODULE) {
+apply (!VAR_DISABLE_KREE_MODULE) {
 
-    if (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_HIDE) {
+    apply (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_HIDE) {
         hidden = true;
     }
 
-    if (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_HIDE) {
+    apply (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_HIDE) {
         hidden = true;
     }
 
-    if (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_HIDE) {
+    apply (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_HIDE) {
         hidden = true;
     }
 
-    if (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_SHOW) {
+    apply (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_SHOW) {
         hidden = false;
     }
 
-    if (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_SHOW) {
+    apply (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_SHOW) {
         hidden = false;
     }
 
-    if (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_SHOW) {
+    apply (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_SHOW) {
         hidden = false;
     }
 

@@ -12,7 +12,7 @@
 #define VAR_DRAGONSTONE_CUSTOMSTYLE 
 #define VAR_ONYX_CUSTOMSTYLE 
 
-if (name:VAR_GEMS_HIDE) {
+apply (name:VAR_GEMS_HIDE) {
     hidden = true;
 }
 
