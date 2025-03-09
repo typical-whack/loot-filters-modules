@@ -126,6 +126,7 @@
 #define CONST_DRAGON_GOLD_TRIMMED_ARMOUR ["Dragon full helm (g)","Dragon chainbody (g)","Dragon platebody (g)","Dragon platelegs (g)","Dragon plateskirt (g)","Dragon boots (g)","Dragon defender (t)","Dragon sq shield (g)","Dragon kiteshield (g)","Dragon scimitar (or)"]
 
 
+
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
     hidden = true;
 }
