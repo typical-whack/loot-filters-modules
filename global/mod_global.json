@@ -10,7 +10,8 @@
                 "borderColor": "#00000000",
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
-                "textAccentColor": "#FF000000"
+                "textAccentColor": "#FF000000",
+                "showDespawn": true
             }
         },
         {
