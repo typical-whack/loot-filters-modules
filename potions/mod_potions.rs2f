@@ -62,353 +62,353 @@
 //     menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
 //}
 
-if (name:"Attack potion (*") {
+if (name:"Attack potion(*") {
     VAR_ATTACK_POTION_CUSTOMSTYLE
 }
-if (name:"Attack potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Attack potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Antipoison (*") {
+if (name:"Antipoison(*") {
     VAR_ANTIPOISON_CUSTOMSTYLE
 }
-if (name:"Antipoison (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Antipoison(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Strength potion (*") {
+if (name:"Strength potion(*") {
     VAR_STRENGTH_POTION_CUSTOMSTYLE
 }
-if (name:"Strength potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Strength potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Serum 207 (*") {
+if (name:"Serum 207(*") {
     VAR_SERUM_207_CUSTOMSTYLE
 }
-if (name:"Serum 207 (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Serum 207(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Compost potion (*") {
+if (name:"Compost potion(*") {
     VAR_COMPOST_POTION_CUSTOMSTYLE
 }
-if (name:"Compost potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Compost potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Restore potion (*") {
+if (name:"Restore potion(*") {
     VAR_RESTORE_POTION_CUSTOMSTYLE
 }
-if (name:"Restore potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Restore potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Energy potion (*") {
+if (name:"Energy potion(*") {
     VAR_ENERGY_POTION_CUSTOMSTYLE
 }
-if (name:"Energy potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Energy potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Defence potion (*") {
+if (name:"Defence potion(*") {
     VAR_DEFENCE_POTION_CUSTOMSTYLE
 }
-if (name:"Defence potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Defence potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Agility potion (*") {
+if (name:"Agility potion(*") {
     VAR_AGILITY_POTION_CUSTOMSTYLE
 }
-if (name:"Agility potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Agility potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Combat potion (*") {
+if (name:"Combat potion(*") {
     VAR_COMBAT_POTION_CUSTOMSTYLE
 }
-if (name:"Combat potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Combat potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Prayer potion (*") {
+if (name:"Prayer potion(*") {
     VAR_PRAYER_POTION_CUSTOMSTYLE
 }
-if (name:"Prayer potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Prayer potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super attack (*") {
+if (name:"Super attack(*") {
     VAR_SUPER_ATTACK_CUSTOMSTYLE
 }
-if (name:"Super attack (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super attack(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Superantipoison (*") {
+if (name:"Superantipoison(*") {
     VAR_SUPERANTIPOISON_CUSTOMSTYLE
 }
-if (name:"Superantipoison (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Superantipoison(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Fishing potion (*") {
+if (name:"Fishing potion(*") {
     VAR_FISHING_POTION_CUSTOMSTYLE
 }
-if (name:"Fishing potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Fishing potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super energy (*") {
+if (name:"Super energy(*") {
     VAR_SUPER_ENERGY_CUSTOMSTYLE
 }
-if (name:"Super energy (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super energy(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Hunter potion (*") {
+if (name:"Hunter potion(*") {
     VAR_HUNTER_POTION_CUSTOMSTYLE
 }
-if (name:"Hunter potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Hunter potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Goading potion (*") {
+if (name:"Goading potion(*") {
     VAR_GOADING_POTION_CUSTOMSTYLE
 }
-if (name:"Goading potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Goading potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super strength (*") {
+if (name:"Super strength(*") {
     VAR_SUPER_STRENGTH_CUSTOMSTYLE
 }
-if (name:"Super strength (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super strength(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Prayer regeneration potion (*") {
+if (name:"Prayer regeneration potion(*") {
     VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE
 }
-if (name:"Prayer regeneration potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Prayer regeneration potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super restore (*") {
+if (name:"Super restore(*") {
     VAR_SUPER_RESTORE_CUSTOMSTYLE
 }
-if (name:"Super restore (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super restore(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Sanfew serum (*") {
+if (name:"Sanfew serum(*") {
     VAR_SANFEW_SERUM_CUSTOMSTYLE
 }
-if (name:"Sanfew serum (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Sanfew serum(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super defence (*") {
+if (name:"Super defence(*") {
     VAR_SUPER_DEFENCE_CUSTOMSTYLE
 }
-if (name:"Super defence (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super defence(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Antidote+ (*") {
+if (name:"Antidote+(*") {
     VAR_ANTIDOTE_PLUS_CUSTOMSTYLE
 }
-if (name:"Antidote+ (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Antidote+(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Antifire potion (*") {
+if (name:"Antifire potion(*") {
     VAR_ANTIFIRE_POTION_CUSTOMSTYLE
 }
-if (name:"Antifire potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Antifire potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine super attack potion (*") {
+if (name:"Divine super attack potion(*") {
     VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE
 }
-if (name:"Divine super attack potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine super attack potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine super defence potion (*") {
+if (name:"Divine super defence potion(*") {
     VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE
 }
-if (name:"Divine super defence potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine super defence potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine super strength potion (*") {
+if (name:"Divine super strength potion(*") {
     VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE
 }
-if (name:"Divine super strength potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine super strength potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Ranging potion (*") {
+if (name:"Ranging potion(*") {
     VAR_RANGING_POTION_CUSTOMSTYLE
 }
-if (name:"Ranging potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Ranging potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine ranging potion (*") {
+if (name:"Divine ranging potion(*") {
     VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE
 }
-if (name:"Divine ranging potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine ranging potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Magic potion (*") {
+if (name:"Magic potion(*") {
     VAR_MAGIC_POTION_CUSTOMSTYLE
 }
-if (name:"Magic potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Magic potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Stamina potion (*") {
+if (name:"Stamina potion(*") {
     VAR_STAMINA_POTION_CUSTOMSTYLE
 }
-if (name:"Stamina potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Stamina potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Zamorak brew (*") {
+if (name:"Zamorak brew(*") {
     VAR_ZAMORAK_BREW_CUSTOMSTYLE
 }
-if (name:"Zamorak brew (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Zamorak brew(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine magic potion (*") {
+if (name:"Divine magic potion(*") {
     VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE
 }
-if (name:"Divine magic potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine magic potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Antidote++ (*") {
+if (name:"Antidote++(*") {
     VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE
 }
-if (name:"Antidote++ (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Antidote++(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Bastion potion (*") {
+if (name:"Bastion potion(*") {
     VAR_BASTION_POTION_CUSTOMSTYLE
 }
-if (name:"Bastion potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Bastion potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Battlemage potion (*") {
+if (name:"Battlemage potion(*") {
     VAR_BATTLEMAGE_POTION_CUSTOMSTYLE
 }
-if (name:"Battlemage potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Battlemage potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Saradomin brew (*") {
+if (name:"Saradomin brew(*") {
     VAR_SARADOMIN_BREW_CUSTOMSTYLE
 }
-if (name:"Saradomin brew (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Saradomin brew(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Extended antifire (*") {
+if (name:"Extended antifire(*") {
     VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE
 }
-if (name:"Extended antifire (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Extended antifire(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Ancient brew (*") {
+if (name:"Ancient brew(*") {
     VAR_ANCIENT_BREW_CUSTOMSTYLE
 }
-if (name:"Ancient brew (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Ancient brew(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine bastion potion (*") {
+if (name:"Divine bastion potion(*") {
     VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE
 }
-if (name:"Divine bastion potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine bastion potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine battlemage potion (*") {
+if (name:"Divine battlemage potion(*") {
     VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE
 }
-if (name:"Divine battlemage potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine battlemage potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Anti-venom (*") {
+if (name:"Anti-venom(*") {
     VAR_ANTI_VENOM_CUSTOMSTYLE
 }
-if (name:"Anti-venom (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Anti-venom(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Menaphite remedy (*") {
+if (name:"Menaphite remedy(*") {
     VAR_MENAPHITE_REMEDY_CUSTOMSTYLE
 }
-if (name:"Menaphite remedy (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Menaphite remedy(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super combat potion (*") {
+if (name:"Super combat potion(*") {
     VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE
 }
-if (name:"Super combat potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super combat potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Forgotten brew (*") {
+if (name:"Forgotten brew(*") {
     VAR_FORGOTTEN_BREW_CUSTOMSTYLE
 }
-if (name:"Forgotten brew (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Forgotten brew(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Super antifire potion (*") {
+if (name:"Super antifire potion(*") {
     VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE
 }
-if (name:"Super antifire potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Super antifire potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Anti-venom+ (*") {
+if (name:"Anti-venom+(*") {
     VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE
 }
-if (name:"Anti-venom+ (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Anti-venom+(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Extended anti-venom+ (*") {
+if (name:"Extended anti-venom+(*") {
     VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE
 }
-if (name:"Extended anti-venom+ (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Extended anti-venom+(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Divine super combat potion (*") {
+if (name:"Divine super combat potion(*") {
     VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE
 }
-if (name:"Divine super combat potion (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Divine super combat potion(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
-if (name:"Extended super antifire (*") {
+if (name:"Extended super antifire(*") {
     VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE
 }
-if (name:"Extended super antifire (*" && name:VAR_POTIONS_HIDE) {
+if (name:"Extended super antifire(*" && name:VAR_POTIONS_HIDE) {
     hidden = true;
 }
 
