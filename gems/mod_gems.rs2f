@@ -1,7 +1,5 @@
 // module:gems
 
-#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
-
 #define VAR_GEMS_HIDE []
 
 #define VAR_SAPPHIRE_CUSTOMSTYLE 
@@ -13,116 +11,45 @@
 #define VAR_RED_TOPAZ_CUSTOMSTYLE 
 #define VAR_DRAGONSTONE_CUSTOMSTYLE 
 #define VAR_ONYX_CUSTOMSTYLE 
-#define VAR_ZENYTE_CUSTOMSTYLE 
 
-#define VAR_GEMS_COLOR_MENU_TEXT 
+if (name:VAR_GEMS_HIDE) {
+    hidden = true;
+}
 
+apply (name:["Uncut sapphire", "Sapphire"]) {
+    VAR_SAPPHIRE_CUSTOMSTYLE
+}
 
+apply (name:["Uncut emerald", "Emerald"]) {
+    VAR_EMERALD_CUSTOMSTYLE
+}
 
-#define VAR_DISABLE_GEMS_MODULE 
+apply (name:["Uncut ruby", "Ruby"]) {
+    VAR_RUBY_CUSTOMSTYLE
+}
 
-if (!VAR_DISABLE_GEMS_MODULE) {
+apply (name:["Uncut diamond", "Diamond"]) {
+    VAR_DIAMOND_CUSTOMSTYLE
+}
 
-    if (name:["Uncut sapphire", "Sapphire"]) {
-        if ("Sapphire":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_SAPPHIRE_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["Uncut opal", "Opal"]) {
+    VAR_OPAL_CUSTOMSTYLE
+}
 
-    if (name:["Uncut emerald", "Emerald"]) {
-        if ("Emerald":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_EMERALD_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["Uncut jade", "Jade"]) {
+    VAR_JADE_CUSTOMSTYLE
+}
 
-    if (name:["Uncut ruby", "Ruby"]) {
-        if ("Ruby":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_RUBY_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:["Uncut red topaz", "Red topaz"]) {
+    VAR_RED_TOPAZ_CUSTOMSTYLE
+}
+    
+apply (name:["Uncut dragonstone", "Dragonstone"]) {
+    VAR_DRAGONSTONE_CUSTOMSTYLE
+}
 
-    if (name:["Uncut diamond", "Diamond"]) {
-        if ("Diamond":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_DIAMOND_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:["Uncut opal", "Opal"]) {
-        if ("Opal":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_OPAL_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:["Uncut jade", "Jade"]) {
-        if ("Jade":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_JADE_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:["Uncut red topaz", "Red topaz"]) {
-        if ("Red topaz":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_RED_TOPAZ_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:["Uncut dragonstone", "Dragonstone"]) {
-        if ("Dragonstone":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_DRAGONSTONE_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:["Uncut onyx", "Onyx"]) {
-        if ("Onyx":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_ONYX_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:["Zenyte shard", "Uncut zenyte", "Zenyte"]) {
-        if ("Zenyte":VAR_GEMS_HIDE) {
-            hidden = true;
-        }
-        VAR_ZENYTE_CUSTOMSTYLE
-        if (!VAR_GEMS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
+apply (name:["Uncut onyx", "Onyx"]) {
+    VAR_ONYX_CUSTOMSTYLE
 }
 
 // endmodule:gems
