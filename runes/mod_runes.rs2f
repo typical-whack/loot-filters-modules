@@ -34,80 +34,80 @@
 
 
 // waiting on 1.6
-// if (name:CONST_RUNE_NAMES && !VAR_RUNES_COLOR_MENU_TEXT) {
+// apply (name:CONST_RUNE_NAMES && !VAR_RUNES_COLOR_MENU_TEXT) {
 //    menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
 //}
 
-if (name:VAR_RUNES_HIDE) {
+apply (name:VAR_RUNES_HIDE) {
     hidden = true;
 }
 
 
 
-if (name:"Air rune") {
+apply (name:"Air rune") {
     VAR_AIR_RUNE_CUSTOMSTYLE
 }
-if (name:"Mind rune") {
+apply (name:"Mind rune") {
     VAR_MIND_RUNE_CUSTOMSTYLE
 }
-if (name:"Water rune") {
+apply (name:"Water rune") {
     VAR_WATER_RUNE_CUSTOMSTYLE
 }
-if (name:"Earth rune") {
+apply (name:"Earth rune") {
     VAR_EARTH_RUNE_CUSTOMSTYLE
 }
-if (name:"Fire rune") {
+apply (name:"Fire rune") {
     VAR_FIRE_RUNE_CUSTOMSTYLE
 }
-if (name:"Body rune") {
+apply (name:"Body rune") {
     VAR_BODY_RUNE_CUSTOMSTYLE
 }
-if (name:"Cosmic rune") {
+apply (name:"Cosmic rune") {
     VAR_COSMIC_RUNE_CUSTOMSTYLE
 }
-if (name:"Chaos rune") {
+apply (name:"Chaos rune") {
     VAR_CHAOS_RUNE_CUSTOMSTYLE
 }
-if (name:"Nature rune") {
+apply (name:"Nature rune") {
     VAR_NATURE_RUNE_CUSTOMSTYLE
 }
-if (name:"Law rune") {
+apply (name:"Law rune") {
     VAR_LAW_RUNE_CUSTOMSTYLE
 }
-if (name:"Death rune") {
+apply (name:"Death rune") {
     VAR_DEATH_RUNE_CUSTOMSTYLE
 }
-if (name:"Sunfire rune") {
+apply (name:"Sunfire rune") {
     VAR_SUNFIRE_RUNE_CUSTOMSTYLE
 }
-if (name:"Astral rune") {
+apply (name:"Astral rune") {
     VAR_ASTRAL_RUNE_CUSTOMSTYLE
 }
-if (name:"Blood rune") {
+apply (name:"Blood rune") {
     VAR_BLOOD_RUNE_CUSTOMSTYLE
 }
-if (name:"Soul rune") {
+apply (name:"Soul rune") {
     VAR_SOUL_RUNE_CUSTOMSTYLE
 }
-if (name:"Wrath rune") {
+apply (name:"Wrath rune") {
     VAR_WRATH_RUNE_CUSTOMSTYLE
 }
-if (name:"Mist rune") {
+apply (name:"Mist rune") {
     VAR_MIST_RUNE_CUSTOMSTYLE
 }
-if (name:"Dust rune") {
+apply (name:"Dust rune") {
     VAR_DUST_RUNE_CUSTOMSTYLE
 }
-if (name:"Mud rune") {
+apply (name:"Mud rune") {
     VAR_MUD_RUNE_CUSTOMSTYLE
 }
-if (name:"Smoke rune") {
+apply (name:"Smoke rune") {
     VAR_SMOKE_RUNE_CUSTOMSTYLE
 }
-if (name:"Steam rune") {
+apply (name:"Steam rune") {
     VAR_STEAM_RUNE_CUSTOMSTYLE
 }
-if (name:"Lava rune") {
+apply (name:"Lava rune") {
     VAR_LAVA_RUNE_CUSTOMSTYLE
 }
 

@@ -5,207 +5,207 @@
 
 #define VAR_RDT_CUSTOMSTYLE 
 
-if (name:"Nature rune" && quantity:==67 && name:VAR_RDT_SHOW) {
+apply (name:"Nature rune" && quantity:==67 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Nature rune" && quantity:==67 && name:VAR_RDT_HIDE) {
+apply (name:"Nature rune" && quantity:==67 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_SHOW) {
+apply (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_HIDE) {
+apply (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Death rune" && quantity:==45 && name:VAR_RDT_SHOW) {
+apply (name:"Death rune" && quantity:==45 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Death rune" && quantity:==45 && name:VAR_RDT_HIDE) {
+apply (name:"Death rune" && quantity:==45 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Law rune" && quantity:==45 && name:VAR_RDT_SHOW) {
+apply (name:"Law rune" && quantity:==45 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Law rune" && quantity:==45 && name:VAR_RDT_HIDE) {
+apply (name:"Law rune" && quantity:==45 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_SHOW) {
+apply (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_HIDE) {
+apply (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_SHOW) {
+apply (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_HIDE) {
+apply (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Coins" && quantity:==3000 && name:VAR_RDT_SHOW) {
+apply (name:"Coins" && quantity:==3000 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Coins" && quantity:==3000 && name:VAR_RDT_HIDE) {
+apply (name:"Coins" && quantity:==3000 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Runite bar" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Runite bar" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Runite bar" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Runite bar" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Silver ore" && quantity:==100 && name:VAR_RDT_SHOW) {
+apply (name:"Silver ore" && quantity:==100 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Silver ore" && quantity:==100 && name:VAR_RDT_HIDE) {
+apply (name:"Silver ore" && quantity:==100 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_SHOW) {
+apply (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_HIDE) {
+apply (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Rune spear" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Rune spear" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Rune spear" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Rune spear" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Shield left half" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Shield left half" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Shield left half" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Shield left half" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
-if (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_SHOW) {
+apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_SHOW) {
     hidden=false;
     VAR_RDT_CUSTOMSTYLE
 }
-if (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
+apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
 
