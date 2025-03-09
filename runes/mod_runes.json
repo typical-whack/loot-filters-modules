@@ -2,12 +2,6 @@
     "name": "Runes",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_RUNES_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_RUNES_HIDE",
             "label": "Runes to hide",

@@ -2,12 +2,6 @@
     "name": "Potions",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_POTIONS_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_POTIONS_HIDE",
             "label": "Potions to hide",

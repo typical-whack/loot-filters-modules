@@ -2,12 +2,6 @@
     "name": "Bars",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_BARS_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_BARS_HIDE",
             "label": "Bars to hide",

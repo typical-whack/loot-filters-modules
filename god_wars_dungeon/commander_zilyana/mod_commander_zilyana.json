@@ -2,12 +2,6 @@
     "name": "Commander Zilyana",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_COMMANDER_ZILYANA_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_COMMANDER_ZILYANA_UNIQUES_SHOW",

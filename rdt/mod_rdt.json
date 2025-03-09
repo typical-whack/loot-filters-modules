@@ -2,12 +2,6 @@
     "name": "Rare drop table",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_RDT_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_RDT_HIDE",
             "label": "Drops to hide",

@@ -2,12 +2,6 @@
     "name": "God Wars Dungeon",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_GOD_WARS_DUNGEON_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW",

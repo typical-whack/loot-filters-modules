@@ -2,12 +2,6 @@
     "name": "Metal Equipment",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_METAL_EQUIPMENT_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_METAL_EQUIPMENT_TIERS_HIDE",
             "label": "Metal equipment to hide",

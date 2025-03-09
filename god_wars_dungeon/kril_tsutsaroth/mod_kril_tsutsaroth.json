@@ -2,12 +2,6 @@
     "name": "K'ril Tsutsaroth",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_KRIL_TSUTSAROTH_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW",

@@ -2,12 +2,6 @@
     "name": "Kree'arra",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_KREE_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_KREE_UNIQUES_SHOW",

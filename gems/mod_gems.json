@@ -2,12 +2,6 @@
     "name": "Gems",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_GEMS_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_GEMS_HIDE",
             "label": "Gems to hide",

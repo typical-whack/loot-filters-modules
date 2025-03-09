@@ -2,12 +2,6 @@
     "name": "Chambers of Xeric Potions",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_COX_POTIONS_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "enumlist",
             "macroName": "VAR_COX_POTIONS_HIDE",
             "label": "Potions to hide",

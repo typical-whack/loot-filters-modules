@@ -2,12 +2,6 @@
     "name": "Nex",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_DISABLE_NEX_MODULE",
-            "label": "Disable module",
-            "default": false
-        },
-        {
             "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_NEX_UNIQUES_SHOW",
