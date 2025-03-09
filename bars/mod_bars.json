@@ -30,12 +30,6 @@
             ]
         },
         {
-            "type": "boolean",
-            "macroName": "VAR_BARS_COLOR_MENU_TEXT",
-            "label": "Color bar menu text",
-            "default": true
-        },
-        {
             "macroName": "VAR_BRONZE_BAR_CUSTOMSTYLE",
             "label": "Bronze bar",
             "type": "style",

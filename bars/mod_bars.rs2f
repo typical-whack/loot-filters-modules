@@ -1,7 +1,5 @@
 //module:bars
 
-#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
-
 #define VAR_BARS_HIDE []
 
 #define VAR_BRONZE_BAR_CUSTOMSTYLE 
@@ -20,164 +18,109 @@
 #define VAR_LOVAKITE_BAR_CUSTOMSTYLE 
 #define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE 
 
-#define VAR_BARS_COLOR_MENU_TEXT 
+apply (name:"Bronze bar") {
+    VAR_BRONZE_BAR_CUSTOMSTYLE
+}
+apply (name:"Bronze bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
+apply (name:"Iron bar") {
+    VAR_IRON_BAR_CUSTOMSTYLE
+}
+apply (name:"Iron bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
+apply (name:"Silver bar") {
+    VAR_SILVER_BAR_CUSTOMSTYLE
+}
+apply (name:"Silver bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-#define VAR_DISABLE_BARS_MODULE 
+apply (name:"Steel bar") {
+    VAR_STEEL_BAR_CUSTOMSTYLE
+}
+apply (name:"Steel bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-if (!VAR_DISABLE_BARS_MODULE) {
+apply (name:"Gold bar") {
+    VAR_GOLD_BAR_CUSTOMSTYLE
+}
+apply (name:"Gold bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Bronze bar") {
-        if ("Bronze bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_BRONZE_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Mithril bar") {
+    VAR_MITHRIL_BAR_CUSTOMSTYLE
+}
+apply (name:"Mithril bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Iron bar") {
-        if ("Iron bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_IRON_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Adamantite bar") {
+    VAR_ADAMANTITE_BAR_CUSTOMSTYLE
+}
+apply (name:"Adamantite bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Silver bar") {
-        if ("Silver bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_SILVER_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Runite bar") {
+    VAR_RUNITE_BAR_CUSTOMSTYLE
+}
+apply (name:"Runite bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Steel bar") {
-        if ("Steel bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_STEEL_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Elemental metal") {
+    VAR_ELEMENTAL_METAL_CUSTOMSTYLE
+}
+apply (name:"Elemental metal" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Gold bar") {
-        if ("Gold bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_GOLD_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Primed bar") {
+    VAR_PRIMED_BAR_CUSTOMSTYLE
+}
+apply (name:"Primed bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Mithril bar") {
-        if ("Mithril bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_MITHRIL_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Primed mind bar") {
+    VAR_PRIMED_MIND_BAR_CUSTOMSTYLE
+}
+apply (name:"Primed mind bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Adamantite bar") {
-        if ("Adamantite bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_ADAMANTITE_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Blurite bar") {
+    VAR_BLURITE_BAR_CUSTOMSTYLE
+}
+apply (name:"Blurite bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Runite bar") {
-        if ("Runite bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_RUNITE_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Enchanted bar") {
+    VAR_ENCHANTED_BAR_CUSTOMSTYLE
+}
+apply (name:"Enchanted bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Elemental metal") {
-        if ("Elemental metal":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_ELEMENTAL_METAL_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"Lovakite bar") {
+    VAR_LOVAKITE_BAR_CUSTOMSTYLE
+}
+apply (name:"Lovakite bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
-    if (name:"Primed bar") {
-        if ("Primed bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_PRIMED_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:"Primed mind bar") {
-        if ("Primed mind bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_PRIMED_MIND_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:"Blurite bar") {
-        if ("Blurite bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_BLURITE_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:"Enchanted bar") {
-        if ("Enchanted bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_ENCHANTED_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:"Lovakite bar") {
-        if ("Lovakite bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_LOVAKITE_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    if (name:"'Perfect' gold bar") {
-        if ("'Perfect' gold bar":VAR_BARS_HIDE) {
-            hidden = true;
-        }
-        VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE
-        if (!VAR_BARS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
+apply (name:"'Perfect' gold bar") {
+    VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE
+}
+apply (name:"'Perfect' gold bar" && name:VAR_BARS_HIDE) {
+    hidden = true;
 }
 
 // endmodule:bars
