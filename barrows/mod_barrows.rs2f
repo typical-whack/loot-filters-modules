@@ -1,7 +1,5 @@
 // module:barrows
 
-#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
-
 #define VAR_AHRIMS_CUSTOMSTYLE 
 #define VAR_KARILS_CUSTOMSTYLE 
 #define VAR_DHAROKS_CUSTOMSTYLE 
@@ -9,56 +7,32 @@
 #define VAR_TORAGS_CUSTOMSTYLE 
 #define VAR_VERACS_CUSTOMSTYLE 
 
-#define VAR_BARROWS_COLOR_MENU_TEXT 
 
 
-
-#define VAR_DISABLE_BARROWS_MODULE 
-
-apply (!VAR_DISABLE_BARROWS_MODULE) {
-
-    apply (name:["Ahrim's hood*", "Ahrim's robetop*", "Ahrim's robeskirt*", "Ahrim's staff*"]) {
-        VAR_AHRIMS_CUSTOMSTYLE
-        apply (!VAR_BARROWS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["Karil's coif*", "Karil's leathertop*", "Karil's leatherskirt*", "Karil's crossbow*"]) {
-        VAR_KARILS_CUSTOMSTYLE
-        apply (!VAR_BARROWS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["Dharok's helm*", "Dharok's platebody*", "Dharok's platelegs*", "Dharok's greataxe*"]) {
-        VAR_DHAROKS_CUSTOMSTYLE
-        apply (!VAR_BARROWS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["Guthan's helm*", "Guthan's platebody*", "Guthan's chainskirt*", "Guthan's warspear*"]) {
-        VAR_GUTHANS_CUSTOMSTYLE
-        apply (!VAR_BARROWS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["Torag's helm*", "Torag's platebody*", "Torag's platelegs*", "Torag's hammers*"]) {
-        VAR_TORAGS_CUSTOMSTYLE
-        apply (!VAR_BARROWS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:["Verac's helm*", "Verac's brassard*", "Verac's plateskirt*", "Verac's flail*"]) {
-        VAR_VERACS_CUSTOMSTYLE
-        apply (!VAR_BARROWS_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
+apply (name:["Ahrim's hood*", "Ahrim's robetop*", "Ahrim's robeskirt*", "Ahrim's staff*"]) {
+    VAR_AHRIMS_CUSTOMSTYLE
 }
+
+apply (name:["Karil's coif*", "Karil's leathertop*", "Karil's leatherskirt*", "Karil's crossbow*"]) {
+    VAR_KARILS_CUSTOMSTYLE
+}
+
+apply (name:["Dharok's helm*", "Dharok's platebody*", "Dharok's platelegs*", "Dharok's greataxe*"]) {
+    VAR_DHAROKS_CUSTOMSTYLE
+}
+
+apply (name:["Guthan's helm*", "Guthan's platebody*", "Guthan's chainskirt*", "Guthan's warspear*"]) {
+    VAR_GUTHANS_CUSTOMSTYLE
+}
+
+apply (name:["Torag's helm*", "Torag's platebody*", "Torag's platelegs*", "Torag's hammers*"]) {
+    VAR_TORAGS_CUSTOMSTYLE
+}
+
+apply (name:["Verac's helm*", "Verac's brassard*", "Verac's plateskirt*", "Verac's flail*"]) {
+    VAR_VERACS_CUSTOMSTYLE
+}
+
+
 
 // endmodule:barrows

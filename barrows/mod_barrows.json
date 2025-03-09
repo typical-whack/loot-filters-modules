@@ -2,12 +2,6 @@
     "name": "Barrows",
     "inputs": [
         {
-            "type": "boolean",
-            "macroName": "VAR_BARROWS_COLOR_MENU_TEXT",
-            "label": "Color barrows menu text",
-            "default": true
-        },
-        {
             "macroName": "VAR_AHRIMS_CUSTOMSTYLE",
             "label": "Ahrim's",
             "type": "style",
