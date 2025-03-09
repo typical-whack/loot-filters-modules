@@ -7,6 +7,11 @@
             "name": "Bars",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/bars/mod_bars.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/bars/mod_bars.rs2f"
+        },
+        {
+            "name": "Gems",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gems/mod_gems.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gems/mod_gems.rs2f"
         }
     ]
 }

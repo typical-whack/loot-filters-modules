@@ -6,16 +6,15 @@
             "macroName": "VAR_GEMS_HIDE",
             "label": "Gems to hide",
             "enum": [
-                "Sapphire",
-                "Emerald",
-                "Ruby",
-                "Diamond",
-                "Opal",
-                "Jade",
-                "Red topaz",
-                "Dragonstone",
-                "Onyx",
-                "Zenyte"
+                "*Sapphire",
+                "*Emerald",
+                "*Ruby",
+                "*Diamond",
+                "*Opal",
+                "*Jade",
+                "*Red topaz",
+                "*Dragonstone",
+                "*Onyx"
             ],
             "default": [
 
@@ -142,19 +141,6 @@
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF1C1A1A"
-            }
-        },
-        {
-            "macroName": "VAR_ZENYTE_CUSTOMSTYLE",
-            "label": "Zenyte",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#80833A0E",
-                "borderColor": "#FF833A0E",
-                "textColor": "#FFFFFFFF",
-                "textAccent": 1,
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF833A0E"
             }
         }
     ]
