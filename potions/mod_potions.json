@@ -73,12 +73,6 @@
             ]
         },
         {
-            "type": "boolean",
-            "macroName": "VAR_POTIONS_COLOR_MENU_TEXT",
-            "label": "Color potion menu text",
-            "default": true
-        },
-        {
             "macroName": "VAR_ATTACK_POTION_CUSTOMSTYLE",
             "label": "Attack potion",
             "type": "style",
