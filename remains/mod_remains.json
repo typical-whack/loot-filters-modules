@@ -3,6 +3,12 @@
     "description": "For bones, ensouled heads, ashes, and shades of morton remains",
     "inputs": [
         {
+            "macroName": "VAR_REMAINS_MINIMUM_VALUE",
+            "label": "Minimum value to display remains at",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_BONES_HIDE",
             "label": "Bones to hide",
             "type": "enumlist",
@@ -123,6 +129,5 @@
                 "Ensouled giant head"
             ]
         }
-
     ]
 }
