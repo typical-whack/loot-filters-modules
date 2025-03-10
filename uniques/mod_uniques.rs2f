@@ -1,4 +1,4 @@
-// module:clues
+// module:uniques
 
 #define VAR_UNIQUES_LIST []
 
@@ -12,4 +12,4 @@ apply (name:VAR_UNIQUES_LIST) {
 
 
 
-// endmodule:clues
+// endmodule:uniques
