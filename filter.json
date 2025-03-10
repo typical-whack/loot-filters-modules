@@ -59,14 +59,14 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/bars/mod_bars.rs2f"
         },
         {
-            "name": "Seeds",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/farming_seeds/mod_farming_seeds.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/farming_seeds/mod_farming_seeds.rs2f"
-        },
-        {
             "name": "Herbs",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.rs2f"
+        },
+        {
+            "name": "Seeds",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/farming_seeds/mod_farming_seeds.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/farming_seeds/mod_farming_seeds.rs2f"
         },
         {
             "name": "Secondaries",
