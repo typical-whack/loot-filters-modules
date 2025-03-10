@@ -38,7 +38,15 @@
                 "Bearded gorilla bones"
             ],
             "default": [
-
+                "Bones",
+                "Wolf bones",
+                "Burnt bones",
+                "Monkey bones",
+                "Bat bones",
+                "Big bones",
+                "Jogre bones",
+                "Wyrmling bones",
+                "Zogre bones"
             ]
         },
         {
@@ -53,7 +61,8 @@
                 "Infernal ashes"
             ],
             "default": [
-
+                "Fiendish ashes",
+                "Vile ashes"
             ]
         },
         {
@@ -102,7 +111,16 @@
                 "Ensouled dragon head"
             ],
             "default": [
-
+                "Ensouled goblin head",
+                "Ensouled monkey head",
+                "Ensouled imp head",
+                "Ensouled minotaur head",
+                "Ensouled scorpion head",
+                "Ensouled bear head",
+                "Ensouled unicorn head",
+                "Ensouled dog head",
+                "Ensouled chaos druid head",
+                "Ensouled giant head"
             ]
         }
 
