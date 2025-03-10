@@ -1,5 +1,5 @@
 {
-    "name": "Item values",
+    "name": "Item tiers",
     "inputs": [
         {
             "macroName": "VAR_VALUES_TIER_1_VALUE",
