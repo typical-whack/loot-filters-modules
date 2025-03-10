@@ -1,6 +1,6 @@
 {
     "type": "filter",
-    "name": "typical-whack/loot-filters-modules",
+    "name": "Typical Whack's Loot Filter for Persnickity Irons",
     "description": "A collection of loot filters for OSRS",
     "modules": [
         {

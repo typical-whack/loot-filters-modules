@@ -6,32 +6,26 @@
             "macroName": "VAR_HERBS_HIDE",
             "label": "Herbs to hide",
             "enum": [
-                "*Guam leaf",
-                "*Marrentill",
-                "*Tarromin",
-                "*Harralander",
-                "*Ranarr weed",
-                "*Toadflax",
-                "*Irit leaf",
-                "*Avantoe",
-                "*Kwuarm",
-                "*Huasca",
-                "*Snapdragon",
-                "*Cadantine",
-                "*Lantadyme",
-                "*Dwarf weed",
-                "*Torstol"
+                { "value": "*Guam leaf", "label": "Guam leaf" },
+                { "value": "*Marrentill", "label": "Marrentill" },
+                { "value": "*Tarromin", "label": "Tarromin" },
+                { "value": "*Harralander", "label": "Harralander" },
+                { "value": "*Ranarr weed", "label": "Ranarr weed" },
+                { "value": "*Toadflax", "label": "Toadflax" },
+                { "value": "*Irit leaf", "label": "Irit leaf" },
+                { "value": "*Avantoe", "label": "Avantoe" },
+                { "value": "*Kwuarm", "label": "Kwuarm" },
+                { "value": "*Huasca", "label": "Huasca" },
+                { "value": "*Snapdragon", "label": "Snapdragon" },
+                { "value": "*Cadantine", "label": "Cadantine" },
+                { "value": "*Lantadyme", "label": "Lantadyme" },
+                { "value": "*Dwarf weed", "label": "Dwarf weed" },
+                { "value": "*Torstol", "label": "Torstol" }
             ],
             "default": [
                 "*Tarromin",
                 "*Harralander"
             ]
-        },
-        {
-            "type": "boolean",
-            "macroName": "VAR_HERBS_COLOR_MENU_TEXT",
-            "label": "Color herb menu text",
-            "default": true
         },
         {
             "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",

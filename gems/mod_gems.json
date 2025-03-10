@@ -6,15 +6,15 @@
             "macroName": "VAR_GEMS_HIDE",
             "label": "Gems to hide",
             "enum": [
-                "*Sapphire",
-                "*Emerald",
-                "*Ruby",
-                "*Diamond",
-                "*Opal",
-                "*Jade",
-                "*Red topaz",
-                "*Dragonstone",
-                "*Onyx"
+                { "value": "*Sapphire", "label": "Sapphire" },
+                { "value": "*Emerald", "label": "Emerald" },
+                { "value": "*Ruby", "label": "Ruby" },
+                { "value": "*Diamond", "label": "Diamond" },
+                { "value": "*Opal", "label": "Opal" },
+                { "value": "*Jade", "label": "Jade" },
+                { "value": "*Red topaz", "label": "Red topaz" },
+                { "value": "*Dragonstone", "label": "Dragonstone" },
+                { "value": "*Onyx", "label": "Onyx" }
             ],
             "default": [
 
