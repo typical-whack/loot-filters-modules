@@ -1,5 +1,6 @@
 {
     "name": "Bars",
+    "description": "Colors bars (by default colors them based on the item color)",
     "inputs": [
         {
             "type": "enumlist",
