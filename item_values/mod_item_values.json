@@ -61,6 +61,7 @@
                 "textColor": "#FFFF9600",
                 "menuTextColor": "#FFFF9600",
                 "borderColor": "#FFFF9600",
+                "backgroundColor": "#50FFFFFF",
                 "showLootbeam": true
             }
         },
@@ -74,6 +75,7 @@
                 "textColor": "#FFFF66B2",
                 "menuTextColor": "#FFFF66B2",
                 "borderColor": "#FFFF9600",
+                "backgroundColor": "#50FFFFFF",
                 "showLootbeam": true
             }
         }
