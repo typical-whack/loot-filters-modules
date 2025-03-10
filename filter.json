@@ -65,8 +65,8 @@
         },
         {
             "name": "Secondaries",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/secondaries/mod_secondaries.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/secondaries/mod_secondaries.rs2f"
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herblore_secondaries/mod_herblore_secondaries.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herblore_secondaries/mod_herblore_secondaries.rs2f"
         },
         {
             "name": "Potions",
