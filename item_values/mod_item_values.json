@@ -30,17 +30,11 @@
             "default": 10000000
         },
         {
-            "macroName": {
-                "includes": "VAR_VALUES_TIER_1_SHOW",
-                "excludes": "VAR_VALUES_TIER_1_HIDE"
-            },
-            "label": "Tier 1 shown and hidden items",
+            "macroName": "VAR_VALUES_TIER_1_SHOW",
+            "label": "Tier 1 force items shown",
             "group": "Tier 1",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [],
-                "excludes": []
-            }
+            "type": "stringlist",
+            "default": []
         },
         {
             "macroName": "VAR_VALUES_TIER_1_CUSTOMSTYLE",
@@ -54,17 +48,11 @@
             }
         },
         {
-            "macroName": {
-                "includes": "VAR_VALUES_TIER_2_SHOW",
-                "excludes": "VAR_VALUES_TIER_2_HIDE"
-            },
-            "label": "Tier 2 shown and hidden items",
+            "macroName": "VAR_VALUES_TIER_2_SHOW",
+            "label": "Tier 2 force items shown",
             "group": "Tier 2",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [],
-                "excludes": []
-            }
+            "type": "stringlist",
+            "default": []
         },
         {
             "macroName": "VAR_VALUES_TIER_2_CUSTOMSTYLE",
@@ -78,17 +66,11 @@
             }
         },
         {
-            "macroName": {
-                "includes": "VAR_VALUES_TIER_3_SHOW",
-                "excludes": "VAR_VALUES_TIER_3_HIDE"
-            },
-            "label": "Tier 3 shown and hidden items",
+            "macroName": "VAR_VALUES_TIER_3_SHOW",
+            "label": "Tier 3 force items shown",
             "group": "Tier 3",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [],
-                "excludes": []
-            }
+            "type": "stringlist",
+            "default": []
         },
         {
             "macroName": "VAR_VALUES_TIER_3_CUSTOMSTYLE",
@@ -105,17 +87,11 @@
             }
         },
         {
-            "macroName": {
-                "includes": "VAR_VALUES_TIER_4_SHOW",
-                "excludes": "VAR_VALUES_TIER_4_HIDE"
-            },
-            "label": "Tier 4 shown and hidden items",
+            "macroName": "VAR_VALUES_TIER_4_SHOW",
+            "label": "Tier 4 force items shown",
             "group": "Tier 4",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [],
-                "excludes": []
-            }
+            "type": "stringlist",
+            "default": []
         },
         {
             "macroName": "VAR_VALUES_TIER_4_CUSTOMSTYLE",
