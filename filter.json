@@ -84,7 +84,7 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.rs2f"
         },
         {
-            "name": "Terminate",
+            "name": "Ignore runelite sidebar item value rules",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/_terminate/mod_terminate.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/_terminate/mod_terminate.rs2f"
         }
