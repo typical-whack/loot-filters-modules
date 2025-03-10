@@ -30,13 +30,6 @@
             "default": 10000000
         },
         {
-            "macroName": "VAR_VALUES_TIER_5_VALUE",
-            "label": "Minimum value",
-            "group": "Tier 5",
-            "type": "number",
-            "default": 30000000
-        },
-        {
             "macroName": "VAR_VALUES_TIER_1_CUSTOMSTYLE",
             "label": "Tier 1 Display",
             "group": "Tier 1",
@@ -78,21 +71,6 @@
                 "backgroundColor": "#80FF66B2",
                 "lootbeamColor": "#FFFF66B2",
                 "menuTextColor": "#FFFF66B2",
-                "fontType": 2,
-                "showLootbeam": true
-            }
-        },
-        {
-            "macroName": "VAR_VALUES_TIER_5_CUSTOMSTYLE",
-            "label": "Tier 5 Display",
-            "group": "Tier 5",
-            "type": "style",
-            "default": {
-                "borderColor": "#FF000000",
-                "backgroundColor": "#80FF9600",
-                "lootbeamColor": "#FFFF9600",
-                "menuTextColor": "#FFFF9600",
-                "fontType": 3,
                 "showLootbeam": true
             }
         }
