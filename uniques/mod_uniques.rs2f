@@ -1,0 +1,15 @@
+// module:clues
+
+#define VAR_UNIQUES_LIST []
+
+#define VAR_UNIQUES_CUSTOMSTYLE
+
+
+
+apply (name:VAR_UNIQUES_LIST) {
+    VAR_UNIQUES_CUSTOMSTYLE
+}
+
+
+
+// endmodule:clues
