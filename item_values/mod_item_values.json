@@ -36,7 +36,8 @@
             "type": "style",
             "default": {
                 "textAccentColor": "#FF000000",
-                "textColor": "#FF66B2FF"
+                "textColor": "#FF66B2FF",
+                "menuTextColor": "#FFFF9600"
             }
         },
         {
@@ -46,7 +47,8 @@
             "type": "style",
             "default": {
                 "textAccentColor": "#FF000000",
-                "textColor": "#FF99FF99"
+                "textColor": "#FF99FF99",
+                "menuTextColor": "#FFFF9600"
             }
         },
         {
