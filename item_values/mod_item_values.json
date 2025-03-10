@@ -60,6 +60,7 @@
                 "textAccentColor": "#FF000000",
                 "textColor": "#FFFF9600",
                 "menuTextColor": "#FFFF9600",
+                "borderColor": "#FFFF9600",
                 "showLootbeam": true
             }
         },
@@ -72,6 +73,7 @@
                 "textAccentColor": "#FF000000",
                 "textColor": "#FFFF66B2",
                 "menuTextColor": "#FFFF66B2",
+                "borderColor": "#FFFF9600",
                 "showLootbeam": true
             }
         }
