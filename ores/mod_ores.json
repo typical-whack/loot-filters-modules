@@ -1,5 +1,6 @@
 {
     "name": "Ores",
+    "description": "Colors ores (by default colors them based on the item color)",
     "inputs": [
         {
             "type": "enumlist",
