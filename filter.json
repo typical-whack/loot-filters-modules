@@ -29,9 +29,9 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/clues/mod_clues.rs2f"
         },
         {
-            "name": "Barrows",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.rs2f"
+            "name": "Remains",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.rs2f"
         },
         {
             "name": "Runes",
@@ -59,11 +59,6 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/bars/mod_bars.rs2f"
         },
         {
-            "name": "Metal equipment",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.rs2f"
-        },
-        {
             "name": "Herbs",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.rs2f"
@@ -79,9 +74,14 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.rs2f"
         },
         {
-            "name": "Remains",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.rs2f"
+            "name": "Metal equipment",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.rs2f"
+        },
+        {
+            "name": "Barrows",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.rs2f"
         },
         {
             "name": "Rare drop table",
