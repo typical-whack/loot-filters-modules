@@ -1,0 +1,29 @@
+{
+    "name": "Currency",
+    "inputs": [
+        {
+            "type": "includeExcludeList",
+            "label": "Currency items",
+            "macroName": {
+                "includes": "VAR_CURRENCY_SHOW",
+                "excludes": "VAR_CURRENCY_HIDE"
+            },
+            "default": {
+                "includes": [
+                    "Coins",
+                    "Trading sticks",
+                    "Numulite",
+                    "Ecto-token",
+                    "Tokkul"
+                ],
+                "excludes": []
+            }
+        },
+        {
+            "macroName": "VAR_CURRENCY_MINIMUM_QUANTITY",
+            "label": "Minimum currency quantity to show",
+            "type": "number",
+            "default": 500
+        }
+    ]
+}

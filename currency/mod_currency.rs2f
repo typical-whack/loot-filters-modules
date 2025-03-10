@@ -1,0 +1,24 @@
+// module:currency
+
+#define VAR_CURRENCY_SHOW []
+#define VAR_CURRENCY_HIDE []
+
+#define VAR_CURRENCY_MINIMUM_QUANTITY 
+
+
+
+apply (name:VAR_CURRENCY_HIDE) {
+    hidden = true;
+}
+
+apply (name:VAR_CURRENCY_SHOW && quantity:<VAR_CURRENCY_MINIMUM_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:VAR_CURRENCY_SHOW && quantity:>=VAR_CURRENCY_MINIMUM_QUANTITY) {
+    hidden = false;
+}
+
+
+
+// endmodule:currency
