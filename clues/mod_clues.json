@@ -3,9 +3,9 @@
     "description": "Clue Scrolls",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_CLUE_SCROLLS_HIDE",
             "label": "Clue tiers to hide",
+            "type": "enumlist",
             "enum": [
                 { "value": "Clue scroll (beginner)", "label": "Beginner" },
                 { "value": "Clue scroll (easy)", "label": "Easy" },

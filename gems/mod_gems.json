@@ -2,9 +2,9 @@
     "name": "Gems",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_GEMS_HIDE",
             "label": "Gems to hide",
+            "type": "enumlist",
             "enum": [
                 { "value": "*Sapphire", "label": "Sapphire" },
                 { "value": "*Emerald", "label": "Emerald" },
@@ -21,9 +21,9 @@
             ]
         },
         {
-            "type": "boolean",
             "macroName": "VAR_GEMS_COLOR_MENU_TEXT",
             "label": "Color gems menu text",
+            "type": "boolean",
             "default": true
         },
         {

@@ -3,9 +3,9 @@
     "description": "Colors ores (by default colors them based on the item color)",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_ORES_HIDE",
             "label": "Ores to hide",
+            "type": "enumlist",
             "enum": [
                 "Copper ore",
                 "Tin ore",
@@ -26,9 +26,9 @@
             ]
         },
         {
-            "type": "boolean",
             "macroName": "VAR_ORES_COLOR_MENU_TEXT",
             "label": "Color ore menu text",
+            "type": "boolean",
             "default": true
         },
         {

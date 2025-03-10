@@ -2,9 +2,9 @@
     "name": "Runes",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_RUNES_HIDE",
             "label": "Runes to hide",
+            "type": "enumlist",
             "enum": [
                 "Air rune",
                 "Mind rune",
@@ -34,9 +34,9 @@
             ]
         },
         {
-            "type": "boolean",
             "macroName": "VAR_RUNES_COLOR_MENU_TEXT",
             "label": "Color runes menu text",
+            "type": "boolean",
             "default": true
         },
         {

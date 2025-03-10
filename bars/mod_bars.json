@@ -3,9 +3,9 @@
     "description": "Colors bars (by default colors them based on the item color)",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_BARS_HIDE",
             "label": "Bars to hide",
+            "type": "enumlist",
             "enum": [
                 "Bronze bar",
                 "Iron bar",

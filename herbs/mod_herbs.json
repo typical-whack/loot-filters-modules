@@ -2,9 +2,9 @@
     "name": "Herbs",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_HERBS_HIDE",
             "label": "Herbs to hide",
+            "type": "enumlist",
             "enum": [
                 { "value": "*Guam leaf", "label": "Guam leaf" },
                 { "value": "*Marrentill", "label": "Marrentill" },

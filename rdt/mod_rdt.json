@@ -3,9 +3,9 @@
     "description": "Specially colors RDT drops. This is based on item name and quantity so isn't perfect. (by default it gives RDT a gold border)",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_RDT_HIDE",
             "label": "Drops to hide",
+            "type": "enumlist",
             "enum": [
                 "Nature rune",
                 "Adamant javelin",
@@ -38,9 +38,9 @@
             "default": []
         },
         {
-            "type": "enumlist",
             "macroName": "VAR_RDT_SHOW",
             "label": "Drops to show",
+            "type": "enumlist",
             "enum": [
                 "Nature rune",
                 "Adamant javelin",

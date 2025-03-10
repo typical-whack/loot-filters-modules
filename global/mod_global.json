@@ -15,12 +15,12 @@
             }
         },
         {
-            "type": "includeExcludeList",
             "macroName": {
                 "includes": "VAR_GLOBAL_SHOW",
                 "excludes": "VAR_GLOBAL_HIDE"
             },
             "label": "Global shown and hidden items",
+            "type": "includeExcludeList",
             "default": {
                 "includes": [],
                 "excludes": [

@@ -3,9 +3,9 @@
     "description": "Add custom effect to unique items",
     "inputs": [
         {
-            "type": "stringlist",
             "macroName": "VAR_UNIQUES_LIST",
             "label": "List of uniques to apply custom unique style to (by default just lootbeam)",
+            "type": "stringlist",
             "default": [
                 "Jar of dirt",
                 "Jar of swamp",

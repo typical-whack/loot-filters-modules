@@ -2,9 +2,9 @@
     "name": "Potions",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_POTIONS_HIDE",
             "label": "Potions to hide",
+            "type": "enumlist",
             "enum": [
                 { "value": "Attack potion(*", "label": "Attack potion" },
                 { "value": "Antipoison(*", "label": "Antipoison" },

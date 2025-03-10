@@ -2,9 +2,9 @@
     "name": "Chambers of Xeric Potions",
     "inputs": [
         {
-            "type": "enumlist",
             "macroName": "VAR_COX_POTIONS_HIDE",
             "label": "Potions to hide",
+            "type": "enumlist",
             "enum": [
                 { "value": "Elder potion*", "label": "Elder potion" },
                 { "value": "Twisted potion*", "label": "Twisted potion" },
@@ -22,15 +22,15 @@
             ]
         },
         {
-            "type": "boolean",
             "macroName": "VAR_COX_POTIONS_HIDE_LOWER",
             "label": "Hide lower tier potions",
+            "type": "boolean",
             "default": true
         },
         {
-            "type": "boolean",
             "macroName": "VAR_COX_POTIONS_COLOR_MENU_TEXT",
             "label": "Color potion menu text",
+            "type": "boolean",
             "default": true
         },
         {
