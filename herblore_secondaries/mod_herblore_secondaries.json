@@ -1,0 +1,49 @@
+
+{
+    "name": "Herblore secondaries",
+    "description": "For random items that are used to make potions",
+    "inputs": [
+        {
+            "macroName": "VAR_SECONDARIES_MINIMUM_VALUE",
+            "label": "Minimum value to display secondaries at",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_SECONDARIES_HIDE",
+            "label": "Secondaries to hide",
+            "type": "enumlist",
+            "enum": [
+                "Eye of newt",
+                "Unicorn horn dust",
+                "Limpwurt root",
+                "Volcanic ash",
+                "Red spiders' eggs",
+                "Chocolate dust",
+                "White berries",
+                "Toad's legs",
+                "Goat horn dust",
+                "Snape grass",
+                "Mort myre fungus",
+                "Kebbit teeth dust",
+                "Dragon scale dust",
+                "Nail beast nails",
+                "Yew roots",
+                "Wine of zamorak",
+                "Potato cactus",
+                "Jangerberries",
+                "Magic roots",
+                "Crushed nest",
+                "Poison ivy berries",
+                "Nihil dust",
+                "Lily of the sands",
+                "Aldarium"
+            ],
+            "default": [
+                "Eye of newt",
+                "Volcanic ash",
+                "Chocolate dust"
+            ]
+        }
+    ]
+}
