@@ -27,7 +27,8 @@
         },
         {
             "macroName": "VAR_COPPER_ORE_CUSTOMSTYLE",
-            "label": "Copper ore",
+            "label": "Copper ore style",
+            "group": "Copper ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -39,8 +40,16 @@
             }
         },
         {
+            "macroName": "VAR_COPPER_ORE_MIN_QUANTITY",
+            "label": "Copper ore minimum quantity",
+            "group": "Copper ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_TIN_ORE_CUSTOMSTYLE",
-            "label": "Tin ore",
+            "label": "Tin ore style",
+            "group": "Tin ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -52,8 +61,16 @@
             }
         },
         {
+            "macroName": "VAR_TIN_ORE_MIN_QUANTITY",
+            "label": "Tin ore minimum quantity",
+            "group": "Tin ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_IRON_ORE_CUSTOMSTYLE",
-            "label": "Iron ore",
+            "label": "Iron ore style",
+            "group": "Iron ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -65,8 +82,16 @@
             }
         },
         {
+            "macroName": "VAR_IRON_ORE_MIN_QUANTITY",
+            "label": "Iron ore minimum quantity",
+            "group": "Iron ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_SILVER_ORE_CUSTOMSTYLE",
-            "label": "Silver ore",
+            "label": "Silver ore style",
+            "group": "Silver ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -78,8 +103,16 @@
             }
         },
         {
+            "macroName": "VAR_SILVER_ORE_MIN_QUANTITY",
+            "label": "Silver ore minimum quantity",
+            "group": "Silver ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_COAL_ORE_CUSTOMSTYLE",
-            "label": "Coal",
+            "label": "Coal style",
+            "group": "Coal",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -91,8 +124,16 @@
             }
         },
         {
+            "macroName": "VAR_COAL_ORE_MIN_QUANTITY",
+            "label": "Coal minimum quantity",
+            "group": "Coal",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_GOLD_ORE_CUSTOMSTYLE",
-            "label": "Gold ore",
+            "label": "Gold ore style",
+            "group": "Gold ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -104,8 +145,16 @@
             }
         },
         {
+            "macroName": "VAR_GOLD_ORE_MIN_QUANTITY",
+            "label": "Gold ore minimum quantity",
+            "group": "Gold ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_MITHRIL_ORE_CUSTOMSTYLE",
-            "label": "Mithril ore",
+            "label": "Mithril ore style",
+            "group": "Mithril ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -117,8 +166,16 @@
             }
         },
         {
+            "macroName": "VAR_MITHRIL_ORE_MIN_QUANTITY",
+            "label": "Mithril ore minimum quantity",
+            "group": "Mithril ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_ADAMANTITE_ORE_CUSTOMSTYLE",
-            "label": "Adamantite ore",
+            "label": "Adamantite ore style",
+            "group": "Adamantite ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -130,8 +187,16 @@
             }
         },
         {
+            "macroName": "VAR_ADAMANTITE_ORE_MIN_QUANTITY",
+            "label": "Adamantite ore minimum quantity",
+            "group": "Adamantite ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_RUNITE_ORE_CUSTOMSTYLE",
-            "label": "Runite ore",
+            "label": "Runite ore style",
+            "group": "Runite ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -143,8 +208,16 @@
             }
         },
         {
+            "macroName": "VAR_RUNITE_ORE_MIN_QUANTITY",
+            "label": "Runite ore minimum quantity",
+            "group": "Runite ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_DAEYALT_ORE_CUSTOMSTYLE",
-            "label": "Daeyalt ore",
+            "label": "Daeyalt ore style",
+            "group": "Daeyalt ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -156,8 +229,16 @@
             }
         },
         {
+            "macroName": "VAR_DAEYALT_ORE_MIN_QUANTITY",
+            "label": "Daeyalt ore minimum quantity",
+            "group": "Daeyalt ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_BLASTED_ORE_CUSTOMSTYLE",
-            "label": "Blasted ore",
+            "label": "Blasted ore style",
+            "group": "Blasted ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -169,8 +250,16 @@
             }
         },
         {
+            "macroName": "VAR_BLASTED_ORE_MIN_QUANTITY",
+            "label": "Blasted ore minimum quantity",
+            "group": "Blasted ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_BLURITE_ORE_CUSTOMSTYLE",
-            "label": "Blurite ore",
+            "label": "Blurite ore style",
+            "group": "Blurite ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -182,8 +271,16 @@
             }
         },
         {
+            "macroName": "VAR_BLURITE_ORE_MIN_QUANTITY",
+            "label": "Blurite ore minimum quantity",
+            "group": "Blurite ore",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_LOVAKITE_ORE_CUSTOMSTYLE",
-            "label": "Lovakite ore",
+            "label": "Lovakite ore style",
+            "group": "Lovakite ore",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -193,6 +290,13 @@
                 "borderColor": "#FF5C1009",
                 "menuTextColor": "#FF5C1009"
             }
+        },
+        {
+            "macroName": "VAR_LOVAKITE_ORE_MIN_QUANTITY",
+            "label": "Lovakite ore minimum quantity",
+            "group": "Lovakite ore",
+            "type": "number",
+            "default": 0
         }
     ]
 }
