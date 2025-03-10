@@ -1,6 +1,6 @@
 {
     "name": "Rare drop table",
-    "description": "Specially colors RDT drops. This is based on item name and quantity so isn't perfect. (by default it gives RDT a gold border)",
+    "description": "Give RDT drops unique styling",
     "inputs": [
         {
             "macroName": "VAR_RDT_HIDE",
