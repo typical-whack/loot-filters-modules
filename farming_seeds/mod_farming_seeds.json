@@ -91,6 +91,13 @@
                 "Wildblood seed"
             ],
             "default": [
+                "Barley seed",
+                "Hammerstone seed",
+                "Asgarnian seed",
+                "Jute seed",
+                "Yanillian seed",
+                "Krandorian seed",
+                "Wildblood seed"
             ]
         },
         {
@@ -106,6 +113,10 @@
                 "Poison ivy seed"
             ],
             "default": [
+                "Redberry seed",
+                "Cadavaberry seed",
+                "Dwellberry seed",
+                "Jangerberry seed"
             ]
         },
         {
@@ -120,6 +131,8 @@
                 "Magic seed"
             ],
             "default": [
+                "Acorn",
+                "Willow seed"
             ]
         },
         {
@@ -137,6 +150,11 @@
                 "Dragonfruit seed"
             ],
             "default": [
+                "Apple seed",
+                "Banana seed",
+                "Orange seed",
+                "Curry seed",
+                "Pineapple seed"
             ]
         },
         {
@@ -153,6 +171,9 @@
                 "Redwood tree seed"
             ],
             "default": [
+                "Teak seed",
+                "Mahogany seed",
+                "Calquat tree seed"
             ]
         },
         {
