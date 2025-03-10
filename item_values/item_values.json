@@ -1,0 +1,100 @@
+{
+    "name": "Item values",
+    "inputs": [
+        {
+            "macroName": "VAR_VALUES_TIER_5_VALUE",
+            "label": "Minimum value",
+            "type": "number",
+            "default": 30000000,
+            "group": "Tier 5"
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_4_VALUE",
+            "label": "Minimum value",
+            "type": "number",
+            "default": 10000000,
+            "group": "Tier 4"
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_3_VALUE",
+            "label": "Minimum value",
+            "type": "number",
+            "default": 1000000,
+            "group": "Tier 3"
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_2_VALUE",
+            "label": "Minimum value",
+            "type": "number",
+            "default": 100000,
+            "group": "Tier 2"
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_1_VALUE",
+            "label": "Minimum value",
+            "type": "number",
+            "default": 20000,
+            "group": "Tier 1"
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_5_CUSTOMSTYLE",
+            "label": "Display",
+            "type": "style",
+            "group": "Tier 5",
+            "default": {
+                "borderColor": "#FF000000",
+                "backgroundColor": "#80FF9600",
+                "lootbeamColor": "#FFFF9600",
+                "menuTextColor": "#FFFF9600",
+                "fontType": 3,
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_4_CUSTOMSTYLE",
+            "label": "Display",
+            "type": "style",
+            "group": "Tier 4",
+            "default": {
+                "borderColor": "#FF000000",
+                "backgroundColor": "#80FF66B2",
+                "lootbeamColor": "#FFFF66B2",
+                "menuTextColor": "#FFFF66B2",
+                "fontType": 2,
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_3_CUSTOMSTYLE",
+            "label": "Display",
+            "type": "style",
+            "group": "Tier 3",
+            "default": {
+                "borderColor": "#FF000000",
+                "backgroundColor": "#80FF9600",
+                "lootbeamColor": "#FFFF9600",
+                "menuTextColor": "#FFFF9600",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_2_CUSTOMSTYLE",
+            "label": "Display",
+            "type": "style",
+            "group": "Tier 2",
+            "default": {
+                "textColor": "#FF99FF99",
+                "borderColor": "#FF99FF99"
+            }
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_1_CUSTOMSTYLE",
+            "label": "Display",
+            "type": "style",
+            "group": "Tier 1",
+            "default": {
+                "textColor": "#FF66B2FF"
+            }
+        }
+    ]
+}
