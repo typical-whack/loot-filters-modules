@@ -24,12 +24,6 @@
             ]
         },
         {
-            "macroName": "VAR_METAL_EQUIPMENT_COLOR_MENU_TEXT",
-            "label": "Color metal equipment menu text",
-            "type": "boolean",
-            "default": true
-        },
-        {
             "macroName":"VAR_BRONZE_CUSTOMSTYLE",
             "label": "Bronze",
             "type": "style",

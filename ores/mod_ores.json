@@ -26,12 +26,6 @@
             ]
         },
         {
-            "macroName": "VAR_ORES_COLOR_MENU_TEXT",
-            "label": "Color ore menu text",
-            "type": "boolean",
-            "default": true
-        },
-        {
             "macroName": "VAR_COPPER_ORE_CUSTOMSTYLE",
             "label": "Copper ore",
             "type": "style",

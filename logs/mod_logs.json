@@ -27,12 +27,6 @@
             ]
         },
         {
-            "macroName": "VAR_LOGS_COLOR_MENU_TEXT",
-            "label": "Color log menu text",
-            "type": "boolean",
-            "default": true
-        },
-        {
             "macroName": "VAR_LOGS_CUSTOMSTYLE",
             "label": "Logs",
             "type": "style",

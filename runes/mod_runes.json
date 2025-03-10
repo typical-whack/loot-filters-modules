@@ -34,12 +34,6 @@
             ]
         },
         {
-            "macroName": "VAR_RUNES_COLOR_MENU_TEXT",
-            "label": "Color runes menu text",
-            "type": "boolean",
-            "default": true
-        },
-        {
             "macroName": "VAR_AIR_RUNE_CUSTOMSTYLE",
             "label": "Air rune",
             "type": "style",

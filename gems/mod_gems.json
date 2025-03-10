@@ -21,12 +21,6 @@
             ]
         },
         {
-            "macroName": "VAR_GEMS_COLOR_MENU_TEXT",
-            "label": "Color gems menu text",
-            "type": "boolean",
-            "default": true
-        },
-        {
             "macroName": "VAR_SAPPHIRE_CUSTOMSTYLE",
             "label": "Sapphire",
             "type": "style",
