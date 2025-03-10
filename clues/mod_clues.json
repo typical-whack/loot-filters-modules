@@ -5,7 +5,7 @@
         {
             "type": "enumlist",
             "macroName": "VAR_CLUE_SCROLLS_HIDE",
-            "label": "Potions to hide",
+            "label": "Clue tiers to hide",
             "enum": [
                 { "value": "Clue scroll (beginner)", "label": "Beginner" },
                 { "value": "Clue scroll (easy)", "label": "Easy" },
