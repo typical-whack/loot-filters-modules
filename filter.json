@@ -9,11 +9,6 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/global/mod_global.rs2f"
         },
         {
-            "name": "Rare drop table",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.rs2f"
-        },
-        {
             "name": "Barrows",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.rs2f"
@@ -62,6 +57,11 @@
             "name": "Barbarian Potions",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.rs2f"
+        },
+        {
+            "name": "Rare drop table",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.rs2f"
         }
     ]
 }
