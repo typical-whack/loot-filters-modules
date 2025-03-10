@@ -32,7 +32,8 @@
         },
         {
             "macroName": "VAR_BRONZE_BAR_CUSTOMSTYLE",
-            "label": "Bronze bar",
+            "label": "Bronze bar style",
+            "group": "Bronze bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -44,8 +45,16 @@
             }
         },
         {
+            "macroName": "VAR_BRONZE_BAR_MIN_QUANTITY",
+            "label": "Bronze bar minimum quantity to show",
+            "group": "Bronze bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_IRON_BAR_CUSTOMSTYLE",
-            "label": "Iron bar",
+            "label": "Iron bar style",
+            "group": "Iron bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -57,8 +66,16 @@
             }
         },
         {
+            "macroName": "VAR_IRON_BAR_MIN_QUANTITY",
+            "label": "Iron bar minimum quantity to show",
+            "group": "Iron bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_SILVER_BAR_CUSTOMSTYLE",
-            "label": "Silver bar",
+            "label": "Silver bar style",
+            "group": "Silver bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -70,8 +87,16 @@
             }
         },
         {
+            "macroName": "VAR_SILVER_BAR_MIN_QUANTITY",
+            "label": "Silver bar minimum quantity to show",
+            "group": "Silver bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_STEEL_BAR_CUSTOMSTYLE",
-            "label": "Steel bar",
+            "label": "Steel bar style",
+            "group": "Steel bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -83,8 +108,16 @@
             }
         },
         {
+            "macroName": "VAR_STEEL_BAR_MIN_QUANTITY",
+            "label": "Steel bar minimum quantity to show",
+            "group": "Steel bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_GOLD_BAR_CUSTOMSTYLE",
-            "label": "Gold bar",
+            "label": "Gold bar style",
+            "group": "Gold bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -96,8 +129,16 @@
             }
         },
         {
+            "macroName": "VAR_GOLD_BAR_MIN_QUANTITY",
+            "label": "Gold bar minimum quantity to show",
+            "group": "Gold bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_MITHRIL_BAR_CUSTOMSTYLE",
-            "label": "Mithril bar",
+            "label": "Mithril bar style",
+            "group": "Mithril bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -109,8 +150,16 @@
             }
         },
         {
+            "macroName": "VAR_MITHRIL_BAR_MIN_QUANTITY",
+            "label": "Mithril bar minimum quantity to show",
+            "group": "Mithril bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_ADAMANTITE_BAR_CUSTOMSTYLE",
-            "label": "Adamantite bar",
+            "label": "Adamantite bar style",
+            "group": "Adamantite bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -122,8 +171,16 @@
             }
         },
         {
+            "macroName": "VAR_ADAMANTITE_BAR_MIN_QUANTITY",
+            "label": "Adamantite bar minimum quantity to show",
+            "group": "Adamantite bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_RUNITE_BAR_CUSTOMSTYLE",
-            "label": "Runite bar",
+            "label": "Runite bar style",
+            "group": "Runite bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -135,8 +192,16 @@
             }
         },
         {
+            "macroName": "VAR_RUNITE_BAR_MIN_QUANTITY",
+            "label": "Runite bar minimum quantity to show",
+            "group": "Runite bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_ELEMENTAL_METAL_CUSTOMSTYLE",
-            "label": "Elemental metal",
+            "label": "Elemental metal style",
+            "group": "Elemental metal",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -148,8 +213,16 @@
             }
         },
         {
+            "macroName": "VAR_ELEMENTAL_METAL_MIN_QUANTITY",
+            "label": "Elemental metal minimum quantity to show",
+            "group": "Elemental metal",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_PRIMED_BAR_CUSTOMSTYLE",
-            "label": "Primed bar",
+            "label": "Primed bar style",
+            "group": "Primed bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -161,8 +234,16 @@
             }
         },
         {
+            "macroName": "VAR_PRIMED_BAR_MIN_QUANTITY",
+            "label": "Primed bar minimum quantity to show",
+            "group": "Primed bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_PRIMED_MIND_BAR_CUSTOMSTYLE",
-            "label": "Primed mind bar",
+            "label": "Primed mind bar style",
+            "group": "Primed mind bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -174,8 +255,16 @@
             }
         },
         {
+            "macroName": "VAR_PRIMED_MIND_BAR_MIN_QUANTITY",
+            "label": "Primed mind bar minimum quantity to show",
+            "group": "Primed mind bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_BLURITE_BAR_CUSTOMSTYLE",
-            "label": "Blurite bar",
+            "label": "Blurite bar style",
+            "group": "Blurite bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -187,8 +276,16 @@
             }
         },
         {
+            "macroName": "VAR_BLURITE_BAR_MIN_QUANTITY",
+            "label": "Blurite bar minimum quantity to show",
+            "group": "Blurite bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_ENCHANTED_BAR_CUSTOMSTYLE",
-            "label": "Enchanted bar",
+            "label": "Enchanted bar style",
+            "group": "Enchanted bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -200,8 +297,16 @@
             }
         },
         {
+            "macroName": "VAR_ENCHANTED_BAR_MIN_QUANTITY",
+            "label": "Enchanted bar minimum quantity to show",
+            "group": "Enchanted bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_LOVAKITE_BAR_CUSTOMSTYLE",
-            "label": "Lovakite bar",
+            "label": "Lovakite bar style",
+            "group": "Lovakite bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -213,8 +318,16 @@
             }
         },
         {
+            "macroName": "VAR_LOVAKITE_BAR_MIN_QUANTITY",
+            "label": "Lovakite bar minimum quantity to show",
+            "group": "Lovakite bar",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE",
-            "label": "'Perfect' gold bar",
+            "label": "'Perfect' gold bar style",
+            "group": "'Perfect' gold bar",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -224,6 +337,13 @@
                 "borderColor": "#FFB79517",
                 "menuTextColor": "#FFB79517"
             }
+        },
+        {
+            "macroName": "VAR_PERFECT_GOLD_BAR_MIN_QUANTITY",
+            "label": "'Perfect' gold bar minimum quantity to show",
+            "group": "'Perfect' gold bar",
+            "type": "number",
+            "default": 0
         }
     ]
 }
