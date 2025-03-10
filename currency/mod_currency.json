@@ -5,7 +5,9 @@
             "macroName": "VAR_CURRENCY_HIDE",
             "label": "Currency to hide",
             "type": "stringlist",
-            "default": []
+            "default": [
+                "Archery ticket"
+            ]
         },
         {
             "macroName": "VAR_CURRENCY_CUSTOMSTYLE",
