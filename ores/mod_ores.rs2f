@@ -1,7 +1,5 @@
 // module:ores
 
-#define CONST_DEFAULT_MENU_TEXT_COLOR "#FFFF9040"
-
 #define VAR_ORES_HIDE []
 
 #define VAR_COPPER_ORE_CUSTOMSTYLE 
@@ -18,142 +16,60 @@
 #define VAR_ADAMANTITE_ORE_CUSTOMSTYLE 
 #define VAR_RUNITE_ORE_CUSTOMSTYLE 
 
-#define VAR_ORES_COLOR_MENU_TEXT 
+apply (name:VAR_ORES_HIDE) {
+    hidden = true;
+}
 
-#define VAR_DISABLE_ORES_MODULE 
+apply (name:"copper ore") {
+    VAR_COPPER_ORE_CUSTOMSTYLE
+}
 
-apply (!VAR_DISABLE_ORES_MODULE) {
+apply (name:"tin ore") {
+    VAR_TIN_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"copper ore") {
-        apply ("copper ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_COPPER_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"blurite ore") {
+    VAR_BLURITE_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"tin ore") {
-        apply ("tin ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_TIN_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"iron ore") {
+    VAR_IRON_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"blurite ore") {
-        apply ("blurite ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_BLURITE_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"daeyalt ore") {
+    VAR_DAEYALT_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"iron ore") {
-        apply ("iron ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_IRON_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"silver ore") {
+    VAR_SILVER_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"daeyalt ore") {
-        apply ("daeyalt ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_DAEYALT_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"coal") {
+    VAR_COAL_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"silver ore") {
-        apply ("silver ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_SILVER_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"gold ore") {
+    VAR_GOLD_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"coal ore") {
-        apply ("coal ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_COAL_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"blasted ore") {
+    VAR_BLASTED_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"gold ore") {
-        apply ("gold ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_GOLD_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"mithril ore") {
+    VAR_MITHRIL_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"blasted ore") {
-        apply ("blasted ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_BLASTED_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"lovakite ore") {
+    VAR_LOVAKITE_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"mithril ore") {
-        apply ("mithril ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_MITHRIL_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
+apply (name:"adamantite ore") {
+    VAR_ADAMANTITE_ORE_CUSTOMSTYLE
+}
 
-    apply (name:"lovakite ore") {
-        apply ("lovakite ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_LOVAKITE_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:"adamantite ore") {
-        apply ("adamantite ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_ADAMANTITE_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
-    apply (name:"runite ore") {
-        apply ("runite ore":VAR_ORES_HIDE) {
-            hidden = true;
-        }
-        VAR_RUNITE_ORE_CUSTOMSTYLE
-        apply (!VAR_ORES_COLOR_MENU_TEXT) {
-            menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-        }
-    }
-
+apply (name:"runite ore") {
+    VAR_RUNITE_ORE_CUSTOMSTYLE
 }
 
 // endmodule:ores
