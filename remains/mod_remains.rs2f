@@ -1,0 +1,25 @@
+// module:remains
+
+#define VAR_BONES_HIDE
+#define VAR_ASHES_HIDE
+#define VAR_ASHES_HIDE
+#define VAR_ENSOULED_HEADS_HIDE
+
+
+
+apply (name:VAR_BONES_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_ASHES_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_ASHES_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_ENSOULED_HEADS_HIDE) {
+    hidden = true;
+}
+
+
+
+// endmodule:remains

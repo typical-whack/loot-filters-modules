@@ -79,6 +79,11 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.rs2f"
         },
         {
+            "name": "Remains",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.rs2f"
+        },
+        {
             "name": "Rare drop table",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.rs2f"

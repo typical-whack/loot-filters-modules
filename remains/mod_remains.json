@@ -1,0 +1,110 @@
+{
+    "name": "Remains",
+    "description": "For bones, ensouled heads, ashes, and shades of morton remains",
+    "inputs": [
+        {
+            "macroName": "VAR_BONES_HIDE",
+            "label": "Bones to hide",
+            "type": "enumlist",
+            "enum": [
+                "Bones",
+                "Wolf bones",
+                "Burnt bones",
+                "Monkey bones",
+                "Bat bones",
+                "Big bones",
+                "Jogre bones",
+                "Wyrmling bones",
+                "Zogre bones",
+                "Shaikahan bones",
+                "Babydragon bones",
+                "Wyrm bones",
+                "Wyvern bones",
+                "Dragon bones",
+                "Drake bones",
+                "Fayrg bones",
+                "Lava dragon bones",
+                "Raurg bones",
+                "Hydra bones",
+                "Dagannoth bones",
+                "Ourg bones",
+                "Superior dragon bones",
+                "Bleached bones",
+                "Small zombie monkey bones",
+                "Large zombie monkey bones",
+                "Small ninja monkey bones",
+                "Medium ninja monkey bones",
+                "Gorilla bones",
+                "Bearded gorilla bones"
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "macroName": "VAR_ASHES_HIDE",
+            "label": "Ashes to hide",
+            "type": "enumlist",
+            "enum": [
+                "Fiendish ashes",
+                "Vile ashes",
+                "Malicious ashes",
+                "Abyssal ashes",
+                "Infernal ashes"
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "macroName": "VAR_ASHES_HIDE",
+            "label": "Shades of morton remains to hide",
+            "type": "enumlist",
+            "enum": [
+                "Loar remains",
+                "Phrin remains",
+                "Riyl remains",
+                "Asyn remains",
+                "Fiyr remains",
+                "Urium remains"
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "macroName": "VAR_ENSOULED_HEADS_HIDE",
+            "label": "Ensouled heads to hide",
+            "type": "enumlist",
+            "enum": [
+                "Ensouled goblin head",
+                "Ensouled monkey head",
+                "Ensouled imp head",
+                "Ensouled minotaur head",
+                "Ensouled scorpion head",
+                "Ensouled bear head",
+                "Ensouled unicorn head",
+                "Ensouled dog head",
+                "Ensouled chaos druid head",
+                "Ensouled giant head",
+                "Ensouled ogre head",
+                "Ensouled elf head",
+                "Ensouled troll head",
+                "Ensouled horror head",
+                "Ensouled kalphite head",
+                "Ensouled dagannoth head",
+                "Ensouled bloodveld head",
+                "Ensouled tzHaar head",
+                "Ensouled demon head",
+                "Ensouled hellhound head",
+                "Ensouled aviansie head",
+                "Ensouled abyssal head",
+                "Ensouled dragon head"
+            ],
+            "default": [
+
+            ]
+        }
+
+    ]
+}
