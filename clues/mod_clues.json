@@ -26,7 +26,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#80908062",
+                "backgroundColor": "#50908062",
                 "borderColor": "#FFCFC8C8",
                 "menuTextColor": "#FFCFC8C8"
             }
@@ -39,7 +39,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#80908062",
+                "backgroundColor": "#50908062",
                 "borderColor": "#FF248F26",
                 "menuTextColor": "#FF248F26"
             }
@@ -52,7 +52,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#80908062",
+                "backgroundColor": "#50908062",
                 "borderColor": "#FF6CBBBF",
                 "menuTextColor": "#FF6CBBBF"
             }
@@ -65,7 +65,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#80908062",
+                "backgroundColor": "#50908062",
                 "borderColor": "#FFA343BD",
                 "menuTextColor": "#FFA343BD"
             }
@@ -78,7 +78,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#80908062",
+                "backgroundColor": "#50908062",
                 "borderColor": "#FFEED11D",
                 "menuTextColor": "#FFEED11D"
             }
@@ -91,7 +91,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccent": 1,
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#80908062",
+                "backgroundColor": "#50908062",
                 "borderColor": "#FFC33C30",
                 "menuTextColor": "#FFC33C30"
             }
