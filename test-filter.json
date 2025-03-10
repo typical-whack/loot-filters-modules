@@ -22,6 +22,11 @@
             "name": "Logs",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/logs/mod_logs.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/logs/mod_logs.rs2f"
+        },
+        {
+            "name": "Ores",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/ores/mod_ores.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/ores/mod_ores.rs2f"
         }
     ]
 }

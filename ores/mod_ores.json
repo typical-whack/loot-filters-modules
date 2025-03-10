@@ -10,7 +10,7 @@
                 "Tin ore",
                 "Iron ore",
                 "Silver ore",
-                "Coal ore",
+                "Coal",
                 "Gold ore",
                 "Mithril ore",
                 "Adamantite ore",
@@ -72,7 +72,7 @@
         },
         {
             "macroName": "VAR_COAL_ORE_CUSTOMSTYLE",
-            "label": "Coal ore",
+            "label": "Coal",
             "type": "style",
             "default": {
                 "backgroundColor": "#80383725",
