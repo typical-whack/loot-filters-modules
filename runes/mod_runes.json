@@ -35,7 +35,7 @@
         },
         {
             "macroName": "VAR_AIR_RUNE_CUSTOMSTYLE",
-            "label": "Air rune",
+            "label": "Air rune style",
             "group": "Air rune",
             "type": "style",
             "default": {
@@ -49,14 +49,14 @@
         },
         {
             "macroName": "VAR_AIR_RUNE_MIN_QUANTITY",
-            "label": "Air rune",
+            "label": "Air rune minimum quantity",
             "group": "Air rune",
             "type": "number",
             "default": 500
         },
         {
             "macroName": "VAR_WATER_RUNE_CUSTOMSTYLE",
-            "label": "Water rune",
+            "label": "Water rune style",
             "group": "Water rune",
             "type": "style",
             "default": {
@@ -70,14 +70,14 @@
         },
         {
             "macroName": "VAR_WATER_RUNE_MIN_QUANTITY",
-            "label": "Water rune",
+            "label": "Water rune minimum quantity",
             "group": "Water rune",
             "type": "number",
             "default": 500
         },
         {
             "macroName": "VAR_EARTH_RUNE_CUSTOMSTYLE",
-            "label": "Earth rune",
+            "label": "Earth rune style",
             "group": "Earth rune",
             "type": "style",
             "default": {
@@ -91,14 +91,14 @@
         },
         {
             "macroName": "VAR_EARTH_RUNE_MIN_QUANTITY",
-            "label": "Earth rune",
+            "label": "Earth rune minimum quantity",
             "group": "Earth rune",
             "type": "number",
             "default": 500
         },
         {
             "macroName": "VAR_FIRE_RUNE_CUSTOMSTYLE",
-            "label": "Fire rune",
+            "label": "Fire rune style",
             "group": "Fire rune",
             "type": "style",
             "default": {
@@ -112,14 +112,14 @@
         },
         {
             "macroName": "VAR_FIRE_RUNE_MIN_QUANTITY",
-            "label": "Fire rune",
+            "label": "Fire rune minimum quantity",
             "group": "Fire rune",
             "type": "number",
             "default": 500
         },
         {
             "macroName": "VAR_MIND_RUNE_CUSTOMSTYLE",
-            "label": "Mind rune",
+            "label": "Mind rune style",
             "group": "Mind rune",
             "type": "style",
             "default": {
@@ -133,14 +133,14 @@
         },
         {
             "macroName": "VAR_MIND_RUNE_MIN_QUANTITY",
-            "label": "Mind rune",
+            "label": "Mind rune minimum quantity",
             "group": "Mind rune",
             "type": "number",
             "default": 500
         },
         {
             "macroName": "VAR_BODY_RUNE_CUSTOMSTYLE",
-            "label": "Body rune",
+            "label": "Body rune style",
             "group": "Body rune",
             "type": "style",
             "default": {
@@ -154,14 +154,14 @@
         },
         {
             "macroName": "VAR_BODY_RUNE_MIN_QUANTITY",
-            "label": "Body rune",
+            "label": "Body rune minimum quantity",
             "group": "Body rune",
             "type": "number",
             "default": 500
         },
         {
             "macroName": "VAR_COSMIC_RUNE_CUSTOMSTYLE",
-            "label": "Cosmic rune",
+            "label": "Cosmic rune style",
             "group": "Cosmic rune",
             "type": "style",
             "default": {
@@ -175,14 +175,14 @@
         },
         {
             "macroName": "VAR_COSMIC_RUNE_MIN_QUANTITY",
-            "label": "Cosmic rune",
+            "label": "Cosmic rune minimum quantity",
             "group": "Cosmic rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_CHAOS_RUNE_CUSTOMSTYLE",
-            "label": "Chaos rune",
+            "label": "Chaos rune style",
             "group": "Chaos rune",
             "type": "style",
             "default": {
@@ -196,14 +196,14 @@
         },
         {
             "macroName": "VAR_CHAOS_RUNE_MIN_QUANTITY",
-            "label": "Chaos rune",
+            "label": "Chaos rune minimum quantity",
             "group": "Chaos rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_NATURE_RUNE_CUSTOMSTYLE",
-            "label": "Nature rune",
+            "label": "Nature rune style",
             "group": "Nature rune",
             "type": "style",
             "default": {
@@ -217,14 +217,14 @@
         },
         {
             "macroName": "VAR_NATURE_RUNE_MIN_QUANTITY",
-            "label": "Nature rune",
+            "label": "Nature rune minimum quantity",
             "group": "Nature rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_LAW_RUNE_CUSTOMSTYLE",
-            "label": "Law rune",
+            "label": "Law rune style",
             "group": "Law rune",
             "type": "style",
             "default": {
@@ -238,14 +238,14 @@
         },
         {
             "macroName": "VAR_LAW_RUNE_MIN_QUANTITY",
-            "label": "Law rune",
+            "label": "Law rune minimum quantity",
             "group": "Law rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_DEATH_RUNE_CUSTOMSTYLE",
-            "label": "Death rune",
+            "label": "Death rune style",
             "group": "Death rune",
             "type": "style",
             "default": {
@@ -259,14 +259,14 @@
         },
         {
             "macroName": "VAR_DEATH_RUNE_MIN_QUANTITY",
-            "label": "Death rune",
+            "label": "Death rune minimum quantity",
             "group": "Death rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_SUNFIRE_RUNE_CUSTOMSTYLE",
-            "label": "Sunfire rune",
+            "label": "Sunfire rune style",
             "group": "Sunfire rune",
             "type": "style",
             "default": {
@@ -280,14 +280,14 @@
         },
         {
             "macroName": "VAR_SUNFIRE_RUNE_MIN_QUANTITY",
-            "label": "Sunfire rune",
+            "label": "Sunfire rune minimum quantity",
             "group": "Sunfire rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_ASTRAL_RUNE_CUSTOMSTYLE",
-            "label": "Astral rune",
+            "label": "Astral rune style",
             "group": "Astral rune",
             "type": "style",
             "default": {
@@ -301,14 +301,14 @@
         },
         {
             "macroName": "VAR_ASTRAL_RUNE_MIN_QUANTITY",
-            "label": "Astral rune",
+            "label": "Astral rune minimum quantity",
             "group": "Astral rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_BLOOD_RUNE_CUSTOMSTYLE",
-            "label": "Blood rune",
+            "label": "Blood rune style",
             "group": "Blood rune",
             "type": "style",
             "default": {
@@ -322,14 +322,14 @@
         },
         {
             "macroName": "VAR_BLOOD_RUNE_MIN_QUANTITY",
-            "label": "Blood rune",
+            "label": "Blood rune minimum quantity",
             "group": "Blood rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_SOUL_RUNE_CUSTOMSTYLE",
-            "label": "Soul rune",
+            "label": "Soul rune style",
             "group": "Soul rune",
             "type": "style",
             "default": {
@@ -343,14 +343,14 @@
         },
         {
             "macroName": "VAR_SOUL_RUNE_MIN_QUANTITY",
-            "label": "Soul rune",
+            "label": "Soul rune minimum quantity",
             "group": "Soul rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_WRATH_RUNE_CUSTOMSTYLE",
-            "label": "Wrath rune",
+            "label": "Wrath rune style",
             "group": "Wrath rune",
             "type": "style",
             "default": {
@@ -364,14 +364,14 @@
         },
         {
             "macroName": "VAR_WRATH_RUNE_MIN_QUANTITY",
-            "label": "Wrath rune",
+            "label": "Wrath rune minimum quantity",
             "group": "Wrath rune",
             "type": "number",
             "default": 10
         },
         {
             "macroName": "VAR_MIST_RUNE_CUSTOMSTYLE",
-            "label": "Mist rune",
+            "label": "Mist rune style",
             "group": "Mist rune",
             "type": "style",
             "default": {
@@ -385,14 +385,14 @@
         },
         {
             "macroName": "VAR_MIST_RUNE_MIN_QUANTITY",
-            "label": "Mist rune",
+            "label": "Mist rune minimum quantity",
             "group": "Mist rune",
             "type": "number",
             "default": 50
         },
         {
             "macroName": "VAR_DUST_RUNE_CUSTOMSTYLE",
-            "label": "Dust rune",
+            "label": "Dust rune style",
             "group": "Dust rune",
             "type": "style",
             "default": {
@@ -406,14 +406,14 @@
         },
         {
             "macroName": "VAR_DUST_RUNE_MIN_QUANTITY",
-            "label": "Dust rune",
+            "label": "Dust rune minimum quantity",
             "group": "Dust rune",
             "type": "number",
             "default": 50
         },
         {
             "macroName": "VAR_MUD_RUNE_CUSTOMSTYLE",
-            "label": "Mud rune",
+            "label": "Mud rune style",
             "group": "Mud rune",
             "type": "style",
             "default": {
@@ -427,14 +427,14 @@
         },
         {
             "macroName": "VAR_MUD_RUNE_MIN_QUANTITY",
-            "label": "Mud rune",
+            "label": "Mud rune minimum quantity",
             "group": "Mud rune",
             "type": "number",
             "default": 50
         },
         {
             "macroName": "VAR_SMOKE_RUNE_CUSTOMSTYLE",
-            "label": "Smoke rune",
+            "label": "Smoke rune style",
             "group": "Smoke rune",
             "type": "style",
             "default": {
@@ -448,14 +448,14 @@
         },
         {
             "macroName": "VAR_SMOKE_RUNE_MIN_QUANTITY",
-            "label": "Smoke rune",
+            "label": "Smoke rune minimum quantity",
             "group": "Smoke rune",
             "type": "number",
             "default": 50
         },
         {
             "macroName": "VAR_STEAM_RUNE_CUSTOMSTYLE",
-            "label": "Steam rune",
+            "label": "Steam rune style",
             "group": "Steam rune",
             "type": "style",
             "default": {
@@ -469,14 +469,14 @@
         },
         {
             "macroName": "VAR_STEAM_RUNE_MIN_QUANTITY",
-            "label": "Steam rune",
+            "label": "Steam rune minimum quantity",
             "group": "Steam rune",
             "type": "number",
             "default": 50
         },
         {
             "macroName": "VAR_LAVA_RUNE_CUSTOMSTYLE",
-            "label": "Lava rune",
+            "label": "Lava rune style",
             "group": "Lava rune",
             "type": "style",
             "default": {
@@ -490,7 +490,7 @@
         },
         {
             "macroName": "VAR_LAVA_RUNE_MIN_QUANTITY",
-            "label": "Lava rune",
+            "label": "Lava rune minimum quantity",
             "group": "Lava rune",
             "type": "number",
             "default": 50
