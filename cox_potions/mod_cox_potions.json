@@ -41,7 +41,6 @@
                 "backgroundColor": "#50845b5c",
                 "borderColor": "#FF845b5c",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FF845b5c"
              }
@@ -54,7 +53,6 @@
                 "backgroundColor": "#50657e69",
                 "borderColor": "#FF657e69",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FF657e69"
              }
@@ -67,7 +65,6 @@
                 "backgroundColor": "#507288a8",
                 "borderColor": "#FF7288a8",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FF7288a8"
              }
@@ -80,7 +77,6 @@
                 "backgroundColor": "#50a56785",
                 "borderColor": "#FFa56785",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FFa56785"
              }
@@ -93,7 +89,6 @@
                 "backgroundColor": "#509257ba",
                 "borderColor": "#FF9257ba",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FF9257ba"
              }
@@ -106,7 +101,6 @@
                 "backgroundColor": "#50afac73",
                 "borderColor": "#FFafac73",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FFafac73"
              }
@@ -119,7 +113,6 @@
                 "backgroundColor": "#50a4d27e",
                 "borderColor": "#FFa4d27e",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FFa4d27e"
              }
@@ -132,7 +125,6 @@
                 "backgroundColor": "#50130f0f",
                 "borderColor": "#FF130f0f",
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FFb2acb7",
                 "menuTextColor": "#FF130f0f"
              }

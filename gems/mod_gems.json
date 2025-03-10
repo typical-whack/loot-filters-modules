@@ -27,7 +27,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#500C1273",
                 "borderColor": "#FF0C1273",
@@ -48,7 +47,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#500C6B0F",
                 "borderColor": "#FF0C6B0F",
@@ -69,7 +67,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#504E0F08",
                 "borderColor": "#FF4E0F08",
@@ -90,7 +87,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#50857D7D",
                 "borderColor": "#FF857D7D",
@@ -111,7 +107,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#507E7D63",
                 "borderColor": "#FF7E7D63",
@@ -132,7 +127,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#506E7E64",
                 "borderColor": "#FF6E7E64",
@@ -153,7 +147,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#50830E4F",
                 "borderColor": "#FF830E4F",
@@ -174,7 +167,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#504C0B62",
                 "borderColor": "#FF4C0B62",
@@ -195,7 +187,6 @@
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
-                "textAccent": 1,
                 "textAccentColor": "#FF000000",
                 "backgroundColor": "#501C1A1A",
                 "borderColor": "#FF1C1A1A",
