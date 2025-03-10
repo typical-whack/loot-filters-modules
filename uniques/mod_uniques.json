@@ -318,7 +318,7 @@
             "type": "style",
             "default": {
                 "showLootbeam": true,
-                "fontType": 2
+                "fontType": 3
             }
         }
     ]
