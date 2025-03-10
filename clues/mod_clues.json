@@ -1,0 +1,82 @@
+{
+    "name": "Clue Scrolls",
+    "description": "Clue Scrolls",
+    "inputs": [
+        {
+            "type": "enumlist",
+            "macroName": "VAR_CLUE_SCROLLS_HIDE",
+            "label": "Potions to hide",
+            "enum": [
+                { "value": "Clue scroll (beginner)", "label": "Beginner" },
+                { "value": "Clue scroll (easy)", "label": "Easy" },
+                { "value": "Clue scroll (medium)", "label": "Medium" },
+                { "value": "Clue scroll (hard)", "label": "Hard" },
+                { "value": "Clue scroll (elite)", "label": "Elite" },
+                { "value": "Clue scroll (master)", "label": "Master" }
+            ],
+            "default": [
+
+            ]
+        },
+        {
+            "macroName": "VAR_CLUE_SCROLL_BEGINNER_CUSTOMSTYLE",
+            "label": "Clue scroll (beginner)",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#80908062",
+                "borderColor": "#FFCFC8C8",
+                "menuTextColor": "#FFCFC8C8"
+            }
+        },
+        {
+            "macroName": "VAR_CLUE_SCROLL_EASY_CUSTOMSTYLE",
+            "label": "Clue scroll (easy)",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#80908062",
+                "borderColor": "#FF248F26",
+                "menuTextColor": "#FF248F26"
+            }
+        },
+        {
+            "macroName": "VAR_CLUE_SCROLL_MEDIUM_CUSTOMSTYLE",
+            "label": "Clue scroll (medium)",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#80908062",
+                "borderColor": "#FF6CBBBF",
+                "menuTextColor": "#FF6CBBBF"
+            }
+        },
+        {
+            "macroName": "VAR_CLUE_SCROLL_HARD_CUSTOMSTYLE",
+            "label": "Clue scroll (hard)",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#80908062",
+                "borderColor": "#FFA343BD",
+                "menuTextColor": "#FFA343BD"
+            }
+        },
+        {
+            "macroName": "VAR_CLUE_SCROLL_ELITE_CUSTOMSTYLE",
+            "label": "Clue scroll (elite)",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#80908062",
+                "borderColor": "#FFEED11D",
+                "menuTextColor": "#FFEED11D"
+            }
+        },
+        {
+            "macroName": "VAR_CLUE_SCROLL_MASTER_CUSTOMSTYLE",
+            "label": "Clue scroll (master)",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#80908062",
+                "borderColor": "#FFC33C30",
+                "menuTextColor": "#FFC33C30"
+            }
+        }
+    ]
+}

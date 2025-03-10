@@ -9,6 +9,11 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/global/mod_global.rs2f"
         },
         {
+            "name": "Clues",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/clues/mod_clues.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/clues/mod_clues.rs2f"
+        },
+        {
             "name": "Barrows",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.rs2f"

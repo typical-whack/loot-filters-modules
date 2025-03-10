@@ -1,0 +1,39 @@
+// module:clues
+
+#define VAR_CLUE_SCROLLS_HIDE []
+
+#define VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE
+#define VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE
+#define VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE
+#define VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE
+#define VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE
+#define VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE
+
+
+
+apply (name:VAR_CLUE_SCROLLS_HIDE) {
+    hidden = true;
+}
+
+apply (name:"Clue scroll (beginner)") {
+    VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE
+}
+apply (name:"Clue scroll (easy)") {
+    VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE
+}
+apply (name:"Clue scroll (medium)") {
+    VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE
+}
+apply (name:"Clue scroll (hard)") {
+    VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE
+}
+apply (name:"Clue scroll (elite)") {
+    VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE
+}
+apply (name:"Clue scroll (master)") {
+    VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE
+}
+
+
+
+// endmodule:clues
