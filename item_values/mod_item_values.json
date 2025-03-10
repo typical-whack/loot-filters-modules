@@ -4,43 +4,43 @@
         {
             "macroName": "VAR_VALUES_TIER_1_VALUE",
             "label": "Minimum value",
+            "group": "Tier 1",
             "type": "number",
-            "default": 20000,
-            "group": "Tier 1"
+            "default": 20000
         },
         {
             "macroName": "VAR_VALUES_TIER_2_VALUE",
             "label": "Minimum value",
+            "group": "Tier 2",
             "type": "number",
-            "default": 100000,
-            "group": "Tier 2"
+            "default": 100000
         },
         {
             "macroName": "VAR_VALUES_TIER_3_VALUE",
             "label": "Minimum value",
+            "group": "Tier 3",
             "type": "number",
-            "default": 1000000,
-            "group": "Tier 3"
+            "default": 1000000
         },
         {
             "macroName": "VAR_VALUES_TIER_4_VALUE",
             "label": "Minimum value",
+            "group": "Tier 4",
             "type": "number",
-            "default": 10000000,
-            "group": "Tier 4"
+            "default": 10000000
         },
         {
             "macroName": "VAR_VALUES_TIER_5_VALUE",
             "label": "Minimum value",
+            "group": "Tier 5",
             "type": "number",
-            "default": 30000000,
-            "group": "Tier 5"
+            "default": 30000000
         },
         {
             "macroName": "VAR_VALUES_TIER_1_CUSTOMSTYLE",
             "label": "Tier 1 Display",
-            "type": "style",
             "group": "Tier 1",
+            "type": "style",
             "default": {
                 "textColor": "#FF66B2FF"
             }
@@ -48,8 +48,8 @@
         {
             "macroName": "VAR_VALUES_TIER_2_CUSTOMSTYLE",
             "label": "Tier 2 Display",
-            "type": "style",
             "group": "Tier 2",
+            "type": "style",
             "default": {
                 "textColor": "#FF99FF99",
                 "borderColor": "#FF99FF99"
@@ -58,8 +58,8 @@
         {
             "macroName": "VAR_VALUES_TIER_3_CUSTOMSTYLE",
             "label": "Tier 3 Display",
-            "type": "style",
             "group": "Tier 3",
+            "type": "style",
             "default": {
                 "borderColor": "#FF000000",
                 "backgroundColor": "#80FF9600",
@@ -71,8 +71,8 @@
         {
             "macroName": "VAR_VALUES_TIER_4_CUSTOMSTYLE",
             "label": "Tier 4 Display",
-            "type": "style",
             "group": "Tier 4",
+            "type": "style",
             "default": {
                 "borderColor": "#FF000000",
                 "backgroundColor": "#80FF66B2",
@@ -85,8 +85,8 @@
         {
             "macroName": "VAR_VALUES_TIER_5_CUSTOMSTYLE",
             "label": "Tier 5 Display",
-            "type": "style",
             "group": "Tier 5",
+            "type": "style",
             "default": {
                 "borderColor": "#FF000000",
                 "backgroundColor": "#80FF9600",
