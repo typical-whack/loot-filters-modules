@@ -19,7 +19,7 @@
             ]
         },
         {
-            "macroName": "VAR_CLUE_SCROLL_BEGINNER_CUSTOMSTYLE",
+            "macroName": "VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE",
             "label": "Clue scroll (beginner)",
             "type": "style",
             "default": {
@@ -29,7 +29,7 @@
             }
         },
         {
-            "macroName": "VAR_CLUE_SCROLL_EASY_CUSTOMSTYLE",
+            "macroName": "VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE",
             "label": "Clue scroll (easy)",
             "type": "style",
             "default": {
@@ -39,7 +39,7 @@
             }
         },
         {
-            "macroName": "VAR_CLUE_SCROLL_MEDIUM_CUSTOMSTYLE",
+            "macroName": "VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE",
             "label": "Clue scroll (medium)",
             "type": "style",
             "default": {
@@ -49,7 +49,7 @@
             }
         },
         {
-            "macroName": "VAR_CLUE_SCROLL_HARD_CUSTOMSTYLE",
+            "macroName": "VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE",
             "label": "Clue scroll (hard)",
             "type": "style",
             "default": {
@@ -59,7 +59,7 @@
             }
         },
         {
-            "macroName": "VAR_CLUE_SCROLL_ELITE_CUSTOMSTYLE",
+            "macroName": "VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE",
             "label": "Clue scroll (elite)",
             "type": "style",
             "default": {
@@ -69,7 +69,7 @@
             }
         },
         {
-            "macroName": "VAR_CLUE_SCROLL_MASTER_CUSTOMSTYLE",
+            "macroName": "VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE",
             "label": "Clue scroll (master)",
             "type": "style",
             "default": {
