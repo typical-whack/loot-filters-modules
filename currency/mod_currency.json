@@ -3,15 +3,13 @@
     "inputs": [
         {
             "macroName": "VAR_CURRENCY_HIDE",
-            "label": "Currency items to hide",
-            "group": "Currency Filters",
+            "label": "Currency to hide",
             "type": "stringlist",
             "default": []
         },
         {
             "macroName": "VAR_CURRENCY_CUSTOMSTYLE",
             "label": "Default currency custom style",
-            "group": "Custom currency styles",
             "type": "style",
             "default": {
                 "textColor": "#FFBEB287"
