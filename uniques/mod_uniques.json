@@ -317,7 +317,8 @@
             "label": "Uniques custom style",
             "type": "style",
             "default": {
-                "showLootbeam": true
+                "showLootbeam": true,
+                "fontType": 2
             }
         }
     ]
