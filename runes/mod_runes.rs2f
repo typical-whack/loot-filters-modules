@@ -27,7 +27,28 @@
 #define VAR_STEAM_RUNE_CUSTOMSTYLE 
 #define VAR_LAVA_RUNE_CUSTOMSTYLE 
 
-
+#define VAR_AIR_RUNE_MIN_QUANTITY
+#define VAR_WATER_RUNE_MIN_QUANTITY
+#define VAR_EARTH_RUNE_MIN_QUANTITY
+#define VAR_FIRE_RUNE_MIN_QUANTITY
+#define VAR_MIND_RUNE_MIN_QUANTITY
+#define VAR_BODY_RUNE_MIN_QUANTITY
+#define VAR_COSMIC_RUNE_MIN_QUANTITY
+#define VAR_CHAOS_RUNE_MIN_QUANTITY
+#define VAR_NATURE_RUNE_MIN_QUANTITY
+#define VAR_LAW_RUNE_MIN_QUANTITY
+#define VAR_DEATH_RUNE_MIN_QUANTITY
+#define VAR_SUNFIRE_RUNE_MIN_QUANTITY
+#define VAR_ASTRAL_RUNE_MIN_QUANTITY
+#define VAR_BLOOD_RUNE_MIN_QUANTITY
+#define VAR_SOUL_RUNE_MIN_QUANTITY
+#define VAR_WRATH_RUNE_MIN_QUANTITY
+#define VAR_MIST_RUNE_MIN_QUANTITY
+#define VAR_DUST_RUNE_MIN_QUANTITY
+#define VAR_MUD_RUNE_MIN_QUANTITY
+#define VAR_SMOKE_RUNE_MIN_QUANTITY
+#define VAR_STEAM_RUNE_MIN_QUANTITY
+#define VAR_LAVA_RUNE_MIN_QUANTITY
 
 // waiting on 1.6
 // apply (name:CONST_RUNE_NAMES && !VAR_RUNES_COLOR_MENU_TEXT) {
@@ -43,68 +64,156 @@ apply (name:VAR_RUNES_HIDE) {
 apply (name:"Air rune") {
     VAR_AIR_RUNE_CUSTOMSTYLE
 }
+apply (name:"Air rune" && quantity:<VAR_AIR_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Mind rune") {
     VAR_MIND_RUNE_CUSTOMSTYLE
 }
+apply (name:"Mind rune" && quantity:<VAR_WATER_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Water rune") {
     VAR_WATER_RUNE_CUSTOMSTYLE
 }
+apply (name:"Water rune" && quantity:<VAR_EARTH_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Earth rune") {
     VAR_EARTH_RUNE_CUSTOMSTYLE
 }
+apply (name:"Earth rune" && quantity:<VAR_FIRE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Fire rune") {
     VAR_FIRE_RUNE_CUSTOMSTYLE
 }
+apply (name:"Fire rune" && quantity:<VAR_MIND_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Body rune") {
     VAR_BODY_RUNE_CUSTOMSTYLE
 }
+apply (name:"Body rune" && quantity:<VAR_BODY_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Cosmic rune") {
     VAR_COSMIC_RUNE_CUSTOMSTYLE
 }
+apply (name:"Cosmic rune" && quantity:<VAR_COSMIC_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Chaos rune") {
     VAR_CHAOS_RUNE_CUSTOMSTYLE
 }
+apply (name:"Chaos rune" && quantity:<VAR_CHAOS_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Nature rune") {
     VAR_NATURE_RUNE_CUSTOMSTYLE
 }
+apply (name:"Nature rune" && quantity:<VAR_NATURE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Law rune") {
     VAR_LAW_RUNE_CUSTOMSTYLE
 }
+apply (name:"Law rune" && quantity:<VAR_LAW_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Death rune") {
     VAR_DEATH_RUNE_CUSTOMSTYLE
 }
+apply (name:"Death rune" && quantity:<VAR_DEATH_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Sunfire rune") {
     VAR_SUNFIRE_RUNE_CUSTOMSTYLE
 }
+apply (name:"Sunfire rune" && quantity:<VAR_SUNFIRE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Astral rune") {
     VAR_ASTRAL_RUNE_CUSTOMSTYLE
 }
+apply (name:"Astral rune" && quantity:<VAR_ASTRAL_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Blood rune") {
     VAR_BLOOD_RUNE_CUSTOMSTYLE
 }
+apply (name:"Blood rune" && quantity:<VAR_BLOOD_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Soul rune") {
     VAR_SOUL_RUNE_CUSTOMSTYLE
 }
+apply (name:"Soul rune" && quantity:<VAR_SOUL_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Wrath rune") {
     VAR_WRATH_RUNE_CUSTOMSTYLE
 }
+apply (name:"Wrath rune" && quantity:<VAR_WRATH_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Mist rune") {
     VAR_MIST_RUNE_CUSTOMSTYLE
 }
+apply (name:"Mist rune" && quantity:<VAR_MIST_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Dust rune") {
     VAR_DUST_RUNE_CUSTOMSTYLE
 }
+apply (name:"Dust rune" && quantity:<VAR_DUST_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Mud rune") {
     VAR_MUD_RUNE_CUSTOMSTYLE
 }
+apply (name:"Mud rune" && quantity:<VAR_MUD_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Smoke rune") {
     VAR_SMOKE_RUNE_CUSTOMSTYLE
 }
+apply (name:"Smoke rune" && quantity:<VAR_SMOKE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Steam rune") {
     VAR_STEAM_RUNE_CUSTOMSTYLE
 }
+apply (name:"Steam rune" && quantity:<VAR_STEAM_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 apply (name:"Lava rune") {
     VAR_LAVA_RUNE_CUSTOMSTYLE
 }
+apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 
 // endmodule:runes

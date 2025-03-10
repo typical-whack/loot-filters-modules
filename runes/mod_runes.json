@@ -36,6 +36,7 @@
         {
             "macroName": "VAR_AIR_RUNE_CUSTOMSTYLE",
             "label": "Air rune",
+            "group": "Air rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -47,8 +48,16 @@
             }
         },
         {
+            "macroName": "VAR_AIR_RUNE_MIN_QUANTITY",
+            "label": "Air rune",
+            "group": "Air rune",
+            "type": "number",
+            "default": 500
+        },
+        {
             "macroName": "VAR_WATER_RUNE_CUSTOMSTYLE",
             "label": "Water rune",
+            "group": "Water rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -60,8 +69,16 @@
             }
         },
         {
+            "macroName": "VAR_WATER_RUNE_MIN_QUANTITY",
+            "label": "Water rune",
+            "group": "Water rune",
+            "type": "number",
+            "default": 500
+        },
+        {
             "macroName": "VAR_EARTH_RUNE_CUSTOMSTYLE",
             "label": "Earth rune",
+            "group": "Earth rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -73,8 +90,16 @@
             }
         },
         {
+            "macroName": "VAR_EARTH_RUNE_MIN_QUANTITY",
+            "label": "Earth rune",
+            "group": "Earth rune",
+            "type": "number",
+            "default": 500
+        },
+        {
             "macroName": "VAR_FIRE_RUNE_CUSTOMSTYLE",
             "label": "Fire rune",
+            "group": "Fire rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -86,8 +111,16 @@
             }
         },
         {
+            "macroName": "VAR_FIRE_RUNE_MIN_QUANTITY",
+            "label": "Fire rune",
+            "group": "Fire rune",
+            "type": "number",
+            "default": 500
+        },
+        {
             "macroName": "VAR_MIND_RUNE_CUSTOMSTYLE",
             "label": "Mind rune",
+            "group": "Mind rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -99,8 +132,16 @@
             }
         },
         {
+            "macroName": "VAR_MIND_RUNE_MIN_QUANTITY",
+            "label": "Mind rune",
+            "group": "Mind rune",
+            "type": "number",
+            "default": 500
+        },
+        {
             "macroName": "VAR_BODY_RUNE_CUSTOMSTYLE",
             "label": "Body rune",
+            "group": "Body rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -112,8 +153,16 @@
             }
         },
         {
+            "macroName": "VAR_BODY_RUNE_MIN_QUANTITY",
+            "label": "Body rune",
+            "group": "Body rune",
+            "type": "number",
+            "default": 500
+        },
+        {
             "macroName": "VAR_COSMIC_RUNE_CUSTOMSTYLE",
             "label": "Cosmic rune",
+            "group": "Cosmic rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -125,8 +174,16 @@
             }
         },
         {
+            "macroName": "VAR_COSMIC_RUNE_MIN_QUANTITY",
+            "label": "Cosmic rune",
+            "group": "Cosmic rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_CHAOS_RUNE_CUSTOMSTYLE",
             "label": "Chaos rune",
+            "group": "Chaos rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -138,8 +195,16 @@
             }
         },
         {
+            "macroName": "VAR_CHAOS_RUNE_MIN_QUANTITY",
+            "label": "Chaos rune",
+            "group": "Chaos rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_NATURE_RUNE_CUSTOMSTYLE",
             "label": "Nature rune",
+            "group": "Nature rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -151,8 +216,16 @@
             }
         },
         {
+            "macroName": "VAR_NATURE_RUNE_MIN_QUANTITY",
+            "label": "Nature rune",
+            "group": "Nature rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_LAW_RUNE_CUSTOMSTYLE",
             "label": "Law rune",
+            "group": "Law rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -164,8 +237,16 @@
             }
         },
         {
+            "macroName": "VAR_LAW_RUNE_MIN_QUANTITY",
+            "label": "Law rune",
+            "group": "Law rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_DEATH_RUNE_CUSTOMSTYLE",
             "label": "Death rune",
+            "group": "Death rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -177,8 +258,16 @@
             }
         },
         {
+            "macroName": "VAR_DEATH_RUNE_MIN_QUANTITY",
+            "label": "Death rune",
+            "group": "Death rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_SUNFIRE_RUNE_CUSTOMSTYLE",
             "label": "Sunfire rune",
+            "group": "Sunfire rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -190,8 +279,16 @@
             }
         },
         {
+            "macroName": "VAR_SUNFIRE_RUNE_MIN_QUANTITY",
+            "label": "Sunfire rune",
+            "group": "Sunfire rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_ASTRAL_RUNE_CUSTOMSTYLE",
             "label": "Astral rune",
+            "group": "Astral rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -203,8 +300,16 @@
             }
         },
         {
+            "macroName": "VAR_ASTRAL_RUNE_MIN_QUANTITY",
+            "label": "Astral rune",
+            "group": "Astral rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_BLOOD_RUNE_CUSTOMSTYLE",
             "label": "Blood rune",
+            "group": "Blood rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -216,8 +321,16 @@
             }
         },
         {
+            "macroName": "VAR_BLOOD_RUNE_MIN_QUANTITY",
+            "label": "Blood rune",
+            "group": "Blood rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_SOUL_RUNE_CUSTOMSTYLE",
             "label": "Soul rune",
+            "group": "Soul rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -229,8 +342,16 @@
             }
         },
         {
+            "macroName": "VAR_SOUL_RUNE_MIN_QUANTITY",
+            "label": "Soul rune",
+            "group": "Soul rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_WRATH_RUNE_CUSTOMSTYLE",
             "label": "Wrath rune",
+            "group": "Wrath rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -242,8 +363,16 @@
             }
         },
         {
+            "macroName": "VAR_WRATH_RUNE_MIN_QUANTITY",
+            "label": "Wrath rune",
+            "group": "Wrath rune",
+            "type": "number",
+            "default": 10
+        },
+        {
             "macroName": "VAR_MIST_RUNE_CUSTOMSTYLE",
             "label": "Mist rune",
+            "group": "Mist rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -255,8 +384,16 @@
             }
         },
         {
+            "macroName": "VAR_MIST_RUNE_MIN_QUANTITY",
+            "label": "Mist rune",
+            "group": "Mist rune",
+            "type": "number",
+            "default": 50
+        },
+        {
             "macroName": "VAR_DUST_RUNE_CUSTOMSTYLE",
             "label": "Dust rune",
+            "group": "Dust rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -268,8 +405,16 @@
             }
         },
         {
+            "macroName": "VAR_DUST_RUNE_MIN_QUANTITY",
+            "label": "Dust rune",
+            "group": "Dust rune",
+            "type": "number",
+            "default": 50
+        },
+        {
             "macroName": "VAR_MUD_RUNE_CUSTOMSTYLE",
             "label": "Mud rune",
+            "group": "Mud rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -281,8 +426,16 @@
             }
         },
         {
+            "macroName": "VAR_MUD_RUNE_MIN_QUANTITY",
+            "label": "Mud rune",
+            "group": "Mud rune",
+            "type": "number",
+            "default": 50
+        },
+        {
             "macroName": "VAR_SMOKE_RUNE_CUSTOMSTYLE",
             "label": "Smoke rune",
+            "group": "Smoke rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -294,8 +447,16 @@
             }
         },
         {
+            "macroName": "VAR_SMOKE_RUNE_MIN_QUANTITY",
+            "label": "Smoke rune",
+            "group": "Smoke rune",
+            "type": "number",
+            "default": 50
+        },
+        {
             "macroName": "VAR_STEAM_RUNE_CUSTOMSTYLE",
             "label": "Steam rune",
+            "group": "Steam rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -307,8 +468,16 @@
             }
         },
         {
+            "macroName": "VAR_STEAM_RUNE_MIN_QUANTITY",
+            "label": "Steam rune",
+            "group": "Steam rune",
+            "type": "number",
+            "default": 50
+        },
+        {
             "macroName": "VAR_LAVA_RUNE_CUSTOMSTYLE",
             "label": "Lava rune",
+            "group": "Lava rune",
             "type": "style",
             "default": {
                 "textColor": "#FFFFFFFF",
@@ -318,6 +487,13 @@
                 "borderColor": "#FFD28019",
                 "menuTextColor": "#FFD28019"
             }
+        },
+        {
+            "macroName": "VAR_LAVA_RUNE_MIN_QUANTITY",
+            "label": "Lava rune",
+            "group": "Lava rune",
+            "type": "number",
+            "default": 50
         }
     ]
 }
