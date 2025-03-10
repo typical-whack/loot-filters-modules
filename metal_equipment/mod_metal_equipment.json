@@ -34,6 +34,9 @@
             "label": "Bronze",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8043341d",
                 "borderColor": "#FF43341d",
                 "menuTextColor": "#FF43341d"
@@ -44,6 +47,9 @@
             "label": "Bronze (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8043341d",
                 "borderColor": "#FF615c2d",
                 "menuTextColor": "#FF43341d"
@@ -54,6 +60,9 @@
             "label": "Bronze (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8043341d",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF43341d"
@@ -64,6 +73,9 @@
             "label": "Iron",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804f4948",
                 "borderColor": "#FF4f4948",
                 "menuTextColor": "#FF4f4948"
@@ -74,6 +86,9 @@
             "label": "Iron (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804f4948",
                 "borderColor": "#FF151111",
                 "menuTextColor": "#FF4f4948"
@@ -84,6 +99,9 @@
             "label": "Iron (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804f4948",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF4f4948"
@@ -94,6 +112,9 @@
             "label": "Steel",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80857c7b",
                 "borderColor": "#FF857c7b",
                 "menuTextColor": "#FF857c7b"
@@ -104,6 +125,9 @@
             "label": "Steel (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80857c7b",
                 "borderColor": "#FFb1a6a6",
                 "menuTextColor": "#FF857c7b"
@@ -114,6 +138,9 @@
             "label": "Steel (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80857c7b",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF857c7b"
@@ -124,6 +151,9 @@
             "label": "Black",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801d1b1b",
                 "borderColor": "#FF1d1b1b",
                 "menuTextColor": "#FF1d1b1b"
@@ -134,6 +164,9 @@
             "label": "Black (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801d1b1b",
                 "borderColor": "#FF423e3e",
                 "menuTextColor": "#FF1d1b1b"
@@ -144,6 +177,9 @@
             "label": "Black (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801d1b1b",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF1d1b1b"
@@ -154,6 +190,9 @@
             "label": "Black heraldic",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801d1b1b",
                 "borderColor": "#FF1d1b1b",
                 "menuTextColor": "#FF1d1b1b"
@@ -164,6 +203,9 @@
             "label": "Mithril",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80414161",
                 "borderColor": "#FF414161",
                 "menuTextColor": "#FF414161"
@@ -174,6 +216,9 @@
             "label": "Mithril (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80414161",
                 "borderColor": "#FF6e8aa3",
                 "menuTextColor": "#FF414161"
@@ -184,6 +229,9 @@
             "label": "Mithril (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80414161",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF414161"
@@ -194,6 +242,9 @@
             "label": "Adamant",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80405140",
                 "borderColor": "#FF405140",
                 "menuTextColor": "#FF405140"
@@ -204,6 +255,9 @@
             "label": "Adamant (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80405140",
                 "borderColor": "#FF6a725a",
                 "menuTextColor": "#FF405140"
@@ -214,6 +268,9 @@
             "label": "Adamant (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80405140",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF405140"
@@ -224,6 +281,9 @@
             "label": "Adamant heraldic",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80405140",
                 "borderColor": "#FF405140",
                 "menuTextColor": "#FF405140"
@@ -234,6 +294,9 @@
             "label": "Rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF415760",
                 "menuTextColor": "#FF415760"
@@ -244,6 +307,9 @@
             "label": "Rune (t)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF6d88a1",
                 "menuTextColor": "#FF415760"
@@ -254,6 +320,9 @@
             "label": "Rune (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF415760"
@@ -264,6 +333,9 @@
             "label": "Rune heraldic",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF415760",
                 "menuTextColor": "#FF415760"
@@ -274,6 +346,9 @@
             "label": "Gilded",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80c39318",
                 "borderColor": "#FF7c540c",
                 "menuTextColor": "#FF7c540c"
@@ -284,6 +359,9 @@
             "label": "Rune ancient",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF552f53",
                 "menuTextColor": "#FF552f53"
@@ -294,6 +372,9 @@
             "label": "Rune armadyl",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF706868",
                 "menuTextColor": "#FF706868"
@@ -304,6 +385,9 @@
             "label": "Rune bandos",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF746228",
                 "menuTextColor": "#FF746228"
@@ -314,6 +398,9 @@
             "label": "Rune guthix",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF437745",
                 "menuTextColor": "#FF437745"
@@ -324,6 +411,9 @@
             "label": "Rune saradomin",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FFacab88",
                 "menuTextColor": "#FFacab88"
@@ -334,6 +424,9 @@
             "label": "Rune zamorak",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80415760",
                 "borderColor": "#FF801a0d",
                 "menuTextColor": "#FF801a0d"
@@ -344,6 +437,9 @@
             "label": "Dragon",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80541109",
                 "borderColor": "#FF541109",
                 "menuTextColor": "#FF541109"
@@ -354,6 +450,9 @@
             "label": "Dragon (g)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80541109",
                 "borderColor": "#FFdea71a",
                 "menuTextColor": "#FF541109"

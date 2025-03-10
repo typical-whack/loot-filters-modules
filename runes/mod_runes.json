@@ -44,6 +44,9 @@
             "label": "Air rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80E1DEDE",
                 "borderColor": "#FFE1DEDE",
                 "menuTextColor": "#FFE1DEDE"
@@ -54,6 +57,9 @@
             "label": "Water rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80151AA7",
                 "borderColor": "#FF151AA7",
                 "menuTextColor": "#FF151AA7"
@@ -64,6 +70,9 @@
             "label": "Earth rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#806D490D",
                 "borderColor": "#FF6D490D",
                 "menuTextColor": "#FF6D490D"
@@ -74,6 +83,9 @@
             "label": "Fire rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80A72215",
                 "borderColor": "#FFA72215",
                 "menuTextColor": "#FFA72215"
@@ -84,6 +96,9 @@
             "label": "Mind rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D58A2E",
                 "borderColor": "#FFD58A2E",
                 "menuTextColor": "#FFD58A2E"
@@ -94,6 +109,9 @@
             "label": "Body rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801A21CF",
                 "borderColor": "#FF1A21CF",
                 "menuTextColor": "#FF1A21CF"
@@ -104,6 +122,9 @@
             "label": "Cosmic rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80E0DE1A",
                 "borderColor": "#FFE0DE1A",
                 "menuTextColor": "#FFE0DE1A"
@@ -114,6 +135,9 @@
             "label": "Chaos rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80E0A81A",
                 "borderColor": "#FFE0A81A",
                 "menuTextColor": "#FFE0A81A"
@@ -124,6 +148,9 @@
             "label": "Nature rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80168B1A",
                 "borderColor": "#FF168B1A",
                 "menuTextColor": "#FF168B1A"
@@ -134,6 +161,9 @@
             "label": "Law rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801A22E0",
                 "borderColor": "#FF1A22E0",
                 "menuTextColor": "#FF1A22E0"
@@ -144,6 +174,9 @@
             "label": "Death rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80E4E1E1",
                 "borderColor": "#FFE4E1E1",
                 "menuTextColor": "#FFE4E1E1"
@@ -154,6 +187,9 @@
             "label": "Sunfire rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80DFA81A",
                 "borderColor": "#FFDFA81A",
                 "menuTextColor": "#FFDFA81A"
@@ -164,6 +200,9 @@
             "label": "Astral rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80CDB5CD",
                 "borderColor": "#FFCDB5CD",
                 "menuTextColor": "#FFCDB5CD"
@@ -174,6 +213,9 @@
             "label": "Blood rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80891D11",
                 "borderColor": "#FF891D11",
                 "menuTextColor": "#FF891D11"
@@ -184,6 +226,9 @@
             "label": "Soul rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#809192D3",
                 "borderColor": "#FF9192D3",
                 "menuTextColor": "#FF9192D3"
@@ -194,6 +239,9 @@
             "label": "Wrath rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80353030",
                 "borderColor": "#FF353030",
                 "menuTextColor": "#FF353030"
@@ -204,6 +252,9 @@
             "label": "Mist rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C8C0C0",
                 "borderColor": "#FFC8C0C0",
                 "menuTextColor": "#FFC8C0C0"
@@ -214,6 +265,9 @@
             "label": "Dust rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80746241",
                 "borderColor": "#FF746241",
                 "menuTextColor": "#FF746241"
@@ -224,6 +278,9 @@
             "label": "Mud rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#805D3B17",
                 "borderColor": "#FF5D3B17",
                 "menuTextColor": "#FF5D3B17"
@@ -234,6 +291,9 @@
             "label": "Smoke rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80534D4D",
                 "borderColor": "#FF534D4D",
                 "menuTextColor": "#FF534D4D"
@@ -244,6 +304,9 @@
             "label": "Steam rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80AEAEB7",
                 "borderColor": "#FFAEAEB7",
                 "menuTextColor": "#FFAEAEB7"
@@ -254,6 +317,9 @@
             "label": "Lava rune",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D28019",
                 "borderColor": "#FFD28019",
                 "menuTextColor": "#FFD28019"

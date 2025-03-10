@@ -77,6 +77,9 @@
             "label": "Attack potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8032C6CC",
                 "borderColor": "#FF32C6CC",
                 "menuTextColor": "#FF32C6CC"
@@ -87,6 +90,9 @@
             "label": "Antipoison",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8081D838",
                 "borderColor": "#FF81D838",
                 "menuTextColor": "#FF81D838"
@@ -97,6 +103,9 @@
             "label": "Strength potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C9C754",
                 "borderColor": "#FFC9C754",
                 "menuTextColor": "#FFC9C754"
@@ -107,6 +116,9 @@
             "label": "Serum 207",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8011768B",
                 "borderColor": "#FF11768B",
                 "menuTextColor": "#FF11768B"
@@ -117,6 +129,9 @@
             "label": "Compost potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#808C655E",
                 "borderColor": "#FF8C655E",
                 "menuTextColor": "#FF8C655E"
@@ -127,6 +142,9 @@
             "label": "Restore potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D4645D",
                 "borderColor": "#FFD4645D",
                 "menuTextColor": "#FFD4645D"
@@ -137,6 +155,9 @@
             "label": "Energy potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80AA616D",
                 "borderColor": "#FFAA616D",
                 "menuTextColor": "#FFAA616D"
@@ -147,6 +168,9 @@
             "label": "Defence potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8059D45C",
                 "borderColor": "#FF59D45C",
                 "menuTextColor": "#FF59D45C"
@@ -157,6 +181,9 @@
             "label": "Agility potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#807E9812",
                 "borderColor": "#FF7E9812",
                 "menuTextColor": "#FF7E9812"
@@ -167,6 +194,9 @@
             "label": "Combat potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#808AB977",
                 "borderColor": "#FF8AB977",
                 "menuTextColor": "#FF8AB977"
@@ -177,6 +207,9 @@
             "label": "Prayer potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8059D4A8",
                 "borderColor": "#FF59D4A8",
                 "menuTextColor": "#FF59D4A8"
@@ -187,6 +220,9 @@
             "label": "Super attack",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#805457C9",
                 "borderColor": "#FF5457C9",
                 "menuTextColor": "#FF5457C9"
@@ -197,6 +233,9 @@
             "label": "Superantipoison",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D03177",
                 "borderColor": "#FFD03177",
                 "menuTextColor": "#FFD03177"
@@ -207,6 +246,9 @@
             "label": "Fishing potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80504B4B",
                 "borderColor": "#FF504B4B",
                 "menuTextColor": "#FF504B4B"
@@ -217,6 +259,9 @@
             "label": "Super energy",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C0619F",
                 "borderColor": "#FFC0619F",
                 "menuTextColor": "#FFC0619F"
@@ -227,6 +272,9 @@
             "label": "Hunter potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#800B5E61",
                 "borderColor": "#FF0B5E61",
                 "menuTextColor": "#FF0B5E61"
@@ -237,6 +285,9 @@
             "label": "Goading potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80AA2315",
                 "borderColor": "#FFAA2315",
                 "menuTextColor": "#FFAA2315"
@@ -247,6 +298,9 @@
             "label": "Super strength",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D5D4D4",
                 "borderColor": "#FFD5D4D4",
                 "menuTextColor": "#FFD5D4D4"
@@ -257,6 +311,9 @@
             "label": "Prayer regeneration potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80815248",
                 "borderColor": "#FF815248",
                 "menuTextColor": "#FF815248"
@@ -267,6 +324,9 @@
             "label": "Super restore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80AE3F6C",
                 "borderColor": "#FFAE3F6C",
                 "menuTextColor": "#FFAE3F6C"
@@ -277,6 +337,9 @@
             "label": "Sanfew serum",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80B97673",
                 "borderColor": "#FFB97673",
                 "menuTextColor": "#FFB97673"
@@ -287,6 +350,9 @@
             "label": "Super defence",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D2B45C",
                 "borderColor": "#FFD2B45C",
                 "menuTextColor": "#FFD2B45C"
@@ -297,6 +363,9 @@
             "label": "Antidote+",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#807E7E64",
                 "borderColor": "#FF7E7E64",
                 "menuTextColor": "#FF7E7E64"
@@ -307,6 +376,9 @@
             "label": "Antifire potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8078129B",
                 "borderColor": "#FF78129B",
                 "menuTextColor": "#FF78129B"
@@ -317,6 +389,9 @@
             "label": "Divine super attack potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#806365CD",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FF6365CD"
@@ -327,6 +402,9 @@
             "label": "Divine super defence potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80CDB365",
                 "borderColor": "#FFCDB365",
                 "menuTextColor": "#FFCDB365"
@@ -337,6 +415,9 @@
             "label": "Divine super strength potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80CECDCD",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FFCECDCD"
@@ -347,6 +428,9 @@
             "label": "Ranging potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8052A8C9",
                 "borderColor": "#FF52A8C9",
                 "menuTextColor": "#FF52A8C9"
@@ -357,6 +441,9 @@
             "label": "Divine ranging potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8068B5D3",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FF68B5D3"
@@ -367,6 +454,9 @@
             "label": "Magic potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C8ACA3",
                 "borderColor": "#FFC8ACA3",
                 "menuTextColor": "#FFC8ACA3"
@@ -377,6 +467,9 @@
             "label": "Stamina potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80977546",
                 "borderColor": "#FF977546",
                 "menuTextColor": "#FF977546"
@@ -387,6 +480,9 @@
             "label": "Zamorak brew",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C59418",
                 "borderColor": "#FFC59418",
                 "menuTextColor": "#FFC59418"
@@ -397,6 +493,9 @@
             "label": "Divine magic potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C6B1AA",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FFC6B1AA"
@@ -407,6 +506,9 @@
             "label": "Antidote++",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#807A7E3A",
                 "borderColor": "#FF7A7E3A",
                 "menuTextColor": "#FF7A7E3A"
@@ -417,6 +519,9 @@
             "label": "Bastion potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80BB6216",
                 "borderColor": "#FFBB6216",
                 "menuTextColor": "#FFBB6216"
@@ -427,6 +532,9 @@
             "label": "Battlemage potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D8A942",
                 "borderColor": "#FFD8A942",
                 "menuTextColor": "#FFD8A942"
@@ -437,6 +545,9 @@
             "label": "Saradomin brew",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80CAC962",
                 "borderColor": "#FFCAC962",
                 "menuTextColor": "#FFCAC962"
@@ -447,6 +558,9 @@
             "label": "Extended antifire",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#806E3EC6",
                 "borderColor": "#FF6E3EC6",
                 "menuTextColor": "#FF6E3EC6"
@@ -457,6 +571,9 @@
             "label": "Ancient brew",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#809451C0",
                 "borderColor": "#FF9451C0",
                 "menuTextColor": "#FF9451C0"
@@ -467,6 +584,9 @@
             "label": "Divine bastion potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80BB6216",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FFBB6216"
@@ -477,6 +597,9 @@
             "label": "Divine battlemage potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80D8A83E",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FFD8A83E"
@@ -487,6 +610,9 @@
             "label": "Anti-venom",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#803A4A42",
                 "borderColor": "#FF3A4A42",
                 "menuTextColor": "#FF3A4A42"
@@ -497,6 +623,9 @@
             "label": "Menaphite remedy",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801F7BD0",
                 "borderColor": "#FF1F7BD0",
                 "menuTextColor": "#FF1F7BD0"
@@ -507,6 +636,9 @@
             "label": "Super combat potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8019640B",
                 "borderColor": "#FF19640B",
                 "menuTextColor": "#FF19640B"
@@ -517,6 +649,9 @@
             "label": "Forgotten brew",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80594568",
                 "borderColor": "#FF594568",
                 "menuTextColor": "#FF594568"
@@ -527,6 +662,9 @@
             "label": "Super antifire potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#808D61AC",
                 "borderColor": "#FF8D61AC",
                 "menuTextColor": "#FF8D61AC"
@@ -537,6 +675,9 @@
             "label": "Anti-venom+",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#805C494F",
                 "borderColor": "#FF5C494F",
                 "menuTextColor": "#FF5C494F"
@@ -547,6 +688,9 @@
             "label": "Extended anti-venom+",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8066967B",
                 "borderColor": "#FF66967B",
                 "menuTextColor": "#FF66967B"
@@ -557,6 +701,9 @@
             "label": "Divine super combat potion",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801C700B",
                 "borderColor": "#FFADC8C2",
                 "menuTextColor": "#FF1C700B"
@@ -567,6 +714,9 @@
             "label": "Extended super antifire",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80B393CB",
                 "borderColor": "#FFB393CB",
                 "menuTextColor": "#FFB393CB"

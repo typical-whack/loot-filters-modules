@@ -35,6 +35,9 @@
             "label": "Bronze bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80554127",
                 "borderColor": "#FF554127",
                 "menuTextColor": "#FF554127"
@@ -45,6 +48,9 @@
             "label": "Iron bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804C4545",
                 "borderColor": "#FF4C4545",
                 "menuTextColor": "#FF4C4545"
@@ -55,6 +61,9 @@
             "label": "Silver bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#809C9CA7",
                 "borderColor": "#FF9C9CA7",
                 "menuTextColor": "#FF9C9CA7"
@@ -65,6 +74,9 @@
             "label": "Steel bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80887E7E",
                 "borderColor": "#FF887E7E",
                 "menuTextColor": "#FF887E7E"
@@ -75,6 +87,9 @@
             "label": "Gold bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80CBA618",
                 "borderColor": "#FFCBA618",
                 "menuTextColor": "#FFCBA618"
@@ -85,6 +100,9 @@
             "label": "Mithril bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80484869",
                 "borderColor": "#FF484869",
                 "menuTextColor": "#FF484869"
@@ -95,6 +113,9 @@
             "label": "Adamantite bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80485A48",
                 "borderColor": "#FF485A48",
                 "menuTextColor": "#FF485A48"
@@ -105,6 +126,9 @@
             "label": "Runite bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804B6570",
                 "borderColor": "#FF4B6570",
                 "menuTextColor": "#FF4B6570"
@@ -115,6 +139,9 @@
             "label": "Elemental metal",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80691094",
                 "borderColor": "#FF691094",
                 "menuTextColor": "#FF691094"
@@ -125,6 +152,9 @@
             "label": "Primed bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#809F9F93",
                 "borderColor": "#FF9F9F93",
                 "menuTextColor": "#FF9F9F93"
@@ -135,6 +165,9 @@
             "label": "Primed mind bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#809B6913",
                 "borderColor": "#FF9B6913",
                 "menuTextColor": "#FF9B6913"
@@ -145,6 +178,9 @@
             "label": "Blurite bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#808485C8",
                 "borderColor": "#FF8485C8",
                 "menuTextColor": "#FF8485C8"
@@ -155,6 +191,9 @@
             "label": "Enchanted bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#806F6E4B",
                 "borderColor": "#FF6F6E4B",
                 "menuTextColor": "#FF6F6E4B"
@@ -165,6 +204,9 @@
             "label": "Lovakite bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#805E1409",
                 "borderColor": "#FF5E1409",
                 "menuTextColor": "#FF5E1409"
@@ -175,6 +217,9 @@
             "label": "'Perfect' gold bar",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80B79517",
                 "borderColor": "#FFB79517",
                 "menuTextColor": "#FFB79517"

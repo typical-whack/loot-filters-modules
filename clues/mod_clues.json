@@ -23,6 +23,9 @@
             "label": "Clue scroll (beginner)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80908062",
                 "borderColor": "#FFCFC8C8",
                 "menuTextColor": "#FFCFC8C8"
@@ -33,6 +36,9 @@
             "label": "Clue scroll (easy)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80908062",
                 "borderColor": "#FF248F26",
                 "menuTextColor": "#FF248F26"
@@ -43,6 +49,9 @@
             "label": "Clue scroll (medium)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80908062",
                 "borderColor": "#FF6CBBBF",
                 "menuTextColor": "#FF6CBBBF"
@@ -53,6 +62,9 @@
             "label": "Clue scroll (hard)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80908062",
                 "borderColor": "#FFA343BD",
                 "menuTextColor": "#FFA343BD"
@@ -63,6 +75,9 @@
             "label": "Clue scroll (elite)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80908062",
                 "borderColor": "#FFEED11D",
                 "menuTextColor": "#FFEED11D"
@@ -73,6 +88,9 @@
             "label": "Clue scroll (master)",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80908062",
                 "borderColor": "#FFC33C30",
                 "menuTextColor": "#FFC33C30"

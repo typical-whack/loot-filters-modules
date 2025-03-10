@@ -37,6 +37,9 @@
             "label": "Logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF7F623A",
                 "borderColor": "#FFAF8F51",
                 "menuTextColor": "#FF7F623A"
@@ -47,6 +50,9 @@
             "label": "Oak logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF8B6B40",
                 "borderColor": "#FFA7875E",
                 "menuTextColor": "#FF8B6B40"
@@ -57,6 +63,9 @@
             "label": "Willow logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF564D20",
                 "borderColor": "#FF71673F",
                 "menuTextColor": "#FF564D20"
@@ -67,6 +76,9 @@
             "label": "Maple logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF704C0D",
                 "borderColor": "#FF846230",
                 "menuTextColor": "#FF704C0D"
@@ -77,6 +89,9 @@
             "label": "Yew logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF5C4409",
                 "borderColor": "#FF856D3D",
                 "menuTextColor": "#FF5C4409"
@@ -87,6 +102,9 @@
             "label": "Magic logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF8F8560",
                 "borderColor": "#FF2AA79A",
                 "menuTextColor": "#FF8F8560"
@@ -97,6 +115,9 @@
             "label": "Redwood logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF73460D",
                 "borderColor": "#FFB87242",
                 "menuTextColor": "#FF73460D"
@@ -107,6 +128,9 @@
             "label": "Teak logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FFBFA26C",
                 "borderColor": "#FF937243",
                 "menuTextColor": "#FFBFA26C"
@@ -117,6 +141,9 @@
             "label": "Mahogany logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FFBEA16C",
                 "borderColor": "#FF693F09",
                 "menuTextColor": "#FFBEA16C"
@@ -127,6 +154,9 @@
             "label": "Achey tree logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF746642",
                 "borderColor": "#FF8C805E",
                 "menuTextColor": "#FF746642"
@@ -137,6 +167,9 @@
             "label": "Arctic pine logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FFAB8C4E",
                 "borderColor": "#FFCBAC73",
                 "menuTextColor": "#FFAB8C4E"
@@ -147,6 +180,9 @@
             "label": "Scrapey tree logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF7F683A",
                 "borderColor": "#FF3F6409",
                 "menuTextColor": "#FF7F683A"
@@ -157,6 +193,9 @@
             "label": "Juniper logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF988667",
                 "borderColor": "#FFA28F6E",
                 "menuTextColor": "#FF988667"
@@ -167,6 +206,9 @@
             "label": "Bark",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FF483A20",
                 "borderColor": "#FF87734B",
                 "menuTextColor": "#FF483A20"
@@ -177,6 +219,9 @@
             "label": "Blisterwood logs",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#FFDFDBDB",
                 "borderColor": "#FF923A34",
                 "menuTextColor": "#FFDFDBDB"

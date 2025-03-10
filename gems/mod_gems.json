@@ -31,6 +31,9 @@
             "label": "Sapphire",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#800C1273",
                 "borderColor": "#FF0C1273",
                 "menuTextColor": "#FF0C1273"
@@ -41,6 +44,9 @@
             "label": "Emerald",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#800C6B0F",
                 "borderColor": "#FF0C6B0F",
                 "menuTextColor": "#FF0C6B0F"
@@ -51,6 +57,9 @@
             "label": "Ruby",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804E0F08",
                 "borderColor": "#FF4E0F08",
                 "menuTextColor": "#FF4E0F08"
@@ -61,6 +70,9 @@
             "label": "Diamond",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80857D7D",
                 "borderColor": "#FF857D7D",
                 "menuTextColor": "#FF857D7D"
@@ -71,6 +83,9 @@
             "label": "Opal",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#807E7D63",
                 "borderColor": "#FF7E7D63",
                 "menuTextColor": "#FF7E7D63"
@@ -81,6 +96,9 @@
             "label": "Jade",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#806E7E64",
                 "borderColor": "#FF6E7E64",
                 "menuTextColor": "#FF6E7E64"
@@ -91,6 +109,9 @@
             "label": "Red topaz",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80830E4F",
                 "borderColor": "#FF830E4F",
                 "menuTextColor": "#FF830E4F"
@@ -101,6 +122,9 @@
             "label": "Dragonstone",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804C0B62",
                 "borderColor": "#FF4C0B62",
                 "menuTextColor": "#FF4C0B62"
@@ -111,6 +135,9 @@
             "label": "Onyx",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#801C1A1A",
                 "borderColor": "#FF1C1A1A",
                 "menuTextColor": "#FF1C1A1A"

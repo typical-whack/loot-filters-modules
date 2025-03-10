@@ -36,6 +36,9 @@
             "label": "Copper ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80DA7D37",
                 "borderColor": "#FFDA7D37",
                 "menuTextColor": "#FFDA7D37"
@@ -46,6 +49,9 @@
             "label": "Tin ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80887F7E",
                 "borderColor": "#FF887F7E",
                 "menuTextColor": "#FF887F7E"
@@ -56,6 +62,9 @@
             "label": "Iron ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804C2D22",
                 "borderColor": "#FF4C2D22",
                 "menuTextColor": "#FF4C2D22"
@@ -66,6 +75,9 @@
             "label": "Silver ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#809999A5",
                 "borderColor": "#FF9999A5",
                 "menuTextColor": "#FF9999A5"
@@ -76,6 +88,9 @@
             "label": "Coal",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80383725",
                 "borderColor": "#FF383725",
                 "menuTextColor": "#FF383725"
@@ -86,6 +101,9 @@
             "label": "Gold ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80C6A118",
                 "borderColor": "#FFC6A118",
                 "menuTextColor": "#FFC6A118"
@@ -96,6 +114,9 @@
             "label": "Mithril ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#8048486A",
                 "borderColor": "#FF48486A",
                 "menuTextColor": "#FF48486A"
@@ -106,6 +127,9 @@
             "label": "Adamantite ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80485B49",
                 "borderColor": "#FF485B49",
                 "menuTextColor": "#FF485B49"
@@ -116,6 +140,9 @@
             "label": "Runite ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#804D6671",
                 "borderColor": "#FF4D6671",
                 "menuTextColor": "#FF4D6671"
@@ -126,6 +153,9 @@
             "label": "Daeyalt ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#800A645B",
                 "borderColor": "#FF0A645B",
                 "menuTextColor": "#FF0A645B"
@@ -136,6 +166,9 @@
             "label": "Blasted ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80515757",
                 "borderColor": "#FF515757",
                 "menuTextColor": "#FF515757"
@@ -146,6 +179,9 @@
             "label": "Blurite ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#80787ACF",
                 "borderColor": "#FF787ACF",
                 "menuTextColor": "#FF787ACF"
@@ -156,6 +192,9 @@
             "label": "Lovakite ore",
             "type": "style",
             "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccent": 1,
+                "textAccentColor": "#FF000000",
                 "backgroundColor": "#805C1009",
                 "borderColor": "#FF5C1009",
                 "menuTextColor": "#FF5C1009"
