@@ -25,6 +25,51 @@
             ]
         },
         {
+            "macroName": "VAR_FOOD_FISH_FOODS_HIDE",
+            "label": "Fish foods to hide",
+            "group": "Food filters",
+            "type": "enumlist",
+            "enum": [
+                "Shrimp",
+                "Sardine",
+                "Karambwanji",
+                "Herring",
+                "Anchovies",
+                "Mackerel",
+                "Trout",
+                "Cod",
+                "Pike",
+                "Slimy eel",
+                "Salmon",
+                "Tuna",
+                "Rainbow fish",
+                "Cave eel",
+                "Lobster",
+                "Bass",
+                "Swordfish",
+                "Lava eel",
+                "Monkfish",
+                "Karambwan",
+                "Shark",
+                "Sea turtle",
+                "Manta ray",
+                "Anglerfish",
+                "Dark crab"
+            ],
+            "default": [
+                "Shrimp",
+                "Sardine",
+                "Herring",
+                "Anchovies",
+                "Mackerel",
+                "Trout",
+                "Cod",
+                "Pike",
+                "Salmon",
+                "Tuna"
+            ]
+        },
+        {
             "macroName": "VAR_FOOD_HUNTER_CUSTOMSTYLE",
             "label": "Hunter food style",
             "group": "Food style",
@@ -32,6 +77,18 @@
             "default": {
                 "backgroundColor": "#50625142",
                 "borderColor": "#FF625142",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000"
+            }
+        },
+        {
+            "macroName": "VAR_FOOD_FISH_CUSTOMSTYLE",
+            "label": "Fish food default style",
+            "group": "Food style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#506c5856",
+                "borderColor": "#FF6c5856",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000"
             }
