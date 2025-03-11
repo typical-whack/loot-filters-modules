@@ -311,7 +311,7 @@
                 "borderColor": "#FF69503a",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF69503a"
+                "menuTextColor": "#FFffc38d"
             }
         },
         {
@@ -324,7 +324,7 @@
                 "borderColor": "#FF624b18",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF624b18"
+                "menuTextColor": "#FFffd480"
             }
         },
         {
@@ -337,7 +337,7 @@
                 "borderColor": "#FF4a5e4b",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF4a5e4b"
+                "menuTextColor": "#FF9aff90"
             }
         }
     ]
