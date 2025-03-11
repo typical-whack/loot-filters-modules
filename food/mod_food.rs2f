@@ -78,7 +78,7 @@ apply (name:"Cod") {
 apply (name:"Pike") {
     VAR_PIKE_CUSTOMSTYLE
 }
-apply (name:"Slimy_eel") {
+apply (name:"Slimy eel") {
     VAR_SLIMY_EEL_CUSTOMSTYLE
 }
 apply (name:"Salmon") {
@@ -87,10 +87,10 @@ apply (name:"Salmon") {
 apply (name:"Tuna") {
     VAR_TUNA_CUSTOMSTYLE
 }
-apply (name:"Rainbow_fish") {
+apply (name:"Rainbow fish") {
     VAR_RAINBOW_FISH_CUSTOMSTYLE
 }
-apply (name:"Cave_eel") {
+apply (name:"Cave eel") {
     VAR_CAVE_EEL_CUSTOMSTYLE
 }
 apply (name:"Lobster") {
@@ -102,28 +102,28 @@ apply (name:"Bass") {
 apply (name:"Swordfish") {
     VAR_SWORDFISH_CUSTOMSTYLE
 }
-apply (name:"Lava_eel") {
+apply (name:"Lava eel") {
     VAR_LAVA_EEL_CUSTOMSTYLE
 }
 apply (name:"Monkfish") {
     VAR_MONKFISH_CUSTOMSTYLE
 }
-apply (name:"Karambwan") {
+apply (name:"Cooked Karambwan") {
     VAR_KARAMBWAN_CUSTOMSTYLE
 }
 apply (name:"Shark") {
     VAR_SHARK_CUSTOMSTYLE
 }
-apply (name:"Sea_turtle") {
+apply (name:"Sea turtle") {
     VAR_SEA_TURTLE_CUSTOMSTYLE
 }
-apply (name:"Manta_ray") {
+apply (name:"Manta ray") {
     VAR_MANTA_RAY_CUSTOMSTYLE
 }
 apply (name:"Anglerfish") {
     VAR_ANGLERFISH_CUSTOMSTYLE
 }
-apply (name:"Dark_crab") {
+apply (name:"Dark crab") {
     VAR_DARK_CRAB_CUSTOMSTYLE
 }
 
