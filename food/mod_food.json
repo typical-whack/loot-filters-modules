@@ -270,7 +270,11 @@
             "group": "Food style",
             "type": "style",
             "default": {
-                "showValue": true
+                "backgroundColor": "#50dad9d4",
+                "borderColor": "#FFdad9d4",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFdad9d4"
             }
         },
         {
@@ -279,7 +283,11 @@
             "group": "Food style",
             "type": "style",
             "default": {
-                "showValue": true
+                "backgroundColor": "#50b7977c",
+                "borderColor": "#FFb7977c",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFb7977c"
             }
         },
         {
@@ -297,7 +305,11 @@
             "group": "Food style",
             "type": "style",
             "default": {
-                "showValue": true
+                "backgroundColor": "#5069503a",
+                "borderColor": "#FF69503a",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF69503a"
             }
         },
         {
@@ -306,7 +318,11 @@
             "group": "Food style",
             "type": "style",
             "default": {
-                "showValue": true
+                "backgroundColor": "#50624b18",
+                "borderColor": "#FF624b18",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF624b18"
             }
         },
         {
@@ -315,7 +331,11 @@
             "group": "Food style",
             "type": "style",
             "default": {
-                "showValue": true
+                "backgroundColor": "#504a5e4b",
+                "borderColor": "#FF4a5e4b",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF4a5e4b"
             }
         }
     ]
