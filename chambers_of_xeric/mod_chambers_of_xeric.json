@@ -100,7 +100,8 @@
                 "Endarkened juice",
                 "Stinkhorn mushroom",
                 "Cicely",
-                "Mallignum root plank"
+                "Mallignum root plank",
+                "Cavern grubs"
             ],
             "default": [
                 "Bones",
@@ -385,6 +386,19 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFb2b099"
+            }
+        },
+        {
+            "macroName": "VAR_CAVERN_GRUBS_CUSTOMSTYLE",
+            "label": "Cavern grubs",
+            "group": "COX misc style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#509f7756",
+                "borderColor": "#FF9f7756",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF9f7756"
             }
         }
     ]

@@ -29,6 +29,7 @@
 #define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE
 #define VAR_CICELY_CUSTOMSTYLE
 #define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
+#define VAR_CAVERN_GRUBS_CUSTOMSTYLE
 
 
 
@@ -134,7 +135,9 @@ apply (name:"Cicely") {
 apply (name:"Mallignum root plank") {
     VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
 }
-
+apply (name:"Cavern grubs") {
+    VAR_CAVERN_GRUBS_CUSTOMSTYLE
+}
 
 
 // endmodule:chambers_of_xeric
