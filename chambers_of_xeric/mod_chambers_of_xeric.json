@@ -103,7 +103,10 @@
                 "Mallignum root plank",
                 "Cavern grubs",
                 "Empty gourd vial",
-                "Water-filled gourd vial"
+                "Water-filled gourd vial",
+                "Spade",
+                "Seed dipper",
+                "Rake"
             ],
             "default": [
                 "Bones",
@@ -166,7 +169,7 @@
                 "borderColor": "#FFA56785",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFc094a9"
+                "menuTextColor": "#FFed89b5"
              }
         },
         {
@@ -192,7 +195,7 @@
                 "borderColor": "#FFE7E6D5",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFE7E6D5"
+                "menuTextColor": "#FFf7f84d"
              }
         },
         {
