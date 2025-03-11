@@ -22,9 +22,7 @@
             "label": "Archery ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_ARCHERY_TICKET_MIN_QUANTITY",
@@ -38,9 +36,7 @@
             "label": "Coins custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_COINS_MIN_QUANTITY",
@@ -54,9 +50,7 @@
             "label": "Mole claw custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MOLE_CLAW_MIN_QUANTITY",
@@ -70,9 +64,7 @@
             "label": "Mole skin custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MOLE_SKIN_MIN_QUANTITY",
@@ -86,9 +78,7 @@
             "label": "Numulite custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_NUMULITE_MIN_QUANTITY",
@@ -102,9 +92,7 @@
             "label": "Platinum token custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_PLATINUM_TOKEN_MIN_QUANTITY",
@@ -118,9 +106,7 @@
             "label": "Trading sticks custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_TRADING_STICKS_MIN_QUANTITY",
@@ -134,9 +120,7 @@
             "label": "Shantay pass custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SHANTAY_PASS_MIN_QUANTITY",
@@ -150,9 +134,7 @@
             "label": "Ship ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SHIP_TICKET_MIN_QUANTITY",
@@ -166,9 +148,7 @@
             "label": "Abyssal pearls custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_ABYSSAL_PEARLS_MIN_QUANTITY",
@@ -182,9 +162,7 @@
             "label": "Anima-infused bark custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY",
@@ -198,9 +176,7 @@
             "label": "Agility arena ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY",
@@ -214,9 +190,7 @@
             "label": "Barronite shards custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_BARRONITE_SHARDS_MIN_QUANTITY",
@@ -230,9 +204,7 @@
             "label": "Blood money custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_BLOOD_MONEY_MIN_QUANTITY",
@@ -246,9 +218,7 @@
             "label": "Brimhaven voucher custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY",
@@ -262,9 +232,7 @@
             "label": "Castle wars ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_CASTLE_WARS_TICKET_MIN_QUANTITY",
@@ -278,9 +246,7 @@
             "label": "Ecto-token custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_ECTO_TOKEN_MIN_QUANTITY",
@@ -294,9 +260,7 @@
             "label": "Frog token custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_FROG_TOKEN_MIN_QUANTITY",
@@ -310,9 +274,7 @@
             "label": "Golden nugget custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_GOLDEN_NUGGET_MIN_QUANTITY",
@@ -326,9 +288,7 @@
             "label": "Glistening tear custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_GLISTENING_TEAR_MIN_QUANTITY",
@@ -342,9 +302,7 @@
             "label": "Hallowed mark custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_HALLOWED_MARK_MIN_QUANTITY",
@@ -358,9 +316,7 @@
             "label": "Intelligence custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_INTELLIGENCE_MIN_QUANTITY",
@@ -374,9 +330,7 @@
             "label": "Mark of grace custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MARK_OF_GRACE_MIN_QUANTITY",
@@ -390,9 +344,7 @@
             "label": "Mermaid's tear custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MERMAIDS_TEAR_MIN_QUANTITY",
@@ -406,9 +358,7 @@
             "label": "Minnow custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MINNOW_MIN_QUANTITY",
@@ -422,9 +372,7 @@
             "label": "Molch pearl custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MOLCH_PEARL_MIN_QUANTITY",
@@ -438,9 +386,7 @@
             "label": "Nuggets custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_NUGGETS_MIN_QUANTITY",
@@ -454,9 +400,7 @@
             "label": "Paramaya ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_PARAMAYA_TICKET_MIN_QUANTITY",
@@ -470,9 +414,7 @@
             "label": "Rare creature parts custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_RARE_CREATURE_PARTS_MIN_QUANTITY",
@@ -486,9 +428,7 @@
             "label": "Reward token credits custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY",
@@ -502,9 +442,7 @@
             "label": "Stardust custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_STARDUST_MIN_QUANTITY",
@@ -518,9 +456,7 @@
             "label": "Tokkul custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_TOKKUL_MIN_QUANTITY",
@@ -534,9 +470,7 @@
             "label": "Termites custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_TERMITES_MIN_QUANTITY",
@@ -550,9 +484,7 @@
             "label": "Unidentified minerals custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY",
@@ -566,9 +498,7 @@
             "label": "Warrior guild token custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY",

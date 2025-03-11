@@ -76,189 +76,147 @@
             "label": "Hunter food style",
             "group": "Food group style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_FOOD_FISH_CUSTOMSTYLE",
             "label": "Fish food default style",
             "group": "Food group style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SHRIMP_CUSTOMSTYLE",
             "label": "Shrimp custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SARDINE_CUSTOMSTYLE",
             "label": "Sardine custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_KARAMBWANJI_CUSTOMSTYLE",
             "label": "Karambwanji custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_HERRING_CUSTOMSTYLE",
             "label": "Herring custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_ANCHOVIES_CUSTOMSTYLE",
             "label": "Anchovies custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MACKEREL_CUSTOMSTYLE",
             "label": "Mackerel custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_TROUT_CUSTOMSTYLE",
             "label": "Trout custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_COD_CUSTOMSTYLE",
             "label": "Cod custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_PIKE_CUSTOMSTYLE",
             "label": "Pike custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SLIMY_EEL_CUSTOMSTYLE",
             "label": "Slimy eel custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SALMON_CUSTOMSTYLE",
             "label": "Salmon custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_TUNA_CUSTOMSTYLE",
             "label": "Tuna custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_RAINBOW_FISH_CUSTOMSTYLE",
             "label": "Rainbow fish custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_CAVE_EEL_CUSTOMSTYLE",
             "label": "Cave eel custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_LOBSTER_CUSTOMSTYLE",
             "label": "Lobster custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_BASS_CUSTOMSTYLE",
             "label": "Bass custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_SWORDFISH_CUSTOMSTYLE",
             "label": "Swordfish custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_LAVA_EEL_CUSTOMSTYLE",
             "label": "Lava eel custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MONKFISH_CUSTOMSTYLE",
             "label": "Monkfish custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_KARAMBWAN_CUSTOMSTYLE",
@@ -291,9 +249,7 @@
             "label": "Sea turtle custom style",
             "group": "Food style",
             "type": "style",
-            "default": {
-                "showValue": true
-            }
+            "default": {}
         },
         {
             "macroName": "VAR_MANTA_RAY_CUSTOMSTYLE",
