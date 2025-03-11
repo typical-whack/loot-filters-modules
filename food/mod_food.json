@@ -77,7 +77,6 @@
             "group": "Food group style",
             "type": "style",
             "default": {
-                "showValue": true
             }
         },
         {
