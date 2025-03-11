@@ -6,7 +6,7 @@
             "label": "Minimum value",
             "group": "Tier 1",
             "type": "number",
-            "default": 20000
+            "default": 20001
         },
         {
             "macroName": "VAR_VALUES_TIER_2_VALUE",
