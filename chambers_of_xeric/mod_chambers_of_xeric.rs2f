@@ -16,22 +16,22 @@
 #define VAR_COX_XERICS_AID_CUSTOMSTYLE 
 #define VAR_COX_ANTIPOISON_CUSTOMSTYLE 
 #define VAR_COX_OVERLOAD_CUSTOMSTYLE 
-#define VAR_GOLPAR_SEED_CUSTOMSTYLE
-#define VAR_BUCHU_SEED_CUSTOMSTYLE
-#define VAR_NOXIFER_SEED_CUSTOMSTYLE
-#define VAR_GRIMY_GOLPAR_CUSTOMSTYLE
-#define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE
-#define VAR_GRIMY_NOXIFER_CUSTOMSTYLE
-#define VAR_GOLPAR_CUSTOMSTYLE
-#define VAR_BUCHU_LEAF_CUSTOMSTYLE
-#define VAR_NOXIFER_CUSTOMSTYLE
-#define VAR_ENDARKENED_JUICE_CUSTOMSTYLE
-#define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE
-#define VAR_CICELY_CUSTOMSTYLE
-#define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
-#define VAR_CAVERN_GRUBS_CUSTOMSTYLE
-#define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE
-#define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE
+#define VAR_GOLPAR_SEED_CUSTOMSTYLE 
+#define VAR_BUCHU_SEED_CUSTOMSTYLE 
+#define VAR_NOXIFER_SEED_CUSTOMSTYLE 
+#define VAR_GRIMY_GOLPAR_CUSTOMSTYLE 
+#define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE 
+#define VAR_GRIMY_NOXIFER_CUSTOMSTYLE 
+#define VAR_GOLPAR_CUSTOMSTYLE 
+#define VAR_BUCHU_LEAF_CUSTOMSTYLE 
+#define VAR_NOXIFER_CUSTOMSTYLE 
+#define VAR_ENDARKENED_JUICE_CUSTOMSTYLE 
+#define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE 
+#define VAR_CICELY_CUSTOMSTYLE 
+#define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE 
+#define VAR_CAVERN_GRUBS_CUSTOMSTYLE 
+#define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE 
+#define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE 
 
 
 
@@ -75,76 +75,76 @@ apply (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "o
 
 
 apply (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
-    VAR_COX_ELDER_CUSTOMSTYLE
+    VAR_COX_ELDER_CUSTOMSTYLE 
 }
 apply (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
-    VAR_COX_TWISTED_CUSTOMSTYLE
+    VAR_COX_TWISTED_CUSTOMSTYLE 
 }
 apply (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
-    VAR_COX_KODAI_CUSTOMSTYLE
+    VAR_COX_KODAI_CUSTOMSTYLE 
 }
 apply (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
-    VAR_COX_REVITALISATION_CUSTOMSTYLE
+    VAR_COX_REVITALISATION_CUSTOMSTYLE 
 }
 apply (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
-    VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE
+    VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
 }
 apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
-    VAR_COX_XERICS_AID_CUSTOMSTYLE
+    VAR_COX_XERICS_AID_CUSTOMSTYLE 
 }
 apply (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
-    VAR_COX_ANTIPOISON_CUSTOMSTYLE
+    VAR_COX_ANTIPOISON_CUSTOMSTYLE 
 }
 apply (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
-    VAR_COX_OVERLOAD_CUSTOMSTYLE
+    VAR_COX_OVERLOAD_CUSTOMSTYLE 
 }
 apply (name:"Golpar seed") {
-    VAR_GOLPAR_SEED_CUSTOMSTYLE
+    VAR_GOLPAR_SEED_CUSTOMSTYLE 
 }
 apply (name:"Buchu seed") {
-    VAR_BUCHU_SEED_CUSTOMSTYLE
+    VAR_BUCHU_SEED_CUSTOMSTYLE 
 }
 apply (name:"Noxifer seed") {
-    VAR_NOXIFER_SEED_CUSTOMSTYLE
+    VAR_NOXIFER_SEED_CUSTOMSTYLE 
 }
 apply (name:"Grimy golpar") {
-    VAR_GRIMY_GOLPAR_CUSTOMSTYLE
+    VAR_GRIMY_GOLPAR_CUSTOMSTYLE 
 }
 apply (name:"Grimy buchu leaf") {
-    VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE
+    VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE 
 }
 apply (name:"Grimy noxifer") {
-    VAR_GRIMY_NOXIFER_CUSTOMSTYLE
+    VAR_GRIMY_NOXIFER_CUSTOMSTYLE 
 }
 apply (name:"golpar") {
-    VAR_GOLPAR_CUSTOMSTYLE
+    VAR_GOLPAR_CUSTOMSTYLE 
 }
 apply (name:"buchu leaf") {
-    VAR_BUCHU_LEAF_CUSTOMSTYLE
+    VAR_BUCHU_LEAF_CUSTOMSTYLE 
 }
 apply (name:"noxifer") {
-    VAR_NOXIFER_CUSTOMSTYLE
+    VAR_NOXIFER_CUSTOMSTYLE 
 }
 apply (name:"Endarkened juice") {
-    VAR_ENDARKENED_JUICE_CUSTOMSTYLE
+    VAR_ENDARKENED_JUICE_CUSTOMSTYLE 
 }
 apply (name:"Stinkhorn mushroom") {
-    VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE
+    VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE 
 }
 apply (name:"Cicely") {
-    VAR_CICELY_CUSTOMSTYLE
+    VAR_CICELY_CUSTOMSTYLE 
 }
 apply (name:"Mallignum root plank") {
-    VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
+    VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE 
 }
 apply (name:"Cavern grubs") {
-    VAR_CAVERN_GRUBS_CUSTOMSTYLE
+    VAR_CAVERN_GRUBS_CUSTOMSTYLE 
 }
 apply (name:"Empty gourd vial") {
-    VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE
+    VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE 
 }
 apply (name:"Water-filled gourd vial") {
-    VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE
+    VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE 
 }
 
 

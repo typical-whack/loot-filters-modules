@@ -8,7 +8,7 @@
 
 
 apply (name:"*") {
-    VAR_GLOBAL_CUSTOMSTYLE
+    VAR_GLOBAL_CUSTOMSTYLE 
 }
 
 apply (name:VAR_GLOBAL_HIDE) {

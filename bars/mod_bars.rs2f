@@ -41,105 +41,105 @@ apply (name:VAR_BARS_HIDE) {
 }
 
 apply (name:"Bronze bar") {
-    VAR_BRONZE_BAR_CUSTOMSTYLE
+    VAR_BRONZE_BAR_CUSTOMSTYLE 
 }
 apply (name:"Bronze bar" && quantity:<VAR_BRONZE_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Iron bar") {
-    VAR_IRON_BAR_CUSTOMSTYLE
+    VAR_IRON_BAR_CUSTOMSTYLE 
 }
 apply (name:"Iron bar" && quantity:<VAR_IRON_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Silver bar") {
-    VAR_SILVER_BAR_CUSTOMSTYLE
+    VAR_SILVER_BAR_CUSTOMSTYLE 
 }
 apply (name:"Silver bar" && quantity:<VAR_SILVER_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Steel bar") {
-    VAR_STEEL_BAR_CUSTOMSTYLE
+    VAR_STEEL_BAR_CUSTOMSTYLE 
 }
 apply (name:"Steel bar" && quantity:<VAR_STEEL_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Gold bar") {
-    VAR_GOLD_BAR_CUSTOMSTYLE
+    VAR_GOLD_BAR_CUSTOMSTYLE 
 }
 apply (name:"Gold bar" && quantity:<VAR_GOLD_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Mithril bar") {
-    VAR_MITHRIL_BAR_CUSTOMSTYLE
+    VAR_MITHRIL_BAR_CUSTOMSTYLE 
 }
 apply (name:"Mithril bar" && quantity:<VAR_MITHRIL_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Adamantite bar") {
-    VAR_ADAMANTITE_BAR_CUSTOMSTYLE
+    VAR_ADAMANTITE_BAR_CUSTOMSTYLE 
 }
 apply (name:"Adamantite bar" && quantity:<VAR_ADAMANTITE_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Runite bar") {
-    VAR_RUNITE_BAR_CUSTOMSTYLE
+    VAR_RUNITE_BAR_CUSTOMSTYLE 
 }
 apply (name:"Runite bar" && quantity:<VAR_RUNITE_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Elemental metal") {
-    VAR_ELEMENTAL_METAL_CUSTOMSTYLE
+    VAR_ELEMENTAL_METAL_CUSTOMSTYLE 
 }
 apply (name:"Elemental metal" && quantity:<VAR_ELEMENTAL_METAL_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Primed bar") {
-    VAR_PRIMED_BAR_CUSTOMSTYLE
+    VAR_PRIMED_BAR_CUSTOMSTYLE 
 }
 apply (name:"Primed bar" && quantity:<VAR_PRIMED_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Primed mind bar") {
-    VAR_PRIMED_MIND_BAR_CUSTOMSTYLE
+    VAR_PRIMED_MIND_BAR_CUSTOMSTYLE 
 }
 apply (name:"Primed mind bar" && quantity:<VAR_PRIMED_MIND_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Blurite bar") {
-    VAR_BLURITE_BAR_CUSTOMSTYLE
+    VAR_BLURITE_BAR_CUSTOMSTYLE 
 }
 apply (name:"Blurite bar" && quantity:<VAR_BLURITE_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Enchanted bar") {
-    VAR_ENCHANTED_BAR_CUSTOMSTYLE
+    VAR_ENCHANTED_BAR_CUSTOMSTYLE 
 }
 apply (name:"Enchanted bar" && quantity:<VAR_ENCHANTED_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Lovakite bar") {
-    VAR_LOVAKITE_BAR_CUSTOMSTYLE
+    VAR_LOVAKITE_BAR_CUSTOMSTYLE 
 }
 apply (name:"Lovakite bar" && quantity:<VAR_LOVAKITE_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"'Perfect' gold bar") {
-    VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE
+    VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE 
 }
 apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY) {
     hidden = true;

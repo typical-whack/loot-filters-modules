@@ -41,105 +41,105 @@ apply (name:VAR_HERBS_HIDE) {
 }
 
 apply (name:"*guam leaf") {
-    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE
+    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE 
 }
 apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*marrentill") {
-    VAR_HERBS_MARRENTILL_CUSTOMSTYLE
+    VAR_HERBS_MARRENTILL_CUSTOMSTYLE 
 }
 apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*tarromin") {
-    VAR_HERBS_TARROMIN_CUSTOMSTYLE
+    VAR_HERBS_TARROMIN_CUSTOMSTYLE 
 }
 apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*harralander") {
-    VAR_HERBS_HARRALANDER_CUSTOMSTYLE
+    VAR_HERBS_HARRALANDER_CUSTOMSTYLE 
 }
 apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*ranarr weed") {
-    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE
+    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE 
 }
 apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*toadflax") {
-    VAR_HERBS_TOADFLAX_CUSTOMSTYLE
+    VAR_HERBS_TOADFLAX_CUSTOMSTYLE 
 }
 apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*irit leaf") {
-    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE
+    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE 
 }
 apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*avantoe") {
-    VAR_HERBS_AVANTOE_CUSTOMSTYLE
+    VAR_HERBS_AVANTOE_CUSTOMSTYLE 
 }
 apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*kwuarm") {
-    VAR_HERBS_KWUARM_CUSTOMSTYLE
+    VAR_HERBS_KWUARM_CUSTOMSTYLE 
 }
 apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*huasca") {
-    VAR_HERBS_HUASCA_CUSTOMSTYLE
+    VAR_HERBS_HUASCA_CUSTOMSTYLE 
 }
 apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*snapdragon") {
-    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE
+    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE 
 }
 apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*cadantine") {
-    VAR_HERBS_CADANTINE_CUSTOMSTYLE
+    VAR_HERBS_CADANTINE_CUSTOMSTYLE 
 }
 apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*lantadyme") {
-    VAR_HERBS_LANTADYME_CUSTOMSTYLE
+    VAR_HERBS_LANTADYME_CUSTOMSTYLE 
 }
 apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*dwarf weed") {
-    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE
+    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE 
 }
 apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"*torstol") {
-    VAR_HERBS_TORSTOL_CUSTOMSTYLE
+    VAR_HERBS_TORSTOL_CUSTOMSTYLE 
 }
 apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
     hidden = true;
