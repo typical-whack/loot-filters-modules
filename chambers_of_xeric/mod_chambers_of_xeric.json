@@ -339,11 +339,11 @@
             "group": "COX misc style",
             "type": "style",
             "default": {
-                "backgroundColor": "#509E74E9",
-                "borderColor": "#FFB3B3B3",
+                "backgroundColor": "#507539e0",
+                "borderColor": "#FF7539e0",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFB3B3B3"
+                "menuTextColor": "#FF7539e0"
             }
         },
         {
@@ -352,11 +352,11 @@
             "group": "COX misc style",
             "type": "style",
             "default": {
-                "backgroundColor": "#5043201D",
-                "borderColor": "#FFCCC9C0",
+                "backgroundColor": "#506d3532",
+                "borderColor": "#FF6d3532",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFCCC9C0"
+                "menuTextColor": "#FF6d3532"
             }
         },
         {
@@ -365,11 +365,11 @@
             "group": "COX misc style",
             "type": "style",
             "default": {
-                "backgroundColor": "#503F1D1D",
-                "borderColor": "#FFC8B8CB",
+                "backgroundColor": "#50a48aa8",
+                "borderColor": "#FFa48aa8",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFC8B8CB"
+                "menuTextColor": "#FFa48aa8"
             }
         },
         {
@@ -378,11 +378,11 @@
             "group": "COX misc style",
             "type": "style",
             "default": {
-                "backgroundColor": "#50575428",
-                "borderColor": "#FFBDBBA8",
+                "backgroundColor": "#50484320",
+                "borderColor": "#FF484320",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFBDBBA8"
+                "menuTextColor": "#FFb2b099"
             }
         }
     ]
