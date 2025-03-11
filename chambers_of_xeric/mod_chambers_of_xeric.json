@@ -1,5 +1,5 @@
 {
-    "name": "Chambers of Xeric Potions",
+    "name": "Chambers of Xeric",
     "inputs": [
         {
             "macroName": "VAR_COX_POTIONS_HIDE",
@@ -115,7 +115,7 @@
         {
             "macroName": "VAR_COX_ELDER_CUSTOMSTYLE",
             "label": "Elder",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50845B5C",
@@ -128,7 +128,7 @@
         {
             "macroName": "VAR_COX_TWISTED_CUSTOMSTYLE",
             "label": "Twisted",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50657E69",
@@ -141,7 +141,7 @@
         {
             "macroName": "VAR_COX_KODAI_CUSTOMSTYLE",
             "label": "Kodai",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#507288A8",
@@ -154,7 +154,7 @@
         {
             "macroName": "VAR_COX_REVITALISATION_CUSTOMSTYLE",
             "label": "Revitalisation",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50A56785",
@@ -167,7 +167,7 @@
         {
             "macroName": "VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE",
             "label": "Prayer enhance",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#509257BA",
@@ -180,7 +180,7 @@
         {
             "macroName": "VAR_COX_XERICS_AID_CUSTOMSTYLE",
             "label": "Xeric's aid",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50AFAC73",
@@ -193,7 +193,7 @@
         {
             "macroName": "VAR_COX_ANTIPOISON_CUSTOMSTYLE",
             "label": "Antipoison",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50A4D27E",
@@ -206,7 +206,7 @@
         {
             "macroName": "VAR_COX_OVERLOAD_CUSTOMSTYLE",
             "label": "Overload",
-            "group": "COX style",
+            "group": "COX potion style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50130F0F",
@@ -222,7 +222,7 @@
         {
             "macroName": "VAR_GOLPAR_SEED_CUSTOMSTYLE",
             "label": "Golpar seed",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50A6A1DE",
@@ -235,7 +235,7 @@
         {
             "macroName": "VAR_BUCHU_SEED_CUSTOMSTYLE",
             "label": "Buchu seed",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50A5423C",
@@ -248,7 +248,7 @@
         {
             "macroName": "VAR_NOXIFER_SEED_CUSTOMSTYLE",
             "label": "Noxifer seed",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#503E348F",
@@ -261,7 +261,7 @@
         {
             "macroName": "VAR_GRIMY_GOLPAR_CUSTOMSTYLE",
             "label": "Grimy golpar",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50836138",
@@ -274,7 +274,7 @@
         {
             "macroName": "VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE",
             "label": "Grimy buchu leaf",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50856339",
@@ -287,7 +287,7 @@
         {
             "macroName": "VAR_GRIMY_NOXIFER_CUSTOMSTYLE",
             "label": "Grimy noxifer",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50805F38",
@@ -300,7 +300,7 @@
         {
             "macroName": "VAR_GOLPAR_CUSTOMSTYLE",
             "label": "golpar",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#505D4477",
@@ -313,7 +313,7 @@
         {
             "macroName": "VAR_BUCHU_LEAF_CUSTOMSTYLE",
             "label": "buchu leaf",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#505A4173",
@@ -326,7 +326,7 @@
         {
             "macroName": "VAR_NOXIFER_CUSTOMSTYLE",
             "label": "noxifer",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#505B4275",
@@ -339,7 +339,7 @@
         {
             "macroName": "VAR_ENDARKENED_JUICE_CUSTOMSTYLE",
             "label": "Endarkened juice",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#509E74E9",
@@ -352,7 +352,7 @@
         {
             "macroName": "VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE",
             "label": "Stinkhorn mushroom",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#5043201D",
@@ -365,7 +365,7 @@
         {
             "macroName": "VAR_CICELY_CUSTOMSTYLE",
             "label": "Cicely",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#503F1D1D",
@@ -378,7 +378,7 @@
         {
             "macroName": "VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE",
             "label": "Mallignum root plank",
-            "group": "COX style",
+            "group": "COX misc style",
             "type": "style",
             "default": {
                 "backgroundColor": "#50575428",

@@ -59,7 +59,7 @@ apply (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+
 apply (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) && name:VAR_COX_POTIONS_HIDE {}
+apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
 apply (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"] && name:VAR_COX_POTIONS_HIDE) {
