@@ -82,12 +82,13 @@
             ]
         },
         {
-            "macroName": "VAR_COX_SCAV_DROPS_HIDE",
-            "label": "Scavenger drops to hide",
+            "macroName": "VAR_COX_MISC_DROPS_HIDE",
+            "label": "Misc drops to hide",
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
                 "Bones",
+                "Big bones",
                 "Lockpick",
                 "Fishing rod",
                 "Iron pickaxe",
@@ -103,6 +104,7 @@
             ],
             "default": [
                 "Bones",
+                "Big bones",
                 "Fishing rod",
                 "Iron pickaxe",
                 "Iron axe",

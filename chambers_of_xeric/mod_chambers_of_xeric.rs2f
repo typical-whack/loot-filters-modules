@@ -6,7 +6,7 @@
 #define VAR_COX_FISH_HIDE []
 #define VAR_COX_BATS_HIDE []
 #define VAR_COX_SEEDS_HIDE []
-#define VAR_COX_SCAV_DROPS_HIDE []
+#define VAR_COX_MISC_DROPS_HIDE []
 
 #define VAR_COX_ELDER_CUSTOMSTYLE 
 #define VAR_COX_TWISTED_CUSTOMSTYLE 
@@ -41,7 +41,7 @@ if (name:VAR_COX_BATS_HIDE) {
 if (name:VAR_COX_SEEDS_HIDE) {
     hidden = true;
 }
-if (name:VAR_COX_SCAV_DROPS_HIDE) {
+if (name:VAR_COX_MISC_DROPS_HIDE) {
     hidden = true;
 }
 apply (name:["elder (-)*", "elder potion*", "elder (+)*"] && name:VAR_COX_POTIONS_HIDE) {
