@@ -30,6 +30,8 @@
 #define VAR_CICELY_CUSTOMSTYLE
 #define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
 #define VAR_CAVERN_GRUBS_CUSTOMSTYLE
+#define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE
+#define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE
 
 
 
@@ -137,6 +139,12 @@ apply (name:"Mallignum root plank") {
 }
 apply (name:"Cavern grubs") {
     VAR_CAVERN_GRUBS_CUSTOMSTYLE
+}
+apply (name:"Empty gourd vial") {
+    VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE
+}
+apply (name:"Water-filled gourd vial") {
+    VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE
 }
 
 

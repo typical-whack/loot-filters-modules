@@ -101,7 +101,9 @@
                 "Stinkhorn mushroom",
                 "Cicely",
                 "Mallignum root plank",
-                "Cavern grubs"
+                "Cavern grubs",
+                "Empty gourd vial",
+                "Water-filled gourd vial"
             ],
             "default": [
                 "Bones",
@@ -399,6 +401,32 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFcfbbaa"
+            }
+        },
+        {
+            "macroName": "VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE",
+            "label": "Empty gourd vial",
+            "group": "COX misc style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50636165",
+                "borderColor": "#FFbeb8c2",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFbeb8c2"
+            }
+        },
+        {
+            "macroName": "VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE",
+            "label": "Water-filled gourd vial",
+            "group": "COX misc style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50a7a8c0",
+                "borderColor": "#FFb8b2bc",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFa7a8c0"
             }
         }
     ]
