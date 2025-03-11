@@ -176,7 +176,7 @@
         },
         {
             "macroName": "VAR_SLIMY_EEL_CUSTOMSTYLE",
-            "label": "Slimy_eel custom style",
+            "label": "Slimy eel custom style",
             "group": "Food style",
             "type": "style",
             "default": {
@@ -203,7 +203,7 @@
         },
         {
             "macroName": "VAR_RAINBOW_FISH_CUSTOMSTYLE",
-            "label": "Rainbow_fish custom style",
+            "label": "Rainbow fish custom style",
             "group": "Food style",
             "type": "style",
             "default": {
@@ -212,7 +212,7 @@
         },
         {
             "macroName": "VAR_CAVE_EEL_CUSTOMSTYLE",
-            "label": "Cave_eel custom style",
+            "label": "Cave eel custom style",
             "group": "Food style",
             "type": "style",
             "default": {
@@ -248,7 +248,7 @@
         },
         {
             "macroName": "VAR_LAVA_EEL_CUSTOMSTYLE",
-            "label": "Lava_eel custom style",
+            "label": "Lava eel custom style",
             "group": "Food style",
             "type": "style",
             "default": {
@@ -292,7 +292,7 @@
         },
         {
             "macroName": "VAR_SEA_TURTLE_CUSTOMSTYLE",
-            "label": "Sea_turtle custom style",
+            "label": "Sea turtle custom style",
             "group": "Food style",
             "type": "style",
             "default": {
@@ -301,7 +301,7 @@
         },
         {
             "macroName": "VAR_MANTA_RAY_CUSTOMSTYLE",
-            "label": "Manta_ray custom style",
+            "label": "Manta ray custom style",
             "group": "Food style",
             "type": "style",
             "default": {
@@ -327,7 +327,7 @@
         },
         {
             "macroName": "VAR_DARK_CRAB_CUSTOMSTYLE",
-            "label": "Dark_crab custom style",
+            "label": "Dark crab custom style",
             "group": "Food style",
             "type": "style",
             "default": {
