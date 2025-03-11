@@ -55,354 +55,159 @@
 
 
 
+apply (name:VAR_POTIONS_HIDE) {
+    hidden = true;
+}
+
 apply (name:"Attack potion(*") {
     VAR_ATTACK_POTION_CUSTOMSTYLE
 }
-apply (name:"Attack potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Antipoison(*") {
     VAR_ANTIPOISON_CUSTOMSTYLE
 }
-apply (name:"Antipoison(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Strength potion(*") {
     VAR_STRENGTH_POTION_CUSTOMSTYLE
 }
-apply (name:"Strength potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Serum 207(*") {
     VAR_SERUM_207_CUSTOMSTYLE
 }
-apply (name:"Serum 207(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Compost potion(*") {
     VAR_COMPOST_POTION_CUSTOMSTYLE
 }
-apply (name:"Compost potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Restore potion(*") {
     VAR_RESTORE_POTION_CUSTOMSTYLE
 }
-apply (name:"Restore potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Energy potion(*") {
     VAR_ENERGY_POTION_CUSTOMSTYLE
 }
-apply (name:"Energy potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Defence potion(*") {
     VAR_DEFENCE_POTION_CUSTOMSTYLE
 }
-apply (name:"Defence potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Agility potion(*") {
     VAR_AGILITY_POTION_CUSTOMSTYLE
 }
-apply (name:"Agility potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Combat potion(*") {
     VAR_COMBAT_POTION_CUSTOMSTYLE
 }
-apply (name:"Combat potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Prayer potion(*") {
     VAR_PRAYER_POTION_CUSTOMSTYLE
 }
-apply (name:"Prayer potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super attack(*") {
     VAR_SUPER_ATTACK_CUSTOMSTYLE
 }
-apply (name:"Super attack(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Superantipoison(*") {
     VAR_SUPERANTIPOISON_CUSTOMSTYLE
 }
-apply (name:"Superantipoison(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Fishing potion(*") {
     VAR_FISHING_POTION_CUSTOMSTYLE
 }
-apply (name:"Fishing potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super energy(*") {
     VAR_SUPER_ENERGY_CUSTOMSTYLE
 }
-apply (name:"Super energy(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Hunter potion(*") {
     VAR_HUNTER_POTION_CUSTOMSTYLE
 }
-apply (name:"Hunter potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Goading potion(*") {
     VAR_GOADING_POTION_CUSTOMSTYLE
 }
-apply (name:"Goading potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super strength(*") {
     VAR_SUPER_STRENGTH_CUSTOMSTYLE
 }
-apply (name:"Super strength(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Prayer regeneration potion(*") {
     VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE
 }
-apply (name:"Prayer regeneration potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super restore(*") {
     VAR_SUPER_RESTORE_CUSTOMSTYLE
 }
-apply (name:"Super restore(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Sanfew serum(*") {
     VAR_SANFEW_SERUM_CUSTOMSTYLE
 }
-apply (name:"Sanfew serum(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super defence(*") {
     VAR_SUPER_DEFENCE_CUSTOMSTYLE
 }
-apply (name:"Super defence(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Antidote+(*") {
     VAR_ANTIDOTE_PLUS_CUSTOMSTYLE
 }
-apply (name:"Antidote+(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Antifire potion(*") {
     VAR_ANTIFIRE_POTION_CUSTOMSTYLE
 }
-apply (name:"Antifire potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine super attack potion(*") {
     VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine super attack potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine super defence potion(*") {
     VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine super defence potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine super strength potion(*") {
     VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine super strength potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Ranging potion(*") {
     VAR_RANGING_POTION_CUSTOMSTYLE
 }
-apply (name:"Ranging potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine ranging potion(*") {
     VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine ranging potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Magic potion(*") {
     VAR_MAGIC_POTION_CUSTOMSTYLE
 }
-apply (name:"Magic potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Stamina potion(*") {
     VAR_STAMINA_POTION_CUSTOMSTYLE
 }
-apply (name:"Stamina potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Zamorak brew(*") {
     VAR_ZAMORAK_BREW_CUSTOMSTYLE
 }
-apply (name:"Zamorak brew(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine magic potion(*") {
     VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine magic potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Antidote++(*") {
     VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE
 }
-apply (name:"Antidote++(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Bastion potion(*") {
     VAR_BASTION_POTION_CUSTOMSTYLE
 }
-apply (name:"Bastion potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Battlemage potion(*") {
     VAR_BATTLEMAGE_POTION_CUSTOMSTYLE
 }
-apply (name:"Battlemage potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Saradomin brew(*") {
     VAR_SARADOMIN_BREW_CUSTOMSTYLE
 }
-apply (name:"Saradomin brew(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Extended antifire(*") {
     VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE
 }
-apply (name:"Extended antifire(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Ancient brew(*") {
     VAR_ANCIENT_BREW_CUSTOMSTYLE
 }
-apply (name:"Ancient brew(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine bastion potion(*") {
     VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine bastion potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine battlemage potion(*") {
     VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine battlemage potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Anti-venom(*") {
     VAR_ANTI_VENOM_CUSTOMSTYLE
 }
-apply (name:"Anti-venom(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Menaphite remedy(*") {
     VAR_MENAPHITE_REMEDY_CUSTOMSTYLE
 }
-apply (name:"Menaphite remedy(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super combat potion(*") {
     VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE
 }
-apply (name:"Super combat potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Forgotten brew(*") {
     VAR_FORGOTTEN_BREW_CUSTOMSTYLE
 }
-apply (name:"Forgotten brew(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Super antifire potion(*") {
     VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE
 }
-apply (name:"Super antifire potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Anti-venom+(*") {
     VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE
 }
-apply (name:"Anti-venom+(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Extended anti-venom+(*") {
     VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE
 }
-apply (name:"Extended anti-venom+(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Divine super combat potion(*") {
     VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE
 }
-apply (name:"Divine super combat potion(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
 apply (name:"Extended super antifire(*") {
     VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE
-}
-apply (name:"Extended super antifire(*" && name:VAR_POTIONS_HIDE) {
-    hidden = true;
 }
 
 
