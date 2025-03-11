@@ -29,9 +29,14 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/clues/mod_clues.rs2f"
         },
         {
-            "name": "Remains",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/remains/mod_remains.rs2f"
+            "name": "Barrows",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.rs2f"
+        },
+        {
+            "name": "Chambers of Xeric",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/chambers_of_xeric/mod_chambers_of_xeric.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/chambers_of_xeric/mod_chambers_of_xeric.rs2f"
         },
         {
             "name": "Runes",

@@ -1,0 +1,140 @@
+// module:chambers_of_xeric
+
+#define CONST_COX_AREA [3200, 5120, 0, 3391, 5759, 2]
+
+#define VAR_COX_POTIONS_HIDE []
+#define VAR_COX_FISH_HIDE []
+#define VAR_COX_BATS_HIDE []
+#define VAR_COX_SEEDS_HIDE []
+#define VAR_COX_SCAV_DROPS_HIDE []
+
+#define VAR_COX_ELDER_CUSTOMSTYLE 
+#define VAR_COX_TWISTED_CUSTOMSTYLE 
+#define VAR_COX_KODAI_CUSTOMSTYLE 
+#define VAR_COX_REVITALISATION_CUSTOMSTYLE 
+#define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
+#define VAR_COX_XERICS_AID_CUSTOMSTYLE 
+#define VAR_COX_ANTIPOISON_CUSTOMSTYLE 
+#define VAR_COX_OVERLOAD_CUSTOMSTYLE 
+#define VAR_GOLPAR_SEED_CUSTOMSTYLE
+#define VAR_BUCHU_SEED_CUSTOMSTYLE
+#define VAR_NOXIFER_SEED_CUSTOMSTYLE
+#define VAR_GRIMY_GOLPAR_CUSTOMSTYLE
+#define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE
+#define VAR_GRIMY_NOXIFER_CUSTOMSTYLE
+#define VAR_GOLPAR_CUSTOMSTYLE
+#define VAR_BUCHU_LEAF_CUSTOMSTYLE
+#define VAR_NOXIFER_CUSTOMSTYLE
+#define VAR_ENDARKENED_JUICE_CUSTOMSTYLE
+#define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE
+#define VAR_CICELY_CUSTOMSTYLE
+#define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
+
+
+
+if (name:VAR_COX_FISH_HIDE) {
+    hidden = true;
+}
+if (name:VAR_COX_BATS_HIDE) {
+    hidden = true;
+}
+if (name:VAR_COX_SEEDS_HIDE) {
+    hidden = true;
+}
+if (name:VAR_COX_SCAV_DROPS_HIDE) {
+    hidden = true;
+}
+apply (name:["elder (-)*", "elder potion*", "elder (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (name:["twisted (-)*", "twisted potion*", "twisted (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (name:["kodai (-)*", "kodai potion*", "kodai (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) && name:VAR_COX_POTIONS_HIDE {}
+    hidden = true;
+}
+apply (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+
+
+
+apply (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
+    VAR_COX_ELDER_CUSTOMSTYLE
+}
+apply (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
+    VAR_COX_TWISTED_CUSTOMSTYLE
+}
+apply (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
+    VAR_COX_KODAI_CUSTOMSTYLE
+}
+apply (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
+    VAR_COX_REVITALISATION_CUSTOMSTYLE
+}
+apply (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
+    VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE
+}
+apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {}
+    VAR_COX_XERICS_AID_CUSTOMSTYLE
+}
+apply (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
+    VAR_COX_ANTIPOISON_CUSTOMSTYLE
+}
+apply (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
+    VAR_COX_OVERLOAD_CUSTOMSTYLE
+}
+apply (name:"Golpar seed") {
+    VAR_GOLPAR_SEED_CUSTOMSTYLE
+}
+apply (name:"Buchu seed") {
+    VAR_BUCHU_SEED_CUSTOMSTYLE
+}
+apply (name:"Noxifer seed") {
+    VAR_NOXIFER_SEED_CUSTOMSTYLE
+}
+apply (name:"Grimy golpar") {
+    VAR_GRIMY_GOLPAR_CUSTOMSTYLE
+}
+apply (name:"Grimy buchu leaf") {
+    VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE
+}
+apply (name:"Grimy noxifer") {
+    VAR_GRIMY_NOXIFER_CUSTOMSTYLE
+}
+apply (name:"golpar") {
+    VAR_GOLPAR_CUSTOMSTYLE
+}
+apply (name:"buchu leaf") {
+    VAR_BUCHU_LEAF_CUSTOMSTYLE
+}
+apply (name:"noxifer") {
+    VAR_NOXIFER_CUSTOMSTYLE
+}
+apply (name:"Endarkened juice") {
+    VAR_ENDARKENED_JUICE_CUSTOMSTYLE
+}
+apply (name:"Stinkhorn mushroom") {
+    VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE
+}
+apply (name:"Cicely") {
+    VAR_CICELY_CUSTOMSTYLE
+}
+apply (name:"Mallignum root plank") {
+    VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE
+}
+
+
+
+// endmodule:chambers_of_xeric
