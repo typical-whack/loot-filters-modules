@@ -84,6 +84,11 @@
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.rs2f"
         },
         {
+            "name": "Food",
+            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/food/mod_food.json",
+            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/food/mod_food.rs2f"
+        },
+        {
             "name": "Metal equipment",
             "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.json",
             "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.rs2f"

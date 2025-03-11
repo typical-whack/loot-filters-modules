@@ -1,0 +1,40 @@
+{
+    "name": "Food",
+    "inputs": [
+        {
+            "macroName": "VAR_FOOD_HUNTER_FOODS_HIDE",
+            "label": "Hunter foods to hide",
+            "group": "Food filters",
+            "type": "enumlist",
+            "enum": [
+                "Cooked wild kebbit",
+                "Cooked larupia",
+                "Cooked barb-tailed kebbit",
+                "Cooked graahk",
+                "Cooked kyatt",
+                "Cooked pyre fox",
+                "Cooked sunlight antelope",
+                "Cooked dashing kebbit", 
+                "Cooked moonlight antelope"
+            ],
+            "default": [
+                "Cooked wild kebbit",
+                "Cooked larupia",
+                "Cooked barb-tailed kebbit",
+                "Cooked graahk"
+            ]
+        },
+        {
+            "macroName": "VAR_FOOD_HUNTER_CUSTOMSTYLE",
+            "label": "Hunter food style",
+            "group": "Food style",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50625142",
+                "borderColor": "#FF625142",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000"
+            }
+        }
+    ]
+}
