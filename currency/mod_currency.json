@@ -1,5 +1,7 @@
 {
     "name": "Currency",
+    "subtitle": "Money makes the world go 'round",
+    "description": "This module provides styling and quantity filters for all currencies in the game.",
     "inputs": [
         {
             "macroName": "VAR_CURRENCY_HIDE",

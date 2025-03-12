@@ -1,40 +1,129 @@
 {
     "name": "Barbarian Potions",
+    "subtitle": "People use these?",
+    "description": "This module provides per-item filtering and custom styling for all barbarian potions. By default ALL barbarian potions are filtered out. LOL",
     "inputs": [
         {
             "macroName": "VAR_BARB_POTIONS_HIDE",
             "label": "Potions to hide",
             "type": "enumlist",
             "enum": [
-                { "value": "Attack mix*", "label": "Attack mix" },
-                { "value": "Antipoison mix*", "label": "Antipoison mix" },
-                { "value": "Relicym's mix*", "label": "Relicym's mix" },
-                { "value": "Strength mix*", "label": "Strength mix" },
-                { "value": "Restore mix*", "label": "Restore mix" },
-                { "value": "Energy mix*", "label": "Energy mix" },
-                { "value": "Defence mix*", "label": "Defence mix" },
-                { "value": "Agility mix*", "label": "Agility mix" },
-                { "value": "Combat mix*", "label": "Combat mix" },
-                { "value": "Prayer mix*", "label": "Prayer mix" },
-                { "value": "Superattack mix*", "label": "Superattack mix" },
-                { "value": "Anti-poison supermix*", "label": "Anti-poison supermix" },
-                { "value": "Fishing mix*", "label": "Fishing mix" },
-                { "value": "Super energy mix*", "label": "Super energy mix" },
-                { "value": "Hunting mix*", "label": "Hunting mix" },
-                { "value": "Super str. mix*", "label": "Super str. mix" },
-                { "value": "Magic essence mix*", "label": "Magic essence mix" },
-                { "value": "Super restore mix*", "label": "Super restore mix" },
-                { "value": "Super def. mix*", "label": "Super def. mix" },
-                { "value": "Antidote+ mix*", "label": "Antidote+ mix" },
-                { "value": "Antifire mix*", "label": "Antifire mix" },
-                { "value": "Ranging mix*", "label": "Ranging mix" },
-                { "value": "Magic mix*", "label": "Magic mix" },
-                { "value": "Zamorak mix*", "label": "Zamorak mix" },
-                { "value": "Stamina mix*", "label": "Stamina mix" },
-                { "value": "Extended antifire mix*", "label": "Extended antifire mix" },
-                { "value": "Ancient mix*", "label": "Ancient mix" },
-                { "value": "Super antifire mix*", "label": "Super antifire mix" },
-                { "value": "Extended super antifire mix*", "label": "Extended super antifire mix" }
+                {
+                    "value": "Attack mix*",
+                    "label": "Attack mix"
+                },
+                {
+                    "value": "Antipoison mix*",
+                    "label": "Antipoison mix"
+                },
+                {
+                    "value": "Relicym's mix*",
+                    "label": "Relicym's mix"
+                },
+                {
+                    "value": "Strength mix*",
+                    "label": "Strength mix"
+                },
+                {
+                    "value": "Restore mix*",
+                    "label": "Restore mix"
+                },
+                {
+                    "value": "Energy mix*",
+                    "label": "Energy mix"
+                },
+                {
+                    "value": "Defence mix*",
+                    "label": "Defence mix"
+                },
+                {
+                    "value": "Agility mix*",
+                    "label": "Agility mix"
+                },
+                {
+                    "value": "Combat mix*",
+                    "label": "Combat mix"
+                },
+                {
+                    "value": "Prayer mix*",
+                    "label": "Prayer mix"
+                },
+                {
+                    "value": "Superattack mix*",
+                    "label": "Superattack mix"
+                },
+                {
+                    "value": "Anti-poison supermix*",
+                    "label": "Anti-poison supermix"
+                },
+                {
+                    "value": "Fishing mix*",
+                    "label": "Fishing mix"
+                },
+                {
+                    "value": "Super energy mix*",
+                    "label": "Super energy mix"
+                },
+                {
+                    "value": "Hunting mix*",
+                    "label": "Hunting mix"
+                },
+                {
+                    "value": "Super str. mix*",
+                    "label": "Super str. mix"
+                },
+                {
+                    "value": "Magic essence mix*",
+                    "label": "Magic essence mix"
+                },
+                {
+                    "value": "Super restore mix*",
+                    "label": "Super restore mix"
+                },
+                {
+                    "value": "Super def. mix*",
+                    "label": "Super def. mix"
+                },
+                {
+                    "value": "Antidote+ mix*",
+                    "label": "Antidote+ mix"
+                },
+                {
+                    "value": "Antifire mix*",
+                    "label": "Antifire mix"
+                },
+                {
+                    "value": "Ranging mix*",
+                    "label": "Ranging mix"
+                },
+                {
+                    "value": "Magic mix*",
+                    "label": "Magic mix"
+                },
+                {
+                    "value": "Zamorak mix*",
+                    "label": "Zamorak mix"
+                },
+                {
+                    "value": "Stamina mix*",
+                    "label": "Stamina mix"
+                },
+                {
+                    "value": "Extended antifire mix*",
+                    "label": "Extended antifire mix"
+                },
+                {
+                    "value": "Ancient mix*",
+                    "label": "Ancient mix"
+                },
+                {
+                    "value": "Super antifire mix*",
+                    "label": "Super antifire mix"
+                },
+                {
+                    "value": "Extended super antifire mix*",
+                    "label": "Extended super antifire mix"
+                }
             ],
             "default": [
                 "Attack mix*",

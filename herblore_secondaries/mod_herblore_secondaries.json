@@ -1,7 +1,7 @@
-
 {
     "name": "Herblore secondaries",
-    "description": "For random items that are used to make potions",
+    "subtitle": "Eyes, eggs, and everything in-between",
+    "description": "Provides some basic filtering for herblore secondaries.",
     "inputs": [
         {
             "macroName": "VAR_SECONDARIES_MINIMUM_VALUE",

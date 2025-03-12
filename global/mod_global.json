@@ -1,5 +1,7 @@
 {
     "name": "Global defaults",
+    "subtitle": "The first layer of styling and filtering",
+    "description": "This provides some default styling options to apply to all items, unless overridden by a module below. This also provides an option to explicitly show and hide specific items. This list however can be overridden in a below module as well.",
     "inputs": [
         {
             "macroName": "VAR_GLOBAL_CUSTOMSTYLE",

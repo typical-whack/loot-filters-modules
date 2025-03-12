@@ -1,5 +1,7 @@
 {
     "name": "Barrows",
+    "subtitle": "6 brothers united in death",
+    "description": "This module provides custom styling for barrows equipment on the ground. You likely won't see this unless you're pking. And even then you probably won't see it because loot keys are a thing.",
     "inputs": [
         {
             "macroName": "VAR_AHRIMS_CUSTOMSTYLE",

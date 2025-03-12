@@ -1,6 +1,7 @@
 {
     "name": "Bars",
-    "description": "Colors bars (by default colors them based on the item color)",
+    "subtitle": "The thing between ores and armours",
+    "description": "This module provides bar tier filters, quantity filters, and custom styling for all bars.",
     "inputs": [
         {
             "macroName": "VAR_BARS_HIDE",

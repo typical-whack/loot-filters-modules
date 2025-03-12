@@ -1,22 +1,39 @@
 {
     "name": "Clue Scrolls",
-    "description": "Clue Scrolls",
+    "subtitle": "Can you do me one small favor?",
+    "description": "This module provides clue tier filters and custom styling for each clue tier.",
     "inputs": [
         {
             "macroName": "VAR_CLUE_SCROLLS_HIDE",
             "label": "Clue tiers to hide",
             "type": "enumlist",
             "enum": [
-                { "value": "Clue scroll (beginner)", "label": "Beginner" },
-                { "value": "Clue scroll (easy)", "label": "Easy" },
-                { "value": "Clue scroll (medium)", "label": "Medium" },
-                { "value": "Clue scroll (hard)", "label": "Hard" },
-                { "value": "Clue scroll (elite)", "label": "Elite" },
-                { "value": "Clue scroll (master)", "label": "Master" }
+                {
+                    "value": "Clue scroll (beginner)",
+                    "label": "Beginner"
+                },
+                {
+                    "value": "Clue scroll (easy)",
+                    "label": "Easy"
+                },
+                {
+                    "value": "Clue scroll (medium)",
+                    "label": "Medium"
+                },
+                {
+                    "value": "Clue scroll (hard)",
+                    "label": "Hard"
+                },
+                {
+                    "value": "Clue scroll (elite)",
+                    "label": "Elite"
+                },
+                {
+                    "value": "Clue scroll (master)",
+                    "label": "Master"
+                }
             ],
-            "default": [
-
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE",

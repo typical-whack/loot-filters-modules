@@ -1,7 +1,7 @@
-
 {
     "name": "Farming seeds",
-    "description": "For filtering farming seeds",
+    "subtitle": "The stuff from the master farmers' pockets",
+    "description": "Provides specific seed filters and value threshold for filtering out seeds from being shown. The default is to hide lower tier seeds.",
     "inputs": [
         {
             "macroName": "VAR_FARMING_SEEDS_MINIMUM_VALUE",
@@ -189,8 +189,7 @@
                 "Cactus",
                 "Potato cactus"
             ],
-            "default": [
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_FARMING_SEEDS_ANIMA_HIDE",
@@ -201,8 +200,7 @@
                 "Iasor seed",
                 "Attas seed"
             ],
-            "default": [
-            ]
+            "default": []
         }
     ]
 }

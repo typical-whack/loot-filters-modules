@@ -1,24 +1,51 @@
 {
     "name": "Gems",
+    "subtitle": "Shilo village provides",
+    "description": "This module provides quantity filtering, tier filtering, and styling for all gem tiers. By default this styles gems to closely match their in-game colors.",
     "inputs": [
         {
             "macroName": "VAR_GEMS_HIDE",
             "label": "Gems to hide",
             "type": "enumlist",
             "enum": [
-                { "value": "*Sapphire", "label": "Sapphire" },
-                { "value": "*Emerald", "label": "Emerald" },
-                { "value": "*Ruby", "label": "Ruby" },
-                { "value": "*Diamond", "label": "Diamond" },
-                { "value": "*Opal", "label": "Opal" },
-                { "value": "*Jade", "label": "Jade" },
-                { "value": "*Red topaz", "label": "Red topaz" },
-                { "value": "*Dragonstone", "label": "Dragonstone" },
-                { "value": "*Onyx", "label": "Onyx" }
+                {
+                    "value": "*Sapphire",
+                    "label": "Sapphire"
+                },
+                {
+                    "value": "*Emerald",
+                    "label": "Emerald"
+                },
+                {
+                    "value": "*Ruby",
+                    "label": "Ruby"
+                },
+                {
+                    "value": "*Diamond",
+                    "label": "Diamond"
+                },
+                {
+                    "value": "*Opal",
+                    "label": "Opal"
+                },
+                {
+                    "value": "*Jade",
+                    "label": "Jade"
+                },
+                {
+                    "value": "*Red topaz",
+                    "label": "Red topaz"
+                },
+                {
+                    "value": "*Dragonstone",
+                    "label": "Dragonstone"
+                },
+                {
+                    "value": "*Onyx",
+                    "label": "Onyx"
+                }
             ],
-            "default": [
-
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_SAPPHIRE_CUSTOMSTYLE",

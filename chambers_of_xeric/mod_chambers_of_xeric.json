@@ -1,5 +1,7 @@
 {
     "name": "Chambers of Xeric",
+    "subtitle": "The twisted bow awaits...",
+    "description": "This provides per-item filters and custom styling for all drops that happen during your chambers of xeric raid. By default this styles each drop uniquely so they are easier to pick off the ground.",
     "inputs": [
         {
             "macroName": "VAR_COX_POTIONS_HIDE",
@@ -7,17 +9,40 @@
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
-                { "value": "Elder*", "label": "Elder potion" },
-                { "value": "Twisted*", "label": "Twisted potion" },
-                { "value": "Kodai*", "label": "Kodai potion" },
-                { "value": "Revitalisation*", "label": "Revitalisation potion" },
-                { "value": "Prayer enhance*", "label": "Prayer enhance" },
-                { "value": "Xeric's aid*", "label": "Xeric's aid" },
-                { "value": "Antipoison*", "label": "Antipoison potion" },
-                { "value": "Overload*", "label": "Overload" }
+                {
+                    "value": "Elder*",
+                    "label": "Elder potion"
+                },
+                {
+                    "value": "Twisted*",
+                    "label": "Twisted potion"
+                },
+                {
+                    "value": "Kodai*",
+                    "label": "Kodai potion"
+                },
+                {
+                    "value": "Revitalisation*",
+                    "label": "Revitalisation potion"
+                },
+                {
+                    "value": "Prayer enhance*",
+                    "label": "Prayer enhance"
+                },
+                {
+                    "value": "Xeric's aid*",
+                    "label": "Xeric's aid"
+                },
+                {
+                    "value": "Antipoison*",
+                    "label": "Antipoison potion"
+                },
+                {
+                    "value": "Overload*",
+                    "label": "Overload"
+                }
             ],
-            "default": [
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_COX_FISH_HIDE",
@@ -25,13 +50,34 @@
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
-                { "value": "Pysk fish (0)", "label": "Pysk fish" },
-                { "value": "Suphi fish (1)", "label": "Suphi fish" },
-                { "value": "Leckish fish (2)", "label": "Leckish fish" },
-                { "value": "Brawk fish (3)", "label": "Brawk fish" },
-                { "value": "Mycil fish (4)", "label": "Mycil fish" },
-                { "value": "Roqed fish (5)", "label": "Roqed fish" },
-                { "value": "Kyren fish (6)", "label": "Kyren fish" }
+                {
+                    "value": "Pysk fish (0)",
+                    "label": "Pysk fish"
+                },
+                {
+                    "value": "Suphi fish (1)",
+                    "label": "Suphi fish"
+                },
+                {
+                    "value": "Leckish fish (2)",
+                    "label": "Leckish fish"
+                },
+                {
+                    "value": "Brawk fish (3)",
+                    "label": "Brawk fish"
+                },
+                {
+                    "value": "Mycil fish (4)",
+                    "label": "Mycil fish"
+                },
+                {
+                    "value": "Roqed fish (5)",
+                    "label": "Roqed fish"
+                },
+                {
+                    "value": "Kyren fish (6)",
+                    "label": "Kyren fish"
+                }
             ],
             "default": [
                 "Pysk fish (0)",
@@ -49,13 +95,34 @@
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
-                { "value": "Guanic bat (0)", "label": "Guanic bat (0)" },
-                { "value": "Prael bat (1)", "label": "Prael bat (1)" },
-                { "value": "Giral bat (2)", "label": "Giral bat (2)" },
-                { "value": "Phluxia bat (3)", "label": "Phluxia bat (3)" },
-                { "value": "Kryket bat (4)", "label": "Kryket bat (4)" },
-                { "value": "Murng bat (5)", "label": "Murng bat (5)" },
-                { "value": "Psykk bat (6)", "label": "Psykk bat (6)" }
+                {
+                    "value": "Guanic bat (0)",
+                    "label": "Guanic bat (0)"
+                },
+                {
+                    "value": "Prael bat (1)",
+                    "label": "Prael bat (1)"
+                },
+                {
+                    "value": "Giral bat (2)",
+                    "label": "Giral bat (2)"
+                },
+                {
+                    "value": "Phluxia bat (3)",
+                    "label": "Phluxia bat (3)"
+                },
+                {
+                    "value": "Kryket bat (4)",
+                    "label": "Kryket bat (4)"
+                },
+                {
+                    "value": "Murng bat (5)",
+                    "label": "Murng bat (5)"
+                },
+                {
+                    "value": "Psykk bat (6)",
+                    "label": "Psykk bat (6)"
+                }
             ],
             "default": [
                 "Guanic bat (0)",
@@ -77,9 +144,7 @@
                 "Buchu seed",
                 "Noxifer seed"
             ],
-            "default": [
-            
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_COX_MISC_DROPS_HIDE",
@@ -131,7 +196,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF845B5C"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_TWISTED_CUSTOMSTYLE",
@@ -144,7 +209,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF657E69"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_KODAI_CUSTOMSTYLE",
@@ -157,7 +222,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF7288A8"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_REVITALISATION_CUSTOMSTYLE",
@@ -170,7 +235,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFed89b5"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE",
@@ -183,7 +248,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF9257BA"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_XERICS_AID_CUSTOMSTYLE",
@@ -196,7 +261,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFf7f84d"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_ANTIPOISON_CUSTOMSTYLE",
@@ -209,7 +274,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFA4D27E"
-             }
+            }
         },
         {
             "macroName": "VAR_COX_OVERLOAD_CUSTOMSTYLE",
@@ -222,7 +287,7 @@
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF130F0F"
-             }
+            }
         },
         {
             "macroName": "VAR_GOLPAR_SEED_CUSTOMSTYLE",
