@@ -1,5 +1,7 @@
 {
     "name": "Logs",
+    "subtitle": "Chop chop!",
+    "description": "Provides quantity filters, log type filters, and custom styling for all logs. By default this colors all logs similar to their item color.",
     "inputs": [
         {
             "macroName": "VAR_LOGS_HIDE",
@@ -22,9 +24,7 @@
                 "Bark",
                 "Blisterwood logs"
             ],
-            "default": [
-
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_LOGS_CUSTOMSTYLE",

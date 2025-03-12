@@ -1,26 +1,73 @@
 {
     "name": "Herbs",
+    "subtitle": "Kaqemeex would be proud",
+    "description": "Provides herb filters, quantity filters per herb, and custom styling for each herb. By default, this gives each herb unique styling.",
     "inputs": [
         {
             "macroName": "VAR_HERBS_HIDE",
             "label": "Herbs to hide",
             "type": "enumlist",
             "enum": [
-                { "value": "*Guam leaf", "label": "Guam leaf" },
-                { "value": "*Marrentill", "label": "Marrentill" },
-                { "value": "*Tarromin", "label": "Tarromin" },
-                { "value": "*Harralander", "label": "Harralander" },
-                { "value": "*Ranarr weed", "label": "Ranarr weed" },
-                { "value": "*Toadflax", "label": "Toadflax" },
-                { "value": "*Irit leaf", "label": "Irit leaf" },
-                { "value": "*Avantoe", "label": "Avantoe" },
-                { "value": "*Kwuarm", "label": "Kwuarm" },
-                { "value": "*Huasca", "label": "Huasca" },
-                { "value": "*Snapdragon", "label": "Snapdragon" },
-                { "value": "*Cadantine", "label": "Cadantine" },
-                { "value": "*Lantadyme", "label": "Lantadyme" },
-                { "value": "*Dwarf weed", "label": "Dwarf weed" },
-                { "value": "*Torstol", "label": "Torstol" }
+                {
+                    "value": "*Guam leaf",
+                    "label": "Guam leaf"
+                },
+                {
+                    "value": "*Marrentill",
+                    "label": "Marrentill"
+                },
+                {
+                    "value": "*Tarromin",
+                    "label": "Tarromin"
+                },
+                {
+                    "value": "*Harralander",
+                    "label": "Harralander"
+                },
+                {
+                    "value": "*Ranarr weed",
+                    "label": "Ranarr weed"
+                },
+                {
+                    "value": "*Toadflax",
+                    "label": "Toadflax"
+                },
+                {
+                    "value": "*Irit leaf",
+                    "label": "Irit leaf"
+                },
+                {
+                    "value": "*Avantoe",
+                    "label": "Avantoe"
+                },
+                {
+                    "value": "*Kwuarm",
+                    "label": "Kwuarm"
+                },
+                {
+                    "value": "*Huasca",
+                    "label": "Huasca"
+                },
+                {
+                    "value": "*Snapdragon",
+                    "label": "Snapdragon"
+                },
+                {
+                    "value": "*Cadantine",
+                    "label": "Cadantine"
+                },
+                {
+                    "value": "*Lantadyme",
+                    "label": "Lantadyme"
+                },
+                {
+                    "value": "*Dwarf weed",
+                    "label": "Dwarf weed"
+                },
+                {
+                    "value": "*Torstol",
+                    "label": "Torstol"
+                }
             ],
             "default": [
                 "*Tarromin",
@@ -58,7 +105,7 @@
                 "backgroundColor": "#500c7610",
                 "borderColor": "#FF0c7610",
                 "menuTextColor": "#FF0c7610"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_MARRENTILL_MIN_QUANTITY",
@@ -78,7 +125,7 @@
                 "backgroundColor": "#500c7138",
                 "borderColor": "#FF0c7138",
                 "menuTextColor": "#FF0c7138"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_TARROMIN_MIN_QUANTITY",
@@ -98,7 +145,7 @@
                 "backgroundColor": "#5054780c",
                 "borderColor": "#FF54780c",
                 "menuTextColor": "#FF54780c"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_HARRALANDER_MIN_QUANTITY",
@@ -118,7 +165,7 @@
                 "backgroundColor": "#503c5f09",
                 "borderColor": "#FF3c5f09",
                 "menuTextColor": "#FF3c5f09"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_RANARR_WEED_MIN_QUANTITY",
@@ -138,7 +185,7 @@
                 "backgroundColor": "#50002400",
                 "borderColor": "#FF002400",
                 "menuTextColor": "#FF002400"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_TOADFLAX_MIN_QUANTITY",
@@ -158,7 +205,7 @@
                 "backgroundColor": "#50507436",
                 "borderColor": "#FF507436",
                 "menuTextColor": "#FF507436"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_IRIT_LEAF_MIN_QUANTITY",
@@ -178,7 +225,7 @@
                 "backgroundColor": "#50145326",
                 "borderColor": "#FF145326",
                 "menuTextColor": "#FF145326"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_AVANTOE_MIN_QUANTITY",
@@ -198,7 +245,7 @@
                 "backgroundColor": "#504d5709",
                 "borderColor": "#FF4d5709",
                 "menuTextColor": "#FF4d5709"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_KWUARM_MIN_QUANTITY",
@@ -218,7 +265,7 @@
                 "backgroundColor": "#50513748",
                 "borderColor": "#FF513748",
                 "menuTextColor": "#FF513748"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_HUASCA_MIN_QUANTITY",
@@ -238,7 +285,7 @@
                 "backgroundColor": "#503e4b08",
                 "borderColor": "#FF3e4b08",
                 "menuTextColor": "#FF3e4b08"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_SNAPDRAGON_MIN_QUANTITY",
@@ -258,7 +305,7 @@
                 "backgroundColor": "#5044501c",
                 "borderColor": "#FF44501c",
                 "menuTextColor": "#FF44501c"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_CADANTINE_MIN_QUANTITY",
@@ -278,7 +325,7 @@
                 "backgroundColor": "#5008473c",
                 "borderColor": "#FF08473c",
                 "menuTextColor": "#FF08473c"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_LANTADYME_MIN_QUANTITY",
@@ -298,7 +345,7 @@
                 "backgroundColor": "#50094809",
                 "borderColor": "#FF094809",
                 "menuTextColor": "#FF094809"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_DWARF_WEED_MIN_QUANTITY",
@@ -318,7 +365,7 @@
                 "backgroundColor": "#5009570c",
                 "borderColor": "#FF09570c",
                 "menuTextColor": "#FF09570c"
-             }
+            }
         },
         {
             "macroName": "VAR_HERBS_TORSTOL_MIN_QUANTITY",

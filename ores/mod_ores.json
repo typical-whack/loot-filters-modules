@@ -1,6 +1,7 @@
 {
     "name": "Ores",
-    "description": "Colors ores (by default colors them based on the item color)",
+    "subtitle": "The children yearn for the mines",
+    "description": "Quantity thresholds, filters, and custom styling for all ores. By default colors them based on the item color.",
     "inputs": [
         {
             "macroName": "VAR_ORES_HIDE",
@@ -21,9 +22,7 @@
                 "Blurite ore",
                 "Lovakite ore"
             ],
-            "default": [
-
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_COPPER_ORE_CUSTOMSTYLE",
