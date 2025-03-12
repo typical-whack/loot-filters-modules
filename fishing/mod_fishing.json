@@ -19,7 +19,15 @@
                 "Lobster pot",
                 "Karambwan vessel"
             ],
-            "default": []
+            "default": [
+                "Small fishing net",
+                "Big fishing net",
+                "Fishing rod",
+                "Fly fishing rod",
+                "Harpoon",
+                "Lobster pot",
+                "Karambwan vessel"
+            ]
         },
         {
             "macroName": "VAR_FISHING_BAIT_HIDE",
@@ -36,7 +44,13 @@
                 "Fish chunks",
                 "Raw karambwanji"
             ],
-            "default": []
+            "default": [
+                "Fishing bait",
+                "Feather",
+                "Stripy feather",
+                "King worm",
+                "Fish chunks"
+            ]
         },
         {
             "macroName": "VAR_FISHING_RAW_FISH_HIDE",
@@ -83,7 +97,31 @@
                 "Greater siren",
                 "Raw karambwan"
             ],
-            "default": []
+            "default": [
+                "Raw shrimps",
+                "Raw anchovies",
+                "Raw guppy",
+                "Raw cavefish",
+                "Raw tetra",
+                "Frog spawn",
+                "Raw mackerel",
+                "Raw cod",
+                "Raw bass",
+                "Raw sardine",
+                "Raw herring",
+                "Raw pike",
+                "Raw trout",
+                "Raw salmon",
+                "Raw rainbow fish",
+                "Leaping trout",
+                "Leaping salmon",
+                "Leaping sturgeon",
+                "Raw tuna",
+                "Bluegill",
+                "Common tench",
+                "Mottled eel",
+                "Greater siren"
+            ]
         },
         {
             "macroName": "VAR_FISHING_EQUIPMENT_CUSTOMSTYLE",
