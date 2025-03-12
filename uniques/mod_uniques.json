@@ -1,6 +1,7 @@
 {
     "name": "Uniques",
-    "description": "Add custom effect to unique items",
+    "subtitle": "Uniques are special! (even if they're not worth a lot)",
+    "description": "Add custom effect to unique items. By default this gives uniques on this list a loot beam. This can layer with other styling such as item tiers.",
     "inputs": [
         {
             "macroName": "VAR_UNIQUES_LIST",

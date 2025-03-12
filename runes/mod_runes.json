@@ -1,5 +1,7 @@
 {
     "name": "Runes",
+    "subtitle": "The magic things, not the armor",
+    "description": "Quantity thresholds, filters, and custom styling for runes.",
     "inputs": [
         {
             "macroName": "VAR_RUNES_HIDE",
@@ -29,9 +31,7 @@
                 "Steam rune",
                 "Lava rune"
             ],
-            "default": [
-
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_AIR_RUNE_CUSTOMSTYLE",

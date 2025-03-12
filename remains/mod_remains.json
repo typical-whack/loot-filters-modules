@@ -1,6 +1,7 @@
 {
     "name": "Remains",
-    "description": "For bones, ensouled heads, ashes, and shades of morton remains",
+    "subtitle": "Don't open dead inside",
+    "description": "For filtering out bones, ensouled heads, ashes, and shades of morton remains",
     "inputs": [
         {
             "macroName": "VAR_REMAINS_MINIMUM_VALUE",
@@ -83,9 +84,7 @@
                 "Fiyr remains",
                 "Urium remains"
             ],
-            "default": [
-
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_ENSOULED_HEADS_HIDE",
