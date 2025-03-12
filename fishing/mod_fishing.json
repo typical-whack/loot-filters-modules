@@ -1,0 +1,112 @@
+{
+    "name": "Fishing",
+    "subtitle": "Filters for fishing equipment and raw fish",
+    "description": "This module provides filters for fishing equipment, fishing bait, and raw fish",
+    "inputs": [
+        {
+            "macroName": "VAR_FISHING_EQUIPMENT_HIDE",
+            "label": "Fishing equipment to hide",
+            "group": "Fishing filters",
+            "type": "enumlist",
+            "enum": [
+                "Small fishing net",
+                "Big fishing net",
+                "Drift net",
+                "Fishing rod",
+                "Fly fishing rod",
+                "Oily fishing rod",
+                "Barbarian rod",
+                "Harpoon",
+                "Lobster pot",
+                "Karambwan vessel"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_FISHING_BAIT_HIDE",
+            "label": "Fishing bait to hide",
+            "group": "Fishing filters",
+            "type": "enumlist",
+            "enum": [
+                "Sandworms",
+                "Fishing bait",
+                "Feather",
+                "Stripy feather",
+                "Dark fishing bait",
+                "King worm",
+                "Fish chunks",
+                "Raw karambwanji"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_FISHING_RAW_FISH_HIDE",
+            "label": "Raw fish to hide",
+            "group": "Fishing filters",
+            "type": "enumlist",
+            "enum": [
+                "Raw shrimps",
+                "Raw karambwanji",
+                "Raw anchovies",
+                "Raw guppy",
+                "Raw cavefish",
+                "Raw tetra",
+                "Frog spawn",
+                "Raw monkfish",
+                "Minnow",
+                "Raw mackerel",
+                "Raw cod",
+                "Raw bass",
+                "Raw catfish",
+                "Fish shoal",
+                "Raw sardine",
+                "Raw herring",
+                "Raw pike",
+                "Raw slimy eel",
+                "Raw cave eel",
+                "Raw anglerfish",
+                "Sacred eel",
+                "Raw trout",
+                "Raw salmon",
+                "Raw rainbow fish",
+                "Raw lava eel",
+                "Infernal eel",
+                "Leaping trout",
+                "Leaping salmon",
+                "Leaping sturgeon",
+                "Raw tuna",
+                "Raw swordfish",
+                "Raw shark",
+                "Raw lobster",
+                "Raw dark crab",
+                "Bluegill",
+                "Common tench",
+                "Mottled eel",
+                "Greater siren",
+                "Raw karambwan"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_FISHING_EQUIPMENT_CUSTOMSTYLE",
+            "label": "Fishing equipment custom style",
+            "group": "Fishing default styles",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISHING_BAIT_CUSTOMSTYLE",
+            "label": "Fishing bait custom style",
+            "group": "Fishing default styles",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISHING_RAW_FISH_CUSTOMSTYLE",
+            "label": "Raw fish custom style",
+            "group": "Fishing default styles",
+            "type": "style",
+            "default": {}
+        }
+    ]
+}

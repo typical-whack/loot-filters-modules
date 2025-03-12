@@ -1,0 +1,39 @@
+// module:fishing
+
+#define CONST_FISHING_EQUIPMENT_LIST ["Small fishing net", "Big fishing net", "Drift net", "Fishing rod", "Fly fishing rod", "Oily fishing rod", "Barbarian rod", "Harpoon", "Lobster pot", "Karambwan vessel"]
+#define CONST_FISHING_BAIT_LIST ["Sandworms", "Fishing bait", "Feather", "Stripy feather", "Dark fishing bait", "King worm", "Fish chunks", "Raw karambwanji"]
+#define CONST_FISHING_RAW_FISH_LIST ["Raw shrimps", "Raw karambwanji", "Raw anchovies", "Raw guppy", "Raw cavefish", "Raw tetra", "Frog spawn", "Raw monkfish", "Minnow", "Raw mackerel", "Raw cod", "Raw bass", "Raw catfish", "Fish shoal", "Raw sardine", "Raw herring", "Raw pike", "Raw slimy eel", "Raw cave eel", "Raw anglerfish", "Sacred eel", "Raw trout", "Raw salmon", "Raw rainbow fish", "Raw lava eel", "Infernal eel", "Leaping trout", "Leaping salmon", "Leaping sturgeon", "Raw tuna", "Raw swordfish", "Raw shark", "Raw lobster", "Raw dark crab", "Bluegill", "Common tench", "Mottled eel", "Greater siren", "Raw karambwan"]
+
+#define VAR_FISHING_EQUIPMENT_HIDE []
+#define VAR_FISHING_BAIT_HIDE []
+#define VAR_FISHING_RAW_FISH_HIDE []
+
+#define VAR_FISHING_EQUIPMENT_CUSTOMSTYLE 
+#define VAR_FISHING_BAIT_CUSTOMSTYLE 
+#define VAR_FISHING_RAW_FISH_CUSTOMSTYLE 
+
+
+
+apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_FISHING_BAIT_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_FISHING_RAW_FISH_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_FISHING_BAIT_CUSTOMSTYLE 
+}
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
+
+
+
+// endmodule:fishing
