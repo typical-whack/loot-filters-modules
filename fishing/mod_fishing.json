@@ -1,0 +1,525 @@
+{
+    "name": "Fishing",
+    "subtitle": "Filters for fishing equipment and raw fish",
+    "description": "This module provides filters for fishing equipment, fishing bait, and raw fish",
+    "inputs": [
+        {
+            "macroName": "VAR_FISHING_EQUIPMENT_HIDE",
+            "label": "Fishing equipment to hide",
+            "group": "Fishing filters",
+            "type": "enumlist",
+            "enum": [
+                "Small fishing net",
+                "Big fishing net",
+                "Drift net",
+                "Fishing rod",
+                "Fly fishing rod",
+                "Oily fishing rod",
+                "Harpoon",
+                "Lobster pot",
+                "Karambwan vessel"
+            ],
+            "default": [
+                "Small fishing net",
+                "Big fishing net",
+                "Fishing rod",
+                "Fly fishing rod",
+                "Harpoon",
+                "Lobster pot",
+                "Karambwan vessel"
+            ]
+        },
+        {
+            "macroName": "VAR_FISHING_BAIT_HIDE",
+            "label": "Fishing bait to hide",
+            "group": "Fishing filters",
+            "type": "enumlist",
+            "enum": [
+                "Sandworms",
+                "Fishing bait",
+                "Feather",
+                "Stripy feather",
+                "Dark fishing bait",
+                "King worm",
+                "Fish chunks",
+                "Raw karambwanji"
+            ],
+            "default": [
+                "Fishing bait",
+                "Feather",
+                "Stripy feather",
+                "King worm",
+                "Fish chunks"
+            ]
+        },
+        {
+            "macroName": "VAR_FISHING_RAW_FISH_HIDE",
+            "label": "Raw fish to hide",
+            "group": "Fishing filters",
+            "type": "enumlist",
+            "enum": [
+                "Raw shrimps",
+                "Raw anchovies",
+                "Raw guppy",
+                "Raw cavefish",
+                "Raw tetra",
+                "Frog spawn",
+                "Raw monkfish",
+                "Minnow",
+                "Raw mackerel",
+                "Raw cod",
+                "Raw bass",
+                "Raw catfish",
+                "Raw sardine",
+                "Raw herring",
+                "Raw pike",
+                "Raw slimy eel",
+                "Raw cave eel",
+                "Raw anglerfish",
+                "Sacred eel",
+                "Raw trout",
+                "Raw salmon",
+                "Raw rainbow fish",
+                "Raw lava eel",
+                "Infernal eel",
+                "Leaping trout",
+                "Leaping salmon",
+                "Leaping sturgeon",
+                "Raw tuna",
+                "Raw swordfish",
+                "Raw shark",
+                "Raw lobster",
+                "Raw dark crab",
+                "Bluegill",
+                "Common tench",
+                "Mottled eel",
+                "Greater siren",
+                "Raw karambwan"
+            ],
+            "default": [
+                "Raw shrimps",
+                "Raw anchovies",
+                "Raw guppy",
+                "Raw cavefish",
+                "Raw tetra",
+                "Frog spawn",
+                "Raw mackerel",
+                "Raw cod",
+                "Raw bass",
+                "Raw sardine",
+                "Raw herring",
+                "Raw pike",
+                "Raw trout",
+                "Raw salmon",
+                "Raw rainbow fish",
+                "Leaping trout",
+                "Leaping salmon",
+                "Leaping sturgeon",
+                "Raw tuna",
+                "Bluegill",
+                "Common tench",
+                "Mottled eel",
+                "Greater siren"
+            ]
+        },
+        {
+            "macroName": "VAR_FISHING_EQUIPMENT_CUSTOMSTYLE",
+            "label": "Fishing equipment custom style",
+            "group": "Fishing default styles",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISHING_BAIT_CUSTOMSTYLE",
+            "label": "Fishing bait custom style",
+            "group": "Fishing default styles",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISHING_RAW_FISH_CUSTOMSTYLE",
+            "label": "Raw fish custom style",
+            "group": "Fishing default styles",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_SMALL_FISHING_NET_CUSTOMSTYLE",
+            "label": "Small fishing net custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_BIG_FISHING_NET_CUSTOMSTYLE",
+            "label": "Big fishing net custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_DRIFT_NET_CUSTOMSTYLE",
+            "label": "Drift net custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISHING_ROD_CUSTOMSTYLE",
+            "label": "Fishing rod custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FLY_FISHING_ROD_CUSTOMSTYLE",
+            "label": "Fly fishing rod custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_OILY_FISHING_ROD_CUSTOMSTYLE",
+            "label": "Oily fishing rod custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_HARPOON_CUSTOMSTYLE",
+            "label": "Harpoon custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_LOBSTER_POT_CUSTOMSTYLE",
+            "label": "Lobster pot custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_KARAMBWAN_VESSEL_CUSTOMSTYLE",
+            "label": "Karambwan vessel custom style",
+            "group": "Fishing equipment custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_SANDWORMS_CUSTOMSTYLE",
+            "label": "Sandworms custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISHING_BAIT_CUSTOMSTYLE",
+            "label": "Fishing bait custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FEATHER_CUSTOMSTYLE",
+            "label": "Feather custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_STRIPY_FEATHER_CUSTOMSTYLE",
+            "label": "Stripy feather custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_DARK_FISHING_BAIT_CUSTOMSTYLE",
+            "label": "Dark fishing bait custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_KING_WORM_CUSTOMSTYLE",
+            "label": "King worm custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FISH_CHUNKS_CUSTOMSTYLE",
+            "label": "Fish chunks custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_KARAMBWANJI_CUSTOMSTYLE",
+            "label": "Raw karambwanji custom style",
+            "group": "Fishing bait custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_SHRIMPS_CUSTOMSTYLE",
+            "label": "Raw shrimps custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_ANCHOVIES_CUSTOMSTYLE",
+            "label": "Raw anchovies custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_GUPPY_CUSTOMSTYLE",
+            "label": "Raw guppy custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_CAVEFISH_CUSTOMSTYLE",
+            "label": "Raw cavefish custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_TETRA_CUSTOMSTYLE",
+            "label": "Raw tetra custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_FROG_SPAWN_CUSTOMSTYLE",
+            "label": "Frog spawn custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_MONKFISH_CUSTOMSTYLE",
+            "label": "Raw monkfish custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_MINNOW_CUSTOMSTYLE",
+            "label": "Minnow custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_MACKEREL_CUSTOMSTYLE",
+            "label": "Raw mackerel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_COD_CUSTOMSTYLE",
+            "label": "Raw cod custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_BASS_CUSTOMSTYLE",
+            "label": "Raw bass custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_CATFISH_CUSTOMSTYLE",
+            "label": "Raw catfish custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_SARDINE_CUSTOMSTYLE",
+            "label": "Raw sardine custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_HERRING_CUSTOMSTYLE",
+            "label": "Raw herring custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_PIKE_CUSTOMSTYLE",
+            "label": "Raw pike custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_SLIMY_EEL_CUSTOMSTYLE",
+            "label": "Raw slimy eel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_CAVE_EEL_CUSTOMSTYLE",
+            "label": "Raw cave eel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_ANGLERFISH_CUSTOMSTYLE",
+            "label": "Raw anglerfish custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_SACRED_EEL_CUSTOMSTYLE",
+            "label": "Sacred eel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_TROUT_CUSTOMSTYLE",
+            "label": "Raw trout custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_SALMON_CUSTOMSTYLE",
+            "label": "Raw salmon custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_RAINBOW_FISH_CUSTOMSTYLE",
+            "label": "Raw rainbow fish custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_LAVA_EEL_CUSTOMSTYLE",
+            "label": "Raw lava eel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_INFERNAL_EEL_CUSTOMSTYLE",
+            "label": "Infernal eel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_LEAPING_TROUT_CUSTOMSTYLE",
+            "label": "Leaping trout custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_LEAPING_SALMON_CUSTOMSTYLE",
+            "label": "Leaping salmon custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_LEAPING_STURGEON_CUSTOMSTYLE",
+            "label": "Leaping sturgeon custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_TUNA_CUSTOMSTYLE",
+            "label": "Raw tuna custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_SWORDFISH_CUSTOMSTYLE",
+            "label": "Raw swordfish custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_SHARK_CUSTOMSTYLE",
+            "label": "Raw shark custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_LOBSTER_CUSTOMSTYLE",
+            "label": "Raw lobster custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_DARK_CRAB_CUSTOMSTYLE",
+            "label": "Raw dark crab custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_BLUEGILL_CUSTOMSTYLE",
+            "label": "Bluegill custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_COMMON_TENCH_CUSTOMSTYLE",
+            "label": "Common tench custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_MOTTLED_EEL_CUSTOMSTYLE",
+            "label": "Mottled eel custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GREATER_SIREN_CUSTOMSTYLE",
+            "label": "Greater siren custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_RAW_KARAMBWAN_CUSTOMSTYLE",
+            "label": "Raw karambwan custom style",
+            "group": "Raw fish custom style",
+            "type": "style",
+            "default": {}
+        }
+    ]
+}
