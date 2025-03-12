@@ -1,6 +1,6 @@
 {
     "name": "Ignore runelite sidebar item value rules",
     "subtitle": "This is a hack",
-    "description": "If you'd like to use the built-in item value rules instead of the item value rules in this filter, disable BOTH this module and the item tiers module above. This is a hack to ignore the built-in item value rules. This filter works based on layering filter rules so we don't exit the filter until this very last module.",
+    "description": "If you'd like to use the built-in item value rules instead of the item value rules in this filter, disable BOTH this module and the item tiers module above.\n\nThis is a hack to ignore the built-in item value rules. This filter works based on layering filter rules so we don't exit the filter until this very last module.",
     "inputs": []
 }
