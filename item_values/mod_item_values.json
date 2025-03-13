@@ -1,6 +1,6 @@
 {
     "name": "Item tiers",
-    "subtitle": "What are you? A main?",
+    "subtitle": "Pick out the good stuff",
     "description": "This highlights items based on their values. By default tiers are 20k, 100k, 1m, and 10m, with loot beams appearing starting at 1m.",
     "inputs": [
         {
