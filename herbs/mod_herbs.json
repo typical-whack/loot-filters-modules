@@ -76,9 +76,10 @@
         },
         {
             "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",
-            "label": "Guam leaf style",
+            "label": "Guam leaf custom style",
             "group": "Guam leaf",
             "type": "style",
+            "exampleItem": "Guam leaf",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -96,9 +97,10 @@
         },
         {
             "macroName": "VAR_HERBS_MARRENTILL_CUSTOMSTYLE",
-            "label": "Marrentill style",
+            "label": "Marrentill custom style",
             "group": "Marrentill",
             "type": "style",
+            "exampleItem": "Marrentill",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -116,9 +118,10 @@
         },
         {
             "macroName": "VAR_HERBS_TARROMIN_CUSTOMSTYLE",
-            "label": "Tarromin style",
+            "label": "Tarromin custom style",
             "group": "Tarromin",
             "type": "style",
+            "exampleItem": "Tarromin",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -136,9 +139,10 @@
         },
         {
             "macroName": "VAR_HERBS_HARRALANDER_CUSTOMSTYLE",
-            "label": "Harralander style",
+            "label": "Harralander custom style",
             "group": "Harralander",
             "type": "style",
+            "exampleItem": "Harralander",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -156,9 +160,10 @@
         },
         {
             "macroName": "VAR_HERBS_RANARR_WEED_CUSTOMSTYLE",
-            "label": "Ranarr weed style",
+            "label": "Ranarr weed custom style",
             "group": "Ranarr weed",
             "type": "style",
+            "exampleItem": "Ranarr weed",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -176,9 +181,10 @@
         },
         {
             "macroName": "VAR_HERBS_TOADFLAX_CUSTOMSTYLE",
-            "label": "Toadflax style",
+            "label": "Toadflax custom style",
             "group": "Toadflax",
             "type": "style",
+            "exampleItem": "Toadflax",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -196,9 +202,10 @@
         },
         {
             "macroName": "VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE",
-            "label": "Irit leaf style",
+            "label": "Irit leaf custom style",
             "group": "Irit leaf",
             "type": "style",
+            "exampleItem": "Irit leaf",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -216,9 +223,10 @@
         },
         {
             "macroName": "VAR_HERBS_AVANTOE_CUSTOMSTYLE",
-            "label": "Avantoe style",
+            "label": "Avantoe custom style",
             "group": "Avantoe",
             "type": "style",
+            "exampleItem": "Avantoe",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -236,9 +244,10 @@
         },
         {
             "macroName": "VAR_HERBS_KWUARM_CUSTOMSTYLE",
-            "label": "Kwuarm style",
+            "label": "Kwuarm custom style",
             "group": "Kwuarm",
             "type": "style",
+            "exampleItem": "Kwuarm",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -256,9 +265,10 @@
         },
         {
             "macroName": "VAR_HERBS_HUASCA_CUSTOMSTYLE",
-            "label": "Huasca style",
+            "label": "Huasca custom style",
             "group": "Huasca",
             "type": "style",
+            "exampleItem": "Huasca",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -276,9 +286,10 @@
         },
         {
             "macroName": "VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE",
-            "label": "Snapdragon style",
+            "label": "Snapdragon custom style",
             "group": "Snapdragon",
             "type": "style",
+            "exampleItem": "Snapdragon",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -296,9 +307,10 @@
         },
         {
             "macroName": "VAR_HERBS_CADANTINE_CUSTOMSTYLE",
-            "label": "Cadantine style",
+            "label": "Cadantine custom style",
             "group": "Cadantine",
             "type": "style",
+            "exampleItem": "Cadantine",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -316,9 +328,10 @@
         },
         {
             "macroName": "VAR_HERBS_LANTADYME_CUSTOMSTYLE",
-            "label": "Lantadyme style",
+            "label": "Lantadyme custom style",
             "group": "Lantadyme",
             "type": "style",
+            "exampleItem": "Lantadyme",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -336,9 +349,10 @@
         },
         {
             "macroName": "VAR_HERBS_DWARF_WEED_CUSTOMSTYLE",
-            "label": "Dwarf weed style",
+            "label": "Dwarf weed custom style",
             "group": "Dwarf weed",
             "type": "style",
+            "exampleItem": "Dwarf weed",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -356,9 +370,10 @@
         },
         {
             "macroName": "VAR_HERBS_TORSTOL_CUSTOMSTYLE",
-            "label": "Torstol style",
+            "label": "Torstol custom style",
             "group": "Torstol",
             "type": "style",
+            "exampleItem": "Torstol",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

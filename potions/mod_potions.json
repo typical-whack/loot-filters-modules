@@ -228,6 +228,7 @@
             "macroName": "VAR_ATTACK_POTION_CUSTOMSTYLE",
             "label": "Attack potion",
             "type": "style",
+            "exampleItem": "Attack potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -240,6 +241,7 @@
             "macroName": "VAR_ANTIPOISON_CUSTOMSTYLE",
             "label": "Antipoison",
             "type": "style",
+            "exampleItem": "Antipoison(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -252,6 +254,7 @@
             "macroName": "VAR_STRENGTH_POTION_CUSTOMSTYLE",
             "label": "Strength potion",
             "type": "style",
+            "exampleItem": "Strength potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -264,6 +267,7 @@
             "macroName": "VAR_SERUM_207_CUSTOMSTYLE",
             "label": "Serum 207",
             "type": "style",
+            "exampleItem": "Serum 207(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -276,6 +280,7 @@
             "macroName": "VAR_COMPOST_POTION_CUSTOMSTYLE",
             "label": "Compost potion",
             "type": "style",
+            "exampleItem": "Compost potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -288,6 +293,7 @@
             "macroName": "VAR_RESTORE_POTION_CUSTOMSTYLE",
             "label": "Restore potion",
             "type": "style",
+            "exampleItem": "Restore potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -300,6 +306,7 @@
             "macroName": "VAR_ENERGY_POTION_CUSTOMSTYLE",
             "label": "Energy potion",
             "type": "style",
+            "exampleItem": "Energy potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -312,6 +319,7 @@
             "macroName": "VAR_DEFENCE_POTION_CUSTOMSTYLE",
             "label": "Defence potion",
             "type": "style",
+            "exampleItem": "Defence potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -324,6 +332,7 @@
             "macroName": "VAR_AGILITY_POTION_CUSTOMSTYLE",
             "label": "Agility potion",
             "type": "style",
+            "exampleItem": "Agility potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -336,6 +345,7 @@
             "macroName": "VAR_COMBAT_POTION_CUSTOMSTYLE",
             "label": "Combat potion",
             "type": "style",
+            "exampleItem": "Combat potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -348,6 +358,7 @@
             "macroName": "VAR_PRAYER_POTION_CUSTOMSTYLE",
             "label": "Prayer potion",
             "type": "style",
+            "exampleItem": "Prayer potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -360,6 +371,7 @@
             "macroName": "VAR_SUPER_ATTACK_CUSTOMSTYLE",
             "label": "Super attack",
             "type": "style",
+            "exampleItem": "Super attack(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -372,6 +384,7 @@
             "macroName": "VAR_SUPERANTIPOISON_CUSTOMSTYLE",
             "label": "Superantipoison",
             "type": "style",
+            "exampleItem": "Superantipoison(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -384,6 +397,7 @@
             "macroName": "VAR_FISHING_POTION_CUSTOMSTYLE",
             "label": "Fishing potion",
             "type": "style",
+            "exampleItem": "Fishing potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -396,6 +410,7 @@
             "macroName": "VAR_SUPER_ENERGY_CUSTOMSTYLE",
             "label": "Super energy",
             "type": "style",
+            "exampleItem": "Super energy(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -408,6 +423,7 @@
             "macroName": "VAR_HUNTER_POTION_CUSTOMSTYLE",
             "label": "Hunter potion",
             "type": "style",
+            "exampleItem": "Hunter potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -420,6 +436,7 @@
             "macroName": "VAR_GOADING_POTION_CUSTOMSTYLE",
             "label": "Goading potion",
             "type": "style",
+            "exampleItem": "Goading potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -432,6 +449,7 @@
             "macroName": "VAR_SUPER_STRENGTH_CUSTOMSTYLE",
             "label": "Super strength",
             "type": "style",
+            "exampleItem": "Super strength(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -444,6 +462,7 @@
             "macroName": "VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE",
             "label": "Prayer regeneration potion",
             "type": "style",
+            "exampleItem": "Prayer regeneration potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -456,6 +475,7 @@
             "macroName": "VAR_SUPER_RESTORE_CUSTOMSTYLE",
             "label": "Super restore",
             "type": "style",
+            "exampleItem": "Super restore(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -468,6 +488,7 @@
             "macroName": "VAR_SANFEW_SERUM_CUSTOMSTYLE",
             "label": "Sanfew serum",
             "type": "style",
+            "exampleItem": "Sanfew serum(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -480,6 +501,7 @@
             "macroName": "VAR_SUPER_DEFENCE_CUSTOMSTYLE",
             "label": "Super defence",
             "type": "style",
+            "exampleItem": "Super defence(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -492,6 +514,7 @@
             "macroName": "VAR_ANTIDOTE_PLUS_CUSTOMSTYLE",
             "label": "Antidote+",
             "type": "style",
+            "exampleItem": "Antidote+(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -504,6 +527,7 @@
             "macroName": "VAR_ANTIFIRE_POTION_CUSTOMSTYLE",
             "label": "Antifire potion",
             "type": "style",
+            "exampleItem": "Antifire potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -516,6 +540,7 @@
             "macroName": "VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE",
             "label": "Divine super attack potion",
             "type": "style",
+            "exampleItem": "Divine super attack potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -528,6 +553,7 @@
             "macroName": "VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE",
             "label": "Divine super defence potion",
             "type": "style",
+            "exampleItem": "Divine super defence potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -540,6 +566,7 @@
             "macroName": "VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE",
             "label": "Divine super strength potion",
             "type": "style",
+            "exampleItem": "Divine super strength potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -552,6 +579,7 @@
             "macroName": "VAR_RANGING_POTION_CUSTOMSTYLE",
             "label": "Ranging potion",
             "type": "style",
+            "exampleItem": "Ranging potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -564,6 +592,7 @@
             "macroName": "VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE",
             "label": "Divine ranging potion",
             "type": "style",
+            "exampleItem": "Divine ranging potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -576,6 +605,7 @@
             "macroName": "VAR_MAGIC_POTION_CUSTOMSTYLE",
             "label": "Magic potion",
             "type": "style",
+            "exampleItem": "Magic potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -588,6 +618,7 @@
             "macroName": "VAR_STAMINA_POTION_CUSTOMSTYLE",
             "label": "Stamina potion",
             "type": "style",
+            "exampleItem": "Stamina potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -600,6 +631,7 @@
             "macroName": "VAR_ZAMORAK_BREW_CUSTOMSTYLE",
             "label": "Zamorak brew",
             "type": "style",
+            "exampleItem": "Zamorak brew(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -612,6 +644,7 @@
             "macroName": "VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE",
             "label": "Divine magic potion",
             "type": "style",
+            "exampleItem": "Divine magic potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -624,6 +657,7 @@
             "macroName": "VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE",
             "label": "Antidote++",
             "type": "style",
+            "exampleItem": "Antidote++(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -636,6 +670,7 @@
             "macroName": "VAR_BASTION_POTION_CUSTOMSTYLE",
             "label": "Bastion potion",
             "type": "style",
+            "exampleItem": "Bastion potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -648,6 +683,7 @@
             "macroName": "VAR_BATTLEMAGE_POTION_CUSTOMSTYLE",
             "label": "Battlemage potion",
             "type": "style",
+            "exampleItem": "Battlemage potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -660,6 +696,7 @@
             "macroName": "VAR_SARADOMIN_BREW_CUSTOMSTYLE",
             "label": "Saradomin brew",
             "type": "style",
+            "exampleItem": "Saradomin brew(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -672,6 +709,7 @@
             "macroName": "VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE",
             "label": "Extended antifire",
             "type": "style",
+            "exampleItem": "Extended antifire(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -684,6 +722,7 @@
             "macroName": "VAR_ANCIENT_BREW_CUSTOMSTYLE",
             "label": "Ancient brew",
             "type": "style",
+            "exampleItem": "Ancient brew(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -696,6 +735,7 @@
             "macroName": "VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE",
             "label": "Divine bastion potion",
             "type": "style",
+            "exampleItem": "Divine bastion potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -708,6 +748,7 @@
             "macroName": "VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE",
             "label": "Divine battlemage potion",
             "type": "style",
+            "exampleItem": "Divine battlemage potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -720,6 +761,7 @@
             "macroName": "VAR_ANTI_VENOM_CUSTOMSTYLE",
             "label": "Anti-venom",
             "type": "style",
+            "exampleItem": "Anti-venom(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -732,6 +774,7 @@
             "macroName": "VAR_MENAPHITE_REMEDY_CUSTOMSTYLE",
             "label": "Menaphite remedy",
             "type": "style",
+            "exampleItem": "Menaphite remedy(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -744,6 +787,7 @@
             "macroName": "VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE",
             "label": "Super combat potion",
             "type": "style",
+            "exampleItem": "Super combat potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -756,6 +800,7 @@
             "macroName": "VAR_FORGOTTEN_BREW_CUSTOMSTYLE",
             "label": "Forgotten brew",
             "type": "style",
+            "exampleItem": "Forgotten brew(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -768,6 +813,7 @@
             "macroName": "VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE",
             "label": "Super antifire potion",
             "type": "style",
+            "exampleItem": "Super antifire potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -780,6 +826,7 @@
             "macroName": "VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE",
             "label": "Anti-venom+",
             "type": "style",
+            "exampleItem": "Anti-venom+(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -792,6 +839,7 @@
             "macroName": "VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE",
             "label": "Extended anti-venom+",
             "type": "style",
+            "exampleItem": "Extended anti-venom+(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -804,6 +852,7 @@
             "macroName": "VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE",
             "label": "Divine super combat potion",
             "type": "style",
+            "exampleItem": "Divine super combat potion(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -816,6 +865,7 @@
             "macroName": "VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE",
             "label": "Extended super antifire",
             "type": "style",
+            "exampleItem": "Extended super antifire(4)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

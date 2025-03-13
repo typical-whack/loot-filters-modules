@@ -28,9 +28,10 @@
         },
         {
             "macroName": "VAR_LOGS_CUSTOMSTYLE",
-            "label": "Logs style",
+            "label": "Logs custom style",
             "group": "Logs",
             "type": "style",
+            "exampleItem": "Logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -48,9 +49,10 @@
         },
         {
             "macroName": "VAR_OAK_LOGS_CUSTOMSTYLE",
-            "label": "Oak logs style",
+            "label": "Oak logs custom style",
             "group": "Oak logs",
             "type": "style",
+            "exampleItem": "Oak logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -68,9 +70,10 @@
         },
         {
             "macroName": "VAR_WILLOW_LOGS_CUSTOMSTYLE",
-            "label": "Willow logs style",
+            "label": "Willow logs custom style",
             "group": "Willow logs",
             "type": "style",
+            "exampleItem": "Willow logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -88,9 +91,10 @@
         },
         {
             "macroName": "VAR_MAPLE_LOGS_CUSTOMSTYLE",
-            "label": "Maple logs style",
+            "label": "Maple logs custom style",
             "group": "Maple logs",
             "type": "style",
+            "exampleItem": "Maple logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -108,9 +112,10 @@
         },
         {
             "macroName": "VAR_YEW_LOGS_CUSTOMSTYLE",
-            "label": "Yew logs style",
+            "label": "Yew logs custom style",
             "group": "Yew logs",
             "type": "style",
+            "exampleItem": "Yew logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -128,9 +133,10 @@
         },
         {
             "macroName": "VAR_MAGIC_LOGS_CUSTOMSTYLE",
-            "label": "Magic logs style",
+            "label": "Magic logs custom style",
             "group": "Magic logs",
             "type": "style",
+            "exampleItem": "Magic logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -148,9 +154,10 @@
         },
         {
             "macroName": "VAR_REDWOOD_LOGS_CUSTOMSTYLE",
-            "label": "Redwood logs style",
+            "label": "Redwood logs custom style",
             "group": "Redwood logs",
             "type": "style",
+            "exampleItem": "Redwood logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -168,9 +175,10 @@
         },
         {
             "macroName": "VAR_TEAK_LOGS_CUSTOMSTYLE",
-            "label": "Teak logs style",
+            "label": "Teak logs custom style",
             "group": "Teak logs",
             "type": "style",
+            "exampleItem": "Teak logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -188,9 +196,10 @@
         },
         {
             "macroName": "VAR_MAHOGANY_LOGS_CUSTOMSTYLE",
-            "label": "Mahogany logs style",
+            "label": "Mahogany logs custom style",
             "group": "Mahogany logs",
             "type": "style",
+            "exampleItem": "Mahogany logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -208,9 +217,10 @@
         },
         {
             "macroName": "VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE",
-            "label": "Achey tree logs style",
+            "label": "Achey tree logs custom style",
             "group": "Achey tree logs",
             "type": "style",
+            "exampleItem": "Achey tree logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -228,9 +238,10 @@
         },
         {
             "macroName": "VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE",
-            "label": "Arctic pine logs style",
+            "label": "Arctic pine logs custom style",
             "group": "Arctic pine logs",
             "type": "style",
+            "exampleItem": "Arctic pine logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -248,9 +259,10 @@
         },
         {
             "macroName": "VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE",
-            "label": "Scrapey tree logs style",
+            "label": "Scrapey tree logs custom style",
             "group": "Scrapey tree logs",
             "type": "style",
+            "exampleItem": "Scrapey tree logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -268,9 +280,10 @@
         },
         {
             "macroName": "VAR_JUNIPER_LOGS_CUSTOMSTYLE",
-            "label": "Juniper logs style",
+            "label": "Juniper logs custom style",
             "group": "Juniper logs",
             "type": "style",
+            "exampleItem": "Juniper logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -288,9 +301,10 @@
         },
         {
             "macroName": "VAR_BARK_CUSTOMSTYLE",
-            "label": "Bark style",
+            "label": "Bark custom style",
             "group": "Bark",
             "type": "style",
+            "exampleItem": "Bark",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -308,9 +322,10 @@
         },
         {
             "macroName": "VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE",
-            "label": "Blisterwood logs style",
+            "label": "Blisterwood logs custom style",
             "group": "Blisterwood logs",
             "type": "style",
+            "exampleItem": "Blisterwood logs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

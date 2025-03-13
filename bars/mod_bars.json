@@ -33,9 +33,10 @@
         },
         {
             "macroName": "VAR_BRONZE_BAR_CUSTOMSTYLE",
-            "label": "Bronze bar style",
+            "label": "Bronze bar custom style",
             "group": "Bronze bar",
             "type": "style",
+            "exampleItem": "Bronze bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -53,9 +54,10 @@
         },
         {
             "macroName": "VAR_IRON_BAR_CUSTOMSTYLE",
-            "label": "Iron bar style",
+            "label": "Iron bar custom style",
             "group": "Iron bar",
             "type": "style",
+            "exampleItem": "Iron bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -73,9 +75,10 @@
         },
         {
             "macroName": "VAR_SILVER_BAR_CUSTOMSTYLE",
-            "label": "Silver bar style",
+            "label": "Silver bar custom style",
             "group": "Silver bar",
             "type": "style",
+            "exampleItem": "Silver bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -93,9 +96,10 @@
         },
         {
             "macroName": "VAR_STEEL_BAR_CUSTOMSTYLE",
-            "label": "Steel bar style",
+            "label": "Steel bar custom style",
             "group": "Steel bar",
             "type": "style",
+            "exampleItem": "Steel bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -113,9 +117,10 @@
         },
         {
             "macroName": "VAR_GOLD_BAR_CUSTOMSTYLE",
-            "label": "Gold bar style",
+            "label": "Gold bar custom style",
             "group": "Gold bar",
             "type": "style",
+            "exampleItem": "Gold bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -133,9 +138,10 @@
         },
         {
             "macroName": "VAR_MITHRIL_BAR_CUSTOMSTYLE",
-            "label": "Mithril bar style",
+            "label": "Mithril bar custom style",
             "group": "Mithril bar",
             "type": "style",
+            "exampleItem": "Mithril bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -153,9 +159,10 @@
         },
         {
             "macroName": "VAR_ADAMANTITE_BAR_CUSTOMSTYLE",
-            "label": "Adamantite bar style",
+            "label": "Adamantite bar custom style",
             "group": "Adamantite bar",
             "type": "style",
+            "exampleItem": "Adamantite bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -173,9 +180,10 @@
         },
         {
             "macroName": "VAR_RUNITE_BAR_CUSTOMSTYLE",
-            "label": "Runite bar style",
+            "label": "Runite bar custom style",
             "group": "Runite bar",
             "type": "style",
+            "exampleItem": "Runite bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -193,9 +201,10 @@
         },
         {
             "macroName": "VAR_ELEMENTAL_METAL_CUSTOMSTYLE",
-            "label": "Elemental metal style",
+            "label": "Elemental metal custom style",
             "group": "Elemental metal",
             "type": "style",
+            "exampleItem": "Elemental metal",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -213,9 +222,10 @@
         },
         {
             "macroName": "VAR_PRIMED_BAR_CUSTOMSTYLE",
-            "label": "Primed bar style",
+            "label": "Primed bar custom style",
             "group": "Primed bar",
             "type": "style",
+            "exampleItem": "Primed bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -233,9 +243,10 @@
         },
         {
             "macroName": "VAR_PRIMED_MIND_BAR_CUSTOMSTYLE",
-            "label": "Primed mind bar style",
+            "label": "Primed mind bar custom style",
             "group": "Primed mind bar",
             "type": "style",
+            "exampleItem": "Primed mind bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -253,9 +264,10 @@
         },
         {
             "macroName": "VAR_BLURITE_BAR_CUSTOMSTYLE",
-            "label": "Blurite bar style",
+            "label": "Blurite bar custom style",
             "group": "Blurite bar",
             "type": "style",
+            "exampleItem": "Blurite bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -273,9 +285,10 @@
         },
         {
             "macroName": "VAR_ENCHANTED_BAR_CUSTOMSTYLE",
-            "label": "Enchanted bar style",
+            "label": "Enchanted bar custom style",
             "group": "Enchanted bar",
             "type": "style",
+            "exampleItem": "Enchanted bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -293,9 +306,10 @@
         },
         {
             "macroName": "VAR_LOVAKITE_BAR_CUSTOMSTYLE",
-            "label": "Lovakite bar style",
+            "label": "Lovakite bar custom style",
             "group": "Lovakite bar",
             "type": "style",
+            "exampleItem": "Lovakite bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -313,9 +327,10 @@
         },
         {
             "macroName": "VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE",
-            "label": "'Perfect' gold bar style",
+            "label": "'Perfect' gold bar custom style",
             "group": "'Perfect' gold bar",
             "type": "style",
+            "exampleItem": "'Perfect' gold bar",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

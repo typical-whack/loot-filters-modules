@@ -26,9 +26,10 @@
         },
         {
             "macroName": "VAR_COPPER_ORE_CUSTOMSTYLE",
-            "label": "Copper ore style",
+            "label": "Copper ore custom style",
             "group": "Copper ore",
             "type": "style",
+            "exampleItem": "Copper ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -46,9 +47,10 @@
         },
         {
             "macroName": "VAR_TIN_ORE_CUSTOMSTYLE",
-            "label": "Tin ore style",
+            "label": "Tin ore custom style",
             "group": "Tin ore",
             "type": "style",
+            "exampleItem": "Tin ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -66,9 +68,10 @@
         },
         {
             "macroName": "VAR_IRON_ORE_CUSTOMSTYLE",
-            "label": "Iron ore style",
+            "label": "Iron ore custom style",
             "group": "Iron ore",
             "type": "style",
+            "exampleItem": "Iron ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -86,9 +89,10 @@
         },
         {
             "macroName": "VAR_SILVER_ORE_CUSTOMSTYLE",
-            "label": "Silver ore style",
+            "label": "Silver ore custom style",
             "group": "Silver ore",
             "type": "style",
+            "exampleItem": "Silver ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -106,9 +110,10 @@
         },
         {
             "macroName": "VAR_COAL_ORE_CUSTOMSTYLE",
-            "label": "Coal style",
+            "label": "Coal custom style",
             "group": "Coal",
             "type": "style",
+            "exampleItem": "Coal",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -126,9 +131,10 @@
         },
         {
             "macroName": "VAR_GOLD_ORE_CUSTOMSTYLE",
-            "label": "Gold ore style",
+            "label": "Gold ore custom style",
             "group": "Gold ore",
             "type": "style",
+            "exampleItem": "Gold ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -146,9 +152,10 @@
         },
         {
             "macroName": "VAR_MITHRIL_ORE_CUSTOMSTYLE",
-            "label": "Mithril ore style",
+            "label": "Mithril ore custom style",
             "group": "Mithril ore",
             "type": "style",
+            "exampleItem": "Mithril ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -166,9 +173,10 @@
         },
         {
             "macroName": "VAR_ADAMANTITE_ORE_CUSTOMSTYLE",
-            "label": "Adamantite ore style",
+            "label": "Adamantite ore custom style",
             "group": "Adamantite ore",
             "type": "style",
+            "exampleItem": "Adamantite ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -186,9 +194,10 @@
         },
         {
             "macroName": "VAR_RUNITE_ORE_CUSTOMSTYLE",
-            "label": "Runite ore style",
+            "label": "Runite ore custom style",
             "group": "Runite ore",
             "type": "style",
+            "exampleItem": "Runite ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -206,9 +215,10 @@
         },
         {
             "macroName": "VAR_DAEYALT_ORE_CUSTOMSTYLE",
-            "label": "Daeyalt ore style",
+            "label": "Daeyalt ore custom style",
             "group": "Daeyalt ore",
             "type": "style",
+            "exampleItem": "Daeyalt ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -226,9 +236,10 @@
         },
         {
             "macroName": "VAR_BLASTED_ORE_CUSTOMSTYLE",
-            "label": "Blasted ore style",
+            "label": "Blasted ore custom style",
             "group": "Blasted ore",
             "type": "style",
+            "exampleItem": "Blasted ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -246,9 +257,10 @@
         },
         {
             "macroName": "VAR_BLURITE_ORE_CUSTOMSTYLE",
-            "label": "Blurite ore style",
+            "label": "Blurite ore custom style",
             "group": "Blurite ore",
             "type": "style",
+            "exampleItem": "Blurite ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -266,9 +278,10 @@
         },
         {
             "macroName": "VAR_LOVAKITE_ORE_CUSTOMSTYLE",
-            "label": "Lovakite ore style",
+            "label": "Lovakite ore custom style",
             "group": "Lovakite ore",
             "type": "style",
+            "exampleItem": "Lovakite ore",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

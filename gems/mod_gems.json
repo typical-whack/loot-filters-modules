@@ -49,9 +49,10 @@
         },
         {
             "macroName": "VAR_SAPPHIRE_CUSTOMSTYLE",
-            "label": "Sapphire style",
+            "label": "Sapphire custom style",
             "group": "Sapphire",
             "type": "style",
+            "exampleItem": "Sapphire",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -69,9 +70,10 @@
         },
         {
             "macroName": "VAR_EMERALD_CUSTOMSTYLE",
-            "label": "Emerald style",
+            "label": "Emerald custom style",
             "group": "Emerald",
             "type": "style",
+            "exampleItem": "Emerald",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -89,9 +91,10 @@
         },
         {
             "macroName": "VAR_RUBY_CUSTOMSTYLE",
-            "label": "Ruby style",
+            "label": "Ruby custom style",
             "group": "Ruby",
             "type": "style",
+            "exampleItem": "Ruby",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -109,9 +112,10 @@
         },
         {
             "macroName": "VAR_DIAMOND_CUSTOMSTYLE",
-            "label": "Diamond style",
+            "label": "Diamond custom style",
             "group": "Diamond",
             "type": "style",
+            "exampleItem": "Diamond",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -129,9 +133,10 @@
         },
         {
             "macroName": "VAR_OPAL_CUSTOMSTYLE",
-            "label": "Opal style",
+            "label": "Opal custom style",
             "group": "Opal",
             "type": "style",
+            "exampleItem": "Opal",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -149,9 +154,10 @@
         },
         {
             "macroName": "VAR_JADE_CUSTOMSTYLE",
-            "label": "Jade style",
+            "label": "Jade custom style",
             "group": "Jade",
             "type": "style",
+            "exampleItem": "Jade",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -169,9 +175,10 @@
         },
         {
             "macroName": "VAR_RED_TOPAZ_CUSTOMSTYLE",
-            "label": "Red topaz style",
+            "label": "Red topaz custom style",
             "group": "Red topaz",
             "type": "style",
+            "exampleItem": "Red topaz",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -189,9 +196,10 @@
         },
         {
             "macroName": "VAR_DRAGONSTONE_CUSTOMSTYLE",
-            "label": "Dragonstone style",
+            "label": "Dragonstone custom style",
             "group": "Dragonstone",
             "type": "style",
+            "exampleItem": "Dragonstone",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -209,9 +217,10 @@
         },
         {
             "macroName": "VAR_ONYX_CUSTOMSTYLE",
-            "label": "Onyx style",
+            "label": "Onyx custom style",
             "group": "Onyx",
             "type": "style",
+            "exampleItem": "Onyx",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

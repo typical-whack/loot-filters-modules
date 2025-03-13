@@ -317,6 +317,7 @@
             "macroName": "VAR_UNIQUES_CUSTOMSTYLE",
             "label": "Uniques custom style",
             "type": "style",
+            "exampleItem": "Tanzanite fang",
             "default": {
                 "showLootbeam": true,
                 "fontType": 3

@@ -40,9 +40,10 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_1_CUSTOMSTYLE",
-            "label": "Tier 1 Display",
+            "label": "Tier 1 custom style",
             "group": "Tier 1",
             "type": "style",
+            "exampleItem": "Helm of neitiznot",
             "default": {
                 "textAccentColor": "#FF000000",
                 "textColor": "#FF66B2FF",
@@ -58,9 +59,10 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_2_CUSTOMSTYLE",
-            "label": "Tier 2 Display",
+            "label": "Tier 2 custom style",
             "group": "Tier 2",
             "type": "style",
+            "exampleItem": "Infinity boots",
             "default": {
                 "textAccentColor": "#FF000000",
                 "textColor": "#FF99FF99",
@@ -76,9 +78,10 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_3_CUSTOMSTYLE",
-            "label": "Tier 3 Display",
+            "label": "Tier 3 custom style",
             "group": "Tier 3",
             "type": "style",
+            "exampleItem": "Abyssal whip",
             "default": {
                 "textAccentColor": "#FF000000",
                 "textColor": "#FFFF9600",
@@ -97,9 +100,10 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_4_CUSTOMSTYLE",
-            "label": "Tier 4 Display",
+            "label": "Tier 4 custom style",
             "group": "Tier 4",
             "type": "style",
+            "exampleItem": "Twisted bow",
             "default": {
                 "textAccentColor": "#FF000000",
                 "textColor": "#FFFF66B2",

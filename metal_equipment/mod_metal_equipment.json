@@ -29,6 +29,7 @@
             "macroName": "VAR_BRONZE_CUSTOMSTYLE",
             "label": "Bronze",
             "type": "style",
+            "exampleItem": "Bronze platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -41,6 +42,7 @@
             "macroName": "VAR_BRONZE_TRIMMED_CUSTOMSTYLE",
             "label": "Bronze (t)",
             "type": "style",
+            "exampleItem": "Bronze platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -53,6 +55,7 @@
             "macroName": "VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Bronze (g)",
             "type": "style",
+            "exampleItem": "Bronze platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -65,6 +68,7 @@
             "macroName": "VAR_IRON_CUSTOMSTYLE",
             "label": "Iron",
             "type": "style",
+            "exampleItem": "Iron platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -77,6 +81,7 @@
             "macroName": "VAR_IRON_TRIMMED_CUSTOMSTYLE",
             "label": "Iron (t)",
             "type": "style",
+            "exampleItem": "Iron platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -89,6 +94,7 @@
             "macroName": "VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Iron (g)",
             "type": "style",
+            "exampleItem": "Iron platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -101,6 +107,7 @@
             "macroName": "VAR_STEEL_CUSTOMSTYLE",
             "label": "Steel",
             "type": "style",
+            "exampleItem": "Steel platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -113,6 +120,7 @@
             "macroName": "VAR_STEEL_TRIMMED_CUSTOMSTYLE",
             "label": "Steel (t)",
             "type": "style",
+            "exampleItem": "Steel platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -125,6 +133,7 @@
             "macroName": "VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Steel (g)",
             "type": "style",
+            "exampleItem": "Steel platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -137,6 +146,7 @@
             "macroName": "VAR_BLACK_CUSTOMSTYLE",
             "label": "Black",
             "type": "style",
+            "exampleItem": "Black platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -149,6 +159,7 @@
             "macroName": "VAR_BLACK_TRIMMED_CUSTOMSTYLE",
             "label": "Black (t)",
             "type": "style",
+            "exampleItem": "Black platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -161,6 +172,7 @@
             "macroName": "VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Black (g)",
             "type": "style",
+            "exampleItem": "Black platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -173,6 +185,7 @@
             "macroName": "VAR_BLACK_HERALDIC_CUSTOMSTYLE",
             "label": "Black heraldic",
             "type": "style",
+            "exampleItem": "Black helm (h1)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -185,6 +198,7 @@
             "macroName": "VAR_MITHRIL_CUSTOMSTYLE",
             "label": "Mithril",
             "type": "style",
+            "exampleItem": "Mithril platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -197,6 +211,7 @@
             "macroName": "VAR_MITHRIL_TRIMMED_CUSTOMSTYLE",
             "label": "Mithril (t)",
             "type": "style",
+            "exampleItem": "Mithril platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -209,6 +224,7 @@
             "macroName": "VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Mithril (g)",
             "type": "style",
+            "exampleItem": "Mithril platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -221,6 +237,7 @@
             "macroName": "VAR_ADAMANT_CUSTOMSTYLE",
             "label": "Adamant",
             "type": "style",
+            "exampleItem": "Adamant platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -233,6 +250,7 @@
             "macroName": "VAR_ADAMANT_TRIMMED_CUSTOMSTYLE",
             "label": "Adamant (t)",
             "type": "style",
+            "exampleItem": "Adamant platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -245,6 +263,7 @@
             "macroName": "VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Adamant (g)",
             "type": "style",
+            "exampleItem": "Adamant platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -257,6 +276,7 @@
             "macroName": "VAR_ADAMANT_HERALDIC_CUSTOMSTYLE",
             "label": "Adamant heraldic",
             "type": "style",
+            "exampleItem": "Adamant helm (h1)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -269,6 +289,7 @@
             "macroName": "VAR_RUNE_CUSTOMSTYLE",
             "label": "Rune",
             "type": "style",
+            "exampleItem": "Rune platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -281,6 +302,7 @@
             "macroName": "VAR_RUNE_TRIMMED_CUSTOMSTYLE",
             "label": "Rune (t)",
             "type": "style",
+            "exampleItem": "Rune platelegs (t)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -293,6 +315,7 @@
             "macroName": "VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Rune (g)",
             "type": "style",
+            "exampleItem": "Rune platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -305,6 +328,7 @@
             "macroName": "VAR_RUNE_HERALDIC_CUSTOMSTYLE",
             "label": "Rune heraldic",
             "type": "style",
+            "exampleItem": "Rune helm (h1)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -317,6 +341,7 @@
             "macroName": "VAR_RUNE_GILDED_CUSTOMSTYLE",
             "label": "Gilded",
             "type": "style",
+            "exampleItem": "Gilded platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -329,6 +354,7 @@
             "macroName": "VAR_RUNE_ANCIENT_CUSTOMSTYLE",
             "label": "Rune ancient",
             "type": "style",
+            "exampleItem": "Ancient platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -341,6 +367,7 @@
             "macroName": "VAR_RUNE_ARMADYL_CUSTOMSTYLE",
             "label": "Rune armadyl",
             "type": "style",
+            "exampleItem": "Armadyl platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -353,6 +380,7 @@
             "macroName": "VAR_RUNE_BANDOS_CUSTOMSTYLE",
             "label": "Rune bandos",
             "type": "style",
+            "exampleItem": "Bandos platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -365,6 +393,7 @@
             "macroName": "VAR_RUNE_GUTHIX_CUSTOMSTYLE",
             "label": "Rune guthix",
             "type": "style",
+            "exampleItem": "Guthix platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -377,6 +406,7 @@
             "macroName": "VAR_RUNE_SARADOMIN_CUSTOMSTYLE",
             "label": "Rune saradomin",
             "type": "style",
+            "exampleItem": "Saradomin platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -389,6 +419,7 @@
             "macroName": "VAR_RUNE_ZAMORAK_CUSTOMSTYLE",
             "label": "Rune zamorak",
             "type": "style",
+            "exampleItem": "Zamorak platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -401,6 +432,7 @@
             "macroName": "VAR_DRAGON_CUSTOMSTYLE",
             "label": "Dragon",
             "type": "style",
+            "exampleItem": "Dragon platelegs",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -413,6 +445,7 @@
             "macroName": "VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE",
             "label": "Dragon (g)",
             "type": "style",
+            "exampleItem": "Dragon platelegs (g)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

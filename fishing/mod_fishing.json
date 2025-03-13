@@ -127,6 +127,7 @@
             "label": "Fishing equipment custom style",
             "group": "Fishing default styles",
             "type": "style",
+            "exampleItem": "Fishing rod",
             "default": {}
         },
         {
@@ -134,6 +135,7 @@
             "label": "Fishing bait custom style",
             "group": "Fishing default styles",
             "type": "style",
+            "exampleItem": "Fishing bait",
             "default": {}
         },
         {
@@ -141,6 +143,7 @@
             "label": "Raw fish custom style",
             "group": "Fishing default styles",
             "type": "style",
+            "exampleItem": "Raw tuna",
             "default": {}
         },
         {
@@ -148,6 +151,7 @@
             "label": "Small fishing net custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Small fishing net",
             "default": {}
         },
         {
@@ -155,6 +159,7 @@
             "label": "Big fishing net custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Big fishing net",
             "default": {}
         },
         {
@@ -162,6 +167,7 @@
             "label": "Drift net custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Drift net",
             "default": {}
         },
         {
@@ -169,6 +175,7 @@
             "label": "Fishing rod custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Fishing rod",
             "default": {}
         },
         {
@@ -176,6 +183,7 @@
             "label": "Fly fishing rod custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Fly fishing rod",
             "default": {}
         },
         {
@@ -183,6 +191,7 @@
             "label": "Oily fishing rod custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Oily fishing rod",
             "default": {}
         },
         {
@@ -190,6 +199,7 @@
             "label": "Harpoon custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Harpoon",
             "default": {}
         },
         {
@@ -197,6 +207,7 @@
             "label": "Lobster pot custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Lobster pot",
             "default": {}
         },
         {
@@ -204,6 +215,7 @@
             "label": "Karambwan vessel custom style",
             "group": "Fishing equipment custom style",
             "type": "style",
+            "exampleItem": "Karambwan vessel",
             "default": {}
         },
         {
@@ -211,6 +223,7 @@
             "label": "Sandworms custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Sandworms",
             "default": {}
         },
         {
@@ -218,6 +231,7 @@
             "label": "Fishing bait custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Fishing bait",
             "default": {}
         },
         {
@@ -225,6 +239,7 @@
             "label": "Feather custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Feather",
             "default": {}
         },
         {
@@ -232,6 +247,7 @@
             "label": "Stripy feather custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Stripy feather",
             "default": {}
         },
         {
@@ -239,6 +255,7 @@
             "label": "Dark fishing bait custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Dark fishing bait",
             "default": {}
         },
         {
@@ -246,6 +263,7 @@
             "label": "King worm custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "King worm",
             "default": {}
         },
         {
@@ -253,6 +271,7 @@
             "label": "Fish chunks custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Fish chunks",
             "default": {}
         },
         {
@@ -260,6 +279,7 @@
             "label": "Raw karambwanji custom style",
             "group": "Fishing bait custom style",
             "type": "style",
+            "exampleItem": "Raw karambwanji",
             "default": {}
         },
         {
@@ -267,6 +287,7 @@
             "label": "Raw shrimps custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw shrimps",
             "default": {}
         },
         {
@@ -274,6 +295,7 @@
             "label": "Raw anchovies custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw anchovies",
             "default": {}
         },
         {
@@ -281,6 +303,7 @@
             "label": "Raw guppy custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw guppy",
             "default": {}
         },
         {
@@ -288,6 +311,7 @@
             "label": "Raw cavefish custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw cavefish",
             "default": {}
         },
         {
@@ -295,6 +319,7 @@
             "label": "Raw tetra custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw tetra",
             "default": {}
         },
         {
@@ -302,6 +327,7 @@
             "label": "Frog spawn custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Frog spawn",
             "default": {}
         },
         {
@@ -309,6 +335,7 @@
             "label": "Raw monkfish custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw monkfish",
             "default": {}
         },
         {
@@ -316,6 +343,7 @@
             "label": "Minnow custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Minnow",
             "default": {}
         },
         {
@@ -323,6 +351,7 @@
             "label": "Raw mackerel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw mackerel",
             "default": {}
         },
         {
@@ -330,6 +359,7 @@
             "label": "Raw cod custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw cod",
             "default": {}
         },
         {
@@ -337,6 +367,7 @@
             "label": "Raw bass custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw bass",
             "default": {}
         },
         {
@@ -344,6 +375,7 @@
             "label": "Raw catfish custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw catfish",
             "default": {}
         },
         {
@@ -351,6 +383,7 @@
             "label": "Raw sardine custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw sardine",
             "default": {}
         },
         {
@@ -358,6 +391,7 @@
             "label": "Raw herring custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw herring",
             "default": {}
         },
         {
@@ -365,6 +399,7 @@
             "label": "Raw pike custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw pike",
             "default": {}
         },
         {
@@ -372,6 +407,7 @@
             "label": "Raw slimy eel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw slimy eel",
             "default": {}
         },
         {
@@ -379,6 +415,7 @@
             "label": "Raw cave eel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw cave eel",
             "default": {}
         },
         {
@@ -386,6 +423,7 @@
             "label": "Raw anglerfish custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw anglerfish",
             "default": {}
         },
         {
@@ -393,6 +431,7 @@
             "label": "Sacred eel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Sacred eel",
             "default": {}
         },
         {
@@ -400,6 +439,7 @@
             "label": "Raw trout custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw trout",
             "default": {}
         },
         {
@@ -407,6 +447,7 @@
             "label": "Raw salmon custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw salmon",
             "default": {}
         },
         {
@@ -414,6 +455,7 @@
             "label": "Raw rainbow fish custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw rainbow fish",
             "default": {}
         },
         {
@@ -421,6 +463,7 @@
             "label": "Raw lava eel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw lava eel",
             "default": {}
         },
         {
@@ -428,6 +471,7 @@
             "label": "Infernal eel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Infernal eel",
             "default": {}
         },
         {
@@ -435,6 +479,7 @@
             "label": "Leaping trout custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Leaping trout",
             "default": {}
         },
         {
@@ -442,6 +487,7 @@
             "label": "Leaping salmon custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Leaping salmon",
             "default": {}
         },
         {
@@ -449,6 +495,7 @@
             "label": "Leaping sturgeon custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Leaping sturgeon",
             "default": {}
         },
         {
@@ -456,6 +503,7 @@
             "label": "Raw tuna custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw tuna",
             "default": {}
         },
         {
@@ -463,6 +511,7 @@
             "label": "Raw swordfish custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw swordfish",
             "default": {}
         },
         {
@@ -470,6 +519,7 @@
             "label": "Raw shark custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw shark",
             "default": {}
         },
         {
@@ -477,6 +527,7 @@
             "label": "Raw lobster custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw lobster",
             "default": {}
         },
         {
@@ -484,6 +535,7 @@
             "label": "Raw dark crab custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw dark crab",
             "default": {}
         },
         {
@@ -491,6 +543,7 @@
             "label": "Bluegill custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Bluegill",
             "default": {}
         },
         {
@@ -498,6 +551,7 @@
             "label": "Common tench custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Common tench",
             "default": {}
         },
         {
@@ -505,6 +559,7 @@
             "label": "Mottled eel custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Mottled eel",
             "default": {}
         },
         {
@@ -512,6 +567,7 @@
             "label": "Greater siren custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Greater siren",
             "default": {}
         },
         {
@@ -519,6 +575,7 @@
             "label": "Raw karambwan custom style",
             "group": "Raw fish custom style",
             "type": "style",
+            "exampleItem": "Raw karambwan",
             "default": {}
         }
     ]

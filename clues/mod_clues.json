@@ -37,8 +37,9 @@
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE",
-            "label": "Clue scroll (beginner)",
+            "label": "Beginner clue scroll custom style",
             "type": "style",
+            "exampleItem": "Clue scroll (beginner)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -49,8 +50,9 @@
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE",
-            "label": "Clue scroll (easy)",
+            "label": "Easy clue scroll custom style",
             "type": "style",
+            "exampleItem": "Clue scroll (easy)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -61,8 +63,9 @@
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE",
-            "label": "Clue scroll (medium)",
+            "label": "Medium clue scroll custom style",
             "type": "style",
+            "exampleItem": "Clue scroll (medium)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -73,8 +76,9 @@
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE",
-            "label": "Clue scroll (hard)",
+            "label": "Hard clue scroll custom style",
             "type": "style",
+            "exampleItem": "Clue scroll (hard)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -85,8 +89,9 @@
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE",
-            "label": "Clue scroll (elite)",
+            "label": "Elite clue scroll custom style",
             "type": "style",
+            "exampleItem": "Clue scroll (elite)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -97,8 +102,9 @@
         },
         {
             "macroName": "VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE",
-            "label": "Clue scroll (master)",
+            "label": "Master clue scroll custom style",
             "type": "style",
+            "exampleItem": "Clue scroll (master)",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

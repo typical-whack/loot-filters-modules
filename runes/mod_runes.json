@@ -35,9 +35,10 @@
         },
         {
             "macroName": "VAR_AIR_RUNE_CUSTOMSTYLE",
-            "label": "Air rune style",
+            "label": "Air rune custom style",
             "group": "Air rune",
             "type": "style",
+            "exampleItem": "Air rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -55,9 +56,10 @@
         },
         {
             "macroName": "VAR_WATER_RUNE_CUSTOMSTYLE",
-            "label": "Water rune style",
+            "label": "Water rune custom style",
             "group": "Water rune",
             "type": "style",
+            "exampleItem": "Water rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -75,9 +77,10 @@
         },
         {
             "macroName": "VAR_EARTH_RUNE_CUSTOMSTYLE",
-            "label": "Earth rune style",
+            "label": "Earth rune custom style",
             "group": "Earth rune",
             "type": "style",
+            "exampleItem": "Earth rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -95,9 +98,10 @@
         },
         {
             "macroName": "VAR_FIRE_RUNE_CUSTOMSTYLE",
-            "label": "Fire rune style",
+            "label": "Fire rune custom style",
             "group": "Fire rune",
             "type": "style",
+            "exampleItem": "Fire rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -115,9 +119,10 @@
         },
         {
             "macroName": "VAR_MIND_RUNE_CUSTOMSTYLE",
-            "label": "Mind rune style",
+            "label": "Mind rune custom style",
             "group": "Mind rune",
             "type": "style",
+            "exampleItem": "Mind rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -135,9 +140,10 @@
         },
         {
             "macroName": "VAR_BODY_RUNE_CUSTOMSTYLE",
-            "label": "Body rune style",
+            "label": "Body rune custom style",
             "group": "Body rune",
             "type": "style",
+            "exampleItem": "Body rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -155,9 +161,10 @@
         },
         {
             "macroName": "VAR_COSMIC_RUNE_CUSTOMSTYLE",
-            "label": "Cosmic rune style",
+            "label": "Cosmic rune custom style",
             "group": "Cosmic rune",
             "type": "style",
+            "exampleItem": "Cosmic rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -175,9 +182,10 @@
         },
         {
             "macroName": "VAR_CHAOS_RUNE_CUSTOMSTYLE",
-            "label": "Chaos rune style",
+            "label": "Chaos rune custom style",
             "group": "Chaos rune",
             "type": "style",
+            "exampleItem": "Chaos rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -195,9 +203,10 @@
         },
         {
             "macroName": "VAR_NATURE_RUNE_CUSTOMSTYLE",
-            "label": "Nature rune style",
+            "label": "Nature rune custom style",
             "group": "Nature rune",
             "type": "style",
+            "exampleItem": "Nature rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -215,9 +224,10 @@
         },
         {
             "macroName": "VAR_LAW_RUNE_CUSTOMSTYLE",
-            "label": "Law rune style",
+            "label": "Law rune custom style",
             "group": "Law rune",
             "type": "style",
+            "exampleItem": "Law rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -235,9 +245,10 @@
         },
         {
             "macroName": "VAR_DEATH_RUNE_CUSTOMSTYLE",
-            "label": "Death rune style",
+            "label": "Death rune custom style",
             "group": "Death rune",
             "type": "style",
+            "exampleItem": "Death rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -255,9 +266,10 @@
         },
         {
             "macroName": "VAR_SUNFIRE_RUNE_CUSTOMSTYLE",
-            "label": "Sunfire rune style",
+            "label": "Sunfire rune custom style",
             "group": "Sunfire rune",
             "type": "style",
+            "exampleItem": "Sunfire rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -275,9 +287,10 @@
         },
         {
             "macroName": "VAR_ASTRAL_RUNE_CUSTOMSTYLE",
-            "label": "Astral rune style",
+            "label": "Astral rune custom style",
             "group": "Astral rune",
             "type": "style",
+            "exampleItem": "Astral rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -295,9 +308,10 @@
         },
         {
             "macroName": "VAR_BLOOD_RUNE_CUSTOMSTYLE",
-            "label": "Blood rune style",
+            "label": "Blood rune custom style",
             "group": "Blood rune",
             "type": "style",
+            "exampleItem": "Blood rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -315,9 +329,10 @@
         },
         {
             "macroName": "VAR_SOUL_RUNE_CUSTOMSTYLE",
-            "label": "Soul rune style",
+            "label": "Soul rune custom style",
             "group": "Soul rune",
             "type": "style",
+            "exampleItem": "Soul rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -335,9 +350,10 @@
         },
         {
             "macroName": "VAR_WRATH_RUNE_CUSTOMSTYLE",
-            "label": "Wrath rune style",
+            "label": "Wrath rune custom style",
             "group": "Wrath rune",
             "type": "style",
+            "exampleItem": "Wrath rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -355,9 +371,10 @@
         },
         {
             "macroName": "VAR_MIST_RUNE_CUSTOMSTYLE",
-            "label": "Mist rune style",
+            "label": "Mist rune custom style",
             "group": "Mist rune",
             "type": "style",
+            "exampleItem": "Mist rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -375,9 +392,10 @@
         },
         {
             "macroName": "VAR_DUST_RUNE_CUSTOMSTYLE",
-            "label": "Dust rune style",
+            "label": "Dust rune custom style",
             "group": "Dust rune",
             "type": "style",
+            "exampleItem": "Dust rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -395,9 +413,10 @@
         },
         {
             "macroName": "VAR_MUD_RUNE_CUSTOMSTYLE",
-            "label": "Mud rune style",
+            "label": "Mud rune custom style",
             "group": "Mud rune",
             "type": "style",
+            "exampleItem": "Mud rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -415,9 +434,10 @@
         },
         {
             "macroName": "VAR_SMOKE_RUNE_CUSTOMSTYLE",
-            "label": "Smoke rune style",
+            "label": "Smoke rune custom style",
             "group": "Smoke rune",
             "type": "style",
+            "exampleItem": "Smoke rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -435,9 +455,10 @@
         },
         {
             "macroName": "VAR_STEAM_RUNE_CUSTOMSTYLE",
-            "label": "Steam rune style",
+            "label": "Steam rune custom style",
             "group": "Steam rune",
             "type": "style",
+            "exampleItem": "Steam rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -455,9 +476,10 @@
         },
         {
             "macroName": "VAR_LAVA_RUNE_CUSTOMSTYLE",
-            "label": "Lava rune style",
+            "label": "Lava rune custom style",
             "group": "Lava rune",
             "type": "style",
+            "exampleItem": "Lava rune",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

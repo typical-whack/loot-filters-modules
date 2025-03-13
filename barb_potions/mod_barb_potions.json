@@ -159,8 +159,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ATTACK_MIX_CUSTOMSTYLE",
-            "label": "Attack mix",
+            "label": "Attack mix custom style",
             "type": "style",
+            "exampleItem": "Attack mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -171,8 +172,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ANTIPOISON_MIX_CUSTOMSTYLE",
-            "label": "Antipoison mix",
+            "label": "Antipoison mix custom style",
             "type": "style",
+            "exampleItem": "Antipoison mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -183,8 +185,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_RELICYMS_MIX_CUSTOMSTYLE",
-            "label": "Relicym's mix",
+            "label": "Relicym's mix custom style",
             "type": "style",
+            "exampleItem": "Relicym's mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -195,8 +198,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_STRENGTH_MIX_CUSTOMSTYLE",
-            "label": "Strength mix",
+            "label": "Strength mix custom style",
             "type": "style",
+            "exampleItem": "Strength mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -207,8 +211,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_RESTORE_MIX_CUSTOMSTYLE",
-            "label": "Restore mix",
+            "label": "Restore mix custom style",
             "type": "style",
+            "exampleItem": "Restore mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -219,8 +224,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ENERGY_MIX_CUSTOMSTYLE",
-            "label": "Energy mix",
+            "label": "Energy mix custom style",
             "type": "style",
+            "exampleItem": "Energy mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -231,8 +237,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_DEFENCE_MIX_CUSTOMSTYLE",
-            "label": "Defence mix",
+            "label": "Defence mix custom style",
             "type": "style",
+            "exampleItem": "Defence mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -243,8 +250,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_AGILITY_MIX_CUSTOMSTYLE",
-            "label": "Agility mix",
+            "label": "Agility mix custom style",
             "type": "style",
+            "exampleItem": "Agility mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -255,8 +263,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_COMBAT_MIX_CUSTOMSTYLE",
-            "label": "Combat mix",
+            "label": "Combat mix custom style",
             "type": "style",
+            "exampleItem": "Combat mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -267,8 +276,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_PRAYER_MIX_CUSTOMSTYLE",
-            "label": "Prayer mix",
+            "label": "Prayer mix custom style",
             "type": "style",
+            "exampleItem": "Prayer mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -279,8 +289,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_SUPERATTACK_MIX_CUSTOMSTYLE",
-            "label": "Superattack mix",
+            "label": "Superattack mix custom style",
             "type": "style",
+            "exampleItem": "Superattack mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -291,8 +302,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ANTI_POISON_SUPERMIX_CUSTOMSTYLE",
-            "label": "Anti-poison supermix",
+            "label": "Anti-poison supermix custom style",
             "type": "style",
+            "exampleItem": "Anti-poison supermix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -303,8 +315,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_FISHING_MIX_CUSTOMSTYLE",
-            "label": "Fishing mix",
+            "label": "Fishing mix custom style",
             "type": "style",
+            "exampleItem": "Fishing mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -315,8 +328,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_SUPER_ENERGY_MIX_CUSTOMSTYLE",
-            "label": "Super energy mix",
+            "label": "Super energy mix custom style",
             "type": "style",
+            "exampleItem": "Super energy mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -327,8 +341,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_HUNTING_MIX_CUSTOMSTYLE",
-            "label": "Hunting mix",
+            "label": "Hunting mix custom style",
             "type": "style",
+            "exampleItem": "Hunting mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -339,8 +354,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_SUPER_STR_MIX_CUSTOMSTYLE",
-            "label": "Super str. mix",
+            "label": "Super str. mix custom style",
             "type": "style",
+            "exampleItem": "Super str. mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -351,8 +367,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_MAGIC_ESSENCE_MIX_CUSTOMSTYLE",
-            "label": "Magic essence mix",
+            "label": "Magic essence mix custom style",
             "type": "style",
+            "exampleItem": "Magic essence mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -363,8 +380,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_SUPER_RESTORE_MIX_CUSTOMSTYLE",
-            "label": "Super restore mix",
+            "label": "Super restore mix custom style",
             "type": "style",
+            "exampleItem": "Super restore mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -375,8 +393,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_SUPER_DEF_MIX_CUSTOMSTYLE",
-            "label": "Super def. mix",
+            "label": "Super def. mix custom style",
             "type": "style",
+            "exampleItem": "Super def. mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -387,8 +406,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ANTIDOTE_MIX_CUSTOMSTYLE",
-            "label": "Antidote+ mix",
+            "label": "Antidote+ mix custom style",
             "type": "style",
+            "exampleItem": "Antidote+ mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -399,8 +419,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ANTIFIRE_MIX_CUSTOMSTYLE",
-            "label": "Antifire mix",
+            "label": "Antifire mix custom style",
             "type": "style",
+            "exampleItem": "Antifire mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -411,8 +432,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_RANGING_MIX_CUSTOMSTYLE",
-            "label": "Ranging mix",
+            "label": "Ranging mix custom style",
             "type": "style",
+            "exampleItem": "Ranging mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -423,8 +445,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_MAGIC_MIX_CUSTOMSTYLE",
-            "label": "Magic mix",
+            "label": "Magic mix custom style",
             "type": "style",
+            "exampleItem": "Magic mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -435,8 +458,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ZAMORAK_MIX_CUSTOMSTYLE",
-            "label": "Zamorak mix",
+            "label": "Zamorak mix custom style",
             "type": "style",
+            "exampleItem": "Zamorak mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -447,8 +471,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_STAMINA_MIX_CUSTOMSTYLE",
-            "label": "Stamina mix",
+            "label": "Stamina mix custom style",
             "type": "style",
+            "exampleItem": "Stamina mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -459,8 +484,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_EXTENDED_ANTIFIRE_MIX_CUSTOMSTYLE",
-            "label": "Extended antifire mix",
+            "label": "Extended antifire mix custom style",
             "type": "style",
+            "exampleItem": "Extended antifire mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -471,8 +497,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_ANCIENT_MIX_CUSTOMSTYLE",
-            "label": "Ancient mix",
+            "label": "Ancient mix custom style",
             "type": "style",
+            "exampleItem": "Ancient mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -483,8 +510,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE",
-            "label": "Super antifire mix",
+            "label": "Super antifire mix custom style",
             "type": "style",
+            "exampleItem": "Super antifire mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -495,8 +523,9 @@
         },
         {
             "macroName": "VAR_BARB_POTIONS_EXTENDED_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE",
-            "label": "Extended super antifire mix",
+            "label": "Extended super antifire mix custom style",
             "type": "style",
+            "exampleItem": "Extended super antifire mix",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

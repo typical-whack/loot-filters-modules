@@ -5,8 +5,9 @@
     "inputs": [
         {
             "macroName": "VAR_AHRIMS_CUSTOMSTYLE",
-            "label": "Ahrim's",
+            "label": "Ahrim's custom style",
             "type": "style",
+            "exampleItem": "Ahrim's staff",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -17,8 +18,9 @@
         },
         {
             "macroName": "VAR_KARILS_CUSTOMSTYLE",
-            "label": "Karil's",
+            "label": "Karil's custom style",
             "type": "style",
+            "exampleItem": "Karil's crossbow",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -29,8 +31,9 @@
         },
         {
             "macroName": "VAR_DHAROKS_CUSTOMSTYLE",
-            "label": "Dharok's",
+            "label": "Dharok's custom style",
             "type": "style",
+            "exampleItem": "Dharok's greataxe",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -41,8 +44,9 @@
         },
         {
             "macroName": "VAR_GUTHANS_CUSTOMSTYLE",
-            "label": "Guthan's",
+            "label": "Guthan's custom style",
             "type": "style",
+            "exampleItem": "Guthan's warspear",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -53,8 +57,9 @@
         },
         {
             "macroName": "VAR_TORAGS_CUSTOMSTYLE",
-            "label": "Torag's",
+            "label": "Torag's custom style",
             "type": "style",
+            "exampleItem": "Torag's hammers",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
@@ -65,8 +70,9 @@
         },
         {
             "macroName": "VAR_VERACS_CUSTOMSTYLE",
-            "label": "Verac's",
+            "label": "Verac's custom style",
             "type": "style",
+            "exampleItem": "Verac's flail",
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",

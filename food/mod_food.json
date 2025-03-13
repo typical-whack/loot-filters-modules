@@ -76,6 +76,7 @@
             "label": "Hunter food style",
             "group": "Food group style",
             "type": "style",
+            "exampleItem": "Cooked moonlight antelope",
             "default": {}
         },
         {
@@ -83,6 +84,7 @@
             "label": "Fish food default style",
             "group": "Food group style",
             "type": "style",
+            "exampleItem": "Tuna",
             "default": {}
         },
         {
@@ -90,6 +92,7 @@
             "label": "Shrimp custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Shrimp",
             "default": {}
         },
         {
@@ -97,6 +100,7 @@
             "label": "Sardine custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Sardine",
             "default": {}
         },
         {
@@ -104,6 +108,7 @@
             "label": "Karambwanji custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Karambwanji",
             "default": {}
         },
         {
@@ -111,6 +116,7 @@
             "label": "Herring custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Herring",
             "default": {}
         },
         {
@@ -118,6 +124,7 @@
             "label": "Anchovies custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Anchovies",
             "default": {}
         },
         {
@@ -125,6 +132,7 @@
             "label": "Mackerel custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Mackerel",
             "default": {}
         },
         {
@@ -132,6 +140,7 @@
             "label": "Trout custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Trout",
             "default": {}
         },
         {
@@ -139,6 +148,7 @@
             "label": "Cod custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Cod",
             "default": {}
         },
         {
@@ -146,6 +156,7 @@
             "label": "Pike custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Pike",
             "default": {}
         },
         {
@@ -153,6 +164,7 @@
             "label": "Slimy eel custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Slimy eel",
             "default": {}
         },
         {
@@ -160,6 +172,7 @@
             "label": "Salmon custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Salmon",
             "default": {}
         },
         {
@@ -167,6 +180,7 @@
             "label": "Tuna custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Tuna",
             "default": {}
         },
         {
@@ -174,6 +188,7 @@
             "label": "Rainbow fish custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Rainbow fish",
             "default": {}
         },
         {
@@ -181,6 +196,7 @@
             "label": "Cave eel custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Cave eel",
             "default": {}
         },
         {
@@ -188,6 +204,7 @@
             "label": "Lobster custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Lobster",
             "default": {}
         },
         {
@@ -195,6 +212,7 @@
             "label": "Bass custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Bass",
             "default": {}
         },
         {
@@ -202,6 +220,7 @@
             "label": "Swordfish custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Swordfish",
             "default": {}
         },
         {
@@ -209,6 +228,7 @@
             "label": "Lava eel custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Lava eel",
             "default": {}
         },
         {
@@ -216,6 +236,7 @@
             "label": "Monkfish custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Monkfish",
             "default": {}
         },
         {
@@ -223,6 +244,7 @@
             "label": "Karambwan custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Karambwan",
             "default": {
                 "backgroundColor": "#50dad9d4",
                 "borderColor": "#FFdad9d4",
@@ -236,6 +258,7 @@
             "label": "Shark custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Shark",
             "default": {
                 "backgroundColor": "#50b7977c",
                 "borderColor": "#FFb7977c",
@@ -249,6 +272,7 @@
             "label": "Sea turtle custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Sea turtle",
             "default": {}
         },
         {
@@ -256,6 +280,7 @@
             "label": "Manta ray custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Manta ray",
             "default": {
                 "backgroundColor": "#5069503a",
                 "borderColor": "#FF69503a",
@@ -269,6 +294,7 @@
             "label": "Anglerfish custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Anglerfish",
             "default": {
                 "backgroundColor": "#50624b18",
                 "borderColor": "#FF624b18",
@@ -282,6 +308,7 @@
             "label": "Dark crab custom style",
             "group": "Food style",
             "type": "style",
+            "exampleItem": "Dark crab",
             "default": {
                 "backgroundColor": "#504a5e4b",
                 "borderColor": "#FF4a5e4b",

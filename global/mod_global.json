@@ -7,6 +7,7 @@
             "macroName": "VAR_GLOBAL_CUSTOMSTYLE",
             "label": "Global default style",
             "type": "style",
+            "exampleItem": "Santa hat",
             "default": {
                 "backgroundColor": "#00000000",
                 "borderColor": "#00000000",

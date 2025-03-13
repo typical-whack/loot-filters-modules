@@ -15,6 +15,7 @@
             "macroName": "VAR_CURRENCY_CUSTOMSTYLE",
             "label": "Default currency custom style",
             "type": "style",
+            "exampleItem": "Coins",
             "default": {
                 "textColor": "#FFBEB287"
             }
@@ -24,6 +25,7 @@
             "label": "Archery ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Archery ticket",
             "default": {}
         },
         {
@@ -38,6 +40,7 @@
             "label": "Coins custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Coins",
             "default": {}
         },
         {
@@ -52,6 +55,7 @@
             "label": "Mole claw custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Mole claw",
             "default": {}
         },
         {
@@ -66,6 +70,7 @@
             "label": "Mole skin custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Mole skin",
             "default": {}
         },
         {
@@ -80,6 +85,7 @@
             "label": "Numulite custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Numulite",
             "default": {}
         },
         {
@@ -94,6 +100,7 @@
             "label": "Platinum token custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Platinum token",
             "default": {}
         },
         {
@@ -108,6 +115,7 @@
             "label": "Trading sticks custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Trading sticks",
             "default": {}
         },
         {
@@ -122,6 +130,7 @@
             "label": "Shantay pass custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Shantay pass",
             "default": {}
         },
         {
@@ -136,6 +145,7 @@
             "label": "Ship ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Ship ticket",
             "default": {}
         },
         {
@@ -150,6 +160,7 @@
             "label": "Abyssal pearls custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Abyssal pearls",
             "default": {}
         },
         {
@@ -164,6 +175,7 @@
             "label": "Anima-infused bark custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Anima-infused bark",
             "default": {}
         },
         {
@@ -178,6 +190,7 @@
             "label": "Agility arena ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Agility arena ticket",
             "default": {}
         },
         {
@@ -192,6 +205,7 @@
             "label": "Barronite shards custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Barronite shards",
             "default": {}
         },
         {
@@ -206,6 +220,7 @@
             "label": "Blood money custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Blood money",
             "default": {}
         },
         {
@@ -220,6 +235,7 @@
             "label": "Brimhaven voucher custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Brimhaven voucher",
             "default": {}
         },
         {
@@ -234,6 +250,7 @@
             "label": "Castle wars ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Castle wars ticket",
             "default": {}
         },
         {
@@ -248,6 +265,7 @@
             "label": "Ecto-token custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Ecto-token",
             "default": {}
         },
         {
@@ -262,6 +280,7 @@
             "label": "Frog token custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Frog token",
             "default": {}
         },
         {
@@ -276,6 +295,7 @@
             "label": "Golden nugget custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Golden nugget",
             "default": {}
         },
         {
@@ -290,6 +310,7 @@
             "label": "Glistening tear custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Glistening tear",
             "default": {}
         },
         {
@@ -304,6 +325,7 @@
             "label": "Hallowed mark custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Hallowed mark",
             "default": {}
         },
         {
@@ -318,6 +340,7 @@
             "label": "Intelligence custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Intelligence",
             "default": {}
         },
         {
@@ -332,6 +355,7 @@
             "label": "Mark of grace custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Mark of grace",
             "default": {}
         },
         {
@@ -346,6 +370,7 @@
             "label": "Mermaid's tear custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Mermaid's tear",
             "default": {}
         },
         {
@@ -360,6 +385,7 @@
             "label": "Minnow custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Minnow",
             "default": {}
         },
         {
@@ -374,6 +400,7 @@
             "label": "Molch pearl custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Molch pearl",
             "default": {}
         },
         {
@@ -388,6 +415,7 @@
             "label": "Nuggets custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Nuggets",
             "default": {}
         },
         {
@@ -402,6 +430,7 @@
             "label": "Paramaya ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Paramaya ticket",
             "default": {}
         },
         {
@@ -416,6 +445,7 @@
             "label": "Rare creature parts custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Rare creature parts",
             "default": {}
         },
         {
@@ -430,6 +460,7 @@
             "label": "Reward token credits custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Reward token credits",
             "default": {}
         },
         {
@@ -444,6 +475,7 @@
             "label": "Stardust custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Stardust",
             "default": {}
         },
         {
@@ -458,6 +490,7 @@
             "label": "Tokkul custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Tokkul",
             "default": {}
         },
         {
@@ -472,6 +505,7 @@
             "label": "Termites custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Termites",
             "default": {}
         },
         {
@@ -486,6 +520,7 @@
             "label": "Unidentified minerals custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Unidentified minerals",
             "default": {}
         },
         {
@@ -500,6 +535,7 @@
             "label": "Warrior guild token custom style",
             "group": "Custom currency styles",
             "type": "style",
+            "exampleItem": "Warrior guild token",
             "default": {}
         },
         {

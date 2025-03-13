@@ -83,6 +83,7 @@
             "macroName": "VAR_RDT_CUSTOMSTYLE",
             "label": "RDT custom style",
             "type": "style",
+            "exampleItem": "Dragon spear",
             "default": {
                 "borderColor": "#FFdea71a"
             }
