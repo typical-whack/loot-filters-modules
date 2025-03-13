@@ -8,14 +8,7 @@
             "label": "Global default style",
             "type": "style",
             "exampleItem": "Santa hat",
-            "default": {
-                "backgroundColor": "#00000000",
-                "borderColor": "#00000000",
-                "textColor": "#FFFFFFFF",
-                "textAccent": 1,
-                "textAccentColor": "#FF000000",
-                "showDespawn": true
-            }
+            "default": {}
         },
         {
             "macroName": {
