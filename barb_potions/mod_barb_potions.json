@@ -1,5 +1,6 @@
 {
     "name": "Barbarian Potions",
+    "rs2fPath": "mod_barb_potions.rs2f",
     "subtitle": "People use these?",
     "description": "This module provides per-item filtering and custom styling for all barbarian potions. By default ALL barbarian potions are filtered out. LOL",
     "inputs": [

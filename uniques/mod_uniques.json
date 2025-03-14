@@ -1,5 +1,6 @@
 {
     "name": "Uniques",
+    "rs2fPath": "mod_uniques.rs2f",
     "subtitle": "Uniques are special! (even if they're not worth a lot)",
     "description": "Add custom effect to unique items. By default this gives uniques on this list a loot beam. This can layer with other styling such as item tiers.",
     "inputs": [

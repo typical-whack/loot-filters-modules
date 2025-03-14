@@ -1,5 +1,6 @@
 {
     "name": "Gems",
+    "rs2fPath": "mod_gems.rs2f",
     "subtitle": "Shilo village provides",
     "description": "This module provides quantity filtering, tier filtering, and styling for all gem tiers. By default this styles gems to closely match their in-game colors.",
     "inputs": [

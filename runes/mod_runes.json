@@ -1,5 +1,6 @@
 {
     "name": "Runes",
+    "rs2fPath": "mod_runes.rs2f",
     "subtitle": "The magic things, not the armor",
     "description": "Quantity thresholds, filters, and custom styling for runes.",
     "inputs": [

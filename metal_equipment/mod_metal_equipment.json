@@ -1,5 +1,6 @@
 {
     "name": "Metal Equipment",
+    "rs2fPath": "mod_metal_equipment.rs2f",
     "subtitle": "Watch out for lightning",
     "description": "Provides a metal tier filter and custom styling for metal equipment including trimmed, gold trimmed, gilded, heraldic, and god rune armours.",
     "inputs": [

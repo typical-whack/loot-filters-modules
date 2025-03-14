@@ -1,5 +1,6 @@
 {
     "name": "Rare drop table",
+    "rs2fPath": "mod_rdt.rs2f",
     "subtitle": "Give RDT some special attention",
     "description": "Give RDT drops unique styling. This gives RDT drops a gold border by default. RDT drops are recognized by item name and quantity dropped. There will be some overlap with other drop tables.",
     "inputs": [

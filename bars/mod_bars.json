@@ -1,5 +1,6 @@
 {
     "name": "Bars",
+    "rs2fPath": "mod_bars.rs2f",
     "subtitle": "The thing between ores and armours",
     "description": "This module provides bar tier filters, quantity filters, and custom styling for all bars.",
     "inputs": [

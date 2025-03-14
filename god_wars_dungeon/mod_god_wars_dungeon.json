@@ -1,5 +1,6 @@
 {
     "name": "God Wars Dungeon",
+    "rs2fPath": "mod_god_wars_dungeon.rs2f",
     "inputs": [
         {
             "type": "includeExcludeList",

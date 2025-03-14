@@ -1,5 +1,6 @@
 {
     "name": "Potions",
+    "rs2fPath": "mod_potions.rs2f",
     "subtitle": "Drink up!",
     "description": "Filters and styling for potions. By default this filters out lower tier potions and gives every potion unique styling.",
     "inputs": [

@@ -1,5 +1,6 @@
 {
     "name": "Remains",
+    "rs2fPath": "mod_remains.rs2f",
     "subtitle": "Don't open dead inside",
     "description": "For filtering out bones, ensouled heads, ashes, and shades of morton remains",
     "inputs": [

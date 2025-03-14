@@ -1,5 +1,6 @@
 {
     "name": "Chambers of Xeric",
+    "rs2fPath": "mod_chambers_of_xeric.rs2f",
     "subtitle": "The twisted bow awaits...",
     "description": "This provides per-item filters and custom styling for all drops that happen during your chambers of xeric raid. By default this styles each drop uniquely so they are easier to pick off the ground.",
     "inputs": [

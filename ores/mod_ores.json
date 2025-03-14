@@ -1,5 +1,6 @@
 {
     "name": "Ores",
+    "rs2fPath": "mod_ores.rs2f",
     "subtitle": "The children yearn for the mines",
     "description": "Quantity thresholds, filters, and custom styling for all ores. By default colors them based on the item color.",
     "inputs": [

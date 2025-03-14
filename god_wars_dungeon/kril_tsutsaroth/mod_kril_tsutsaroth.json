@@ -1,5 +1,6 @@
 {
     "name": "K'ril Tsutsaroth",
+    "rs2fPath": "mod_kril_tsutsaroth.rs2f",
     "inputs": [
         {
             "type": "includeExcludeList",

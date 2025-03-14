@@ -1,5 +1,6 @@
 {
     "name": "Food",
+    "rs2fPath": "mod_food.rs2f",
     "subtitle": "The stuff you eat",
     "description": "This module provides filters based on food groups with some sane defaults. It also provides styling options available for every food group that has a filter. This can be done at the group level or on a food-by-food basis. A few popular foods have been given custom styling out of the box.",
     "inputs": [

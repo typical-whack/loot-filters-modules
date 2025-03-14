@@ -1,5 +1,6 @@
 {
     "name": "Currency",
+    "rs2fPath": "mod_currency.rs2f",
     "subtitle": "Money makes the world go 'round",
     "description": "This module provides styling and quantity filters for all currencies in the game.",
     "inputs": [

@@ -1,5 +1,6 @@
 {
     "name": "Herbs",
+    "rs2fPath": "mod_herbs.rs2f",
     "subtitle": "Kaqemeex would be proud",
     "description": "Provides herb filters, quantity filters per herb, and custom styling for each herb. By default, this gives each herb unique styling.",
     "inputs": [

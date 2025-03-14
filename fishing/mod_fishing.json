@@ -1,5 +1,6 @@
 {
     "name": "Fishing",
+    "rs2fPath": "mod_fishing.rs2f",
     "subtitle": "Filters for fishing equipment and raw fish",
     "description": "This module provides filters for fishing equipment, fishing bait, and raw fish",
     "inputs": [

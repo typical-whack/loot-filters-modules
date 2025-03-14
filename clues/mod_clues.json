@@ -1,5 +1,6 @@
 {
     "name": "Clue Scrolls",
+    "rs2fPath": "mod_clues.rs2f",
     "subtitle": "Can you do me one small favor?",
     "description": "This module provides clue tier filters and custom styling for each clue tier.",
     "inputs": [

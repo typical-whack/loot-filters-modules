@@ -1,5 +1,6 @@
 {
     "name": "General Graardor",
+    "rs2fPath": "mod_general_graardor.rs2f",
     "inputs": [
         {
             "type": "includeExcludeList",

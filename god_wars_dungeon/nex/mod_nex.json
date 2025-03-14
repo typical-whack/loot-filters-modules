@@ -1,5 +1,6 @@
 {
     "name": "Nex",
+    "rs2fPath": "mod_nex.rs2f",
     "inputs": [
         {
             "type": "includeExcludeList",

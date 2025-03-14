@@ -1,5 +1,6 @@
 {
     "name": "Farming seeds",
+    "rs2fPath": "mod_farming_seeds.rs2f",
     "subtitle": "The stuff from the master farmers' pockets",
     "description": "Provides specific seed filters and value threshold for filtering out seeds from being shown. The default is to hide lower tier seeds.",
     "inputs": [

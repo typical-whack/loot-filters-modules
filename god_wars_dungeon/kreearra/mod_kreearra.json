@@ -1,5 +1,6 @@
 {
     "name": "Kree'arra",
+    "rs2fPath": "mod_kreearra.rs2f",
     "inputs": [
         {
             "type": "includeExcludeList",

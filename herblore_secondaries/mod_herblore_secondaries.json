@@ -1,5 +1,6 @@
 {
     "name": "Herblore secondaries",
+    "rs2fPath": "mod_herblore_secondaries.rs2f",
     "subtitle": "Eyes, eggs, and everything in-between",
     "description": "Provides some basic filtering for herblore secondaries.",
     "inputs": [

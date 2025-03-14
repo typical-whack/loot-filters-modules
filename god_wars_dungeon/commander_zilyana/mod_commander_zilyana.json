@@ -1,5 +1,6 @@
 {
     "name": "Commander Zilyana",
+    "rs2fPath": "mod_commander_zilyana.rs2f",
     "inputs": [
         {
             "type": "includeExcludeList",
