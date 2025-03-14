@@ -4,114 +4,70 @@
     "description": "A collection of loot filters for OSRS",
     "modules": [
         {
-            "name": "Global",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/global/mod_global.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/global/mod_global.rs2f"
+            "modulePath": "global/mod_global.json"
         },
         {
-            "name": "Item Values",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/item_values/mod_item_values.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/item_values/mod_item_values.rs2f"
+            "modulePath": "item_values/mod_item_values.json"
         },
         {
-            "name": "Uniques",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/uniques/mod_uniques.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/uniques/mod_uniques.rs2f"
+            "modulePath": "uniques/mod_uniques.json"
         },
         {
-            "name": "Currency",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/currency/mod_currency.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/currency/mod_currency.rs2f"
+            "modulePath": "currency/mod_currency.json"
         },
         {
-            "name": "Clues",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/clues/mod_clues.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/clues/mod_clues.rs2f"
+            "modulePath": "clues/mod_clues.json"
         },
         {
-            "name": "Chambers of Xeric",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/chambers_of_xeric/mod_chambers_of_xeric.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/chambers_of_xeric/mod_chambers_of_xeric.rs2f"
+            "modulePath": "chambers_of_xeric/mod_chambers_of_xeric.json"
         },
         {
-            "name": "Runes",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/runes/mod_runes.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/runes/mod_runes.rs2f"
+            "modulePath": "runes/mod_runes.json"
         },
         {
-            "name": "Logs",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/logs/mod_logs.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/logs/mod_logs.rs2f"
+            "modulePath": "logs/mod_logs.json"
         },
         {
-            "name": "Fishing",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/fishing/mod_fishing.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/fishing/mod_fishing.rs2f"
+            "modulePath": "fishing/mod_fishing.json"
         },
         {
-            "name": "Ores",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/ores/mod_ores.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/ores/mod_ores.rs2f"
+            "modulePath": "ores/mod_ores.json"
         },
         {
-            "name": "Gems",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gems/mod_gems.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/gems/mod_gems.rs2f"
+            "modulePath": "gems/mod_gems.json"
         },
         {
-            "name": "Bars",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/bars/mod_bars.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/bars/mod_bars.rs2f"
+            "modulePath": "bars/mod_bars.json"
         },
         {
-            "name": "Herbs",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herbs/mod_herbs.rs2f"
+            "modulePath": "herbs/mod_herbs.json"
         },
         {
-            "name": "Seeds",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/farming_seeds/mod_farming_seeds.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/farming_seeds/mod_farming_seeds.rs2f"
+            "modulePath": "farming_seeds/mod_farming_seeds.json"
         },
         {
-            "name": "Secondaries",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herblore_secondaries/mod_herblore_secondaries.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/herblore_secondaries/mod_herblore_secondaries.rs2f"
+            "modulePath": "herblore_secondaries/mod_herblore_secondaries.json"
         },
         {
-            "name": "Potions",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/potions/mod_potions.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/potions/mod_potions.rs2f"
+            "modulePath": "potions/mod_potions.json"
         },
         {
-            "name": "Barbarian Potions",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barb_potions/mod_barb_potions.rs2f"
+            "modulePath": "barb_potions/mod_barb_potions.json"
         },
         {
-            "name": "Food",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/food/mod_food.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/food/mod_food.rs2f"
+            "modulePath": "food/mod_food.json"
         },
         {
-            "name": "Metal equipment",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/metal_equipment/mod_metal_equipment.rs2f"
+            "modulePath": "metal_equipment/mod_metal_equipment.json"
         },
         {
-            "name": "Barrows",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/barrows/mod_barrows.rs2f"
+            "modulePath": "barrows/mod_barrows.json"
         },
         {
-            "name": "Rare drop table",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/rdt/mod_rdt.rs2f"
+            "modulePath": "rdt/mod_rdt.json"
         },
         {
-            "name": "Ignore runelite sidebar item value rules",
-            "moduleJsonUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/_terminate/mod_terminate.json",
-            "moduleRs2fUrl": "https://raw.githubusercontent.com/typical-whack/loot-filters-modules/refs/heads/main/_terminate/mod_terminate.rs2f"
+            "modulePath": "_terminate/mod_terminate.json"
         }
     ]
 }
