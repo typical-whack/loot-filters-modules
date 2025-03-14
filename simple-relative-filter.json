@@ -1,0 +1,22 @@
+{
+    "type": "filter",
+    "name": "Simple filter to test relative module references",
+    "description": "WOW!",
+    "modules": [
+        {
+            "name": "Global",
+            "relativeModuleJsonUrl": "global/mod_global.json",
+            "relativeModuleRs2fUrl": "global/mod_global.rs2f"
+        },
+        {
+            "name": "Item Values",
+            "relativeModuleJsonUrl": "item_values/mod_item_values.json",
+            "relativeModuleRs2fUrl": "item_values/mod_item_values.rs2f"
+        },
+        {
+            "name": "Ignore runelite sidebar item value rules",
+            "relativeModuleJsonUrl": "_terminate/mod_terminate.json",
+            "relativeModuleRs2fUrl": "_terminate/mod_terminate.rs2f"
+        }
+    ]
+}
