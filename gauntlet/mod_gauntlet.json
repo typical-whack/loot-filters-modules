@@ -1,0 +1,438 @@
+{
+    "name": "Gauntlet",
+    "rs2fPath": "mod_gauntlet.rs2f",
+    "subtitle": "Crystal palace of suffering",
+    "description": "Filtering and style for the Gauntlet",
+    "inputs": [
+        {
+            "macroName": "VAR_GAUNTLET_TOOLS_HIDE",
+            "label": "Tools",
+            "group": "Filtering",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "* sceptre",
+                    "label": "Crystal sceptre"
+                },
+                {
+                    "value": "* harpoon",
+                    "label": "Crystal harpoon"
+                },
+                {
+                    "value": "* axe",
+                    "label": "Crystal axe"
+                },
+                {
+                    "value": "* pickaxe",
+                    "label": "Crystal pickaxe"
+                },
+                {
+                    "value": "Pestle and mortar",
+                    "label": "Pestle and mortar"
+                },
+                {
+                    "value": "*teleport crystal",
+                    "label": "Teleport crystal"
+                },
+                {
+                    "value": "*escape crystal",
+                    "label": "Escape crystal"
+                }
+            ],
+            "default": [
+                "* sceptre",
+                "* harpoon",
+                "* axe",
+                "* pickaxe",
+                "Pestle and mortar"
+            ]
+        },
+        {
+            "macroName": "VAR_GAUNTLET_RESOURCES_HIDE",
+            "label": "Resources",
+            "group": "Filtering",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "* shards",
+                    "label": "Crystal shards"
+                },
+                {
+                    "value": "Crystal dust",
+                    "label": "Crystal dust"
+                },
+                {
+                    "value": "Vial",
+                    "label": "Vial"
+                },
+                {
+                    "value": "Water-filled vial",
+                    "label": "Water-filled vial"
+                },
+                {
+                    "value": "Grym leaf",
+                    "label": "Grym leaf"
+                },
+                {
+                    "value": "Grym potion (unf)",
+                    "label": "Grym potion (unf)"
+                },
+                {
+                    "value": "Raw paddlefish",
+                    "label": "Raw paddlefish"
+                },
+                {
+                    "value": "Weapon frame",
+                    "label": "Weapon frame"
+                },
+                {
+                    "value": "* spike",
+                    "label": "Crystal spike"
+                },
+                {
+                    "value": "* orb",
+                    "label": "Crystal orb"
+                },
+                {
+                    "value": "* bowstring",
+                    "label": "Crystalline bowstring"
+                },
+                {
+                    "value": "Linum tirinum*",
+                    "label": "Linum tirinum"
+                },
+                {
+                    "value": "Phren bark*",
+                    "label": "Phren bark"
+                },
+                {
+                    "value": "* ore",
+                    "label": "Crystal ore"
+                }
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_GAUNTLET_SUPPLIES_HIDE",
+            "label": "Supplies",
+            "group": "Filtering",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "Egniol potion (*",
+                    "label": "Egniol potion"
+                },
+                {
+                    "value": "Paddlefish",
+                    "label": "Paddlefish"
+                },
+                {
+                    "value": "Crystal paddlefish",
+                    "label": "Crystal paddlefish"
+                },
+                {
+                    "value": "Corrupted paddlefish",
+                    "label": "Corrupted paddlefish"
+                }
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_GAUNTLET_EQUIPMENT_HIDE",
+            "label": "Equipment",
+            "group": "Filtering",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "* halberd *",
+                    "label": "Crystal halberd"
+                },
+                {
+                    "value": "* bow *",
+                    "label": "Crystal bow"
+                },
+                {
+                    "value": "* staff *",
+                    "label": "Crystal staff"
+                },
+                {
+                    "value": "* helm *",
+                    "label": "Crystal helm"
+                },
+                {
+                    "value": "* body *",
+                    "label": "Crystal body"
+                },
+                {
+                    "value": "* legs *",
+                    "label": "Crystal legs"
+                }
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_SCEPTRE_CUSTOMSTYLE",
+            "label": "Crystal sceptre custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Crystal sceptre",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_AXE_CUSTOMSTYLE",
+            "label": "Crystal axe custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Crystal axe",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_PICKAXE_CUSTOMSTYLE",
+            "label": "Crystal pickaxe custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Crystal pickaxe",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_HARPOON_CUSTOMSTYLE",
+            "label": "Crystal harpoon custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Crystal harpoon",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_PESTLE_AND_MORTAR_CUSTOMSTYLE",
+            "label": "Pestle and mortar custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Pestle and mortar",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_TELEPORT_CRYSTAL_CUSTOMSTYLE",
+            "label": "Teleport crystal custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Teleport crystal",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_ESCAPE_CRYSTAL_CUSTOMSTYLE",
+            "label": "Escape crystal custom style",
+            "group": "Styling Tools",
+            "type": "style",
+            "exampleItem": "Escape crystal",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_SHARDS_CUSTOMSTYLE",
+            "label": "Crystal shards custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Crystal shards",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_DUST_CUSTOMSTYLE",
+            "label": "Crystal dust custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Crystal dust",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_VIAL_CUSTOMSTYLE",
+            "label": "Vial custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Vial",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_WATER_FILLED_VIAL_CUSTOMSTYLE",
+            "label": "Water-filled vial custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Water-filled vial",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_GRYM_LEAF_CUSTOMSTYLE",
+            "label": "Grym leaf custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Grym leaf",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_GRYM_POTION_UNF_CUSTOMSTYLE",
+            "label": "Grym potion (unf) custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Grym potion (unf)",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_RAW_PADDLEFISH_CUSTOMSTYLE",
+            "label": "Raw paddlefish custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Raw paddlefish",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_WEAPON_FRAME_CUSTOMSTYLE",
+            "label": "Weapon frame custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Weapon frame",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_SPIKE_CUSTOMSTYLE",
+            "label": "Crystal spike custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Crystal spike",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_ORB_CUSTOMSTYLE",
+            "label": "Crystal orb custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Crystal orb",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTALLINE_BOWSTRING_CUSTOMSTYLE",
+            "label": "Crystalline bowstring custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Crystalline bowstring",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_LINUM_TIRINUM_CUSTOMSTYLE",
+            "label": "Linum tirinum custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Linum tirinum",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_PHREN_BARK_CUSTOMSTYLE",
+            "label": "Phren bark custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Phren bark",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_ORE_CUSTOMSTYLE",
+            "label": "Crystal ore custom style",
+            "group": "Styling Resources",
+            "type": "style",
+            "exampleItem": "Crystal ore",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_EGNIOL_POTION_CUSTOMSTYLE",
+            "label": "Egniol potion custom style",
+            "group": "Styling Supplies",
+            "type": "style",
+            "exampleItem": "Egniol potion (3)",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_PADDLEFISH_CUSTOMSTYLE",
+            "label": "Paddlefish custom style",
+            "group": "Styling Supplies",
+            "type": "style",
+            "exampleItem": "Paddlefish",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_PADDLEFISH_CUSTOMSTYLE",
+            "label": "Crystal paddlefish custom style",
+            "group": "Styling Supplies",
+            "type": "style",
+            "exampleItem": "Crystal paddlefish",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_HALBERD_CUSTOMSTYLE",
+            "label": "Crystal halberd custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "Crystal halberd",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_BOW_CUSTOMSTYLE",
+            "label": "Crystal bow custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "Crystal bow",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_STAFF_CUSTOMSTYLE",
+            "label": "Crystal staff custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "Crystal staff",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_HELM_CUSTOMSTYLE",
+            "label": "Crystal helm custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "Crystal helm",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_BODY_CUSTOMSTYLE",
+            "label": "Crystal body custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "Crystal body",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_CRYSTAL_LEGS_CUSTOMSTYLE",
+            "label": "Crystal legs custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "Crystal legs",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_BASIC_CUSTOMSTYLE",
+            "label": "Basic equipment custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "basic",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_ATTUNED_CUSTOMSTYLE",
+            "label": "Attuned equipment custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "attuned",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GAUNTLET_PERFECTED_CUSTOMSTYLE",
+            "label": "Perfected equipment custom style",
+            "group": "Styling Equipment",
+            "type": "style",
+            "exampleItem": "perfected",
+            "default": {}
+        }
+    ]
+}

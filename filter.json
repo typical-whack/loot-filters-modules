@@ -64,6 +64,9 @@
             "modulePath": "barrows/mod_barrows.json"
         },
         {
+            "modulePath": "gauntlet/mod_gauntlet.json"
+        },
+        {
             "modulePath": "rdt/mod_rdt.json"
         },
         {
