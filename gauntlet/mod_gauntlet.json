@@ -415,7 +415,7 @@
             "label": "Basic equipment custom style",
             "group": "Styling Equipment",
             "type": "style",
-            "exampleItem": "basic",
+            "exampleItem": "Crystal helm (basic)",
             "default": {}
         },
         {
@@ -423,7 +423,7 @@
             "label": "Attuned equipment custom style",
             "group": "Styling Equipment",
             "type": "style",
-            "exampleItem": "attuned",
+            "exampleItem": "Crystal helm (attuned)",
             "default": {}
         },
         {
@@ -431,7 +431,7 @@
             "label": "Perfected equipment custom style",
             "group": "Styling Equipment",
             "type": "style",
-            "exampleItem": "perfected",
+            "exampleItem": "Crystal helm (perfected)",
             "default": {}
         }
     ]
