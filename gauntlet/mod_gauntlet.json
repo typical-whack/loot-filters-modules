@@ -305,7 +305,13 @@
             "group": "Styling Resources",
             "type": "style",
             "exampleItem": "Grym potion (unf)",
-            "default": {}
+            "default": {
+                "backgroundColor": "#50bfbcbb",
+                "borderColor": "#FFffff00",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFbfbcbb"
+            }
         },
         {
             "macroName": "VAR_GAUNTLET_RAW_PADDLEFISH_CUSTOMSTYLE",
