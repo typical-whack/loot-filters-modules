@@ -176,7 +176,12 @@
             "group": "Styling Tools",
             "type": "style",
             "exampleItem": "Crystal sceptre",
-            "default": {}
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#5087735b",
+                "borderColor": "#FF657e7f"
+            }
         },
         {
             "macroName": "VAR_GAUNTLET_CRYSTAL_AXE_CUSTOMSTYLE",
@@ -187,7 +192,7 @@
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#5000ff00",
+                "backgroundColor": "#5087735b",
                 "borderColor": "#FF00ff00"
             }
         },
@@ -200,7 +205,7 @@
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#50ff0000",
+                "backgroundColor": "#5087735b",
                 "borderColor": "#FFff0000"
             }
         },
@@ -213,7 +218,7 @@
             "default": {
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "backgroundColor": "#5000ffff",
+                "backgroundColor": "#5087735b",
                 "borderColor": "#FF00ffff"
             }
         },
