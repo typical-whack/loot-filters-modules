@@ -292,11 +292,11 @@
             "type": "style",
             "exampleItem": "Grym leaf",
             "default": {
-                "backgroundColor": "#50354235",
-                "borderColor": "#FF354235",
+                "backgroundColor": "#50ffff00",
+                "borderColor": "#FFffff00",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF354235"
+                "menuTextColor": "#FFffff00"
             }
         },
         {
@@ -412,11 +412,11 @@
             "type": "style",
             "exampleItem": "Crystal ore",
             "default": {
-                "backgroundColor": "#503c3737",
-                "borderColor": "#FF3c3737",
+                "backgroundColor": "#50ff0000",
+                "borderColor": "#FFff0000",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF3c3737"
+                "menuTextColor": "#FFff0000"
             }
         },
         {
