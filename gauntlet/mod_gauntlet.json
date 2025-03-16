@@ -236,7 +236,11 @@
             "group": "Styling Tools",
             "type": "style",
             "exampleItem": "Teleport crystal",
-            "default": {}
+            "default": {
+                "borderColor": "#FFFFFFFF",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000"
+            }
         },
         {
             "macroName": "VAR_GAUNTLET_ESCAPE_CRYSTAL_CUSTOMSTYLE",
