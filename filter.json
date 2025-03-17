@@ -19,6 +19,9 @@
             "modulePath": "clues/mod_clues.json"
         },
         {
+            "modulePath": "remains/mod_remains.json"
+        },
+        {
             "modulePath": "chambers_of_xeric/mod_chambers_of_xeric.json"
         },
         {
