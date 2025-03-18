@@ -54,25 +54,25 @@ apply (name:"Neutralising potion") {
 apply (name:"Honey locust") {
     VAR_HONEY_LOCUST_CUSTOMSTYLE
 }
-apply (name:"Ambrosia") {
+apply (name:"Ambrosia (*") {
     VAR_AMBROSIA_CUSTOMSTYLE
 }
-apply (name:"Blessed crystal scarab") {
+apply (name:"Blessed crystal scarab (*") {
     VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE
 }
-apply (name:"Liquid adrenaline") {
+apply (name:"Liquid adrenaline (*") {
     VAR_LIQUID_ADRENALINE_CUSTOMSTYLE
 }
-apply (name:"Nectar") {
+apply (name:"Nectar (*") {
     VAR_NECTAR_CUSTOMSTYLE
 }
-apply (name:"Silk dressing") {
+apply (name:"Silk dressing (*") {
     VAR_SILK_DRESSING_CUSTOMSTYLE
 }
-apply (name:"Smelling salts") {
+apply (name:"Smelling salts (*") {
     VAR_SMELLING_SALTS_CUSTOMSTYLE
 }
-apply (name:"Tears of Elidinis") {
+apply (name:"Tears of Elidinis (*") {
     VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE
 }
 
