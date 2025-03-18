@@ -16,7 +16,7 @@
                 "includes": "VAR_GLOBAL_SHOW",
                 "excludes": "VAR_GLOBAL_HIDE"
             },
-            "label": "Global",
+            "label": "Global itemlist",
             "type": "includeExcludeList",
             "default": {
                 "includes": [],
