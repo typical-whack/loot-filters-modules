@@ -22,6 +22,12 @@
                 "includes": [],
                 "excludes": []
             }
+        },
+        {
+            "macroName": "VAR_GLOBAL_MINIMUM_VALUE",
+            "label": "Items below this value will be hidden unless explicitly shown in modules below",
+            "type": "number",
+            "default": 0
         }
     ]
 }
