@@ -76,6 +76,123 @@
             ]
         },
         {
+            "macroName": "VAR_AMBROSIA_CUSTOMSTYLE",
+            "label": "Ambrosia",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50fcfdfc",
+                "borderColor": "#FFfcfdfc",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFfcfdfc"
+            }
+        },
+        {
+            "macroName": "VAR_SMELLING_SALTS_CUSTOMSTYLE",
+            "label": "Smelling salts",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50ceb518",
+                "borderColor": "#FFceb518",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFceb518"
+            }
+        },
+        {
+            "macroName": "VAR_NECTAR_CUSTOMSTYLE",
+            "label": "Nectar",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50ad8f2a",
+                "borderColor": "#FFad8f2a",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFad8f2a"
+            }
+        },
+        {
+            "macroName": "VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE",
+            "label": "Tears of Elidinis",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50e285b9",
+                "borderColor": "#FFe285b9",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFe285b9"
+            }
+        },
+        {
+            "macroName": "VAR_LIQUID_ADRENALINE_CUSTOMSTYLE",
+            "label": "Liquid adrenaline",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#5035c6d7",
+                "borderColor": "#FF35c6d7",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF35c6d7"
+            }
+        },
+        {
+            "macroName": "VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE",
+            "label": "Blessed crystal scarab",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50c8c1c1",
+                "borderColor": "#FFc8c1c1",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFc8c1c1"
+            }
+        },
+        {
+            "macroName": "VAR_SILK_DRESSING_CUSTOMSTYLE",
+            "label": "Silk dressing",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50ab9f9f",
+                "borderColor": "#FFab9f9f",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFab9f9f"
+            }
+        },
+        {
+            "macroName": "VAR_HONEY_LOCUST_CUSTOMSTYLE",
+            "label": "Honey locust",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50d3b91a",
+                "borderColor": "#FF9b5826",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFd3b91a"
+            }
+        },
+        {
+            "macroName": "VAR_NEUTRALISING_POTION_CUSTOMSTYLE",
+            "label": "Neutralising potion",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#500d8011",
+                "borderColor": "#FFe7dbbd",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF0d8011"
+            }
+        },
+        {
             "macroName": "VAR_BIG_BANANA_CUSTOMSTYLE",
             "label": "Big banana",
             "group": "TOA Item Styles",
@@ -129,123 +246,6 @@
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF985d37",
                 "showLootbeam": true
-            }
-        },
-        {
-            "macroName": "VAR_NEUTRALISING_POTION_CUSTOMSTYLE",
-            "label": "Neutralising potion",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#500d8011",
-                "borderColor": "#FFe7dbbd",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF0d8011"
-            }
-        },
-        {
-            "macroName": "VAR_HONEY_LOCUST_CUSTOMSTYLE",
-            "label": "Honey locust",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50d3b91a",
-                "borderColor": "#FF9b5826",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFd3b91a"
-            }
-        },
-        {
-            "macroName": "VAR_AMBROSIA_CUSTOMSTYLE",
-            "label": "Ambrosia",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50fcfdfc",
-                "borderColor": "#FFfcfdfc",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFfcfdfc"
-            }
-        },
-        {
-            "macroName": "VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE",
-            "label": "Blessed crystal scarab",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50c8c1c1",
-                "borderColor": "#FFc8c1c1",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFc8c1c1"
-            }
-        },
-        {
-            "macroName": "VAR_LIQUID_ADRENALINE_CUSTOMSTYLE",
-            "label": "Liquid adrenaline",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#5035c6d7",
-                "borderColor": "#FF35c6d7",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF35c6d7"
-            }
-        },
-        {
-            "macroName": "VAR_NECTAR_CUSTOMSTYLE",
-            "label": "Nectar",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50ad8f2a",
-                "borderColor": "#FFad8f2a",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFad8f2a"
-            }
-        },
-        {
-            "macroName": "VAR_SILK_DRESSING_CUSTOMSTYLE",
-            "label": "Silk dressing",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50ab9f9f",
-                "borderColor": "#FFab9f9f",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFab9f9f"
-            }
-        },
-        {
-            "macroName": "VAR_SMELLING_SALTS_CUSTOMSTYLE",
-            "label": "Smelling salts",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50ceb518",
-                "borderColor": "#FFceb518",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFceb518"
-            }
-        },
-        {
-            "macroName": "VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE",
-            "label": "Tears of Elidinis",
-            "group": "TOA Item Styles",
-            "type": "style",
-            "default": {
-                "backgroundColor": "#50e285b9",
-                "borderColor": "#FFe285b9",
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFe285b9"
             }
         }
     ]
