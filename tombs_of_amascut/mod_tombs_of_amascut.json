@@ -164,7 +164,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#50d6e4d7",
-                "borderColor": "#FFdac898",
+                "borderColor": "#FFd6e4d7",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFd6e4d7"
@@ -176,11 +176,11 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#508d3833",
-                "borderColor": "#FF3c3737",
+                "backgroundColor": "#50d4cece",
+                "borderColor": "#FFd4cece",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF8d3833"
+                "menuTextColor": "#FFd4cece"
             }
         },
         {
@@ -190,7 +190,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#5035c6d7",
-                "borderColor": "#FFc5af70",
+                "borderColor": "#FF35c6d7",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FF35c6d7"
@@ -202,11 +202,11 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#50f1cb51",
-                "borderColor": "#FFc7b171",
+                "backgroundColor": "#50edc850",
+                "borderColor": "#FFedc850",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFf1cb51"
+                "menuTextColor": "#FFedc850"
             }
         },
         {
@@ -216,7 +216,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#50ab9f9f",
-                "borderColor": "#FF300d0b",
+                "borderColor": "#FFab9f9f",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFab9f9f"
@@ -228,11 +228,11 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#50564545",
-                "borderColor": "#FFe7cb1d",
+                "backgroundColor": "#50ceb518",
+                "borderColor": "#FFceb518",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF564545"
+                "menuTextColor": "#FFceb518"
             }
         },
         {
@@ -242,7 +242,7 @@
             "type": "style",
             "default": {
                 "backgroundColor": "#50e285b9",
-                "borderColor": "#FFd1b977",
+                "borderColor": "#FFe285b9",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
                 "menuTextColor": "#FFe285b9"
