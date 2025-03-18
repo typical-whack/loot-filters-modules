@@ -163,11 +163,11 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#50d6e4d7",
-                "borderColor": "#FFd6e4d7",
+                "backgroundColor": "#5fcfdfc",
+                "borderColor": "#FFfcfdfc",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFd6e4d7"
+                "menuTextColor": "#FFfcfdfc"
             }
         },
         {
@@ -176,11 +176,11 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#50d4cece",
-                "borderColor": "#FFd4cece",
+                "backgroundColor": "#50c8c1c1",
+                "borderColor": "#FFc8c1c1",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFd4cece"
+                "menuTextColor": "#FFc8c1c1"
             }
         },
         {
@@ -202,11 +202,11 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#50edc850",
-                "borderColor": "#FFedc850",
+                "backgroundColor": "#50ad8f2a",
+                "borderColor": "#FFad8f2a",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FFedc850"
+                "menuTextColor": "#FFad8f2a"
             }
         },
         {
