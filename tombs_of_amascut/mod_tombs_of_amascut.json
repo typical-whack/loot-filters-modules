@@ -2,7 +2,7 @@
     "name": "Tombs of Amascut",
     "rs2fPath": "mod_tombs_of_amascut.rs2f",
     "subtitle": "Beneath blessed sands",
-    "description": "",
+    "description": "This provides per-item filters and custom styling for all drops within the Tombs of Amascut. By default this styles each drop uniquely and filters out a MVP items and books.",
     "inputs": [
         {
             "macroName": "VAR_TOA_SUPPLIES_HIDE",

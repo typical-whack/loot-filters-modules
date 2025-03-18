@@ -2,7 +2,7 @@
     "name": "Theater of Blood",
     "rs2fPath": "mod_theater_of_blood.rs2f",
     "subtitle": "Enter the Theater",
-    "description": "",
+    "description": "This provides unique styling for the dawnbringer and salve amulet (e) items which are frequently found on the ground in the theater.",
     "inputs": [
         {
             "macroName": "VAR_TOB_DAWNBRINGER_CUSTOMSTYLE",
