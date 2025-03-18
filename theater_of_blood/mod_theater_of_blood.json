@@ -10,11 +10,11 @@
             "type": "style",
             "exampleItem": "Dawnbringer",
             "default": {
-                "backgroundColor": "#507a4576",
+                "backgroundColor": "#50ad62a7",
                 "borderColor": "#FFb8a22e",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
-                "menuTextColor": "#FF7a4576"
+                "menuTextColor": "#FFad62a7"
             }
         },
         {
