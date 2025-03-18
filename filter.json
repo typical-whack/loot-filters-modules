@@ -28,6 +28,9 @@
             "modulePath": "theater_of_blood/mod_theater_of_blood.json"
         },
         {
+            "modulePath": "tombs_of_amascut/mod_tombs_of_amascut.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {

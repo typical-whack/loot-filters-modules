@@ -1,0 +1,252 @@
+{
+    "name": "Tombs of Amascut",
+    "rs2fPath": "mod_tombs_of_amascut.rs2f",
+    "subtitle": "Beneath blessed sands",
+    "description": "",
+    "inputs": [
+        {
+            "macroName": "VAR_TOA_SUPPLIES_HIDE",
+            "label": "Supplies to hide",
+            "group": "TOA Item Filters",
+            "type": "enumlist",
+            "enum": [
+                "Honey locust",
+                "Ambrosia",
+                "Blessed crystal scarab",
+                "Liquid adrenaline",
+                "Nectar",
+                "Silk dressing",
+                "Smelling salts",
+                "Tears of Elidinis"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_TOA_ROOM_ITEMS_HIDE",
+            "label": "Room items to hide",
+            "group": "TOA Item Filters",
+            "type": "enumlist",
+            "enum": [
+                "Neutralising potion"
+            ],
+            "default": [
+                "Neutralising potion"
+            ]
+        },
+        {
+            "macroName": "VAR_TOA_MVP_ITEMS_HIDE",
+            "label": "MVP items to hide",
+            "group": "TOA Item Filters",
+            "type": "enumlist",
+            "enum": [
+                "Big banana",
+                "Eldritch ashes",
+                "Fang",
+                "Scarab dung"
+            ],
+            "default": [
+                "Big banana",
+                "Eldritch ashes",
+                "Fang",
+                "Scarab dung"
+            ]
+        },
+        {
+            "macroName": "VAR_TOA_BOOKS_HIDE",
+            "label": "Books to hide",
+            "group": "TOA Item Filters",
+            "type": "enumlist",
+            "enum": [
+                "Akila's journal",
+                "Apmeken's Capture",
+                "Crondis' Capture",
+                "Het's Capture",
+                "Scabaras' Capture",
+                "The Wardens",
+                "The Jackal's Torch"
+            ],
+            "default": [
+                "Akila's journal",
+                "Apmeken's Capture",
+                "Crondis' Capture",
+                "Het's Capture",
+                "Scabaras' Capture",
+                "The Wardens",
+                "The Jackal's Torch"
+            ]
+        },
+        {
+            "macroName": "VAR_BIG_BANANA_CUSTOMSTYLE",
+            "label": "Big banana",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50cbca49",
+                "borderColor": "#FFcbca49",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFcbca49",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_ELDRITCH_ASHES_CUSTOMSTYLE",
+            "label": "Eldritch ashes",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50acb6b7",
+                "borderColor": "#FFacb6b7",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFacb6b7",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_FANG_CUSTOMSTYLE",
+            "label": "Fang",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50c6c6be",
+                "borderColor": "#FF882a22",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFc6c6be",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_SCARAB_DUNG_CUSTOMSTYLE",
+            "label": "Scarab dung",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50985d37",
+                "borderColor": "#FF985d37",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF985d37",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_NEUTRALISING_POTION_CUSTOMSTYLE",
+            "label": "Neutralising potion",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#500d8011",
+                "borderColor": "#FFe7dbbd",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF0d8011"
+            }
+        },
+        {
+            "macroName": "VAR_HONEY_LOCUST_CUSTOMSTYLE",
+            "label": "Honey locust",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50d3b91a",
+                "borderColor": "#FF9b5826",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFd3b91a"
+            }
+        },
+        {
+            "macroName": "VAR_AMBROSIA_CUSTOMSTYLE",
+            "label": "Ambrosia",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50d6e4d7",
+                "borderColor": "#FFdac898",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFd6e4d7"
+            }
+        },
+        {
+            "macroName": "VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE",
+            "label": "Blessed crystal scarab",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#508d3833",
+                "borderColor": "#FF3c3737",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF8d3833"
+            }
+        },
+        {
+            "macroName": "VAR_LIQUID_ADRENALINE_CUSTOMSTYLE",
+            "label": "Liquid adrenaline",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#5035c6d7",
+                "borderColor": "#FFc5af70",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF35c6d7"
+            }
+        },
+        {
+            "macroName": "VAR_NECTAR_CUSTOMSTYLE",
+            "label": "Nectar",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50f1cb51",
+                "borderColor": "#FFc7b171",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFf1cb51"
+            }
+        },
+        {
+            "macroName": "VAR_SILK_DRESSING_CUSTOMSTYLE",
+            "label": "Silk dressing",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50ab9f9f",
+                "borderColor": "#FF300d0b",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFab9f9f"
+            }
+        },
+        {
+            "macroName": "VAR_SMELLING_SALTS_CUSTOMSTYLE",
+            "label": "Smelling salts",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50564545",
+                "borderColor": "#FFe7cb1d",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF5a4846"
+            }
+        },
+        {
+            "macroName": "VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE",
+            "label": "Tears of Elidinis",
+            "group": "TOA Item Styles",
+            "type": "style",
+            "default": {
+                "backgroundColor": "#50e285b9",
+                "borderColor": "#FFd1b977",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFe285b9"
+            }
+        }
+    ]
+}
