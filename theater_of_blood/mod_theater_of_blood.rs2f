@@ -1,4 +1,4 @@
-// module:chambers_of_xeric
+// module:theater_of_blood
 
 #define CONST_TOB_AREA [3153, 4233, 0, 3322, 4479, 0]
 
@@ -16,4 +16,4 @@ apply (name:"Salve amulet (e)") {
 
 
 
-// endmodule:chambers_of_xeric
+// endmodule:theater_of_blood
