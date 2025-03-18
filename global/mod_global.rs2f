@@ -5,7 +5,13 @@
 
 #define VAR_GLOBAL_CUSTOMSTYLE 
 
+#define VAR_GLOBAL_MINIMUM_VALUE
 
+
+
+apply (value:<VAR_GLOBAL_MINIMUM_VALUE) {
+    hidden = true;
+}
 
 apply (name:"*") {
     VAR_GLOBAL_CUSTOMSTYLE 
