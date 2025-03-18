@@ -25,6 +25,9 @@
             "modulePath": "chambers_of_xeric/mod_chambers_of_xeric.json"
         },
         {
+            "modulePath": "theater_of_blood/mod_theater_of_blood.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {

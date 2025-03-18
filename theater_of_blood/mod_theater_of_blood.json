@@ -1,0 +1,34 @@
+{
+    "name": "Theater of Blood",
+    "rs2fPath": "mod_theater_of_blood.rs2f",
+    "subtitle": "Enter the Theater",
+    "description": "",
+    "inputs": [
+        {
+            "macroName": "VAR_TOB_DAWNBRINGER_CUSTOMSTYLE",
+            "label": "Dawnbringer custom style",
+            "type": "style",
+            "exampleItem": "Dawnbringer",
+            "default": {
+                "backgroundColor": "#507a4576",
+                "borderColor": "#FFb8a22e",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FF7a4576"
+            }
+        },
+        {
+            "macroName": "VAR_TOB_SALVE_CUSTOMSTYLE",
+            "label": "Salve custom style",
+            "type": "style",
+            "exampleItem": "Salve amulet (e)",
+            "default": {
+                "backgroundColor": "#50e39cb1",
+                "borderColor": "#FFf5f3f3",
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "menuTextColor": "#FFe39cb1"
+            }
+        }
+    ]
+}
