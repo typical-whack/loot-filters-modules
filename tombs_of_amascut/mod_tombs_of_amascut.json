@@ -10,14 +10,38 @@
             "group": "TOA Item Filters",
             "type": "enumlist",
             "enum": [
-                "Honey locust",
-                "Ambrosia",
-                "Blessed crystal scarab",
-                "Liquid adrenaline",
-                "Nectar",
-                "Silk dressing",
-                "Smelling salts",
-                "Tears of Elidinis"
+                {
+                    "value": "Honey locust (*",
+                    "label": "Honey locust"
+                },
+                {
+                    "value": "Ambrosia (*",
+                    "label": "Ambrosia"
+                },
+                {
+                    "value": "Blessed crystal scarab (*",
+                    "label": "Blessed crystal scarab"
+                },
+                {
+                    "value": "Liquid adrenaline (*",
+                    "label": "Liquid adrenaline"
+                },
+                {
+                    "value": "Nectar (*",
+                    "label": "Nectar"
+                },
+                {
+                    "value": "Silk dressing (*",
+                    "label": "Silk dressing"
+                },
+                {
+                    "value": "Smelling salts (*",
+                    "label": "Smelling salts"
+                },
+                {
+                    "value": "Tears of Elidinis (*",
+                    "label": "Tears of Elidinis"
+                }
             ],
             "default": []
         },
