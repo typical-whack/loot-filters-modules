@@ -163,7 +163,7 @@
             "group": "TOA Item Styles",
             "type": "style",
             "default": {
-                "backgroundColor": "#5fcfdfc",
+                "backgroundColor": "#50fcfdfc",
                 "borderColor": "#FFfcfdfc",
                 "textColor": "#FFFFFFFF",
                 "textAccentColor": "#FF000000",
