@@ -1,5 +1,9 @@
 // module:global
 
+meta {
+  name = "Joe's Filter for Persnickety Players";
+}
+
 #define VAR_GLOBAL_HIDE []
 #define VAR_GLOBAL_SHOW []
 
