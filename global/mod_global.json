@@ -28,6 +28,12 @@
             "label": "Minimum item value to show",
             "type": "number",
             "default": 0
+        },
+        {
+            "macroName": "VAR_GLOBAL_ENABLE_ITEM_ICONS",
+            "label": "Enable item icons",
+            "type": "boolean",
+            "default": true
         }
     ]
 }
