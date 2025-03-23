@@ -31,6 +31,12 @@
             "modulePath": "tombs_of_amascut/mod_tombs_of_amascut.json"
         },
         {
+            "modulePath": "god_wars_dungeon/mod_god_wars_dungeon.json"
+        },
+        {
+            "modulePath": "god_wars_dungeon/general_graardor/mod_general_graardor.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {

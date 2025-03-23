@@ -35,115 +35,115 @@
 
 
 
-if (name:VAR_COX_FISH_HIDE) {
+apply (area:CONST_COX_AREA && name:VAR_COX_FISH_HIDE) {
     hidden = true;
 }
-if (name:VAR_COX_BATS_HIDE) {
+apply (area:CONST_COX_AREA && name:VAR_COX_BATS_HIDE) {
     hidden = true;
 }
-if (name:VAR_COX_SEEDS_HIDE) {
+apply (area:CONST_COX_AREA && name:VAR_COX_SEEDS_HIDE) {
     hidden = true;
 }
-if (name:VAR_COX_MISC_DROPS_HIDE) {
+apply (area:CONST_COX_AREA && name:VAR_COX_MISC_DROPS_HIDE) {
     hidden = true;
 }
-apply (name:["elder (-)*", "elder potion*", "elder (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["elder (-)*", "elder potion*", "elder (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["twisted (-)*", "twisted potion*", "twisted (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["twisted (-)*", "twisted potion*", "twisted (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["kodai (-)*", "kodai potion*", "kodai (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["kodai (-)*", "kodai potion*", "kodai (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
 
 
 
-apply (name:["elder (-)*", "elder potion*", "elder (+)*"]) {
+apply (area:CONST_COX_AREA && name:["elder (-)*", "elder potion*", "elder (+)*"]) {
     VAR_COX_ELDER_CUSTOMSTYLE 
 }
-apply (name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
+apply (area:CONST_COX_AREA && name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
     VAR_COX_TWISTED_CUSTOMSTYLE 
 }
-apply (name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
+apply (area:CONST_COX_AREA && name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
     VAR_COX_KODAI_CUSTOMSTYLE 
 }
-apply (name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
     VAR_COX_REVITALISATION_CUSTOMSTYLE 
 }
-apply (name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
     VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
 }
-apply (name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
     VAR_COX_XERICS_AID_CUSTOMSTYLE 
 }
-apply (name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
+apply (area:CONST_COX_AREA && name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
     VAR_COX_ANTIPOISON_CUSTOMSTYLE 
 }
-apply (name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
+apply (area:CONST_COX_AREA && name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
     VAR_COX_OVERLOAD_CUSTOMSTYLE 
 }
-apply (name:"Golpar seed") {
+apply (area:CONST_COX_AREA && name:"Golpar seed") {
     VAR_GOLPAR_SEED_CUSTOMSTYLE 
 }
-apply (name:"Buchu seed") {
+apply (area:CONST_COX_AREA && name:"Buchu seed") {
     VAR_BUCHU_SEED_CUSTOMSTYLE 
 }
-apply (name:"Noxifer seed") {
+apply (area:CONST_COX_AREA && name:"Noxifer seed") {
     VAR_NOXIFER_SEED_CUSTOMSTYLE 
 }
-apply (name:"Grimy golpar") {
+apply (area:CONST_COX_AREA && name:"Grimy golpar") {
     VAR_GRIMY_GOLPAR_CUSTOMSTYLE 
 }
-apply (name:"Grimy buchu leaf") {
+apply (area:CONST_COX_AREA && name:"Grimy buchu leaf") {
     VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE 
 }
-apply (name:"Grimy noxifer") {
+apply (area:CONST_COX_AREA && name:"Grimy noxifer") {
     VAR_GRIMY_NOXIFER_CUSTOMSTYLE 
 }
-apply (name:"golpar") {
+apply (area:CONST_COX_AREA && name:"golpar") {
     VAR_GOLPAR_CUSTOMSTYLE 
 }
-apply (name:"buchu leaf") {
+apply (area:CONST_COX_AREA && name:"buchu leaf") {
     VAR_BUCHU_LEAF_CUSTOMSTYLE 
 }
-apply (name:"noxifer") {
+apply (area:CONST_COX_AREA && name:"noxifer") {
     VAR_NOXIFER_CUSTOMSTYLE 
 }
-apply (name:"Endarkened juice") {
+apply (area:CONST_COX_AREA && name:"Endarkened juice") {
     VAR_ENDARKENED_JUICE_CUSTOMSTYLE 
 }
-apply (name:"Stinkhorn mushroom") {
+apply (area:CONST_COX_AREA && name:"Stinkhorn mushroom") {
     VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE 
 }
-apply (name:"Cicely") {
+apply (area:CONST_COX_AREA && name:"Cicely") {
     VAR_CICELY_CUSTOMSTYLE 
 }
-apply (name:"Mallignum root plank") {
+apply (area:CONST_COX_AREA && name:"Mallignum root plank") {
     VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE 
 }
-apply (name:"Cavern grubs") {
+apply (area:CONST_COX_AREA && name:"Cavern grubs") {
     VAR_CAVERN_GRUBS_CUSTOMSTYLE 
 }
-apply (name:"Empty gourd vial") {
+apply (area:CONST_COX_AREA && name:"Empty gourd vial") {
     VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE 
 }
-apply (name:"Water-filled gourd vial") {
+apply (area:CONST_COX_AREA && name:"Water-filled gourd vial") {
     VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE 
 }
 

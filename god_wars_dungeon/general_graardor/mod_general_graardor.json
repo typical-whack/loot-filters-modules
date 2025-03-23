@@ -30,21 +30,23 @@
                 "includes": [
                     "Coins",
                     "Grimy snapdragon",
+                    "Snapdragon seed",
                     "Adamantite ore",
                     "Coal",
-                    "Magic logs"
-                ],
-                "excludes": [
+                    "Magic logs",
+                    "Limpwurt root",
                     "Rune longsword",
                     "Rune 2h sword",
                     "Rune platebody",
-                    "Rune pickaxe",
+                    "Rune pickaxe"
+                ],
+                "excludes": [
                     "Snapdragon seed",
                     "Nature rune",
                     "Cosmic rune",
                     "Steel arrow",
-                    "Limpwurt root",
-                    "Steel dart"
+                    "Steel dart",
+                    "Right eye patch"
                 ]
             }
         },
@@ -66,7 +68,8 @@
                 ],
                 "excludes": [
                     "Combat potion(3)",
-                    "Super strength(3)"
+                    "Super strength(3)",
+                    "Beer"
                 ]
             }
         }

@@ -23,16 +23,16 @@
 
 
 
-if (name:VAR_TOA_SUPPLIES_HIDE) {
+apply (name:VAR_TOA_SUPPLIES_HIDE) {
     hidden = true;
 }
-if (name:VAR_TOA_ROOM_ITEMS_HIDE) {
+apply (name:VAR_TOA_ROOM_ITEMS_HIDE) {
     hidden = true;
 }
-if (name:VAR_TOA_MVP_ITEMS_HIDE) {
+apply (name:VAR_TOA_MVP_ITEMS_HIDE) {
     hidden = true;
 }
-if (name:VAR_TOA_BOOKS_HIDE) {
+apply (name:VAR_TOA_BOOKS_HIDE) {
     hidden = true;
 }
 
