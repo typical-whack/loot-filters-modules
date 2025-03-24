@@ -10,6 +10,7 @@ meta {
 #define VAR_GLOBAL_CUSTOMSTYLE 
 
 #define VAR_GLOBAL_MINIMUM_VALUE
+#define VAR_GLOBAL_ENABLE_ITEM_ICONS
 
 
 
@@ -27,6 +28,9 @@ apply (name:VAR_GLOBAL_HIDE) {
 
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
+}
+apply (VAR_GLOBAL_ENABLE_ITEM_ICONS) {
+    icon = Item(0)
 }
 
 
