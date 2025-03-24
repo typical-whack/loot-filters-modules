@@ -30,7 +30,7 @@ apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
 apply (VAR_GLOBAL_ENABLE_ITEM_ICONS) {
-    icon = Item(0)
+    icon = Item(0);
 }
 
 
