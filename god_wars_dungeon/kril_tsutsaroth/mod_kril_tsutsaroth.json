@@ -31,20 +31,20 @@
                     "Coins",
                     "Rune platelegs",
                     "Grimy lantadyme",
+                    "Lantadyme seed",
                     "Death rune",
-                    "Blood rune"
+                    "Blood rune",
+                    "Wine of zamorak",
+                    "Rune scimitar",
+                    "Adamant platebody",
+                    "Dragon dagger(p++)"
                 ],
                 "excludes": [
                     "Infernal ashes",
                     "Malicious ashes",
                     "Adamant arrow(p++)",
-                    "Rune scimitar",
-                    "Adamant platebody",
-                    "Dragon dagger(p++)",
-                    "Lantadyme seed",
                     "Steel dart",
-                    "Steel arrow",
-                    "Wine of zamorak"
+                    "Steel arrow"
                 ]
             }
         },

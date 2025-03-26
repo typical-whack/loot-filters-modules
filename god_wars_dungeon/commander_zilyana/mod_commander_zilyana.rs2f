@@ -14,34 +14,25 @@
 
 
 
-#define VAR_DISABLE_COMMANDER_ZILYANA_MODULE 
-
-apply (!VAR_DISABLE_COMMANDER_ZILYANA_MODULE) {
-
-    apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_UNIQUES_HIDE) {
-        hidden = true;
-    }
-
-    apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_COMMON_HIDE) {
-        hidden = true;
-    }
-
-    apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_SUPPLY_HIDE) {
-        hidden = true;
-    }
-
-    apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_UNIQUES_SHOW) {
-        hidden = false;
-    }
-
-    apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_COMMON_SHOW) {
-        hidden = false;
-    }
-
-    apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_SUPPLY_SHOW) {
-        hidden = false;
-    }
-
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_UNIQUES_HIDE) {
+    hidden = true;
 }
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+
 
 // endmodule:commander_zilyana

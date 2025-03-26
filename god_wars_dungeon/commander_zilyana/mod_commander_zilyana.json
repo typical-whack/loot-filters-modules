@@ -31,20 +31,19 @@
                     "Coins",
                     "Grimy ranarr weed",
                     "Ranarr seed",
-                    "Magic seed"
-                ],
-                "excludes": [
+                    "Magic seed",
                     "Adamant platebody",
                     "Rune dart",
                     "Rune kiteshield",
                     "Rune plateskirt",
-                    "Diamond",
                     "Law rune",
+                    "Diamond",
+                    "Snape grass"
+                ],
+                "excludes": [
                     "Steel arrow",
                     "Steel dart",
-                    "Summer pie",
-                    "Unicorn horn",
-                    "Snape grass"
+                    "Unicorn horn"
                 ]
             }
         },
@@ -62,6 +61,7 @@
                     "Magic potion(3)",
                     "Saradomin brew(3)",
                     "Super restore(4)",
+                    "Summer pie",
                     "Monkfish"
                 ],
                 "excludes": [

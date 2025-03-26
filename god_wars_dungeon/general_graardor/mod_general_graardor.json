@@ -33,6 +33,8 @@
                     "Snapdragon seed",
                     "Adamantite ore",
                     "Coal",
+                    "Nature rune",
+                    "Cosmic rune",
                     "Magic logs",
                     "Limpwurt root",
                     "Rune longsword",
@@ -41,9 +43,6 @@
                     "Rune pickaxe"
                 ],
                 "excludes": [
-                    "Snapdragon seed",
-                    "Nature rune",
-                    "Cosmic rune",
                     "Steel arrow",
                     "Steel dart",
                     "Right eye patch"

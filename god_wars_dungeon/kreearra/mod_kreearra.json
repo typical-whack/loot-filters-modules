@@ -30,7 +30,12 @@
                 "includes": [
                     "Coins",
                     "Grimy dwarf weed",
-                    "Yew seed"
+                    "Dwarf weed seed",
+                    "Dragonstone bolts (e)",
+                    "Smoke rune",
+                    "Yew seed",
+                    "Crushed nest",
+                    "Grimy kwuarm"
                 ],
                 "excludes": [
                     "Feather",
@@ -39,13 +44,9 @@
                     "Mind rune",
                     "Rune arrow",
                     "Runite bolts",
-                    "Dragonstone bolts (e)",
                     "Crystal key",
                     "Steel dart",
-                    "Smoke rune",
-                    "Steel arrow",
-                    "Crushed nest",
-                    "Grimy kwuarm"
+                    "Steel arrow"
                 ]
             }
         },
