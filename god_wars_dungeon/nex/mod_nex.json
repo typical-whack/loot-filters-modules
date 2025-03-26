@@ -49,15 +49,14 @@
                     "Cannonball",
                     "Uncut ruby",
                     "Uncut diamond",
-                    "Wine of zamorak"
-                ],
-                "excludes": [
+                    "Wine of zamorak",
                     "Air rune",
                     "Fire rune",
                     "Water rune",
                     "Air orb",
                     "Coal"
-                ]
+                ],
+                "excludes": []
             }
         },
         {
