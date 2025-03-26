@@ -37,6 +37,18 @@
             "modulePath": "god_wars_dungeon/general_graardor/mod_general_graardor.json"
         },
         {
+            "modulePath": "god_wars_dungeon/commander_zilyana/mod_commander_zilyana.json"
+        },
+        {
+            "modulePath": "god_wars_dungeon/kreearra/mod_kreearra.json"
+        },
+        {
+            "modulePath": "god_wars_dungeon/kril_tsutsaroth/mod_kril_tsutsaroth.json"
+        },
+        {
+            "modulePath": "god_wars_dungeon/nex/mod_nex.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {
