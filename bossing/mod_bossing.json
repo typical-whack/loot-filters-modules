@@ -15,7 +15,12 @@
                 "Godsword shard 3",
                 "Hammer"
             ],
-            "default": []
+            "default": [
+                "Godsword shard 1",
+                "Godsword shard 2",
+                "Godsword shard 3",
+                "Hammer"
+            ]
         },
         {
             "macroName": "VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE",
@@ -36,7 +41,12 @@
                 "Armadyl crossbow",
                 "Saradomin hilt"
             ],
-            "default": []
+            "default": [
+                "Saradomin sword",
+                "Saradomin's light",
+                "Armadyl crossbow",
+                "Saradomin hilt"
+            ]
         },
         {
             "macroName": "VAR_COMMANDER_ZILYANA_UNIQUES_HIDE",
@@ -64,7 +74,19 @@
                 "Diamond",
                 "Snape grass"
             ],
-            "default": []
+            "default": [
+                "Coins",
+                "Grimy ranarr weed",
+                "Ranarr seed",
+                "Magic seed",
+                "Adamant platebody",
+                "Rune dart",
+                "Rune kiteshield",
+                "Rune plateskirt",
+                "Law rune",
+                "Diamond",
+                "Snape grass"
+            ]
         },
         {
             "macroName": "VAR_COMMANDER_ZILYANA_COMMON_HIDE",
@@ -76,7 +98,11 @@
                 "Steel dart",
                 "Unicorn horn"
             ],
-            "default": []
+            "default": [
+                "Steel arrow",
+                "Steel dart",
+                "Unicorn horn"
+            ]
         },
         {
             "macroName": "VAR_COMMANDER_ZILYANA_SUPPLY_SHOW",
@@ -92,7 +118,15 @@
                 "Summer pie",
                 "Monkfish"
             ],
-            "default": []
+            "default": [
+                "Prayer potion(4)",
+                "Super defence(3)",
+                "Magic potion(3)",
+                "Saradomin brew(3)",
+                "Super restore(4)",
+                "Summer pie",
+                "Monkfish"
+            ]
         },
         {
             "macroName": "VAR_COMMANDER_ZILYANA_SUPPLY_HIDE",
@@ -102,7 +136,9 @@
             "enum": [
                 "Bones"
             ],
-            "default": []
+            "default": [
+                "Bones"
+            ]
         },
         {
             "macroName": "VAR_GENERAL_GRAARDOR_UNIQUES_SHOW",
@@ -115,7 +151,12 @@
                 "Bandos boots",
                 "Bandos hilt"
             ],
-            "default": []
+            "default": [
+                "Bandos chestplate",
+                "Bandos tassets",
+                "Bandos boots",
+                "Bandos hilt"
+            ]
         },
         {
             "macroName": "VAR_GENERAL_GRAARDOR_UNIQUES_HIDE",
@@ -145,7 +186,21 @@
                 "Rune platebody",
                 "Rune pickaxe"
             ],
-            "default": []
+            "default": [
+                "Coins",
+                "Grimy snapdragon",
+                "Snapdragon seed",
+                "Adamantite ore",
+                "Coal",
+                "Nature rune",
+                "Cosmic rune",
+                "Magic logs",
+                "Limpwurt root",
+                "Rune longsword",
+                "Rune 2h sword",
+                "Rune platebody",
+                "Rune pickaxe"
+            ]
         },
         {
             "macroName": "VAR_GENERAL_GRAARDOR_COMMON_HIDE",
@@ -157,7 +212,11 @@
                 "Steel dart",
                 "Right eye patch"
             ],
-            "default": []
+            "default": [
+                "Steel arrow",
+                "Steel dart",
+                "Right eye patch"
+            ]
         },
         {
             "macroName": "VAR_GENERAL_GRAARDOR_SUPPLY_SHOW",
@@ -172,7 +231,14 @@
                 "Chilli potato",
                 "Kebab"
             ],
-            "default": []
+            "default": [
+                "Bones",
+                "Big bones",
+                "Super restore(4)",
+                "Shark",
+                "Chilli potato",
+                "Kebab"
+            ]
         },
         {
             "macroName": "VAR_GENERAL_GRAARDOR_SUPPLY_HIDE",
@@ -184,7 +250,11 @@
                 "Super strength(3)",
                 "Beer"
             ],
-            "default": []
+            "default": [
+                "Combat potion(3)",
+                "Super strength(3)",
+                "Beer"
+            ]
         },
         {
             "macroName": "VAR_KREE_UNIQUES_SHOW",
@@ -197,7 +267,12 @@
                 "Armadyl chainskirt",
                 "Armadyl hilt"
             ],
-            "default": []
+            "default": [
+                "Armadyl helmet",
+                "Armadyl chestplate",
+                "Armadyl chainskirt",
+                "Armadyl hilt"
+            ]
         },
         {
             "macroName": "VAR_KREE_UNIQUES_HIDE",
@@ -222,7 +297,16 @@
                 "Crushed nest",
                 "Grimy kwuarm"
             ],
-            "default": []
+            "default": [
+                "Coins",
+                "Grimy dwarf weed",
+                "Dwarf weed seed",
+                "Dragonstone bolts (e)",
+                "Smoke rune",
+                "Yew seed",
+                "Crushed nest",
+                "Grimy kwuarm"
+            ]
         },
         {
             "macroName": "VAR_KREE_COMMON_HIDE",
@@ -240,7 +324,17 @@
                 "Steel dart",
                 "Steel arrow"
             ],
-            "default": []
+            "default": [
+                "Feather",
+                "Black d'hide body",
+                "Rune crossbow",
+                "Mind rune",
+                "Rune arrow",
+                "Runite bolts",
+                "Crystal key",
+                "Steel dart",
+                "Steel arrow"
+            ]
         },
         {
             "macroName": "VAR_KREE_SUPPLY_SHOW",
@@ -255,7 +349,14 @@
                 "Manta ray",
                 "Mushroom potato"
             ],
-            "default": []
+            "default": [
+                "Bones",
+                "Big bones",
+                "Ranging potion(3)",
+                "Super defence(3)",
+                "Manta ray",
+                "Mushroom potato"
+            ]
         },
         {
             "macroName": "VAR_KREE_SUPPLY_HIDE",
@@ -276,7 +377,12 @@
                 "Staff of the dead",
                 "Zamorak hilt"
             ],
-            "default": []
+            "default": [
+                "Steam battlestaff",
+                "Zamorakian spear",
+                "Staff of the dead",
+                "Zamorak hilt"
+            ]
         },
         {
             "macroName": "VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE",
@@ -303,7 +409,18 @@
                 "Adamant platebody",
                 "Dragon dagger(p++)"
             ],
-            "default": []
+            "default": [
+                "Coins",
+                "Rune platelegs",
+                "Grimy lantadyme",
+                "Lantadyme seed",
+                "Death rune",
+                "Blood rune",
+                "Wine of zamorak",
+                "Rune scimitar",
+                "Adamant platebody",
+                "Dragon dagger(p++)"
+            ]
         },
         {
             "macroName": "VAR_KRIL_TSUTSAROTH_COMMON_HIDE",
@@ -317,7 +434,13 @@
                 "Steel dart",
                 "Steel arrow"
             ],
-            "default": []
+            "default": [
+                "Infernal ashes",
+                "Malicious ashes",
+                "Adamant arrow(p++)",
+                "Steel dart",
+                "Steel arrow"
+            ]
         },
         {
             "macroName": "VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW",
@@ -329,7 +452,11 @@
                 "Tuna potato",
                 "Super restore(3)"
             ],
-            "default": []
+            "default": [
+                "Shark",
+                "Tuna potato",
+                "Super restore(3)"
+            ]
         },
         {
             "macroName": "VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE",
@@ -341,7 +468,11 @@
                 "Super attack(3)",
                 "Super strength(3)"
             ],
-            "default": []
+            "default": [
+                "Zamorak brew(3)",
+                "Super attack(3)",
+                "Super strength(3)"
+            ]
         },
         {
             "macroName": "VAR_NEX_UNIQUES_SHOW",
@@ -361,7 +492,19 @@
                 "Ancient ceremonial gloves",
                 "Ancient ceremonial boots"
             ],
-            "default": []
+            "default": [
+                "Zaryte vambraces",
+                "Nihil horn",
+                "Torva full helm (damaged)",
+                "Torva platebody (damaged)",
+                "Torva platelegs (damaged)",
+                "Ancient hilt",
+                "Ancient ceremonial mask",
+                "Ancient ceremonial top",
+                "Ancient ceremonial legs",
+                "Ancient ceremonial gloves",
+                "Ancient ceremonial boots"
+            ]
         },
         {
             "macroName": "VAR_NEX_UNIQUES_HIDE",
@@ -398,7 +541,28 @@
                 "Air orb",
                 "Coal"
             ],
-            "default": []
+            "default": [
+                "Rune sword",
+                "Runite ore",
+                "Ecumenical key shard",
+                "Nihil shard",
+                "Blood essence",
+                "Onyx bolts (e)",
+                "Dragon bolts (unf)",
+                "Coins",
+                "Blood rune",
+                "Death rune",
+                "Soul rune",
+                "Cannonball",
+                "Uncut ruby",
+                "Uncut diamond",
+                "Wine of zamorak",
+                "Air rune",
+                "Fire rune",
+                "Water rune",
+                "Air orb",
+                "Coal"
+            ]
         },
         {
             "macroName": "VAR_NEX_COMMON_HIDE",
@@ -419,7 +583,12 @@
                 "Saradomin brew(4)",
                 "Super restore(4)"
             ],
-            "default": []
+            "default": [
+                "Shark",
+                "Prayer potion(4)",
+                "Saradomin brew(4)",
+                "Super restore(4)"
+            ]
         },
         {
             "macroName": "VAR_NEX_SUPPLY_HIDE",
