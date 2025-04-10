@@ -12,6 +12,12 @@
             "default": {}
         },
         {
+            "macroName": "VAR_GLOBAL_SHOW_ICONS",
+            "label": "Show Item Icons",
+            "type": "boolean",
+            "default": true
+        },
+        {
             "macroName": {
                 "includes": "VAR_GLOBAL_SHOW",
                 "excludes": "VAR_GLOBAL_HIDE"
