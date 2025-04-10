@@ -128,7 +128,8 @@
                 "Saradomin brew(3)",
                 "Super restore(4)",
                 "Summer pie",
-                "Monkfish"
+                "Monkfish",
+                "Bones"
             ],
             "default": [
                 "Prayer potion(4)",
@@ -146,6 +147,13 @@
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
+                "Prayer potion(4)",
+                "Super defence(3)",
+                "Magic potion(3)",
+                "Saradomin brew(3)",
+                "Super restore(4)",
+                "Summer pie",
+                "Monkfish",
                 "Bones"
             ],
             "default": [
@@ -262,7 +270,10 @@
                 "Super restore(4)",
                 "Shark",
                 "Chilli potato",
-                "Kebab"
+                "Kebab",
+                "Combat potion(3)",
+                "Super strength(3)",
+                "Beer"
             ],
             "default": [
                 "Bones",
@@ -279,6 +290,12 @@
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
+                "Bones",
+                "Big bones",
+                "Super restore(4)",
+                "Shark",
+                "Chilli potato",
+                "Kebab",
                 "Combat potion(3)",
                 "Super strength(3)",
                 "Beer"
@@ -532,7 +549,10 @@
             "enum": [
                 "Shark",
                 "Tuna potato",
-                "Super restore(3)"
+                "Super restore(3)",
+                "Zamorak brew(3)",
+                "Super attack(3)",
+                "Super strength(3)"
             ],
             "default": [
                 "Shark",
@@ -546,6 +566,9 @@
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
+                "Shark",
+                "Tuna potato",
+                "Super restore(3)",
                 "Zamorak brew(3)",
                 "Super attack(3)",
                 "Super strength(3)"
