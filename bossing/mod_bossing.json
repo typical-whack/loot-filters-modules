@@ -5,6 +5,13 @@
     "description": "This provides area-based item filtering for bosses.",
     "inputs": [
         {
+            "macroName": "VAR_SOME_TEXT",
+            "label": "Something",
+            "group": "God Wars Dungeon",
+            "type": "text",
+            "default": "testing testing 123"
+        },
+        {
             "macroName": {
                 "includes": "VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW",
                 "excludes": "VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE"
