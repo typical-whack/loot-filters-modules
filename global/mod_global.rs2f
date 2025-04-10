@@ -13,6 +13,10 @@ apply (value:<VAR_GLOBAL_MINIMUM_VALUE) {
     hidden = true;
 }
 
+apply (VAR_GLOBAL_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+
 apply (name:"*") {
     VAR_GLOBAL_CUSTOMSTYLE 
 }
