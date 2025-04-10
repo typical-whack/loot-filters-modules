@@ -3787,11 +3787,3 @@ apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
 }
 
 // endmodule:rdt
-
-// module:terminate
-
-if (name:"*") {
-
-}
-
-// endmodule:terminate
