@@ -46,7 +46,12 @@
             "label": "Commander Zilyana uniques hide",
             "group": "Commander Zilyana",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Saradomin sword",
+                "Saradomin's light",
+                "Armadyl crossbow",
+                "Saradomin hilt"
+            ],
             "default": []
         },
         {
@@ -65,7 +70,10 @@
                 "Rune plateskirt",
                 "Law rune",
                 "Diamond",
-                "Snape grass"
+                "Snape grass",
+                "Steel arrow",
+                "Steel dart",
+                "Unicorn horn"
             ],
             "default": [
                 "Coins",
@@ -87,6 +95,17 @@
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
+                "Coins",
+                "Grimy ranarr weed",
+                "Ranarr seed",
+                "Magic seed",
+                "Adamant platebody",
+                "Rune dart",
+                "Rune kiteshield",
+                "Rune plateskirt",
+                "Law rune",
+                "Diamond",
+                "Snape grass",
                 "Steel arrow",
                 "Steel dart",
                 "Unicorn horn"
@@ -156,7 +175,12 @@
             "label": "General Graardor uniques hide",
             "group": "General Graardor",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Bandos chestplate",
+                "Bandos tassets",
+                "Bandos boots",
+                "Bandos hilt"
+            ],
             "default": []
         },
         {
@@ -177,7 +201,10 @@
                 "Rune longsword",
                 "Rune 2h sword",
                 "Rune platebody",
-                "Rune pickaxe"
+                "Rune pickaxe",
+                "Steel arrow",
+                "Steel dart",
+                "Right eye patch"
             ],
             "default": [
                 "Coins",
@@ -201,6 +228,19 @@
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
+                "Coins",
+                "Grimy snapdragon",
+                "Snapdragon seed",
+                "Adamantite ore",
+                "Coal",
+                "Nature rune",
+                "Cosmic rune",
+                "Magic logs",
+                "Limpwurt root",
+                "Rune longsword",
+                "Rune 2h sword",
+                "Rune platebody",
+                "Rune pickaxe",
                 "Steel arrow",
                 "Steel dart",
                 "Right eye patch"
@@ -272,7 +312,12 @@
             "label": "Kree'arra uniques hide",
             "group": "Kree'arra",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Armadyl helmet",
+                "Armadyl chestplate",
+                "Armadyl chainskirt",
+                "Armadyl hilt"
+            ],
             "default": []
         },
         {
@@ -288,7 +333,16 @@
                 "Smoke rune",
                 "Yew seed",
                 "Crushed nest",
-                "Grimy kwuarm"
+                "Grimy kwuarm",
+                "Feather",
+                "Black d'hide body",
+                "Rune crossbow",
+                "Mind rune",
+                "Rune arrow",
+                "Runite bolts",
+                "Crystal key",
+                "Steel dart",
+                "Steel arrow"
             ],
             "default": [
                 "Coins",
@@ -307,6 +361,14 @@
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
+                "Coins",
+                "Grimy dwarf weed",
+                "Dwarf weed seed",
+                "Dragonstone bolts (e)",
+                "Smoke rune",
+                "Yew seed",
+                "Crushed nest",
+                "Grimy kwuarm",
                 "Feather",
                 "Black d'hide body",
                 "Rune crossbow",
@@ -356,7 +418,14 @@
             "label": "Kree'arra supply drops hide",
             "group": "Kree'arra",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Bones",
+                "Big bones",
+                "Ranging potion(3)",
+                "Super defence(3)",
+                "Manta ray",
+                "Mushroom potato"
+            ],
             "default": []
         },
         {
@@ -382,7 +451,12 @@
             "label": "K'ril Tsutsaroth uniques hide",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Steam battlestaff",
+                "Zamorakian spear",
+                "Staff of the dead",
+                "Zamorak hilt"
+            ],
             "default": []
         },
         {
@@ -400,7 +474,12 @@
                 "Wine of zamorak",
                 "Rune scimitar",
                 "Adamant platebody",
-                "Dragon dagger(p++)"
+                "Dragon dagger(p++)",
+                "Infernal ashes",
+                "Malicious ashes",
+                "Adamant arrow(p++)",
+                "Steel dart",
+                "Steel arrow"
             ],
             "default": [
                 "Coins",
@@ -421,6 +500,16 @@
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
+                "Coins",
+                "Rune platelegs",
+                "Grimy lantadyme",
+                "Lantadyme seed",
+                "Death rune",
+                "Blood rune",
+                "Wine of zamorak",
+                "Rune scimitar",
+                "Adamant platebody",
+                "Dragon dagger(p++)",
                 "Infernal ashes",
                 "Malicious ashes",
                 "Adamant arrow(p++)",
@@ -504,7 +593,19 @@
             "label": "Nex uniques hide",
             "group": "Nex",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Zaryte vambraces",
+                "Nihil horn",
+                "Torva full helm (damaged)",
+                "Torva platebody (damaged)",
+                "Torva platelegs (damaged)",
+                "Ancient hilt",
+                "Ancient ceremonial mask",
+                "Ancient ceremonial top",
+                "Ancient ceremonial legs",
+                "Ancient ceremonial gloves",
+                "Ancient ceremonial boots"
+            ],
             "default": []
         },
         {
@@ -562,7 +663,28 @@
             "label": "Nex common drops hide",
             "group": "Nex",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Rune sword",
+                "Runite ore",
+                "Ecumenical key shard",
+                "Nihil shard",
+                "Blood essence",
+                "Onyx bolts (e)",
+                "Dragon bolts (unf)",
+                "Coins",
+                "Blood rune",
+                "Death rune",
+                "Soul rune",
+                "Cannonball",
+                "Uncut ruby",
+                "Uncut diamond",
+                "Wine of zamorak",
+                "Air rune",
+                "Fire rune",
+                "Water rune",
+                "Air orb",
+                "Coal"
+            ],
             "default": []
         },
         {
@@ -588,7 +710,12 @@
             "label": "Nex supply drops hide",
             "group": "Nex",
             "type": "enumlist",
-            "enum": [],
+            "enum": [
+                "Shark",
+                "Prayer potion(4)",
+                "Saradomin brew(4)",
+                "Super restore(4)"
+            ],
             "default": []
         }
     ]
