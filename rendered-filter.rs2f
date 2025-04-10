@@ -1,4 +1,4 @@
-meta { name = "Joe's Filter for Persnickety Players"; }
+meta { name = "[default: Joe's filter]"; }
 // module:global
 
 #define VAR_GLOBAL_HIDE []
