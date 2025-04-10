@@ -9,12 +9,6 @@
             "label": "God Wars Dungeon uniques show",
             "group": "God Wars Dungeon",
             "type": "stringlist",
-            "enum": [
-                "Godsword shard 1",
-                "Godsword shard 2",
-                "Godsword shard 3",
-                "Hammer"
-            ],
             "default": [
                 "Godsword shard 1",
                 "Godsword shard 2",
@@ -27,7 +21,6 @@
             "label": "God Wars Dungeon uniques hide",
             "group": "God Wars Dungeon",
             "type": "stringlist",
-            "enum": [],
             "default": []
         },
         {
