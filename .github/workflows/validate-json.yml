@@ -3,16 +3,12 @@ name: Validate JSON
 on:
   push:
     paths:
-      - '**.json'
+      - '**/*.json'
       - '.github/workflows/validate-json.yaml'
-    paths-ignore:
-      - filter.json
   pull_request:
     paths:
-      - '**.json'
+      - '**/*.json'
       - '.github/workflows/validate-json.yaml'
-    paths-ignore:
-      - filter.json
 
   workflow_dispatch:
 
