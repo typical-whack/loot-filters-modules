@@ -1,5 +1,4 @@
 # loot-filters-modules
 
-For use with the loot filters UI
-https://loot-filters.kaqemeex.net/
-
+For use with loot filters runelite plugin and the filterscape UI
+https://filterscape.xyz/
