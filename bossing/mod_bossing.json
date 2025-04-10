@@ -5,381 +5,429 @@
     "description": "This provides area-based item filtering for bosses.",
     "inputs": [
         {
-            "macroName": {
-                "includes": "VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW",
-                "excludes": "VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE"
-            },
-            "label": "God Wars Dungeon uniques",
+            "macroName": "VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW",
+            "label": "God Wars Dungeon uniques show",
             "group": "God Wars Dungeon",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Godsword shard 1",
-                    "Godsword shard 2",
-                    "Godsword shard 3",
-                    "Hammer"
-                ],
-                "excludes": []
-            }
+            "type": "stringlist",
+            "enum": [
+                "Godsword shard 1",
+                "Godsword shard 2",
+                "Godsword shard 3",
+                "Hammer"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_COMMANDER_ZILYANA_UNIQUES_SHOW",
-                "excludes": "VAR_COMMANDER_ZILYANA_UNIQUES_HIDE"
-            },
-            "label": "Commander Zilyana uniques",
+            "macroName": "VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE",
+            "label": "God Wars Dungeon uniques hide",
+            "group": "God Wars Dungeon",
+            "type": "stringlist",
+            "enum": [],
+            "default": []
+        },
+        {
+            "macroName": "VAR_COMMANDER_ZILYANA_UNIQUES_SHOW",
+            "label": "Commander Zilyana uniques show",
             "group": "Commander Zilyana",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Saradomin sword",
-                    "Saradomin's light",
-                    "Armadyl crossbow",
-                    "Saradomin hilt"
-                ],
-                "excludes": []
-            }
+            "type": "enumlist",
+            "enum": [
+                "Saradomin sword",
+                "Saradomin's light",
+                "Armadyl crossbow",
+                "Saradomin hilt"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_COMMANDER_ZILYANA_COMMON_SHOW",
-                "excludes": "VAR_COMMANDER_ZILYANA_COMMON_HIDE"
-            },
-            "label": "Commander Zilyana common drops",
+            "macroName": "VAR_COMMANDER_ZILYANA_UNIQUES_HIDE",
+            "label": "Commander Zilyana uniques hide",
             "group": "Commander Zilyana",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Coins",
-                    "Grimy ranarr weed",
-                    "Ranarr seed",
-                    "Magic seed",
-                    "Adamant platebody",
-                    "Rune dart",
-                    "Rune kiteshield",
-                    "Rune plateskirt",
-                    "Law rune",
-                    "Diamond",
-                    "Snape grass"
-                ],
-                "excludes": [
-                    "Steel arrow",
-                    "Steel dart",
-                    "Unicorn horn"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_COMMANDER_ZILYANA_SUPPLY_SHOW",
-                "excludes": "VAR_COMMANDER_ZILYANA_SUPPLY_HIDE"
-            },
-            "label": "Commander Zilyana supply drops",
+            "macroName": "VAR_COMMANDER_ZILYANA_COMMON_SHOW",
+            "label": "Commander Zilyana common drops show",
             "group": "Commander Zilyana",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Prayer potion(4)",
-                    "Super defence(3)",
-                    "Magic potion(3)",
-                    "Saradomin brew(3)",
-                    "Super restore(4)",
-                    "Summer pie",
-                    "Monkfish"
-                ],
-                "excludes": [
-                    "Bones"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [
+                "Coins",
+                "Grimy ranarr weed",
+                "Ranarr seed",
+                "Magic seed",
+                "Adamant platebody",
+                "Rune dart",
+                "Rune kiteshield",
+                "Rune plateskirt",
+                "Law rune",
+                "Diamond",
+                "Snape grass"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_GENERAL_GRAARDOR_UNIQUES_SHOW",
-                "excludes": "VAR_GENERAL_GRAARDOR_UNIQUES_HIDE"
-            },
-            "label": "General Graardor uniques",
+            "macroName": "VAR_COMMANDER_ZILYANA_COMMON_HIDE",
+            "label": "Commander Zilyana common drops hide",
+            "group": "Commander Zilyana",
+            "type": "enumlist",
+            "enum": [
+                "Steel arrow",
+                "Steel dart",
+                "Unicorn horn"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_COMMANDER_ZILYANA_SUPPLY_SHOW",
+            "label": "Commander Zilyana supply drops show",
+            "group": "Commander Zilyana",
+            "type": "enumlist",
+            "enum": [
+                "Prayer potion(4)",
+                "Super defence(3)",
+                "Magic potion(3)",
+                "Saradomin brew(3)",
+                "Super restore(4)",
+                "Summer pie",
+                "Monkfish"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_COMMANDER_ZILYANA_SUPPLY_HIDE",
+            "label": "Commander Zilyana supply drops hide",
+            "group": "Commander Zilyana",
+            "type": "enumlist",
+            "enum": [
+                "Bones"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_GENERAL_GRAARDOR_UNIQUES_SHOW",
+            "label": "General Graardor uniques show",
             "group": "General Graardor",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Bandos chestplate",
-                    "Bandos tassets",
-                    "Bandos boots",
-                    "Bandos hilt"
-                ],
-                "excludes": []
-            }
+            "type": "enumlist",
+            "enum": [
+                "Bandos chestplate",
+                "Bandos tassets",
+                "Bandos boots",
+                "Bandos hilt"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_GENERAL_GRAARDOR_COMMON_SHOW",
-                "excludes": "VAR_GENERAL_GRAARDOR_COMMON_HIDE"
-            },
-            "label": "General Graardor common drops",
+            "macroName": "VAR_GENERAL_GRAARDOR_UNIQUES_HIDE",
+            "label": "General Graardor uniques hide",
             "group": "General Graardor",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Coins",
-                    "Grimy snapdragon",
-                    "Snapdragon seed",
-                    "Adamantite ore",
-                    "Coal",
-                    "Nature rune",
-                    "Cosmic rune",
-                    "Magic logs",
-                    "Limpwurt root",
-                    "Rune longsword",
-                    "Rune 2h sword",
-                    "Rune platebody",
-                    "Rune pickaxe"
-                ],
-                "excludes": [
-                    "Steel arrow",
-                    "Steel dart",
-                    "Right eye patch"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_GENERAL_GRAARDOR_SUPPLY_SHOW",
-                "excludes": "VAR_GENERAL_GRAARDOR_SUPPLY_HIDE"
-            },
-            "label": "General Graardor supply drops",
+            "macroName": "VAR_GENERAL_GRAARDOR_COMMON_SHOW",
+            "label": "General Graardor common drops show",
             "group": "General Graardor",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Bones",
-                    "Big bones",
-                    "Super restore(4)",
-                    "Shark",
-                    "Chilli potato",
-                    "Kebab"
-                ],
-                "excludes": [
-                    "Combat potion(3)",
-                    "Super strength(3)",
-                    "Beer"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [
+                "Coins",
+                "Grimy snapdragon",
+                "Snapdragon seed",
+                "Adamantite ore",
+                "Coal",
+                "Nature rune",
+                "Cosmic rune",
+                "Magic logs",
+                "Limpwurt root",
+                "Rune longsword",
+                "Rune 2h sword",
+                "Rune platebody",
+                "Rune pickaxe"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_KREE_UNIQUES_SHOW",
-                "excludes": "VAR_KREE_UNIQUES_HIDE"
-            },
-            "label": "Kree'arra uniques",
+            "macroName": "VAR_GENERAL_GRAARDOR_COMMON_HIDE",
+            "label": "General Graardor common drops hide",
+            "group": "General Graardor",
+            "type": "enumlist",
+            "enum": [
+                "Steel arrow",
+                "Steel dart",
+                "Right eye patch"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_GENERAL_GRAARDOR_SUPPLY_SHOW",
+            "label": "General Graardor supply drops show",
+            "group": "General Graardor",
+            "type": "enumlist",
+            "enum": [
+                "Bones",
+                "Big bones",
+                "Super restore(4)",
+                "Shark",
+                "Chilli potato",
+                "Kebab"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_GENERAL_GRAARDOR_SUPPLY_HIDE",
+            "label": "General Graardor supply drops hide",
+            "group": "General Graardor",
+            "type": "enumlist",
+            "enum": [
+                "Combat potion(3)",
+                "Super strength(3)",
+                "Beer"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_KREE_UNIQUES_SHOW",
+            "label": "Kree'arra uniques show",
             "group": "Kree'arra",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Armadyl helmet",
-                    "Armadyl chestplate",
-                    "Armadyl chainskirt",
-                    "Armadyl hilt"
-                ],
-                "excludes": []
-            }
+            "type": "enumlist",
+            "enum": [
+                "Armadyl helmet",
+                "Armadyl chestplate",
+                "Armadyl chainskirt",
+                "Armadyl hilt"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_KREE_COMMON_SHOW",
-                "excludes": "VAR_KREE_COMMON_HIDE"
-            },
-            "label": "Kree'arra common drops",
+            "macroName": "VAR_KREE_UNIQUES_HIDE",
+            "label": "Kree'arra uniques hide",
             "group": "Kree'arra",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Coins",
-                    "Grimy dwarf weed",
-                    "Dwarf weed seed",
-                    "Dragonstone bolts (e)",
-                    "Smoke rune",
-                    "Yew seed",
-                    "Crushed nest",
-                    "Grimy kwuarm"
-                ],
-                "excludes": [
-                    "Feather",
-                    "Black d'hide body",
-                    "Rune crossbow",
-                    "Mind rune",
-                    "Rune arrow",
-                    "Runite bolts",
-                    "Crystal key",
-                    "Steel dart",
-                    "Steel arrow"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_KREE_SUPPLY_SHOW",
-                "excludes": "VAR_KREE_SUPPLY_HIDE"
-            },
-            "label": "Kree'arra supply drops",
+            "macroName": "VAR_KREE_COMMON_SHOW",
+            "label": "Kree'arra common drops show",
             "group": "Kree'arra",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Bones",
-                    "Big bones",
-                    "Ranging potion(3)",
-                    "Super defence(3)",
-                    "Manta ray",
-                    "Mushroom potato"
-                ],
-                "excludes": []
-            }
+            "type": "enumlist",
+            "enum": [
+                "Coins",
+                "Grimy dwarf weed",
+                "Dwarf weed seed",
+                "Dragonstone bolts (e)",
+                "Smoke rune",
+                "Yew seed",
+                "Crushed nest",
+                "Grimy kwuarm"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW",
-                "excludes": "VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE"
-            },
-            "label": "K'ril Tsutsaroth uniques",
+            "macroName": "VAR_KREE_COMMON_HIDE",
+            "label": "Kree'arra common drops hide",
+            "group": "Kree'arra",
+            "type": "enumlist",
+            "enum": [
+                "Feather",
+                "Black d'hide body",
+                "Rune crossbow",
+                "Mind rune",
+                "Rune arrow",
+                "Runite bolts",
+                "Crystal key",
+                "Steel dart",
+                "Steel arrow"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_KREE_SUPPLY_SHOW",
+            "label": "Kree'arra supply drops show",
+            "group": "Kree'arra",
+            "type": "enumlist",
+            "enum": [
+                "Bones",
+                "Big bones",
+                "Ranging potion(3)",
+                "Super defence(3)",
+                "Manta ray",
+                "Mushroom potato"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_KREE_SUPPLY_HIDE",
+            "label": "Kree'arra supply drops hide",
+            "group": "Kree'arra",
+            "type": "enumlist",
+            "enum": [],
+            "default": []
+        },
+        {
+            "macroName": "VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW",
+            "label": "K'ril Tsutsaroth uniques show",
             "group": "K'ril Tsutsaroth",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Steam battlestaff",
-                    "Zamorakian spear",
-                    "Staff of the dead",
-                    "Zamorak hilt"
-                ],
-                "excludes": []
-            }
+            "type": "enumlist",
+            "enum": [
+                "Steam battlestaff",
+                "Zamorakian spear",
+                "Staff of the dead",
+                "Zamorak hilt"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_KRIL_TSUTSAROTH_COMMON_SHOW",
-                "excludes": "VAR_KRIL_TSUTSAROTH_COMMON_HIDE"
-            },
-            "label": "K'ril Tsutsaroth common drops",
+            "macroName": "VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE",
+            "label": "K'ril Tsutsaroth uniques hide",
             "group": "K'ril Tsutsaroth",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Coins",
-                    "Rune platelegs",
-                    "Grimy lantadyme",
-                    "Lantadyme seed",
-                    "Death rune",
-                    "Blood rune",
-                    "Wine of zamorak",
-                    "Rune scimitar",
-                    "Adamant platebody",
-                    "Dragon dagger(p++)"
-                ],
-                "excludes": [
-                    "Infernal ashes",
-                    "Malicious ashes",
-                    "Adamant arrow(p++)",
-                    "Steel dart",
-                    "Steel arrow"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW",
-                "excludes": "VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE"
-            },
-            "label": "K'ril Tsutsaroth supply drops",
+            "macroName": "VAR_KRIL_TSUTSAROTH_COMMON_SHOW",
+            "label": "K'ril Tsutsaroth common drops show",
             "group": "K'ril Tsutsaroth",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Shark",
-                    "Tuna potato",
-                    "Super restore(3)"
-                ],
-                "excludes": [
-                    "Zamorak brew(3)",
-                    "Super attack(3)",
-                    "Super strength(3)"
-                ]
-            }
+            "type": "enumlist",
+            "enum": [
+                "Coins",
+                "Rune platelegs",
+                "Grimy lantadyme",
+                "Lantadyme seed",
+                "Death rune",
+                "Blood rune",
+                "Wine of zamorak",
+                "Rune scimitar",
+                "Adamant platebody",
+                "Dragon dagger(p++)"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_NEX_UNIQUES_SHOW",
-                "excludes": "VAR_NEX_UNIQUES_HIDE"
-            },
-            "label": "Nex uniques",
-            "group": "Nex",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Zaryte vambraces",
-                    "Nihil horn",
-                    "Torva full helm (damaged)",
-                    "Torva platebody (damaged)",
-                    "Torva platelegs (damaged)",
-                    "Ancient hilt",
-                    "Ancient ceremonial mask",
-                    "Ancient ceremonial top",
-                    "Ancient ceremonial legs",
-                    "Ancient ceremonial gloves",
-                    "Ancient ceremonial boots"
-                ],
-                "excludes": []
-            }
+            "macroName": "VAR_KRIL_TSUTSAROTH_COMMON_HIDE",
+            "label": "K'ril Tsutsaroth common drops hide",
+            "group": "K'ril Tsutsaroth",
+            "type": "enumlist",
+            "enum": [
+                "Infernal ashes",
+                "Malicious ashes",
+                "Adamant arrow(p++)",
+                "Steel dart",
+                "Steel arrow"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_NEX_COMMON_SHOW",
-                "excludes": "VAR_NEX_COMMON_HIDE"
-            },
-            "label": "Nex common drops",
-            "group": "Nex",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Rune sword",
-                    "Runite ore",
-                    "Ecumenical key shard",
-                    "Nihil shard",
-                    "Blood essence",
-                    "Onyx bolts (e)",
-                    "Dragon bolts (unf)",
-                    "Coins",
-                    "Blood rune",
-                    "Death rune",
-                    "Soul rune",
-                    "Cannonball",
-                    "Uncut ruby",
-                    "Uncut diamond",
-                    "Wine of zamorak",
-                    "Air rune",
-                    "Fire rune",
-                    "Water rune",
-                    "Air orb",
-                    "Coal"
-                ],
-                "excludes": []
-            }
+            "macroName": "VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW",
+            "label": "K'ril Tsutsaroth supply drops show",
+            "group": "K'ril Tsutsaroth",
+            "type": "enumlist",
+            "enum": [
+                "Shark",
+                "Tuna potato",
+                "Super restore(3)"
+            ],
+            "default": []
         },
         {
-            "macroName": {
-                "includes": "VAR_NEX_SUPPLY_SHOW",
-                "excludes": "VAR_NEX_SUPPLY_HIDE"
-            },
-            "label": "Nex supply drops",
+            "macroName": "VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE",
+            "label": "K'ril Tsutsaroth supply drops hide",
+            "group": "K'ril Tsutsaroth",
+            "type": "enumlist",
+            "enum": [
+                "Zamorak brew(3)",
+                "Super attack(3)",
+                "Super strength(3)"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_NEX_UNIQUES_SHOW",
+            "label": "Nex uniques show",
             "group": "Nex",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [
-                    "Shark",
-                    "Prayer potion(4)",
-                    "Saradomin brew(4)",
-                    "Super restore(4)"
-                ],
-                "excludes": []
-            }
+            "type": "enumlist",
+            "enum": [
+                "Zaryte vambraces",
+                "Nihil horn",
+                "Torva full helm (damaged)",
+                "Torva platebody (damaged)",
+                "Torva platelegs (damaged)",
+                "Ancient hilt",
+                "Ancient ceremonial mask",
+                "Ancient ceremonial top",
+                "Ancient ceremonial legs",
+                "Ancient ceremonial gloves",
+                "Ancient ceremonial boots"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_NEX_UNIQUES_HIDE",
+            "label": "Nex uniques hide",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [],
+            "default": []
+        },
+        {
+            "macroName": "VAR_NEX_COMMON_SHOW",
+            "label": "Nex common drops show",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [
+                "Rune sword",
+                "Runite ore",
+                "Ecumenical key shard",
+                "Nihil shard",
+                "Blood essence",
+                "Onyx bolts (e)",
+                "Dragon bolts (unf)",
+                "Coins",
+                "Blood rune",
+                "Death rune",
+                "Soul rune",
+                "Cannonball",
+                "Uncut ruby",
+                "Uncut diamond",
+                "Wine of zamorak",
+                "Air rune",
+                "Fire rune",
+                "Water rune",
+                "Air orb",
+                "Coal"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_NEX_COMMON_HIDE",
+            "label": "Nex common drops hide",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [],
+            "default": []
+        },
+        {
+            "macroName": "VAR_NEX_SUPPLY_SHOW",
+            "label": "Nex supply drops show",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [
+                "Shark",
+                "Prayer potion(4)",
+                "Saradomin brew(4)",
+                "Super restore(4)"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_NEX_SUPPLY_HIDE",
+            "label": "Nex supply drops hide",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [],
+            "default": []
         }
     ]
 }
