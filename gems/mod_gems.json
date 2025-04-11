@@ -49,9 +49,72 @@
             "default": []
         },
         {
+            "macroName": "VAR_SAPPHIRE_MIN_QUANTITY",
+            "label": "Sapphire minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_EMERALD_MIN_QUANTITY",
+            "label": "Emerald minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_RUBY_MIN_QUANTITY",
+            "label": "Ruby minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_DIAMOND_MIN_QUANTITY",
+            "label": "Diamond minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_OPAL_MIN_QUANTITY",
+            "label": "Opal minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_JADE_MIN_QUANTITY",
+            "label": "Jade minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_RED_TOPAZ_MIN_QUANTITY",
+            "label": "Red topaz minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_DRAGONSTONE_MIN_QUANTITY",
+            "label": "Dragonstone minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_ONYX_MIN_QUANTITY",
+            "label": "Onyx minimum quantity",
+            "group": "Gems Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_SAPPHIRE_CUSTOMSTYLE",
             "label": "Sapphire custom style",
-            "group": "Sapphire",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Sapphire",
             "default": {
@@ -63,16 +126,9 @@
             }
         },
         {
-            "macroName": "VAR_SAPPHIRE_MIN_QUANTITY",
-            "label": "Sapphire minimum quantity",
-            "group": "Sapphire",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_EMERALD_CUSTOMSTYLE",
             "label": "Emerald custom style",
-            "group": "Emerald",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Emerald",
             "default": {
@@ -84,16 +140,9 @@
             }
         },
         {
-            "macroName": "VAR_EMERALD_MIN_QUANTITY",
-            "label": "Emerald minimum quantity",
-            "group": "Emerald",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_RUBY_CUSTOMSTYLE",
             "label": "Ruby custom style",
-            "group": "Ruby",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Ruby",
             "default": {
@@ -105,16 +154,9 @@
             }
         },
         {
-            "macroName": "VAR_RUBY_MIN_QUANTITY",
-            "label": "Ruby minimum quantity",
-            "group": "Ruby",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_DIAMOND_CUSTOMSTYLE",
             "label": "Diamond custom style",
-            "group": "Diamond",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Diamond",
             "default": {
@@ -126,16 +168,9 @@
             }
         },
         {
-            "macroName": "VAR_DIAMOND_MIN_QUANTITY",
-            "label": "Diamond minimum quantity",
-            "group": "Diamond",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_OPAL_CUSTOMSTYLE",
             "label": "Opal custom style",
-            "group": "Opal",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Opal",
             "default": {
@@ -147,16 +182,9 @@
             }
         },
         {
-            "macroName": "VAR_OPAL_MIN_QUANTITY",
-            "label": "Opal minimum quantity",
-            "group": "Opal",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_JADE_CUSTOMSTYLE",
             "label": "Jade custom style",
-            "group": "Jade",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Jade",
             "default": {
@@ -168,16 +196,9 @@
             }
         },
         {
-            "macroName": "VAR_JADE_MIN_QUANTITY",
-            "label": "Jade minimum quantity",
-            "group": "Jade",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_RED_TOPAZ_CUSTOMSTYLE",
             "label": "Red topaz custom style",
-            "group": "Red topaz",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Red topaz",
             "default": {
@@ -189,16 +210,9 @@
             }
         },
         {
-            "macroName": "VAR_RED_TOPAZ_MIN_QUANTITY",
-            "label": "Red topaz minimum quantity",
-            "group": "Red topaz",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_DRAGONSTONE_CUSTOMSTYLE",
             "label": "Dragonstone custom style",
-            "group": "Dragonstone",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Dragonstone",
             "default": {
@@ -210,16 +224,9 @@
             }
         },
         {
-            "macroName": "VAR_DRAGONSTONE_MIN_QUANTITY",
-            "label": "Dragonstone minimum quantity",
-            "group": "Dragonstone",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_ONYX_CUSTOMSTYLE",
             "label": "Onyx custom style",
-            "group": "Onyx",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Onyx",
             "default": {
@@ -229,13 +236,6 @@
                 "borderColor": "#FF1C1A1A",
                 "menuTextColor": "#FF1C1A1A"
             }
-        },
-        {
-            "macroName": "VAR_ONYX_MIN_QUANTITY",
-            "label": "Onyx minimum quantity",
-            "group": "Onyx",
-            "type": "number",
-            "default": 0
         }
     ]
 }
