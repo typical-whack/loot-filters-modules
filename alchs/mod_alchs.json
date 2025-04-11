@@ -65,6 +65,13 @@
             "type": "style",
             "exampleItem": "Rune platelegs",
             "default": {}
+        },
+        {
+            "macroName": "VAR_ALCHS_TERMINATE",
+            "label": "Don't let other modules override this module",
+            "group": "Power User Settings",
+            "type": "boolean",
+            "default": false
         }
     ]
 }

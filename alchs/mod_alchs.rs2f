@@ -10,5 +10,8 @@ apply (VAR_ALCHS_SET_HIGH_ALCH_ICON && name:VAR_ALCHS_ITEM_LIST) {
 apply (name:VAR_ALCHS_ITEM_LIST) {
     VAR_ALCHS_CUSTOMSTYLE
 }
+if (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {
+
+}
 
 // endmodule:alchs
