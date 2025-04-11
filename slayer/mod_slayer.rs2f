@@ -1,3 +1,38 @@
+// module:slayer:slayer_keys
+
+#define VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
+#define VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
+
+apply (name:"Larran's key") {
+    VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
+}
+apply (name:"Brimstone key") {
+    VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
+}
+
+// endmodule:slayer:slayer_keys
+
+// module:slayer:superior_uniques
+
+#define VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
+#define VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE 
+#define VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE 
+#define VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
+
+apply (name:"Dust battlestaff") {
+    VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
+}
+apply (name:"Mist battlestaff") {
+    VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE 
+}
+apply (name:"Eternal gem") {
+    VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE 
+}
+apply (name:"Imbued heart") {
+    VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
+}
+
+// endmodule:slayer:superior_uniques
 
 // module:slayer:smoke_devil
 

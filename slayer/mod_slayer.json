@@ -5,6 +5,96 @@
     "description": "This provides area-based item filtering for slayer monsters. (Just smoke devils covered so far)",
     "inputs": [
         {
+            "macroName": "VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE",
+            "label": "Larran's key",
+            "group": "Slayer Keys",
+            "type": "style",
+            "exampleItem": "Larran's key",
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#50ae9815",
+                "borderColor": "#FFFFFFFF",
+                "menuTextColor": "#FFfada1e",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE",
+            "label": "Brimstone key",
+            "group": "Slayer Keys",
+            "type": "style",
+            "exampleItem": "Brimstone key",
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#5026636b",
+                "borderColor": "#FFFFFFFF",
+                "menuTextColor": "#FF41a9b7",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE",
+            "label": "Dust battlestaff",
+            "group": "Superior Uniques",
+            "type": "style",
+            "exampleItem": "Dust battlestaff",
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#5071603f",
+                "borderColor": "#FFFFFFFF",
+                "menuTextColor": "#FFbda069",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE",
+            "label": "Mist battlestaff",
+            "group": "Superior Uniques",
+            "type": "style",
+            "exampleItem": "Mist battlestaff",
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#50847a83",
+                "borderColor": "#FFFFFFFF",
+                "menuTextColor": "#FFd0c0ce",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE",
+            "label": "Eternal gem",
+            "group": "Superior Uniques",
+            "type": "style",
+            "exampleItem": "Eternal gem",
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#5036aebc",
+                "borderColor": "#FF9fc34a",
+                "menuTextColor": "#FF36aebc",
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE",
+            "label": "Imbued heart",
+            "group": "Superior Uniques",
+            "type": "style",
+            "exampleItem": "Imbued heart",
+            "default": {
+                "textColor": "#FFFFFFFF",
+                "textAccentColor": "#FF000000",
+                "backgroundColor": "#5061374a",
+                "borderColor": "#FF432e43",
+                "menuTextColor": "#FFad6284",
+                "showLootbeam": true
+            }
+        },
+        {
             "macroName": "VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW",
             "label": "Unique drop force shown",
             "group": "Smoke Devils",
