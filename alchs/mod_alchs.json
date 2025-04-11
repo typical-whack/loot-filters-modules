@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_ALCHS_SET_HIGH_ALCH_ICON",
-            "label": "Set high alch icon on specified items",
+            "label": "Set high alch icon",
             "type": "boolean",
             "default": true
         },
