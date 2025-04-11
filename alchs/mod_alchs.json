@@ -1,0 +1,63 @@
+{
+    "name": "Alchs",
+    "rs2fPath": "mod_alchs.rs2f",
+    "subtitle": "...",
+    "description": "",
+    "inputs": [
+        {
+            "macroName": "VAR_ALCHS_SET_HIGH_ALCH_ICON",
+            "label": "Set high alch icon on specified items",
+            "type": "boolean",
+            "default": true
+        },
+        {
+            "macroName": "VAR_ALCHS_ITEM_LIST",
+            "label": "List of alchables",
+            "type": "stringlist",
+            "default": [
+                "Adamant platebody",
+                "Air battlestaff",
+                "Dragon battleaxe",
+                "Dragon dagger",
+                "Dragon halberd",
+                "Dragon longsword",
+                "Dragon mace",
+                "Dragon med helm",
+                "Dragon platelegs",
+                "Dragon plateskirt",
+                "Dragon scimitar",
+                "Earth battlestaff",
+                "Fire battlestaff",
+                "Lava battlestaff",
+                "Mystic air staff",
+                "Mystic earth staff",
+                "Mystic fire staff",
+                "Mystic lava staff",
+                "Mystic robe bottom",
+                "Mystic robe top",
+                "Mystic water staff",
+                "Onyx dragon bolts (e)",
+                "Rune 2h sword",
+                "Rune battleaxe",
+                "Rune chainbody",
+                "Rune full helm",
+                "Rune halberd",
+                "Rune hasta",
+                "Rune kiteshield",
+                "Rune longsword",
+                "Rune med helm",
+                "Rune pickaxe",
+                "Rune platebody",
+                "Rune platelegs",
+                "Rune plateskirt",
+                "Rune scimitar",
+                "Rune spear",
+                "Rune sq shield",
+                "Rune sword",
+                "Runite crossbow (u)",
+                "Runite limbs",
+                "Water battlestaff"
+            ]
+        }
+    ]
+}

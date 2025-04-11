@@ -37,6 +37,9 @@
             "modulePath": "slayer/mod_slayer.json"
         },
         {
+            "modulePath": "alchs/mod_alchs.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {
