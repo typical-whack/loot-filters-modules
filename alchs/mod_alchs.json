@@ -68,7 +68,7 @@
         },
         {
             "macroName": "VAR_ALCHS_TERMINATE",
-            "label": "Don't let other modules override this module",
+            "label": "Don't let following modules make changes to alchables",
             "group": "Power User Settings",
             "type": "boolean",
             "default": false
