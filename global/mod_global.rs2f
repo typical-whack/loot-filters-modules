@@ -10,7 +10,7 @@
 
 
 
-apply (value:<VAR_GLOBAL_MINIMUM_VALUE) {
+apply (tradeable:true && value:<VAR_GLOBAL_MINIMUM_VALUE) {
     hidden = true;
 }
 
