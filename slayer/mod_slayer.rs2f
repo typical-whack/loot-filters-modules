@@ -1,0 +1,41 @@
+
+// module:slayer:smoke_devil
+
+#define CONST_SLAYER_SMOKE_DEVIL_AREA [2376, 9408, 0, 2432, 9472, 0]
+
+
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE []
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW []
+
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE []
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW []
+
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE []
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW []
+
+
+
+apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW) {
+    hidden = false;
+}
+
+apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW) {
+    hidden = false;
+}
+
+apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW) {
+    hidden = false;
+}
+
+
+
+// endmodule:slayer:smoke_devil

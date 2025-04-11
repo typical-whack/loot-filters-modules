@@ -34,6 +34,9 @@
             "modulePath": "bossing/mod_bossing.json"
         },
         {
+            "modulePath": "slayer/mod_slayer.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {

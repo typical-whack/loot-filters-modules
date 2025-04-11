@@ -1,0 +1,152 @@
+{
+    "name": "Slayer",
+    "rs2fPath": "mod_slayer.rs2f",
+    "subtitle": "Duradaddy",
+    "description": "This provides area-based item filtering for slayer monsters. (Just smoke devils covered so far)",
+    "inputs": [
+        {
+            "macroName": "VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW",
+            "label": "Unique drop force shown",
+            "group": "Smoke Devils",
+            "type": "enumlist",
+            "enum": [
+                "Occult necklace",
+                "Dragon chainbody"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW",
+            "label": "Common drop force shown",
+            "group": "Smoke Devils",
+            "type": "enumlist",
+            "enum": [
+                "Adamant battleaxe",
+                "Adamantite bar",
+                "Air battlestaff",
+                "Air rune",
+                "Ashes",
+                "Black d'hide vambraces",
+                "Coal",
+                "Coins",
+                "Crossbow string",
+                "Fire battlestaff",
+                "Fire rune",
+                "Magic logs",
+                "Mithril plateskirt",
+                "Red d'hide body",
+                "Rune arrow",
+                "Rune chainbody",
+                "Rune dagger",
+                "Rune full helm",
+                "Runite bolts",
+                "Shark",
+                "Smoke rune",
+                "Soul rune",
+                "Steel bar",
+                "Ugthanki kebab"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW",
+            "label": "Herb drop force shown",
+            "group": "Smoke Devils",
+            "type": "enumlist",
+            "enum": [
+                "Grimy guam leaf",
+                "Grimy marrentill",
+                "Grimy tarromin",
+                "Grimy harralander",
+                "Grimy ranarr weed",
+                "Grimy irit leaf",
+                "Grimy avantoe",
+                "Grimy kwuarm",
+                "Grimy cadantine",
+                "Grimy lantadyme",
+                "Grimy dwarf weed"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE",
+            "label": "Unique drop force hidden",
+            "group": "Smoke Devils",
+            "type": "enumlist",
+            "enum": [
+                "Occult necklace",
+                "Dragon chainbody"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE",
+            "label": "Common drop force hidden",
+            "group": "Smoke Devils",
+            "type": "enumlist",
+            "enum": [
+                "Adamant battleaxe",
+                "Adamantite bar",
+                "Air battlestaff",
+                "Air rune",
+                "Ashes",
+                "Black d'hide vambraces",
+                "Coal",
+                "Coins",
+                "Crossbow string",
+                "Fire battlestaff",
+                "Fire rune",
+                "Magic logs",
+                "Mithril plateskirt",
+                "Red d'hide body",
+                "Rune arrow",
+                "Rune chainbody",
+                "Rune dagger",
+                "Rune full helm",
+                "Runite bolts",
+                "Shark",
+                "Smoke rune",
+                "Soul rune",
+                "Steel bar",
+                "Ugthanki kebab"
+            ],
+            "default": [
+                "Adamant battleaxe",
+                "Adamantite bar",
+                "Air rune",
+                "Ashes",
+                "Coal",
+                "Coins",
+                "Crossbow string",
+                "Fire rune",
+                "Mithril plateskirt",
+                "Red d'hide body",
+                "Rune arrow",
+                "Runite bolts",
+                "Shark",
+                "Steel bar",
+                "Ugthanki kebab"
+            ]
+        },
+        {
+            "macroName": "VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE",
+            "label": "Herb drop force hidden",
+            "group": "Smoke Devils",
+            "type": "enumlist",
+            "enum": [
+                "Grimy guam leaf",
+                "Grimy marrentill",
+                "Grimy tarromin",
+                "Grimy harralander",
+                "Grimy ranarr weed",
+                "Grimy irit leaf",
+                "Grimy avantoe",
+                "Grimy kwuarm",
+                "Grimy cadantine",
+                "Grimy lantadyme",
+                "Grimy dwarf weed"
+            ],
+            "default": []
+        }
+    ]
+}
