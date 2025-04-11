@@ -1,7 +1,5 @@
 // module:metal_equipment
 
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE []
-
 #define VAR_BRONZE_CUSTOMSTYLE 
 #define VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
 #define VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -537,7 +535,5 @@ apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
 apply (name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
-
-
 
 // endmodule:metal_equipment

@@ -2,30 +2,8 @@
     "name": "Metal Equipment",
     "rs2fPath": "mod_metal_equipment.rs2f",
     "subtitle": "Watch out for lightning",
-    "description": "Provides a metal tier filter and custom styling for metal equipment including trimmed, gold trimmed, gilded, heraldic, and god rune armours.",
+    "description": "Provides custom styling for metal equipment including trimmed, gold trimmed, gilded, heraldic, and god rune armours.",
     "inputs": [
-        {
-            "macroName": "VAR_METAL_EQUIPMENT_TIERS_HIDE",
-            "label": "Metal equipment to force hidden",
-            "type": "enumlist",
-            "enum": [
-                "Bronze*",
-                "Iron*",
-                "Steel*",
-                "Black*",
-                "Mithril*",
-                "Adamant*",
-                "Rune*",
-                "Dragon*"
-            ],
-            "default": [
-                "Bronze*",
-                "Iron*",
-                "Steel*",
-                "Black*",
-                "Mithril*"
-            ]
-        },
         {
             "macroName": "VAR_BRONZE_CUSTOMSTYLE",
             "label": "Bronze",
