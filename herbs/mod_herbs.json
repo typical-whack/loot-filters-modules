@@ -76,9 +76,114 @@
             ]
         },
         {
+            "macroName": "VAR_HERBS_GUAM_LEAF_MIN_QUANTITY",
+            "label": "Guam leaf minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_MARRENTILL_MIN_QUANTITY",
+            "label": "Marrentill minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_TARROMIN_MIN_QUANTITY",
+            "label": "Tarromin minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_HARRALANDER_MIN_QUANTITY",
+            "label": "Harralander minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_RANARR_WEED_MIN_QUANTITY",
+            "label": "Ranarr weed minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_TOADFLAX_MIN_QUANTITY",
+            "label": "Toadflax minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_IRIT_LEAF_MIN_QUANTITY",
+            "label": "Irit leaf minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_AVANTOE_MIN_QUANTITY",
+            "label": "Avantoe minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_KWUARM_MIN_QUANTITY",
+            "label": "Kwuarm minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_HUASCA_MIN_QUANTITY",
+            "label": "Huasca minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_SNAPDRAGON_MIN_QUANTITY",
+            "label": "Snapdragon minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_CADANTINE_MIN_QUANTITY",
+            "label": "Cadantine minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_LANTADYME_MIN_QUANTITY",
+            "label": "Lantadyme minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_DWARF_WEED_MIN_QUANTITY",
+            "label": "Dwarf weed minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_TORSTOL_MIN_QUANTITY",
+            "label": "Torstol minimum quantity",
+            "group": "Herb Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",
             "label": "Guam leaf custom style",
-            "group": "Guam leaf",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Guam leaf",
             "default": {
@@ -90,16 +195,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_GUAM_LEAF_MIN_QUANTITY",
-            "label": "Guam leaf minimum quantity",
-            "group": "Guam leaf",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_MARRENTILL_CUSTOMSTYLE",
             "label": "Marrentill custom style",
-            "group": "Marrentill",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Marrentill",
             "default": {
@@ -111,16 +209,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_MARRENTILL_MIN_QUANTITY",
-            "label": "Marrentill minimum quantity",
-            "group": "Marrentill",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_TARROMIN_CUSTOMSTYLE",
             "label": "Tarromin custom style",
-            "group": "Tarromin",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Tarromin",
             "default": {
@@ -132,16 +223,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_TARROMIN_MIN_QUANTITY",
-            "label": "Tarromin minimum quantity",
-            "group": "Tarromin",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_HARRALANDER_CUSTOMSTYLE",
             "label": "Harralander custom style",
-            "group": "Harralander",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Harralander",
             "default": {
@@ -153,16 +237,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_HARRALANDER_MIN_QUANTITY",
-            "label": "Harralander minimum quantity",
-            "group": "Harralander",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_RANARR_WEED_CUSTOMSTYLE",
             "label": "Ranarr weed custom style",
-            "group": "Ranarr weed",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Ranarr weed",
             "default": {
@@ -174,16 +251,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_RANARR_WEED_MIN_QUANTITY",
-            "label": "Ranarr weed minimum quantity",
-            "group": "Ranarr weed",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_TOADFLAX_CUSTOMSTYLE",
             "label": "Toadflax custom style",
-            "group": "Toadflax",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Toadflax",
             "default": {
@@ -195,16 +265,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_TOADFLAX_MIN_QUANTITY",
-            "label": "Toadflax minimum quantity",
-            "group": "Toadflax",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE",
             "label": "Irit leaf custom style",
-            "group": "Irit leaf",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Irit leaf",
             "default": {
@@ -216,16 +279,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_IRIT_LEAF_MIN_QUANTITY",
-            "label": "Irit leaf minimum quantity",
-            "group": "Irit leaf",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_AVANTOE_CUSTOMSTYLE",
             "label": "Avantoe custom style",
-            "group": "Avantoe",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Avantoe",
             "default": {
@@ -237,16 +293,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_AVANTOE_MIN_QUANTITY",
-            "label": "Avantoe minimum quantity",
-            "group": "Avantoe",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_KWUARM_CUSTOMSTYLE",
             "label": "Kwuarm custom style",
-            "group": "Kwuarm",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Kwuarm",
             "default": {
@@ -258,16 +307,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_KWUARM_MIN_QUANTITY",
-            "label": "Kwuarm minimum quantity",
-            "group": "Kwuarm",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_HUASCA_CUSTOMSTYLE",
             "label": "Huasca custom style",
-            "group": "Huasca",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Huasca",
             "default": {
@@ -279,16 +321,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_HUASCA_MIN_QUANTITY",
-            "label": "Huasca minimum quantity",
-            "group": "Huasca",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE",
             "label": "Snapdragon custom style",
-            "group": "Snapdragon",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Snapdragon",
             "default": {
@@ -300,16 +335,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_SNAPDRAGON_MIN_QUANTITY",
-            "label": "Snapdragon minimum quantity",
-            "group": "Snapdragon",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_CADANTINE_CUSTOMSTYLE",
             "label": "Cadantine custom style",
-            "group": "Cadantine",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Cadantine",
             "default": {
@@ -321,16 +349,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_CADANTINE_MIN_QUANTITY",
-            "label": "Cadantine minimum quantity",
-            "group": "Cadantine",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_LANTADYME_CUSTOMSTYLE",
             "label": "Lantadyme custom style",
-            "group": "Lantadyme",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Lantadyme",
             "default": {
@@ -342,16 +363,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_LANTADYME_MIN_QUANTITY",
-            "label": "Lantadyme minimum quantity",
-            "group": "Lantadyme",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_DWARF_WEED_CUSTOMSTYLE",
             "label": "Dwarf weed custom style",
-            "group": "Dwarf weed",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Dwarf weed",
             "default": {
@@ -363,16 +377,9 @@
             }
         },
         {
-            "macroName": "VAR_HERBS_DWARF_WEED_MIN_QUANTITY",
-            "label": "Dwarf weed minimum quantity",
-            "group": "Dwarf weed",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HERBS_TORSTOL_CUSTOMSTYLE",
             "label": "Torstol custom style",
-            "group": "Torstol",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Torstol",
             "default": {
@@ -382,13 +389,6 @@
                 "borderColor": "#FF09570c",
                 "menuTextColor": "#FF09570c"
             }
-        },
-        {
-            "macroName": "VAR_HERBS_TORSTOL_MIN_QUANTITY",
-            "label": "Torstol minimum quantity",
-            "group": "Torstol",
-            "type": "number",
-            "default": 0
         }
     ]
 }
