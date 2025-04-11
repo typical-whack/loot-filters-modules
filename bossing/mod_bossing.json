@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_BOSSING_GOD_WARS_DUNGEON_SHOW",
-            "label": "God Wars Dungeon uniques show",
+            "label": "God Wars Dungeon uniques force shown",
             "group": "God Wars Dungeon",
             "type": "stringlist",
             "default": [
@@ -18,14 +18,14 @@
         },
         {
             "macroName": "VAR_BOSSING_GOD_WARS_DUNGEON_HIDE",
-            "label": "God Wars Dungeon uniques hide",
+            "label": "God Wars Dungeon uniques force hidden",
             "group": "God Wars Dungeon",
             "type": "stringlist",
             "default": []
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW",
-            "label": "Commander Zilyana uniques show",
+            "label": "Commander Zilyana uniques force shown",
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
@@ -43,7 +43,7 @@
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE",
-            "label": "Commander Zilyana uniques hide",
+            "label": "Commander Zilyana uniques force hidden",
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
@@ -56,7 +56,7 @@
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW",
-            "label": "Commander Zilyana common drops show",
+            "label": "Commander Zilyana common drops force shown",
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
@@ -91,7 +91,7 @@
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE",
-            "label": "Commander Zilyana common drops hide",
+            "label": "Commander Zilyana common drops force hidden",
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
@@ -118,7 +118,7 @@
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW",
-            "label": "Commander Zilyana supply drops show",
+            "label": "Commander Zilyana supply drops force shown",
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
@@ -143,7 +143,7 @@
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE",
-            "label": "Commander Zilyana supply drops hide",
+            "label": "Commander Zilyana supply drops force hidden",
             "group": "Commander Zilyana",
             "type": "enumlist",
             "enum": [
@@ -162,7 +162,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW",
-            "label": "General Graardor uniques show",
+            "label": "General Graardor uniques force shown",
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
@@ -180,7 +180,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE",
-            "label": "General Graardor uniques hide",
+            "label": "General Graardor uniques force hidden",
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
@@ -193,7 +193,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW",
-            "label": "General Graardor common drops show",
+            "label": "General Graardor common drops force shown",
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
@@ -232,7 +232,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE",
-            "label": "General Graardor common drops hide",
+            "label": "General Graardor common drops force hidden",
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
@@ -261,7 +261,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW",
-            "label": "General Graardor supply drops show",
+            "label": "General Graardor supply drops force shown",
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
@@ -286,7 +286,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE",
-            "label": "General Graardor supply drops hide",
+            "label": "General Graardor supply drops force hidden",
             "group": "General Graardor",
             "type": "enumlist",
             "enum": [
@@ -308,7 +308,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_UNIQUES_SHOW",
-            "label": "Kree'arra uniques show",
+            "label": "Kree'arra uniques force shown",
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
@@ -326,7 +326,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_UNIQUES_HIDE",
-            "label": "Kree'arra uniques hide",
+            "label": "Kree'arra uniques force hidden",
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
@@ -339,7 +339,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_COMMON_SHOW",
-            "label": "Kree'arra common drops show",
+            "label": "Kree'arra common drops force shown",
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
@@ -374,7 +374,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_COMMON_HIDE",
-            "label": "Kree'arra common drops hide",
+            "label": "Kree'arra common drops force hidden",
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
@@ -410,7 +410,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_SUPPLY_SHOW",
-            "label": "Kree'arra supply drops show",
+            "label": "Kree'arra supply drops force shown",
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
@@ -432,7 +432,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_SUPPLY_HIDE",
-            "label": "Kree'arra supply drops hide",
+            "label": "Kree'arra supply drops force hidden",
             "group": "Kree'arra",
             "type": "enumlist",
             "enum": [
@@ -447,7 +447,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW",
-            "label": "K'ril Tsutsaroth uniques show",
+            "label": "K'ril Tsutsaroth uniques force shown",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -465,7 +465,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE",
-            "label": "K'ril Tsutsaroth uniques hide",
+            "label": "K'ril Tsutsaroth uniques force hidden",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -478,7 +478,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW",
-            "label": "K'ril Tsutsaroth common drops show",
+            "label": "K'ril Tsutsaroth common drops force shown",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -513,7 +513,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE",
-            "label": "K'ril Tsutsaroth common drops hide",
+            "label": "K'ril Tsutsaroth common drops force hidden",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -543,7 +543,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW",
-            "label": "K'ril Tsutsaroth supply drops show",
+            "label": "K'ril Tsutsaroth supply drops force shown",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -562,7 +562,7 @@
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE",
-            "label": "K'ril Tsutsaroth supply drops hide",
+            "label": "K'ril Tsutsaroth supply drops force hidden",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -581,7 +581,7 @@
         },
         {
             "macroName": "VAR_BOSSING_NEX_UNIQUES_SHOW",
-            "label": "Nex uniques show",
+            "label": "Nex uniques force shown",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
@@ -613,7 +613,7 @@
         },
         {
             "macroName": "VAR_BOSSING_NEX_UNIQUES_HIDE",
-            "label": "Nex uniques hide",
+            "label": "Nex uniques force hidden",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
@@ -633,7 +633,7 @@
         },
         {
             "macroName": "VAR_BOSSING_NEX_COMMON_SHOW",
-            "label": "Nex common drops show",
+            "label": "Nex common drops force shown",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
@@ -683,7 +683,7 @@
         },
         {
             "macroName": "VAR_BOSSING_NEX_COMMON_HIDE",
-            "label": "Nex common drops hide",
+            "label": "Nex common drops force hidden",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
@@ -712,7 +712,7 @@
         },
         {
             "macroName": "VAR_BOSSING_NEX_SUPPLY_SHOW",
-            "label": "Nex supply drops show",
+            "label": "Nex supply drops force shown",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
@@ -730,7 +730,7 @@
         },
         {
             "macroName": "VAR_BOSSING_NEX_SUPPLY_HIDE",
-            "label": "Nex supply drops hide",
+            "label": "Nex supply drops force hidden",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
