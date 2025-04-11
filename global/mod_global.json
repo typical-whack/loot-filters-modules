@@ -6,19 +6,19 @@
     "inputs": [
         {
             "macroName": "VAR_GLOBAL_SHOW_ICONS",
-            "label": "Show Item Icons",
+            "label": "Show Icons",
             "type": "boolean",
             "default": true
         },
         {
             "macroName": "VAR_GLOBAL_SHOW_DESPAWN",
-            "label": "Show Item Despawn Timer",
+            "label": "Show Despawn Timer",
             "type": "boolean",
             "default": true
         },
         {
             "macroName": "VAR_GLOBAL_SHOW_VALUE",
-            "label": "Show Item Value",
+            "label": "Show Value",
             "type": "boolean",
             "default": true
         },
