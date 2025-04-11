@@ -60,7 +60,6 @@ apply (tradeable:true && stackable:false && noted:false && value:<VAR_GLOBAL_NON
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
-
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
