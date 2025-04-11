@@ -18,6 +18,18 @@
             "default": true
         },
         {
+            "macroName": "VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE",
+            "label": "Hide despawn timer for items below this value",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE",
+            "label": "Hide prices for items below this value",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": {
                 "includes": "VAR_GLOBAL_SHOW",
                 "excludes": "VAR_GLOBAL_HIDE"
@@ -31,7 +43,22 @@
         },
         {
             "macroName": "VAR_GLOBAL_MINIMUM_VALUE",
-            "label": "Minimum item value to show",
+            "label": "Hide items below this value",
+            "group": "Global Value Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_GLOBAL_STACKABLE_MINIMUM_VALUE",
+            "label": "Hide stackable and noted items below this value",
+            "group": "Global Value Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE",
+            "label": "Hide non-stackable items below this value",
+            "group": "Global Value Filters",
             "type": "number",
             "default": 0
         }
