@@ -34,19 +34,6 @@
             "default": []
         },
         {
-            "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE",
-            "label": "Commander Zilyana uniques force hidden",
-            "group": "Commander Zilyana",
-            "type": "enumlist",
-            "enum": [
-                "Saradomin sword",
-                "Saradomin's light",
-                "Armadyl crossbow",
-                "Saradomin hilt"
-            ],
-            "default": []
-        },
-        {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW",
             "label": "Commander Zilyana common drops force shown",
             "group": "Commander Zilyana",
@@ -66,6 +53,36 @@
                 "Steel arrow",
                 "Steel dart",
                 "Unicorn horn"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW",
+            "label": "Commander Zilyana supply drops force shown",
+            "group": "Commander Zilyana",
+            "type": "enumlist",
+            "enum": [
+                "Prayer potion(4)",
+                "Super defence(3)",
+                "Magic potion(3)",
+                "Saradomin brew(3)",
+                "Super restore(4)",
+                "Summer pie",
+                "Monkfish",
+                "Bones"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE",
+            "label": "Commander Zilyana uniques force hidden",
+            "group": "Commander Zilyana",
+            "type": "enumlist",
+            "enum": [
+                "Saradomin sword",
+                "Saradomin's light",
+                "Armadyl crossbow",
+                "Saradomin hilt"
             ],
             "default": []
         },
@@ -95,23 +112,6 @@
                 "Steel dart",
                 "Unicorn horn"
             ]
-        },
-        {
-            "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW",
-            "label": "Commander Zilyana supply drops force shown",
-            "group": "Commander Zilyana",
-            "type": "enumlist",
-            "enum": [
-                "Prayer potion(4)",
-                "Super defence(3)",
-                "Magic potion(3)",
-                "Saradomin brew(3)",
-                "Super restore(4)",
-                "Summer pie",
-                "Monkfish",
-                "Bones"
-            ],
-            "default": []
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE",
