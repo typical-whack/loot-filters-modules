@@ -22,19 +22,257 @@
             }
         },
         {
+            "macroName": "VAR_ARCHERY_TICKET_MIN_QUANTITY",
+            "label": "Archery ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_COINS_MIN_QUANTITY",
+            "label": "Coins minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MOLE_CLAW_MIN_QUANTITY",
+            "label": "Mole claw minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MOLE_SKIN_MIN_QUANTITY",
+            "label": "Mole skin minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_NUMULITE_MIN_QUANTITY",
+            "label": "Numulite minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_PLATINUM_TOKEN_MIN_QUANTITY",
+            "label": "Platinum token minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_TRADING_STICKS_MIN_QUANTITY",
+            "label": "Trading sticks minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_SHANTAY_PASS_MIN_QUANTITY",
+            "label": "Shantay pass minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_SHIP_TICKET_MIN_QUANTITY",
+            "label": "Ship ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_ABYSSAL_PEARLS_MIN_QUANTITY",
+            "label": "Abyssal pearls minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY",
+            "label": "Anima-infused bark minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY",
+            "label": "Agility arena ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_BARRONITE_SHARDS_MIN_QUANTITY",
+            "label": "Barronite shards minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_BLOOD_MONEY_MIN_QUANTITY",
+            "label": "Blood money minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY",
+            "label": "Brimhaven voucher minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_CASTLE_WARS_TICKET_MIN_QUANTITY",
+            "label": "Castle wars ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_ECTO_TOKEN_MIN_QUANTITY",
+            "label": "Ecto-token minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_FROG_TOKEN_MIN_QUANTITY",
+            "label": "Frog token minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_GOLDEN_NUGGET_MIN_QUANTITY",
+            "label": "Golden nugget minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_GLISTENING_TEAR_MIN_QUANTITY",
+            "label": "Glistening tear minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HALLOWED_MARK_MIN_QUANTITY",
+            "label": "Hallowed mark minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_INTELLIGENCE_MIN_QUANTITY",
+            "label": "Intelligence minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MARK_OF_GRACE_MIN_QUANTITY",
+            "label": "Mark of grace minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MERMAIDS_TEAR_MIN_QUANTITY",
+            "label": "Mermaid's tear minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MINNOW_MIN_QUANTITY",
+            "label": "Minnow minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MOLCH_PEARL_MIN_QUANTITY",
+            "label": "Molch pearl minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_NUGGETS_MIN_QUANTITY",
+            "label": "Nuggets minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_PARAMAYA_TICKET_MIN_QUANTITY",
+            "label": "Paramaya ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_RARE_CREATURE_PARTS_MIN_QUANTITY",
+            "label": "Rare creature parts minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY",
+            "label": "Reward token credits minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_STARDUST_MIN_QUANTITY",
+            "label": "Stardust minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_TOKKUL_MIN_QUANTITY",
+            "label": "Tokkul minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_TERMITES_MIN_QUANTITY",
+            "label": "Termites minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY",
+            "label": "Unidentified minerals minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY",
+            "label": "Warrior guild token minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_ARCHERY_TICKET_CUSTOMSTYLE",
             "label": "Archery ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Archery ticket",
             "default": {}
-        },
-        {
-            "macroName": "VAR_ARCHERY_TICKET_MIN_QUANTITY",
-            "label": "Archery ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_COINS_CUSTOMSTYLE",
@@ -45,26 +283,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_COINS_MIN_QUANTITY",
-            "label": "Coins minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_MOLE_CLAW_CUSTOMSTYLE",
             "label": "Mole claw custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Mole claw",
             "default": {}
-        },
-        {
-            "macroName": "VAR_MOLE_CLAW_MIN_QUANTITY",
-            "label": "Mole claw minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_MOLE_SKIN_CUSTOMSTYLE",
@@ -75,26 +299,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_MOLE_SKIN_MIN_QUANTITY",
-            "label": "Mole skin minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_NUMULITE_CUSTOMSTYLE",
             "label": "Numulite custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Numulite",
             "default": {}
-        },
-        {
-            "macroName": "VAR_NUMULITE_MIN_QUANTITY",
-            "label": "Numulite minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_PLATINUM_TOKEN_CUSTOMSTYLE",
@@ -105,26 +315,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_PLATINUM_TOKEN_MIN_QUANTITY",
-            "label": "Platinum token minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_TRADING_STICKS_CUSTOMSTYLE",
             "label": "Trading sticks custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Trading sticks",
             "default": {}
-        },
-        {
-            "macroName": "VAR_TRADING_STICKS_MIN_QUANTITY",
-            "label": "Trading sticks minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_SHANTAY_PASS_CUSTOMSTYLE",
@@ -135,26 +331,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_SHANTAY_PASS_MIN_QUANTITY",
-            "label": "Shantay pass minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_SHIP_TICKET_CUSTOMSTYLE",
             "label": "Ship ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Ship ticket",
             "default": {}
-        },
-        {
-            "macroName": "VAR_SHIP_TICKET_MIN_QUANTITY",
-            "label": "Ship ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_ABYSSAL_PEARLS_CUSTOMSTYLE",
@@ -165,26 +347,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_ABYSSAL_PEARLS_MIN_QUANTITY",
-            "label": "Abyssal pearls minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_ANIMA_INFUSED_BARK_CUSTOMSTYLE",
             "label": "Anima-infused bark custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Anima-infused bark",
             "default": {}
-        },
-        {
-            "macroName": "VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY",
-            "label": "Anima-infused bark minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE",
@@ -195,26 +363,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY",
-            "label": "Agility arena ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_BARRONITE_SHARDS_CUSTOMSTYLE",
             "label": "Barronite shards custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Barronite shards",
             "default": {}
-        },
-        {
-            "macroName": "VAR_BARRONITE_SHARDS_MIN_QUANTITY",
-            "label": "Barronite shards minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_BLOOD_MONEY_CUSTOMSTYLE",
@@ -225,26 +379,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_BLOOD_MONEY_MIN_QUANTITY",
-            "label": "Blood money minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_BRIMHAVEN_VOUCHER_CUSTOMSTYLE",
             "label": "Brimhaven voucher custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Brimhaven voucher",
             "default": {}
-        },
-        {
-            "macroName": "VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY",
-            "label": "Brimhaven voucher minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_CASTLE_WARS_TICKET_CUSTOMSTYLE",
@@ -255,26 +395,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_CASTLE_WARS_TICKET_MIN_QUANTITY",
-            "label": "Castle wars ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_ECTO_TOKEN_CUSTOMSTYLE",
             "label": "Ecto-token custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Ecto-token",
             "default": {}
-        },
-        {
-            "macroName": "VAR_ECTO_TOKEN_MIN_QUANTITY",
-            "label": "Ecto-token minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_FROG_TOKEN_CUSTOMSTYLE",
@@ -285,26 +411,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_FROG_TOKEN_MIN_QUANTITY",
-            "label": "Frog token minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_GOLDEN_NUGGET_CUSTOMSTYLE",
             "label": "Golden nugget custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Golden nugget",
             "default": {}
-        },
-        {
-            "macroName": "VAR_GOLDEN_NUGGET_MIN_QUANTITY",
-            "label": "Golden nugget minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_GLISTENING_TEAR_CUSTOMSTYLE",
@@ -315,26 +427,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_GLISTENING_TEAR_MIN_QUANTITY",
-            "label": "Glistening tear minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_HALLOWED_MARK_CUSTOMSTYLE",
             "label": "Hallowed mark custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Hallowed mark",
             "default": {}
-        },
-        {
-            "macroName": "VAR_HALLOWED_MARK_MIN_QUANTITY",
-            "label": "Hallowed mark minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_INTELLIGENCE_CUSTOMSTYLE",
@@ -345,26 +443,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_INTELLIGENCE_MIN_QUANTITY",
-            "label": "Intelligence minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_MARK_OF_GRACE_CUSTOMSTYLE",
             "label": "Mark of grace custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Mark of grace",
             "default": {}
-        },
-        {
-            "macroName": "VAR_MARK_OF_GRACE_MIN_QUANTITY",
-            "label": "Mark of grace minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_MERMAIDS_TEAR_CUSTOMSTYLE",
@@ -375,26 +459,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_MERMAIDS_TEAR_MIN_QUANTITY",
-            "label": "Mermaid's tear minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_MINNOW_CUSTOMSTYLE",
             "label": "Minnow custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Minnow",
             "default": {}
-        },
-        {
-            "macroName": "VAR_MINNOW_MIN_QUANTITY",
-            "label": "Minnow minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_MOLCH_PEARL_CUSTOMSTYLE",
@@ -405,26 +475,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_MOLCH_PEARL_MIN_QUANTITY",
-            "label": "Molch pearl minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_NUGGETS_CUSTOMSTYLE",
             "label": "Nuggets custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Nuggets",
             "default": {}
-        },
-        {
-            "macroName": "VAR_NUGGETS_MIN_QUANTITY",
-            "label": "Nuggets minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_PARAMAYA_TICKET_CUSTOMSTYLE",
@@ -435,26 +491,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_PARAMAYA_TICKET_MIN_QUANTITY",
-            "label": "Paramaya ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE",
             "label": "Rare creature parts custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Rare creature parts",
             "default": {}
-        },
-        {
-            "macroName": "VAR_RARE_CREATURE_PARTS_MIN_QUANTITY",
-            "label": "Rare creature parts minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE",
@@ -465,26 +507,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY",
-            "label": "Reward token credits minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_STARDUST_CUSTOMSTYLE",
             "label": "Stardust custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Stardust",
             "default": {}
-        },
-        {
-            "macroName": "VAR_STARDUST_MIN_QUANTITY",
-            "label": "Stardust minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_TOKKUL_CUSTOMSTYLE",
@@ -495,26 +523,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_TOKKUL_MIN_QUANTITY",
-            "label": "Tokkul minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_TERMITES_CUSTOMSTYLE",
             "label": "Termites custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Termites",
             "default": {}
-        },
-        {
-            "macroName": "VAR_TERMITES_MIN_QUANTITY",
-            "label": "Termites minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         },
         {
             "macroName": "VAR_UNIDENTIFIED_MINERALS_CUSTOMSTYLE",
@@ -525,26 +539,12 @@
             "default": {}
         },
         {
-            "macroName": "VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY",
-            "label": "Unidentified minerals minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_WARRIOR_GUILD_TOKEN_CUSTOMSTYLE",
             "label": "Warrior guild token custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Warrior guild token",
             "default": {}
-        },
-        {
-            "macroName": "VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY",
-            "label": "Warrior guild token minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
         }
     ]
 }
