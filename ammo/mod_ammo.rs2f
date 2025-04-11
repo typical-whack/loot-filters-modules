@@ -18,7 +18,7 @@
     "Dragon fire arrow", \
 ]
 #define VAR_AMMO_STANDARD_ARROWS_HIDE []
-apply (name:CONST_STANDARD_ARROW_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
+apply (name:CONST_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
     hidden = true;
 }
 #define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 
