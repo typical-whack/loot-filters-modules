@@ -120,360 +120,180 @@
 #define CONST_DRAGON_RANGED_WEAPONS ["Dragon crossbow"]
 #define CONST_DRAGON_AMMO ["Dragon knife","Dragon dart","Dragon thrownaxe","Dragon arrow","Dragon bolts","Dragon javelin"]
 #define CONST_DRAGON_ARMOUR ["Dragon med helm","Dragon full helm","Dragon chainbody","Dragon platebody","Dragon platelegs","Dragon plateskirt","Dragon gloves","Dragon boots","Dragon sq shield","Dragon kiteshield","Dragon defender"]
-#define CONST_DRAGON_GOLD_TRIMMED_ARMOUR ["Dragon full helm (g)","Dragon chainbody (g)","Dragon platebody (g)","Dragon platelegs (g)","Dragon plateskirt (g)","Dragon boots (g)","Dragon defender (t)","Dragon sq shield (g)","Dragon kiteshield (g)","Dragon scimitar (or)"]
 
-
-
-apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
     VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
-apply (name:CONST_BRONZE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_RANGED_WEAPONS) {
     VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_AMMO) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
-apply (name:CONST_BRONZE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_ARMOUR) {
     VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
     VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
     VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_OTHER) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
     VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
     VAR_IRON_CUSTOMSTYLE 
 }
-apply (name:CONST_IRON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_RANGED_WEAPONS) {
     VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_AMMO) {
     VAR_IRON_CUSTOMSTYLE 
 }
-apply (name:CONST_IRON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_ARMOUR) {
     VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_TRIMMED_ARMOUR) {
     VAR_IRON_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
     VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_OTHER) {
     VAR_IRON_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
     VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
     VAR_STEEL_CUSTOMSTYLE 
 }
-apply (name:CONST_STEEL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_RANGED_WEAPONS) {
     VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_AMMO) {
     VAR_STEEL_CUSTOMSTYLE 
 }
-apply (name:CONST_STEEL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_ARMOUR) {
     VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
     VAR_STEEL_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
     VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_OTHER) {
     VAR_STEEL_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
     VAR_BLACK_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_RANGED_WEAPONS) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_AMMO) {
     VAR_BLACK_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_ARMOUR) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_OTHER) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_HERALDIC_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
     VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
-apply (name:CONST_MITHRIL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_RANGED_WEAPONS) {
     VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_AMMO) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
-apply (name:CONST_MITHRIL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_ARMOUR) {
     VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
     VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
     VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_OTHER) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
     VAR_ADAMANT_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_RANGED_WEAPONS) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_AMMO) {
     VAR_ADAMANT_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_ARMOUR) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
     VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
     VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_OTHER) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_HERALDIC_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
     VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
-}
-apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
 }
-apply (name:CONST_RUNE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_RANGED_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
-}
-apply (name:CONST_RUNE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_RUNE_AMMO) {
     VAR_RUNE_CUSTOMSTYLE 
 }
-apply (name:CONST_RUNE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_ARMOUR) {
     VAR_RUNE_CUSTOMSTYLE 
 }
-apply (name:CONST_RUNE_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_TRIMMED_ARMOUR) {
     VAR_RUNE_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
     VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -506,36 +326,207 @@ apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
     VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
-}
-apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
-apply (name:CONST_DRAGON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_DRAGON_RANGED_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
-}
-apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_DRAGON_AMMO) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
-apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
+}
+
+apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_HERALDIC_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_HERALDIC_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
 }
 
 // endmodule:metal_equipment
