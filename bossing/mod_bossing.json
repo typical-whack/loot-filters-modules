@@ -10,9 +10,6 @@
             "group": "God Wars Dungeon",
             "type": "stringlist",
             "default": [
-                "Godsword shard 1",
-                "Godsword shard 2",
-                "Godsword shard 3",
                 "Hammer"
             ]
         },
@@ -34,12 +31,7 @@
                 "Armadyl crossbow",
                 "Saradomin hilt"
             ],
-            "default": [
-                "Saradomin sword",
-                "Saradomin's light",
-                "Armadyl crossbow",
-                "Saradomin hilt"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE",
@@ -75,19 +67,7 @@
                 "Steel dart",
                 "Unicorn horn"
             ],
-            "default": [
-                "Coins",
-                "Grimy ranarr weed",
-                "Ranarr seed",
-                "Magic seed",
-                "Adamant platebody",
-                "Rune dart",
-                "Rune kiteshield",
-                "Rune plateskirt",
-                "Law rune",
-                "Diamond",
-                "Snape grass"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE",
@@ -131,15 +111,7 @@
                 "Monkfish",
                 "Bones"
             ],
-            "default": [
-                "Prayer potion(4)",
-                "Super defence(3)",
-                "Magic potion(3)",
-                "Saradomin brew(3)",
-                "Super restore(4)",
-                "Summer pie",
-                "Monkfish"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE",
@@ -156,9 +128,7 @@
                 "Monkfish",
                 "Bones"
             ],
-            "default": [
-                "Bones"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW",
@@ -171,12 +141,7 @@
                 "Bandos boots",
                 "Bandos hilt"
             ],
-            "default": [
-                "Bandos chestplate",
-                "Bandos tassets",
-                "Bandos boots",
-                "Bandos hilt"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE",
@@ -214,21 +179,7 @@
                 "Steel dart",
                 "Right eye patch"
             ],
-            "default": [
-                "Coins",
-                "Grimy snapdragon",
-                "Snapdragon seed",
-                "Adamantite ore",
-                "Coal",
-                "Nature rune",
-                "Cosmic rune",
-                "Magic logs",
-                "Limpwurt root",
-                "Rune longsword",
-                "Rune 2h sword",
-                "Rune platebody",
-                "Rune pickaxe"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE",
@@ -280,8 +231,7 @@
                 "Big bones",
                 "Super restore(4)",
                 "Shark",
-                "Chilli potato",
-                "Kebab"
+                "Chilli potato"
             ]
         },
         {
@@ -303,7 +253,8 @@
             "default": [
                 "Combat potion(3)",
                 "Super strength(3)",
-                "Beer"
+                "Beer",
+                "Kebab"
             ]
         },
         {
@@ -317,12 +268,7 @@
                 "Armadyl chainskirt",
                 "Armadyl hilt"
             ],
-            "default": [
-                "Armadyl helmet",
-                "Armadyl chestplate",
-                "Armadyl chainskirt",
-                "Armadyl hilt"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_UNIQUES_HIDE",
@@ -361,16 +307,7 @@
                 "Steel dart",
                 "Steel arrow"
             ],
-            "default": [
-                "Coins",
-                "Grimy dwarf weed",
-                "Dwarf weed seed",
-                "Dragonstone bolts (e)",
-                "Smoke rune",
-                "Yew seed",
-                "Crushed nest",
-                "Grimy kwuarm"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_KREEARRA_COMMON_HIDE",
@@ -456,12 +393,7 @@
                 "Staff of the dead",
                 "Zamorak hilt"
             ],
-            "default": [
-                "Steam battlestaff",
-                "Zamorakian spear",
-                "Staff of the dead",
-                "Zamorak hilt"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE",
@@ -498,18 +430,7 @@
                 "Steel dart",
                 "Steel arrow"
             ],
-            "default": [
-                "Coins",
-                "Rune platelegs",
-                "Grimy lantadyme",
-                "Lantadyme seed",
-                "Death rune",
-                "Blood rune",
-                "Wine of zamorak",
-                "Rune scimitar",
-                "Adamant platebody",
-                "Dragon dagger(p++)"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE",
@@ -554,11 +475,7 @@
                 "Super attack(3)",
                 "Super strength(3)"
             ],
-            "default": [
-                "Shark",
-                "Tuna potato",
-                "Super restore(3)"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE",
@@ -597,19 +514,7 @@
                 "Ancient ceremonial gloves",
                 "Ancient ceremonial boots"
             ],
-            "default": [
-                "Zaryte vambraces",
-                "Nihil horn",
-                "Torva full helm (damaged)",
-                "Torva platebody (damaged)",
-                "Torva platelegs (damaged)",
-                "Ancient hilt",
-                "Ancient ceremonial mask",
-                "Ancient ceremonial top",
-                "Ancient ceremonial legs",
-                "Ancient ceremonial gloves",
-                "Ancient ceremonial boots"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_NEX_UNIQUES_HIDE",
@@ -658,28 +563,7 @@
                 "Air orb",
                 "Coal"
             ],
-            "default": [
-                "Rune sword",
-                "Runite ore",
-                "Ecumenical key shard",
-                "Nihil shard",
-                "Blood essence",
-                "Onyx bolts (e)",
-                "Dragon bolts (unf)",
-                "Coins",
-                "Blood rune",
-                "Death rune",
-                "Soul rune",
-                "Cannonball",
-                "Uncut ruby",
-                "Uncut diamond",
-                "Wine of zamorak",
-                "Air rune",
-                "Fire rune",
-                "Water rune",
-                "Air orb",
-                "Coal"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_NEX_COMMON_HIDE",
@@ -721,12 +605,7 @@
                 "Saradomin brew(4)",
                 "Super restore(4)"
             ],
-            "default": [
-                "Shark",
-                "Prayer potion(4)",
-                "Saradomin brew(4)",
-                "Super restore(4)"
-            ]
+            "default": []
         },
         {
             "macroName": "VAR_BOSSING_NEX_SUPPLY_HIDE",
