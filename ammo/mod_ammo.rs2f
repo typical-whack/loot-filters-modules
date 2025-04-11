@@ -4,9 +4,6 @@
 #define VAR_AMMO_BRUTAL_ARROWS_HIDE []
 #define VAR_AMMO_SPECIAL_ARROWS_HIDE []
 
-VAR_AMMO_STANDARD_ARROWS_HIDE
-
-
 apply ("Bronze Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Bronze Arrow*") {
     hidden = true;
 }
