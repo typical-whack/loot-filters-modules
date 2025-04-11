@@ -8,6 +8,7 @@
 
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE
+#define VAR_GLOBAL_ICON_MINIMUM_VALUE 
 
 #define VAR_GLOBAL_MINIMUM_VALUE
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
@@ -26,6 +27,10 @@ apply (tradeable:true && value:<VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE) {
 }
 apply (tradeable:true && value:<VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE) {
     showValue = false;
+}
+apply (tradeable:true && value:<VAR_GLOBAL_ICON_MINIMUM_VALUE) {
+    // this is a hack to turn off the icon
+    icon = Sprite(9000000, 0);
 }
 
 apply (tradeable:true && value:<VAR_GLOBAL_MINIMUM_VALUE) {
