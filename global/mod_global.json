@@ -32,18 +32,21 @@
         {
             "macroName": "VAR_GLOBAL_MINIMUM_VALUE",
             "label": "Hide items below this value",
+            "group": "Global Value Filters",
             "type": "number",
             "default": 0
         },
         {
             "macroName": "VAR_GLOBAL_STACKABLE_MINIMUM_VALUE",
             "label": "Hide stackable and noted items below this value",
+            "group": "Global Value Filters",
             "type": "number",
             "default": 0
         },
         {
             "macroName": "VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE",
             "label": "Hide non-stackable items below this value",
+            "group": "Global Value Filters",
             "type": "number",
             "default": 0
         }
