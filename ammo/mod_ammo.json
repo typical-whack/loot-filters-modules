@@ -10,22 +10,46 @@
             "group": "Arrows",
             "type": "enumlist",
             "enum": [
-                "Bronze Arrows",
-                "Iron Arrows",
-                "Steel Arrows",
-                "Black Arrows",
-                "Mithril Arrows",
-                "Adamant Arrows",
-                "Rune Arrows"
+                {
+                    "value": "Bronze*",
+                    "label": "Bronze Arrows"
+                },
+                {
+                    "value": "Iron*",
+                    "label": "Iron Arrows"
+                },
+                {
+                    "value": "Steel*",
+                    "label": "Steel Arrows"
+                },
+                {
+                    "value": "Mithril*",
+                    "label": "Mithril Arrows"
+                },
+                {
+                    "value": "Adamant*",
+                    "label": "Adamant Arrows"
+                },
+                {
+                    "value": "Rune*",
+                    "label": "Rune Arrows"
+                },
+                {
+                    "value": "Amethyst*",
+                    "label": "Amethyst Arrows"
+                },
+                {
+                    "value": "Dragon*",
+                    "label": "Dragon Arrows"
+                }
             ],
             "default": [
-                "Bronze Arrows",
-                "Iron Arrows",
-                "Steel Arrows",
-                "Black Arrows",
-                "Mithril Arrows",
-                "Adamant Arrows",
-                "Rune Arrows"
+                "Bronze*",
+                "Iron*",
+                "Steel*",
+                "Mithril*",
+                "Adamant*",
+                "Rune*"
             ]
         },
         {

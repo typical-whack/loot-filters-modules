@@ -1,62 +1,33 @@
 // module:ammo:arrows
-
+#define CONST_STANDARD_ARROW_LIST [\
+    "Bronze Arrow*", \
+    "Iron Arrow*", \
+    "Steel Arrow*", \
+    "Mithril Arrow*", \
+    "Adamant Arrow*", \
+    "Rune Arrow*", \
+    "Amethyst Arrow*", \
+    "Dragon Arrow*", \
+    "Bronze fire arrow", \
+    "Iron fire arrow", \
+    "Steel fire arrow", \
+    "Mithril fire arrow", \
+    "Adamant fire arrow", \
+    "Rune fire arrow", \
+    "Amethyst fire arrow", \
+    "Dragon fire arrow", \
+]
 #define VAR_AMMO_STANDARD_ARROWS_HIDE []
+apply (name:CONST_STANDARD_ARROW_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
+    hidden = true;
+}
+
 #define VAR_AMMO_BRUTAL_ARROWS_HIDE []
-#define VAR_AMMO_SPECIAL_ARROWS_HIDE []
-
-apply ("Bronze Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Bronze Arrow*") {
-    hidden = true;
-}
-apply ("Bronze Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Bronze fire arrow") {
-    hidden = true;
-}
-apply ("Iron Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Iron Arrow*") {
-    hidden = true;
-}
-apply ("Iron Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Iron fire arrow") {
-    hidden = true;
-}
-apply ("Steel Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Steel Arrow*") {
-    hidden = true;
-}
-apply ("Steel Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Steel fire arrow") {
-    hidden = true;
-}
-apply ("Mithril Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Mithril Arrow*") {
-    hidden = true;
-}
-apply ("Mithril Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Mithril fire arrow") {
-    hidden = true;
-}
-apply ("Adamant Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Adamant Arrow*") {
-    hidden = true;
-}
-apply ("Adamant Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Adamant fire arrow") {
-    hidden = true;
-}
-apply ("Rune Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Rune Arrow*") {
-    hidden = true;
-}
-apply ("Rune Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Rune fire arrow") {
-    hidden = true;
-}
-apply ("Amethyst Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Amethyst Arrow*") {
-    hidden = true;
-}
-apply ("Amethyst Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Amethyst fire arrow") {
-    hidden = true;
-}
-apply ("Dragon Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Dragon Arrow*") {
-    hidden = true;
-}
-apply ("Dragon Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Dragon fire arrow") {
-    hidden = true;
-}
-
 apply (name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
     hidden = true;
 }
 
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE []
 apply (name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
     hidden = true;
 }
