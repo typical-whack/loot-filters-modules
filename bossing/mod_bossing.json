@@ -144,19 +144,6 @@
             "default": []
         },
         {
-            "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE",
-            "label": "General Graardor uniques force hidden",
-            "group": "General Graardor",
-            "type": "enumlist",
-            "enum": [
-                "Bandos chestplate",
-                "Bandos tassets",
-                "Bandos boots",
-                "Bandos hilt"
-            ],
-            "default": []
-        },
-        {
             "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW",
             "label": "General Graardor common drops force shown",
             "group": "General Graardor",
@@ -178,6 +165,43 @@
                 "Steel arrow",
                 "Steel dart",
                 "Right eye patch"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW",
+            "label": "General Graardor supply drops force shown",
+            "group": "General Graardor",
+            "type": "enumlist",
+            "enum": [
+                "Bones",
+                "Big bones",
+                "Super restore(4)",
+                "Shark",
+                "Chilli potato",
+                "Kebab",
+                "Combat potion(3)",
+                "Super strength(3)",
+                "Beer"
+            ],
+            "default": [
+                "Bones",
+                "Big bones",
+                "Super restore(4)",
+                "Shark",
+                "Chilli potato"
+            ]
+        },
+        {
+            "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE",
+            "label": "General Graardor uniques force hidden",
+            "group": "General Graardor",
+            "type": "enumlist",
+            "enum": [
+                "Bandos chestplate",
+                "Bandos tassets",
+                "Bandos boots",
+                "Bandos hilt"
             ],
             "default": []
         },
@@ -208,30 +232,6 @@
                 "Steel arrow",
                 "Steel dart",
                 "Right eye patch"
-            ]
-        },
-        {
-            "macroName": "VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW",
-            "label": "General Graardor supply drops force shown",
-            "group": "General Graardor",
-            "type": "enumlist",
-            "enum": [
-                "Bones",
-                "Big bones",
-                "Super restore(4)",
-                "Shark",
-                "Chilli potato",
-                "Kebab",
-                "Combat potion(3)",
-                "Super strength(3)",
-                "Beer"
-            ],
-            "default": [
-                "Bones",
-                "Big bones",
-                "Super restore(4)",
-                "Shark",
-                "Chilli potato"
             ]
         },
         {
@@ -271,19 +271,6 @@
             "default": []
         },
         {
-            "macroName": "VAR_BOSSING_KREEARRA_UNIQUES_HIDE",
-            "label": "Kree'arra uniques force hidden",
-            "group": "Kree'arra",
-            "type": "enumlist",
-            "enum": [
-                "Armadyl helmet",
-                "Armadyl chestplate",
-                "Armadyl chainskirt",
-                "Armadyl hilt"
-            ],
-            "default": []
-        },
-        {
             "macroName": "VAR_BOSSING_KREEARRA_COMMON_SHOW",
             "label": "Kree'arra common drops force shown",
             "group": "Kree'arra",
@@ -306,6 +293,41 @@
                 "Crystal key",
                 "Steel dart",
                 "Steel arrow"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_BOSSING_KREEARRA_SUPPLY_SHOW",
+            "label": "Kree'arra supply drops force shown",
+            "group": "Kree'arra",
+            "type": "enumlist",
+            "enum": [
+                "Bones",
+                "Big bones",
+                "Ranging potion(3)",
+                "Super defence(3)",
+                "Manta ray",
+                "Mushroom potato"
+            ],
+            "default": [
+                "Bones",
+                "Big bones",
+                "Ranging potion(3)",
+                "Super defence(3)",
+                "Manta ray",
+                "Mushroom potato"
+            ]
+        },
+        {
+            "macroName": "VAR_BOSSING_KREEARRA_UNIQUES_HIDE",
+            "label": "Kree'arra uniques force hidden",
+            "group": "Kree'arra",
+            "type": "enumlist",
+            "enum": [
+                "Armadyl helmet",
+                "Armadyl chestplate",
+                "Armadyl chainskirt",
+                "Armadyl hilt"
             ],
             "default": []
         },
@@ -346,28 +368,6 @@
             ]
         },
         {
-            "macroName": "VAR_BOSSING_KREEARRA_SUPPLY_SHOW",
-            "label": "Kree'arra supply drops force shown",
-            "group": "Kree'arra",
-            "type": "enumlist",
-            "enum": [
-                "Bones",
-                "Big bones",
-                "Ranging potion(3)",
-                "Super defence(3)",
-                "Manta ray",
-                "Mushroom potato"
-            ],
-            "default": [
-                "Bones",
-                "Big bones",
-                "Ranging potion(3)",
-                "Super defence(3)",
-                "Manta ray",
-                "Mushroom potato"
-            ]
-        },
-        {
             "macroName": "VAR_BOSSING_KREEARRA_SUPPLY_HIDE",
             "label": "Kree'arra supply drops force hidden",
             "group": "Kree'arra",
@@ -385,19 +385,6 @@
         {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW",
             "label": "K'ril Tsutsaroth uniques force shown",
-            "group": "K'ril Tsutsaroth",
-            "type": "enumlist",
-            "enum": [
-                "Steam battlestaff",
-                "Zamorakian spear",
-                "Staff of the dead",
-                "Zamorak hilt"
-            ],
-            "default": []
-        },
-        {
-            "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE",
-            "label": "K'ril Tsutsaroth uniques force hidden",
             "group": "K'ril Tsutsaroth",
             "type": "enumlist",
             "enum": [
@@ -433,6 +420,34 @@
             "default": []
         },
         {
+            "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW",
+            "label": "K'ril Tsutsaroth supply drops force shown",
+            "group": "K'ril Tsutsaroth",
+            "type": "enumlist",
+            "enum": [
+                "Shark",
+                "Tuna potato",
+                "Super restore(3)",
+                "Zamorak brew(3)",
+                "Super attack(3)",
+                "Super strength(3)"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE",
+            "label": "K'ril Tsutsaroth uniques force hidden",
+            "group": "K'ril Tsutsaroth",
+            "type": "enumlist",
+            "enum": [
+                "Steam battlestaff",
+                "Zamorakian spear",
+                "Staff of the dead",
+                "Zamorak hilt"
+            ],
+            "default": []
+        },
+        {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE",
             "label": "K'ril Tsutsaroth common drops force hidden",
             "group": "K'ril Tsutsaroth",
@@ -463,21 +478,6 @@
             ]
         },
         {
-            "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW",
-            "label": "K'ril Tsutsaroth supply drops force shown",
-            "group": "K'ril Tsutsaroth",
-            "type": "enumlist",
-            "enum": [
-                "Shark",
-                "Tuna potato",
-                "Super restore(3)",
-                "Zamorak brew(3)",
-                "Super attack(3)",
-                "Super strength(3)"
-            ],
-            "default": []
-        },
-        {
             "macroName": "VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE",
             "label": "K'ril Tsutsaroth supply drops force hidden",
             "group": "K'ril Tsutsaroth",
@@ -499,26 +499,6 @@
         {
             "macroName": "VAR_BOSSING_NEX_UNIQUES_SHOW",
             "label": "Nex uniques force shown",
-            "group": "Nex",
-            "type": "enumlist",
-            "enum": [
-                "Zaryte vambraces",
-                "Nihil horn",
-                "Torva full helm (damaged)",
-                "Torva platebody (damaged)",
-                "Torva platelegs (damaged)",
-                "Ancient hilt",
-                "Ancient ceremonial mask",
-                "Ancient ceremonial top",
-                "Ancient ceremonial legs",
-                "Ancient ceremonial gloves",
-                "Ancient ceremonial boots"
-            ],
-            "default": []
-        },
-        {
-            "macroName": "VAR_BOSSING_NEX_UNIQUES_HIDE",
-            "label": "Nex uniques force hidden",
             "group": "Nex",
             "type": "enumlist",
             "enum": [
@@ -566,6 +546,39 @@
             "default": []
         },
         {
+            "macroName": "VAR_BOSSING_NEX_SUPPLY_SHOW",
+            "label": "Nex supply drops force shown",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [
+                "Shark",
+                "Prayer potion(4)",
+                "Saradomin brew(4)",
+                "Super restore(4)"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_BOSSING_NEX_UNIQUES_HIDE",
+            "label": "Nex uniques force hidden",
+            "group": "Nex",
+            "type": "enumlist",
+            "enum": [
+                "Zaryte vambraces",
+                "Nihil horn",
+                "Torva full helm (damaged)",
+                "Torva platebody (damaged)",
+                "Torva platelegs (damaged)",
+                "Ancient hilt",
+                "Ancient ceremonial mask",
+                "Ancient ceremonial top",
+                "Ancient ceremonial legs",
+                "Ancient ceremonial gloves",
+                "Ancient ceremonial boots"
+            ],
+            "default": []
+        },
+        {
             "macroName": "VAR_BOSSING_NEX_COMMON_HIDE",
             "label": "Nex common drops force hidden",
             "group": "Nex",
@@ -591,19 +604,6 @@
                 "Water rune",
                 "Air orb",
                 "Coal"
-            ],
-            "default": []
-        },
-        {
-            "macroName": "VAR_BOSSING_NEX_SUPPLY_SHOW",
-            "label": "Nex supply drops force shown",
-            "group": "Nex",
-            "type": "enumlist",
-            "enum": [
-                "Shark",
-                "Prayer potion(4)",
-                "Saradomin brew(4)",
-                "Super restore(4)"
             ],
             "default": []
         },
