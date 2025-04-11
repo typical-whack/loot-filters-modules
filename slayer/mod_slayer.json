@@ -1,7 +1,7 @@
 {
     "name": "Slayer",
     "rs2fPath": "mod_slayer.rs2f",
-    "subtitle": "Duradaddy",
+    "subtitle": "Let it rain blood",
     "description": "This provides area-based item filtering for slayer monsters. (Just smoke devils covered so far)",
     "inputs": [
         {
