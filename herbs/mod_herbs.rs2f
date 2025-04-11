@@ -1,6 +1,7 @@
 // module:herbs
 
 #define VAR_HERBS_HIDE []
+#define VAR_HERBS_SHOW []
 
 #define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE    
 #define VAR_HERBS_MARRENTILL_CUSTOMSTYLE   
@@ -35,7 +36,9 @@
 #define VAR_HERBS_TORSTOL_MIN_QUANTITY
 
 
-
+apply (name:VAR_HERBS_SHOW) {
+    hidden = false;
+}
 apply (name:VAR_HERBS_HIDE) {
     hidden = true;
 }

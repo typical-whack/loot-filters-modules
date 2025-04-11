@@ -76,6 +76,79 @@
             ]
         },
         {
+            "macroName": "VAR_HERBS_SHOW",
+            "label": "Herbs to force shown",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "*Guam leaf",
+                    "label": "Guam leaf"
+                },
+                {
+                    "value": "*Marrentill",
+                    "label": "Marrentill"
+                },
+                {
+                    "value": "*Tarromin",
+                    "label": "Tarromin"
+                },
+                {
+                    "value": "*Harralander",
+                    "label": "Harralander"
+                },
+                {
+                    "value": "*Ranarr weed",
+                    "label": "Ranarr weed"
+                },
+                {
+                    "value": "*Toadflax",
+                    "label": "Toadflax"
+                },
+                {
+                    "value": "*Irit leaf",
+                    "label": "Irit leaf"
+                },
+                {
+                    "value": "*Avantoe",
+                    "label": "Avantoe"
+                },
+                {
+                    "value": "*Kwuarm",
+                    "label": "Kwuarm"
+                },
+                {
+                    "value": "*Huasca",
+                    "label": "Huasca"
+                },
+                {
+                    "value": "*Snapdragon",
+                    "label": "Snapdragon"
+                },
+                {
+                    "value": "*Cadantine",
+                    "label": "Cadantine"
+                },
+                {
+                    "value": "*Lantadyme",
+                    "label": "Lantadyme"
+                },
+                {
+                    "value": "*Dwarf weed",
+                    "label": "Dwarf weed"
+                },
+                {
+                    "value": "*Torstol",
+                    "label": "Torstol"
+                }
+            ],
+            "default": [
+                "*Ranarr weed",
+                "*Huasca",
+                "*Snapdragon",
+                "*Torstol"
+            ]
+        },
+        {
             "macroName": "VAR_HERBS_GUAM_LEAF_MIN_QUANTITY",
             "label": "Guam leaf minimum quantity",
             "group": "Herb Filtering",
