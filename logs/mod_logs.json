@@ -7,6 +7,7 @@
         {
             "macroName": "VAR_LOGS_HIDE",
             "label": "Logs to force hidden",
+            "group": "Logs Filters",
             "type": "enumlist",
             "enum": [
                 "Logs",
@@ -28,9 +29,114 @@
             "default": []
         },
         {
+            "macroName": "VAR_LOGS_MIN_QUANTITY",
+            "label": "Logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_OAK_LOGS_MIN_QUANTITY",
+            "label": "Oak logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_WILLOW_LOGS_MIN_QUANTITY",
+            "label": "Willow logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MAPLE_LOGS_MIN_QUANTITY",
+            "label": "Maple logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_YEW_LOGS_MIN_QUANTITY",
+            "label": "Yew logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MAGIC_LOGS_MIN_QUANTITY",
+            "label": "Magic logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_REDWOOD_LOGS_MIN_QUANTITY",
+            "label": "Redwood logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_TEAK_LOGS_MIN_QUANTITY",
+            "label": "Teak logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MAHOGANY_LOGS_MIN_QUANTITY",
+            "label": "Mahogany logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_ACHEY_TREE_LOGS_MIN_QUANTITY",
+            "label": "Achey tree logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY",
+            "label": "Arctic pine logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY",
+            "label": "Scrapey tree logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_JUNIPER_LOGS_MIN_QUANTITY",
+            "label": "Juniper logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_BARK_MIN_QUANTITY",
+            "label": "Bark minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_BLISTERWOOD_LOGS_MIN_QUANTITY",
+            "label": "Blisterwood logs minimum quantity",
+            "group": "Logs Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_LOGS_CUSTOMSTYLE",
             "label": "Logs custom style",
-            "group": "Logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Logs",
             "default": {
@@ -42,16 +148,9 @@
             }
         },
         {
-            "macroName": "VAR_LOGS_MIN_QUANTITY",
-            "label": "Logs minimum quantity",
-            "group": "Logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_OAK_LOGS_CUSTOMSTYLE",
             "label": "Oak logs custom style",
-            "group": "Oak logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Oak logs",
             "default": {
@@ -63,16 +162,9 @@
             }
         },
         {
-            "macroName": "VAR_OAK_LOGS_MIN_QUANTITY",
-            "label": "Oak logs minimum quantity",
-            "group": "Oak logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_WILLOW_LOGS_CUSTOMSTYLE",
             "label": "Willow logs custom style",
-            "group": "Willow logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Willow logs",
             "default": {
@@ -84,16 +176,9 @@
             }
         },
         {
-            "macroName": "VAR_WILLOW_LOGS_MIN_QUANTITY",
-            "label": "Willow logs minimum quantity",
-            "group": "Willow logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_MAPLE_LOGS_CUSTOMSTYLE",
             "label": "Maple logs custom style",
-            "group": "Maple logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Maple logs",
             "default": {
@@ -105,16 +190,9 @@
             }
         },
         {
-            "macroName": "VAR_MAPLE_LOGS_MIN_QUANTITY",
-            "label": "Maple logs minimum quantity",
-            "group": "Maple logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_YEW_LOGS_CUSTOMSTYLE",
             "label": "Yew logs custom style",
-            "group": "Yew logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Yew logs",
             "default": {
@@ -126,16 +204,9 @@
             }
         },
         {
-            "macroName": "VAR_YEW_LOGS_MIN_QUANTITY",
-            "label": "Yew logs minimum quantity",
-            "group": "Yew logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_MAGIC_LOGS_CUSTOMSTYLE",
             "label": "Magic logs custom style",
-            "group": "Magic logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Magic logs",
             "default": {
@@ -147,16 +218,9 @@
             }
         },
         {
-            "macroName": "VAR_MAGIC_LOGS_MIN_QUANTITY",
-            "label": "Magic logs minimum quantity",
-            "group": "Magic logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_REDWOOD_LOGS_CUSTOMSTYLE",
             "label": "Redwood logs custom style",
-            "group": "Redwood logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Redwood logs",
             "default": {
@@ -168,16 +232,9 @@
             }
         },
         {
-            "macroName": "VAR_REDWOOD_LOGS_MIN_QUANTITY",
-            "label": "Redwood logs minimum quantity",
-            "group": "Redwood logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_TEAK_LOGS_CUSTOMSTYLE",
             "label": "Teak logs custom style",
-            "group": "Teak logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Teak logs",
             "default": {
@@ -189,16 +246,9 @@
             }
         },
         {
-            "macroName": "VAR_TEAK_LOGS_MIN_QUANTITY",
-            "label": "Teak logs minimum quantity",
-            "group": "Teak logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_MAHOGANY_LOGS_CUSTOMSTYLE",
             "label": "Mahogany logs custom style",
-            "group": "Mahogany logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Mahogany logs",
             "default": {
@@ -210,16 +260,9 @@
             }
         },
         {
-            "macroName": "VAR_MAHOGANY_LOGS_MIN_QUANTITY",
-            "label": "Mahogany logs minimum quantity",
-            "group": "Mahogany logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE",
             "label": "Achey tree logs custom style",
-            "group": "Achey tree logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Achey tree logs",
             "default": {
@@ -231,16 +274,9 @@
             }
         },
         {
-            "macroName": "VAR_ACHEY_TREE_LOGS_MIN_QUANTITY",
-            "label": "Achey tree logs minimum quantity",
-            "group": "Achey tree logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE",
             "label": "Arctic pine logs custom style",
-            "group": "Arctic pine logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Arctic pine logs",
             "default": {
@@ -252,16 +288,9 @@
             }
         },
         {
-            "macroName": "VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY",
-            "label": "Arctic pine logs minimum quantity",
-            "group": "Arctic pine logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE",
             "label": "Scrapey tree logs custom style",
-            "group": "Scrapey tree logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Scrapey tree logs",
             "default": {
@@ -273,16 +302,9 @@
             }
         },
         {
-            "macroName": "VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY",
-            "label": "Scrapey tree logs minimum quantity",
-            "group": "Scrapey tree logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_JUNIPER_LOGS_CUSTOMSTYLE",
             "label": "Juniper logs custom style",
-            "group": "Juniper logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Juniper logs",
             "default": {
@@ -294,16 +316,9 @@
             }
         },
         {
-            "macroName": "VAR_JUNIPER_LOGS_MIN_QUANTITY",
-            "label": "Juniper logs minimum quantity",
-            "group": "Juniper logs",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_BARK_CUSTOMSTYLE",
             "label": "Bark custom style",
-            "group": "Bark",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Bark",
             "default": {
@@ -315,16 +330,9 @@
             }
         },
         {
-            "macroName": "VAR_BARK_MIN_QUANTITY",
-            "label": "Bark minimum quantity",
-            "group": "Bark",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE",
             "label": "Blisterwood logs custom style",
-            "group": "Blisterwood logs",
+            "group": "Custom Styling",
             "type": "style",
             "exampleItem": "Blisterwood logs",
             "default": {
@@ -334,13 +342,6 @@
                 "borderColor": "#FFDFDBDB",
                 "menuTextColor": "#FFDFDBDB"
             }
-        },
-        {
-            "macroName": "VAR_BLISTERWOOD_LOGS_MIN_QUANTITY",
-            "label": "Blisterwood logs minimum quantity",
-            "group": "Blisterwood logs",
-            "type": "number",
-            "default": 0
         }
     ]
 }
