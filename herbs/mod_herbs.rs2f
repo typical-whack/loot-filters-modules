@@ -1,5 +1,8 @@
 // module:herbs
 
+#define CONST_ALL_HERBS ["*guam leaf", "*marrentill", "*tarromin", "*harralander", "*ranarr weed", "*toadflax", "*irit leaf", "*avantoe", "*kwuarm", "*huasca", "*snapdragon", "*cadantine", "*lantadyme", "*dwarf weed", "*torstol"]
+
+#define VAR_HERBS_MINIMUM_VALUE 
 #define VAR_HERBS_HIDE []
 #define VAR_HERBS_SHOW []
 
@@ -51,6 +54,9 @@
 #define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 
 #define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 
 
+apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
+    hidden = true;
+}
 apply (name:VAR_HERBS_SHOW) {
     hidden = false;
 }

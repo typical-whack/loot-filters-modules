@@ -5,6 +5,12 @@
     "description": "Provides herb filters, quantity filters per herb, and custom styling for each herb. By default, this gives each herb unique styling.",
     "inputs": [
         {
+            "macroName": "VAR_HERBS_MINIMUM_VALUE",
+            "label": "Hide herbs below this value",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_HERBS_HIDE",
             "label": "Herbs to force hidden",
             "type": "enumlist",
