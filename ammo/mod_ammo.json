@@ -1,0 +1,105 @@
+{
+    "name": "Ammo",
+    "rs2fPath": "mod_ammo.rs2f",
+    "subtitle": "Forgetting your backpack?",
+    "description": "Provides filters for ammo.",
+    "inputs": [
+        {
+            "macroName": "VAR_AMMO_STANDARD_ARROWS_HIDE",
+            "label": "Standard arrows to force hidden",
+            "group": "Arrows",
+            "type": "enumlist",
+            "enum": [
+                "Bronze Arrows",
+                "Iron Arrows",
+                "Steel Arrows",
+                "Black Arrows",
+                "Mithril Arrows",
+                "Adamant Arrows",
+                "Rune Arrows"
+            ],
+            "default": [
+                "Bronze Arrows",
+                "Iron Arrows",
+                "Steel Arrows",
+                "Black Arrows",
+                "Mithril Arrows",
+                "Adamant Arrows",
+                "Rune Arrows"
+            ]
+        },
+        {
+            "macroName": "VAR_AMMO_BRUTAL_ARROWS_HIDE",
+            "label": "Brutal arrows to force hidden",
+            "group": "Arrows",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "Bronze brutal",
+                    "label": "Bronze brutal arrows"
+                },
+                {
+                    "value": "Iron brutal",
+                    "label": "Iron brutal arrows"
+                },
+                {
+                    "value": "Steel brutal",
+                    "label": "Steel brutal arrows"
+                },
+                {
+                    "value": "Black brutal",
+                    "label": "Black brutal arrows"
+                },
+                {
+                    "value": "Mithril brutal",
+                    "label": "Mithril brutal arrows"
+                },
+                {
+                    "value": "Adamant brutal",
+                    "label": "Adamant brutal arrows"
+                },
+                {
+                    "value": "Rune brutal",
+                    "label": "Rune brutal arrows"
+                }
+            ],
+            "default": [
+                "Bronze brutal",
+                "Iron brutal",
+                "Steel brutal",
+                "Black brutal",
+                "Mithril brutal"
+            ]
+        },
+        {
+            "macroName": "VAR_AMMO_SPECIAL_ARROWS_HIDE",
+            "label": "Special arrows to force hidden",
+            "group": "Arrows",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "Training Arrow",
+                    "label": "Training Arrows"
+                },
+                {
+                    "value": "Ogre Arrow",
+                    "label": "Ogre Arrows"
+                },
+                {
+                    "value": "Ice Arrow",
+                    "label": "Ice Arrows"
+                },
+                {
+                    "value": "Broad Arrow",
+                    "label": "Broad Arrows"
+                }
+            ],
+            "default": [
+                "Training Arrow",
+                "Ogre Arrow",
+                "Ice Arrow",
+                "Broad Arrow"
+            ]
+        }
+    ]
+}

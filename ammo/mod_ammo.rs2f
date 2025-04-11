@@ -1,0 +1,133 @@
+// module:ammo:arrows
+
+#define VAR_AMMO_STANDARD_ARROWS_HIDE []
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE []
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE []
+
+VAR_AMMO_STANDARD_ARROWS_HIDE
+
+
+apply ("Bronze Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Bronze Arrow*") {
+    hidden = true;
+}
+apply ("Bronze Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Bronze fire arrow") {
+    hidden = true;
+}
+apply ("Iron Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Iron Arrow*") {
+    hidden = true;
+}
+apply ("Iron Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Iron fire arrow") {
+    hidden = true;
+}
+apply ("Steel Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Steel Arrow*") {
+    hidden = true;
+}
+apply ("Steel Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Steel fire arrow") {
+    hidden = true;
+}
+apply ("Mithril Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Mithril Arrow*") {
+    hidden = true;
+}
+apply ("Mithril Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Mithril fire arrow") {
+    hidden = true;
+}
+apply ("Adamant Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Adamant Arrow*") {
+    hidden = true;
+}
+apply ("Adamant Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Adamant fire arrow") {
+    hidden = true;
+}
+apply ("Rune Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Rune Arrow*") {
+    hidden = true;
+}
+apply ("Rune Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Rune fire arrow") {
+    hidden = true;
+}
+apply ("Amethyst Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Amethyst Arrow*") {
+    hidden = true;
+}
+apply ("Amethyst Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Amethyst fire arrow") {
+    hidden = true;
+}
+apply ("Dragon Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Dragon Arrow*") {
+    hidden = true;
+}
+apply ("Dragon Arrows":VAR_AMMO_STANDARD_ARROWS_HIDE && name:"Dragon fire arrow") {
+    hidden = true;
+}
+
+apply (name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
+    hidden = true;
+}
+
+apply (name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
+    hidden = true;
+}
+
+// endmodule:ammo:arrows
+
+// module:ammo
+//
+// "Bronze dart*"
+// "Iron dart*"
+// "Steel dart*"
+// "Black dart*"
+// "Mithril dart*"
+// "Adamant dart*"
+// "Rune dart*"
+// "Amethyst dart*"
+// "Dragon dart*"
+// 
+// "Atlatl dart"
+// 
+// "Bronze javelin*"
+// "Iron javelin*"
+// "Steel javelin*"
+// "Mithril javelin*"
+// "Adamant javelin*"
+// "Rune javelin*"
+// "Amethyst javelin*"
+// "Dragon javelin*"
+// 
+// "Bronze bolts*"
+// "Blurite bolts*"
+// "Silver bolts*"
+// "Iron bolts*"
+// "Steel bolts*"
+// "Mithril bolts*"
+// "Adamant bolts*"
+// "Runite bolts*"
+// "Dragon bolts*"
+// 
+// "Opal bolts (e)"
+// "Jade bolts (e)"
+// "Pearl bolts (e)"
+// "Topaz bolts (e)"
+// "Sapphire bolts (e)"
+// "Emerald bolts (e)"
+// "Ruby bolts (e)"
+// "Diamond bolts (e)"
+// "Dragonstone bolts (e)"
+// "Onyx bolts (e)"
+// 
+// "Opal dragon bolts (e)"
+// "Jade dragon bolts (e)"
+// "Pearl dragon bolts (e)"
+// "Topaz dragon bolts (e)"
+// "Sapphire dragon bolts (e)"
+// "Emerald dragon bolts (e)"
+// "Ruby dragon bolts (e)"
+// "Diamond dragon bolts (e)"
+// "Dragonstone dragon bolts (e)"
+// "Onyx dragon bolts (e)"
+// 
+// "Sunlight antler bolts"
+// "Moonlight antler bolts"
+// "Kebbit bolts"
+// "Long kebbit bolts"
+// "Broad bolts"
+// "Amethyst broad bolts"
+// "Barbed bolts"
+// "Bone bolts"
+//
+// endmodule:ammo

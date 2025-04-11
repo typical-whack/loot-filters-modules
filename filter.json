@@ -40,6 +40,9 @@
             "modulePath": "alchs/mod_alchs.json"
         },
         {
+            "modulePath": "ammo/mod_ammo.json"
+        },
+        {
             "modulePath": "runes/mod_runes.json"
         },
         {
