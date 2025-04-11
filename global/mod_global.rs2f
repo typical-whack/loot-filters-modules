@@ -7,10 +7,20 @@
 #define VAR_GLOBAL_SHOW_ICONS 
 
 #define VAR_GLOBAL_MINIMUM_VALUE
-
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE
 
 
 apply (tradeable:true && value:<VAR_GLOBAL_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (tradeable:true && stackable:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (tradeable:true && noted:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (tradeable:true && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
     hidden = true;
 }
 
