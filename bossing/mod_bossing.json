@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_BOSSING_GOD_WARS_DUNGEON_SHOW",
-            "label": "God Wars Dungeon uniques force shown",
+            "label": "God Wars Dungeon force shown",
             "group": "God Wars Dungeon",
             "type": "stringlist",
             "default": [
@@ -18,7 +18,7 @@
         },
         {
             "macroName": "VAR_BOSSING_GOD_WARS_DUNGEON_HIDE",
-            "label": "God Wars Dungeon uniques force hidden",
+            "label": "God Wars Dungeon force hidden",
             "group": "God Wars Dungeon",
             "type": "stringlist",
             "default": []
