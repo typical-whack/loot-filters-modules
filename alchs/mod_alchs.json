@@ -1,8 +1,8 @@
 {
     "name": "Alchs",
     "rs2fPath": "mod_alchs.rs2f",
-    "subtitle": "...",
-    "description": "",
+    "subtitle": "Ka-ching!",
+    "description": "Provides styling options for common alchable items.",
     "inputs": [
         {
             "macroName": "VAR_ALCHS_SET_HIGH_ALCH_ICON",
@@ -58,6 +58,13 @@
                 "Runite limbs",
                 "Water battlestaff"
             ]
+        },
+        {
+            "macroName": "VAR_ALCHS_CUSTOMSTYLE",
+            "label": "Custom style for items on the alchs list",
+            "type": "style",
+            "exampleItem": "Rune platelegs",
+            "default": {}
         }
     ]
 }

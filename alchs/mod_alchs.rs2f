@@ -2,10 +2,13 @@
 
 #define VAR_ALCHS_ITEM_LIST []
 #define VAR_ALCHS_SET_HIGH_ALCH_ICON 
-
+#define VAR_ALCHS_CUSTOMSTYLE 
 
 apply (VAR_ALCHS_SET_HIGH_ALCH_ICON && name:VAR_ALCHS_ITEM_LIST) {
     icon = Sprite(41, 0);
+}
+apply (name:VAR_ALCHS_ITEM_LIST) {
+    VAR_ALCHS_CUSTOMSTYLE
 }
 
 // endmodule:alchs
