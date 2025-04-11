@@ -5,20 +5,29 @@
     "description": "This provides some default styling options to apply to all items, unless overridden by a module below. This also provides an option to explicitly show and hide specific items. This list however can be overridden in a below modules as well.",
     "inputs": [
         {
-            "macroName": "VAR_GLOBAL_CUSTOMSTYLE",
-            "label": "Global default style",
-            "type": "style",
-            "exampleItem": "Santa hat",
-            "default": {
-                "showValue": true,
-                "showDespawn": true
-            }
-        },
-        {
             "macroName": "VAR_GLOBAL_SHOW_ICONS",
             "label": "Show Item Icons",
             "type": "boolean",
             "default": true
+        },
+        {
+            "macroName": "VAR_GLOBAL_SHOW_DESPAWN",
+            "label": "Show Item Despawn Timer",
+            "type": "boolean",
+            "default": true
+        },
+        {
+            "macroName": "VAR_GLOBAL_SHOW_VALUE",
+            "label": "Show Item Value",
+            "type": "boolean",
+            "default": true
+        },
+        {
+            "macroName": "VAR_GLOBAL_CUSTOMSTYLE",
+            "label": "Global default style",
+            "type": "style",
+            "exampleItem": "Santa hat",
+            "default": {}
         },
         {
             "macroName": {

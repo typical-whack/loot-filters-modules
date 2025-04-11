@@ -3,8 +3,11 @@
 #define VAR_GLOBAL_HIDE []
 #define VAR_GLOBAL_SHOW []
 
-#define VAR_GLOBAL_CUSTOMSTYLE 
 #define VAR_GLOBAL_SHOW_ICONS 
+#define VAR_GLOBAL_SHOW_DESPAWN 
+#define VAR_GLOBAL_SHOW_ICONS 
+
+#define VAR_GLOBAL_CUSTOMSTYLE 
 
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE
@@ -14,12 +17,20 @@
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE
 
-apply (name:"*") {
-    VAR_GLOBAL_CUSTOMSTYLE 
-}
+
 
 apply (VAR_GLOBAL_SHOW_ICONS) {
     icon = CurrentItem();
+}
+apply (VAR_GLOBAL_SHOW_DESPAWN) {
+    showDespawn = true;
+}
+apply (VAR_GLOBAL_SHOW_VALUE) {
+    showValue = true;
+}
+
+apply (true) {
+    VAR_GLOBAL_CUSTOMSTYLE 
 }
 
 apply (tradeable:true && value:<VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE) {
