@@ -65,55 +65,69 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 // endmodule:slayer:araxytes
 
 // module:slayer:dark_beasts
+#define CONST_SLAYER_DARK_BEASTS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:dark_beasts
 
 // module:slayer:cave_kraken
+#define CONST_SLAYER_CAVE_KRAKEN_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:cave_kraken
 
 // module:slayer:abyssal_demons
+#define CONST_SLAYER_ABYSSAL_DEMONS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:abyssal_demons
 
 // module:slayer:drakes
+#define CONST_SLAYER_DRAKES_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:drakes
 
 // module:slayer:nechryael
+#define CONST_SLAYER_NECHRYAEL_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:nechryael
 
 // module:slayer:gargoyles
+#define CONST_SLAYER_GARGOYLES_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:gargoyles
 
 // module:slayer:skeletal_wyverns
+#define CONST_SLAYER_SKELETAL_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:skeletal_wyverns
 
 // module:slayer:kurasks
+#define CONST_SLAYER_KURASKS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:kurasks
 
 // module:slayer:fossil_island_wyverns
+#define CONST_SLAYER_FOSSIL_ISLAND_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:fossil_island_wyverns
 
 // module:slayer:dust_devils
+#define CONST_SLAYER_DUST_DEVILS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:dust_devils
 
 // module:slayer:wyrms
+#define CONST_SLAYER_WYRMS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:wyrms
 
 // module:slayer:cave_horrors
+#define CONST_SLAYER_CAVE_HORRORS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:cave_horrors
 
 // module:slayer:zygomites
+#define CONST_SLAYER_ZYGOMITES_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:zygomites
 
 // module:slayer:warped_creatures
+#define CONST_SLAYER_WARPED_CREATURES_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:warped_creatures
 
 // module:slayer:turoths
+#define CONST_SLAYER_TUROTHS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:turoths
 
 // module:slayer:jellies
+#define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:jellies
 
 // module:slayer:bloodvelds
+#define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
 // endmodule:slayer:bloodvelds
-
-
-
