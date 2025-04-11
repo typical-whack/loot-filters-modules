@@ -71,7 +71,7 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 // endmodule:slayer:dark_beasts
 
 // module:slayer:cave_kraken
-#define CONST_SLAYER_CAVE_KRAKEN_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_CAVE_KRAKEN_AREA [2238, 9983, 0, 2304, 10022, 0]
 // endmodule:slayer:cave_kraken
 
 // module:slayer:abyssal_demons
