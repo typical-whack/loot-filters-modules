@@ -64,9 +64,6 @@
             "modulePath": "potions/mod_potions.json"
         },
         {
-            "modulePath": "barb_potions/mod_barb_potions.json"
-        },
-        {
             "modulePath": "food/mod_food.json"
         },
         {
