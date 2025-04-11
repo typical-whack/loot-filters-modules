@@ -1,6 +1,6 @@
 {
     "type": "filter",
-    "name": "Joe's Filter for Persnickety Players",
+    "name": "Joe's Filter",
     "description": "A collection of loot filters for OSRS",
     "modules": [
         {
