@@ -254,6 +254,111 @@
             "default": 0
         },
         {
+            "macroName": "VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY",
+            "label": "Guam leaf minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY",
+            "label": "Marrentill minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY",
+            "label": "Tarromin minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY",
+            "label": "Harralander minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY",
+            "label": "Ranarr weed minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY",
+            "label": "Toadflax minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY",
+            "label": "Irit leaf minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY",
+            "label": "Avantoe minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY",
+            "label": "Kwuarm minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY",
+            "label": "Huasca minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY",
+            "label": "Snapdragon minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY",
+            "label": "Cadantine minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY",
+            "label": "Lantadyme minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY",
+            "label": "Dwarf weed minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY",
+            "label": "Torstol minimum quantity",
+            "group": "Noted Herb Quantity Filtering",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE",
             "label": "Guam leaf custom style",
             "group": "Custom Styling",
