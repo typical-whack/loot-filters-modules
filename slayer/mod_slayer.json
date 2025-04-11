@@ -95,6 +95,96 @@
             }
         },
         {
+            "macroName": "VAR_SLAYER_WILDERNESS_SLAYER_HIDE",
+            "label": "Wilderness slayer drops force hidden",
+            "group": "Wilderness Slayer",
+            "type": "enumlist",
+            "enum": [
+                "Slayer's enchantment"
+            ],
+            "default": [
+                "Slayer's enchantment"
+            ]
+        },
+        {
+            "macroName": "VAR_SLAYER_WILDERNESS_SLAYER_SHOW",
+            "label": "Wilderness slayer drops force shown",
+            "group": "Wilderness Slayer",
+            "type": "enumlist",
+            "enum": [
+                "Slayer's enchantment"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE",
+            "label": "Wilderness slayer cave drops force hidden",
+            "group": "Wilderness Slayer",
+            "type": "enumlist",
+            "enum": [
+                "Blighted entangle sack",
+                "Blighted anglerfish",
+                "Blighted manta ray",
+                "Blighted karambwan",
+                "Blighted teleport spell sack",
+                "Blighted ancient ice sack",
+                "Blighted vengeance sack",
+                "Blighted super restore(4)",
+                "Revenant cave teleport",
+                "Dareeyak teleport (tablet)",
+                "Wilderness crabs teleport",
+                "Carrallanger teleport (tablet)",
+                "Paddewwa teleport (tablet)",
+                "Annakarl teleport (tablet)",
+                "Lassar teleport (tablet)",
+                "Kharyrll teleport (tablet)",
+                "Senntisten teleport (tablet)",
+                "Ghorrock teleport (tablet)",
+                "Target teleport",
+                "Magic shortbow scroll",
+                "Ring of wealth scroll",
+                "Trouver parchment",
+                "Looting bag note"
+            ],
+            "default": [
+                "Blighted entangle sack",
+                "Blighted karambwan",
+                "Blighted teleport spell sack"
+            ]
+        },
+        {
+            "macroName": "VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW",
+            "label": "Wilderness slayer cave drops force shown",
+            "group": "Wilderness Slayer",
+            "type": "enumlist",
+            "enum": [
+                "Blighted entangle sack",
+                "Blighted anglerfish",
+                "Blighted manta ray",
+                "Blighted karambwan",
+                "Blighted teleport spell sack",
+                "Blighted ancient ice sack",
+                "Blighted vengeance sack",
+                "Blighted super restore(4)",
+                "Revenant cave teleport",
+                "Dareeyak teleport (tablet)",
+                "Wilderness crabs teleport",
+                "Carrallanger teleport (tablet)",
+                "Paddewwa teleport (tablet)",
+                "Annakarl teleport (tablet)",
+                "Lassar teleport (tablet)",
+                "Kharyrll teleport (tablet)",
+                "Senntisten teleport (tablet)",
+                "Ghorrock teleport (tablet)",
+                "Target teleport",
+                "Magic shortbow scroll",
+                "Ring of wealth scroll",
+                "Trouver parchment",
+                "Looting bag note"
+            ],
+            "default": []
+        },
+        {
             "macroName": "VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW",
             "label": "Unique drop force shown",
             "group": "Smoke Devils",
