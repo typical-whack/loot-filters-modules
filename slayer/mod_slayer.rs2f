@@ -29,6 +29,7 @@ apply (name:"Imbued heart") {
 // endmodule:slayer:superior_uniques
 
 // module:slayer:hydras
+#define CONST_SLAYER_HYDRAS_AREA [1291, 10221, 0, 1341, 10279, 0]
 // endmodule:slayer:hydras
 
 // module:slayer:smoke_devils
@@ -60,6 +61,7 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 // endmodule:slayer:smoke_devils
 
 // module:slayer:araxytes
+#define CONST_SLAYER_ARAXYTES_AREA [3650, 9793, 0, 3716, 9870, 0]
 // endmodule:slayer:araxytes
 
 // module:slayer:dark_beasts
