@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_RUNES_HIDE",
-            "label": "Runes to hide",
+            "label": "Runes to force hidden",
             "type": "enumlist",
             "enum": [
                 "Air rune",

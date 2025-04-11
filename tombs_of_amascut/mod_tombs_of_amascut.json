@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_TOA_SUPPLIES_HIDE",
-            "label": "Supplies to hide",
+            "label": "Supplies to force hidden",
             "group": "TOA Item Filters",
             "type": "enumlist",
             "enum": [
@@ -47,7 +47,7 @@
         },
         {
             "macroName": "VAR_TOA_ROOM_ITEMS_HIDE",
-            "label": "Room items to hide",
+            "label": "Room items to force hidden",
             "group": "TOA Item Filters",
             "type": "enumlist",
             "enum": [
@@ -59,7 +59,7 @@
         },
         {
             "macroName": "VAR_TOA_MVP_ITEMS_HIDE",
-            "label": "MVP items to hide",
+            "label": "MVP items to force hidden",
             "group": "TOA Item Filters",
             "type": "enumlist",
             "enum": [
@@ -77,7 +77,7 @@
         },
         {
             "macroName": "VAR_TOA_BOOKS_HIDE",
-            "label": "Books to hide",
+            "label": "Books to force hidden",
             "group": "TOA Item Filters",
             "type": "enumlist",
             "enum": [

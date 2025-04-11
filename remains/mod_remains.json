@@ -12,7 +12,7 @@
         },
         {
             "macroName": "VAR_BONES_HIDE",
-            "label": "Bones to hide",
+            "label": "Bones to force hidden",
             "type": "enumlist",
             "enum": [
                 "Bones",
@@ -59,7 +59,7 @@
         },
         {
             "macroName": "VAR_ASHES_HIDE",
-            "label": "Ashes to hide",
+            "label": "Ashes to force hidden",
             "type": "enumlist",
             "enum": [
                 "Fiendish ashes",
@@ -75,7 +75,7 @@
         },
         {
             "macroName": "VAR_ASHES_HIDE",
-            "label": "Shades of morton remains to hide",
+            "label": "Shades of morton remains to force hidden",
             "type": "enumlist",
             "enum": [
                 "Loar remains",
@@ -89,7 +89,7 @@
         },
         {
             "macroName": "VAR_ENSOULED_HEADS_HIDE",
-            "label": "Ensouled heads to hide",
+            "label": "Ensouled heads to force hidden",
             "type": "enumlist",
             "enum": [
                 "Ensouled goblin head",

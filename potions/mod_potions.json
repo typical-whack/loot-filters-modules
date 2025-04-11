@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_POTIONS_HIDE",
-            "label": "Potions to hide",
+            "label": "Potions to force hidden",
             "type": "enumlist",
             "enum": [
                 {

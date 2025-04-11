@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_COX_POTIONS_HIDE",
-            "label": "Potions to hide",
+            "label": "Potions to force hidden",
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
@@ -47,7 +47,7 @@
         },
         {
             "macroName": "VAR_COX_FISH_HIDE",
-            "label": "Fish to hide",
+            "label": "Fish to force hidden",
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
@@ -92,7 +92,7 @@
         },
         {
             "macroName": "VAR_COX_BATS_HIDE",
-            "label": "Bats to hide",
+            "label": "Bats to force hidden",
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
@@ -137,7 +137,7 @@
         },
         {
             "macroName": "VAR_COX_SEEDS_HIDE",
-            "label": "Seeds to hide",
+            "label": "Seeds to force hidden",
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [
@@ -149,7 +149,7 @@
         },
         {
             "macroName": "VAR_COX_MISC_DROPS_HIDE",
-            "label": "Misc drops to hide",
+            "label": "Misc drops to force hidden",
             "group": "COX item filters",
             "type": "enumlist",
             "enum": [

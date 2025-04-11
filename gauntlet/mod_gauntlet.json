@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_GAUNTLET_TOOLS_HIDE",
-            "label": "Tools to hide",
+            "label": "Tools to force hidden",
             "group": "Filtering",
             "type": "enumlist",
             "enum": [
@@ -49,7 +49,7 @@
         },
         {
             "macroName": "VAR_GAUNTLET_RESOURCES_HIDE",
-            "label": "Resources to hide",
+            "label": "Resources to force hidden",
             "group": "Filtering",
             "type": "enumlist",
             "enum": [
@@ -114,7 +114,7 @@
         },
         {
             "macroName": "VAR_GAUNTLET_SUPPLIES_HIDE",
-            "label": "Supplies to hide",
+            "label": "Supplies to force hidden",
             "group": "Filtering",
             "type": "enumlist",
             "enum": [
@@ -139,7 +139,7 @@
         },
         {
             "macroName": "VAR_GAUNTLET_EQUIPMENT_HIDE",
-            "label": "Equipment to hide",
+            "label": "Equipment to force hidden",
             "group": "Filtering",
             "type": "enumlist",
             "enum": [

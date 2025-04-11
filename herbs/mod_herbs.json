@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_HERBS_HIDE",
-            "label": "Herbs to hide",
+            "label": "Herbs to force hidden",
             "type": "enumlist",
             "enum": [
                 {

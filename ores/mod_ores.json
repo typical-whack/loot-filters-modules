@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_ORES_HIDE",
-            "label": "Ores to hide",
+            "label": "Ores to force hidden",
             "type": "enumlist",
             "enum": [
                 "Copper ore",

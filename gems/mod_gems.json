@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_GEMS_HIDE",
-            "label": "Gems to hide",
+            "label": "Gems to force hidden",
             "type": "enumlist",
             "enum": [
                 {

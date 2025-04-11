@@ -12,7 +12,7 @@
         },
         {
             "macroName": "VAR_SECONDARIES_HIDE",
-            "label": "Secondaries to hide",
+            "label": "Secondaries to force hidden",
             "type": "enumlist",
             "enum": [
                 "Eye of newt",

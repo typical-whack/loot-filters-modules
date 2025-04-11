@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_CURRENCY_HIDE",
-            "label": "Currency to hide",
+            "label": "Currency to force hidden",
             "type": "stringlist",
             "default": [
                 "Archery ticket"

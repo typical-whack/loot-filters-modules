@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_METAL_EQUIPMENT_TIERS_HIDE",
-            "label": "Metal equipment to hide",
+            "label": "Metal equipment to force hidden",
             "type": "enumlist",
             "enum": [
                 "Bronze*",

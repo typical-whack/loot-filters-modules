@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_LOGS_HIDE",
-            "label": "Logs to hide",
+            "label": "Logs to force hidden",
             "type": "enumlist",
             "enum": [
                 "Logs",

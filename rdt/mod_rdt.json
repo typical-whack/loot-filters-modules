@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_RDT_HIDE",
-            "label": "Drops to hide",
+            "label": "Drops to force hidden",
             "type": "enumlist",
             "enum": [
                 "Nature rune",

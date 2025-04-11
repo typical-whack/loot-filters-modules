@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_FISHING_EQUIPMENT_HIDE",
-            "label": "Fishing equipment to hide",
+            "label": "Fishing equipment to force hidden",
             "group": "Fishing filters",
             "type": "enumlist",
             "enum": [
@@ -32,7 +32,7 @@
         },
         {
             "macroName": "VAR_FISHING_BAIT_HIDE",
-            "label": "Fishing bait to hide",
+            "label": "Fishing bait to force hidden",
             "group": "Fishing filters",
             "type": "enumlist",
             "enum": [
@@ -55,7 +55,7 @@
         },
         {
             "macroName": "VAR_FISHING_RAW_FISH_HIDE",
-            "label": "Raw fish to hide",
+            "label": "Raw fish to force hidden",
             "group": "Fishing filters",
             "type": "enumlist",
             "enum": [

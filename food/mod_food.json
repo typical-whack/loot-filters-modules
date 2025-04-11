@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_FOOD_HUNTER_FOODS_HIDE",
-            "label": "Hunter foods to hide",
+            "label": "Hunter foods to force hidden",
             "group": "Food filters",
             "type": "enumlist",
             "enum": [
@@ -29,7 +29,7 @@
         },
         {
             "macroName": "VAR_FOOD_FISH_FOODS_HIDE",
-            "label": "Fish foods to hide",
+            "label": "Fish foods to force hidden",
             "group": "Food filters",
             "type": "enumlist",
             "enum": [

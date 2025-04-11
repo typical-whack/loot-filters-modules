@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_BARS_HIDE",
-            "label": "Bars to hide",
+            "label": "Bars to force hidden",
             "type": "enumlist",
             "enum": [
                 "Bronze bar",

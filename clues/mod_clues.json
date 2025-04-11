@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_CLUE_SCROLLS_HIDE",
-            "label": "Clue tiers to hide",
+            "label": "Clue tiers to force hidden",
             "type": "enumlist",
             "enum": [
                 {

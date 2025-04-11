@@ -12,7 +12,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_ALLOTMENT_HIDE",
-            "label": "Allotment seeds to hide",
+            "label": "Allotment seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Potato seed",
@@ -33,7 +33,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_FLOWER_HIDE",
-            "label": "Flower seeds to hide",
+            "label": "Flower seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Marigold seed",
@@ -52,7 +52,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_HERB_HIDE",
-            "label": "Herb seeds to hide",
+            "label": "Herb seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Guam seed",
@@ -80,7 +80,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_HOPS_HIDE",
-            "label": "Hops seeds to hide",
+            "label": "Hops seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Barley seed",
@@ -103,7 +103,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_BUSH_HIDE",
-            "label": "Bush seeds to hide",
+            "label": "Bush seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Redberry seed",
@@ -122,7 +122,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_TREE_HIDE",
-            "label": "Tree seeds to hide",
+            "label": "Tree seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Acorn",
@@ -138,7 +138,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_FRUIT_TREE_HIDE",
-            "label": "Fruit tree seeds to hide",
+            "label": "Fruit tree seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Apple seed",
@@ -160,7 +160,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE",
-            "label": "Fruit tree seeds to hide",
+            "label": "Fruit tree seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Teak seed",
@@ -179,7 +179,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_SPECIAL_HIDE",
-            "label": "Special seeds to hide",
+            "label": "Special seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Seaweed spore",
@@ -194,7 +194,7 @@
         },
         {
             "macroName": "VAR_FARMING_SEEDS_ANIMA_HIDE",
-            "label": "Anima seeds to hide",
+            "label": "Anima seeds to force hidden",
             "type": "enumlist",
             "enum": [
                 "Kronos seed",
