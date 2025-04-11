@@ -13,6 +13,13 @@
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE
 
+apply (name:"*") {
+    VAR_GLOBAL_CUSTOMSTYLE 
+}
+
+apply (VAR_GLOBAL_SHOW_ICONS) {
+    icon = CurrentItem();
+}
 
 apply (tradeable:true && value:<VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE) {
     showDespawn = false;
@@ -32,14 +39,6 @@ apply (tradeable:true && noted:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
 }
 apply (tradeable:true && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
     hidden = true;
-}
-
-apply (VAR_GLOBAL_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-
-apply (name:"*") {
-    VAR_GLOBAL_CUSTOMSTYLE 
 }
 
 apply (name:VAR_GLOBAL_HIDE) {
