@@ -124,6 +124,27 @@
                 "Ice Arrow",
                 "Broad Arrow"
             ]
+        },
+        {
+            "macroName": "VAR_AMMO_STANDARD_ARROWS_MIN_VALUE",
+            "label": "Standard Arrows minimum value",
+            "group": "Arrows",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE",
+            "label": "Brutal Arrows minimum value",
+            "group": "Arrows",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE",
+            "label": "Special Arrows minimum value",
+            "group": "Arrows",
+            "type": "number",
+            "default": 0
         }
     ]
 }

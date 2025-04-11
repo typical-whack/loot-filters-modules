@@ -1,5 +1,5 @@
 // module:ammo:arrows
-#define CONST_STANDARD_ARROW_LIST [\
+#define CONST_STANDARD_ARROWS_LIST [\
     "Bronze Arrow*", \
     "Iron Arrow*", \
     "Steel Arrow*", \
@@ -21,14 +21,41 @@
 apply (name:CONST_STANDARD_ARROW_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
     hidden = true;
 }
-
-#define VAR_AMMO_BRUTAL_ARROWS_HIDE []
-apply (name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
+#define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 
+apply (name:CONST_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE) {
     hidden = true;
 }
 
+#define CONST_BRUTAL_ARROWS_LIST [\
+    "Bronze brutal", \
+    "Iron brutal", \
+    "Steel brutal", \
+    "Black brutal", \
+    "Mithril brutal", \
+    "Adamant brutal", \
+    "Rune brutal", \
+]
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE []
+apply (name:CONST_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 
+apply (name:CONST_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE) {
+    hidden = true;
+}
+
+#define CONST_SPECIAL_ARROWS_LIST [\
+    "Training Arrow", \
+    "Ogre Arrow", \
+    "Ice Arrow", \
+    "Broad Arrow", \
+]
 #define VAR_AMMO_SPECIAL_ARROWS_HIDE []
-apply (name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
+apply (name:CONST_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 
+apply (name:CONST_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE) {
     hidden = true;
 }
 
