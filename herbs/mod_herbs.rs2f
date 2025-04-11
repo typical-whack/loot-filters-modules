@@ -1,6 +1,10 @@
 // module:herbs
 
+#define CONST_ALL_HERBS ["*guam leaf", "*marrentill", "*tarromin", "*harralander", "*ranarr weed", "*toadflax", "*irit leaf", "*avantoe", "*kwuarm", "*huasca", "*snapdragon", "*cadantine", "*lantadyme", "*dwarf weed", "*torstol"]
+
+#define VAR_HERBS_MINIMUM_VALUE 
 #define VAR_HERBS_HIDE []
+#define VAR_HERBS_SHOW []
 
 #define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE    
 #define VAR_HERBS_MARRENTILL_CUSTOMSTYLE   
@@ -34,8 +38,28 @@
 #define VAR_HERBS_DWARF_WEED_MIN_QUANTITY
 #define VAR_HERBS_TORSTOL_MIN_QUANTITY
 
+#define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 
+#define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 
 
-
+apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (name:VAR_HERBS_SHOW) {
+    hidden = false;
+}
 apply (name:VAR_HERBS_HIDE) {
     hidden = true;
 }
@@ -46,11 +70,17 @@ apply (name:"*guam leaf") {
 apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*marrentill") {
     VAR_HERBS_MARRENTILL_CUSTOMSTYLE 
 }
 apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -60,11 +90,17 @@ apply (name:"*tarromin") {
 apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*harralander") {
     VAR_HERBS_HARRALANDER_CUSTOMSTYLE 
 }
 apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -74,11 +110,17 @@ apply (name:"*ranarr weed") {
 apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*toadflax") {
     VAR_HERBS_TOADFLAX_CUSTOMSTYLE 
 }
 apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -88,11 +130,17 @@ apply (name:"*irit leaf") {
 apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*avantoe") {
     VAR_HERBS_AVANTOE_CUSTOMSTYLE 
 }
 apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -102,11 +150,17 @@ apply (name:"*kwuarm") {
 apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*huasca") {
     VAR_HERBS_HUASCA_CUSTOMSTYLE 
 }
 apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -116,11 +170,17 @@ apply (name:"*snapdragon") {
 apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*cadantine") {
     VAR_HERBS_CADANTINE_CUSTOMSTYLE 
 }
 apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -130,6 +190,9 @@ apply (name:"*lantadyme") {
 apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*dwarf weed") {
     VAR_HERBS_DWARF_WEED_CUSTOMSTYLE 
@@ -137,11 +200,17 @@ apply (name:"*dwarf weed") {
 apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*torstol") {
     VAR_HERBS_TORSTOL_CUSTOMSTYLE 
 }
 apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 

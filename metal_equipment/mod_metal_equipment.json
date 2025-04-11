@@ -441,19 +441,6 @@
                 "borderColor": "#FF541109",
                 "menuTextColor": "#FF541109"
             }
-        },
-        {
-            "macroName": "VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE",
-            "label": "Dragon (g)",
-            "type": "style",
-            "exampleItem": "Dragon platelegs (g)",
-            "default": {
-                "textColor": "#FFFFFFFF",
-                "textAccentColor": "#FF000000",
-                "backgroundColor": "#80541109",
-                "borderColor": "#FFdea71a",
-                "menuTextColor": "#FF541109"
-            }
         }
     ]
 }
