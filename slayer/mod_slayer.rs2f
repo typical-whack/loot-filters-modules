@@ -65,7 +65,9 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 // endmodule:slayer:araxytes
 
 // module:slayer:dark_beasts
-#define CONST_SLAYER_DARK_BEASTS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_DARK_BEASTS_MOURNER_TUNNELS_AREA [1979, 4629, 0, 2043, 4678, 0]
+#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_1_AREA [3151, 12415, 0, 3182, 12439, 0]
+#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_2_AREA [3200, 12381, 0, 3243, 12407, 0]
 // endmodule:slayer:dark_beasts
 
 // module:slayer:cave_kraken
