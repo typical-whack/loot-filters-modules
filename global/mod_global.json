@@ -62,7 +62,7 @@
         },
         {
             "macroName": "VAR_GLOBAL_STACKABLE_MINIMUM_VALUE",
-            "label": "Hide stackable and noted items below this value",
+            "label": "Hide stackable items below this value",
             "group": "Value Based Filters",
             "type": "number",
             "default": 0
