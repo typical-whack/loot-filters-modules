@@ -7,7 +7,6 @@
         {
             "macroName": "VAR_LOGS_HIDE",
             "label": "Logs to force hidden",
-            "group": "Logs Filters",
             "type": "enumlist",
             "enum": [
                 "Logs",
