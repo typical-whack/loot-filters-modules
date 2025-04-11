@@ -9,7 +9,10 @@
             "label": "Global default style",
             "type": "style",
             "exampleItem": "Santa hat",
-            "default": {}
+            "default": {
+                "showValue": true,
+                "showDespawn": true
+            }
         },
         {
             "macroName": "VAR_GLOBAL_SHOW_ICONS",
