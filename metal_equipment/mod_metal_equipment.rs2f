@@ -121,7 +121,6 @@
 #define CONST_DRAGON_RANGED_WEAPONS ["Dragon crossbow"]
 #define CONST_DRAGON_AMMO ["Dragon knife","Dragon dart","Dragon thrownaxe","Dragon arrow","Dragon bolts","Dragon javelin"]
 #define CONST_DRAGON_ARMOUR ["Dragon med helm","Dragon full helm","Dragon chainbody","Dragon platebody","Dragon platelegs","Dragon plateskirt","Dragon gloves","Dragon boots","Dragon sq shield","Dragon kiteshield","Dragon defender"]
-#define CONST_DRAGON_GOLD_TRIMMED_ARMOUR ["Dragon full helm (g)","Dragon chainbody (g)","Dragon platebody (g)","Dragon platelegs (g)","Dragon plateskirt (g)","Dragon boots (g)","Dragon defender (t)","Dragon sq shield (g)","Dragon kiteshield (g)","Dragon scimitar (or)"]
 
 
 
@@ -537,12 +536,6 @@ apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
 }
 apply (name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
-}
-apply (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR) {
-    VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
 
