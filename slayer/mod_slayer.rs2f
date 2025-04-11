@@ -1,24 +1,19 @@
 // module:slayer:slayer_keys
-
 #define VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
 #define VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
-
 apply (name:"Larran's key") {
     VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
 }
 apply (name:"Brimstone key") {
     VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
 }
-
 // endmodule:slayer:slayer_keys
 
 // module:slayer:superior_uniques
-
 #define VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
 #define VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE 
 #define VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE 
 #define VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
-
 apply (name:"Dust battlestaff") {
     VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
 }
@@ -31,46 +26,92 @@ apply (name:"Eternal gem") {
 apply (name:"Imbued heart") {
     VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
 }
-
 // endmodule:slayer:superior_uniques
 
-// module:slayer:smoke_devil
+// module:slayer:hydras
+// endmodule:slayer:hydras
 
+// module:slayer:smoke_devils
 #define CONST_SLAYER_SMOKE_DEVIL_AREA [2376, 9408, 0, 2432, 9472, 0]
-
-
 #define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE []
 #define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW []
-
 #define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE []
 #define VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW []
-
 #define VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE []
 #define VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW []
-
-
-
 apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE) {
     hidden = true;
 }
 apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW) {
     hidden = false;
 }
-
 apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE) {
     hidden = true;
 }
 apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW) {
     hidden = false;
 }
-
 apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE) {
     hidden = true;
 }
 apply (area:CONST_SLAYER_SMOKE_DEVIL_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW) {
     hidden = false;
 }
+// endmodule:slayer:smoke_devils
+
+// module:slayer:araxytes
+// endmodule:slayer:araxytes
+
+// module:slayer:dark_beasts
+// endmodule:slayer:dark_beasts
+
+// module:slayer:cave_kraken
+// endmodule:slayer:cave_kraken
+
+// module:slayer:abyssal_demons
+// endmodule:slayer:abyssal_demons
+
+// module:slayer:drakes
+// endmodule:slayer:drakes
+
+// module:slayer:nechryael
+// endmodule:slayer:nechryael
+
+// module:slayer:gargoyles
+// endmodule:slayer:gargoyles
+
+// module:slayer:skeletal_wyverns
+// endmodule:slayer:skeletal_wyverns
+
+// module:slayer:kurasks
+// endmodule:slayer:kurasks
+
+// module:slayer:fossil_island_wyverns
+// endmodule:slayer:fossil_island_wyverns
+
+// module:slayer:dust_devils
+// endmodule:slayer:dust_devils
+
+// module:slayer:wyrms
+// endmodule:slayer:wyrms
+
+// module:slayer:cave_horrors
+// endmodule:slayer:cave_horrors
+
+// module:slayer:zygomites
+// endmodule:slayer:zygomites
+
+// module:slayer:warped_creatures
+// endmodule:slayer:warped_creatures
+
+// module:slayer:turoths
+// endmodule:slayer:turoths
+
+// module:slayer:jellies
+// endmodule:slayer:jellies
+
+// module:slayer:bloodvelds
+// endmodule:slayer:bloodvelds
 
 
 
-// endmodule:slayer:smoke_devil
