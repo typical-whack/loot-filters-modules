@@ -2,7 +2,7 @@
     "name": "Bossing",
     "rs2fPath": "mod_bossing.rs2f",
     "subtitle": "Break their bones!",
-    "description": "This provides area-based item filtering for bosses.",
+    "description": "This provides area-based item filtering for bosses. (Just GWD covered so far)",
     "inputs": [
         {
             "macroName": "VAR_BOSSING_GOD_WARS_DUNGEON_SHOW",
