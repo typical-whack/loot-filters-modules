@@ -488,7 +488,7 @@
             "label": "Backpack reminder sound",
             "group": "Utilities",
             "type": "boolean",
-            "default": true
+            "default": false
         }
     ]
 }
