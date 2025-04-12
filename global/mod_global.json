@@ -36,13 +36,13 @@
             "default": {}
         },
         {
-            "macroName": "VAR_GLOBAL_ITEM_SHOW",
+            "macroName": "VAR_GLOBAL_SHOW",
             "label": "Items to show",
             "type": "stringlist",
             "default": []
         },
         {
-            "macroName": "VAR_GLOBAL_ITEM_HIDE",
+            "macroName": "VAR_GLOBAL_HIDE",
             "label": "Items to hide",
             "type": "stringlist",
             "default": []
