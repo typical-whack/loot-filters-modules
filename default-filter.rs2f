@@ -1,8 +1,8 @@
 meta { name = "[default: Joe's filter]"; }
 // module:global
 
-#define VAR_GLOBAL_ITEM_HIDE []
-#define VAR_GLOBAL_ITEM_SHOW []
+#define VAR_GLOBAL_HIDE []
+#define VAR_GLOBAL_SHOW []
 
 #define VAR_GLOBAL_SHOW_ICONS true
 #define VAR_GLOBAL_SHOW_DESPAWN true
@@ -62,10 +62,10 @@ apply (tradeable:true && stackable:false && noted:false && value:<VAR_GLOBAL_NON
     hidden = true;
 }
 
-apply (name:VAR_GLOBAL_ITEM_HIDE) {
+apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
-apply (name:VAR_GLOBAL_ITEM_SHOW) {
+apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
 
