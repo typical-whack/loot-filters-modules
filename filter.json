@@ -79,9 +79,6 @@
             "modulePath": "metal_equipment/mod_metal_equipment.json"
         },
         {
-            "modulePath": "barrows/mod_barrows.json"
-        },
-        {
             "modulePath": "gauntlet/mod_gauntlet.json"
         },
         {
