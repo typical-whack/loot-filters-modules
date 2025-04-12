@@ -17,10 +17,16 @@
             "default": true
         },
         {
-            "macroName": "VAR_GLOBAL_SHOW_VALUE",
-            "label": "Show Value",
+            "macroName": "VAR_GLOBAL_SHOW_TRADEABLE_VALUE",
+            "label": "Show Tradeable Value",
             "type": "boolean",
             "default": true
+        },
+        {
+            "macroName": "VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE",
+            "label": "Show Untradeable Value",
+            "type": "boolean",
+            "default": false
         },
         {
             "macroName": "VAR_GLOBAL_CUSTOMSTYLE",

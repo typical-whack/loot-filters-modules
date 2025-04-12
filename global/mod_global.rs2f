@@ -5,7 +5,8 @@
 
 #define VAR_GLOBAL_SHOW_ICONS 
 #define VAR_GLOBAL_SHOW_DESPAWN 
-#define VAR_GLOBAL_SHOW_VALUE 
+#define VAR_GLOBAL_SHOW_TRADEABLE_VALUE 
+#define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE 
 
 #define VAR_GLOBAL_CUSTOMSTYLE 
 
@@ -25,7 +26,10 @@ apply (VAR_GLOBAL_SHOW_ICONS) {
 apply (VAR_GLOBAL_SHOW_DESPAWN) {
     showDespawn = true;
 }
-apply (VAR_GLOBAL_SHOW_VALUE) {
+apply (tradeable:true && VAR_GLOBAL_SHOW_TRADEABLE_VALUE) {
+    showValue = true;
+}
+apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
     showValue = true;
 }
 
