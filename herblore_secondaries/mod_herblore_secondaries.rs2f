@@ -24,7 +24,7 @@
     "Poison ivy berries", \
     "Nihil dust", \
     "Lily of the sands", \
-    "Aldarium" \
+    "Aldarium", \
 ]
 
 #define VAR_SECONDARIES_HIDE

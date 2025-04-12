@@ -15,7 +15,7 @@
     "*cadantine", \
     "*lantadyme", \
     "*dwarf weed", \
-    "*torstol" \
+    "*torstol", \
 ]
 
 #define VAR_HERBS_MINIMUM_VALUE 

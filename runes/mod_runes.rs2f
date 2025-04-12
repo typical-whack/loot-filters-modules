@@ -22,7 +22,7 @@
     "Mud rune", \
     "Smoke rune", \
     "Steam rune", \
-    "Lava rune" \
+    "Lava rune", \
 ]
 
 #define VAR_RUNES_HIDE []

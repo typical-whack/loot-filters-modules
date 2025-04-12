@@ -9,7 +9,7 @@
     "Oily fishing rod", \
     "Harpoon", \
     "Lobster pot", \
-    "Karambwan vessel" \
+    "Karambwan vessel", \
 ]
 #define CONST_FISHING_BAIT_LIST [\
     "Sandworms", \
@@ -19,7 +19,7 @@
     "Dark fishing bait", \
     "King worm", \
     "Fish chunks", \
-    "Raw karambwanji" \
+    "Raw karambwanji", \
 ]
 #define CONST_FISHING_RAW_FISH_LIST [\
     "Raw shrimps", \
@@ -58,7 +58,7 @@
     "Common tench", \
     "Mottled eel", \
     "Greater siren", \
-    "Raw karambwan" \
+    "Raw karambwan", \
 ]
 
 #define VAR_FISHING_EQUIPMENT_HIDE []
