@@ -30,16 +30,16 @@
             "default": {}
         },
         {
-            "macroName": {
-                "includes": "VAR_GLOBAL_SHOW",
-                "excludes": "VAR_GLOBAL_HIDE"
-            },
-            "label": "Global itemlist",
-            "type": "includeExcludeList",
-            "default": {
-                "includes": [],
-                "excludes": []
-            }
+            "macroName": "VAR_GLOBAL_ITEM_SHOW",
+            "label": "Items to show",
+            "type": "stringlist",
+            "default": []
+        },
+        {
+            "macroName": "VAR_GLOBAL_ITEM_HIDE",
+            "label": "Items to hide",
+            "type": "stringlist",
+            "default": []
         },
         {
             "macroName": "VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE",
