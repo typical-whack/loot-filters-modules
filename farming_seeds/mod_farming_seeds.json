@@ -183,11 +183,11 @@
             "type": "enumlist",
             "enum": [
                 "Seaweed spore",
-                "Grapes seed",
+                "Grape seed",
                 "Mushroom spore",
                 "Belladonna seed",
                 "Hespori seed",
-                "Cactus",
+                "Cactus seed",
                 "Potato cactus"
             ],
             "default": []
