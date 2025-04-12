@@ -9,7 +9,7 @@
 #define CONST_FARMING_SEEDS_TREE_LIST ["Acorn", "Willow seed", "Maple seed", "Yew seed", "Magic seed"]
 #define CONST_FARMING_SEEDS_FRUIT_TREE_LIST ["Apple seed", "Banana seed", "Orange seed", "Curry seed", "Pineapple seed", "Papaya seed", "Palm tree seed", "Dragonfruit seed"]
 #define CONST_FARMING_SEEDS_SPECIAL_TREE_LIST ["Teak seed", "Mahogany seed", "Calquat tree seed", "Crystal acorn", "Spirit seed", "Celastrus seed", "Redwood tree seed"]
-#define CONST_FARMING_SEEDS_SPECIAL_LIST ["Seaweed spore", "Grapes seed", "Mushroom spore", "Belladonna seed", "Hespori seed", "Cactus", "Potato cactus"]
+#define CONST_FARMING_SEEDS_SPECIAL_LIST ["Seaweed spore", "Grape seed", "Mushroom spore", "Belladonna seed", "Hespori seed", "Cactus seed", "Potato cactus seed"]
 #define CONST_FARMING_SEEDS_ANIMA_LIST ["Kronos seed", "Iasor seed", "Attas seed"]
 
 #define VAR_FARMING_SEEDS_MINIMUM_VALUE
