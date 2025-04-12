@@ -104,7 +104,7 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 // endmodule:slayer:abyssal_demons
 
 // module:slayer:drakes
-#define CONST_SLAYER_DRAKES_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_DRAKES_AREA [1297, 10224, 1, 1363, 10260, 1]
 // endmodule:slayer:drakes
 
 // module:slayer:nechryael
