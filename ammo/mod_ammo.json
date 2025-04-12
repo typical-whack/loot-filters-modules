@@ -2,7 +2,7 @@
     "name": "Ammo",
     "rs2fPath": "mod_ammo.rs2f",
     "subtitle": "Forgetting your backpack?",
-    "description": "Provides filters for ammo.",
+    "description": "Provides filtering for ammo either explicitly or based on value.",
     "inputs": [
         {
             "macroName": "VAR_AMMO_STANDARD_ARROWS_HIDE",
