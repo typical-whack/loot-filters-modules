@@ -15,7 +15,10 @@
 #define VAR_VALUES_TIER_3_SHOW
 #define VAR_VALUES_TIER_4_SHOW
 
-
+#define VAR_VALUES_TIER_1_SHOW_ICONS 
+#define VAR_VALUES_TIER_2_SHOW_ICONS 
+#define VAR_VALUES_TIER_3_SHOW_ICONS 
+#define VAR_VALUES_TIER_4_SHOW_ICONS 
 
 apply (value:>=VAR_VALUES_TIER_1_VALUE) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
@@ -23,6 +26,13 @@ apply (value:>=VAR_VALUES_TIER_1_VALUE) {
 apply (name:VAR_VALUES_TIER_1_SHOW) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
+apply (value:>=VAR_VALUES_TIER_1_VALUE && VAR_VALUES_TIER_1_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+apply (name:VAR_VALUES_TIER_1_SHOW && VAR_VALUES_TIER_1_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+
 
 apply (value:>=VAR_VALUES_TIER_2_VALUE) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
@@ -30,6 +40,13 @@ apply (value:>=VAR_VALUES_TIER_2_VALUE) {
 apply (name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
 }
+apply (value:>=VAR_VALUES_TIER_2_VALUE && VAR_VALUES_TIER_2_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+apply (name:VAR_VALUES_TIER_2_SHOW && VAR_VALUES_TIER_2_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+
 
 apply (value:>=VAR_VALUES_TIER_3_VALUE) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
@@ -37,6 +54,13 @@ apply (value:>=VAR_VALUES_TIER_3_VALUE) {
 apply (name:VAR_VALUES_TIER_3_SHOW) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
 }
+apply (value:>=VAR_VALUES_TIER_3_VALUE && VAR_VALUES_TIER_3_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+apply (name:VAR_VALUES_TIER_3_SHOW && VAR_VALUES_TIER_3_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+
 
 apply (value:>=VAR_VALUES_TIER_4_VALUE) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
@@ -44,6 +68,13 @@ apply (value:>=VAR_VALUES_TIER_4_VALUE) {
 apply (name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
 }
+apply (value:>=VAR_VALUES_TIER_4_VALUE && VAR_VALUES_TIER_4_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SHOW_ICONS) {
+    icon = CurrentItem();
+}
+
 
 
 
