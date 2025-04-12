@@ -58,22 +58,30 @@ apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE)
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE) {
     hidden = true;
 }
-
 // endmodule:ammo:arrows
-
+// module:ammo:darts
+#define CONST_AMMO_DARTS_LIST [\
+    "Bronze dart*", \
+    "Iron dart*", \
+    "Steel dart*", \
+    "Black dart*", \
+    "Mithril dart*", \
+    "Adamant dart*", \
+    "Rune dart*", \
+    "Amethyst dart*", \
+    "Dragon dart*", \
+    "Atlatl dart", \
+]
+#define VAR_AMMO_DARTS_HIDE []
+apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_DARTS_MIN_VALUE 
+apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
+    hidden = true;
+}
+// endmodule:ammo:darts
 // module:ammo
-//
-// "Bronze dart*"
-// "Iron dart*"
-// "Steel dart*"
-// "Black dart*"
-// "Mithril dart*"
-// "Adamant dart*"
-// "Rune dart*"
-// "Amethyst dart*"
-// "Dragon dart*"
-// 
-// "Atlatl dart"
 // 
 // "Bronze javelin*"
 // "Iron javelin*"

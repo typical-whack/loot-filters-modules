@@ -145,6 +145,69 @@
             "group": "Arrows",
             "type": "number",
             "default": 500
+        },
+        {
+            "macroName": "VAR_AMMO_DARTS_HIDE",
+            "label": "Darts to force hidden",
+            "group": "Darts",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "Bronze dart*",
+                    "label": "Bronze darts"
+                },
+                {
+                    "value": "Iron dart*",
+                    "label": "Iron darts"
+                },
+                {
+                    "value": "Steel dart*",
+                    "label": "Steel darts"
+                },
+                {
+                    "value": "Black dart*",
+                    "label": "Black darts"
+                },
+                {
+                    "value": "Mithril dart*",
+                    "label": "Mithril darts"
+                },
+                {
+                    "value": "Adamant dart*",
+                    "label": "Adamant darts"
+                },
+                {
+                    "value": "Rune dart*",
+                    "label": "Rune darts"
+                },
+                {
+                    "value": "Amethyst dart*",
+                    "label": "Amethyst darts"
+                },
+                {
+                    "value": "Dragon dart*",
+                    "label": "Dragon darts"
+                },
+                {
+                    "value": "Atlatl dart",
+                    "label": "Atlatl darts"
+                }
+            ],
+            "default": [
+                "Bronze dart*",
+                "Iron dart*",
+                "Steel dart*",
+                "Black dart*",
+                "Mithril dart*",
+                "Adamant dart*"
+            ]
+        },
+        {
+            "macroName": "VAR_AMMO_DARTS_MIN_VALUE",
+            "label": "Darts minimum value",
+            "group": "Darts",
+            "type": "number",
+            "default": 500
         }
     ]
 }
