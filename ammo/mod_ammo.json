@@ -310,13 +310,6 @@
             "default": []
         },
         {
-            "macroName": "VAR_AMMO_BOLTS_MIN_VALUE",
-            "label": "Bolts minimum value",
-            "group": "Bolts",
-            "type": "number",
-            "default": 500
-        },
-        {
             "macroName": "VAR_AMMO_BOLTS_E_HIDE",
             "label": "Enchanted bolts to force hidden",
             "group": "Bolts",
@@ -364,13 +357,6 @@
                 }
             ],
             "default": []
-        },
-        {
-            "macroName": "VAR_AMMO_BOLTS_E_MIN_VALUE",
-            "label": "Enchanted bolts minimum value",
-            "group": "Bolts",
-            "type": "number",
-            "default": 500
         },
         {
             "macroName": "VAR_AMMO_DRAGON_BOLTS_E_HIDE",
@@ -422,13 +408,6 @@
             "default": []
         },
         {
-            "macroName": "VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE",
-            "label": "Dragon enchanted bolts minimum value",
-            "group": "Bolts",
-            "type": "number",
-            "default": 500
-        },
-        {
             "macroName": "VAR_AMMO_SPECIAL_BOLTS_HIDE",
             "label": "Special bolts to force hidden",
             "group": "Bolts",
@@ -468,6 +447,27 @@
                 }
             ],
             "default": []
+        },
+        {
+            "macroName": "VAR_AMMO_BOLTS_MIN_VALUE",
+            "label": "Bolts minimum value",
+            "group": "Bolts",
+            "type": "number",
+            "default": 500
+        },
+        {
+            "macroName": "VAR_AMMO_BOLTS_E_MIN_VALUE",
+            "label": "Enchanted bolts minimum value",
+            "group": "Bolts",
+            "type": "number",
+            "default": 500
+        },
+        {
+            "macroName": "VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE",
+            "label": "Dragon enchanted bolts minimum value",
+            "group": "Bolts",
+            "type": "number",
+            "default": 500
         },
         {
             "macroName": "VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE",
