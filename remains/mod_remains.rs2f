@@ -8,7 +8,7 @@
 #define VAR_REMAINS_MINIMUM_VALUE
 #define VAR_BONES_HIDE
 #define VAR_ASHES_HIDE
-#define VAR_ASHES_HIDE
+#define VAR_SHADES_REMAINS_HIDE
 #define VAR_ENSOULED_HEADS_HIDE
 
 
@@ -27,7 +27,7 @@ apply (name:CONST_ASHES_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
     hidden = true;
 }
 
-apply (name:VAR_ASHES_HIDE) {
+apply (name:VAR_SHADES_REMAINS_HIDE) {
     hidden = true;
 }
 apply (name:CONST_SHADES_REMAINS_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {

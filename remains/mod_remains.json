@@ -74,7 +74,7 @@
             ]
         },
         {
-            "macroName": "VAR_ASHES_HIDE",
+            "macroName": "VAR_SHADES_REMAINS_HIDE",
             "label": "Shades of morton remains to force hidden",
             "type": "enumlist",
             "enum": [
