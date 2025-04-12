@@ -22,71 +22,15 @@
             }
         },
         {
-            "macroName": "VAR_ARCHERY_TICKET_MIN_QUANTITY",
-            "label": "Archery ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_COINS_MIN_QUANTITY",
-            "label": "Coins minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_MOLE_CLAW_MIN_QUANTITY",
-            "label": "Mole claw minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_MOLE_SKIN_MIN_QUANTITY",
-            "label": "Mole skin minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_NUMULITE_MIN_QUANTITY",
-            "label": "Numulite minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_PLATINUM_TOKEN_MIN_QUANTITY",
-            "label": "Platinum token minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_TRADING_STICKS_MIN_QUANTITY",
-            "label": "Trading sticks minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_SHANTAY_PASS_MIN_QUANTITY",
-            "label": "Shantay pass minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
-            "macroName": "VAR_SHIP_TICKET_MIN_QUANTITY",
-            "label": "Ship ticket minimum quantity",
-            "group": "Currency Filters",
-            "type": "number",
-            "default": 0
-        },
-        {
             "macroName": "VAR_ABYSSAL_PEARLS_MIN_QUANTITY",
             "label": "Abyssal pearls minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY",
+            "label": "Agility arena ticket minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
@@ -99,8 +43,8 @@
             "default": 0
         },
         {
-            "macroName": "VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY",
-            "label": "Agility arena ticket minimum quantity",
+            "macroName": "VAR_ARCHERY_TICKET_MIN_QUANTITY",
+            "label": "Archery ticket minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
@@ -134,6 +78,13 @@
             "default": 0
         },
         {
+            "macroName": "VAR_COINS_MIN_QUANTITY",
+            "label": "Coins minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_ECTO_TOKEN_MIN_QUANTITY",
             "label": "Ecto-token minimum quantity",
             "group": "Currency Filters",
@@ -148,15 +99,15 @@
             "default": 0
         },
         {
-            "macroName": "VAR_GOLDEN_NUGGET_MIN_QUANTITY",
-            "label": "Golden nugget minimum quantity",
+            "macroName": "VAR_GLISTENING_TEAR_MIN_QUANTITY",
+            "label": "Glistening tear minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
         },
         {
-            "macroName": "VAR_GLISTENING_TEAR_MIN_QUANTITY",
-            "label": "Glistening tear minimum quantity",
+            "macroName": "VAR_GOLDEN_NUGGET_MIN_QUANTITY",
+            "label": "Golden nugget minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
@@ -204,6 +155,20 @@
             "default": 0
         },
         {
+            "macroName": "VAR_MOLE_CLAW_MIN_QUANTITY",
+            "label": "Mole claw minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_MOLE_SKIN_MIN_QUANTITY",
+            "label": "Mole skin minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_NUGGETS_MIN_QUANTITY",
             "label": "Nuggets minimum quantity",
             "group": "Currency Filters",
@@ -211,8 +176,22 @@
             "default": 0
         },
         {
+            "macroName": "VAR_NUMULITE_MIN_QUANTITY",
+            "label": "Numulite minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_PARAMAYA_TICKET_MIN_QUANTITY",
             "label": "Paramaya ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_PLATINUM_TOKEN_MIN_QUANTITY",
+            "label": "Platinum token minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
@@ -232,8 +211,29 @@
             "default": 0
         },
         {
+            "macroName": "VAR_SHANTAY_PASS_MIN_QUANTITY",
+            "label": "Shantay pass minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_SHIP_TICKET_MIN_QUANTITY",
+            "label": "Ship ticket minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
             "macroName": "VAR_STARDUST_MIN_QUANTITY",
             "label": "Stardust minimum quantity",
+            "group": "Currency Filters",
+            "type": "number",
+            "default": 0
+        },
+        {
+            "macroName": "VAR_TERMITES_MIN_QUANTITY",
+            "label": "Termites minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
@@ -246,8 +246,8 @@
             "default": 0
         },
         {
-            "macroName": "VAR_TERMITES_MIN_QUANTITY",
-            "label": "Termites minimum quantity",
+            "macroName": "VAR_TRADING_STICKS_MIN_QUANTITY",
+            "label": "Trading sticks minimum quantity",
             "group": "Currency Filters",
             "type": "number",
             "default": 0
@@ -267,83 +267,19 @@
             "default": 0
         },
         {
-            "macroName": "VAR_ARCHERY_TICKET_CUSTOMSTYLE",
-            "label": "Archery ticket custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Archery ticket",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_COINS_CUSTOMSTYLE",
-            "label": "Coins custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Coins",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_MOLE_CLAW_CUSTOMSTYLE",
-            "label": "Mole claw custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Mole claw",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_MOLE_SKIN_CUSTOMSTYLE",
-            "label": "Mole skin custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Mole skin",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_NUMULITE_CUSTOMSTYLE",
-            "label": "Numulite custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Numulite",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_PLATINUM_TOKEN_CUSTOMSTYLE",
-            "label": "Platinum token custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Platinum token",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_TRADING_STICKS_CUSTOMSTYLE",
-            "label": "Trading sticks custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Trading sticks",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_SHANTAY_PASS_CUSTOMSTYLE",
-            "label": "Shantay pass custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Shantay pass",
-            "default": {}
-        },
-        {
-            "macroName": "VAR_SHIP_TICKET_CUSTOMSTYLE",
-            "label": "Ship ticket custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Ship ticket",
-            "default": {}
-        },
-        {
             "macroName": "VAR_ABYSSAL_PEARLS_CUSTOMSTYLE",
             "label": "Abyssal pearls custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Abyssal pearls",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE",
+            "label": "Agility arena ticket custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Agility arena ticket",
             "default": {}
         },
         {
@@ -355,11 +291,11 @@
             "default": {}
         },
         {
-            "macroName": "VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE",
-            "label": "Agility arena ticket custom style",
+            "macroName": "VAR_ARCHERY_TICKET_CUSTOMSTYLE",
+            "label": "Archery ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "exampleItem": "Agility arena ticket",
+            "exampleItem": "Archery ticket",
             "default": {}
         },
         {
@@ -395,6 +331,14 @@
             "default": {}
         },
         {
+            "macroName": "VAR_COINS_CUSTOMSTYLE",
+            "label": "Coins custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Coins",
+            "default": {}
+        },
+        {
             "macroName": "VAR_ECTO_TOKEN_CUSTOMSTYLE",
             "label": "Ecto-token custom style",
             "group": "Custom currency styles",
@@ -411,19 +355,19 @@
             "default": {}
         },
         {
-            "macroName": "VAR_GOLDEN_NUGGET_CUSTOMSTYLE",
-            "label": "Golden nugget custom style",
-            "group": "Custom currency styles",
-            "type": "style",
-            "exampleItem": "Golden nugget",
-            "default": {}
-        },
-        {
             "macroName": "VAR_GLISTENING_TEAR_CUSTOMSTYLE",
             "label": "Glistening tear custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Glistening tear",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_GOLDEN_NUGGET_CUSTOMSTYLE",
+            "label": "Golden nugget custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Golden nugget",
             "default": {}
         },
         {
@@ -475,6 +419,22 @@
             "default": {}
         },
         {
+            "macroName": "VAR_MOLE_CLAW_CUSTOMSTYLE",
+            "label": "Mole claw custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Mole claw",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_MOLE_SKIN_CUSTOMSTYLE",
+            "label": "Mole skin custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Mole skin",
+            "default": {}
+        },
+        {
             "macroName": "VAR_NUGGETS_CUSTOMSTYLE",
             "label": "Nuggets custom style",
             "group": "Custom currency styles",
@@ -483,11 +443,27 @@
             "default": {}
         },
         {
+            "macroName": "VAR_NUMULITE_CUSTOMSTYLE",
+            "label": "Numulite custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Numulite",
+            "default": {}
+        },
+        {
             "macroName": "VAR_PARAMAYA_TICKET_CUSTOMSTYLE",
             "label": "Paramaya ticket custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Paramaya ticket",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_PLATINUM_TOKEN_CUSTOMSTYLE",
+            "label": "Platinum token custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Platinum token",
             "default": {}
         },
         {
@@ -507,11 +483,35 @@
             "default": {}
         },
         {
+            "macroName": "VAR_SHANTAY_PASS_CUSTOMSTYLE",
+            "label": "Shantay pass custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Shantay pass",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_SHIP_TICKET_CUSTOMSTYLE",
+            "label": "Ship ticket custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Ship ticket",
+            "default": {}
+        },
+        {
             "macroName": "VAR_STARDUST_CUSTOMSTYLE",
             "label": "Stardust custom style",
             "group": "Custom currency styles",
             "type": "style",
             "exampleItem": "Stardust",
+            "default": {}
+        },
+        {
+            "macroName": "VAR_TERMITES_CUSTOMSTYLE",
+            "label": "Termites custom style",
+            "group": "Custom currency styles",
+            "type": "style",
+            "exampleItem": "Termites",
             "default": {}
         },
         {
@@ -523,11 +523,11 @@
             "default": {}
         },
         {
-            "macroName": "VAR_TERMITES_CUSTOMSTYLE",
-            "label": "Termites custom style",
+            "macroName": "VAR_TRADING_STICKS_CUSTOMSTYLE",
+            "label": "Trading sticks custom style",
             "group": "Custom currency styles",
             "type": "style",
-            "exampleItem": "Termites",
+            "exampleItem": "Trading sticks",
             "default": {}
         },
         {
