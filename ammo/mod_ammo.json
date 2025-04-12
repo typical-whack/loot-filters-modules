@@ -489,6 +489,13 @@
             "group": "Utilities",
             "type": "boolean",
             "default": false
+        },
+        {
+            "macroName": "VAR_AMMO_BACKPACK_REMINDER_SOUND_ID",
+            "label": "Backpack reminder sound ID (defaults to \"ping\")",
+            "group": "Utilities",
+            "type": "number",
+            "default": 933
         }
     ]
 }
