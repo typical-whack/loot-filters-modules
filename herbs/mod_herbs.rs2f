@@ -1,6 +1,22 @@
 // module:herbs
 
-#define CONST_ALL_HERBS ["*guam leaf", "*marrentill", "*tarromin", "*harralander", "*ranarr weed", "*toadflax", "*irit leaf", "*avantoe", "*kwuarm", "*huasca", "*snapdragon", "*cadantine", "*lantadyme", "*dwarf weed", "*torstol"]
+#define CONST_ALL_HERBS [\
+    "*guam leaf", \
+    "*marrentill", \
+    "*tarromin", \
+    "*harralander", \
+    "*ranarr weed", \
+    "*toadflax", \
+    "*irit leaf", \
+    "*avantoe", \
+    "*kwuarm", \
+    "*huasca", \
+    "*snapdragon", \
+    "*cadantine", \
+    "*lantadyme", \
+    "*dwarf weed", \
+    "*torstol" \
+]
 
 #define VAR_HERBS_MINIMUM_VALUE 
 #define VAR_HERBS_HIDE []
