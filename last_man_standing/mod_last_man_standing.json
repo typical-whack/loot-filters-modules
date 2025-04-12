@@ -6,7 +6,7 @@
     "inputs": [
         {
             "macroName": "VAR_LAST_MAN_STANDING_UPGRADED_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Upgraded Offensive Loot Table",
+            "label": "Upgraded Offensive Loot Table Hidden Items",
             "type": "enumlist",
             "enum": [
                 "Morrigan's javelin",
@@ -20,7 +20,7 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_MAX_MED_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Offensive Loot Table",
+            "label": "Offensive Loot Table Hidden Items",
             "group": "Max/Med",
             "type": "enumlist",
             "enum": [
@@ -50,7 +50,7 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_MAX_MED_DEFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Defensive Loot Table",
+            "label": "Defensive Loot Table Hidden Items",
             "group": "Max/Med",
             "type": "enumlist",
             "enum": [
@@ -81,7 +81,7 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_ZERKER_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Offensive Loot Table",
+            "label": "Offensive Loot Table Hidden Items",
             "group": "Zerker",
             "type": "enumlist",
             "enum": [
@@ -110,7 +110,7 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_ZERKER_DEFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Zerker Defensive Loot Table",
+            "label": "Zerker Defensive Loot Table Hidden Items",
             "group": "Zerker",
             "type": "enumlist",
             "enum": [
@@ -144,7 +144,7 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_1_DEF_PURE_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Offensive Loot Table",
+            "label": "Offensive Loot Table Hidden Items",
             "group": "1-Def Pure",
             "type": "enumlist",
             "enum": [
@@ -170,7 +170,7 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_1_DEF_PURE_DEFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Defensive Loot Table",
+            "label": "Defensive Loot Table Hidden Items",
             "group": "1-Def Pure",
             "type": "enumlist",
             "enum": [
