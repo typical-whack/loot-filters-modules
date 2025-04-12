@@ -183,3 +183,35 @@ apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && value:<VAR_AMMO_SPECIAL_BOLTS_MIN_V
     hidden = true;
 }
 // endmodule:ammo:bolts
+// module:ammo:utilities
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND 
+
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_DARTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_JAVELINS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_BOLTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_BOLTS_E_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = 2521;
+}
+
+// endmodule:ammo:utilities

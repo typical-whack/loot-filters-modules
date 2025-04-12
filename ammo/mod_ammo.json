@@ -482,6 +482,13 @@
             "group": "Bolts",
             "type": "number",
             "default": 500
+        },
+        {
+            "macroName": "VAR_AMMO_BACKPACK_REMINDER_SOUND",
+            "label": "Backpack reminder sound",
+            "group": "Utilities",
+            "type": "boolean",
+            "default": true
         }
     ]
 }
