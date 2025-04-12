@@ -47,6 +47,20 @@
             "default": false
         },
         {
+            "macroName": "VAR_VALUES_TIER_1_SOUND",
+            "label": "Play Sound For Tier 1 Items",
+            "group": "Tier 1",
+            "type": "boolean",
+            "default": false
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_1_SOUND_ID",
+            "label": "Tier 1 Items Sound ID (defualts to muspah unique sound)",
+            "group": "Tier 1",
+            "type": "number",
+            "default": 6765
+        },
+        {
             "macroName": "VAR_VALUES_TIER_1_CUSTOMSTYLE",
             "label": "Tier 1 custom style",
             "group": "Tier 1",
@@ -73,6 +87,20 @@
             "default": false
         },
         {
+            "macroName": "VAR_VALUES_TIER_2_SOUND",
+            "label": "Play Sound For Tier 2 Items",
+            "group": "Tier 2",
+            "type": "boolean",
+            "default": false
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_2_SOUND_ID",
+            "label": "Tier 2 Items Sound ID (defualts to muspah unique sound)",
+            "group": "Tier 2",
+            "type": "number",
+            "default": 6765
+        },
+        {
             "macroName": "VAR_VALUES_TIER_2_CUSTOMSTYLE",
             "label": "Tier 2 custom style",
             "group": "Tier 2",
@@ -97,6 +125,20 @@
             "group": "Tier 3",
             "type": "boolean",
             "default": false
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_3_SOUND",
+            "label": "Play Sound For Tier 3 Items",
+            "group": "Tier 3",
+            "type": "boolean",
+            "default": false
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_3_SOUND_ID",
+            "label": "Tier 3 Items Sound ID (defualts to muspah unique sound)",
+            "group": "Tier 3",
+            "type": "number",
+            "default": 6765
         },
         {
             "macroName": "VAR_VALUES_TIER_3_CUSTOMSTYLE",
@@ -126,6 +168,20 @@
             "group": "Tier 4",
             "type": "boolean",
             "default": false
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_4_SOUND",
+            "label": "Play Sound For Tier 4 Items",
+            "group": "Tier 4",
+            "type": "boolean",
+            "default": false
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_4_SOUND_ID",
+            "label": "Tier 4 Items Sound ID (defualts to muspah unique sound)",
+            "group": "Tier 4",
+            "type": "number",
+            "default": 6765
         },
         {
             "macroName": "VAR_VALUES_TIER_4_CUSTOMSTYLE",
