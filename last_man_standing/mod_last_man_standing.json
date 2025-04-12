@@ -1,0 +1,22 @@
+{
+    "name": "Last Man Standing",
+    "rs2fPath": "mod_last_man_standing.rs2f",
+    "subtitle": "Would you like a seat?",
+    "description": "Provides area-based filtering for the Last Man Standing minigame.",
+    "inputs": [
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_UPGRADED_OFFENSIVE_LOOT_TABLE_HIDE",
+            "label": "Upgraded Offensive Loot Table",
+            "type": "enumlist",
+            "enum": [
+                "Morrigan's javelin",
+                "Vesta's longsword",
+                "Statius's warhammer",
+                "Zuriel's staff",
+                "Voidwaker",
+                "Lightbearer"
+            ],
+            "default": []
+        }
+    ]
+}

@@ -82,6 +82,9 @@
             "modulePath": "gauntlet/mod_gauntlet.json"
         },
         {
+            "modulePath": "last_man_standing/mod_last_man_standing.json"
+        },
+        {
             "modulePath": "rdt/mod_rdt.json"
         }
     ]
