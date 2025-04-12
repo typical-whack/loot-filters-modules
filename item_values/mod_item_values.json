@@ -55,7 +55,7 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_1_SOUND_ID",
-            "label": "Tier 1 Items Sound ID (defualts to muspah unique sound)",
+            "label": "Tier 1 Items Sound ID (defaults to muspah unique sound)",
             "group": "Tier 1",
             "type": "number",
             "default": 6765
@@ -95,7 +95,7 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_2_SOUND_ID",
-            "label": "Tier 2 Items Sound ID (defualts to muspah unique sound)",
+            "label": "Tier 2 Items Sound ID (defaults to muspah unique sound)",
             "group": "Tier 2",
             "type": "number",
             "default": 6765
@@ -135,7 +135,7 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_3_SOUND_ID",
-            "label": "Tier 3 Items Sound ID (defualts to muspah unique sound)",
+            "label": "Tier 3 Items Sound ID (defaults to muspah unique sound)",
             "group": "Tier 3",
             "type": "number",
             "default": 6765
@@ -178,7 +178,7 @@
         },
         {
             "macroName": "VAR_VALUES_TIER_4_SOUND_ID",
-            "label": "Tier 4 Items Sound ID (defualts to muspah unique sound)",
+            "label": "Tier 4 Items Sound ID (defaults to muspah unique sound)",
             "group": "Tier 4",
             "type": "number",
             "default": 6765
