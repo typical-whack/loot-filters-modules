@@ -3,14 +3,10 @@
 #define VAR_UNIQUES_LIST []
 
 #define VAR_UNIQUES_SHOW_ICONS 
-#define VAR_UNIQUES_SHOW_ICONS 
 #define VAR_UNIQUES_CUSTOMSTYLE 
 
 apply (name:VAR_UNIQUES_LIST) {
     VAR_UNIQUES_CUSTOMSTYLE 
-}
-apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SHOW_ICONS) {
-    icon = CurrentItem();
 }
 apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SHOW_ICONS) {
     icon = CurrentItem();
