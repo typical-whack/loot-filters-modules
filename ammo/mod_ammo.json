@@ -307,7 +307,14 @@
                     "label": "Dragon bolts"
                 }
             ],
-            "default": []
+            "default": [
+                "Bronze bolts*",
+                "Blurite bolts*",
+                "Silver bolts*",
+                "Iron bolts*",
+                "Steel bolts*",
+                "Mithril bolts*"
+            ]
         },
         {
             "macroName": "VAR_AMMO_BOLTS_E_HIDE",
