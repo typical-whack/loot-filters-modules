@@ -20,7 +20,8 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_MAX_MED_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Max/Med Offensive Loot Table",
+            "label": "Offensive Loot Table",
+            "group": "Max/Med",
             "type": "enumlist",
             "enum": [
                 "Armadyl crossbow",
@@ -49,7 +50,8 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_MAX_MED_DEFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Max/Med Defensive Loot Table",
+            "label": "Defensive Loot Table",
+            "group": "Max/Med",
             "type": "enumlist",
             "enum": [
                 "Ahrim's robetop",
@@ -79,7 +81,8 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_ZERKER_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "Zerker Offensive Loot Table",
+            "label": "Offensive Loot Table",
+            "group": "Zerker",
             "type": "enumlist",
             "enum": [
                 "Armadyl godsword",
@@ -108,6 +111,7 @@
         {
             "macroName": "VAR_LAST_MAN_STANDING_ZERKER_DEFENSIVE_LOOT_TABLE_HIDE",
             "label": "Zerker Defensive Loot Table",
+            "group": "Zerker",
             "type": "enumlist",
             "enum": [
                 "3rd age range top",
@@ -140,7 +144,8 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_1_DEF_PURE_OFFENSIVE_LOOT_TABLE_HIDE",
-            "label": "1-Def Pure Offensive Loot Table",
+            "label": "Offensive Loot Table",
+            "group": "1-Def Pure",
             "type": "enumlist",
             "enum": [
                 "Armadyl godsword",
@@ -165,7 +170,8 @@
         },
         {
             "macroName": "VAR_LAST_MAN_STANDING_1_DEF_PURE_DEFENSIVE_LOOT_TABLE_HIDE",
-            "label": "1-Def Pure Defensive Loot Table",
+            "label": "Defensive Loot Table",
+            "group": "1-Def Pure",
             "type": "enumlist",
             "enum": [
                 "Amulet of torture",
