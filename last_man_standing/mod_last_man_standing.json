@@ -1,0 +1,181 @@
+{
+    "name": "Last Man Standing",
+    "rs2fPath": "mod_last_man_standing.rs2f",
+    "subtitle": "Would you like a seat?",
+    "description": "Provides area-based filtering for the Last Man Standing minigame.",
+    "inputs": [
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_STARTER_GEAR_HIDE",
+            "label": "Hide starting gear",
+            "type": "boolean",
+            "default": true
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_AMMO_MIN_QUANTITY",
+            "label": "Hide ammo under this quantity",
+            "type": "number",
+            "default": 100
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_MISC_HIDE",
+            "label": "Misc Hidden Items",
+            "type": "enumlist",
+            "enum": [
+                "Mithril seeds"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_MELEE_WEAPONS_HIDE",
+            "label": "Weapons Hidden Items",
+            "group": "Melee Gear",
+            "type": "enumlist",
+            "enum": [
+                "Ancient godsword",
+                "Armadyl godsword",
+                "Dharok's greataxe",
+                "Dragon claws",
+                "Dual macuahuitl",
+                "Elder maul",
+                "Ghrazi rapier",
+                "Granite maul",
+                "Inquisitor's mace",
+                "Statius's warhammer",
+                "Verac's flail",
+                "Vesta's longsword",
+                "Voidwaker"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_MELEE_ARMOUR_HIDE",
+            "label": "Armour Hidden Items",
+            "group": "Melee Gear",
+            "type": "enumlist",
+            "enum": [
+                "Amulet of fury",
+                "Amulet of torture",
+                "Bandos tassets",
+                "Blessed spirit shield",
+                "Blood moon chestplate",
+                "Blood moon helm",
+                "Blood moon tassets",
+                "Dharok's helm",
+                "Dharok's platebody",
+                "Dharok's platelegs",
+                "Fremennik kilt",
+                "Guthan's helm",
+                "Guthix halo",
+                "Infernal cape",
+                "Inquisitor's great helm",
+                "Inquisitor's hauberk",
+                "Inquisitor's plateskirt",
+                "Lightbearer",
+                "Saradomin halo",
+                "Spiked manacles",
+                "Torag's helm",
+                "Torag's platelegs",
+                "Verac's brassard",
+                "Verac's helm",
+                "Verac's plateskirt",
+                "Zamorak halo"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_RANGED_WEAPONS_HIDE",
+            "label": "Weapons Hidden Items",
+            "group": "Ranged Gear",
+            "type": "enumlist",
+            "enum": [
+                "Armadyl crossbow",
+                "Dark bow",
+                "Dragon knife",
+                "Eclipse atlatl",
+                "Heavy ballista",
+                "Light ballista",
+                "Morrigan's javelin",
+                "Zaryte crossbow"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_RANGED_ARMOUR_HIDE",
+            "label": "Armour Hidden Items",
+            "group": "Ranged Gear",
+            "type": "enumlist",
+            "enum": [
+                "3rd age range coif",
+                "3rd age range legs",
+                "3rd age range top",
+                "Eclipse moon chestplate",
+                "Eclipse moon helm",
+                "Eclipse moon tassets",
+                "Guthix chaps",
+                "Karil's leathertop",
+                "Necklace of anguish",
+                "Rangers' tunic",
+                "Saradomin chaps",
+                "Zamorak chaps"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_RANGED_AMMO_HIDE",
+            "label": "Ammo Hidden Items",
+            "group": "Ranged Gear",
+            "type": "enumlist",
+            "enum": [
+                "Atlatl dart",
+                "Dragon arrows",
+                "Dragon javelins",
+                "Opal dragon bolts (e)"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_MAGIC_WEAPONS_HIDE",
+            "label": "Weapons Hidden Items",
+            "group": "Magic Gear",
+            "type": "enumlist",
+            "enum": [
+                "Blue moon spear",
+                "Kodai wand",
+                "Staff of the dead",
+                "Volatile nightmare staff",
+                "Zuriel's staff"
+            ],
+            "default": []
+        },
+        {
+            "macroName": "VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE",
+            "label": "Armour Hidden Items",
+            "group": "Magic Gear",
+            "type": "enumlist",
+            "enum": [
+                "3rd age mage hat",
+                "3rd age robe",
+                "3rd age robe top",
+                "Ahrim's robetop",
+                "Ahrim's robeskirt",
+                "Ancestral hat",
+                "Ancestral robe bottom",
+                "Ancestral robe top",
+                "Blue moon chestplate",
+                "Blue moon helm",
+                "Blue moon tassets",
+                "Elder chaos hood",
+                "Elder chaos robe",
+                "Elder chaos top",
+                "Eternal boots",
+                "Infinity boots",
+                "Mage's book",
+                "Occult necklace",
+                "Seers ring (i)",
+                "Tormented bracelet",
+                "Wizard boots"
+            ],
+            "default": []
+        }
+    ]
+}
