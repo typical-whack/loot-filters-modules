@@ -11,6 +11,12 @@
             "default": true
         },
         {
+            "macroName": "VAR_LAST_MAN_STANDING_AMMO_MIN_QUANTITY",
+            "label": "Hide ammo under this quantity",
+            "type": "number",
+            "default": 100
+        },
+        {
             "macroName": "VAR_LAST_MAN_STANDING_MISC_HIDE",
             "label": "Misc Hidden Items",
             "type": "enumlist",
