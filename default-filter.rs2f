@@ -4,29 +4,63 @@ meta { name = "[default: Joe's filter]"; }
 #define VAR_GLOBAL_HIDE []
 #define VAR_GLOBAL_SHOW []
 
-#define VAR_GLOBAL_CUSTOMSTYLE 
 #define VAR_GLOBAL_SHOW_ICONS true
+#define VAR_GLOBAL_SHOW_DESPAWN true
+#define VAR_GLOBAL_SHOW_VALUE true
+
+#define VAR_GLOBAL_CUSTOMSTYLE 
+
+#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+#define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
 #define VAR_GLOBAL_MINIMUM_VALUE 0
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
 
-
-apply (value:<VAR_GLOBAL_MINIMUM_VALUE) {
-    hidden = true;
-}
 
 apply (VAR_GLOBAL_SHOW_ICONS) {
     icon = CurrentItem();
 }
+apply (VAR_GLOBAL_SHOW_DESPAWN) {
+    showDespawn = true;
+}
+apply (VAR_GLOBAL_SHOW_VALUE) {
+    showValue = true;
+}
 
-apply (name:"*") {
+apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
+}
+
+apply (tradeable:true && value:<VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE) {
+    showDespawn = false;
+}
+apply (tradeable:true && value:<VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE) {
+    showValue = false;
+}
+apply (tradeable:true && value:<VAR_GLOBAL_ICON_MINIMUM_VALUE) {
+    // this is a hack to turn off the icon
+    icon = Sprite(9000000, 0);
+}
+
+apply (tradeable:true && value:<VAR_GLOBAL_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (tradeable:true && stackable:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (tradeable:true && noted:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (tradeable:true && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
 }
 
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
-
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
@@ -781,224 +815,619 @@ apply (name:"Tears of Elidinis (*") {
 
 // endmodule:tomb_of_amascut
 
-// module:god_wars_dungeon
+// module:bossing:god_wars_dungeon
 
 #define CONST_GOD_WARS_DUNGEON_AREA [2816, 5184, 0, 2943, 5375, 3]
 
-#define VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW ["Godsword shard 1","Godsword shard 2","Godsword shard 3","Hammer"]
-#define VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE []
+#define VAR_BOSSING_GOD_WARS_DUNGEON_SHOW ["Hammer"]
+#define VAR_BOSSING_GOD_WARS_DUNGEON_HIDE []
 
 
 
-apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_HIDE) {
+apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HIDE) {
     hidden = true;
 }
 
-apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_GOD_WARS_DUNGEON_UNIQUES_SHOW) {
+apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
     hidden = false;
 }
 
-// endmodule:god_wars_dungeon
+// endmodule:bossing:god_wars_dungeon
 
-// module:general_graardor
-
-#define CONST_GENERAL_GRAARDOR_AREA [2863, 5350, 2, 2877, 5373, 2]
-
-
-#define VAR_GENERAL_GRAARDOR_UNIQUES_HIDE []
-#define VAR_GENERAL_GRAARDOR_UNIQUES_SHOW ["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt"]
-
-#define VAR_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow","Steel dart","Right eye patch"]
-#define VAR_GENERAL_GRAARDOR_COMMON_SHOW ["Coins","Grimy snapdragon","Snapdragon seed","Adamantite ore","Coal","Nature rune","Cosmic rune","Magic logs","Limpwurt root","Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
-
-#define VAR_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)","Super strength(3)","Beer"]
-#define VAR_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones","Big bones","Super restore(4)","Shark","Chilli potato","Kebab"]
-
-
-
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_SUPPLY_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_GENERAL_GRAARDOR_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-// endmodule:general_graardor
-
-// module:commander_zilyana
+// module:bossing:commander_zilyana
 
 #define CONST_COMMANDER_ZILYANA_AREA [2884, 5257, 0, 2908, 5276, 0]
 
 
-#define VAR_COMMANDER_ZILYANA_UNIQUES_HIDE []
-#define VAR_COMMANDER_ZILYANA_UNIQUES_SHOW ["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE []
+#define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW []
 
-#define VAR_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow","Steel dart","Unicorn horn"]
-#define VAR_COMMANDER_ZILYANA_COMMON_SHOW ["Coins","Grimy ranarr weed","Ranarr seed","Magic seed","Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt","Law rune","Diamond","Snape grass"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow","Steel dart","Unicorn horn"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW []
 
-#define VAR_COMMANDER_ZILYANA_SUPPLY_HIDE ["Bones"]
-#define VAR_COMMANDER_ZILYANA_SUPPLY_SHOW ["Prayer potion(4)","Super defence(3)","Magic potion(3)","Saradomin brew(3)","Super restore(4)","Summer pie","Monkfish"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE []
+#define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW []
 
 
 
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_UNIQUES_HIDE) {
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_COMMON_HIDE) {
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_SUPPLY_HIDE) {
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_UNIQUES_SHOW) {
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW) {
     hidden = false;
 }
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_COMMON_SHOW) {
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW) {
     hidden = false;
 }
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_COMMANDER_ZILYANA_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-// endmodule:commander_zilyana
-
-// module:kree
-
-#define CONST_KREE_AREA [2820, 5295, 2, 2843, 5309, 2]
-
-
-#define VAR_KREE_UNIQUES_HIDE []
-#define VAR_KREE_UNIQUES_SHOW ["Armadyl helmet","Armadyl chestplate","Armadyl chainskirt","Armadyl hilt"]
-
-#define VAR_KREE_COMMON_HIDE ["Feather","Black d'hide body","Rune crossbow","Mind rune","Rune arrow","Runite bolts","Crystal key","Steel dart","Steel arrow"]
-#define VAR_KREE_COMMON_SHOW ["Coins","Grimy dwarf weed","Dwarf weed seed","Dragonstone bolts (e)","Smoke rune","Yew seed","Crushed nest","Grimy kwuarm"]
-
-#define VAR_KREE_SUPPLY_HIDE []
-#define VAR_KREE_SUPPLY_SHOW ["Bones","Big bones","Ranging potion(3)","Super defence(3)","Manta ray","Mushroom potato"]
-
-
-
-apply (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KREE_AREA && name:VAR_KREE_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_KREE_AREA && name:VAR_KREE_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_KREE_AREA && name:VAR_KREE_SUPPLY_SHOW) {
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
     hidden = false;
 }
 
 
 
-// endmodule:kree
+// endmodule:bossing:commander_zilyana
 
-// module:kril_tsutsaroth
+// module:bossing:general_graardor
+
+#define CONST_GENERAL_GRAARDOR_AREA [2863, 5350, 2, 2877, 5373, 2]
+
+
+#define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE []
+#define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW []
+
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow","Steel dart","Right eye patch"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW []
+
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)","Super strength(3)","Beer","Kebab"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones","Big bones","Super restore(4)","Shark","Chilli potato"]
+
+
+
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+
+
+// endmodule:bossing:general_graardor
+
+// module:bossing:kreearra
+
+#define CONST_KREEARRA_AREA [2820, 5295, 2, 2843, 5309, 2]
+
+
+#define VAR_BOSSING_KREEARRA_UNIQUES_HIDE []
+#define VAR_BOSSING_KREEARRA_UNIQUES_SHOW []
+
+#define VAR_BOSSING_KREEARRA_COMMON_HIDE ["Feather","Black d'hide body","Rune crossbow","Mind rune","Rune arrow","Runite bolts","Crystal key","Steel dart","Steel arrow"]
+#define VAR_BOSSING_KREEARRA_COMMON_SHOW []
+
+#define VAR_BOSSING_KREEARRA_SUPPLY_HIDE []
+#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW ["Bones","Big bones","Ranging potion(3)","Super defence(3)","Manta ray","Mushroom potato"]
+
+
+
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+
+
+// endmodule:bossing:kreearra
+
+// module:bossing:kril_tsutsaroth
 
 #define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
 
 
-#define VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE []
-#define VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW ["Steam battlestaff","Zamorakian spear","Staff of the dead","Zamorak hilt"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE []
+#define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW []
 
-#define VAR_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes","Malicious ashes","Adamant arrow(p++)","Steel dart","Steel arrow"]
-#define VAR_KRIL_TSUTSAROTH_COMMON_SHOW ["Coins","Rune platelegs","Grimy lantadyme","Lantadyme seed","Death rune","Blood rune","Wine of zamorak","Rune scimitar","Adamant platebody","Dragon dagger(p++)"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes","Malicious ashes","Adamant arrow(p++)","Steel dart","Steel arrow"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW []
 
-#define VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)","Super attack(3)","Super strength(3)"]
-#define VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW ["Shark","Tuna potato","Super restore(3)"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)","Super attack(3)","Super strength(3)"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW []
 
 
 
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_UNIQUES_HIDE) {
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE) {
     hidden = true;
 }
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_COMMON_HIDE) {
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE) {
     hidden = true;
 }
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_SUPPLY_HIDE) {
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE) {
     hidden = true;
 }
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_UNIQUES_SHOW) {
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW) {
     hidden = false;
 }
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_COMMON_SHOW) {
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW) {
     hidden = false;
 }
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
     hidden = false;
 }
 
 
 
-// endmodule:kril_tsutsaroth
+// endmodule:bossing:kril_tsutsaroth
 
-// module:nex
+// module:bossing:nex
 
 #define CONST_NEX_AREA [2900, 5188, 0, 2943, 5218, 0]
 
 
-#define VAR_NEX_UNIQUES_HIDE []
-#define VAR_NEX_UNIQUES_SHOW ["Zaryte vambraces","Nihil horn","Torva full helm (damaged)","Torva platebody (damaged)","Torva platelegs (damaged)","Ancient hilt","Ancient ceremonial mask","Ancient ceremonial top","Ancient ceremonial legs","Ancient ceremonial gloves","Ancient ceremonial boots"]
+#define VAR_BOSSING_NEX_UNIQUES_HIDE []
+#define VAR_BOSSING_NEX_UNIQUES_SHOW []
 
-#define VAR_NEX_COMMON_HIDE []
-#define VAR_NEX_COMMON_SHOW ["Rune sword","Runite ore","Ecumenical key shard","Nihil shard","Blood essence","Onyx bolts (e)","Dragon bolts (unf)","Coins","Blood rune","Death rune","Soul rune","Cannonball","Uncut ruby","Uncut diamond","Wine of zamorak","Air rune","Fire rune","Water rune","Air orb","Coal"]
+#define VAR_BOSSING_NEX_COMMON_HIDE []
+#define VAR_BOSSING_NEX_COMMON_SHOW []
 
-#define VAR_NEX_SUPPLY_HIDE []
-#define VAR_NEX_SUPPLY_SHOW ["Shark","Prayer potion(4)","Saradomin brew(4)","Super restore(4)"]
+#define VAR_BOSSING_NEX_SUPPLY_HIDE []
+#define VAR_BOSSING_NEX_SUPPLY_SHOW []
 
 
 
-apply (area:CONST_NEX_AREA && name:VAR_NEX_UNIQUES_HIDE) {
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_HIDE) {
     hidden = true;
 }
 
-apply (area:CONST_NEX_AREA && name:VAR_NEX_COMMON_HIDE) {
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_HIDE) {
     hidden = true;
 }
 
-apply (area:CONST_NEX_AREA && name:VAR_NEX_SUPPLY_HIDE) {
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_HIDE) {
     hidden = true;
 }
 
-apply (area:CONST_NEX_AREA && name:VAR_NEX_UNIQUES_SHOW) {
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_SHOW) {
     hidden = false;
 }
 
-apply (area:CONST_NEX_AREA && name:VAR_NEX_COMMON_SHOW) {
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_SHOW) {
     hidden = false;
 }
 
-apply (area:CONST_NEX_AREA && name:VAR_NEX_SUPPLY_SHOW) {
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
     hidden = false;
 }
 
 
 
-// endmodule:nex
+// endmodule:bossing:nex
+
+// module:slayer:slayer_keys
+#define VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50ae9815";borderColor = "#FFFFFFFF";textAccentColor = "#FF000000";menuTextColor = "#FFfada1e";showLootbeam = true;
+#define VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5026636b";borderColor = "#FFFFFFFF";textAccentColor = "#FF000000";menuTextColor = "#FF41a9b7";showLootbeam = true;
+apply (name:"Larran's key") {
+    VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
+}
+apply (name:"Brimstone key") {
+    VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
+}
+// endmodule:slayer:slayer_keys
+
+// module:slayer:superior_uniques
+#define VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5071603f";borderColor = "#FFFFFFFF";textAccentColor = "#FF000000";menuTextColor = "#FFbda069";showLootbeam = true;
+#define VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50847a83";borderColor = "#FFFFFFFF";textAccentColor = "#FF000000";menuTextColor = "#FFd0c0ce";showLootbeam = true;
+#define VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5036aebc";borderColor = "#FF9fc34a";textAccentColor = "#FF000000";menuTextColor = "#FF36aebc";showLootbeam = true;
+#define VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5061374a";borderColor = "#FF432e43";textAccentColor = "#FF000000";menuTextColor = "#FFad6284";showLootbeam = true;
+apply (name:"Dust battlestaff") {
+    VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
+}
+apply (name:"Mist battlestaff") {
+    VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE 
+}
+apply (name:"Eternal gem") {
+    VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE 
+}
+apply (name:"Imbued heart") {
+    VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
+}
+// endmodule:slayer:superior_uniques
+
+// module:slayer:wilderness_slayer
+#define VAR_SLAYER_WILDERNESS_SLAYER_HIDE ["Slayer's enchantment"]
+#define VAR_SLAYER_WILDERNESS_SLAYER_SHOW []
+apply (name:VAR_SLAYER_WILDERNESS_SLAYER_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_SLAYER_WILDERNESS_SLAYER_SHOW) {
+    hidden = false;
+}
+#define CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA [3323, 10044, 0, 3458, 10178, 0]
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE ["Blighted entangle sack","Blighted karambwan","Blighted teleport spell sack"]
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW []
+apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
+    hidden = false;
+}
+// endmodule:slayer:wilderness_slayer
+
+// module:slayer:hydras
+#define CONST_SLAYER_HYDRAS_AREA [1291, 10221, 0, 1341, 10279, 0]
+// endmodule:slayer:hydras
+
+// module:slayer:smoke_devils
+#define CONST_SLAYER_SMOKE_DEVILS_AREA [2376, 9408, 0, 2432, 9472, 0]
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE []
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW []
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE ["Adamant battleaxe","Adamantite bar","Air rune","Ashes","Coal","Coins","Crossbow string","Fire rune","Mithril plateskirt","Red d'hide body","Rune arrow","Runite bolts","Shark","Steel bar","Ugthanki kebab"]
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW []
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE []
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW []
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW) {
+    hidden = false;
+}
+// endmodule:slayer:smoke_devils
+
+// module:slayer:araxytes
+#define CONST_SLAYER_ARAXYTES_AREA [3650, 9793, 0, 3716, 9870, 0]
+// endmodule:slayer:araxytes
+
+// module:slayer:dark_beasts
+#define CONST_SLAYER_DARK_BEASTS_MOURNER_TUNNELS_AREA [1979, 4629, 0, 2043, 4678, 0]
+#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_1_AREA [3151, 12415, 0, 3182, 12439, 0]
+#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_2_AREA [3200, 12381, 0, 3243, 12407, 0]
+// endmodule:slayer:dark_beasts
+
+// module:slayer:cave_kraken
+#define CONST_SLAYER_CAVE_KRAKEN_AREA [2238, 9983, 0, 2304, 10022, 0]
+// endmodule:slayer:cave_kraken
+
+// module:slayer:abyssal_demons
+#define CONST_SLAYER_ABYSSAL_DEMONS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:abyssal_demons
+
+// module:slayer:drakes
+#define CONST_SLAYER_DRAKES_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:drakes
+
+// module:slayer:nechryael
+#define CONST_SLAYER_NECHRYAEL_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:nechryael
+
+// module:slayer:gargoyles
+#define CONST_SLAYER_GARGOYLES_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:gargoyles
+
+// module:slayer:skeletal_wyverns
+#define CONST_SLAYER_SKELETAL_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:skeletal_wyverns
+
+// module:slayer:kurasks
+#define CONST_SLAYER_KURASKS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:kurasks
+
+// module:slayer:fossil_island_wyverns
+#define CONST_SLAYER_FOSSIL_ISLAND_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:fossil_island_wyverns
+
+// module:slayer:dust_devils
+#define CONST_SLAYER_DUST_DEVILS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:dust_devils
+
+// module:slayer:wyrms
+#define CONST_SLAYER_WYRMS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:wyrms
+
+// module:slayer:cave_horrors
+#define CONST_SLAYER_CAVE_HORRORS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:cave_horrors
+
+// module:slayer:zygomites
+#define CONST_SLAYER_ZYGOMITES_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:zygomites
+
+// module:slayer:warped_creatures
+#define CONST_SLAYER_WARPED_CREATURES_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:warped_creatures
+
+// module:slayer:turoths
+#define CONST_SLAYER_TUROTHS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:turoths
+
+// module:slayer:jellies
+#define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:jellies
+
+// module:slayer:bloodvelds
+#define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
+// endmodule:slayer:bloodvelds
+
+// module:alchs
+
+#define VAR_ALCHS_ITEM_LIST ["Adamant platebody","Air battlestaff","Dragon battleaxe","Dragon dagger","Dragon halberd","Dragon longsword","Dragon mace","Dragon med helm","Dragon platelegs","Dragon plateskirt","Dragon scimitar","Earth battlestaff","Fire battlestaff","Lava battlestaff","Mystic air staff","Mystic earth staff","Mystic fire staff","Mystic lava staff","Mystic robe bottom","Mystic robe top","Mystic water staff","Onyx dragon bolts (e)","Rune 2h sword","Rune battleaxe","Rune chainbody","Rune full helm","Rune halberd","Rune hasta","Rune kiteshield","Rune longsword","Rune med helm","Rune pickaxe","Rune platebody","Rune platelegs","Rune plateskirt","Rune scimitar","Rune spear","Rune sq shield","Rune sword","Runite crossbow (u)","Runite limbs","Water battlestaff"]
+#define VAR_ALCHS_SET_HIGH_ALCH_ICON true
+#define VAR_ALCHS_CUSTOMSTYLE 
+
+#define VAR_ALCHS_TERMINATE false
+
+apply (VAR_ALCHS_SET_HIGH_ALCH_ICON && name:VAR_ALCHS_ITEM_LIST) {
+    icon = Sprite(41, 0);
+}
+apply (name:VAR_ALCHS_ITEM_LIST) {
+    VAR_ALCHS_CUSTOMSTYLE
+}
+if (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {
+
+}
+
+// endmodule:alchs
+
+// module:ammo:arrows
+#define CONST_AMMO_STANDARD_ARROWS_LIST [\
+    "Bronze Arrow*", \
+    "Iron Arrow*", \
+    "Steel Arrow*", \
+    "Mithril Arrow*", \
+    "Adamant Arrow*", \
+    "Rune Arrow*", \
+    "Amethyst Arrow*", \
+    "Dragon Arrow*", \
+    "Bronze fire arrow", \
+    "Iron fire arrow", \
+    "Steel fire arrow", \
+    "Mithril fire arrow", \
+    "Adamant fire arrow", \
+    "Rune fire arrow", \
+    "Amethyst fire arrow", \
+    "Dragon fire arrow", \
+]
+#define VAR_AMMO_STANDARD_ARROWS_HIDE ["Bronze*","Iron*","Steel*","Mithril*","Adamant*","Rune*"]
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 500
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE) {
+    hidden = true;
+}
+
+#define CONST_AMMO_BRUTAL_ARROWS_LIST [\
+    "Bronze brutal", \
+    "Iron brutal", \
+    "Steel brutal", \
+    "Black brutal", \
+    "Mithril brutal", \
+    "Adamant brutal", \
+    "Rune brutal", \
+]
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE ["Bronze brutal","Iron brutal","Steel brutal","Black brutal","Mithril brutal"]
+apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
+apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE) {
+    hidden = true;
+}
+
+#define CONST_AMMO_SPECIAL_ARROWS_LIST [\
+    "Training Arrow", \
+    "Ogre Arrow", \
+    "Ice Arrow", \
+    "Broad Arrow", \
+]
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE ["Training Arrow","Ogre Arrow","Ice Arrow","Broad Arrow"]
+apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
+apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE) {
+    hidden = true;
+}
+// endmodule:ammo:arrows
+// module:ammo:darts
+#define CONST_AMMO_DARTS_LIST [\
+    "Bronze dart*", \
+    "Iron dart*", \
+    "Steel dart*", \
+    "Black dart*", \
+    "Mithril dart*", \
+    "Adamant dart*", \
+    "Rune dart*", \
+    "Amethyst dart*", \
+    "Dragon dart*", \
+    "Atlatl dart", \
+]
+#define VAR_AMMO_DARTS_HIDE ["Bronze dart*","Iron dart*","Steel dart*","Black dart*","Mithril dart*","Adamant dart*"]
+apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_DARTS_MIN_VALUE 500
+apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
+    hidden = true;
+}
+// endmodule:ammo:darts
+// module:ammo:javelins
+#define CONST_AMMO_JAVELINS_LIST [\
+    "Bronze javelin*", \
+    "Iron javelin*", \
+    "Steel javelin*", \
+    "Mithril javelin*", \
+    "Adamant javelin*", \
+    "Rune javelin*", \
+    "Amethyst javelin*", \
+    "Dragon javelin*", \
+]
+#define VAR_AMMO_JAVELINS_HIDE ["Bronze javelin*","Iron javelin*","Steel javelin*","Mithril javelin*","Adamant javelin*","Rune javelin*"]
+apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_JAVELINS_MIN_VALUE 500
+apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
+    hidden = true;
+}
+// endmodule:ammo:javelins
+// module:ammo:bolts
+#define CONST_AMMO_BOLTS_LIST [\
+    "Bronze bolts*", \
+    "Blurite bolts*", \
+    "Silver bolts*", \
+    "Iron bolts*", \
+    "Steel bolts*", \
+    "Mithril bolts*", \
+    "Adamant bolts*", \
+    "Runite bolts*", \
+    "Dragon bolts*", \
+]
+#define VAR_AMMO_BOLTS_HIDE ["Bronze bolts*","Blurite bolts*","Silver bolts*","Iron bolts*","Steel bolts*","Mithril bolts*"]
+apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_BOLTS_MIN_VALUE 500
+apply (name:CONST_AMMO_BOLTS_LIST && value:<VAR_AMMO_BOLTS_MIN_VALUE) {
+    hidden = true;
+}
+
+#define CONST_AMMO_BOLTS_E_LIST [\
+    "Opal bolts (e)", \
+    "Jade bolts (e)", \
+    "Pearl bolts (e)", \
+    "Topaz bolts (e)", \
+    "Sapphire bolts (e)", \
+    "Emerald bolts (e)", \
+    "Ruby bolts (e)", \
+    "Diamond bolts (e)", \
+    "Dragonstone bolts (e)", \
+    "Onyx bolts (e)", \
+]
+#define VAR_AMMO_BOLTS_E_HIDE []
+apply (name:CONST_AMMO_BOLTS_E_LIST && name:VAR_AMMO_BOLTS_E_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_BOLTS_E_MIN_VALUE 500
+apply (name:CONST_AMMO_BOLTS_E_LIST && value:<VAR_AMMO_BOLTS_E_MIN_VALUE) {
+    hidden = true;
+}
+
+#define CONST_AMMO_DRAGON_BOLTS_E_LIST [\
+    "Opal dragon bolts (e)", \
+    "Jade dragon bolts (e)", \
+    "Pearl dragon bolts (e)", \
+    "Topaz dragon bolts (e)", \
+    "Sapphire dragon bolts (e)", \
+    "Emerald dragon bolts (e)", \
+    "Ruby dragon bolts (e)", \
+    "Diamond dragon bolts (e)", \
+    "Dragonstone dragon bolts (e)", \
+    "Onyx dragon bolts (e)", \
+]
+#define VAR_AMMO_DRAGON_BOLTS_E_HIDE []
+apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && name:VAR_AMMO_DRAGON_BOLTS_E_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 500
+apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && value:<VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE) {
+    hidden = true;
+}
+
+#define CONST_AMMO_SPECIAL_BOLTS_LIST [\
+    "Sunlight antler bolts", \
+    "Moonlight antler bolts", \
+    "Kebbit bolts", \
+    "Long kebbit bolts", \
+    "Broad bolts", \
+    "Amethyst broad bolts", \
+    "Barbed bolts", \
+    "Bone bolts", \
+]
+#define VAR_AMMO_SPECIAL_BOLTS_HIDE []
+apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && name:VAR_AMMO_SPECIAL_BOLTS_HIDE) {
+    hidden = true;
+}
+#define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 500
+apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && value:<VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE) {
+    hidden = true;
+}
+// endmodule:ammo:bolts
+// module:ammo:utilities
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND false
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND_ID 933
+
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_DARTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_JAVELINS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_BOLTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_BOLTS_E_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
+
+// endmodule:ammo:utilities
 
 // module:runes
 
@@ -2010,7 +2439,11 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
 
 // module:herbs
 
+#define CONST_ALL_HERBS ["*guam leaf", "*marrentill", "*tarromin", "*harralander", "*ranarr weed", "*toadflax", "*irit leaf", "*avantoe", "*kwuarm", "*huasca", "*snapdragon", "*cadantine", "*lantadyme", "*dwarf weed", "*torstol"]
+
+#define VAR_HERBS_MINIMUM_VALUE 0
 #define VAR_HERBS_HIDE ["*Tarromin","*Harralander"]
+#define VAR_HERBS_SHOW ["*Ranarr weed","*Huasca","*Snapdragon","*Torstol"]
 
 #define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5009550d";borderColor = "#FF09550d";textAccentColor = "#FF000000";menuTextColor = "#FF09550d";
 #define VAR_HERBS_MARRENTILL_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#500c7610";borderColor = "#FF0c7610";textAccentColor = "#FF000000";menuTextColor = "#FF0c7610";
@@ -2044,8 +2477,28 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
 #define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
 #define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
 
+#define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 0
+#define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 0
 
-
+apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
+    hidden = true;
+}
+apply (name:VAR_HERBS_SHOW) {
+    hidden = false;
+}
 apply (name:VAR_HERBS_HIDE) {
     hidden = true;
 }
@@ -2056,11 +2509,17 @@ apply (name:"*guam leaf") {
 apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*marrentill") {
     VAR_HERBS_MARRENTILL_CUSTOMSTYLE 
 }
 apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2070,11 +2529,17 @@ apply (name:"*tarromin") {
 apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*harralander") {
     VAR_HERBS_HARRALANDER_CUSTOMSTYLE 
 }
 apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2084,11 +2549,17 @@ apply (name:"*ranarr weed") {
 apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*toadflax") {
     VAR_HERBS_TOADFLAX_CUSTOMSTYLE 
 }
 apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2098,11 +2569,17 @@ apply (name:"*irit leaf") {
 apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*avantoe") {
     VAR_HERBS_AVANTOE_CUSTOMSTYLE 
 }
 apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2112,11 +2589,17 @@ apply (name:"*kwuarm") {
 apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*huasca") {
     VAR_HERBS_HUASCA_CUSTOMSTYLE 
 }
 apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2126,11 +2609,17 @@ apply (name:"*snapdragon") {
 apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*cadantine") {
     VAR_HERBS_CADANTINE_CUSTOMSTYLE 
 }
 apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2140,6 +2629,9 @@ apply (name:"*lantadyme") {
 apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*dwarf weed") {
     VAR_HERBS_DWARF_WEED_CUSTOMSTYLE 
@@ -2147,11 +2639,17 @@ apply (name:"*dwarf weed") {
 apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
     hidden = true;
 }
+apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 apply (name:"*torstol") {
     VAR_HERBS_TORSTOL_CUSTOMSTYLE 
 }
 apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -2497,137 +2995,6 @@ apply (name:"Extended super antifire(*") {
 
 // endmodule:potions
 
-// module:barb_potions
-
-#define VAR_BARB_POTIONS_HIDE ["Attack mix*","Antipoison mix*","Relicym's mix*","Strength mix*","Restore mix*","Energy mix*","Defence mix*","Agility mix*","Combat mix*","Prayer mix*","Superattack mix*","Anti-poison supermix*","Fishing mix*","Super energy mix*","Hunting mix*","Super str. mix*","Magic essence mix*","Super restore mix*","Super def. mix*","Antidote+ mix*","Antifire mix*","Ranging mix*","Magic mix*","Zamorak mix*","Stamina mix*","Extended antifire mix*","Ancient mix*","Super antifire mix*","Extended super antifire mix*"]
-
-#define VAR_BARB_POTIONS_ATTACK_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5074E2E6";borderColor = "#FF74E2E6";textAccentColor = "#FF000000";menuTextColor = "#FF74E2E6";
-#define VAR_BARB_POTIONS_ANTIPOISON_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50B8F785";borderColor = "#FFB8F785";textAccentColor = "#FF000000";menuTextColor = "#FFB8F785";
-#define VAR_BARB_POTIONS_RELICYMS_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50DFC5AE";borderColor = "#FFDFC5AE";textAccentColor = "#FF000000";menuTextColor = "#FFDFC5AE";
-#define VAR_BARB_POTIONS_STRENGTH_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50F1EF78";borderColor = "#FFF1EF78";textAccentColor = "#FF000000";menuTextColor = "#FFF1EF78";
-#define VAR_BARB_POTIONS_RESTORE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50F08F87";borderColor = "#FFF08F87";textAccentColor = "#FF000000";menuTextColor = "#FFF08F87";
-#define VAR_BARB_POTIONS_ENERGY_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50D499A4";borderColor = "#FFD499A4";textAccentColor = "#FF000000";menuTextColor = "#FFD499A4";
-#define VAR_BARB_POTIONS_DEFENCE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#509AF59C";borderColor = "#FF9AF59C";textAccentColor = "#FF000000";menuTextColor = "#FF9AF59C";
-#define VAR_BARB_POTIONS_AGILITY_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50B5C15C";borderColor = "#FFB5C15C";textAccentColor = "#FF000000";menuTextColor = "#FFB5C15C";
-#define VAR_BARB_POTIONS_COMBAT_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50AFD89B";borderColor = "#FFAFD89B";textAccentColor = "#FF000000";menuTextColor = "#FFAFD89B";
-#define VAR_BARB_POTIONS_PRAYER_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#5099F1D1";borderColor = "#FF99F1D1";textAccentColor = "#FF000000";menuTextColor = "#FF99F1D1";
-#define VAR_BARB_POTIONS_SUPERATTACK_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50999BF1";borderColor = "#FF999BF1";textAccentColor = "#FF000000";menuTextColor = "#FF999BF1";
-#define VAR_BARB_POTIONS_ANTI_POISON_SUPERMIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50D85CAC";borderColor = "#FFD85CAC";textAccentColor = "#FF000000";menuTextColor = "#FFD85CAC";
-#define VAR_BARB_POTIONS_FISHING_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50868A86";borderColor = "#FF868A86";textAccentColor = "#FF000000";menuTextColor = "#FF868A86";
-#define VAR_BARB_POTIONS_SUPER_ENERGY_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50DB8EC9";borderColor = "#FFDB8EC9";textAccentColor = "#FF000000";menuTextColor = "#FFDB8EC9";
-#define VAR_BARB_POTIONS_HUNTING_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50519294";borderColor = "#FF519294";textAccentColor = "#FF000000";menuTextColor = "#FF519294";
-#define VAR_BARB_POTIONS_SUPER_STR_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50E2E3E3";borderColor = "#FFE2E3E3";textAccentColor = "#FF000000";menuTextColor = "#FFE2E3E3";
-#define VAR_BARB_POTIONS_MAGIC_ESSENCE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50EBBA8A";borderColor = "#FFEBBA8A";textAccentColor = "#FF000000";menuTextColor = "#FFEBBA8A";
-#define VAR_BARB_POTIONS_SUPER_RESTORE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50C77798";borderColor = "#FFC77798";textAccentColor = "#FF000000";menuTextColor = "#FFC77798";
-#define VAR_BARB_POTIONS_SUPER_DEF_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50E7D090";borderColor = "#FFE7D090";textAccentColor = "#FF000000";menuTextColor = "#FFE7D090";
-#define VAR_BARB_POTIONS_ANTIDOTE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50ABAB98";borderColor = "#FFABAB98";textAccentColor = "#FF000000";menuTextColor = "#FFABAB98";
-#define VAR_BARB_POTIONS_ANTIFIRE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#509E56B7";borderColor = "#FF9E56B7";textAccentColor = "#FF000000";menuTextColor = "#FF9E56B7";
-#define VAR_BARB_POTIONS_RANGING_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#508FCFE8";borderColor = "#FF8FCFE8";textAccentColor = "#FF000000";menuTextColor = "#FF8FCFE8";
-#define VAR_BARB_POTIONS_MAGIC_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50E6BFB1";borderColor = "#FFE6BFB1";textAccentColor = "#FF000000";menuTextColor = "#FFE6BFB1";
-#define VAR_BARB_POTIONS_ZAMORAK_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50F0C760";borderColor = "#FFF0C760";textAccentColor = "#FF000000";menuTextColor = "#FFF0C760";
-#define VAR_BARB_POTIONS_STAMINA_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50B7997B";borderColor = "#FFB7997B";textAccentColor = "#FF000000";menuTextColor = "#FFB7997B";
-#define VAR_BARB_POTIONS_EXTENDED_ANTIFIRE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50946DDA";borderColor = "#FF946DDA";textAccentColor = "#FF000000";menuTextColor = "#FF946DDA";
-#define VAR_BARB_POTIONS_ANCIENT_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50C09CE2";borderColor = "#FFC09CE2";textAccentColor = "#FF000000";menuTextColor = "#FFC09CE2";
-#define VAR_BARB_POTIONS_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#509D56B5";borderColor = "#FF9D56B5";textAccentColor = "#FF000000";menuTextColor = "#FF9D56B5";
-#define VAR_BARB_POTIONS_EXTENDED_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50C7B6DA";borderColor = "#FFC7B6DA";textAccentColor = "#FF000000";menuTextColor = "#FFC7B6DA";
-
-
-
-apply (name:VAR_BARB_POTIONS_HIDE) {
-    hidden = true;
-}
-
-apply (name:["Attack mix*"]) {
-    VAR_BARB_POTIONS_ATTACK_MIX_CUSTOMSTYLE 
-}
-apply (name:["Antipoison mix*"]) {
-    VAR_BARB_POTIONS_ANTIPOISON_MIX_CUSTOMSTYLE 
-}
-apply (name:["Relicym's mix*"]) {
-    VAR_BARB_POTIONS_RELICYMS_MIX_CUSTOMSTYLE 
-}
-apply (name:["Strength mix*"]) {
-    VAR_BARB_POTIONS_STRENGTH_MIX_CUSTOMSTYLE 
-}
-apply (name:["Restore mix*"]) {
-    VAR_BARB_POTIONS_RESTORE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Energy mix*"]) {
-    VAR_BARB_POTIONS_ENERGY_MIX_CUSTOMSTYLE 
-}
-apply (name:["Defence mix*"]) {
-    VAR_BARB_POTIONS_DEFENCE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Agility mix*"]) {
-    VAR_BARB_POTIONS_AGILITY_MIX_CUSTOMSTYLE 
-}
-apply (name:["Combat mix*"]) {
-    VAR_BARB_POTIONS_COMBAT_MIX_CUSTOMSTYLE 
-}
-apply (name:["Prayer mix*"]) {
-    VAR_BARB_POTIONS_PRAYER_MIX_CUSTOMSTYLE 
-}
-apply (name:["Superattack mix*"]) {
-    VAR_BARB_POTIONS_SUPERATTACK_MIX_CUSTOMSTYLE 
-}
-apply (name:["Anti-poison supermix*"]) {
-    VAR_BARB_POTIONS_ANTI_POISON_SUPERMIX_CUSTOMSTYLE 
-}
-apply (name:["Fishing mix*"]) {
-    VAR_BARB_POTIONS_FISHING_MIX_CUSTOMSTYLE 
-}
-apply (name:["Super energy mix*"]) {
-    VAR_BARB_POTIONS_SUPER_ENERGY_MIX_CUSTOMSTYLE 
-}
-apply (name:["Hunting mix*"]) {
-    VAR_BARB_POTIONS_HUNTING_MIX_CUSTOMSTYLE 
-}
-apply (name:["Super str. mix*"]) {
-    VAR_BARB_POTIONS_SUPER_STR_MIX_CUSTOMSTYLE 
-}
-apply (name:["Magic essence mix*"]) {
-    VAR_BARB_POTIONS_MAGIC_ESSENCE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Super restore mix*"]) {
-    VAR_BARB_POTIONS_SUPER_RESTORE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Super def. mix*"]) {
-    VAR_BARB_POTIONS_SUPER_DEF_MIX_CUSTOMSTYLE 
-}
-apply (name:["Antidote+ mix*"]) {
-    VAR_BARB_POTIONS_ANTIDOTE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Antifire mix*"]) {
-    VAR_BARB_POTIONS_ANTIFIRE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Ranging mix*"]) {
-    VAR_BARB_POTIONS_RANGING_MIX_CUSTOMSTYLE 
-}
-apply (name:["Magic mix*"]) {
-    VAR_BARB_POTIONS_MAGIC_MIX_CUSTOMSTYLE 
-}
-apply (name:["Zamorak mix*"]) {
-    VAR_BARB_POTIONS_ZAMORAK_MIX_CUSTOMSTYLE 
-}
-apply (name:["Stamina mix*"]) {
-    VAR_BARB_POTIONS_STAMINA_MIX_CUSTOMSTYLE 
-}
-apply (name:["Extended antifire mix*"]) {
-    VAR_BARB_POTIONS_EXTENDED_ANTIFIRE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Ancient mix*"]) {
-    VAR_BARB_POTIONS_ANCIENT_MIX_CUSTOMSTYLE 
-}
-apply (name:["Super antifire mix*"]) {
-    VAR_BARB_POTIONS_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE 
-}
-apply (name:["Extended super antifire mix*"]) {
-    VAR_BARB_POTIONS_EXTENDED_SUPER_ANTIFIRE_MIX_CUSTOMSTYLE 
-}
-
-
-// endmodule:barb_potions
-
 // module:food
 
 #define CONST_HUNTER_FOODS_LIST ["Cooked wild kebbit", "Cooked larupia", "Cooked barb-tailed kebbit", "Cooked graahk", "Cooked kyatt", "Cooked pyre fox", "Cooked sunlight antelope", "Cooked dashing kebbit", "Cooked moonlight antelope"]
@@ -2804,7 +3171,6 @@ apply (name:"Dark crab") {
 #define VAR_RUNE_ZAMORAK_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#80415760";borderColor = "#FF801a0d";textAccentColor = "#FF000000";menuTextColor = "#FF801a0d";
 
 #define VAR_DRAGON_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#80541109";borderColor = "#FF541109";textAccentColor = "#FF000000";menuTextColor = "#FF541109";
-#define VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#80541109";borderColor = "#FFdea71a";textAccentColor = "#FF000000";menuTextColor = "#FF541109";
 
 #define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS ["Bronze dagger", "Bronze axe", "Bronze mace", "Bronze sword", "Bronze pickaxe", "Bronze scimitar", "Bronze hasta", "Bronze longsword", "Bronze warhammer", "Bronze battleaxe"]
 #define CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS ["Bronze claws", "Bronze spear", "Bronze halberd", "Bronze 2h sword"]
@@ -2884,360 +3250,180 @@ apply (name:"Dark crab") {
 #define CONST_DRAGON_RANGED_WEAPONS ["Dragon crossbow"]
 #define CONST_DRAGON_AMMO ["Dragon knife","Dragon dart","Dragon thrownaxe","Dragon arrow","Dragon bolts","Dragon javelin"]
 #define CONST_DRAGON_ARMOUR ["Dragon med helm","Dragon full helm","Dragon chainbody","Dragon platebody","Dragon platelegs","Dragon plateskirt","Dragon gloves","Dragon boots","Dragon sq shield","Dragon kiteshield","Dragon defender"]
-#define CONST_DRAGON_GOLD_TRIMMED_ARMOUR ["Dragon full helm (g)","Dragon chainbody (g)","Dragon platebody (g)","Dragon platelegs (g)","Dragon plateskirt (g)","Dragon boots (g)","Dragon defender (t)","Dragon sq shield (g)","Dragon kiteshield (g)","Dragon scimitar (or)"]
 
-
-
-apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
     VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
-apply (name:CONST_BRONZE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_RANGED_WEAPONS) {
     VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_AMMO) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
-apply (name:CONST_BRONZE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_ARMOUR) {
     VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
     VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
     VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BRONZE_OTHER) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
     VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
     VAR_IRON_CUSTOMSTYLE 
 }
-apply (name:CONST_IRON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_RANGED_WEAPONS) {
     VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_AMMO) {
     VAR_IRON_CUSTOMSTYLE 
 }
-apply (name:CONST_IRON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_ARMOUR) {
     VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_TRIMMED_ARMOUR) {
     VAR_IRON_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
     VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_IRON_OTHER) {
     VAR_IRON_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
     VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
     VAR_STEEL_CUSTOMSTYLE 
 }
-apply (name:CONST_STEEL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_RANGED_WEAPONS) {
     VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_AMMO) {
     VAR_STEEL_CUSTOMSTYLE 
 }
-apply (name:CONST_STEEL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_ARMOUR) {
     VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
     VAR_STEEL_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
     VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_STEEL_OTHER) {
     VAR_STEEL_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
     VAR_BLACK_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_RANGED_WEAPONS) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_AMMO) {
     VAR_BLACK_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_ARMOUR) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_BLACK_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_BLACK_OTHER) {
     VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_HERALDIC_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
     VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
-apply (name:CONST_MITHRIL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_RANGED_WEAPONS) {
     VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_AMMO) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
-apply (name:CONST_MITHRIL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_ARMOUR) {
     VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
     VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
     VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_MITHRIL_OTHER) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
     VAR_ADAMANT_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_RANGED_WEAPONS) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_AMMO) {
     VAR_ADAMANT_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_ARMOUR) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
     VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
     VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
 }
-apply (name:CONST_ADAMANT_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_ADAMANT_OTHER) {
     VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_HERALDIC_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
     VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
-}
-apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
 }
-apply (name:CONST_RUNE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_RANGED_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
-}
-apply (name:CONST_RUNE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_RUNE_AMMO) {
     VAR_RUNE_CUSTOMSTYLE 
 }
-apply (name:CONST_RUNE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_ARMOUR) {
     VAR_RUNE_CUSTOMSTYLE 
 }
-apply (name:CONST_RUNE_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_RUNE_TRIMMED_ARMOUR) {
     VAR_RUNE_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
     VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -3270,45 +3456,167 @@ apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
     VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
 }
 
-
-apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
-}
-apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
-apply (name:CONST_DRAGON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_DRAGON_RANGED_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
-}
-apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
 }
 apply (name:CONST_DRAGON_AMMO) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
-apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
 apply (name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
-apply (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+
+apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
     hidden = true;
 }
-apply (name:CONST_DRAGON_GOLD_TRIMMED_ARMOUR) {
-    VAR_DRAGON_GOLD_TRIMMED_CUSTOMSTYLE 
+apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
 }
 
+apply (name:CONST_BRONZE_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
 
+apply (name:CONST_IRON_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
 
 // endmodule:metal_equipment
 
