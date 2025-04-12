@@ -208,6 +208,61 @@
             "group": "Darts",
             "type": "number",
             "default": 500
+        },
+        {
+            "macroName": "VAR_AMMO_JAVELINS_HIDE",
+            "label": "Javelins to force hidden",
+            "group": "Javelins",
+            "type": "enumlist",
+            "enum": [
+                {
+                    "value": "Bronze javelin*",
+                    "label": "Bronze javelins"
+                },
+                {
+                    "value": "Iron javelin*",
+                    "label": "Iron javelins"
+                },
+                {
+                    "value": "Steel javelin*",
+                    "label": "Steel javelins"
+                },
+                {
+                    "value": "Mithril javelin*",
+                    "label": "Mithril javelins"
+                },
+                {
+                    "value": "Adamant javelin*",
+                    "label": "Adamant javelins"
+                },
+                {
+                    "value": "Rune javelin*",
+                    "label": "Rune javelins"
+                },
+                {
+                    "value": "Amethyst javelin*",
+                    "label": "Amethyst javelins"
+                },
+                {
+                    "value": "Dragon javelin*",
+                    "label": "Dragon javelins"
+                }
+            ],
+            "default": [
+                "Bronze javelin*",
+                "Iron javelin*",
+                "Steel javelin*",
+                "Mithril javelin*",
+                "Adamant javelin*",
+                "Rune javelin*"
+            ]
+        },
+        {
+            "macroName": "VAR_AMMO_JAVELINS_MIN_VALUE",
+            "label": "Javelins minimum value",
+            "group": "Javelins",
+            "type": "number",
+            "default": 500
         }
     ]
 }
