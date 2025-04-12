@@ -13,14 +13,12 @@
         {
             "macroName": "VAR_UNIQUES_SOUND",
             "label": "Play sound when a unique item drops",
-            "group": "Utilities",
             "type": "boolean",
             "default": false
         },
         {
             "macroName": "VAR_UNIQUES_SOUND_ID",
             "label": "Unique item sound ID (defaults to the muspah unique sound)",
-            "group": "Utilities",
             "type": "number",
             "default": 6765
         },
