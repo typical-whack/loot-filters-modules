@@ -40,8 +40,11 @@
 ]
 #define CONST_LAST_MAN_STANDING_AMMO_LIST [\
     "Atlatl dart", \
+    "Diamond bolts (e)", \
     "Dragon arrows", \
     "Dragon javelins", \
+    "Dragon knife", \
+    "Morrigan's javelin", \
     "Opal dragon bolts (e)", \
 ]
 
