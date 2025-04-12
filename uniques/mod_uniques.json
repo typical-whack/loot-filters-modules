@@ -11,6 +11,20 @@
             "default": false
         },
         {
+            "macroName": "VAR_UNIQUES_SOUND",
+            "label": "Play sound when a unique item drops",
+            "group": "Utilities",
+            "type": "boolean",
+            "default": false
+        },
+        {
+            "macroName": "VAR_UNIQUES_SOUND_ID",
+            "label": "Unique item sound ID (defaults to the muspah unique sound)",
+            "group": "Utilities",
+            "type": "number",
+            "default": 6765
+        },
+        {
             "macroName": "VAR_UNIQUES_LIST",
             "label": "List of uniques to apply custom unique style to (by default just lootbeam)",
             "type": "stringlist",
