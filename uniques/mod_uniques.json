@@ -5,6 +5,12 @@
     "description": "Add custom effect to unique items. By default this gives uniques on this list a loot beam. This can layer with other styling such as item tiers.",
     "inputs": [
         {
+            "macroName": "VAR_UNIQUES_SHOW_ICONS",
+            "label": "Show Icons For Unique Items",
+            "type": "boolean",
+            "default": false
+        },
+        {
             "macroName": "VAR_UNIQUES_LIST",
             "label": "List of uniques to apply custom unique style to (by default just lootbeam)",
             "type": "stringlist",
