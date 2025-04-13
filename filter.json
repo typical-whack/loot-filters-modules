@@ -86,6 +86,9 @@
         },
         {
             "modulePath": "rdt/mod_rdt.json"
+        },
+        {
+            "modulePath": "_terminate/mod_terminate.json"
         }
     ]
 }

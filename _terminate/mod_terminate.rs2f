@@ -1,0 +1,7 @@
+// module:terminate
+
+if (name:"*") {
+
+}
+
+// endmodule:terminate
