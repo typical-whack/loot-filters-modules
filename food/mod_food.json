@@ -73,6 +73,72 @@
             ]
         },
         {
+            "macroName": "VAR_FOOD_HUNTER_FOODS_SHOW",
+            "label": "Hunter foods to force shown",
+            "group": "Food filters",
+            "type": "enumlist",
+            "enum": [
+                "Cooked wild kebbit",
+                "Cooked larupia",
+                "Cooked barb-tailed kebbit",
+                "Cooked graahk",
+                "Cooked kyatt",
+                "Cooked pyre fox",
+                "Cooked sunlight antelope",
+                "Cooked dashing kebbit",
+                "Cooked moonlight antelope"
+            ],
+            "default": [
+                "Cooked sunlight antelope",
+                "Cooked dashing kebbit",
+                "Cooked moonlight antelope"
+            ]
+        },
+        {
+            "macroName": "VAR_FOOD_FISH_FOODS_SHOW",
+            "label": "Fish foods to force shown",
+            "group": "Food filters",
+            "type": "enumlist",
+            "enum": [
+                "Shrimp",
+                "Sardine",
+                "Karambwanji",
+                "Herring",
+                "Anchovies",
+                "Mackerel",
+                "Trout",
+                "Cod",
+                "Pike",
+                "Slimy eel",
+                "Salmon",
+                "Tuna",
+                "Rainbow fish",
+                "Cave eel",
+                "Lobster",
+                "Bass",
+                "Swordfish",
+                "Lava eel",
+                "Monkfish",
+                "Cooked karambwan",
+                "Shark",
+                "Sea turtle",
+                "Manta ray",
+                "Anglerfish",
+                "Dark crab"
+            ],
+            "default": [
+                "Swordfish",
+                "Lava eel",
+                "Monkfish",
+                "Cooked karambwan",
+                "Shark",
+                "Sea turtle",
+                "Manta ray",
+                "Anglerfish",
+                "Dark crab"
+            ]
+        },
+        {
             "macroName": "VAR_FOOD_HUNTER_CUSTOMSTYLE",
             "label": "Hunter food style",
             "group": "Food group style",

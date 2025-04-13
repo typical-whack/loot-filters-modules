@@ -42,6 +42,8 @@
 
 #define VAR_FOOD_HUNTER_FOODS_HIDE []
 #define VAR_FOOD_FISH_FOODS_HIDE []
+#define VAR_FOOD_HUNTER_FOODS_SHOW []
+#define VAR_FOOD_FISH_FOODS_SHOW []
 
 #define VAR_FOOD_HUNTER_CUSTOMSTYLE 
 #define VAR_FOOD_FISH_CUSTOMSTYLE 
@@ -79,7 +81,12 @@ apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
 apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
     hidden = true;
 }
-
+apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
+    hidden = false;
+}
+apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
+    hidden = false;
+}
 
 
 apply (name:CONST_HUNTER_FOODS_LIST) {
