@@ -54,8 +54,20 @@ exampleItem: Santa hat
 #define VAR_GLOBAL_CUSTOMSTYLE 
 
 
-#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE
-#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE
+/*@ define:input:global_defaults
+type: number
+label: Hide despawn timer for items below this value
+group: Value Based Settings
+*/
+#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
+
+/*@ define:input:global_defaults
+type: number
+label: Hide prices for items below this value
+group: Value Based Settings
+*/
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+
 /*@ define:input:global_defaults
 type: number
 label: Hide icons for items below this value
@@ -64,9 +76,27 @@ group: Value Based Settings
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
 
-#define VAR_GLOBAL_MINIMUM_VALUE
-#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
-#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE
+/*@ define:input:global_defaults
+type: number
+label: Hide items below this value
+group: Value Based Filters
+*/
+#define VAR_GLOBAL_MINIMUM_VALUE 0
+
+/*@ define:input:global_defaults
+type: number
+label: Hide stackable items below this value
+group: Value Based Filters
+*/
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
+
+/*@ define:input:global_defaults
+type: number
+label: Hide non-stackable items below this value
+group: Value Based Filters
+*/
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
+
 
 
 
@@ -130,10 +160,34 @@ description: |
   This highlights items based on their values. By default tiers are 20k, 100k, 1m, and 10m, with loot beams appearing starting at 1m.
 */
 
-#define VAR_VALUES_TIER_1_VALUE
-#define VAR_VALUES_TIER_2_VALUE
-#define VAR_VALUES_TIER_3_VALUE
-#define VAR_VALUES_TIER_4_VALUE
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 1
+*/
+#define VAR_VALUES_TIER_1_VALUE 20001
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_VALUE 100000
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_VALUE 1000000
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_VALUE 10000000
+
 
 /*@ define:input:item_tiers
 type: style
@@ -186,10 +240,34 @@ exampleItem: Twisted bow
   showLootbeam = true;
 
 
-#define VAR_VALUES_TIER_1_SHOW
-#define VAR_VALUES_TIER_2_SHOW
-#define VAR_VALUES_TIER_3_SHOW
-#define VAR_VALUES_TIER_4_SHOW
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 1 force items shown
+group: Tier 1
+*/
+#define VAR_VALUES_TIER_1_SHOW []
+
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 2 force items shown
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_SHOW []
+
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 3 force items shown
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_SHOW []
+
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 4 force items shown
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_SHOW []
+
 
 /*@ define:input:item_tiers
 type: boolean
@@ -220,15 +298,63 @@ group: Tier 4
 #define VAR_VALUES_TIER_4_SHOW_ICONS false
 
 
-#define VAR_VALUES_TIER_1_SOUND
-#define VAR_VALUES_TIER_2_SOUND
-#define VAR_VALUES_TIER_3_SOUND
-#define VAR_VALUES_TIER_4_SOUND
+/*@ define:input:item_tiers
+type: boolean
+label: Play Sound For Tier 1 Items
+group: Tier 1
+*/
+#define VAR_VALUES_TIER_1_SOUND false
 
-#define VAR_VALUES_TIER_1_SOUND_ID
-#define VAR_VALUES_TIER_2_SOUND_ID
-#define VAR_VALUES_TIER_3_SOUND_ID
-#define VAR_VALUES_TIER_4_SOUND_ID
+/*@ define:input:item_tiers
+type: boolean
+label: Play Sound For Tier 2 Items
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_SOUND false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Play Sound For Tier 3 Items
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_SOUND false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Play Sound For Tier 4 Items
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_SOUND false
+
+
+/*@ define:input:item_tiers
+type: number
+label: Tier 1 Items Sound ID (defaults to muspah unique sound)
+group: Tier 1
+*/
+#define VAR_VALUES_TIER_1_SOUND_ID 6765
+
+/*@ define:input:item_tiers
+type: number
+label: Tier 2 Items Sound ID (defaults to muspah unique sound)
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_SOUND_ID 6765
+
+/*@ define:input:item_tiers
+type: number
+label: Tier 3 Items Sound ID (defaults to muspah unique sound)
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_SOUND_ID 6765
+
+/*@ define:input:item_tiers
+type: number
+label: Tier 4 Items Sound ID (defaults to muspah unique sound)
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_SOUND_ID 6765
+
 
 apply (value:>=VAR_VALUES_TIER_1_VALUE) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
@@ -322,7 +448,7 @@ description: |
 type: stringlist
 label: List of uniques to apply custom unique style to (by default just lootbeam)
 */
-#define VAR_UNIQUES_LIST ["Jar of dirt","Jar of swamp","Jar of sand","Jar of souls","Jar of miasma","Jar of darkness","Jar of stone","Jar of decay","Jar of chemicals","Jar of eyes","Jar of dreams","Jar of spirits","Jar of smoke","Jar of venom","Black tourmaline core","Granite gloves","Granite ring","Granite hammer","Abyssal head","Bludgeon spine","Bludgeon claw","Bludgeon axon","Abyssal dagger","Abyssal whip","Kraken tentacle","Trident of the seas","Eternal crystal","Pegasian crystal","Primordial crystal","Smouldering stone","Araxyte fang","Noxious point","Noxious blade","Noxious pommel","Araxyte head","Occult necklace","Smoke battlestaff","Dragon chainbody","Hydra's claw","Hydra tail","Hydra leather","Hydra's fang","Hydra's eye","Hydra's heart","Dragon knife","Dragon thrownaxe","Alchemical hydra heads","Ahrim's hood","Ahrim's robetop","Ahrim's robeskirt","Ahrim's staff","Karil's coif","Karil's leathertop","Karil's leatherskirt","Karil's crossbow","Dharok's helm","Dharok's platebody","Dharok's platelegs","Dharok's greataxe","Guthan's helm","Guthan's platebody","Guthan's chainskirt","Guthan's warspear","Torag's helm","Torag's platebody","Torag's platelegs","Torag's hammers","Verac's helm","Verac's brassard","Verac's plateskirt","Verac's flail","Archers ring","Berserker ring","Warrior ring","Seers ring","Dragon axe","Seercull","Mud battlestaff","Sarachnis cudgel","Blood moon helm","Blood moon chestplate","Blood moon tassets","Dual macuahuitl","Blue moon helm","Blue moon chestplate","Blue moon tassets","Blue moon spear","Eclipse moon helm","Eclipse moon chestplate","Eclipse moon tassets","Eclipse atlatl","Godsword shard 1","Godsword shard 2","Godsword shard 3","Armadyl helmet","Armadyl chestplate","Armadyl chainskirt","Armadyl hilt","Armadyl crossbow","Saradomin hilt","Saradomin sword","Saradomin's light","Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Staff of the dead","Zamorakian spear","Steam battlestaff","Zamorak hilt","Ancient hilt","Nihil horn","Zaryte vambraces","Torva full helm (damaged)","Torva platebody (damaged)","Torva platelegs (damaged)","Elder chaos top","Elder chaos robe","Elder chaos hood","Odium shard 1","Malediction shard 1","Odium shard 2","Malediction shard 2","Fedora","Odium shard 3","Malediction shard 3","Kbd heads","Draconic visage","Amulet of avarice","Craw's bow (u)","Thammaron's sceptre (u)","Viggora's chainmace (u)","Ancient crystal","Ring of the gods","Skull of vet'ion","Voidwaker blade","Treasonous ring","Fangs of venenatis","Voidwaker gem","Tyrannical ring","Claws of callisto","Voidwaker hilt","Elysian sigil","Spectral sigil","Arcane sigil","Holy elixir","Spirit shield","Kq head","Dragon chainbody","Dragon hunter wand","Hueycoatl hide","Tome of earth (empty)","Glacial temotli","Fire element staff crown","Ice element staff crown","Tanzanite mutagen","Magma mutagen","Magic fang","Serpentine visage","Tanzanite fang","Uncut onyx","Draconic visage","Skeletal visage","Dragonbone necklace","Venator shard","Inquisitor's mace","Inquisitor's great helm","Inquisitor's hauberk","Inquisitor's plateskirt","Nightmare staff","Volatile orb","Harmonised orb","Eldritch orb","Parasitic egg","Virtus mask","Virtus robe top","Virtus robe bottom","Magus vestige","Eye of the duke","Ice quartz","Venator vestige","Leviathan's lure","Smoke quartz","Bellator vestige","Siren's staff","Shadow quartz","Ultor vestige","Executioner's axe head","Blood quartz","Hill giant club","Bryophyta's essence","Ring of 3rd age","Bottomless compost bucket","Dark claw","Dark totem","Crystal armour seed","Crystal weapon seed","Enhanced crystal weapon seed","Sunfire fanatic cuirass","Sunfire fanatic chausses","Sunfire fanatic helm","Echo crystal","Tonalztics of ralos (uncharged)","Big harpoonfish","Tome of water (empty)","Tackle box","Fish barrel","Dragon harpoon","Tome of fire (empty)","Crystal tool seed","Zalcano shard","Dexterous prayer scroll","Arcane prayer scroll","Twisted buckler","Dragon hunter crossbow","Dinh's bulwark","Ancestral hat","Ancestral robe top","Ancestral robe bottom","Dragon claws","Elder maul","Kodai insignia","Twisted bow","Twisted ancestral colour kit","Metamorphic dust","Avernic defender hilt","Ghrazi rapier","Sanguinesti staff (uncharged)","Justiciar faceguard","Justiciar chestguard","Justiciar legguards","Scythe of vitur (uncharged)","Holy ornament kit","Sanguine ornament kit","Sanguine dust","Masori mask","Masori body","Masori chaps","Lightbearer","Osmumten's fang","Elidinis' ward","Tumeken's shadow","Breach of the scarab","Eye of the corruptor","Jewel of the sun","Zenyte shard","Light frame","Heavy frame","Ballista limbs","Monkey tail","Ballista spring","Tormented synapse","Burning claw","Dragon warhammer","Big swordfish","Big shark","Big bass","Dragonstone full helm","Dragonstone platebody","Dragonstone platelegs","Dragonstone gauntlets","Dragonstone boots","Evil chicken head","Evil chicken wings","Evil chicken legs","Evil chicken feet","Mask of ranul","Elven signet","Dragon metal slice","Dragon metal lump","Obsidian cape","Toktz-ket-xil","Tzhaar-ket-om","Toktz-xil-ak","Toktz-xil-ek","Toktz-mej-tal","Toktz-xil-ul","Obsidian helmet","Obsidian platebody","Obsidian platelegs","Imbued heart","Eternal gem","Dust battlestaff","Mist battlestaff","Broken dragon hasta","Mystic hat (dusk)","Mystic robe top (dusk)","Mystic robe bottom (dusk)","Mystic gloves (dusk)","Mystic boots (dusk)","Basilisk jaw","Dagon'hai hat","Dagon'hai robe top","Dagon'hai robe bottom","Dark bow","Uncharged trident","Dragon sword","Drake's tooth","Drake's claw","Crawling hand","Cockatrice head","Basilisk head","Kurask head"]
+#define VAR_UNIQUES_LIST ["Jar of dirt", "Jar of swamp", "Jar of sand", "Jar of souls", "Jar of miasma", "Jar of darkness", "Jar of stone", "Jar of decay", "Jar of chemicals", "Jar of eyes", "Jar of dreams", "Jar of spirits", "Jar of smoke", "Jar of venom", "Black tourmaline core", "Granite gloves", "Granite ring", "Granite hammer", "Abyssal head", "Bludgeon spine", "Bludgeon claw", "Bludgeon axon", "Abyssal dagger", "Abyssal whip", "Kraken tentacle", "Trident of the seas", "Eternal crystal", "Pegasian crystal", "Primordial crystal", "Smouldering stone", "Araxyte fang", "Noxious point", "Noxious blade", "Noxious pommel", "Araxyte head", "Occult necklace", "Smoke battlestaff", "Dragon chainbody", "Hydra's claw", "Hydra tail", "Hydra leather", "Hydra's fang", "Hydra's eye", "Hydra's heart", "Dragon knife", "Dragon thrownaxe", "Alchemical hydra heads", "Ahrim's hood", "Ahrim's robetop", "Ahrim's robeskirt", "Ahrim's staff", "Karil's coif", "Karil's leathertop", "Karil's leatherskirt", "Karil's crossbow", "Dharok's helm", "Dharok's platebody", "Dharok's platelegs", "Dharok's greataxe", "Guthan's helm", "Guthan's platebody", "Guthan's chainskirt", "Guthan's warspear", "Torag's helm", "Torag's platebody", "Torag's platelegs", "Torag's hammers", "Verac's helm", "Verac's brassard", "Verac's plateskirt", "Verac's flail", "Archers ring", "Berserker ring", "Warrior ring", "Seers ring", "Dragon axe", "Seercull", "Mud battlestaff", "Sarachnis cudgel", "Blood moon helm", "Blood moon chestplate", "Blood moon tassets", "Dual macuahuitl", "Blue moon helm", "Blue moon chestplate", "Blue moon tassets", "Blue moon spear", "Eclipse moon helm", "Eclipse moon chestplate", "Eclipse moon tassets", "Eclipse atlatl", "Godsword shard 1", "Godsword shard 2", "Godsword shard 3", "Armadyl helmet", "Armadyl chestplate", "Armadyl chainskirt", "Armadyl hilt", "Armadyl crossbow", "Saradomin hilt", "Saradomin sword", "Saradomin's light", "Bandos chestplate", "Bandos tassets", "Bandos boots", "Bandos hilt", "Staff of the dead", "Zamorakian spear", "Steam battlestaff", "Zamorak hilt", "Ancient hilt", "Nihil horn", "Zaryte vambraces", "Torva full helm (damaged)", "Torva platebody (damaged)", "Torva platelegs (damaged)", "Elder chaos top", "Elder chaos robe", "Elder chaos hood", "Odium shard 1", "Malediction shard 1", "Odium shard 2", "Malediction shard 2", "Fedora", "Odium shard 3", "Malediction shard 3", "Kbd heads", "Draconic visage", "Amulet of avarice", "Craw's bow (u)", "Thammaron's sceptre (u)", "Viggora's chainmace (u)", "Ancient crystal", "Ring of the gods", "Skull of vet'ion", "Voidwaker blade", "Treasonous ring", "Fangs of venenatis", "Voidwaker gem", "Tyrannical ring", "Claws of callisto", "Voidwaker hilt", "Elysian sigil", "Spectral sigil", "Arcane sigil", "Holy elixir", "Spirit shield", "Kq head", "Dragon chainbody", "Dragon hunter wand", "Hueycoatl hide", "Tome of earth (empty)", "Glacial temotli", "Fire element staff crown", "Ice element staff crown", "Tanzanite mutagen", "Magma mutagen", "Magic fang", "Serpentine visage", "Tanzanite fang", "Uncut onyx", "Draconic visage", "Skeletal visage", "Dragonbone necklace", "Venator shard", "Inquisitor's mace", "Inquisitor's great helm", "Inquisitor's hauberk", "Inquisitor's plateskirt", "Nightmare staff", "Volatile orb", "Harmonised orb", "Eldritch orb", "Parasitic egg", "Virtus mask", "Virtus robe top", "Virtus robe bottom", "Magus vestige", "Eye of the duke", "Ice quartz", "Venator vestige", "Leviathan's lure", "Smoke quartz", "Bellator vestige", "Siren's staff", "Shadow quartz", "Ultor vestige", "Executioner's axe head", "Blood quartz", "Hill giant club", "Bryophyta's essence", "Ring of 3rd age", "Bottomless compost bucket", "Dark claw", "Dark totem", "Crystal armour seed", "Crystal weapon seed", "Enhanced crystal weapon seed", "Sunfire fanatic cuirass", "Sunfire fanatic chausses", "Sunfire fanatic helm", "Echo crystal", "Tonalztics of ralos (uncharged)", "Big harpoonfish", "Tome of water (empty)", "Tackle box", "Fish barrel", "Dragon harpoon", "Tome of fire (empty)", "Crystal tool seed", "Zalcano shard", "Dexterous prayer scroll", "Arcane prayer scroll", "Twisted buckler", "Dragon hunter crossbow", "Dinh's bulwark", "Ancestral hat", "Ancestral robe top", "Ancestral robe bottom", "Dragon claws", "Elder maul", "Kodai insignia", "Twisted bow", "Twisted ancestral colour kit", "Metamorphic dust", "Avernic defender hilt", "Ghrazi rapier", "Sanguinesti staff (uncharged)", "Justiciar faceguard", "Justiciar chestguard", "Justiciar legguards", "Scythe of vitur (uncharged)", "Holy ornament kit", "Sanguine ornament kit", "Sanguine dust", "Masori mask", "Masori body", "Masori chaps", "Lightbearer", "Osmumten's fang", "Elidinis' ward", "Tumeken's shadow", "Breach of the scarab", "Eye of the corruptor", "Jewel of the sun", "Zenyte shard", "Light frame", "Heavy frame", "Ballista limbs", "Monkey tail", "Ballista spring", "Tormented synapse", "Burning claw", "Dragon warhammer", "Big swordfish", "Big shark", "Big bass", "Dragonstone full helm", "Dragonstone platebody", "Dragonstone platelegs", "Dragonstone gauntlets", "Dragonstone boots", "Evil chicken head", "Evil chicken wings", "Evil chicken legs", "Evil chicken feet", "Mask of ranul", "Elven signet", "Dragon metal slice", "Dragon metal lump", "Obsidian cape", "Toktz-ket-xil", "Tzhaar-ket-om", "Toktz-xil-ak", "Toktz-xil-ek", "Toktz-mej-tal", "Toktz-xil-ul", "Obsidian helmet", "Obsidian platebody", "Obsidian platelegs", "Imbued heart", "Eternal gem", "Dust battlestaff", "Mist battlestaff", "Broken dragon hasta", "Mystic hat (dusk)", "Mystic robe top (dusk)", "Mystic robe bottom (dusk)", "Mystic gloves (dusk)", "Mystic boots (dusk)", "Basilisk jaw", "Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom", "Dark bow", "Uncharged trident", "Dragon sword", "Drake's tooth", "Drake's claw", "Crawling hand", "Cockatrice head", "Basilisk head", "Kurask head"]
 
 
 /*@ define:input:uniques
@@ -429,41 +555,251 @@ exampleItem: Coins
   textColor = "#FFBEB287";
 
 
-#define VAR_ABYSSAL_PEARLS_MIN_QUANTITY
-#define VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY
-#define VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY
-#define VAR_ARCHERY_TICKET_MIN_QUANTITY
-#define VAR_BARRONITE_SHARDS_MIN_QUANTITY
-#define VAR_BLOOD_MONEY_MIN_QUANTITY
-#define VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY
-#define VAR_CASTLE_WARS_TICKET_MIN_QUANTITY
-#define VAR_COINS_MIN_QUANTITY
-#define VAR_ECTO_TOKEN_MIN_QUANTITY
-#define VAR_FROG_TOKEN_MIN_QUANTITY
-#define VAR_GLISTENING_TEAR_MIN_QUANTITY
-#define VAR_GOLDEN_NUGGET_MIN_QUANTITY
-#define VAR_HALLOWED_MARK_MIN_QUANTITY
-#define VAR_INTELLIGENCE_MIN_QUANTITY
-#define VAR_MARK_OF_GRACE_MIN_QUANTITY
-#define VAR_MERMAIDS_TEAR_MIN_QUANTITY
-#define VAR_MINNOW_MIN_QUANTITY
-#define VAR_MOLCH_PEARL_MIN_QUANTITY
-#define VAR_MOLE_CLAW_MIN_QUANTITY
-#define VAR_MOLE_SKIN_MIN_QUANTITY
-#define VAR_NUGGETS_MIN_QUANTITY
-#define VAR_NUMULITE_MIN_QUANTITY
-#define VAR_PARAMAYA_TICKET_MIN_QUANTITY
-#define VAR_PLATINUM_TOKEN_MIN_QUANTITY
-#define VAR_RARE_CREATURE_PARTS_MIN_QUANTITY
-#define VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY
-#define VAR_SHANTAY_PASS_MIN_QUANTITY
-#define VAR_SHIP_TICKET_MIN_QUANTITY
-#define VAR_STARDUST_MIN_QUANTITY
-#define VAR_TERMITES_MIN_QUANTITY
-#define VAR_TOKKUL_MIN_QUANTITY
-#define VAR_TRADING_STICKS_MIN_QUANTITY
-#define VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY
-#define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY
+/*@ define:input:currency
+type: number
+label: Abyssal pearls minimum quantity
+group: Currency Filters
+*/
+#define VAR_ABYSSAL_PEARLS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Agility arena ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Anima-infused bark minimum quantity
+group: Currency Filters
+*/
+#define VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Archery ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_ARCHERY_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Barronite shards minimum quantity
+group: Currency Filters
+*/
+#define VAR_BARRONITE_SHARDS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Blood money minimum quantity
+group: Currency Filters
+*/
+#define VAR_BLOOD_MONEY_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Brimhaven voucher minimum quantity
+group: Currency Filters
+*/
+#define VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Castle wars ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_CASTLE_WARS_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Coins minimum quantity
+group: Currency Filters
+*/
+#define VAR_COINS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Ecto-token minimum quantity
+group: Currency Filters
+*/
+#define VAR_ECTO_TOKEN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Frog token minimum quantity
+group: Currency Filters
+*/
+#define VAR_FROG_TOKEN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Glistening tear minimum quantity
+group: Currency Filters
+*/
+#define VAR_GLISTENING_TEAR_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Golden nugget minimum quantity
+group: Currency Filters
+*/
+#define VAR_GOLDEN_NUGGET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Hallowed mark minimum quantity
+group: Currency Filters
+*/
+#define VAR_HALLOWED_MARK_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Intelligence minimum quantity
+group: Currency Filters
+*/
+#define VAR_INTELLIGENCE_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mark of grace minimum quantity
+group: Currency Filters
+*/
+#define VAR_MARK_OF_GRACE_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mermaid's tear minimum quantity
+group: Currency Filters
+*/
+#define VAR_MERMAIDS_TEAR_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Minnow minimum quantity
+group: Currency Filters
+*/
+#define VAR_MINNOW_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Molch pearl minimum quantity
+group: Currency Filters
+*/
+#define VAR_MOLCH_PEARL_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mole claw minimum quantity
+group: Currency Filters
+*/
+#define VAR_MOLE_CLAW_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mole skin minimum quantity
+group: Currency Filters
+*/
+#define VAR_MOLE_SKIN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Nuggets minimum quantity
+group: Currency Filters
+*/
+#define VAR_NUGGETS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Numulite minimum quantity
+group: Currency Filters
+*/
+#define VAR_NUMULITE_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Paramaya ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_PARAMAYA_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Platinum token minimum quantity
+group: Currency Filters
+*/
+#define VAR_PLATINUM_TOKEN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Rare creature parts minimum quantity
+group: Currency Filters
+*/
+#define VAR_RARE_CREATURE_PARTS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Reward token credits minimum quantity
+group: Currency Filters
+*/
+#define VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Shantay pass minimum quantity
+group: Currency Filters
+*/
+#define VAR_SHANTAY_PASS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Ship ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_SHIP_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Stardust minimum quantity
+group: Currency Filters
+*/
+#define VAR_STARDUST_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Termites minimum quantity
+group: Currency Filters
+*/
+#define VAR_TERMITES_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Tokkul minimum quantity
+group: Currency Filters
+*/
+#define VAR_TOKKUL_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Trading sticks minimum quantity
+group: Currency Filters
+*/
+#define VAR_TRADING_STICKS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Unidentified minerals minimum quantity
+group: Currency Filters
+*/
+#define VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Warrior guild token minimum quantity
+group: Currency Filters
+*/
+#define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
+
 
 /*@ define:input:currency
 type: style
@@ -1227,11 +1563,107 @@ description: |
     "Ensouled dragon head", \
 ]
 
-#define VAR_REMAINS_MINIMUM_VALUE
-#define VAR_BONES_HIDE
-#define VAR_ASHES_HIDE
-#define VAR_SHADES_REMAINS_HIDE
-#define VAR_ENSOULED_HEADS_HIDE
+/*@ define:input:remains
+type: number
+label: Minimum value to display remains at
+*/
+#define VAR_REMAINS_MINIMUM_VALUE 0
+
+/*@ define:input:remains
+type: enumlist
+label: Bones to force hidden
+enum: [
+  "Bones",
+  "Wolf bones",
+  "Burnt bones",
+  "Monkey bones",
+  "Bat bones",
+  "Big bones",
+  "Jogre bones",
+  "Wyrmling bones",
+  "Zogre bones",
+  "Shaikahan bones",
+  "Babydragon bones",
+  "Wyrm bones",
+  "Wyvern bones",
+  "Dragon bones",
+  "Drake bones",
+  "Fayrg bones",
+  "Lava dragon bones",
+  "Raurg bones",
+  "Hydra bones",
+  "Dagannoth bones",
+  "Ourg bones",
+  "Superior dragon bones",
+  "Bleached bones",
+  "Small zombie monkey bones",
+  "Large zombie monkey bones",
+  "Small ninja monkey bones",
+  "Medium ninja monkey bones",
+  "Gorilla bones",
+  "Bearded gorilla bones"
+]
+*/
+#define VAR_BONES_HIDE ["Bones", "Wolf bones", "Burnt bones", "Monkey bones", "Bat bones", "Big bones", "Jogre bones", "Wyrmling bones", "Zogre bones"]
+
+/*@ define:input:remains
+type: enumlist
+label: Ashes to force hidden
+enum: [
+  "Fiendish ashes",
+  "Vile ashes",
+  "Malicious ashes",
+  "Abyssal ashes",
+  "Infernal ashes"
+]
+*/
+#define VAR_ASHES_HIDE ["Fiendish ashes", "Vile ashes"]
+
+/*@ define:input:remains
+type: enumlist
+label: Shades of morton remains to force hidden
+enum: [
+  "Loar remains",
+  "Phrin remains",
+  "Riyl remains",
+  "Asyn remains",
+  "Fiyr remains",
+  "Urium remains"
+]
+*/
+#define VAR_SHADES_REMAINS_HIDE []
+
+/*@ define:input:remains
+type: enumlist
+label: Ensouled heads to force hidden
+enum: [
+  "Ensouled goblin head",
+  "Ensouled monkey head",
+  "Ensouled imp head",
+  "Ensouled minotaur head",
+  "Ensouled scorpion head",
+  "Ensouled bear head",
+  "Ensouled unicorn head",
+  "Ensouled dog head",
+  "Ensouled chaos druid head",
+  "Ensouled giant head",
+  "Ensouled ogre head",
+  "Ensouled elf head",
+  "Ensouled troll head",
+  "Ensouled horror head",
+  "Ensouled kalphite head",
+  "Ensouled dagannoth head",
+  "Ensouled bloodveld head",
+  "Ensouled tzHaar head",
+  "Ensouled demon head",
+  "Ensouled hellhound head",
+  "Ensouled aviansie head",
+  "Ensouled abyssal head",
+  "Ensouled dragon head"
+]
+*/
+#define VAR_ENSOULED_HEADS_HIDE ["Ensouled goblin head", "Ensouled monkey head", "Ensouled imp head", "Ensouled minotaur head", "Ensouled scorpion head", "Ensouled bear head", "Ensouled unicorn head", "Ensouled dog head", "Ensouled chaos druid head", "Ensouled giant head"]
+
 
 apply (name:VAR_BONES_HIDE) {
     hidden = true;
@@ -1349,7 +1781,7 @@ enum: [
   }
 ]
 */
-#define VAR_COX_FISH_HIDE ["Pysk fish (0)","Suphi fish (1)","Leckish fish (2)","Brawk fish (3)","Mycil fish (4)","Roqed fish (5)","Kyren fish (6)"]
+#define VAR_COX_FISH_HIDE ["Pysk fish (0)", "Suphi fish (1)", "Leckish fish (2)", "Brawk fish (3)", "Mycil fish (4)", "Roqed fish (5)", "Kyren fish (6)"]
 
 /*@ define:input:chambers_of_xeric
 type: enumlist
@@ -1386,7 +1818,7 @@ enum: [
   }
 ]
 */
-#define VAR_COX_BATS_HIDE ["Guanic bat (0)","Prael bat (1)","Giral bat (2)","Phluxia bat (3)","Kryket bat (4)","Murng bat (5)","Psykk bat (6)"]
+#define VAR_COX_BATS_HIDE ["Guanic bat (0)", "Prael bat (1)", "Giral bat (2)", "Phluxia bat (3)", "Kryket bat (4)", "Murng bat (5)", "Psykk bat (6)"]
 
 /*@ define:input:chambers_of_xeric
 type: enumlist
@@ -1427,7 +1859,7 @@ enum: [
   "Rake"
 ]
 */
-#define VAR_COX_MISC_DROPS_HIDE ["Bones","Big bones","Fishing rod","Iron pickaxe","Iron axe","Butterfly net","Hammer","Tinderbox","Cave worms"]
+#define VAR_COX_MISC_DROPS_HIDE ["Bones", "Big bones", "Fishing rod", "Iron pickaxe", "Iron axe", "Butterfly net", "Hammer", "Tinderbox", "Cave worms"]
 
 
 /*@ define:input:chambers_of_xeric
@@ -1980,7 +2412,7 @@ enum: [
   "Scarab dung"
 ]
 */
-#define VAR_TOA_MVP_ITEMS_HIDE ["Big banana","Eldritch ashes","Fang","Scarab dung"]
+#define VAR_TOA_MVP_ITEMS_HIDE ["Big banana", "Eldritch ashes", "Fang", "Scarab dung"]
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
@@ -1996,7 +2428,7 @@ enum: [
   "The Jackal's Torch"
 ]
 */
-#define VAR_TOA_BOOKS_HIDE ["Akila's journal","Apmeken's Capture","Crondis' Capture","Het's Capture","Scabaras' Capture","The Wardens","The Jackal's Torch"]
+#define VAR_TOA_BOOKS_HIDE ["Akila's journal", "Apmeken's Capture", "Crondis' Capture", "Het's Capture", "Scabaras' Capture", "The Wardens", "The Jackal's Torch"]
 
 
 /*@ define:input:tombs_of_amascut
@@ -2307,7 +2739,7 @@ enum: [
   "Unicorn horn"
 ]
 */
-#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow","Steel dart","Unicorn horn"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow", "Steel dart", "Unicorn horn"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2446,7 +2878,7 @@ enum: [
   "Right eye patch"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow","Steel dart","Right eye patch"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow", "Steel dart", "Right eye patch"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2490,7 +2922,7 @@ enum: [
   "Beer"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)","Super strength(3)","Beer","Kebab"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)", "Super strength(3)", "Beer", "Kebab"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2508,7 +2940,7 @@ enum: [
   "Beer"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones","Big bones","Super restore(4)","Shark","Chilli potato"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones", "Big bones", "Super restore(4)", "Shark", "Chilli potato"]
 
 
 
@@ -2590,7 +3022,7 @@ enum: [
   "Steel arrow"
 ]
 */
-#define VAR_BOSSING_KREEARRA_COMMON_HIDE ["Feather","Black d'hide body","Rune crossbow","Mind rune","Rune arrow","Runite bolts","Crystal key","Steel dart","Steel arrow"]
+#define VAR_BOSSING_KREEARRA_COMMON_HIDE ["Feather", "Black d'hide body", "Rune crossbow", "Mind rune", "Rune arrow", "Runite bolts", "Crystal key", "Steel dart", "Steel arrow"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2647,7 +3079,7 @@ enum: [
   "Mushroom potato"
 ]
 */
-#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW ["Bones","Big bones","Ranging potion(3)","Super defence(3)","Manta ray","Mushroom potato"]
+#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW ["Bones", "Big bones", "Ranging potion(3)", "Super defence(3)", "Manta ray", "Mushroom potato"]
 
 
 
@@ -2727,7 +3159,7 @@ enum: [
   "Steel arrow"
 ]
 */
-#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes","Malicious ashes","Adamant arrow(p++)","Steel dart","Steel arrow"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes", "Malicious ashes", "Adamant arrow(p++)", "Steel dart", "Steel arrow"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2767,7 +3199,7 @@ enum: [
   "Super strength(3)"
 ]
 */
-#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)","Super attack(3)","Super strength(3)"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)", "Super attack(3)", "Super strength(3)"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -3138,7 +3570,7 @@ enum: [
   "Looting bag note"
 ]
 */
-#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE ["Blighted entangle sack","Blighted karambwan","Blighted teleport spell sack"]
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE ["Blighted entangle sack", "Blighted karambwan", "Blighted teleport spell sack"]
 
 /*@ define:input:slayer
 type: enumlist
@@ -3235,7 +3667,7 @@ enum: [
   "Ugthanki kebab"
 ]
 */
-#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE ["Adamant battleaxe","Adamantite bar","Air rune","Ashes","Coal","Coins","Crossbow string","Fire rune","Mithril plateskirt","Red d'hide body","Rune arrow","Runite bolts","Shark","Steel bar","Ugthanki kebab"]
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE ["Adamant battleaxe", "Adamantite bar", "Air rune", "Ashes", "Coal", "Coins", "Crossbow string", "Fire rune", "Mithril plateskirt", "Red d'hide body", "Rune arrow", "Runite bolts", "Shark", "Steel bar", "Ugthanki kebab"]
 
 /*@ define:input:slayer
 type: enumlist
@@ -3390,7 +3822,7 @@ description: |
 type: stringlist
 label: List of alchables
 */
-#define VAR_ALCHS_ITEM_LIST ["Adamant platebody","Air battlestaff","Dragon battleaxe","Dragon dagger","Dragon halberd","Dragon longsword","Dragon mace","Dragon med helm","Dragon platelegs","Dragon plateskirt","Dragon scimitar","Earth battlestaff","Fire battlestaff","Lava battlestaff","Mystic air staff","Mystic earth staff","Mystic fire staff","Mystic lava staff","Mystic robe bottom","Mystic robe top","Mystic water staff","Onyx dragon bolts (e)","Rune 2h sword","Rune battleaxe","Rune chainbody","Rune full helm","Rune halberd","Rune hasta","Rune kiteshield","Rune longsword","Rune med helm","Rune pickaxe","Rune platebody","Rune platelegs","Rune plateskirt","Rune scimitar","Rune spear","Rune sq shield","Rune sword","Runite crossbow (u)","Runite limbs","Water battlestaff"]
+#define VAR_ALCHS_ITEM_LIST ["Adamant platebody", "Air battlestaff", "Dragon battleaxe", "Dragon dagger", "Dragon halberd", "Dragon longsword", "Dragon mace", "Dragon med helm", "Dragon platelegs", "Dragon plateskirt", "Dragon scimitar", "Earth battlestaff", "Fire battlestaff", "Lava battlestaff", "Mystic air staff", "Mystic earth staff", "Mystic fire staff", "Mystic lava staff", "Mystic robe bottom", "Mystic robe top", "Mystic water staff", "Onyx dragon bolts (e)", "Rune 2h sword", "Rune battleaxe", "Rune chainbody", "Rune full helm", "Rune halberd", "Rune hasta", "Rune kiteshield", "Rune longsword", "Rune med helm", "Rune pickaxe", "Rune platebody", "Rune platelegs", "Rune plateskirt", "Rune scimitar", "Rune spear", "Rune sq shield", "Rune sword", "Runite crossbow (u)", "Runite limbs", "Water battlestaff"]
 
 /*@ define:input:alchs
 type: boolean
@@ -3490,7 +3922,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_STANDARD_ARROWS_HIDE ["Bronze*","Iron*","Steel*","Mithril*","Adamant*","Rune*"]
+#define VAR_AMMO_STANDARD_ARROWS_HIDE ["Bronze*", "Iron*", "Steel*", "Mithril*", "Adamant*", "Rune*"]
 
 apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
     hidden = true;
@@ -3550,7 +3982,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BRUTAL_ARROWS_HIDE ["Bronze brutal","Iron brutal","Steel brutal","Black brutal","Mithril brutal"]
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE ["Bronze brutal", "Iron brutal", "Steel brutal", "Black brutal", "Mithril brutal"]
 
 apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
     hidden = true;
@@ -3595,7 +4027,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_SPECIAL_ARROWS_HIDE ["Training Arrow","Ogre Arrow","Ice Arrow","Broad Arrow"]
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE ["Training Arrow", "Ogre Arrow", "Ice Arrow", "Broad Arrow"]
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
     hidden = true;
@@ -3669,7 +4101,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_DARTS_HIDE ["Bronze dart*","Iron dart*","Steel dart*","Black dart*","Mithril dart*","Adamant dart*"]
+#define VAR_AMMO_DARTS_HIDE ["Bronze dart*", "Iron dart*", "Steel dart*", "Black dart*", "Mithril dart*", "Adamant dart*"]
 
 apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
     hidden = true;
@@ -3733,12 +4165,18 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_JAVELINS_HIDE ["Bronze javelin*","Iron javelin*","Steel javelin*","Mithril javelin*","Adamant javelin*","Rune javelin*"]
+#define VAR_AMMO_JAVELINS_HIDE ["Bronze javelin*", "Iron javelin*", "Steel javelin*", "Mithril javelin*", "Adamant javelin*", "Rune javelin*"]
 
 apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
     hidden = true;
 }
-#define VAR_AMMO_JAVELINS_MIN_VALUE
+/*@ define:input:ammo
+type: number
+label: Javelins minimum value
+group: Javelins
+*/
+#define VAR_AMMO_JAVELINS_MIN_VALUE 500
+
 apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
     hidden = true;
 }
@@ -3796,7 +4234,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BOLTS_HIDE ["Bronze bolts*","Blurite bolts*","Silver bolts*","Iron bolts*","Steel bolts*","Mithril bolts*"]
+#define VAR_AMMO_BOLTS_HIDE ["Bronze bolts*", "Blurite bolts*", "Silver bolts*", "Iron bolts*", "Steel bolts*", "Mithril bolts*"]
 
 apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
     hidden = true;
@@ -4422,28 +4860,160 @@ exampleItem: Lava rune
   menuTextColor = "#FFD28019";
 
 
-#define VAR_AIR_RUNE_MIN_QUANTITY
-#define VAR_WATER_RUNE_MIN_QUANTITY
-#define VAR_EARTH_RUNE_MIN_QUANTITY
-#define VAR_FIRE_RUNE_MIN_QUANTITY
-#define VAR_MIND_RUNE_MIN_QUANTITY
-#define VAR_BODY_RUNE_MIN_QUANTITY
-#define VAR_COSMIC_RUNE_MIN_QUANTITY
-#define VAR_CHAOS_RUNE_MIN_QUANTITY
-#define VAR_NATURE_RUNE_MIN_QUANTITY
-#define VAR_LAW_RUNE_MIN_QUANTITY
-#define VAR_DEATH_RUNE_MIN_QUANTITY
-#define VAR_SUNFIRE_RUNE_MIN_QUANTITY
-#define VAR_ASTRAL_RUNE_MIN_QUANTITY
-#define VAR_BLOOD_RUNE_MIN_QUANTITY
-#define VAR_SOUL_RUNE_MIN_QUANTITY
-#define VAR_WRATH_RUNE_MIN_QUANTITY
-#define VAR_MIST_RUNE_MIN_QUANTITY
-#define VAR_DUST_RUNE_MIN_QUANTITY
-#define VAR_MUD_RUNE_MIN_QUANTITY
-#define VAR_SMOKE_RUNE_MIN_QUANTITY
-#define VAR_STEAM_RUNE_MIN_QUANTITY
-#define VAR_LAVA_RUNE_MIN_QUANTITY
+/*@ define:input:runes
+type: number
+label: Air rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_AIR_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Water rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_WATER_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Earth rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_EARTH_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Fire rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_FIRE_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Mind rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_MIND_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Body rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_BODY_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Cosmic rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_COSMIC_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Chaos rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_CHAOS_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Nature rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_NATURE_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Law rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_LAW_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Death rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_DEATH_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Sunfire rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Astral rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Blood rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_BLOOD_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Soul rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_SOUL_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Wrath rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_WRATH_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Mist rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_MIST_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Dust rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_DUST_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Mud rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_MUD_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Smoke rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_SMOKE_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Steam rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_STEAM_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Lava rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_LAVA_RUNE_MIN_QUANTITY 50
+
 
 // waiting on 1.6
 // apply (name:CONST_RUNE_NAMES && !VAR_RUNES_COLOR_MENU_TEXT) {
@@ -4841,21 +5411,111 @@ exampleItem: Blisterwood logs
   menuTextColor = "#FFDFDBDB";
 
 
-#define VAR_LOGS_MIN_QUANTITY
-#define VAR_OAK_LOGS_MIN_QUANTITY
-#define VAR_WILLOW_LOGS_MIN_QUANTITY
-#define VAR_MAPLE_LOGS_MIN_QUANTITY
-#define VAR_YEW_LOGS_MIN_QUANTITY
-#define VAR_MAGIC_LOGS_MIN_QUANTITY
-#define VAR_REDWOOD_LOGS_MIN_QUANTITY
-#define VAR_TEAK_LOGS_MIN_QUANTITY
-#define VAR_MAHOGANY_LOGS_MIN_QUANTITY
-#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY
-#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY
-#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY
-#define VAR_JUNIPER_LOGS_MIN_QUANTITY
-#define VAR_BARK_MIN_QUANTITY
-#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY
+/*@ define:input:logs
+type: number
+label: Logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Oak logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_OAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Willow logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_WILLOW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Maple logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_MAPLE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Yew logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_YEW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Magic logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_MAGIC_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Redwood logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_REDWOOD_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Teak logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_TEAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Mahogany logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_MAHOGANY_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Achey tree logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Arctic pine logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Scrapey tree logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Juniper logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_JUNIPER_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Bark minimum quantity
+group: Logs Filters
+*/
+#define VAR_BARK_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Blisterwood logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY 0
+
 
 
 
@@ -5057,7 +5717,7 @@ enum: [
   "Karambwan vessel"
 ]
 */
-#define VAR_FISHING_EQUIPMENT_HIDE ["Small fishing net","Big fishing net","Fishing rod","Fly fishing rod","Harpoon","Lobster pot","Karambwan vessel"]
+#define VAR_FISHING_EQUIPMENT_HIDE ["Small fishing net", "Big fishing net", "Fishing rod", "Fly fishing rod", "Harpoon", "Lobster pot", "Karambwan vessel"]
 
 /*@ define:input:fishing
 type: enumlist
@@ -5074,7 +5734,7 @@ enum: [
   "Raw karambwanji"
 ]
 */
-#define VAR_FISHING_BAIT_HIDE ["Fishing bait","Feather","Stripy feather","King worm","Fish chunks"]
+#define VAR_FISHING_BAIT_HIDE ["Fishing bait", "Feather", "Stripy feather", "King worm", "Fish chunks"]
 
 /*@ define:input:fishing
 type: enumlist
@@ -5120,7 +5780,7 @@ enum: [
   "Raw karambwan"
 ]
 */
-#define VAR_FISHING_RAW_FISH_HIDE ["Raw shrimps","Raw anchovies","Raw guppy","Raw cavefish","Raw tetra","Frog spawn","Raw mackerel","Raw cod","Raw bass","Raw sardine","Raw herring","Raw pike","Raw trout","Raw salmon","Raw rainbow fish","Leaping trout","Leaping salmon","Leaping sturgeon","Raw tuna","Bluegill","Common tench","Mottled eel","Greater siren"]
+#define VAR_FISHING_RAW_FISH_HIDE ["Raw shrimps", "Raw anchovies", "Raw guppy", "Raw cavefish", "Raw tetra", "Frog spawn", "Raw mackerel", "Raw cod", "Raw bass", "Raw sardine", "Raw herring", "Raw pike", "Raw trout", "Raw salmon", "Raw rainbow fish", "Leaping trout", "Leaping salmon", "Leaping sturgeon", "Raw tuna", "Bluegill", "Common tench", "Mottled eel", "Greater siren"]
 
 
 /*@ define:input:fishing
@@ -5970,19 +6630,97 @@ exampleItem: Runite ore
   menuTextColor = "#FF4D6671";
 
 
-#define VAR_COPPER_ORE_MIN_QUANTITY
-#define VAR_TIN_ORE_MIN_QUANTITY
-#define VAR_IRON_ORE_MIN_QUANTITY
-#define VAR_SILVER_ORE_MIN_QUANTITY
-#define VAR_COAL_ORE_MIN_QUANTITY
-#define VAR_GOLD_ORE_MIN_QUANTITY
-#define VAR_MITHRIL_ORE_MIN_QUANTITY
-#define VAR_ADAMANTITE_ORE_MIN_QUANTITY
-#define VAR_RUNITE_ORE_MIN_QUANTITY
-#define VAR_DAEYALT_ORE_MIN_QUANTITY
-#define VAR_BLASTED_ORE_MIN_QUANTITY
-#define VAR_BLURITE_ORE_MIN_QUANTITY
-#define VAR_LOVAKITE_ORE_MIN_QUANTITY
+/*@ define:input:ores
+type: number
+label: Copper ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_COPPER_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Tin ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_TIN_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Iron ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_IRON_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Silver ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_SILVER_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Coal minimum quantity
+group: Ore Filters
+*/
+#define VAR_COAL_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Gold ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_GOLD_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Mithril ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_MITHRIL_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Adamantite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_ADAMANTITE_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Runite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_RUNITE_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Daeyalt ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_DAEYALT_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Blasted ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_BLASTED_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Blurite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_BLURITE_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Lovakite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_LOVAKITE_ORE_MIN_QUANTITY 0
+
 
 
 
@@ -6256,15 +6994,69 @@ exampleItem: Onyx
   menuTextColor = "#FF1C1A1A";
 
 
-#define VAR_SAPPHIRE_MIN_QUANTITY
-#define VAR_EMERALD_MIN_QUANTITY
-#define VAR_RUBY_MIN_QUANTITY
-#define VAR_DIAMOND_MIN_QUANTITY
-#define VAR_OPAL_MIN_QUANTITY
-#define VAR_JADE_MIN_QUANTITY
-#define VAR_RED_TOPAZ_MIN_QUANTITY
-#define VAR_DRAGONSTONE_MIN_QUANTITY
-#define VAR_ONYX_MIN_QUANTITY
+/*@ define:input:gems
+type: number
+label: Sapphire minimum quantity
+group: Gems Filters
+*/
+#define VAR_SAPPHIRE_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Emerald minimum quantity
+group: Gems Filters
+*/
+#define VAR_EMERALD_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Ruby minimum quantity
+group: Gems Filters
+*/
+#define VAR_RUBY_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Diamond minimum quantity
+group: Gems Filters
+*/
+#define VAR_DIAMOND_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Opal minimum quantity
+group: Gems Filters
+*/
+#define VAR_OPAL_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Jade minimum quantity
+group: Gems Filters
+*/
+#define VAR_JADE_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Red topaz minimum quantity
+group: Gems Filters
+*/
+#define VAR_RED_TOPAZ_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Dragonstone minimum quantity
+group: Gems Filters
+*/
+#define VAR_DRAGONSTONE_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Onyx minimum quantity
+group: Gems Filters
+*/
+#define VAR_ONYX_MIN_QUANTITY 0
+
 
 
 
@@ -6369,7 +7161,7 @@ enum: [
   "'Perfect' gold bar"
 ]
 */
-#define VAR_BARS_HIDE ["Bronze bar","Iron bar","Silver bar","Gold bar"]
+#define VAR_BARS_HIDE ["Bronze bar", "Iron bar", "Silver bar", "Gold bar"]
 
 
 /*@ define:input:bars
@@ -6568,21 +7360,111 @@ exampleItem: "'Perfect' gold bar"
   menuTextColor = "#FFB79517";
 
 
-#define VAR_BRONZE_BAR_MIN_QUANTITY
-#define VAR_IRON_BAR_MIN_QUANTITY
-#define VAR_SILVER_BAR_MIN_QUANTITY
-#define VAR_STEEL_BAR_MIN_QUANTITY
-#define VAR_GOLD_BAR_MIN_QUANTITY
-#define VAR_MITHRIL_BAR_MIN_QUANTITY
-#define VAR_ADAMANTITE_BAR_MIN_QUANTITY
-#define VAR_RUNITE_BAR_MIN_QUANTITY
-#define VAR_ELEMENTAL_METAL_MIN_QUANTITY
-#define VAR_PRIMED_BAR_MIN_QUANTITY
-#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY
-#define VAR_BLURITE_BAR_MIN_QUANTITY
-#define VAR_ENCHANTED_BAR_MIN_QUANTITY
-#define VAR_LOVAKITE_BAR_MIN_QUANTITY
-#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY
+/*@ define:input:bars
+type: number
+label: Bronze bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_BRONZE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Iron bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_IRON_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Silver bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_SILVER_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Steel bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_STEEL_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Gold bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_GOLD_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Mithril bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_MITHRIL_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Adamantite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_ADAMANTITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Runite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_RUNITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Elemental metal minimum quantity
+group: Bar Filtering
+*/
+#define VAR_ELEMENTAL_METAL_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Primed bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_PRIMED_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Primed mind bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Blurite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_BLURITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Enchanted bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_ENCHANTED_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Lovakite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_LOVAKITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: 'Perfect' gold bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
+
 
 
 
@@ -6795,7 +7677,7 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_HIDE ["*Tarromin","*Harralander"]
+#define VAR_HERBS_HIDE ["*Tarromin", "*Harralander"]
 
 /*@ define:input:herbs
 type: enumlist
@@ -6863,7 +7745,7 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_SHOW ["*Ranarr weed","*Huasca","*Snapdragon","*Torstol"]
+#define VAR_HERBS_SHOW ["*Ranarr weed", "*Huasca", "*Snapdragon", "*Torstol"]
 
 
 /*@ define:input:herbs
@@ -7062,21 +7944,111 @@ exampleItem: Torstol
   menuTextColor = "#FF09570c";
 
 
-#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY
-#define VAR_HERBS_MARRENTILL_MIN_QUANTITY
-#define VAR_HERBS_TARROMIN_MIN_QUANTITY
-#define VAR_HERBS_HARRALANDER_MIN_QUANTITY
-#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY
-#define VAR_HERBS_TOADFLAX_MIN_QUANTITY
-#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY
-#define VAR_HERBS_AVANTOE_MIN_QUANTITY
-#define VAR_HERBS_KWUARM_MIN_QUANTITY
-#define VAR_HERBS_HUASCA_MIN_QUANTITY
-#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY
-#define VAR_HERBS_CADANTINE_MIN_QUANTITY
-#define VAR_HERBS_LANTADYME_MIN_QUANTITY
-#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY
-#define VAR_HERBS_TORSTOL_MIN_QUANTITY
+/*@ define:input:herbs
+type: number
+label: Guam leaf minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Marrentill minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Tarromin minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Harralander minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Toadflax minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Avantoe minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Huasca minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Cadantine minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Torstol minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
+
 
 /*@ define:input:herbs
 type: number
@@ -7446,18 +8418,165 @@ description: |
     "Attas seed", \
 ]
 
-#define VAR_FARMING_SEEDS_MINIMUM_VALUE
+/*@ define:input:farming_seeds
+type: number
+label: Minimum value to display secondaries at
+*/
+#define VAR_FARMING_SEEDS_MINIMUM_VALUE 0
 
-#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE
-#define VAR_FARMING_SEEDS_FLOWER_HIDE
-#define VAR_FARMING_SEEDS_HERB_HIDE
-#define VAR_FARMING_SEEDS_HOPS_HIDE
-#define VAR_FARMING_SEEDS_BUSH_HIDE
-#define VAR_FARMING_SEEDS_TREE_HIDE
-#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE
-#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE
-#define VAR_FARMING_SEEDS_SPECIAL_HIDE
-#define VAR_FARMING_SEEDS_ANIMA_HIDE
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Allotment seeds to force hidden
+enum: [
+  "Potato seed",
+  "Onion seed",
+  "Cabbage seed",
+  "Tomato seed",
+  "Sweetcorn seed",
+  "Strawberry seed",
+  "Watermelon seed",
+  "Snape grass seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE ["Potato seed", "Onion seed", "Cabbage seed", "Tomato seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Flower seeds to force hidden
+enum: [
+  "Marigold seed",
+  "Rosemary seed",
+  "Nasturtium seed",
+  "Woad seed",
+  "Limpwurt seed",
+  "White lily seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FLOWER_HIDE ["Marigold seed", "Rosemary seed", "Nasturtium seed", "Woad seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Herb seeds to force hidden
+enum: [
+  "Guam seed",
+  "Marrentill seed",
+  "Tarromin seed",
+  "Harralander seed",
+  "Ranarr seed",
+  "Toadflax seed",
+  "Irit seed",
+  "Avantoe seed",
+  "Kwuarm seed",
+  "Snapdragon seed",
+  "Huasca seed",
+  "Cadantine seed",
+  "Lantadyme seed",
+  "Dwarf weed seed",
+  "Torstol seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HERB_HIDE ["Guam seed", "Marrentill seed", "Tarromin seed", "Harralander seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Hops seeds to force hidden
+enum: [
+  "Barley seed",
+  "Hammerstone seed",
+  "Asgarnian seed",
+  "Jute seed",
+  "Yanillian seed",
+  "Krandorian seed",
+  "Wildblood seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HOPS_HIDE ["Barley seed", "Hammerstone seed", "Asgarnian seed", "Jute seed", "Yanillian seed", "Krandorian seed", "Wildblood seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Bush seeds to force hidden
+enum: [
+  "Redberry seed",
+  "Cadavaberry seed",
+  "Dwellberry seed",
+  "Jangerberry seed",
+  "Whiteberry seed",
+  "Poison ivy seed"
+]
+*/
+#define VAR_FARMING_SEEDS_BUSH_HIDE ["Redberry seed", "Cadavaberry seed", "Dwellberry seed", "Jangerberry seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Tree seeds to force hidden
+enum: [
+  "Acorn",
+  "Willow seed",
+  "Maple seed",
+  "Yew seed",
+  "Magic seed"
+]
+*/
+#define VAR_FARMING_SEEDS_TREE_HIDE ["Acorn", "Willow seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force hidden
+enum: [
+  "Apple seed",
+  "Banana seed",
+  "Orange seed",
+  "Curry seed",
+  "Pineapple seed",
+  "Papaya seed",
+  "Palm tree seed",
+  "Dragonfruit seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE ["Apple seed", "Banana seed", "Orange seed", "Curry seed", "Pineapple seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force hidden
+enum: [
+  "Teak seed",
+  "Mahogany seed",
+  "Calquat tree seed",
+  "Crystal acorn",
+  "Spirit seed",
+  "Celastrus seed",
+  "Redwood tree seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE ["Teak seed", "Mahogany seed", "Calquat tree seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Special seeds to force hidden
+enum: [
+  "Seaweed spore",
+  "Grape seed",
+  "Mushroom spore",
+  "Belladonna seed",
+  "Hespori seed",
+  "Cactus seed",
+  "Potato cactus seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_HIDE []
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Anima seeds to force hidden
+enum: [
+  "Kronos seed",
+  "Iasor seed",
+  "Attas seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ANIMA_HIDE []
+
 
 
 
@@ -7570,8 +8689,44 @@ description: |
     "Aldarium", \
 ]
 
-#define VAR_SECONDARIES_HIDE
-#define VAR_SECONDARIES_MINIMUM_VALUE
+/*@ define:input:herblore_secondaries
+type: enumlist
+label: Secondaries to force hidden
+enum: [
+  "Eye of newt",
+  "Unicorn horn dust",
+  "Limpwurt root",
+  "Volcanic ash",
+  "Red spiders' eggs",
+  "Chocolate dust",
+  "White berries",
+  "Toad's legs",
+  "Goat horn dust",
+  "Snape grass",
+  "Mort myre fungus",
+  "Kebbit teeth dust",
+  "Dragon scale dust",
+  "Nail beast nails",
+  "Yew roots",
+  "Wine of zamorak",
+  "Potato cactus",
+  "Jangerberries",
+  "Magic roots",
+  "Crushed nest",
+  "Poison ivy berries",
+  "Nihil dust",
+  "Lily of the sands",
+  "Aldarium"
+]
+*/
+#define VAR_SECONDARIES_HIDE ["Eye of newt", "Volcanic ash", "Chocolate dust"]
+
+/*@ define:input:herblore_secondaries
+type: number
+label: Minimum value to display secondaries at
+*/
+#define VAR_SECONDARIES_MINIMUM_VALUE 0
+
 
 
 
@@ -7800,7 +8955,7 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_HIDE ["Attack potion(*","Strength potion(*","Serum 207(*","Compost potion(*","Restore potion(*","Energy potion(*","Defence potion(*","Agility potion(*","Combat potion(*","Fishing potion(*","Hunter potion(*","Antidote+(*"]
+#define VAR_POTIONS_HIDE ["Attack potion(*", "Strength potion(*", "Serum 207(*", "Compost potion(*", "Restore potion(*", "Energy potion(*", "Defence potion(*", "Agility potion(*", "Combat potion(*", "Fishing potion(*", "Hunter potion(*", "Antidote+(*"]
 
 /*@ define:input:potions
 type: enumlist
@@ -8008,7 +9163,7 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_SHOW ["Anti-venom(*","Anti-venom+(*","Antidote++(*","Antifire potion(*","Bastion potion(*","Battlemage potion(*","Divine bastion potion(*","Divine battlemage potion(*","Divine magic potion(*","Divine ranging potion(*","Divine super attack potion(*","Divine super combat potion(*","Divine super defence potion(*","Divine super strength potion(*","Extended anti-venom+(*","Extended antifire(*","Extended super antifire(*","Forgotten brew(*","Goading potion(*","Menaphite remedy(*","Prayer regeneration potion(*","Ranging potion(*","Sanfew serum(*","Saradomin brew(*","Stamina potion(*","Super antifire potion(*","Super combat potion(*","Super restore(*"]
+#define VAR_POTIONS_SHOW ["Anti-venom(*", "Anti-venom+(*", "Antidote++(*", "Antifire potion(*", "Bastion potion(*", "Battlemage potion(*", "Divine bastion potion(*", "Divine battlemage potion(*", "Divine magic potion(*", "Divine ranging potion(*", "Divine super attack potion(*", "Divine super combat potion(*", "Divine super defence potion(*", "Divine super strength potion(*", "Extended anti-venom+(*", "Extended antifire(*", "Extended super antifire(*", "Forgotten brew(*", "Goading potion(*", "Menaphite remedy(*", "Prayer regeneration potion(*", "Ranging potion(*", "Sanfew serum(*", "Saradomin brew(*", "Stamina potion(*", "Super antifire potion(*", "Super combat potion(*", "Super restore(*"]
 
 
 
@@ -8841,7 +9996,7 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit","Cooked larupia","Cooked barb-tailed kebbit","Cooked graahk"]
+#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit", "Cooked larupia", "Cooked barb-tailed kebbit", "Cooked graahk"]
 
 /*@ define:input:food
 type: enumlist
@@ -8875,7 +10030,7 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp","Sardine","Herring","Anchovies","Mackerel","Trout","Cod","Pike","Salmon","Tuna"]
+#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp", "Sardine", "Herring", "Anchovies", "Mackerel", "Trout", "Cod", "Pike", "Salmon", "Tuna"]
 
 /*@ define:input:food
 type: enumlist
@@ -8893,7 +10048,7 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_SHOW ["Cooked sunlight antelope","Cooked dashing kebbit","Cooked moonlight antelope"]
+#define VAR_FOOD_HUNTER_FOODS_SHOW ["Cooked sunlight antelope", "Cooked dashing kebbit", "Cooked moonlight antelope"]
 
 /*@ define:input:food
 type: enumlist
@@ -8927,7 +10082,7 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_SHOW ["Swordfish","Lava eel","Monkfish","Cooked karambwan","Shark","Sea turtle","Manta ray","Anglerfish","Dark crab"]
+#define VAR_FOOD_FISH_FOODS_SHOW ["Swordfish", "Lava eel", "Monkfish", "Cooked karambwan", "Shark", "Sea turtle", "Manta ray", "Anglerfish", "Dark crab"]
 
 
 /*@ define:input:food
@@ -9296,7 +10451,7 @@ enum: [
   "Dragon*"
 ]
 */
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*","Iron*","Steel*","Black*","Mithril*"]
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*", "Iron*", "Steel*", "Black*", "Mithril*"]
 
 
 /*@ define:input:metal_equipment
@@ -10712,7 +11867,7 @@ enum: [
   }
 ]
 */
-#define VAR_GAUNTLET_TOOLS_HIDE ["* sceptre","* harpoon","* axe","* pickaxe","Pestle and mortar"]
+#define VAR_GAUNTLET_TOOLS_HIDE ["* sceptre", "* harpoon", "* axe", "* pickaxe", "Pestle and mortar"]
 
 /*@ define:input:gauntlet
 type: enumlist
@@ -11692,7 +12847,7 @@ enum: [
   "Dragon spear"
 ]
 */
-#define VAR_RDT_SHOW ["Loop half of key","Tooth half of key","Rune spear","Shield left half","Dragon spear"]
+#define VAR_RDT_SHOW ["Loop half of key", "Tooth half of key", "Rune spear", "Shield left half", "Dragon spear"]
 
 
 /*@ define:input:rare_drop_table
