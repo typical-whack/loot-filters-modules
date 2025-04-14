@@ -41,8 +41,9 @@ jobs:
             echo "make_latest=true" >> $GITHUB_OUTPUT
           fi
       - name: Check vars
-        run: echo ${{ steps.vars.outputs.sha_short }}
-        run: echo ${{ steps.vars.outputs.make_latest }}
+        run: |
+          echo ${{ steps.vars.outputs.sha_short }}
+          echo ${{ steps.vars.outputs.make_latest }}
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
         with:
