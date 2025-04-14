@@ -35,7 +35,7 @@ jobs:
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
         with:
-          tag_name: ${{ github.sha }}
+          tag_name: ${{ github.sha.slice(0, 7) }}
           make_latest: false
           files: |
             output/filter.rs2f
