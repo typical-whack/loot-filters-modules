@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Build
         run: |
           mkdir output
@@ -26,10 +27,13 @@ jobs:
             echo "meta { name = \"[default: Joe's filter]\"; }" >> output/default-filter.rs2f
             cat modules/$line.rs2f >> output/default-filter.rs2f
           done
+
       - name: Print filter
         run: cat output/filter.rs2f
+
       - name: Print default filter
         run: cat output/default-filter.rs2f
+
       - name: Compute vars
         id: vars
         run: |
@@ -38,15 +42,12 @@ jobs:
           if [[ "${GITHUB_REF_NAME}" == "main" ]]; then
             echo "make_latest=true" >> $GITHUB_OUTPUT
           fi
-      - name: Check vars
-        run: |
-          echo ${{ steps.vars.outputs.sha_short }}
-          echo ${{ steps.vars.outputs.make_latest }}
+
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
         with:
           tag_name: ${{ steps.vars.outputs.sha_short }}
-          make_latest: false
+          make_latest: ${{ steps.vars.outputs.make_latest }}
           files: |
             output/filter.rs2f
             output/default-filter.rs2f
