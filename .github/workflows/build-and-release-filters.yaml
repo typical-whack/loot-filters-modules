@@ -3,8 +3,8 @@ name: build-and-release-filters
 on:
   push:
     paths:
-      - '**/*.rs2f'
-      - '.github/workflows/**'
+      - "**/*.rs2f"
+      - ".github/workflows/**"
 
 jobs:
   build:
@@ -16,24 +16,25 @@ jobs:
         run: ls -alh
       - name: Build
         run: |
+          mkdir output
           echo "Building filter"
           cat module_order.txt | while read line || [[ -n $line ]]; do
-            echo "meta { name = \"Joe's filter\"; }" >> built-filter.rs2f
-            cat modules/$line.rs2f >> built-filter.rs2f
+            echo "meta { name = \"Joe's filter\"; }" >> output/filter.rs2f
+            cat modules/$line.rs2f >> output/filter.rs2f
           done
           echo "Building default filter"
           cat module_order.txt | while read line || [[ -n $line ]]; do
-            echo "meta { name = \"[default: Joe's filter]\"; }" >> built-default-filter.rs2f
-            cat modules/$line.rs2f >> built-default-filter.rs2f
+            echo "meta { name = \"[default: Joe's filter]\"; }" >> output/default-filter.rs2f
+            cat modules/$line.rs2f >> output/default-filter.rs2f
           done
       - name: Print filter
-        run: cat built-filter.rs2f
+        run: cat output/filter.rs2f
       - name: Print default filter
-        run: cat built-default-filter.rs2f
+        run: cat output/default-filter.rs2f
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
         if: github.ref_type == 'tag'
         with:
           files: |
-            built-filter.rs2f
-            built-default-filter.rs2f
+            output/filter.rs2f
+            output/default-filter.rs2f
