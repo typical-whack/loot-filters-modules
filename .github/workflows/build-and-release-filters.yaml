@@ -34,6 +34,7 @@ jobs:
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
         with:
+          make_latest: false
           files: |
             output/filter.rs2f
             output/default-filter.rs2f
