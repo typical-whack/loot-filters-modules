@@ -32,11 +32,17 @@ jobs:
         run: cat output/filter.rs2f
       - name: Print default filter
         run: cat output/default-filter.rs2f
-      - name: Compute short sha
+      - name: Compute vars
         id: vars
-        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-      - name: Check short sha
+        run: |
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "make_latest=false" >> $GITHUB_OUTPUT
+          if [[ "${GITHUB_REF_NAME}" == "main" ]]; then
+            echo "make_latest=true" >> $GITHUB_OUTPUT
+          fi
+      - name: Check vars
         run: echo ${{ steps.vars.outputs.sha_short }}
+        run: echo ${{ steps.vars.outputs.make_latest }}
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
         with:
