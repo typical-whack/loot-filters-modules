@@ -1,4 +1,4 @@
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:global_defaults
 ---
@@ -150,7 +150,7 @@ apply (name:VAR_GLOBAL_SHOW) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:item_tiers
 ---
@@ -434,7 +434,7 @@ apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SOUND) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:uniques
 ---
@@ -491,7 +491,7 @@ apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SOUND) {
     sound = VAR_UNIQUES_SOUND_ID;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:currency
 ---
@@ -1338,7 +1338,7 @@ apply (name:"Warrior guild token" && quantity:<VAR_WARRIOR_GUILD_TOKEN_MIN_QUANT
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:clue_scrolls
 ---
@@ -1481,7 +1481,7 @@ apply (name:"Clue scroll (master)") {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:remains
 ---
@@ -1693,7 +1693,7 @@ apply (name:CONST_ENSOULED_HEAD_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
     hidden = true;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:chambers_of_xeric
 ---
@@ -2290,7 +2290,7 @@ apply (area:CONST_COX_AREA && name:"Water-filled gourd vial") {
 }
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:theatre_of_blood
 ---
@@ -2338,7 +2338,7 @@ apply (name:"Salve amulet (e)") {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:tombs_of_amascut
 ---
@@ -2649,7 +2649,7 @@ apply (name:"Tears of Elidinis (*") {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:bossing
 ---
@@ -3400,7 +3400,7 @@ apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:slayer
 ---
@@ -3808,7 +3808,7 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 #define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
 
 #define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:alchs
 ---
@@ -3856,7 +3856,7 @@ if (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {
 
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:ammo
 ---
@@ -4507,7 +4507,7 @@ apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && quantity:==1 && VAR_AMMO_BACKPACK_R
     sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:runes
 ---
@@ -5181,7 +5181,7 @@ apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
 }
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:logs
 ---
@@ -5630,7 +5630,7 @@ apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:fishing
 ---
@@ -6428,7 +6428,7 @@ apply (name:"Raw karambwan") {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:ores
 ---
@@ -6821,7 +6821,7 @@ apply (name:"runite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:gems
 ---
@@ -7129,7 +7129,7 @@ apply (name:["Uncut onyx", "Onyx"] && quantity:<VAR_ONYX_MIN_QUANTITY) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:bars
 ---
@@ -7577,7 +7577,7 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
     hidden = true;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:herbs
 ---
@@ -8316,7 +8316,7 @@ apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QU
     hidden = true;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:farming_seeds
 ---
@@ -8652,7 +8652,7 @@ apply (name:CONST_FARMING_SEEDS_ANIMA_LIST && value:<VAR_FARMING_SEEDS_MINIMUM_V
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:herblore_secondaries
 ---
@@ -8739,7 +8739,7 @@ apply (name:VAR_SECONDARIES_HIDE) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:potions
 ---
@@ -9930,7 +9930,7 @@ apply (name:"Extended super antifire(*") {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:food
 ---
@@ -10427,7 +10427,7 @@ apply (name:"Dark crab") {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:metal_equipment
 ---
@@ -11820,7 +11820,7 @@ apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
     hidden = true;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:gauntlet
 ---
@@ -12476,7 +12476,7 @@ apply (area:CONST_GAUNTLET_AREA && name:["* (perfected)"]) {
 
 
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:last_man_standing
 ---
@@ -12769,7 +12769,7 @@ apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STAN
 apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE) {
     hidden = true;
 }
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:rare_drop_table
 ---
@@ -13121,7 +13121,7 @@ apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
 
-meta { name = "[default: Joe's filter]"; }
+meta { name = "Joe's filter"; }
 
 /*@ define:module:ignore_runelite_sidebar_item_value_rules
 ---
