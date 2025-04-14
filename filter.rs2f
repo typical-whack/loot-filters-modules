@@ -7460,7 +7460,7 @@ group: Bar Filtering
 
 /*@ define:input:bars
 type: number
-label: 'Perfect' gold bar minimum quantity
+label: "'Perfect' gold bar minimum quantity"
 group: Bar Filtering
 */
 #define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
