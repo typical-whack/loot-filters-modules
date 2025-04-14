@@ -97,7 +97,7 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_HIDE ["*Tarromin","*Harralander"]
+#define VAR_HERBS_HIDE ["*Tarromin", "*Harralander"]
 
 /*@ define:input:herbs
 type: enumlist
@@ -165,7 +165,7 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_SHOW ["*Ranarr weed","*Huasca","*Snapdragon","*Torstol"]
+#define VAR_HERBS_SHOW ["*Ranarr weed", "*Huasca", "*Snapdragon", "*Torstol"]
 
 
 /*@ define:input:herbs
@@ -364,21 +364,111 @@ exampleItem: Torstol
   menuTextColor = "#FF09570c";
 
 
-#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY
-#define VAR_HERBS_MARRENTILL_MIN_QUANTITY
-#define VAR_HERBS_TARROMIN_MIN_QUANTITY
-#define VAR_HERBS_HARRALANDER_MIN_QUANTITY
-#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY
-#define VAR_HERBS_TOADFLAX_MIN_QUANTITY
-#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY
-#define VAR_HERBS_AVANTOE_MIN_QUANTITY
-#define VAR_HERBS_KWUARM_MIN_QUANTITY
-#define VAR_HERBS_HUASCA_MIN_QUANTITY
-#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY
-#define VAR_HERBS_CADANTINE_MIN_QUANTITY
-#define VAR_HERBS_LANTADYME_MIN_QUANTITY
-#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY
-#define VAR_HERBS_TORSTOL_MIN_QUANTITY
+/*@ define:input:herbs
+type: number
+label: Guam leaf minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Marrentill minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Tarromin minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Harralander minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Toadflax minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Avantoe minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Huasca minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Cadantine minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
+
+/*@ define:input:herbs
+type: number
+label: Torstol minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
+
 
 /*@ define:input:herbs
 type: number

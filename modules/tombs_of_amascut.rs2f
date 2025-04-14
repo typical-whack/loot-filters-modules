@@ -71,7 +71,7 @@ enum: [
   "Scarab dung"
 ]
 */
-#define VAR_TOA_MVP_ITEMS_HIDE ["Big banana","Eldritch ashes","Fang","Scarab dung"]
+#define VAR_TOA_MVP_ITEMS_HIDE ["Big banana", "Eldritch ashes", "Fang", "Scarab dung"]
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
@@ -87,7 +87,7 @@ enum: [
   "The Jackal's Torch"
 ]
 */
-#define VAR_TOA_BOOKS_HIDE ["Akila's journal","Apmeken's Capture","Crondis' Capture","Het's Capture","Scabaras' Capture","The Wardens","The Jackal's Torch"]
+#define VAR_TOA_BOOKS_HIDE ["Akila's journal", "Apmeken's Capture", "Crondis' Capture", "Het's Capture", "Scabaras' Capture", "The Wardens", "The Jackal's Torch"]
 
 
 /*@ define:input:tombs_of_amascut

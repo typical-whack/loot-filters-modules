@@ -29,7 +29,7 @@ enum: [
   "'Perfect' gold bar"
 ]
 */
-#define VAR_BARS_HIDE ["Bronze bar","Iron bar","Silver bar","Gold bar"]
+#define VAR_BARS_HIDE ["Bronze bar", "Iron bar", "Silver bar", "Gold bar"]
 
 
 /*@ define:input:bars
@@ -228,21 +228,111 @@ exampleItem: "'Perfect' gold bar"
   menuTextColor = "#FFB79517";
 
 
-#define VAR_BRONZE_BAR_MIN_QUANTITY
-#define VAR_IRON_BAR_MIN_QUANTITY
-#define VAR_SILVER_BAR_MIN_QUANTITY
-#define VAR_STEEL_BAR_MIN_QUANTITY
-#define VAR_GOLD_BAR_MIN_QUANTITY
-#define VAR_MITHRIL_BAR_MIN_QUANTITY
-#define VAR_ADAMANTITE_BAR_MIN_QUANTITY
-#define VAR_RUNITE_BAR_MIN_QUANTITY
-#define VAR_ELEMENTAL_METAL_MIN_QUANTITY
-#define VAR_PRIMED_BAR_MIN_QUANTITY
-#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY
-#define VAR_BLURITE_BAR_MIN_QUANTITY
-#define VAR_ENCHANTED_BAR_MIN_QUANTITY
-#define VAR_LOVAKITE_BAR_MIN_QUANTITY
-#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY
+/*@ define:input:bars
+type: number
+label: Bronze bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_BRONZE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Iron bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_IRON_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Silver bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_SILVER_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Steel bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_STEEL_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Gold bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_GOLD_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Mithril bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_MITHRIL_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Adamantite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_ADAMANTITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Runite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_RUNITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Elemental metal minimum quantity
+group: Bar Filtering
+*/
+#define VAR_ELEMENTAL_METAL_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Primed bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_PRIMED_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Primed mind bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Blurite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_BLURITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Enchanted bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_ENCHANTED_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: Lovakite bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_LOVAKITE_BAR_MIN_QUANTITY 0
+
+/*@ define:input:bars
+type: number
+label: 'Perfect' gold bar minimum quantity
+group: Bar Filtering
+*/
+#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
+
 
 
 

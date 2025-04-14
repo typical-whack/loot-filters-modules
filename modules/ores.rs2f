@@ -199,19 +199,97 @@ exampleItem: Runite ore
   menuTextColor = "#FF4D6671";
 
 
-#define VAR_COPPER_ORE_MIN_QUANTITY
-#define VAR_TIN_ORE_MIN_QUANTITY
-#define VAR_IRON_ORE_MIN_QUANTITY
-#define VAR_SILVER_ORE_MIN_QUANTITY
-#define VAR_COAL_ORE_MIN_QUANTITY
-#define VAR_GOLD_ORE_MIN_QUANTITY
-#define VAR_MITHRIL_ORE_MIN_QUANTITY
-#define VAR_ADAMANTITE_ORE_MIN_QUANTITY
-#define VAR_RUNITE_ORE_MIN_QUANTITY
-#define VAR_DAEYALT_ORE_MIN_QUANTITY
-#define VAR_BLASTED_ORE_MIN_QUANTITY
-#define VAR_BLURITE_ORE_MIN_QUANTITY
-#define VAR_LOVAKITE_ORE_MIN_QUANTITY
+/*@ define:input:ores
+type: number
+label: Copper ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_COPPER_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Tin ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_TIN_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Iron ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_IRON_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Silver ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_SILVER_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Coal minimum quantity
+group: Ore Filters
+*/
+#define VAR_COAL_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Gold ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_GOLD_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Mithril ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_MITHRIL_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Adamantite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_ADAMANTITE_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Runite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_RUNITE_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Daeyalt ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_DAEYALT_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Blasted ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_BLASTED_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Blurite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_BLURITE_ORE_MIN_QUANTITY 0
+
+/*@ define:input:ores
+type: number
+label: Lovakite ore minimum quantity
+group: Ore Filters
+*/
+#define VAR_LOVAKITE_ORE_MIN_QUANTITY 0
+
 
 
 

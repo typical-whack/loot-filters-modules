@@ -53,8 +53,20 @@ exampleItem: Santa hat
 #define VAR_GLOBAL_CUSTOMSTYLE 
 
 
-#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE
-#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE
+/*@ define:input:global_defaults
+type: number
+label: Hide despawn timer for items below this value
+group: Value Based Settings
+*/
+#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
+
+/*@ define:input:global_defaults
+type: number
+label: Hide prices for items below this value
+group: Value Based Settings
+*/
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+
 /*@ define:input:global_defaults
 type: number
 label: Hide icons for items below this value
@@ -63,9 +75,27 @@ group: Value Based Settings
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
 
-#define VAR_GLOBAL_MINIMUM_VALUE
-#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE
-#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE
+/*@ define:input:global_defaults
+type: number
+label: Hide items below this value
+group: Value Based Filters
+*/
+#define VAR_GLOBAL_MINIMUM_VALUE 0
+
+/*@ define:input:global_defaults
+type: number
+label: Hide stackable items below this value
+group: Value Based Filters
+*/
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
+
+/*@ define:input:global_defaults
+type: number
+label: Hide non-stackable items below this value
+group: Value Based Filters
+*/
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
+
 
 
 

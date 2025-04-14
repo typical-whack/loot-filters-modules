@@ -227,21 +227,111 @@ exampleItem: Blisterwood logs
   menuTextColor = "#FFDFDBDB";
 
 
-#define VAR_LOGS_MIN_QUANTITY
-#define VAR_OAK_LOGS_MIN_QUANTITY
-#define VAR_WILLOW_LOGS_MIN_QUANTITY
-#define VAR_MAPLE_LOGS_MIN_QUANTITY
-#define VAR_YEW_LOGS_MIN_QUANTITY
-#define VAR_MAGIC_LOGS_MIN_QUANTITY
-#define VAR_REDWOOD_LOGS_MIN_QUANTITY
-#define VAR_TEAK_LOGS_MIN_QUANTITY
-#define VAR_MAHOGANY_LOGS_MIN_QUANTITY
-#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY
-#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY
-#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY
-#define VAR_JUNIPER_LOGS_MIN_QUANTITY
-#define VAR_BARK_MIN_QUANTITY
-#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY
+/*@ define:input:logs
+type: number
+label: Logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Oak logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_OAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Willow logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_WILLOW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Maple logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_MAPLE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Yew logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_YEW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Magic logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_MAGIC_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Redwood logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_REDWOOD_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Teak logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_TEAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Mahogany logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_MAHOGANY_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Achey tree logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Arctic pine logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Scrapey tree logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Juniper logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_JUNIPER_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Bark minimum quantity
+group: Logs Filters
+*/
+#define VAR_BARK_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Blisterwood logs minimum quantity
+group: Logs Filters
+*/
+#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY 0
+
 
 
 

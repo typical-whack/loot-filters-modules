@@ -75,7 +75,7 @@ enum: [
   "Dragon spear"
 ]
 */
-#define VAR_RDT_SHOW ["Loop half of key","Tooth half of key","Rune spear","Shield left half","Dragon spear"]
+#define VAR_RDT_SHOW ["Loop half of key", "Tooth half of key", "Rune spear", "Shield left half", "Dragon spear"]
 
 
 /*@ define:input:rare_drop_table

@@ -84,7 +84,7 @@ enum: [
   "Karambwan vessel"
 ]
 */
-#define VAR_FISHING_EQUIPMENT_HIDE ["Small fishing net","Big fishing net","Fishing rod","Fly fishing rod","Harpoon","Lobster pot","Karambwan vessel"]
+#define VAR_FISHING_EQUIPMENT_HIDE ["Small fishing net", "Big fishing net", "Fishing rod", "Fly fishing rod", "Harpoon", "Lobster pot", "Karambwan vessel"]
 
 /*@ define:input:fishing
 type: enumlist
@@ -101,7 +101,7 @@ enum: [
   "Raw karambwanji"
 ]
 */
-#define VAR_FISHING_BAIT_HIDE ["Fishing bait","Feather","Stripy feather","King worm","Fish chunks"]
+#define VAR_FISHING_BAIT_HIDE ["Fishing bait", "Feather", "Stripy feather", "King worm", "Fish chunks"]
 
 /*@ define:input:fishing
 type: enumlist
@@ -147,7 +147,7 @@ enum: [
   "Raw karambwan"
 ]
 */
-#define VAR_FISHING_RAW_FISH_HIDE ["Raw shrimps","Raw anchovies","Raw guppy","Raw cavefish","Raw tetra","Frog spawn","Raw mackerel","Raw cod","Raw bass","Raw sardine","Raw herring","Raw pike","Raw trout","Raw salmon","Raw rainbow fish","Leaping trout","Leaping salmon","Leaping sturgeon","Raw tuna","Bluegill","Common tench","Mottled eel","Greater siren"]
+#define VAR_FISHING_RAW_FISH_HIDE ["Raw shrimps", "Raw anchovies", "Raw guppy", "Raw cavefish", "Raw tetra", "Frog spawn", "Raw mackerel", "Raw cod", "Raw bass", "Raw sardine", "Raw herring", "Raw pike", "Raw trout", "Raw salmon", "Raw rainbow fish", "Leaping trout", "Leaping salmon", "Leaping sturgeon", "Raw tuna", "Bluegill", "Common tench", "Mottled eel", "Greater siren"]
 
 
 /*@ define:input:fishing

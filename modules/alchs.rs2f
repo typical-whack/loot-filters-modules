@@ -11,7 +11,7 @@ description: |
 type: stringlist
 label: List of alchables
 */
-#define VAR_ALCHS_ITEM_LIST ["Adamant platebody","Air battlestaff","Dragon battleaxe","Dragon dagger","Dragon halberd","Dragon longsword","Dragon mace","Dragon med helm","Dragon platelegs","Dragon plateskirt","Dragon scimitar","Earth battlestaff","Fire battlestaff","Lava battlestaff","Mystic air staff","Mystic earth staff","Mystic fire staff","Mystic lava staff","Mystic robe bottom","Mystic robe top","Mystic water staff","Onyx dragon bolts (e)","Rune 2h sword","Rune battleaxe","Rune chainbody","Rune full helm","Rune halberd","Rune hasta","Rune kiteshield","Rune longsword","Rune med helm","Rune pickaxe","Rune platebody","Rune platelegs","Rune plateskirt","Rune scimitar","Rune spear","Rune sq shield","Rune sword","Runite crossbow (u)","Runite limbs","Water battlestaff"]
+#define VAR_ALCHS_ITEM_LIST ["Adamant platebody", "Air battlestaff", "Dragon battleaxe", "Dragon dagger", "Dragon halberd", "Dragon longsword", "Dragon mace", "Dragon med helm", "Dragon platelegs", "Dragon plateskirt", "Dragon scimitar", "Earth battlestaff", "Fire battlestaff", "Lava battlestaff", "Mystic air staff", "Mystic earth staff", "Mystic fire staff", "Mystic lava staff", "Mystic robe bottom", "Mystic robe top", "Mystic water staff", "Onyx dragon bolts (e)", "Rune 2h sword", "Rune battleaxe", "Rune chainbody", "Rune full helm", "Rune halberd", "Rune hasta", "Rune kiteshield", "Rune longsword", "Rune med helm", "Rune pickaxe", "Rune platebody", "Rune platelegs", "Rune plateskirt", "Rune scimitar", "Rune spear", "Rune sq shield", "Rune sword", "Runite crossbow (u)", "Runite limbs", "Water battlestaff"]
 
 /*@ define:input:alchs
 type: boolean

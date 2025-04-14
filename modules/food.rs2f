@@ -63,7 +63,7 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit","Cooked larupia","Cooked barb-tailed kebbit","Cooked graahk"]
+#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit", "Cooked larupia", "Cooked barb-tailed kebbit", "Cooked graahk"]
 
 /*@ define:input:food
 type: enumlist
@@ -97,7 +97,7 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp","Sardine","Herring","Anchovies","Mackerel","Trout","Cod","Pike","Salmon","Tuna"]
+#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp", "Sardine", "Herring", "Anchovies", "Mackerel", "Trout", "Cod", "Pike", "Salmon", "Tuna"]
 
 /*@ define:input:food
 type: enumlist
@@ -115,7 +115,7 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_SHOW ["Cooked sunlight antelope","Cooked dashing kebbit","Cooked moonlight antelope"]
+#define VAR_FOOD_HUNTER_FOODS_SHOW ["Cooked sunlight antelope", "Cooked dashing kebbit", "Cooked moonlight antelope"]
 
 /*@ define:input:food
 type: enumlist
@@ -149,7 +149,7 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_SHOW ["Swordfish","Lava eel","Monkfish","Cooked karambwan","Shark","Sea turtle","Manta ray","Anglerfish","Dark crab"]
+#define VAR_FOOD_FISH_FOODS_SHOW ["Swordfish", "Lava eel", "Monkfish", "Cooked karambwan", "Shark", "Sea turtle", "Manta ray", "Anglerfish", "Dark crab"]
 
 
 /*@ define:input:food

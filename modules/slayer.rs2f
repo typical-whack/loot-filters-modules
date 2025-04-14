@@ -167,7 +167,7 @@ enum: [
   "Looting bag note"
 ]
 */
-#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE ["Blighted entangle sack","Blighted karambwan","Blighted teleport spell sack"]
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE ["Blighted entangle sack", "Blighted karambwan", "Blighted teleport spell sack"]
 
 /*@ define:input:slayer
 type: enumlist
@@ -264,7 +264,7 @@ enum: [
   "Ugthanki kebab"
 ]
 */
-#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE ["Adamant battleaxe","Adamantite bar","Air rune","Ashes","Coal","Coins","Crossbow string","Fire rune","Mithril plateskirt","Red d'hide body","Rune arrow","Runite bolts","Shark","Steel bar","Ugthanki kebab"]
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE ["Adamant battleaxe", "Adamantite bar", "Air rune", "Ashes", "Coal", "Coins", "Crossbow string", "Fire rune", "Mithril plateskirt", "Red d'hide body", "Rune arrow", "Runite bolts", "Shark", "Steel bar", "Ugthanki kebab"]
 
 /*@ define:input:slayer
 type: enumlist

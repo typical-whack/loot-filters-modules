@@ -61,41 +61,251 @@ exampleItem: Coins
   textColor = "#FFBEB287";
 
 
-#define VAR_ABYSSAL_PEARLS_MIN_QUANTITY
-#define VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY
-#define VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY
-#define VAR_ARCHERY_TICKET_MIN_QUANTITY
-#define VAR_BARRONITE_SHARDS_MIN_QUANTITY
-#define VAR_BLOOD_MONEY_MIN_QUANTITY
-#define VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY
-#define VAR_CASTLE_WARS_TICKET_MIN_QUANTITY
-#define VAR_COINS_MIN_QUANTITY
-#define VAR_ECTO_TOKEN_MIN_QUANTITY
-#define VAR_FROG_TOKEN_MIN_QUANTITY
-#define VAR_GLISTENING_TEAR_MIN_QUANTITY
-#define VAR_GOLDEN_NUGGET_MIN_QUANTITY
-#define VAR_HALLOWED_MARK_MIN_QUANTITY
-#define VAR_INTELLIGENCE_MIN_QUANTITY
-#define VAR_MARK_OF_GRACE_MIN_QUANTITY
-#define VAR_MERMAIDS_TEAR_MIN_QUANTITY
-#define VAR_MINNOW_MIN_QUANTITY
-#define VAR_MOLCH_PEARL_MIN_QUANTITY
-#define VAR_MOLE_CLAW_MIN_QUANTITY
-#define VAR_MOLE_SKIN_MIN_QUANTITY
-#define VAR_NUGGETS_MIN_QUANTITY
-#define VAR_NUMULITE_MIN_QUANTITY
-#define VAR_PARAMAYA_TICKET_MIN_QUANTITY
-#define VAR_PLATINUM_TOKEN_MIN_QUANTITY
-#define VAR_RARE_CREATURE_PARTS_MIN_QUANTITY
-#define VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY
-#define VAR_SHANTAY_PASS_MIN_QUANTITY
-#define VAR_SHIP_TICKET_MIN_QUANTITY
-#define VAR_STARDUST_MIN_QUANTITY
-#define VAR_TERMITES_MIN_QUANTITY
-#define VAR_TOKKUL_MIN_QUANTITY
-#define VAR_TRADING_STICKS_MIN_QUANTITY
-#define VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY
-#define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY
+/*@ define:input:currency
+type: number
+label: Abyssal pearls minimum quantity
+group: Currency Filters
+*/
+#define VAR_ABYSSAL_PEARLS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Agility arena ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Anima-infused bark minimum quantity
+group: Currency Filters
+*/
+#define VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Archery ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_ARCHERY_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Barronite shards minimum quantity
+group: Currency Filters
+*/
+#define VAR_BARRONITE_SHARDS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Blood money minimum quantity
+group: Currency Filters
+*/
+#define VAR_BLOOD_MONEY_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Brimhaven voucher minimum quantity
+group: Currency Filters
+*/
+#define VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Castle wars ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_CASTLE_WARS_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Coins minimum quantity
+group: Currency Filters
+*/
+#define VAR_COINS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Ecto-token minimum quantity
+group: Currency Filters
+*/
+#define VAR_ECTO_TOKEN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Frog token minimum quantity
+group: Currency Filters
+*/
+#define VAR_FROG_TOKEN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Glistening tear minimum quantity
+group: Currency Filters
+*/
+#define VAR_GLISTENING_TEAR_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Golden nugget minimum quantity
+group: Currency Filters
+*/
+#define VAR_GOLDEN_NUGGET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Hallowed mark minimum quantity
+group: Currency Filters
+*/
+#define VAR_HALLOWED_MARK_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Intelligence minimum quantity
+group: Currency Filters
+*/
+#define VAR_INTELLIGENCE_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mark of grace minimum quantity
+group: Currency Filters
+*/
+#define VAR_MARK_OF_GRACE_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mermaid's tear minimum quantity
+group: Currency Filters
+*/
+#define VAR_MERMAIDS_TEAR_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Minnow minimum quantity
+group: Currency Filters
+*/
+#define VAR_MINNOW_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Molch pearl minimum quantity
+group: Currency Filters
+*/
+#define VAR_MOLCH_PEARL_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mole claw minimum quantity
+group: Currency Filters
+*/
+#define VAR_MOLE_CLAW_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Mole skin minimum quantity
+group: Currency Filters
+*/
+#define VAR_MOLE_SKIN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Nuggets minimum quantity
+group: Currency Filters
+*/
+#define VAR_NUGGETS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Numulite minimum quantity
+group: Currency Filters
+*/
+#define VAR_NUMULITE_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Paramaya ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_PARAMAYA_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Platinum token minimum quantity
+group: Currency Filters
+*/
+#define VAR_PLATINUM_TOKEN_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Rare creature parts minimum quantity
+group: Currency Filters
+*/
+#define VAR_RARE_CREATURE_PARTS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Reward token credits minimum quantity
+group: Currency Filters
+*/
+#define VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Shantay pass minimum quantity
+group: Currency Filters
+*/
+#define VAR_SHANTAY_PASS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Ship ticket minimum quantity
+group: Currency Filters
+*/
+#define VAR_SHIP_TICKET_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Stardust minimum quantity
+group: Currency Filters
+*/
+#define VAR_STARDUST_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Termites minimum quantity
+group: Currency Filters
+*/
+#define VAR_TERMITES_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Tokkul minimum quantity
+group: Currency Filters
+*/
+#define VAR_TOKKUL_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Trading sticks minimum quantity
+group: Currency Filters
+*/
+#define VAR_TRADING_STICKS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Unidentified minerals minimum quantity
+group: Currency Filters
+*/
+#define VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY 0
+
+/*@ define:input:currency
+type: number
+label: Warrior guild token minimum quantity
+group: Currency Filters
+*/
+#define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
+
 
 /*@ define:input:currency
 type: style

@@ -21,7 +21,7 @@ enum: [
   "Dragon*"
 ]
 */
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*","Iron*","Steel*","Black*","Mithril*"]
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*", "Iron*", "Steel*", "Black*", "Mithril*"]
 
 
 /*@ define:input:metal_equipment

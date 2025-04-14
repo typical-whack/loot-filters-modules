@@ -170,15 +170,69 @@ exampleItem: Onyx
   menuTextColor = "#FF1C1A1A";
 
 
-#define VAR_SAPPHIRE_MIN_QUANTITY
-#define VAR_EMERALD_MIN_QUANTITY
-#define VAR_RUBY_MIN_QUANTITY
-#define VAR_DIAMOND_MIN_QUANTITY
-#define VAR_OPAL_MIN_QUANTITY
-#define VAR_JADE_MIN_QUANTITY
-#define VAR_RED_TOPAZ_MIN_QUANTITY
-#define VAR_DRAGONSTONE_MIN_QUANTITY
-#define VAR_ONYX_MIN_QUANTITY
+/*@ define:input:gems
+type: number
+label: Sapphire minimum quantity
+group: Gems Filters
+*/
+#define VAR_SAPPHIRE_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Emerald minimum quantity
+group: Gems Filters
+*/
+#define VAR_EMERALD_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Ruby minimum quantity
+group: Gems Filters
+*/
+#define VAR_RUBY_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Diamond minimum quantity
+group: Gems Filters
+*/
+#define VAR_DIAMOND_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Opal minimum quantity
+group: Gems Filters
+*/
+#define VAR_OPAL_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Jade minimum quantity
+group: Gems Filters
+*/
+#define VAR_JADE_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Red topaz minimum quantity
+group: Gems Filters
+*/
+#define VAR_RED_TOPAZ_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Dragonstone minimum quantity
+group: Gems Filters
+*/
+#define VAR_DRAGONSTONE_MIN_QUANTITY 0
+
+/*@ define:input:gems
+type: number
+label: Onyx minimum quantity
+group: Gems Filters
+*/
+#define VAR_ONYX_MIN_QUANTITY 0
+
 
 
 

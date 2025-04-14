@@ -87,7 +87,7 @@ enum: [
   "Unicorn horn"
 ]
 */
-#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow","Steel dart","Unicorn horn"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow", "Steel dart", "Unicorn horn"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -226,7 +226,7 @@ enum: [
   "Right eye patch"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow","Steel dart","Right eye patch"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow", "Steel dart", "Right eye patch"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -270,7 +270,7 @@ enum: [
   "Beer"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)","Super strength(3)","Beer","Kebab"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)", "Super strength(3)", "Beer", "Kebab"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -288,7 +288,7 @@ enum: [
   "Beer"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones","Big bones","Super restore(4)","Shark","Chilli potato"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones", "Big bones", "Super restore(4)", "Shark", "Chilli potato"]
 
 
 
@@ -370,7 +370,7 @@ enum: [
   "Steel arrow"
 ]
 */
-#define VAR_BOSSING_KREEARRA_COMMON_HIDE ["Feather","Black d'hide body","Rune crossbow","Mind rune","Rune arrow","Runite bolts","Crystal key","Steel dart","Steel arrow"]
+#define VAR_BOSSING_KREEARRA_COMMON_HIDE ["Feather", "Black d'hide body", "Rune crossbow", "Mind rune", "Rune arrow", "Runite bolts", "Crystal key", "Steel dart", "Steel arrow"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -427,7 +427,7 @@ enum: [
   "Mushroom potato"
 ]
 */
-#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW ["Bones","Big bones","Ranging potion(3)","Super defence(3)","Manta ray","Mushroom potato"]
+#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW ["Bones", "Big bones", "Ranging potion(3)", "Super defence(3)", "Manta ray", "Mushroom potato"]
 
 
 
@@ -507,7 +507,7 @@ enum: [
   "Steel arrow"
 ]
 */
-#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes","Malicious ashes","Adamant arrow(p++)","Steel dart","Steel arrow"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes", "Malicious ashes", "Adamant arrow(p++)", "Steel dart", "Steel arrow"]
 
 /*@ define:input:bossing
 type: enumlist
@@ -547,7 +547,7 @@ enum: [
   "Super strength(3)"
 ]
 */
-#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)","Super attack(3)","Super strength(3)"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)", "Super attack(3)", "Super strength(3)"]
 
 /*@ define:input:bossing
 type: enumlist

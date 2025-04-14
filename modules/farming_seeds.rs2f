@@ -99,18 +99,165 @@ description: |
     "Attas seed", \
 ]
 
-#define VAR_FARMING_SEEDS_MINIMUM_VALUE
+/*@ define:input:farming_seeds
+type: number
+label: Minimum value to display secondaries at
+*/
+#define VAR_FARMING_SEEDS_MINIMUM_VALUE 0
 
-#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE
-#define VAR_FARMING_SEEDS_FLOWER_HIDE
-#define VAR_FARMING_SEEDS_HERB_HIDE
-#define VAR_FARMING_SEEDS_HOPS_HIDE
-#define VAR_FARMING_SEEDS_BUSH_HIDE
-#define VAR_FARMING_SEEDS_TREE_HIDE
-#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE
-#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE
-#define VAR_FARMING_SEEDS_SPECIAL_HIDE
-#define VAR_FARMING_SEEDS_ANIMA_HIDE
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Allotment seeds to force hidden
+enum: [
+  "Potato seed",
+  "Onion seed",
+  "Cabbage seed",
+  "Tomato seed",
+  "Sweetcorn seed",
+  "Strawberry seed",
+  "Watermelon seed",
+  "Snape grass seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE ["Potato seed", "Onion seed", "Cabbage seed", "Tomato seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Flower seeds to force hidden
+enum: [
+  "Marigold seed",
+  "Rosemary seed",
+  "Nasturtium seed",
+  "Woad seed",
+  "Limpwurt seed",
+  "White lily seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FLOWER_HIDE ["Marigold seed", "Rosemary seed", "Nasturtium seed", "Woad seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Herb seeds to force hidden
+enum: [
+  "Guam seed",
+  "Marrentill seed",
+  "Tarromin seed",
+  "Harralander seed",
+  "Ranarr seed",
+  "Toadflax seed",
+  "Irit seed",
+  "Avantoe seed",
+  "Kwuarm seed",
+  "Snapdragon seed",
+  "Huasca seed",
+  "Cadantine seed",
+  "Lantadyme seed",
+  "Dwarf weed seed",
+  "Torstol seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HERB_HIDE ["Guam seed", "Marrentill seed", "Tarromin seed", "Harralander seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Hops seeds to force hidden
+enum: [
+  "Barley seed",
+  "Hammerstone seed",
+  "Asgarnian seed",
+  "Jute seed",
+  "Yanillian seed",
+  "Krandorian seed",
+  "Wildblood seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HOPS_HIDE ["Barley seed", "Hammerstone seed", "Asgarnian seed", "Jute seed", "Yanillian seed", "Krandorian seed", "Wildblood seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Bush seeds to force hidden
+enum: [
+  "Redberry seed",
+  "Cadavaberry seed",
+  "Dwellberry seed",
+  "Jangerberry seed",
+  "Whiteberry seed",
+  "Poison ivy seed"
+]
+*/
+#define VAR_FARMING_SEEDS_BUSH_HIDE ["Redberry seed", "Cadavaberry seed", "Dwellberry seed", "Jangerberry seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Tree seeds to force hidden
+enum: [
+  "Acorn",
+  "Willow seed",
+  "Maple seed",
+  "Yew seed",
+  "Magic seed"
+]
+*/
+#define VAR_FARMING_SEEDS_TREE_HIDE ["Acorn", "Willow seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force hidden
+enum: [
+  "Apple seed",
+  "Banana seed",
+  "Orange seed",
+  "Curry seed",
+  "Pineapple seed",
+  "Papaya seed",
+  "Palm tree seed",
+  "Dragonfruit seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE ["Apple seed", "Banana seed", "Orange seed", "Curry seed", "Pineapple seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force hidden
+enum: [
+  "Teak seed",
+  "Mahogany seed",
+  "Calquat tree seed",
+  "Crystal acorn",
+  "Spirit seed",
+  "Celastrus seed",
+  "Redwood tree seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE ["Teak seed", "Mahogany seed", "Calquat tree seed"]
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Special seeds to force hidden
+enum: [
+  "Seaweed spore",
+  "Grape seed",
+  "Mushroom spore",
+  "Belladonna seed",
+  "Hespori seed",
+  "Cactus seed",
+  "Potato cactus seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_HIDE []
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Anima seeds to force hidden
+enum: [
+  "Kronos seed",
+  "Iasor seed",
+  "Attas seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ANIMA_HIDE []
+
 
 
 

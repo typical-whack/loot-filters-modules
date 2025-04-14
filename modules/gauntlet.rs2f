@@ -44,7 +44,7 @@ enum: [
   }
 ]
 */
-#define VAR_GAUNTLET_TOOLS_HIDE ["* sceptre","* harpoon","* axe","* pickaxe","Pestle and mortar"]
+#define VAR_GAUNTLET_TOOLS_HIDE ["* sceptre", "* harpoon", "* axe", "* pickaxe", "Pestle and mortar"]
 
 /*@ define:input:gauntlet
 type: enumlist
