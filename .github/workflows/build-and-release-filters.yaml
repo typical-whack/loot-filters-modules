@@ -33,7 +33,6 @@ jobs:
         run: cat output/default-filter.rs2f
       - name: GH Release
         uses: softprops/action-gh-release@v2.2.1
-        if: github.ref_type == 'tag'
         with:
           files: |
             output/filter.rs2f
