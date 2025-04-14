@@ -52,7 +52,7 @@ description: |
   "Dragon javelins", \
   "Dragon knife", \
   "Morrigan's javelin", \
-  "Opal dragon bolts (e)" \
+  "Opal dragon bolts (e)", \
 ]
 
 /*@ define:input:last_man_standing

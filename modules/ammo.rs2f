@@ -22,7 +22,7 @@ description: |
   "Adamant fire arrow", \
   "Rune fire arrow", \
   "Amethyst fire arrow", \
-  "Dragon fire arrow" \
+  "Dragon fire arrow", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -69,7 +69,7 @@ enum: [
   "Steel*", \
   "Mithril*", \
   "Adamant*", \
-  "Rune*" \
+  "Rune*", \
 ]
 
 apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
@@ -93,7 +93,7 @@ apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_M
   "Black brutal", \
   "Mithril brutal", \
   "Adamant brutal", \
-  "Rune brutal" \
+  "Rune brutal", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -135,7 +135,7 @@ enum: [
   "Iron brutal", \
   "Steel brutal", \
   "Black brutal", \
-  "Mithril brutal" \
+  "Mithril brutal", \
 ]
 
 apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
@@ -156,7 +156,7 @@ apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_V
   "Training Arrow", \
   "Ogre Arrow", \
   "Ice Arrow", \
-  "Broad Arrow" \
+  "Broad Arrow", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -185,7 +185,7 @@ enum: [
   "Training Arrow", \
   "Ogre Arrow", \
   "Ice Arrow", \
-  "Broad Arrow" \
+  "Broad Arrow", \
 ]
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
@@ -211,7 +211,7 @@ apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN
   "Rune dart*", \
   "Amethyst dart*", \
   "Dragon dart*", \
-  "Atlatl dart" \
+  "Atlatl dart", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -266,7 +266,7 @@ enum: [
   "Steel dart*", \
   "Black dart*", \
   "Mithril dart*", \
-  "Adamant dart*" \
+  "Adamant dart*", \
 ]
 
 apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
@@ -290,7 +290,7 @@ apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
   "Adamant javelin*", \
   "Rune javelin*", \
   "Amethyst javelin*", \
-  "Dragon javelin*" \
+  "Dragon javelin*", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -337,7 +337,7 @@ enum: [
   "Steel javelin*", \
   "Mithril javelin*", \
   "Adamant javelin*", \
-  "Rune javelin*" \
+  "Rune javelin*", \
 ]
 
 apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
@@ -362,7 +362,7 @@ apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
   "Mithril bolts*", \
   "Adamant bolts*", \
   "Runite bolts*", \
-  "Dragon bolts*" \
+  "Dragon bolts*", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -413,7 +413,7 @@ enum: [
   "Silver bolts*", \
   "Iron bolts*", \
   "Steel bolts*", \
-  "Mithril bolts*" \
+  "Mithril bolts*", \
 ]
 
 apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
@@ -440,7 +440,7 @@ apply (name:CONST_AMMO_BOLTS_LIST && value:<VAR_AMMO_BOLTS_MIN_VALUE) {
   "Ruby bolts (e)", \
   "Diamond bolts (e)", \
   "Dragonstone bolts (e)", \
-  "Onyx bolts (e)" \
+  "Onyx bolts (e)", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -515,7 +515,7 @@ apply (name:CONST_AMMO_BOLTS_E_LIST && value:<VAR_AMMO_BOLTS_E_MIN_VALUE) {
   "Ruby dragon bolts (e)", \
   "Diamond dragon bolts (e)", \
   "Dragonstone dragon bolts (e)", \
-  "Onyx dragon bolts (e)" \
+  "Onyx dragon bolts (e)", \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -588,7 +588,7 @@ apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && value:<VAR_AMMO_DRAGON_BOLTS_E_MIN
   "Broad bolts", \
   "Amethyst broad bolts", \
   "Barbed bolts", \
-  "Bone bolts" \
+  "Bone bolts", \
 ]
 /*@ define:input:ammo
 type: enumlist

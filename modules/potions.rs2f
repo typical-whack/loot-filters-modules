@@ -225,7 +225,7 @@ enum: [
   "Combat potion(*", \
   "Fishing potion(*", \
   "Hunter potion(*", \
-  "Antidote+(*" \
+  "Antidote+(*", \
 ]
 
 /*@ define:input:potions
@@ -462,7 +462,7 @@ enum: [
   "Stamina potion(*", \
   "Super antifire potion(*", \
   "Super combat potion(*", \
-  "Super restore(*" \
+  "Super restore(*", \
 ]
 
 

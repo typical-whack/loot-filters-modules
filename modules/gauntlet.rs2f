@@ -49,7 +49,7 @@ enum: [
   "* harpoon", \
   "* axe", \
   "* pickaxe", \
-  "Pestle and mortar" \
+  "Pestle and mortar", \
 ]
 
 /*@ define:input:gauntlet
@@ -647,15 +647,15 @@ apply (area:CONST_GAUNTLET_AREA && name:"* body *") {
 apply (area:CONST_GAUNTLET_AREA && name:"* legs *") {
     VAR_GAUNTLET_CRYSTAL_LEGS_CUSTOMSTYLE 
 }
-apply (area:CONST_GAUNTLET_AREA && name:["* (basic)" \
+apply (area:CONST_GAUNTLET_AREA && name:["* (basic)", \
 ]) {
     VAR_GAUNTLET_BASIC_CUSTOMSTYLE 
 }
-apply (area:CONST_GAUNTLET_AREA && name:["* (attuned)" \
+apply (area:CONST_GAUNTLET_AREA && name:["* (attuned)", \
 ]) {
     VAR_GAUNTLET_ATTUNED_CUSTOMSTYLE 
 }
-apply (area:CONST_GAUNTLET_AREA && name:["* (perfected)" \
+apply (area:CONST_GAUNTLET_AREA && name:["* (perfected)", \
 ]) {
     VAR_GAUNTLET_PERFECTED_CUSTOMSTYLE 
 }

@@ -241,100 +241,100 @@ apply (name:VAR_GEMS_HIDE) {
 }
 
 apply (name:["Uncut sapphire", \
-  "Sapphire" \
+  "Sapphire", \
 ]) {
     VAR_SAPPHIRE_CUSTOMSTYLE 
 }
 apply (name:["Uncut sapphire", \
-  "Sapphire" \
+  "Sapphire", \
 ] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut emerald", \
-  "Emerald" \
+  "Emerald", \
 ]) {
     VAR_EMERALD_CUSTOMSTYLE 
 }
 apply (name:["Uncut emerald", \
-  "Emerald" \
+  "Emerald", \
 ] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut ruby", \
-  "Ruby" \
+  "Ruby", \
 ]) {
     VAR_RUBY_CUSTOMSTYLE 
 }
 apply (name:["Uncut ruby", \
-  "Ruby" \
+  "Ruby", \
 ] && quantity:<VAR_RUBY_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut diamond", \
-  "Diamond" \
+  "Diamond", \
 ]) {
     VAR_DIAMOND_CUSTOMSTYLE 
 }
 apply (name:["Uncut diamond", \
-  "Diamond" \
+  "Diamond", \
 ] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut opal", \
-  "Opal" \
+  "Opal", \
 ]) {
     VAR_OPAL_CUSTOMSTYLE 
 }
 apply (name:["Uncut opal", \
-  "Opal" \
+  "Opal", \
 ] && quantity:<VAR_OPAL_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut jade", \
-  "Jade" \
+  "Jade", \
 ]) {
     VAR_JADE_CUSTOMSTYLE 
 }
 apply (name:["Uncut jade", \
-  "Jade" \
+  "Jade", \
 ] && quantity:<VAR_JADE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut red topaz", \
-  "Red topaz" \
+  "Red topaz", \
 ]) {
     VAR_RED_TOPAZ_CUSTOMSTYLE 
 }
  apply (name:["Uncut red topaz", \
-  "Red topaz" \
+  "Red topaz", \
 ] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut dragonstone", \
-  "Dragonstone" \
+  "Dragonstone", \
 ]) {
     VAR_DRAGONSTONE_CUSTOMSTYLE 
 }
 apply (name:["Uncut dragonstone", \
-  "Dragonstone" \
+  "Dragonstone", \
 ] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:["Uncut onyx", \
-  "Onyx" \
+  "Onyx", \
 ]) {
     VAR_ONYX_CUSTOMSTYLE 
 }
 apply (name:["Uncut onyx", \
-  "Onyx" \
+  "Onyx", \
 ] && quantity:<VAR_ONYX_MIN_QUANTITY) {
     hidden = true;
 }
