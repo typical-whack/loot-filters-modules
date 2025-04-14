@@ -19,7 +19,8 @@ exampleItem: Dawnbringer
   backgroundColor = "#50ad62a7";\
   borderColor = "#FFb8a22e";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFad62a7";
+  menuTextColor = "#FFad62a7";\
+  hidden = false;
 
 /*@ define:input:theatre_of_blood
 type: style
