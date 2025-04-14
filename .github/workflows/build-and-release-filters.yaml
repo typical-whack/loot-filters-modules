@@ -5,7 +5,6 @@ on:
     paths:
       - "**/*.rs2f"
       - ".github/workflows/**"
-  workflow_dispatch:
 
 jobs:
   build:
