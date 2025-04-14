@@ -53,7 +53,7 @@ label: List of alchables
   "Rune sword", \
   "Runite crossbow (u)", \
   "Runite limbs", \
-  "Water battlestaff", \
+  "Water battlestaff" \
 ]
 
 /*@ define:input:alchs

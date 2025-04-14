@@ -33,7 +33,7 @@ enum: [
   "Bronze bar", \
   "Iron bar", \
   "Silver bar", \
-  "Gold bar", \
+  "Gold bar" \
 ]
 
 

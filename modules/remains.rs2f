@@ -36,14 +36,14 @@ description: |
   "Small ninja monkey bones", \
   "Medium ninja monkey bones", \
   "Gorilla bones", \
-  "Bearded gorilla bones", \
+  "Bearded gorilla bones" \
 ]
 #define CONST_ASHES_LIST [ \
   "Fiendish ashes", \
   "Vile ashes", \
   "Malicious ashes", \
   "Abyssal ashes", \
-  "Infernal ashes", \
+  "Infernal ashes" \
 ]
 #define CONST_SHADES_REMAINS_LIST [ \
   "Loar remains", \
@@ -51,7 +51,7 @@ description: |
   "Riyl remains", \
   "Asyn remains", \
   "Fiyr remains", \
-  "Urium remains", \
+  "Urium remains" \
 ]
 #define CONST_ENSOULED_HEAD_LIST [ \
   "Ensouled goblin head", \
@@ -76,7 +76,7 @@ description: |
   "Ensouled hellhound head", \
   "Ensouled aviansie head", \
   "Ensouled abyssal head", \
-  "Ensouled dragon head", \
+  "Ensouled dragon head" \
 ]
 
 /*@ define:input:remains
@@ -129,7 +129,7 @@ enum: [
   "Big bones", \
   "Jogre bones", \
   "Wyrmling bones", \
-  "Zogre bones", \
+  "Zogre bones" \
 ]
 
 /*@ define:input:remains
@@ -145,7 +145,7 @@ enum: [
 */
 #define VAR_ASHES_HIDE [ \
   "Fiendish ashes", \
-  "Vile ashes", \
+  "Vile ashes" \
 ]
 
 /*@ define:input:remains
@@ -201,7 +201,7 @@ enum: [
   "Ensouled unicorn head", \
   "Ensouled dog head", \
   "Ensouled chaos druid head", \
-  "Ensouled giant head", \
+  "Ensouled giant head" \
 ]
 
 

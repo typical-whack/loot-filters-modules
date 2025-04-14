@@ -26,7 +26,7 @@ enum: [
   "Iron*", \
   "Steel*", \
   "Black*", \
-  "Mithril*", \
+  "Mithril*" \
 ]
 
 
@@ -432,16 +432,16 @@ exampleItem: Dragon platelegs
   "Bronze hasta", \
   "Bronze longsword", \
   "Bronze warhammer", \
-  "Bronze battleaxe", \
+  "Bronze battleaxe" \
 ]
 #define CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS [ \
   "Bronze claws", \
   "Bronze spear", \
   "Bronze halberd", \
-  "Bronze 2h sword", \
+  "Bronze 2h sword" \
 ]
 #define CONST_BRONZE_RANGED_WEAPONS [ \
-  "Bronze crossbow", \
+  "Bronze crossbow" \
 ]
 #define CONST_BRONZE_AMMO [ \
   "Bronze dart", \
@@ -450,7 +450,7 @@ exampleItem: Dragon platelegs
   "Bronze arrow", \
   "Bronze bolts", \
   "Bronze brutal", \
-  "Bronze javelin", \
+  "Bronze javelin" \
 ]
 #define CONST_BRONZE_ARMOUR [ \
   "Bronze boots", \
@@ -463,28 +463,28 @@ exampleItem: Dragon platelegs
   "Bronze plateskirt", \
   "Bronze kiteshield", \
   "Bronze chainbody", \
-  "Bronze platebody", \
+  "Bronze platebody" \
 ]
 #define CONST_BRONZE_TRIMMED_ARMOUR [ \
   "Bronze full helm (t)", \
   "Bronze platebody (t)", \
   "Bronze platelegs (t)", \
   "Bronze kiteshield (t)", \
-  "Bronze plateskirt (t)", \
+  "Bronze plateskirt (t)" \
 ]
 #define CONST_BRONZE_GOLD_TRIMMED_ARMOUR [ \
   "Bronze full helm (g)", \
   "Bronze platebody (g)", \
   "Bronze platelegs (g)", \
   "Bronze kiteshield (g)", \
-  "Bronze plateskirt (g)", \
+  "Bronze plateskirt (g)" \
 ]
 #define CONST_BRONZE_OTHER [ \
   "Bronze Nails", \
   "Bronze Javelin heads", \
   "Bronze Arrowtips", \
   "Bronze Dart tips", \
-  "Bronze Unfinished bolts", \
+  "Bronze Unfinished bolts" \
 ]
 
 #define CONST_IRON_ONE_HANDED_MELEE_WEAPONS [ \
@@ -497,16 +497,16 @@ exampleItem: Dragon platelegs
   "Iron hasta", \
   "Iron longsword", \
   "Iron warhammer", \
-  "Iron battleaxe", \
+  "Iron battleaxe" \
 ]
 #define CONST_IRON_TWO_HANDED_MELEE_WEAPONS [ \
   "Iron claws", \
   "Iron spear", \
   "Iron halberd", \
-  "Iron 2h sword", \
+  "Iron 2h sword" \
 ]
 #define CONST_IRON_RANGED_WEAPONS [ \
-  "Iron crossbow", \
+  "Iron crossbow" \
 ]
 #define CONST_IRON_AMMO [ \
   "Iron dart", \
@@ -515,7 +515,7 @@ exampleItem: Dragon platelegs
   "Iron arrow", \
   "Iron bolts", \
   "Iron brutal", \
-  "Iron javelin", \
+  "Iron javelin" \
 ]
 #define CONST_IRON_ARMOUR [ \
   "Iron boots", \
@@ -528,21 +528,21 @@ exampleItem: Dragon platelegs
   "Iron plateskirt", \
   "Iron kiteshield", \
   "Iron chainbody", \
-  "Iron platebody", \
+  "Iron platebody" \
 ]
 #define CONST_IRON_TRIMMED_ARMOUR [ \
   "Iron full helm (t)", \
   "Iron platebody (t)", \
   "Iron platelegs (t)", \
   "Iron kiteshield (t)", \
-  "Iron plateskirt (t)", \
+  "Iron plateskirt (t)" \
 ]
 #define CONST_IRON_GOLD_TRIMMED_ARMOUR [ \
   "Iron full helm (g)", \
   "Iron platebody (g)", \
   "Iron platelegs (g)", \
   "Iron kiteshield (g)", \
-  "Iron plateskirt (g)", \
+  "Iron plateskirt (g)" \
 ]
 #define CONST_IRON_OTHER [ \
   "Iron Nails", \
@@ -551,7 +551,7 @@ exampleItem: Dragon platelegs
   "Iron Dart tips", \
   "Iron Unfinished bolts", \
   "Oil lantern frame", \
-  "Cooking spit", \
+  "Cooking spit" \
 ]
 
 #define CONST_STEEL_ONE_HANDED_MELEE_WEAPONS [ \
@@ -564,16 +564,16 @@ exampleItem: Dragon platelegs
   "Steel hasta", \
   "Steel longsword", \
   "Steel warhammer", \
-  "Steel battleaxe", \
+  "Steel battleaxe" \
 ]
 #define CONST_STEEL_TWO_HANDED_MELEE_WEAPONS [ \
   "Steel claws", \
   "Steel spear", \
   "Steel halberd", \
-  "Steel 2h sword", \
+  "Steel 2h sword" \
 ]
 #define CONST_STEEL_RANGED_WEAPONS [ \
-  "Steel crossbow", \
+  "Steel crossbow" \
 ]
 #define CONST_STEEL_AMMO [ \
   "Steel dart", \
@@ -582,7 +582,7 @@ exampleItem: Dragon platelegs
   "Steel arrow", \
   "Steel bolts", \
   "Steel brutal", \
-  "Steel javelin", \
+  "Steel javelin" \
 ]
 #define CONST_STEEL_ARMOUR [ \
   "Steel boots", \
@@ -595,21 +595,21 @@ exampleItem: Dragon platelegs
   "Steel plateskirt", \
   "Steel kiteshield", \
   "Steel chainbody", \
-  "Steel platebody", \
+  "Steel platebody" \
 ]
 #define CONST_STEEL_TRIMMED_ARMOUR [ \
   "Steel full helm (t)", \
   "Steel platebody (t)", \
   "Steel platelegs (t)", \
   "Steel kiteshield (t)", \
-  "Steel plateskirt (t)", \
+  "Steel plateskirt (t)" \
 ]
 #define CONST_STEEL_GOLD_TRIMMED_ARMOUR [ \
   "Steel full helm (g)", \
   "Steel platebody (g)", \
   "Steel platelegs (g)", \
   "Steel kiteshield (g)", \
-  "Steel plateskirt (g)", \
+  "Steel plateskirt (g)" \
 ]
 #define CONST_STEEL_OTHER [ \
   "Steel Nails", \
@@ -617,7 +617,7 @@ exampleItem: Dragon platelegs
   "Steel Arrowtips", \
   "Steel Dart tips", \
   "Steel Unfinished bolts", \
-  "Steel studs", \
+  "Steel studs" \
 ]
 
 #define CONST_BLACK_ONE_HANDED_MELEE_WEAPONS [ \
@@ -629,19 +629,19 @@ exampleItem: Dragon platelegs
   "Black scimitar", \
   "Black longsword", \
   "Black warhammer", \
-  "Black battleaxe", \
+  "Black battleaxe" \
 ]
 #define CONST_BLACK_TWO_HANDED_MELEE_WEAPONS [ \
   "Black claws", \
   "Black spear", \
   "Black halberd", \
-  "Black 2h sword", \
+  "Black 2h sword" \
 ]
 #define CONST_BLACK_RANGED_WEAPONS []
 #define CONST_BLACK_AMMO [ \
   "Black dart", \
   "Black knife", \
-  "Black brutal", \
+  "Black brutal" \
 ]
 #define CONST_BLACK_ARMOUR [ \
   "Black gloves", \
@@ -654,27 +654,27 @@ exampleItem: Dragon platelegs
   "Black platelegs", \
   "Black plateskirt", \
   "Black chainbody", \
-  "Black platebody", \
+  "Black platebody" \
 ]
 #define CONST_BLACK_TRIMMED_ARMOUR [ \
   "Black full helm (t)", \
   "Black platebody (t)", \
   "Black platelegs (t)", \
   "Black kiteshield (t)", \
-  "Black plateskirt (t)", \
+  "Black plateskirt (t)" \
 ]
 #define CONST_BLACK_GOLD_TRIMMED_ARMOUR [ \
   "Black full helm (g)", \
   "Black platebody (g)", \
   "Black platelegs (g)", \
   "Black kiteshield (g)", \
-  "Black plateskirt (g)", \
+  "Black plateskirt (g)" \
 ]
 #define CONST_BLACK_OTHER [ \
   "Black Nails", \
   "Elite black full helm", \
   "Elite black platelegs", \
-  "Elite black platebody", \
+  "Elite black platebody" \
 ]
 #define CONST_BLACK_HERALDIC_ARMOUR [ \
   "Black helm (h1)", \
@@ -691,7 +691,7 @@ exampleItem: Dragon platelegs
   "Black shield (h2)", \
   "Black shield (h3)", \
   "Black shield (h4)", \
-  "Black shield (h5)", \
+  "Black shield (h5)" \
 ]
 
 #define CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS [ \
@@ -704,16 +704,16 @@ exampleItem: Dragon platelegs
   "Mithril hasta", \
   "Mithril longsword", \
   "Mithril warhammer", \
-  "Mithril battleaxe", \
+  "Mithril battleaxe" \
 ]
 #define CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS [ \
   "Mithril claws", \
   "Mithril spear", \
   "Mithril halberd", \
-  "Mithril 2h sword", \
+  "Mithril 2h sword" \
 ]
 #define CONST_MITHRIL_RANGED_WEAPONS [ \
-  "Mithril crossbow", \
+  "Mithril crossbow" \
 ]
 #define CONST_MITHRIL_AMMO [ \
   "Mithril dart", \
@@ -722,7 +722,7 @@ exampleItem: Dragon platelegs
   "Mithril arrow", \
   "Mithril bolts", \
   "Mithril brutal", \
-  "Mithril javelin", \
+  "Mithril javelin" \
 ]
 #define CONST_MITHRIL_ARMOUR [ \
   "Mithril boots", \
@@ -735,21 +735,21 @@ exampleItem: Dragon platelegs
   "Mithril plateskirt", \
   "Mithril kiteshield", \
   "Mithril chainbody", \
-  "Mithril platebody", \
+  "Mithril platebody" \
 ]
 #define CONST_MITHRIL_TRIMMED_ARMOUR [ \
   "Mithril full helm (t)", \
   "Mithril platebody (t)", \
   "Mithril platelegs (t)", \
   "Mithril kiteshield (t)", \
-  "Mithril plateskirt (t)", \
+  "Mithril plateskirt (t)" \
 ]
 #define CONST_MITHRIL_GOLD_TRIMMED_ARMOUR [ \
   "Mithril full helm (g)", \
   "Mithril platebody (g)", \
   "Mithril platelegs (g)", \
   "Mithril kiteshield (g)", \
-  "Mithril plateskirt (g)", \
+  "Mithril plateskirt (g)" \
 ]
 #define CONST_MITHRIL_OTHER [ \
   "Mithril Nails", \
@@ -758,7 +758,7 @@ exampleItem: Dragon platelegs
   "Mithril Dart tips", \
   "Mithril Unfinished bolts", \
   "Mith grapple tip", \
-  "Mith grapple", \
+  "Mith grapple" \
 ]
 
 #define CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS [ \
@@ -772,16 +772,16 @@ exampleItem: Dragon platelegs
   "Adamant hasta", \
   "Adamant longsword", \
   "Adamant warhammer", \
-  "Adamant battleaxe", \
+  "Adamant battleaxe" \
 ]
 #define CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS [ \
   "Adamant claws", \
   "Adamant spear", \
   "Adamant halberd", \
-  "Adamant 2h sword", \
+  "Adamant 2h sword" \
 ]
 #define CONST_ADAMANT_RANGED_WEAPONS [ \
-  "Adamant crossbow", \
+  "Adamant crossbow" \
 ]
 #define CONST_ADAMANT_AMMO [ \
   "Adamant dart", \
@@ -790,7 +790,7 @@ exampleItem: Dragon platelegs
   "Adamant arrow", \
   "Adamant bolts", \
   "Adamant brutal", \
-  "Adamant javelin", \
+  "Adamant javelin" \
 ]
 #define CONST_ADAMANT_ARMOUR [ \
   "Adamant boots", \
@@ -803,28 +803,28 @@ exampleItem: Dragon platelegs
   "Adamant plateskirt", \
   "Adamant kiteshield", \
   "Adamant chainbody", \
-  "Adamant platebody", \
+  "Adamant platebody" \
 ]
 #define CONST_ADAMANT_TRIMMED_ARMOUR [ \
   "Adamant full helm (t)", \
   "Adamant platebody (t)", \
   "Adamant platelegs (t)", \
   "Adamant kiteshield (t)", \
-  "Adamant plateskirt (t)", \
+  "Adamant plateskirt (t)" \
 ]
 #define CONST_ADAMANT_GOLD_TRIMMED_ARMOUR [ \
   "Adamant full helm (g)", \
   "Adamant platebody (g)", \
   "Adamant platelegs (g)", \
   "Adamant kiteshield (g)", \
-  "Adamant plateskirt (g)", \
+  "Adamant plateskirt (g)" \
 ]
 #define CONST_ADAMANT_OTHER [ \
   "Adamant Nails", \
   "Adamant Javelin heads", \
   "Adamant Arrowtips", \
   "Adamant Dart tips", \
-  "Adamant Unfinished bolts", \
+  "Adamant Unfinished bolts" \
 ]
 #define CONST_ADAMANT_HERALDIC_ARMOUR [ \
   "Adamant helm (h1)", \
@@ -841,7 +841,7 @@ exampleItem: Dragon platelegs
   "Adamant shield (h2)", \
   "Adamant shield (h3)", \
   "Adamant shield (h4)", \
-  "Adamant shield (h5)", \
+  "Adamant shield (h5)" \
 ]
 
 #define CONST_RUNE_ONE_HANDED_MELEE_WEAPONS [ \
@@ -854,16 +854,16 @@ exampleItem: Dragon platelegs
   "Rune hasta", \
   "Rune longsword", \
   "Rune warhammer", \
-  "Rune battleaxe", \
+  "Rune battleaxe" \
 ]
 #define CONST_RUNE_TWO_HANDED_MELEE_WEAPONS [ \
   "Rune claws", \
   "Rune spear", \
   "Rune halberd", \
-  "Rune 2h sword", \
+  "Rune 2h sword" \
 ]
 #define CONST_RUNE_RANGED_WEAPONS [ \
-  "Rune crossbow", \
+  "Rune crossbow" \
 ]
 #define CONST_RUNE_AMMO [ \
   "Rune dart", \
@@ -872,7 +872,7 @@ exampleItem: Dragon platelegs
   "Rune arrow", \
   "Rune bolts", \
   "Rune brutal", \
-  "Rune javelin", \
+  "Rune javelin" \
 ]
 #define CONST_RUNE_ARMOUR [ \
   "Rune boots", \
@@ -885,28 +885,28 @@ exampleItem: Dragon platelegs
   "Rune plateskirt", \
   "Rune kiteshield", \
   "Rune chainbody", \
-  "Rune platebody", \
+  "Rune platebody" \
 ]
 #define CONST_RUNE_TRIMMED_ARMOUR [ \
   "Rune full helm (t)", \
   "Rune platebody (t)", \
   "Rune platelegs (t)", \
   "Rune kiteshield (t)", \
-  "Rune plateskirt (t)", \
+  "Rune plateskirt (t)" \
 ]
 #define CONST_RUNE_GOLD_TRIMMED_ARMOUR [ \
   "Rune full helm (g)", \
   "Rune platebody (g)", \
   "Rune platelegs (g)", \
   "Rune kiteshield (g)", \
-  "Rune plateskirt (g)", \
+  "Rune plateskirt (g)" \
 ]
 #define CONST_RUNE_OTHER [ \
   "Rune Nails", \
   "Rune Javelin heads", \
   "Rune Arrowtips", \
   "Rune Dart tips", \
-  "Rune Unfinished bolts", \
+  "Rune Unfinished bolts" \
 ]
 #define CONST_RUNE_HERALDIC_ARMOUR [ \
   "Rune helm (h1)", \
@@ -923,7 +923,7 @@ exampleItem: Dragon platelegs
   "Rune shield (h2)", \
   "Rune shield (h3)", \
   "Rune shield (h4)", \
-  "Rune shield (h5)", \
+  "Rune shield (h5)" \
 ]
 #define CONST_RUNE_GILDED [ \
   "Gilded med helm", \
@@ -939,49 +939,49 @@ exampleItem: Dragon platelegs
   "Gilded hasta", \
   "Gilded spear", \
   "Gilded scimitar", \
-  "Gilded 2h sword", \
+  "Gilded 2h sword" \
 ]
 #define CONST_RUNE_ANCIENT_TRIMMED_ARMOUR [ \
   "Ancient full helm", \
   "Ancient platebody", \
   "Ancient platelegs", \
   "Ancient kiteshield", \
-  "Ancient plateskirt", \
+  "Ancient plateskirt" \
 ]
 #define CONST_RUNE_ARMADYL_TRIMMED_ARMOUR [ \
   "Armadyl full helm", \
   "Armadyl platebody", \
   "Armadyl platelegs", \
   "Armadyl kiteshield", \
-  "Armadyl plateskirt", \
+  "Armadyl plateskirt" \
 ]
 #define CONST_RUNE_BANDOS_TRIMMED_ARMOUR [ \
   "Bandos full helm", \
   "Bandos platebody", \
   "Bandos platelegs", \
   "Bandos kiteshield", \
-  "Bandos plateskirt", \
+  "Bandos plateskirt" \
 ]
 #define CONST_RUNE_GUTHIX_TRIMMED_ARMOUR [ \
   "Guthix full helm", \
   "Guthix platebody", \
   "Guthix platelegs", \
   "Guthix kiteshield", \
-  "Guthix plateskirt", \
+  "Guthix plateskirt" \
 ]
 #define CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR [ \
   "Saradomin full helm", \
   "Saradomin platebody", \
   "Saradomin platelegs", \
   "Saradomin kiteshield", \
-  "Saradomin plateskirt", \
+  "Saradomin plateskirt" \
 ]
 #define CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR [ \
   "Zamorak full helm", \
   "Zamorak platebody", \
   "Zamorak platelegs", \
   "Zamorak kiteshield", \
-  "Zamorak plateskirt", \
+  "Zamorak plateskirt" \
 ]
 
 #define CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS [ \
@@ -996,13 +996,13 @@ exampleItem: Dragon platelegs
   "Dragon scimitar", \
   "Dragon longsword", \
   "Dragon warhammer", \
-  "Dragon battleaxe", \
+  "Dragon battleaxe" \
 ]
 #define CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS [ \
   "Dragon claws", \
   "Dragon spear", \
   "Dragon halberd", \
-  "Dragon 2h sword", \
+  "Dragon 2h sword" \
 ]
 #define CONST_DRAGON_RANGED_WEAPONS [ \
   "Dragon crossbow" \
@@ -1013,7 +1013,7 @@ exampleItem: Dragon platelegs
   "Dragon thrownaxe", \
   "Dragon arrow", \
   "Dragon bolts", \
-  "Dragon javelin", \
+  "Dragon javelin" \
 ]
 #define CONST_DRAGON_ARMOUR [ \
   "Dragon med helm", \
@@ -1026,7 +1026,7 @@ exampleItem: Dragon platelegs
   "Dragon boots", \
   "Dragon sq shield", \
   "Dragon kiteshield", \
-  "Dragon defender", \
+  "Dragon defender" \
 ]
 
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {

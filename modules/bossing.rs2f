@@ -15,7 +15,7 @@ label: God Wars Dungeon force shown
 group: God Wars Dungeon
 */
 #define VAR_BOSSING_GOD_WARS_DUNGEON_SHOW [ \
-  "Hammer", \
+  "Hammer" \
 ]
 
 /*@ define:input:bossing
@@ -92,7 +92,7 @@ enum: [
 #define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE [ \
   "Steel arrow", \
   "Steel dart", \
-  "Unicorn horn", \
+  "Unicorn horn" \
 ]
 
 /*@ define:input:bossing
@@ -235,7 +235,7 @@ enum: [
 #define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE [ \
   "Steel arrow", \
   "Steel dart", \
-  "Right eye patch", \
+  "Right eye patch" \
 ]
 
 /*@ define:input:bossing
@@ -284,7 +284,7 @@ enum: [
   "Combat potion(3)", \
   "Super strength(3)", \
   "Beer", \
-  "Kebab", \
+  "Kebab" \
 ]
 
 /*@ define:input:bossing
@@ -308,7 +308,7 @@ enum: [
   "Big bones", \
   "Super restore(4)", \
   "Shark", \
-  "Chilli potato", \
+  "Chilli potato" \
 ]
 
 
@@ -400,7 +400,7 @@ enum: [
   "Runite bolts", \
   "Crystal key", \
   "Steel dart", \
-  "Steel arrow", \
+  "Steel arrow" \
 ]
 
 /*@ define:input:bossing
@@ -464,7 +464,7 @@ enum: [
   "Ranging potion(3)", \
   "Super defence(3)", \
   "Manta ray", \
-  "Mushroom potato", \
+  "Mushroom potato" \
 ]
 
 
@@ -550,7 +550,7 @@ enum: [
   "Malicious ashes", \
   "Adamant arrow(p++)", \
   "Steel dart", \
-  "Steel arrow", \
+  "Steel arrow" \
 ]
 
 /*@ define:input:bossing
@@ -594,7 +594,7 @@ enum: [
 #define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE [ \
   "Zamorak brew(3)", \
   "Super attack(3)", \
-  "Super strength(3)", \
+  "Super strength(3)" \
 ]
 
 /*@ define:input:bossing

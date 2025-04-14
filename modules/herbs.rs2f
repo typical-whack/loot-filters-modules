@@ -22,7 +22,7 @@ description: |
   "*cadantine", \
   "*lantadyme", \
   "*dwarf weed", \
-  "*torstol", \
+  "*torstol" \
 ]
 
 /*@ define:input:herbs
@@ -99,7 +99,7 @@ enum: [
 */
 #define VAR_HERBS_HIDE [ \
   "*Tarromin", \
-  "*Harralander", \
+  "*Harralander" \
 ]
 
 /*@ define:input:herbs
@@ -172,7 +172,7 @@ enum: [
   "*Ranarr weed", \
   "*Huasca", \
   "*Snapdragon", \
-  "*Torstol", \
+  "*Torstol" \
 ]
 
 

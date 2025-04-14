@@ -16,7 +16,7 @@ description: |
   "Cooked pyre fox", \
   "Cooked sunlight antelope", \
   "Cooked dashing kebbit", \
-  "Cooked moonlight antelope", \
+  "Cooked moonlight antelope" \
 ]
 
 #define CONST_FISH_FOODS_LIST [ \
@@ -44,7 +44,7 @@ description: |
   "Sea turtle", \
   "Manta ray", \
   "Anglerfish", \
-  "Dark crab", \
+  "Dark crab" \
 ]
 
 /*@ define:input:food
@@ -67,7 +67,7 @@ enum: [
   "Cooked wild kebbit", \
   "Cooked larupia", \
   "Cooked barb-tailed kebbit", \
-  "Cooked graahk", \
+  "Cooked graahk" \
 ]
 
 /*@ define:input:food
@@ -112,7 +112,7 @@ enum: [
   "Cod", \
   "Pike", \
   "Salmon", \
-  "Tuna", \
+  "Tuna" \
 ]
 
 /*@ define:input:food
@@ -134,7 +134,7 @@ enum: [
 #define VAR_FOOD_HUNTER_FOODS_SHOW [ \
   "Cooked sunlight antelope", \
   "Cooked dashing kebbit", \
-  "Cooked moonlight antelope", \
+  "Cooked moonlight antelope" \
 ]
 
 /*@ define:input:food
@@ -178,7 +178,7 @@ enum: [
   "Sea turtle", \
   "Manta ray", \
   "Anglerfish", \
-  "Dark crab", \
+  "Dark crab" \
 ]
 
 

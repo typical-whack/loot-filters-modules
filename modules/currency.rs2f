@@ -42,7 +42,7 @@ description: |
   "Tokkul", \
   "Trading sticks", \
   "Unidentified minerals", \
-  "Warrior guild token", \
+  "Warrior guild token" \
 ]
 
 /*@ define:input:currency
@@ -50,7 +50,7 @@ type: stringlist
 label: Currency to force hidden
 */
 #define VAR_CURRENCY_HIDE [ \
-  "Archery ticket", \
+  "Archery ticket" \
 ]
 
 

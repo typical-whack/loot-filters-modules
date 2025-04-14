@@ -59,7 +59,7 @@ enum: [
 ]
 */
 #define VAR_TOA_ROOM_ITEMS_HIDE [ \
-  "Neutralising potion", \
+  "Neutralising potion" \
 ]
 
 /*@ define:input:tombs_of_amascut
@@ -77,7 +77,7 @@ enum: [
   "Big banana", \
   "Eldritch ashes", \
   "Fang", \
-  "Scarab dung", \
+  "Scarab dung" \
 ]
 
 /*@ define:input:tombs_of_amascut
@@ -101,7 +101,7 @@ enum: [
   "Het's Capture", \
   "Scabaras' Capture", \
   "The Wardens", \
-  "The Jackal's Torch", \
+  "The Jackal's Torch" \
 ]
 
 

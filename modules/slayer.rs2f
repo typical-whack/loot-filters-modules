@@ -119,7 +119,7 @@ enum: [
 ]
 */
 #define VAR_SLAYER_WILDERNESS_SLAYER_HIDE [ \
-  "Slayer's enchantment", \
+  "Slayer's enchantment" \
 ]
 
 /*@ define:input:slayer
@@ -172,7 +172,7 @@ enum: [
 #define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE [ \
   "Blighted entangle sack", \
   "Blighted karambwan", \
-  "Blighted teleport spell sack", \
+  "Blighted teleport spell sack" \
 ]
 
 /*@ define:input:slayer
@@ -285,7 +285,7 @@ enum: [
   "Runite bolts", \
   "Shark", \
   "Steel bar", \
-  "Ugthanki kebab", \
+  "Ugthanki kebab" \
 ]
 
 /*@ define:input:slayer

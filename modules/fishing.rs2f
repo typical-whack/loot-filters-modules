@@ -16,7 +16,7 @@ description: |
   "Oily fishing rod", \
   "Harpoon", \
   "Lobster pot", \
-  "Karambwan vessel", \
+  "Karambwan vessel" \
 ]
 #define CONST_FISHING_BAIT_LIST [ \
   "Sandworms", \
@@ -26,7 +26,7 @@ description: |
   "Dark fishing bait", \
   "King worm", \
   "Fish chunks", \
-  "Raw karambwanji", \
+  "Raw karambwanji" \
 ]
 #define CONST_FISHING_RAW_FISH_LIST [ \
   "Raw shrimps", \
@@ -65,7 +65,7 @@ description: |
   "Common tench", \
   "Mottled eel", \
   "Greater siren", \
-  "Raw karambwan", \
+  "Raw karambwan" \
 ]
 
 /*@ define:input:fishing
@@ -91,7 +91,7 @@ enum: [
   "Fly fishing rod", \
   "Harpoon", \
   "Lobster pot", \
-  "Karambwan vessel", \
+  "Karambwan vessel" \
 ]
 
 /*@ define:input:fishing
@@ -114,7 +114,7 @@ enum: [
   "Feather", \
   "Stripy feather", \
   "King worm", \
-  "Fish chunks", \
+  "Fish chunks" \
 ]
 
 /*@ define:input:fishing
@@ -184,7 +184,7 @@ enum: [
   "Bluegill", \
   "Common tench", \
   "Mottled eel", \
-  "Greater siren", \
+  "Greater siren" \
 ]
 
 
