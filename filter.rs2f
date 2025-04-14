@@ -6556,9 +6556,9 @@ exampleItem: Lovakite bar
 
 /*@ define:input:bars
 type: style
-label: "'Perfect' gold bar custom style"
+label: 'Perfect' gold bar custom style
 group: Custom Styling
-exampleItem: "'Perfect' gold bar"
+exampleItem: 'Perfect' gold bar
 */
 #define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
