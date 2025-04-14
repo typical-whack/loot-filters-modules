@@ -45,6 +45,11 @@ label: Show Untradeable Value
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
+/*@ define:input:global_defaults
+type: boolean
+label: Show Only Owned Items
+*/
+#define VAR_GLOBAL_SHOW_ONLY_OWNED_ITEMS false
 
 /*@ define:input:global_defaults
 type: style
@@ -111,6 +116,9 @@ apply (tradeable:true && VAR_GLOBAL_SHOW_TRADEABLE_VALUE) {
 }
 apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
     showValue = true;
+}
+apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_SHOW_ONLY_OWNED_ITEMS) {
+    hidden = true;
 }
 
 apply (true) {
@@ -2740,7 +2748,8 @@ exampleItem: Dawnbringer
   backgroundColor = "#50ad62a7";\
   borderColor = "#FFb8a22e";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFad62a7";
+  menuTextColor = "#FFad62a7";\
+  hidden = false;
 
 /*@ define:input:theatre_of_blood
 type: style
