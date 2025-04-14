@@ -7,22 +7,22 @@ description: |
   Provides herb filters, quantity filters per herb, and custom styling for each herb. By default, this gives each herb unique styling.
 */
 
-#define CONST_ALL_HERBS [\
-    "*guam leaf", \
-    "*marrentill", \
-    "*tarromin", \
-    "*harralander", \
-    "*ranarr weed", \
-    "*toadflax", \
-    "*irit leaf", \
-    "*avantoe", \
-    "*kwuarm", \
-    "*huasca", \
-    "*snapdragon", \
-    "*cadantine", \
-    "*lantadyme", \
-    "*dwarf weed", \
-    "*torstol", \
+#define CONST_ALL_HERBS [ \
+  "*guam leaf", \
+  "*marrentill", \
+  "*tarromin", \
+  "*harralander", \
+  "*ranarr weed", \
+  "*toadflax", \
+  "*irit leaf", \
+  "*avantoe", \
+  "*kwuarm", \
+  "*huasca", \
+  "*snapdragon", \
+  "*cadantine", \
+  "*lantadyme", \
+  "*dwarf weed", \
+  "*torstol", \
 ]
 
 /*@ define:input:herbs
@@ -97,7 +97,10 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_HIDE ["*Tarromin", "*Harralander"]
+#define VAR_HERBS_HIDE [ \
+  "*Tarromin", \
+  "*Harralander", \
+]
 
 /*@ define:input:herbs
 type: enumlist
@@ -165,7 +168,12 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_SHOW ["*Ranarr weed", "*Huasca", "*Snapdragon", "*Torstol"]
+#define VAR_HERBS_SHOW [ \
+  "*Ranarr weed", \
+  "*Huasca", \
+  "*Snapdragon", \
+  "*Torstol", \
+]
 
 
 /*@ define:input:herbs
