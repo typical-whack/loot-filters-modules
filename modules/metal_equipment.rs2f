@@ -21,7 +21,13 @@ enum: [
   "Dragon*"
 ]
 */
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*", "Iron*", "Steel*", "Black*", "Mithril*"]
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE [ \
+  "Bronze*", \
+  "Iron*", \
+  "Steel*", \
+  "Black*", \
+  "Mithril*" \
+]
 
 
 /*@ define:input:metal_equipment
@@ -416,611 +422,611 @@ exampleItem: Dragon platelegs
   menuTextColor = "#FF541109";
 
 
-#define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [\
-    "Bronze dagger", \
-    "Bronze axe", \
-    "Bronze mace", \
-    "Bronze sword", \
-    "Bronze pickaxe", \
-    "Bronze scimitar", \
-    "Bronze hasta", \
-    "Bronze longsword", \
-    "Bronze warhammer", \
-    "Bronze battleaxe", \
+#define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [ \
+  "Bronze dagger", \
+  "Bronze axe", \
+  "Bronze mace", \
+  "Bronze sword", \
+  "Bronze pickaxe", \
+  "Bronze scimitar", \
+  "Bronze hasta", \
+  "Bronze longsword", \
+  "Bronze warhammer", \
+  "Bronze battleaxe" \
 ]
-#define CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS [\
-    "Bronze claws", \
-    "Bronze spear", \
-    "Bronze halberd", \
-    "Bronze 2h sword", \
+#define CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS [ \
+  "Bronze claws", \
+  "Bronze spear", \
+  "Bronze halberd", \
+  "Bronze 2h sword" \
 ]
-#define CONST_BRONZE_RANGED_WEAPONS [\
-    "Bronze crossbow", \
+#define CONST_BRONZE_RANGED_WEAPONS [ \
+  "Bronze crossbow" \
 ]
-#define CONST_BRONZE_AMMO [\
-    "Bronze dart", \
-    "Bronze knife", \
-    "Bronze thrownaxe", \
-    "Bronze arrow", \
-    "Bronze bolts", \
-    "Bronze brutal", \
-    "Bronze javelin", \
+#define CONST_BRONZE_AMMO [ \
+  "Bronze dart", \
+  "Bronze knife", \
+  "Bronze thrownaxe", \
+  "Bronze arrow", \
+  "Bronze bolts", \
+  "Bronze brutal", \
+  "Bronze javelin" \
 ]
-#define CONST_BRONZE_ARMOUR [\
-    "Bronze boots", \
-    "Bronze gloves", \
-    "Bronze defender", \
-    "Bronze med helm", \
-    "Bronze full helm", \
-    "Bronze sq shield", \
-    "Bronze platelegs", \
-    "Bronze plateskirt", \
-    "Bronze kiteshield", \
-    "Bronze chainbody", \
-    "Bronze platebody", \
+#define CONST_BRONZE_ARMOUR [ \
+  "Bronze boots", \
+  "Bronze gloves", \
+  "Bronze defender", \
+  "Bronze med helm", \
+  "Bronze full helm", \
+  "Bronze sq shield", \
+  "Bronze platelegs", \
+  "Bronze plateskirt", \
+  "Bronze kiteshield", \
+  "Bronze chainbody", \
+  "Bronze platebody" \
 ]
-#define CONST_BRONZE_TRIMMED_ARMOUR [\
-    "Bronze full helm (t)", \
-    "Bronze platebody (t)", \
-    "Bronze platelegs (t)", \
-    "Bronze kiteshield (t)", \
-    "Bronze plateskirt (t)", \
+#define CONST_BRONZE_TRIMMED_ARMOUR [ \
+  "Bronze full helm (t)", \
+  "Bronze platebody (t)", \
+  "Bronze platelegs (t)", \
+  "Bronze kiteshield (t)", \
+  "Bronze plateskirt (t)" \
 ]
-#define CONST_BRONZE_GOLD_TRIMMED_ARMOUR [\
-    "Bronze full helm (g)", \
-    "Bronze platebody (g)", \
-    "Bronze platelegs (g)", \
-    "Bronze kiteshield (g)", \
-    "Bronze plateskirt (g)", \
+#define CONST_BRONZE_GOLD_TRIMMED_ARMOUR [ \
+  "Bronze full helm (g)", \
+  "Bronze platebody (g)", \
+  "Bronze platelegs (g)", \
+  "Bronze kiteshield (g)", \
+  "Bronze plateskirt (g)" \
 ]
-#define CONST_BRONZE_OTHER [\
-    "Bronze Nails", \
-    "Bronze Javelin heads", \
-    "Bronze Arrowtips", \
-    "Bronze Dart tips", \
-    "Bronze Unfinished bolts", \
-]
-
-#define CONST_IRON_ONE_HANDED_MELEE_WEAPONS [\
-    "Iron dagger", \
-    "Iron axe", \
-    "Iron mace", \
-    "Iron sword", \
-    "Iron pickaxe", \
-    "Iron scimitar", \
-    "Iron hasta", \
-    "Iron longsword", \
-    "Iron warhammer", \
-    "Iron battleaxe", \
-]
-#define CONST_IRON_TWO_HANDED_MELEE_WEAPONS [\
-    "Iron claws", \
-    "Iron spear", \
-    "Iron halberd", \
-    "Iron 2h sword", \
-]
-#define CONST_IRON_RANGED_WEAPONS [\
-    "Iron crossbow", \
-]
-#define CONST_IRON_AMMO [\
-    "Iron dart", \
-    "Iron knife", \
-    "Iron thrownaxe", \
-    "Iron arrow", \
-    "Iron bolts", \
-    "Iron brutal", \
-    "Iron javelin", \
-]
-#define CONST_IRON_ARMOUR [\
-    "Iron boots", \
-    "Iron gloves", \
-    "Iron defender", \
-    "Iron med helm", \
-    "Iron full helm", \
-    "Iron sq shield", \
-    "Iron platelegs", \
-    "Iron plateskirt", \
-    "Iron kiteshield", \
-    "Iron chainbody", \
-    "Iron platebody", \
-]
-#define CONST_IRON_TRIMMED_ARMOUR [\
-    "Iron full helm (t)", \
-    "Iron platebody (t)", \
-    "Iron platelegs (t)", \
-    "Iron kiteshield (t)", \
-    "Iron plateskirt (t)", \
-]
-#define CONST_IRON_GOLD_TRIMMED_ARMOUR [\
-    "Iron full helm (g)", \
-    "Iron platebody (g)", \
-    "Iron platelegs (g)", \
-    "Iron kiteshield (g)", \
-    "Iron plateskirt (g)", \
-]
-#define CONST_IRON_OTHER [\
-    "Iron Nails", \
-    "Iron Javelin heads", \
-    "Iron Arrowtips", \
-    "Iron Dart tips", \
-    "Iron Unfinished bolts", \
-    "Oil lantern frame", \
-    "Cooking spit", \
+#define CONST_BRONZE_OTHER [ \
+  "Bronze Nails", \
+  "Bronze Javelin heads", \
+  "Bronze Arrowtips", \
+  "Bronze Dart tips", \
+  "Bronze Unfinished bolts" \
 ]
 
-#define CONST_STEEL_ONE_HANDED_MELEE_WEAPONS [\
-    "Steel dagger", \
-    "Steel axe", \
-    "Steel mace", \
-    "Steel sword", \
-    "Steel pickaxe", \
-    "Steel scimitar", \
-    "Steel hasta", \
-    "Steel longsword", \
-    "Steel warhammer", \
-    "Steel battleaxe", \
+#define CONST_IRON_ONE_HANDED_MELEE_WEAPONS [ \
+  "Iron dagger", \
+  "Iron axe", \
+  "Iron mace", \
+  "Iron sword", \
+  "Iron pickaxe", \
+  "Iron scimitar", \
+  "Iron hasta", \
+  "Iron longsword", \
+  "Iron warhammer", \
+  "Iron battleaxe" \
 ]
-#define CONST_STEEL_TWO_HANDED_MELEE_WEAPONS [\
-    "Steel claws", \
-    "Steel spear", \
-    "Steel halberd", \
-    "Steel 2h sword", \
+#define CONST_IRON_TWO_HANDED_MELEE_WEAPONS [ \
+  "Iron claws", \
+  "Iron spear", \
+  "Iron halberd", \
+  "Iron 2h sword" \
 ]
-#define CONST_STEEL_RANGED_WEAPONS [\
-    "Steel crossbow", \
+#define CONST_IRON_RANGED_WEAPONS [ \
+  "Iron crossbow" \
 ]
-#define CONST_STEEL_AMMO [\
-    "Steel dart", \
-    "Steel knife", \
-    "Steel thrownaxe", \
-    "Steel arrow", \
-    "Steel bolts", \
-    "Steel brutal", \
-    "Steel javelin", \
+#define CONST_IRON_AMMO [ \
+  "Iron dart", \
+  "Iron knife", \
+  "Iron thrownaxe", \
+  "Iron arrow", \
+  "Iron bolts", \
+  "Iron brutal", \
+  "Iron javelin" \
 ]
-#define CONST_STEEL_ARMOUR [\
-    "Steel boots", \
-    "Steel gloves", \
-    "Steel defender", \
-    "Steel med helm", \
-    "Steel full helm", \
-    "Steel sq shield", \
-    "Steel platelegs", \
-    "Steel plateskirt", \
-    "Steel kiteshield", \
-    "Steel chainbody", \
-    "Steel platebody", \
+#define CONST_IRON_ARMOUR [ \
+  "Iron boots", \
+  "Iron gloves", \
+  "Iron defender", \
+  "Iron med helm", \
+  "Iron full helm", \
+  "Iron sq shield", \
+  "Iron platelegs", \
+  "Iron plateskirt", \
+  "Iron kiteshield", \
+  "Iron chainbody", \
+  "Iron platebody" \
 ]
-#define CONST_STEEL_TRIMMED_ARMOUR [\
-    "Steel full helm (t)", \
-    "Steel platebody (t)", \
-    "Steel platelegs (t)", \
-    "Steel kiteshield (t)", \
-    "Steel plateskirt (t)", \
+#define CONST_IRON_TRIMMED_ARMOUR [ \
+  "Iron full helm (t)", \
+  "Iron platebody (t)", \
+  "Iron platelegs (t)", \
+  "Iron kiteshield (t)", \
+  "Iron plateskirt (t)" \
 ]
-#define CONST_STEEL_GOLD_TRIMMED_ARMOUR [\
-    "Steel full helm (g)", \
-    "Steel platebody (g)", \
-    "Steel platelegs (g)", \
-    "Steel kiteshield (g)", \
-    "Steel plateskirt (g)", \
+#define CONST_IRON_GOLD_TRIMMED_ARMOUR [ \
+  "Iron full helm (g)", \
+  "Iron platebody (g)", \
+  "Iron platelegs (g)", \
+  "Iron kiteshield (g)", \
+  "Iron plateskirt (g)" \
 ]
-#define CONST_STEEL_OTHER [\
-    "Steel Nails", \
-    "Steel Javelin heads", \
-    "Steel Arrowtips", \
-    "Steel Dart tips", \
-    "Steel Unfinished bolts", \
-    "Steel studs", \
+#define CONST_IRON_OTHER [ \
+  "Iron Nails", \
+  "Iron Javelin heads", \
+  "Iron Arrowtips", \
+  "Iron Dart tips", \
+  "Iron Unfinished bolts", \
+  "Oil lantern frame", \
+  "Cooking spit" \
 ]
 
-#define CONST_BLACK_ONE_HANDED_MELEE_WEAPONS [\
-    "Black dagger", \
-    "Black pickaxe", \
-    "Black axe", \
-    "Black sword", \
-    "Black mace", \
-    "Black scimitar", \
-    "Black longsword", \
-    "Black warhammer", \
-    "Black battleaxe", \
+#define CONST_STEEL_ONE_HANDED_MELEE_WEAPONS [ \
+  "Steel dagger", \
+  "Steel axe", \
+  "Steel mace", \
+  "Steel sword", \
+  "Steel pickaxe", \
+  "Steel scimitar", \
+  "Steel hasta", \
+  "Steel longsword", \
+  "Steel warhammer", \
+  "Steel battleaxe" \
 ]
-#define CONST_BLACK_TWO_HANDED_MELEE_WEAPONS [\
-    "Black claws", \
-    "Black spear", \
-    "Black halberd", \
-    "Black 2h sword", \
+#define CONST_STEEL_TWO_HANDED_MELEE_WEAPONS [ \
+  "Steel claws", \
+  "Steel spear", \
+  "Steel halberd", \
+  "Steel 2h sword" \
+]
+#define CONST_STEEL_RANGED_WEAPONS [ \
+  "Steel crossbow" \
+]
+#define CONST_STEEL_AMMO [ \
+  "Steel dart", \
+  "Steel knife", \
+  "Steel thrownaxe", \
+  "Steel arrow", \
+  "Steel bolts", \
+  "Steel brutal", \
+  "Steel javelin" \
+]
+#define CONST_STEEL_ARMOUR [ \
+  "Steel boots", \
+  "Steel gloves", \
+  "Steel defender", \
+  "Steel med helm", \
+  "Steel full helm", \
+  "Steel sq shield", \
+  "Steel platelegs", \
+  "Steel plateskirt", \
+  "Steel kiteshield", \
+  "Steel chainbody", \
+  "Steel platebody" \
+]
+#define CONST_STEEL_TRIMMED_ARMOUR [ \
+  "Steel full helm (t)", \
+  "Steel platebody (t)", \
+  "Steel platelegs (t)", \
+  "Steel kiteshield (t)", \
+  "Steel plateskirt (t)" \
+]
+#define CONST_STEEL_GOLD_TRIMMED_ARMOUR [ \
+  "Steel full helm (g)", \
+  "Steel platebody (g)", \
+  "Steel platelegs (g)", \
+  "Steel kiteshield (g)", \
+  "Steel plateskirt (g)" \
+]
+#define CONST_STEEL_OTHER [ \
+  "Steel Nails", \
+  "Steel Javelin heads", \
+  "Steel Arrowtips", \
+  "Steel Dart tips", \
+  "Steel Unfinished bolts", \
+  "Steel studs" \
+]
+
+#define CONST_BLACK_ONE_HANDED_MELEE_WEAPONS [ \
+  "Black dagger", \
+  "Black pickaxe", \
+  "Black axe", \
+  "Black sword", \
+  "Black mace", \
+  "Black scimitar", \
+  "Black longsword", \
+  "Black warhammer", \
+  "Black battleaxe" \
+]
+#define CONST_BLACK_TWO_HANDED_MELEE_WEAPONS [ \
+  "Black claws", \
+  "Black spear", \
+  "Black halberd", \
+  "Black 2h sword" \
 ]
 #define CONST_BLACK_RANGED_WEAPONS []
-#define CONST_BLACK_AMMO [\
-    "Black dart", \
-    "Black knife", \
-    "Black brutal", \
+#define CONST_BLACK_AMMO [ \
+  "Black dart", \
+  "Black knife", \
+  "Black brutal" \
 ]
-#define CONST_BLACK_ARMOUR [\
-    "Black gloves", \
-    "Black boots", \
-    "Black defender", \
-    "Black med helm", \
-    "Black full helm", \
-    "Black sq shield", \
-    "Black kiteshield", \
-    "Black platelegs", \
-    "Black plateskirt", \
-    "Black chainbody", \
-    "Black platebody", \
+#define CONST_BLACK_ARMOUR [ \
+  "Black gloves", \
+  "Black boots", \
+  "Black defender", \
+  "Black med helm", \
+  "Black full helm", \
+  "Black sq shield", \
+  "Black kiteshield", \
+  "Black platelegs", \
+  "Black plateskirt", \
+  "Black chainbody", \
+  "Black platebody" \
 ]
-#define CONST_BLACK_TRIMMED_ARMOUR [\
-    "Black full helm (t)", \
-    "Black platebody (t)", \
-    "Black platelegs (t)", \
-    "Black kiteshield (t)", \
-    "Black plateskirt (t)", \
+#define CONST_BLACK_TRIMMED_ARMOUR [ \
+  "Black full helm (t)", \
+  "Black platebody (t)", \
+  "Black platelegs (t)", \
+  "Black kiteshield (t)", \
+  "Black plateskirt (t)" \
 ]
-#define CONST_BLACK_GOLD_TRIMMED_ARMOUR [\
-    "Black full helm (g)", \
-    "Black platebody (g)", \
-    "Black platelegs (g)", \
-    "Black kiteshield (g)", \
-    "Black plateskirt (g)", \
+#define CONST_BLACK_GOLD_TRIMMED_ARMOUR [ \
+  "Black full helm (g)", \
+  "Black platebody (g)", \
+  "Black platelegs (g)", \
+  "Black kiteshield (g)", \
+  "Black plateskirt (g)" \
 ]
-#define CONST_BLACK_OTHER [\
-    "Black Nails", \
-    "Elite black full helm", \
-    "Elite black platelegs", \
-    "Elite black platebody", \
+#define CONST_BLACK_OTHER [ \
+  "Black Nails", \
+  "Elite black full helm", \
+  "Elite black platelegs", \
+  "Elite black platebody" \
 ]
-#define CONST_BLACK_HERALDIC_ARMOUR [\
-    "Black helm (h1)", \
-    "Black helm (h2)", \
-    "Black helm (h3)", \
-    "Black helm (h4)", \
-    "Black helm (h5)", \
-    "Black platebody (h1)", \
-    "Black platebody (h2)", \
-    "Black platebody (h3)", \
-    "Black platebody (h4)", \
-    "Black platebody (h5)", \
-    "Black shield (h1)", \
-    "Black shield (h2)", \
-    "Black shield (h3)", \
-    "Black shield (h4)", \
-    "Black shield (h5)", \
-]
-
-#define CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS [\
-    "Mithril dagger", \
-    "Mithril axe", \
-    "Mithril mace", \
-    "Mithril sword", \
-    "Mithril pickaxe", \
-    "Mithril scimitar", \
-    "Mithril hasta", \
-    "Mithril longsword", \
-    "Mithril warhammer", \
-    "Mithril battleaxe", \
-]
-#define CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS [\
-    "Mithril claws", \
-    "Mithril spear", \
-    "Mithril halberd", \
-    "Mithril 2h sword", \
-]
-#define CONST_MITHRIL_RANGED_WEAPONS [\
-    "Mithril crossbow", \
-]
-#define CONST_MITHRIL_AMMO [\
-    "Mithril dart", \
-    "Mithril knife", \
-    "Mithril thrownaxe", \
-    "Mithril arrow", \
-    "Mithril bolts", \
-    "Mithril brutal", \
-    "Mithril javelin", \
-]
-#define CONST_MITHRIL_ARMOUR [\
-    "Mithril boots", \
-    "Mithril gloves", \
-    "Mithril defender", \
-    "Mithril med helm", \
-    "Mithril full helm", \
-    "Mithril sq shield", \
-    "Mithril platelegs", \
-    "Mithril plateskirt", \
-    "Mithril kiteshield", \
-    "Mithril chainbody", \
-    "Mithril platebody", \
-]
-#define CONST_MITHRIL_TRIMMED_ARMOUR [\
-    "Mithril full helm (t)", \
-    "Mithril platebody (t)", \
-    "Mithril platelegs (t)", \
-    "Mithril kiteshield (t)", \
-    "Mithril plateskirt (t)", \
-]
-#define CONST_MITHRIL_GOLD_TRIMMED_ARMOUR [\
-    "Mithril full helm (g)", \
-    "Mithril platebody (g)", \
-    "Mithril platelegs (g)", \
-    "Mithril kiteshield (g)", \
-    "Mithril plateskirt (g)", \
-]
-#define CONST_MITHRIL_OTHER [\
-    "Mithril Nails", \
-    "Mithril Javelin heads", \
-    "Mithril Arrowtips", \
-    "Mithril Dart tips", \
-    "Mithril Unfinished bolts", \
-    "Mith grapple tip", \
-    "Mith grapple", \
+#define CONST_BLACK_HERALDIC_ARMOUR [ \
+  "Black helm (h1)", \
+  "Black helm (h2)", \
+  "Black helm (h3)", \
+  "Black helm (h4)", \
+  "Black helm (h5)", \
+  "Black platebody (h1)", \
+  "Black platebody (h2)", \
+  "Black platebody (h3)", \
+  "Black platebody (h4)", \
+  "Black platebody (h5)", \
+  "Black shield (h1)", \
+  "Black shield (h2)", \
+  "Black shield (h3)", \
+  "Black shield (h4)", \
+  "Black shield (h5)" \
 ]
 
-#define CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS [\
-    "Adamant dagger", \
-    "Adamant axe", \
-    "Adamant mace", \
-    "Adamant cane", \
-    "Adamant sword", \
-    "Adamant pickaxe", \
-    "Adamant scimitar", \
-    "Adamant hasta", \
-    "Adamant longsword", \
-    "Adamant warhammer", \
-    "Adamant battleaxe", \
+#define CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS [ \
+  "Mithril dagger", \
+  "Mithril axe", \
+  "Mithril mace", \
+  "Mithril sword", \
+  "Mithril pickaxe", \
+  "Mithril scimitar", \
+  "Mithril hasta", \
+  "Mithril longsword", \
+  "Mithril warhammer", \
+  "Mithril battleaxe" \
 ]
-#define CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS [\
-    "Adamant claws", \
-    "Adamant spear", \
-    "Adamant halberd", \
-    "Adamant 2h sword", \
+#define CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS [ \
+  "Mithril claws", \
+  "Mithril spear", \
+  "Mithril halberd", \
+  "Mithril 2h sword" \
 ]
-#define CONST_ADAMANT_RANGED_WEAPONS [\
-    "Adamant crossbow", \
+#define CONST_MITHRIL_RANGED_WEAPONS [ \
+  "Mithril crossbow" \
 ]
-#define CONST_ADAMANT_AMMO [\
-    "Adamant dart", \
-    "Adamant knife", \
-    "Adamant thrownaxe", \
-    "Adamant arrow", \
-    "Adamant bolts", \
-    "Adamant brutal", \
-    "Adamant javelin", \
+#define CONST_MITHRIL_AMMO [ \
+  "Mithril dart", \
+  "Mithril knife", \
+  "Mithril thrownaxe", \
+  "Mithril arrow", \
+  "Mithril bolts", \
+  "Mithril brutal", \
+  "Mithril javelin" \
 ]
-#define CONST_ADAMANT_ARMOUR [\
-    "Adamant boots", \
-    "Adamant gloves", \
-    "Adamant defender", \
-    "Adamant med helm", \
-    "Adamant full helm", \
-    "Adamant sq shield", \
-    "Adamant platelegs", \
-    "Adamant plateskirt", \
-    "Adamant kiteshield", \
-    "Adamant chainbody", \
-    "Adamant platebody", \
+#define CONST_MITHRIL_ARMOUR [ \
+  "Mithril boots", \
+  "Mithril gloves", \
+  "Mithril defender", \
+  "Mithril med helm", \
+  "Mithril full helm", \
+  "Mithril sq shield", \
+  "Mithril platelegs", \
+  "Mithril plateskirt", \
+  "Mithril kiteshield", \
+  "Mithril chainbody", \
+  "Mithril platebody" \
 ]
-#define CONST_ADAMANT_TRIMMED_ARMOUR [\
-    "Adamant full helm (t)", \
-    "Adamant platebody (t)", \
-    "Adamant platelegs (t)", \
-    "Adamant kiteshield (t)", \
-    "Adamant plateskirt (t)", \
+#define CONST_MITHRIL_TRIMMED_ARMOUR [ \
+  "Mithril full helm (t)", \
+  "Mithril platebody (t)", \
+  "Mithril platelegs (t)", \
+  "Mithril kiteshield (t)", \
+  "Mithril plateskirt (t)" \
 ]
-#define CONST_ADAMANT_GOLD_TRIMMED_ARMOUR [\
-    "Adamant full helm (g)", \
-    "Adamant platebody (g)", \
-    "Adamant platelegs (g)", \
-    "Adamant kiteshield (g)", \
-    "Adamant plateskirt (g)", \
+#define CONST_MITHRIL_GOLD_TRIMMED_ARMOUR [ \
+  "Mithril full helm (g)", \
+  "Mithril platebody (g)", \
+  "Mithril platelegs (g)", \
+  "Mithril kiteshield (g)", \
+  "Mithril plateskirt (g)" \
 ]
-#define CONST_ADAMANT_OTHER [\
-    "Adamant Nails", \
-    "Adamant Javelin heads", \
-    "Adamant Arrowtips", \
-    "Adamant Dart tips", \
-    "Adamant Unfinished bolts", \
-]
-#define CONST_ADAMANT_HERALDIC_ARMOUR [\
-    "Adamant helm (h1)", \
-    "Adamant helm (h2)", \
-    "Adamant helm (h3)", \
-    "Adamant helm (h4)", \
-    "Adamant helm (h5)", \
-    "Adamant platebody (h1)", \
-    "Adamant platebody (h2)", \
-    "Adamant platebody (h3)", \
-    "Adamant platebody (h4)", \
-    "Adamant platebody (h5)", \
-    "Adamant shield (h1)", \
-    "Adamant shield (h2)", \
-    "Adamant shield (h3)", \
-    "Adamant shield (h4)", \
-    "Adamant shield (h5)", \
+#define CONST_MITHRIL_OTHER [ \
+  "Mithril Nails", \
+  "Mithril Javelin heads", \
+  "Mithril Arrowtips", \
+  "Mithril Dart tips", \
+  "Mithril Unfinished bolts", \
+  "Mith grapple tip", \
+  "Mith grapple" \
 ]
 
-#define CONST_RUNE_ONE_HANDED_MELEE_WEAPONS [\
-    "Rune dagger", \
-    "Rune axe", \
-    "Rune mace", \
-    "Rune sword", \
-    "Rune pickaxe", \
-    "Rune scimitar", \
-    "Rune hasta", \
-    "Rune longsword", \
-    "Rune warhammer", \
-    "Rune battleaxe", \
+#define CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS [ \
+  "Adamant dagger", \
+  "Adamant axe", \
+  "Adamant mace", \
+  "Adamant cane", \
+  "Adamant sword", \
+  "Adamant pickaxe", \
+  "Adamant scimitar", \
+  "Adamant hasta", \
+  "Adamant longsword", \
+  "Adamant warhammer", \
+  "Adamant battleaxe" \
 ]
-#define CONST_RUNE_TWO_HANDED_MELEE_WEAPONS [\
-    "Rune claws", \
-    "Rune spear", \
-    "Rune halberd", \
-    "Rune 2h sword", \
+#define CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS [ \
+  "Adamant claws", \
+  "Adamant spear", \
+  "Adamant halberd", \
+  "Adamant 2h sword" \
 ]
-#define CONST_RUNE_RANGED_WEAPONS [\
-    "Rune crossbow", \
+#define CONST_ADAMANT_RANGED_WEAPONS [ \
+  "Adamant crossbow" \
 ]
-#define CONST_RUNE_AMMO [\
-    "Rune dart", \
-    "Rune knife", \
-    "Rune thrownaxe", \
-    "Rune arrow", \
-    "Rune bolts", \
-    "Rune brutal", \
-    "Rune javelin", \
+#define CONST_ADAMANT_AMMO [ \
+  "Adamant dart", \
+  "Adamant knife", \
+  "Adamant thrownaxe", \
+  "Adamant arrow", \
+  "Adamant bolts", \
+  "Adamant brutal", \
+  "Adamant javelin" \
 ]
-#define CONST_RUNE_ARMOUR [\
-    "Rune boots", \
-    "Rune gloves", \
-    "Rune defender", \
-    "Rune med helm", \
-    "Rune full helm", \
-    "Rune sq shield", \
-    "Rune platelegs", \
-    "Rune plateskirt", \
-    "Rune kiteshield", \
-    "Rune chainbody", \
-    "Rune platebody", \
+#define CONST_ADAMANT_ARMOUR [ \
+  "Adamant boots", \
+  "Adamant gloves", \
+  "Adamant defender", \
+  "Adamant med helm", \
+  "Adamant full helm", \
+  "Adamant sq shield", \
+  "Adamant platelegs", \
+  "Adamant plateskirt", \
+  "Adamant kiteshield", \
+  "Adamant chainbody", \
+  "Adamant platebody" \
 ]
-#define CONST_RUNE_TRIMMED_ARMOUR [\
-    "Rune full helm (t)", \
-    "Rune platebody (t)", \
-    "Rune platelegs (t)", \
-    "Rune kiteshield (t)", \
-    "Rune plateskirt (t)", \
+#define CONST_ADAMANT_TRIMMED_ARMOUR [ \
+  "Adamant full helm (t)", \
+  "Adamant platebody (t)", \
+  "Adamant platelegs (t)", \
+  "Adamant kiteshield (t)", \
+  "Adamant plateskirt (t)" \
 ]
-#define CONST_RUNE_GOLD_TRIMMED_ARMOUR [\
-    "Rune full helm (g)", \
-    "Rune platebody (g)", \
-    "Rune platelegs (g)", \
-    "Rune kiteshield (g)", \
-    "Rune plateskirt (g)", \
+#define CONST_ADAMANT_GOLD_TRIMMED_ARMOUR [ \
+  "Adamant full helm (g)", \
+  "Adamant platebody (g)", \
+  "Adamant platelegs (g)", \
+  "Adamant kiteshield (g)", \
+  "Adamant plateskirt (g)" \
 ]
-#define CONST_RUNE_OTHER [\
-    "Rune Nails", \
-    "Rune Javelin heads", \
-    "Rune Arrowtips", \
-    "Rune Dart tips", \
-    "Rune Unfinished bolts", \
+#define CONST_ADAMANT_OTHER [ \
+  "Adamant Nails", \
+  "Adamant Javelin heads", \
+  "Adamant Arrowtips", \
+  "Adamant Dart tips", \
+  "Adamant Unfinished bolts" \
 ]
-#define CONST_RUNE_HERALDIC_ARMOUR [\
-    "Rune helm (h1)", \
-    "Rune helm (h2)", \
-    "Rune helm (h3)", \
-    "Rune helm (h4)", \
-    "Rune helm (h5)", \
-    "Rune platebody (h1)", \
-    "Rune platebody (h2)", \
-    "Rune platebody (h3)", \
-    "Rune platebody (h4)", \
-    "Rune platebody (h5)", \
-    "Rune shield (h1)", \
-    "Rune shield (h2)", \
-    "Rune shield (h3)", \
-    "Rune shield (h4)", \
-    "Rune shield (h5)", \
-]
-#define CONST_RUNE_GILDED [\
-    "Gilded med helm", \
-    "Gilded full helm", \
-    "Gilded chainbody", \
-    "Gilded platebody", \
-    "Gilded platelegs", \
-    "Gilded plateskirt", \
-    "Gilded boots", \
-    "Gilded defender", \
-    "Gilded sq shield", \
-    "Gilded kiteshield", \
-    "Gilded hasta", \
-    "Gilded spear", \
-    "Gilded scimitar", \
-    "Gilded 2h sword", \
-]
-#define CONST_RUNE_ANCIENT_TRIMMED_ARMOUR [\
-    "Ancient full helm", \
-    "Ancient platebody", \
-    "Ancient platelegs", \
-    "Ancient kiteshield", \
-    "Ancient plateskirt", \
-]
-#define CONST_RUNE_ARMADYL_TRIMMED_ARMOUR [\
-    "Armadyl full helm", \
-    "Armadyl platebody", \
-    "Armadyl platelegs", \
-    "Armadyl kiteshield", \
-    "Armadyl plateskirt", \
-]
-#define CONST_RUNE_BANDOS_TRIMMED_ARMOUR [\
-    "Bandos full helm", \
-    "Bandos platebody", \
-    "Bandos platelegs", \
-    "Bandos kiteshield", \
-    "Bandos plateskirt", \
-]
-#define CONST_RUNE_GUTHIX_TRIMMED_ARMOUR [\
-    "Guthix full helm", \
-    "Guthix platebody", \
-    "Guthix platelegs", \
-    "Guthix kiteshield", \
-    "Guthix plateskirt", \
-]
-#define CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR [\
-    "Saradomin full helm", \
-    "Saradomin platebody", \
-    "Saradomin platelegs", \
-    "Saradomin kiteshield", \
-    "Saradomin plateskirt", \
-]
-#define CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR [\
-    "Zamorak full helm", \
-    "Zamorak platebody", \
-    "Zamorak platelegs", \
-    "Zamorak kiteshield", \
-    "Zamorak plateskirt", \
+#define CONST_ADAMANT_HERALDIC_ARMOUR [ \
+  "Adamant helm (h1)", \
+  "Adamant helm (h2)", \
+  "Adamant helm (h3)", \
+  "Adamant helm (h4)", \
+  "Adamant helm (h5)", \
+  "Adamant platebody (h1)", \
+  "Adamant platebody (h2)", \
+  "Adamant platebody (h3)", \
+  "Adamant platebody (h4)", \
+  "Adamant platebody (h5)", \
+  "Adamant shield (h1)", \
+  "Adamant shield (h2)", \
+  "Adamant shield (h3)", \
+  "Adamant shield (h4)", \
+  "Adamant shield (h5)" \
 ]
 
-#define CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS [\
-    "Dragon dagger", \
-    "Dragon axe", \
-    "Dragon pickaxe", \
-    "Dragon harpoon", \
-    "Dragon mace", \
-    "Dragon cane", \
-    "Dragon hasta", \
-    "Dragon sword", \
-    "Dragon scimitar", \
-    "Dragon longsword", \
-    "Dragon warhammer", \
-    "Dragon battleaxe", \
+#define CONST_RUNE_ONE_HANDED_MELEE_WEAPONS [ \
+  "Rune dagger", \
+  "Rune axe", \
+  "Rune mace", \
+  "Rune sword", \
+  "Rune pickaxe", \
+  "Rune scimitar", \
+  "Rune hasta", \
+  "Rune longsword", \
+  "Rune warhammer", \
+  "Rune battleaxe" \
 ]
-#define CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS [\
-    "Dragon claws", \
-    "Dragon spear", \
-    "Dragon halberd", \
-    "Dragon 2h sword", \
+#define CONST_RUNE_TWO_HANDED_MELEE_WEAPONS [ \
+  "Rune claws", \
+  "Rune spear", \
+  "Rune halberd", \
+  "Rune 2h sword" \
 ]
-#define CONST_DRAGON_RANGED_WEAPONS [\
-    "Dragon crossbow" \
+#define CONST_RUNE_RANGED_WEAPONS [ \
+  "Rune crossbow" \
 ]
-#define CONST_DRAGON_AMMO [\
-    "Dragon knife", \
-    "Dragon dart", \
-    "Dragon thrownaxe", \
-    "Dragon arrow", \
-    "Dragon bolts", \
-    "Dragon javelin", \
+#define CONST_RUNE_AMMO [ \
+  "Rune dart", \
+  "Rune knife", \
+  "Rune thrownaxe", \
+  "Rune arrow", \
+  "Rune bolts", \
+  "Rune brutal", \
+  "Rune javelin" \
 ]
-#define CONST_DRAGON_ARMOUR [\
-    "Dragon med helm", \
-    "Dragon full helm", \
-    "Dragon chainbody", \
-    "Dragon platebody", \
-    "Dragon platelegs", \
-    "Dragon plateskirt", \
-    "Dragon gloves", \
-    "Dragon boots", \
-    "Dragon sq shield", \
-    "Dragon kiteshield", \
-    "Dragon defender", \
+#define CONST_RUNE_ARMOUR [ \
+  "Rune boots", \
+  "Rune gloves", \
+  "Rune defender", \
+  "Rune med helm", \
+  "Rune full helm", \
+  "Rune sq shield", \
+  "Rune platelegs", \
+  "Rune plateskirt", \
+  "Rune kiteshield", \
+  "Rune chainbody", \
+  "Rune platebody" \
+]
+#define CONST_RUNE_TRIMMED_ARMOUR [ \
+  "Rune full helm (t)", \
+  "Rune platebody (t)", \
+  "Rune platelegs (t)", \
+  "Rune kiteshield (t)", \
+  "Rune plateskirt (t)" \
+]
+#define CONST_RUNE_GOLD_TRIMMED_ARMOUR [ \
+  "Rune full helm (g)", \
+  "Rune platebody (g)", \
+  "Rune platelegs (g)", \
+  "Rune kiteshield (g)", \
+  "Rune plateskirt (g)" \
+]
+#define CONST_RUNE_OTHER [ \
+  "Rune Nails", \
+  "Rune Javelin heads", \
+  "Rune Arrowtips", \
+  "Rune Dart tips", \
+  "Rune Unfinished bolts" \
+]
+#define CONST_RUNE_HERALDIC_ARMOUR [ \
+  "Rune helm (h1)", \
+  "Rune helm (h2)", \
+  "Rune helm (h3)", \
+  "Rune helm (h4)", \
+  "Rune helm (h5)", \
+  "Rune platebody (h1)", \
+  "Rune platebody (h2)", \
+  "Rune platebody (h3)", \
+  "Rune platebody (h4)", \
+  "Rune platebody (h5)", \
+  "Rune shield (h1)", \
+  "Rune shield (h2)", \
+  "Rune shield (h3)", \
+  "Rune shield (h4)", \
+  "Rune shield (h5)" \
+]
+#define CONST_RUNE_GILDED [ \
+  "Gilded med helm", \
+  "Gilded full helm", \
+  "Gilded chainbody", \
+  "Gilded platebody", \
+  "Gilded platelegs", \
+  "Gilded plateskirt", \
+  "Gilded boots", \
+  "Gilded defender", \
+  "Gilded sq shield", \
+  "Gilded kiteshield", \
+  "Gilded hasta", \
+  "Gilded spear", \
+  "Gilded scimitar", \
+  "Gilded 2h sword" \
+]
+#define CONST_RUNE_ANCIENT_TRIMMED_ARMOUR [ \
+  "Ancient full helm", \
+  "Ancient platebody", \
+  "Ancient platelegs", \
+  "Ancient kiteshield", \
+  "Ancient plateskirt" \
+]
+#define CONST_RUNE_ARMADYL_TRIMMED_ARMOUR [ \
+  "Armadyl full helm", \
+  "Armadyl platebody", \
+  "Armadyl platelegs", \
+  "Armadyl kiteshield", \
+  "Armadyl plateskirt" \
+]
+#define CONST_RUNE_BANDOS_TRIMMED_ARMOUR [ \
+  "Bandos full helm", \
+  "Bandos platebody", \
+  "Bandos platelegs", \
+  "Bandos kiteshield", \
+  "Bandos plateskirt" \
+]
+#define CONST_RUNE_GUTHIX_TRIMMED_ARMOUR [ \
+  "Guthix full helm", \
+  "Guthix platebody", \
+  "Guthix platelegs", \
+  "Guthix kiteshield", \
+  "Guthix plateskirt" \
+]
+#define CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR [ \
+  "Saradomin full helm", \
+  "Saradomin platebody", \
+  "Saradomin platelegs", \
+  "Saradomin kiteshield", \
+  "Saradomin plateskirt" \
+]
+#define CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR [ \
+  "Zamorak full helm", \
+  "Zamorak platebody", \
+  "Zamorak platelegs", \
+  "Zamorak kiteshield", \
+  "Zamorak plateskirt" \
+]
+
+#define CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS [ \
+  "Dragon dagger", \
+  "Dragon axe", \
+  "Dragon pickaxe", \
+  "Dragon harpoon", \
+  "Dragon mace", \
+  "Dragon cane", \
+  "Dragon hasta", \
+  "Dragon sword", \
+  "Dragon scimitar", \
+  "Dragon longsword", \
+  "Dragon warhammer", \
+  "Dragon battleaxe" \
+]
+#define CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS [ \
+  "Dragon claws", \
+  "Dragon spear", \
+  "Dragon halberd", \
+  "Dragon 2h sword" \
+]
+#define CONST_DRAGON_RANGED_WEAPONS [ \
+  "Dragon crossbow" \
+]
+#define CONST_DRAGON_AMMO [ \
+  "Dragon knife", \
+  "Dragon dart", \
+  "Dragon thrownaxe", \
+  "Dragon arrow", \
+  "Dragon bolts", \
+  "Dragon javelin" \
+]
+#define CONST_DRAGON_ARMOUR [ \
+  "Dragon med helm", \
+  "Dragon full helm", \
+  "Dragon chainbody", \
+  "Dragon platebody", \
+  "Dragon platelegs", \
+  "Dragon plateskirt", \
+  "Dragon gloves", \
+  "Dragon boots", \
+  "Dragon sq shield", \
+  "Dragon kiteshield", \
+  "Dragon defender" \
 ]
 
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {

@@ -213,7 +213,20 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_HIDE ["Attack potion(*", "Strength potion(*", "Serum 207(*", "Compost potion(*", "Restore potion(*", "Energy potion(*", "Defence potion(*", "Agility potion(*", "Combat potion(*", "Fishing potion(*", "Hunter potion(*", "Antidote+(*"]
+#define VAR_POTIONS_HIDE [ \
+  "Attack potion(*", \
+  "Strength potion(*", \
+  "Serum 207(*", \
+  "Compost potion(*", \
+  "Restore potion(*", \
+  "Energy potion(*", \
+  "Defence potion(*", \
+  "Agility potion(*", \
+  "Combat potion(*", \
+  "Fishing potion(*", \
+  "Hunter potion(*", \
+  "Antidote+(*" \
+]
 
 /*@ define:input:potions
 type: enumlist
@@ -421,7 +434,36 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_SHOW ["Anti-venom(*", "Anti-venom+(*", "Antidote++(*", "Antifire potion(*", "Bastion potion(*", "Battlemage potion(*", "Divine bastion potion(*", "Divine battlemage potion(*", "Divine magic potion(*", "Divine ranging potion(*", "Divine super attack potion(*", "Divine super combat potion(*", "Divine super defence potion(*", "Divine super strength potion(*", "Extended anti-venom+(*", "Extended antifire(*", "Extended super antifire(*", "Forgotten brew(*", "Goading potion(*", "Menaphite remedy(*", "Prayer regeneration potion(*", "Ranging potion(*", "Sanfew serum(*", "Saradomin brew(*", "Stamina potion(*", "Super antifire potion(*", "Super combat potion(*", "Super restore(*"]
+#define VAR_POTIONS_SHOW [ \
+  "Anti-venom(*", \
+  "Anti-venom+(*", \
+  "Antidote++(*", \
+  "Antifire potion(*", \
+  "Bastion potion(*", \
+  "Battlemage potion(*", \
+  "Divine bastion potion(*", \
+  "Divine battlemage potion(*", \
+  "Divine magic potion(*", \
+  "Divine ranging potion(*", \
+  "Divine super attack potion(*", \
+  "Divine super combat potion(*", \
+  "Divine super defence potion(*", \
+  "Divine super strength potion(*", \
+  "Extended anti-venom+(*", \
+  "Extended antifire(*", \
+  "Extended super antifire(*", \
+  "Forgotten brew(*", \
+  "Goading potion(*", \
+  "Menaphite remedy(*", \
+  "Prayer regeneration potion(*", \
+  "Ranging potion(*", \
+  "Sanfew serum(*", \
+  "Saradomin brew(*", \
+  "Stamina potion(*", \
+  "Super antifire potion(*", \
+  "Super combat potion(*", \
+  "Super restore(*" \
+]
 
 
 

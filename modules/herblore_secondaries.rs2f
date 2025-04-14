@@ -7,31 +7,31 @@ description: |
   Provides some basic filtering for herblore secondaries.
 */
 
-#define CONST_SECONDARIES_LIST [\
-    "Eye of newt", \
-    "Unicorn horn dust", \
-    "Limpwurt root", \
-    "Volcanic ash", \
-    "Red spiders' eggs", \
-    "Chocolate dust", \
-    "White berries", \
-    "Toad's legs", \
-    "Goat horn dust", \
-    "Snape grass", \
-    "Mort myre fungus", \
-    "Kebbit teeth dust", \
-    "Dragon scale dust", \
-    "Nail beast nails", \
-    "Yew roots", \
-    "Wine of zamorak", \
-    "Potato cactus", \
-    "Jangerberries", \
-    "Magic roots", \
-    "Crushed nest", \
-    "Poison ivy berries", \
-    "Nihil dust", \
-    "Lily of the sands", \
-    "Aldarium", \
+#define CONST_SECONDARIES_LIST [ \
+  "Eye of newt", \
+  "Unicorn horn dust", \
+  "Limpwurt root", \
+  "Volcanic ash", \
+  "Red spiders' eggs", \
+  "Chocolate dust", \
+  "White berries", \
+  "Toad's legs", \
+  "Goat horn dust", \
+  "Snape grass", \
+  "Mort myre fungus", \
+  "Kebbit teeth dust", \
+  "Dragon scale dust", \
+  "Nail beast nails", \
+  "Yew roots", \
+  "Wine of zamorak", \
+  "Potato cactus", \
+  "Jangerberries", \
+  "Magic roots", \
+  "Crushed nest", \
+  "Poison ivy berries", \
+  "Nihil dust", \
+  "Lily of the sands", \
+  "Aldarium" \
 ]
 
 /*@ define:input:herblore_secondaries
@@ -64,7 +64,11 @@ enum: [
   "Aldarium"
 ]
 */
-#define VAR_SECONDARIES_HIDE ["Eye of newt", "Volcanic ash", "Chocolate dust"]
+#define VAR_SECONDARIES_HIDE [ \
+  "Eye of newt", \
+  "Volcanic ash", \
+  "Chocolate dust" \
+]
 
 /*@ define:input:herblore_secondaries
 type: number

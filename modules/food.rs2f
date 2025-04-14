@@ -7,44 +7,44 @@ description: |
   This module provides filters based on food groups with some sane defaults. It also provides styling options available for every food group that has a filter. This can be done at the group level or on a food-by-food basis. A few popular foods have been given custom styling out of the box.
 */
 
-#define CONST_HUNTER_FOODS_LIST [\
-    "Cooked wild kebbit", \
-    "Cooked larupia", \
-    "Cooked barb-tailed kebbit", \
-    "Cooked graahk", \
-    "Cooked kyatt", \
-    "Cooked pyre fox", \
-    "Cooked sunlight antelope", \
-    "Cooked dashing kebbit", \
-    "Cooked moonlight antelope", \
+#define CONST_HUNTER_FOODS_LIST [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk", \
+  "Cooked kyatt", \
+  "Cooked pyre fox", \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope" \
 ]
 
-#define CONST_FISH_FOODS_LIST [\
-    "Shrimp", \
-    "Sardine", \
-    "Karambwanji", \
-    "Herring", \
-    "Anchovies", \
-    "Mackerel", \
-    "Trout", \
-    "Cod", \
-    "Pike", \
-    "Slimy eel", \
-    "Salmon", \
-    "Tuna", \
-    "Rainbow fish", \
-    "Cave eel", \
-    "Lobster", \
-    "Bass", \
-    "Swordfish", \
-    "Lava eel", \
-    "Monkfish", \
-    "Cooked karambwan", \
-    "Shark", \
-    "Sea turtle", \
-    "Manta ray", \
-    "Anglerfish", \
-    "Dark crab", \
+#define CONST_FISH_FOODS_LIST [ \
+  "Shrimp", \
+  "Sardine", \
+  "Karambwanji", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Slimy eel", \
+  "Salmon", \
+  "Tuna", \
+  "Rainbow fish", \
+  "Cave eel", \
+  "Lobster", \
+  "Bass", \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab" \
 ]
 
 /*@ define:input:food
@@ -63,7 +63,12 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit", "Cooked larupia", "Cooked barb-tailed kebbit", "Cooked graahk"]
+#define VAR_FOOD_HUNTER_FOODS_HIDE [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk" \
+]
 
 /*@ define:input:food
 type: enumlist
@@ -97,7 +102,18 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp", "Sardine", "Herring", "Anchovies", "Mackerel", "Trout", "Cod", "Pike", "Salmon", "Tuna"]
+#define VAR_FOOD_FISH_FOODS_HIDE [ \
+  "Shrimp", \
+  "Sardine", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Salmon", \
+  "Tuna" \
+]
 
 /*@ define:input:food
 type: enumlist
@@ -115,7 +131,11 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_SHOW ["Cooked sunlight antelope", "Cooked dashing kebbit", "Cooked moonlight antelope"]
+#define VAR_FOOD_HUNTER_FOODS_SHOW [ \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope" \
+]
 
 /*@ define:input:food
 type: enumlist
@@ -149,7 +169,17 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_SHOW ["Swordfish", "Lava eel", "Monkfish", "Cooked karambwan", "Shark", "Sea turtle", "Manta ray", "Anglerfish", "Dark crab"]
+#define VAR_FOOD_FISH_FOODS_SHOW [ \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab" \
+]
 
 
 /*@ define:input:food

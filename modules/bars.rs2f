@@ -29,7 +29,12 @@ enum: [
   "'Perfect' gold bar"
 ]
 */
-#define VAR_BARS_HIDE ["Bronze bar", "Iron bar", "Silver bar", "Gold bar"]
+#define VAR_BARS_HIDE [ \
+  "Bronze bar", \
+  "Iron bar", \
+  "Silver bar", \
+  "Gold bar" \
+]
 
 
 /*@ define:input:bars

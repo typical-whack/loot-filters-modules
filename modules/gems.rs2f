@@ -240,66 +240,102 @@ apply (name:VAR_GEMS_HIDE) {
     hidden = true;
 }
 
-apply (name:["Uncut sapphire", "Sapphire"]) {
+apply (name:["Uncut sapphire", \
+  "Sapphire" \
+]) {
     VAR_SAPPHIRE_CUSTOMSTYLE 
 }
-apply (name:["Uncut sapphire", "Sapphire"] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
+apply (name:["Uncut sapphire", \
+  "Sapphire" \
+] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut emerald", "Emerald"]) {
+apply (name:["Uncut emerald", \
+  "Emerald" \
+]) {
     VAR_EMERALD_CUSTOMSTYLE 
 }
-apply (name:["Uncut emerald", "Emerald"] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
+apply (name:["Uncut emerald", \
+  "Emerald" \
+] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut ruby", "Ruby"]) {
+apply (name:["Uncut ruby", \
+  "Ruby" \
+]) {
     VAR_RUBY_CUSTOMSTYLE 
 }
-apply (name:["Uncut ruby", "Ruby"] && quantity:<VAR_RUBY_MIN_QUANTITY) {
+apply (name:["Uncut ruby", \
+  "Ruby" \
+] && quantity:<VAR_RUBY_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut diamond", "Diamond"]) {
+apply (name:["Uncut diamond", \
+  "Diamond" \
+]) {
     VAR_DIAMOND_CUSTOMSTYLE 
 }
-apply (name:["Uncut diamond", "Diamond"] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
+apply (name:["Uncut diamond", \
+  "Diamond" \
+] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut opal", "Opal"]) {
+apply (name:["Uncut opal", \
+  "Opal" \
+]) {
     VAR_OPAL_CUSTOMSTYLE 
 }
-apply (name:["Uncut opal", "Opal"] && quantity:<VAR_OPAL_MIN_QUANTITY) {
+apply (name:["Uncut opal", \
+  "Opal" \
+] && quantity:<VAR_OPAL_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut jade", "Jade"]) {
+apply (name:["Uncut jade", \
+  "Jade" \
+]) {
     VAR_JADE_CUSTOMSTYLE 
 }
-apply (name:["Uncut jade", "Jade"] && quantity:<VAR_JADE_MIN_QUANTITY) {
+apply (name:["Uncut jade", \
+  "Jade" \
+] && quantity:<VAR_JADE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut red topaz", "Red topaz"]) {
+apply (name:["Uncut red topaz", \
+  "Red topaz" \
+]) {
     VAR_RED_TOPAZ_CUSTOMSTYLE 
 }
- apply (name:["Uncut red topaz", "Red topaz"] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
+ apply (name:["Uncut red topaz", \
+  "Red topaz" \
+] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut dragonstone", "Dragonstone"]) {
+apply (name:["Uncut dragonstone", \
+  "Dragonstone" \
+]) {
     VAR_DRAGONSTONE_CUSTOMSTYLE 
 }
-apply (name:["Uncut dragonstone", "Dragonstone"] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
+apply (name:["Uncut dragonstone", \
+  "Dragonstone" \
+] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut onyx", "Onyx"]) {
+apply (name:["Uncut onyx", \
+  "Onyx" \
+]) {
     VAR_ONYX_CUSTOMSTYLE 
 }
-apply (name:["Uncut onyx", "Onyx"] && quantity:<VAR_ONYX_MIN_QUANTITY) {
+apply (name:["Uncut onyx", \
+  "Onyx" \
+] && quantity:<VAR_ONYX_MIN_QUANTITY) {
     hidden = true;
 }
 

@@ -448,7 +448,311 @@ description: |
 type: stringlist
 label: List of uniques to apply custom unique style to (by default just lootbeam)
 */
-#define VAR_UNIQUES_LIST ["Jar of dirt", "Jar of swamp", "Jar of sand", "Jar of souls", "Jar of miasma", "Jar of darkness", "Jar of stone", "Jar of decay", "Jar of chemicals", "Jar of eyes", "Jar of dreams", "Jar of spirits", "Jar of smoke", "Jar of venom", "Black tourmaline core", "Granite gloves", "Granite ring", "Granite hammer", "Abyssal head", "Bludgeon spine", "Bludgeon claw", "Bludgeon axon", "Abyssal dagger", "Abyssal whip", "Kraken tentacle", "Trident of the seas", "Eternal crystal", "Pegasian crystal", "Primordial crystal", "Smouldering stone", "Araxyte fang", "Noxious point", "Noxious blade", "Noxious pommel", "Araxyte head", "Occult necklace", "Smoke battlestaff", "Dragon chainbody", "Hydra's claw", "Hydra tail", "Hydra leather", "Hydra's fang", "Hydra's eye", "Hydra's heart", "Dragon knife", "Dragon thrownaxe", "Alchemical hydra heads", "Ahrim's hood", "Ahrim's robetop", "Ahrim's robeskirt", "Ahrim's staff", "Karil's coif", "Karil's leathertop", "Karil's leatherskirt", "Karil's crossbow", "Dharok's helm", "Dharok's platebody", "Dharok's platelegs", "Dharok's greataxe", "Guthan's helm", "Guthan's platebody", "Guthan's chainskirt", "Guthan's warspear", "Torag's helm", "Torag's platebody", "Torag's platelegs", "Torag's hammers", "Verac's helm", "Verac's brassard", "Verac's plateskirt", "Verac's flail", "Archers ring", "Berserker ring", "Warrior ring", "Seers ring", "Dragon axe", "Seercull", "Mud battlestaff", "Sarachnis cudgel", "Blood moon helm", "Blood moon chestplate", "Blood moon tassets", "Dual macuahuitl", "Blue moon helm", "Blue moon chestplate", "Blue moon tassets", "Blue moon spear", "Eclipse moon helm", "Eclipse moon chestplate", "Eclipse moon tassets", "Eclipse atlatl", "Godsword shard 1", "Godsword shard 2", "Godsword shard 3", "Armadyl helmet", "Armadyl chestplate", "Armadyl chainskirt", "Armadyl hilt", "Armadyl crossbow", "Saradomin hilt", "Saradomin sword", "Saradomin's light", "Bandos chestplate", "Bandos tassets", "Bandos boots", "Bandos hilt", "Staff of the dead", "Zamorakian spear", "Steam battlestaff", "Zamorak hilt", "Ancient hilt", "Nihil horn", "Zaryte vambraces", "Torva full helm (damaged)", "Torva platebody (damaged)", "Torva platelegs (damaged)", "Elder chaos top", "Elder chaos robe", "Elder chaos hood", "Odium shard 1", "Malediction shard 1", "Odium shard 2", "Malediction shard 2", "Fedora", "Odium shard 3", "Malediction shard 3", "Kbd heads", "Draconic visage", "Amulet of avarice", "Craw's bow (u)", "Thammaron's sceptre (u)", "Viggora's chainmace (u)", "Ancient crystal", "Ring of the gods", "Skull of vet'ion", "Voidwaker blade", "Treasonous ring", "Fangs of venenatis", "Voidwaker gem", "Tyrannical ring", "Claws of callisto", "Voidwaker hilt", "Elysian sigil", "Spectral sigil", "Arcane sigil", "Holy elixir", "Spirit shield", "Kq head", "Dragon chainbody", "Dragon hunter wand", "Hueycoatl hide", "Tome of earth (empty)", "Glacial temotli", "Fire element staff crown", "Ice element staff crown", "Tanzanite mutagen", "Magma mutagen", "Magic fang", "Serpentine visage", "Tanzanite fang", "Uncut onyx", "Draconic visage", "Skeletal visage", "Dragonbone necklace", "Venator shard", "Inquisitor's mace", "Inquisitor's great helm", "Inquisitor's hauberk", "Inquisitor's plateskirt", "Nightmare staff", "Volatile orb", "Harmonised orb", "Eldritch orb", "Parasitic egg", "Virtus mask", "Virtus robe top", "Virtus robe bottom", "Magus vestige", "Eye of the duke", "Ice quartz", "Venator vestige", "Leviathan's lure", "Smoke quartz", "Bellator vestige", "Siren's staff", "Shadow quartz", "Ultor vestige", "Executioner's axe head", "Blood quartz", "Hill giant club", "Bryophyta's essence", "Ring of 3rd age", "Bottomless compost bucket", "Dark claw", "Dark totem", "Crystal armour seed", "Crystal weapon seed", "Enhanced crystal weapon seed", "Sunfire fanatic cuirass", "Sunfire fanatic chausses", "Sunfire fanatic helm", "Echo crystal", "Tonalztics of ralos (uncharged)", "Big harpoonfish", "Tome of water (empty)", "Tackle box", "Fish barrel", "Dragon harpoon", "Tome of fire (empty)", "Crystal tool seed", "Zalcano shard", "Dexterous prayer scroll", "Arcane prayer scroll", "Twisted buckler", "Dragon hunter crossbow", "Dinh's bulwark", "Ancestral hat", "Ancestral robe top", "Ancestral robe bottom", "Dragon claws", "Elder maul", "Kodai insignia", "Twisted bow", "Twisted ancestral colour kit", "Metamorphic dust", "Avernic defender hilt", "Ghrazi rapier", "Sanguinesti staff (uncharged)", "Justiciar faceguard", "Justiciar chestguard", "Justiciar legguards", "Scythe of vitur (uncharged)", "Holy ornament kit", "Sanguine ornament kit", "Sanguine dust", "Masori mask", "Masori body", "Masori chaps", "Lightbearer", "Osmumten's fang", "Elidinis' ward", "Tumeken's shadow", "Breach of the scarab", "Eye of the corruptor", "Jewel of the sun", "Zenyte shard", "Light frame", "Heavy frame", "Ballista limbs", "Monkey tail", "Ballista spring", "Tormented synapse", "Burning claw", "Dragon warhammer", "Big swordfish", "Big shark", "Big bass", "Dragonstone full helm", "Dragonstone platebody", "Dragonstone platelegs", "Dragonstone gauntlets", "Dragonstone boots", "Evil chicken head", "Evil chicken wings", "Evil chicken legs", "Evil chicken feet", "Mask of ranul", "Elven signet", "Dragon metal slice", "Dragon metal lump", "Obsidian cape", "Toktz-ket-xil", "Tzhaar-ket-om", "Toktz-xil-ak", "Toktz-xil-ek", "Toktz-mej-tal", "Toktz-xil-ul", "Obsidian helmet", "Obsidian platebody", "Obsidian platelegs", "Imbued heart", "Eternal gem", "Dust battlestaff", "Mist battlestaff", "Broken dragon hasta", "Mystic hat (dusk)", "Mystic robe top (dusk)", "Mystic robe bottom (dusk)", "Mystic gloves (dusk)", "Mystic boots (dusk)", "Basilisk jaw", "Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom", "Dark bow", "Uncharged trident", "Dragon sword", "Drake's tooth", "Drake's claw", "Crawling hand", "Cockatrice head", "Basilisk head", "Kurask head"]
+#define VAR_UNIQUES_LIST [ \
+  "Jar of dirt", \
+  "Jar of swamp", \
+  "Jar of sand", \
+  "Jar of souls", \
+  "Jar of miasma", \
+  "Jar of darkness", \
+  "Jar of stone", \
+  "Jar of decay", \
+  "Jar of chemicals", \
+  "Jar of eyes", \
+  "Jar of dreams", \
+  "Jar of spirits", \
+  "Jar of smoke", \
+  "Jar of venom", \
+  "Black tourmaline core", \
+  "Granite gloves", \
+  "Granite ring", \
+  "Granite hammer", \
+  "Abyssal head", \
+  "Bludgeon spine", \
+  "Bludgeon claw", \
+  "Bludgeon axon", \
+  "Abyssal dagger", \
+  "Abyssal whip", \
+  "Kraken tentacle", \
+  "Trident of the seas", \
+  "Eternal crystal", \
+  "Pegasian crystal", \
+  "Primordial crystal", \
+  "Smouldering stone", \
+  "Araxyte fang", \
+  "Noxious point", \
+  "Noxious blade", \
+  "Noxious pommel", \
+  "Araxyte head", \
+  "Occult necklace", \
+  "Smoke battlestaff", \
+  "Dragon chainbody", \
+  "Hydra's claw", \
+  "Hydra tail", \
+  "Hydra leather", \
+  "Hydra's fang", \
+  "Hydra's eye", \
+  "Hydra's heart", \
+  "Dragon knife", \
+  "Dragon thrownaxe", \
+  "Alchemical hydra heads", \
+  "Ahrim's hood", \
+  "Ahrim's robetop", \
+  "Ahrim's robeskirt", \
+  "Ahrim's staff", \
+  "Karil's coif", \
+  "Karil's leathertop", \
+  "Karil's leatherskirt", \
+  "Karil's crossbow", \
+  "Dharok's helm", \
+  "Dharok's platebody", \
+  "Dharok's platelegs", \
+  "Dharok's greataxe", \
+  "Guthan's helm", \
+  "Guthan's platebody", \
+  "Guthan's chainskirt", \
+  "Guthan's warspear", \
+  "Torag's helm", \
+  "Torag's platebody", \
+  "Torag's platelegs", \
+  "Torag's hammers", \
+  "Verac's helm", \
+  "Verac's brassard", \
+  "Verac's plateskirt", \
+  "Verac's flail", \
+  "Archers ring", \
+  "Berserker ring", \
+  "Warrior ring", \
+  "Seers ring", \
+  "Dragon axe", \
+  "Seercull", \
+  "Mud battlestaff", \
+  "Sarachnis cudgel", \
+  "Blood moon helm", \
+  "Blood moon chestplate", \
+  "Blood moon tassets", \
+  "Dual macuahuitl", \
+  "Blue moon helm", \
+  "Blue moon chestplate", \
+  "Blue moon tassets", \
+  "Blue moon spear", \
+  "Eclipse moon helm", \
+  "Eclipse moon chestplate", \
+  "Eclipse moon tassets", \
+  "Eclipse atlatl", \
+  "Godsword shard 1", \
+  "Godsword shard 2", \
+  "Godsword shard 3", \
+  "Armadyl helmet", \
+  "Armadyl chestplate", \
+  "Armadyl chainskirt", \
+  "Armadyl hilt", \
+  "Armadyl crossbow", \
+  "Saradomin hilt", \
+  "Saradomin sword", \
+  "Saradomin's light", \
+  "Bandos chestplate", \
+  "Bandos tassets", \
+  "Bandos boots", \
+  "Bandos hilt", \
+  "Staff of the dead", \
+  "Zamorakian spear", \
+  "Steam battlestaff", \
+  "Zamorak hilt", \
+  "Ancient hilt", \
+  "Nihil horn", \
+  "Zaryte vambraces", \
+  "Torva full helm (damaged)", \
+  "Torva platebody (damaged)", \
+  "Torva platelegs (damaged)", \
+  "Elder chaos top", \
+  "Elder chaos robe", \
+  "Elder chaos hood", \
+  "Odium shard 1", \
+  "Malediction shard 1", \
+  "Odium shard 2", \
+  "Malediction shard 2", \
+  "Fedora", \
+  "Odium shard 3", \
+  "Malediction shard 3", \
+  "Kbd heads", \
+  "Draconic visage", \
+  "Amulet of avarice", \
+  "Craw's bow (u)", \
+  "Thammaron's sceptre (u)", \
+  "Viggora's chainmace (u)", \
+  "Ancient crystal", \
+  "Ring of the gods", \
+  "Skull of vet'ion", \
+  "Voidwaker blade", \
+  "Treasonous ring", \
+  "Fangs of venenatis", \
+  "Voidwaker gem", \
+  "Tyrannical ring", \
+  "Claws of callisto", \
+  "Voidwaker hilt", \
+  "Elysian sigil", \
+  "Spectral sigil", \
+  "Arcane sigil", \
+  "Holy elixir", \
+  "Spirit shield", \
+  "Kq head", \
+  "Dragon chainbody", \
+  "Dragon hunter wand", \
+  "Hueycoatl hide", \
+  "Tome of earth (empty)", \
+  "Glacial temotli", \
+  "Fire element staff crown", \
+  "Ice element staff crown", \
+  "Tanzanite mutagen", \
+  "Magma mutagen", \
+  "Magic fang", \
+  "Serpentine visage", \
+  "Tanzanite fang", \
+  "Uncut onyx", \
+  "Draconic visage", \
+  "Skeletal visage", \
+  "Dragonbone necklace", \
+  "Venator shard", \
+  "Inquisitor's mace", \
+  "Inquisitor's great helm", \
+  "Inquisitor's hauberk", \
+  "Inquisitor's plateskirt", \
+  "Nightmare staff", \
+  "Volatile orb", \
+  "Harmonised orb", \
+  "Eldritch orb", \
+  "Parasitic egg", \
+  "Virtus mask", \
+  "Virtus robe top", \
+  "Virtus robe bottom", \
+  "Magus vestige", \
+  "Eye of the duke", \
+  "Ice quartz", \
+  "Venator vestige", \
+  "Leviathan's lure", \
+  "Smoke quartz", \
+  "Bellator vestige", \
+  "Siren's staff", \
+  "Shadow quartz", \
+  "Ultor vestige", \
+  "Executioner's axe head", \
+  "Blood quartz", \
+  "Hill giant club", \
+  "Bryophyta's essence", \
+  "Ring of 3rd age", \
+  "Bottomless compost bucket", \
+  "Dark claw", \
+  "Dark totem", \
+  "Crystal armour seed", \
+  "Crystal weapon seed", \
+  "Enhanced crystal weapon seed", \
+  "Sunfire fanatic cuirass", \
+  "Sunfire fanatic chausses", \
+  "Sunfire fanatic helm", \
+  "Echo crystal", \
+  "Tonalztics of ralos (uncharged)", \
+  "Big harpoonfish", \
+  "Tome of water (empty)", \
+  "Tackle box", \
+  "Fish barrel", \
+  "Dragon harpoon", \
+  "Tome of fire (empty)", \
+  "Crystal tool seed", \
+  "Zalcano shard", \
+  "Dexterous prayer scroll", \
+  "Arcane prayer scroll", \
+  "Twisted buckler", \
+  "Dragon hunter crossbow", \
+  "Dinh's bulwark", \
+  "Ancestral hat", \
+  "Ancestral robe top", \
+  "Ancestral robe bottom", \
+  "Dragon claws", \
+  "Elder maul", \
+  "Kodai insignia", \
+  "Twisted bow", \
+  "Twisted ancestral colour kit", \
+  "Metamorphic dust", \
+  "Avernic defender hilt", \
+  "Ghrazi rapier", \
+  "Sanguinesti staff (uncharged)", \
+  "Justiciar faceguard", \
+  "Justiciar chestguard", \
+  "Justiciar legguards", \
+  "Scythe of vitur (uncharged)", \
+  "Holy ornament kit", \
+  "Sanguine ornament kit", \
+  "Sanguine dust", \
+  "Masori mask", \
+  "Masori body", \
+  "Masori chaps", \
+  "Lightbearer", \
+  "Osmumten's fang", \
+  "Elidinis' ward", \
+  "Tumeken's shadow", \
+  "Breach of the scarab", \
+  "Eye of the corruptor", \
+  "Jewel of the sun", \
+  "Zenyte shard", \
+  "Light frame", \
+  "Heavy frame", \
+  "Ballista limbs", \
+  "Monkey tail", \
+  "Ballista spring", \
+  "Tormented synapse", \
+  "Burning claw", \
+  "Dragon warhammer", \
+  "Big swordfish", \
+  "Big shark", \
+  "Big bass", \
+  "Dragonstone full helm", \
+  "Dragonstone platebody", \
+  "Dragonstone platelegs", \
+  "Dragonstone gauntlets", \
+  "Dragonstone boots", \
+  "Evil chicken head", \
+  "Evil chicken wings", \
+  "Evil chicken legs", \
+  "Evil chicken feet", \
+  "Mask of ranul", \
+  "Elven signet", \
+  "Dragon metal slice", \
+  "Dragon metal lump", \
+  "Obsidian cape", \
+  "Toktz-ket-xil", \
+  "Tzhaar-ket-om", \
+  "Toktz-xil-ak", \
+  "Toktz-xil-ek", \
+  "Toktz-mej-tal", \
+  "Toktz-xil-ul", \
+  "Obsidian helmet", \
+  "Obsidian platebody", \
+  "Obsidian platelegs", \
+  "Imbued heart", \
+  "Eternal gem", \
+  "Dust battlestaff", \
+  "Mist battlestaff", \
+  "Broken dragon hasta", \
+  "Mystic hat (dusk)", \
+  "Mystic robe top (dusk)", \
+  "Mystic robe bottom (dusk)", \
+  "Mystic gloves (dusk)", \
+  "Mystic boots (dusk)", \
+  "Basilisk jaw", \
+  "Dagon'hai hat", \
+  "Dagon'hai robe top", \
+  "Dagon'hai robe bottom", \
+  "Dark bow", \
+  "Uncharged trident", \
+  "Dragon sword", \
+  "Drake's tooth", \
+  "Drake's claw", \
+  "Crawling hand", \
+  "Cockatrice head", \
+  "Basilisk head", \
+  "Kurask head" \
+]
 
 
 /*@ define:input:uniques
@@ -501,49 +805,51 @@ description: |
   This module provides styling and quantity filters for all currencies in the game.
 */
 
-#define CONST_CURRENCY_LIST [\
-    "Abyssal pearls", \
-    "Agility arena ticket", \
-    "Anima-infused bark", \
-    "Archery ticket", \
-    "Barronite shards", \
-    "Blood money", \
-    "Brimhaven voucher", \
-    "Castle wars ticket", \
-    "Coins", \
-    "Ecto-token", \
-    "Frog token", \
-    "Glistening tear", \
-    "Golden nugget", \
-    "Hallowed mark", \
-    "Intelligence", \
-    "Mark of grace", \
-    "Mermaid's tear", \
-    "Minnow", \
-    "Molch pearl", \
-    "Mole claw", \
-    "Mole skin", \
-    "Nuggets", \
-    "Numulite", \
-    "Paramaya ticket", \
-    "Platinum token", \
-    "Rare creature parts", \
-    "Reward token credits", \
-    "Shantay pass", \
-    "Ship ticket", \
-    "Stardust", \
-    "Termites", \
-    "Tokkul", \
-    "Trading sticks", \
-    "Unidentified minerals", \
-    "Warrior guild token", \
+#define CONST_CURRENCY_LIST [ \
+  "Abyssal pearls", \
+  "Agility arena ticket", \
+  "Anima-infused bark", \
+  "Archery ticket", \
+  "Barronite shards", \
+  "Blood money", \
+  "Brimhaven voucher", \
+  "Castle wars ticket", \
+  "Coins", \
+  "Ecto-token", \
+  "Frog token", \
+  "Glistening tear", \
+  "Golden nugget", \
+  "Hallowed mark", \
+  "Intelligence", \
+  "Mark of grace", \
+  "Mermaid's tear", \
+  "Minnow", \
+  "Molch pearl", \
+  "Mole claw", \
+  "Mole skin", \
+  "Nuggets", \
+  "Numulite", \
+  "Paramaya ticket", \
+  "Platinum token", \
+  "Rare creature parts", \
+  "Reward token credits", \
+  "Shantay pass", \
+  "Ship ticket", \
+  "Stardust", \
+  "Termites", \
+  "Tokkul", \
+  "Trading sticks", \
+  "Unidentified minerals", \
+  "Warrior guild token" \
 ]
 
 /*@ define:input:currency
 type: stringlist
 label: Currency to force hidden
 */
-#define VAR_CURRENCY_HIDE ["Archery ticket"]
+#define VAR_CURRENCY_HIDE [ \
+  "Archery ticket" \
+]
 
 
 /*@ define:input:currency
@@ -1492,75 +1798,75 @@ description: |
 */
 
 #define CONST_BONES_LIST [ \
-    "Bones", \
-    "Wolf bones", \
-    "Burnt bones", \
-    "Monkey bones", \
-    "Bat bones", \
-    "Big bones", \
-    "Jogre bones", \
-    "Wyrmling bones", \
-    "Zogre bones", \
-    "Shaikahan bones", \
-    "Babydragon bones", \
-    "Wyrm bones", \
-    "Wyvern bones", \
-    "Dragon bones", \
-    "Drake bones", \
-    "Fayrg bones", \
-    "Lava dragon bones", \
-    "Raurg bones", \
-    "Hydra bones", \
-    "Dagannoth bones", \
-    "Ourg bones", \
-    "Superior dragon bones", \
-    "Bleached bones", \
-    "Small zombie monkey bones", \
-    "Large zombie monkey bones", \
-    "Small ninja monkey bones", \
-    "Medium ninja monkey bones", \
-    "Gorilla bones", \
-    "Bearded gorilla bones", \
+  "Bones", \
+  "Wolf bones", \
+  "Burnt bones", \
+  "Monkey bones", \
+  "Bat bones", \
+  "Big bones", \
+  "Jogre bones", \
+  "Wyrmling bones", \
+  "Zogre bones", \
+  "Shaikahan bones", \
+  "Babydragon bones", \
+  "Wyrm bones", \
+  "Wyvern bones", \
+  "Dragon bones", \
+  "Drake bones", \
+  "Fayrg bones", \
+  "Lava dragon bones", \
+  "Raurg bones", \
+  "Hydra bones", \
+  "Dagannoth bones", \
+  "Ourg bones", \
+  "Superior dragon bones", \
+  "Bleached bones", \
+  "Small zombie monkey bones", \
+  "Large zombie monkey bones", \
+  "Small ninja monkey bones", \
+  "Medium ninja monkey bones", \
+  "Gorilla bones", \
+  "Bearded gorilla bones" \
 ]
 #define CONST_ASHES_LIST [ \
-    "Fiendish ashes", \
-    "Vile ashes", \
-    "Malicious ashes", \
-    "Abyssal ashes", \
-    "Infernal ashes", \
+  "Fiendish ashes", \
+  "Vile ashes", \
+  "Malicious ashes", \
+  "Abyssal ashes", \
+  "Infernal ashes" \
 ]
 #define CONST_SHADES_REMAINS_LIST [ \
-    "Loar remains", \
-    "Phrin remains", \
-    "Riyl remains", \
-    "Asyn remains", \
-    "Fiyr remains", \
-    "Urium remains", \
+  "Loar remains", \
+  "Phrin remains", \
+  "Riyl remains", \
+  "Asyn remains", \
+  "Fiyr remains", \
+  "Urium remains" \
 ]
 #define CONST_ENSOULED_HEAD_LIST [ \
-    "Ensouled goblin head", \
-    "Ensouled monkey head", \
-    "Ensouled imp head", \
-    "Ensouled minotaur head", \
-    "Ensouled scorpion head", \
-    "Ensouled bear head", \
-    "Ensouled unicorn head", \
-    "Ensouled dog head", \
-    "Ensouled chaos druid head", \
-    "Ensouled giant head", \
-    "Ensouled ogre head", \
-    "Ensouled elf head", \
-    "Ensouled troll head", \
-    "Ensouled horror head", \
-    "Ensouled kalphite head", \
-    "Ensouled dagannoth head", \
-    "Ensouled bloodveld head", \
-    "Ensouled tzHaar head", \
-    "Ensouled demon head", \
-    "Ensouled hellhound head", \
-    "Ensouled aviansie head", \
-    "Ensouled abyssal head", \
-    "Ensouled dragon head", \
+  "Ensouled goblin head", \
+  "Ensouled monkey head", \
+  "Ensouled imp head", \
+  "Ensouled minotaur head", \
+  "Ensouled scorpion head", \
+  "Ensouled bear head", \
+  "Ensouled unicorn head", \
+  "Ensouled dog head", \
+  "Ensouled chaos druid head", \
+  "Ensouled giant head", \
+  "Ensouled ogre head", \
+  "Ensouled elf head", \
+  "Ensouled troll head", \
+  "Ensouled horror head", \
+  "Ensouled kalphite head", \
+  "Ensouled dagannoth head", \
+  "Ensouled bloodveld head", \
+  "Ensouled tzHaar head", \
+  "Ensouled demon head", \
+  "Ensouled hellhound head", \
+  "Ensouled aviansie head", \
+  "Ensouled abyssal head", \
+  "Ensouled dragon head" \
 ]
 
 /*@ define:input:remains
@@ -1604,7 +1910,17 @@ enum: [
   "Bearded gorilla bones"
 ]
 */
-#define VAR_BONES_HIDE ["Bones", "Wolf bones", "Burnt bones", "Monkey bones", "Bat bones", "Big bones", "Jogre bones", "Wyrmling bones", "Zogre bones"]
+#define VAR_BONES_HIDE [ \
+  "Bones", \
+  "Wolf bones", \
+  "Burnt bones", \
+  "Monkey bones", \
+  "Bat bones", \
+  "Big bones", \
+  "Jogre bones", \
+  "Wyrmling bones", \
+  "Zogre bones" \
+]
 
 /*@ define:input:remains
 type: enumlist
@@ -1617,7 +1933,10 @@ enum: [
   "Infernal ashes"
 ]
 */
-#define VAR_ASHES_HIDE ["Fiendish ashes", "Vile ashes"]
+#define VAR_ASHES_HIDE [ \
+  "Fiendish ashes", \
+  "Vile ashes" \
+]
 
 /*@ define:input:remains
 type: enumlist
@@ -1662,7 +1981,18 @@ enum: [
   "Ensouled dragon head"
 ]
 */
-#define VAR_ENSOULED_HEADS_HIDE ["Ensouled goblin head", "Ensouled monkey head", "Ensouled imp head", "Ensouled minotaur head", "Ensouled scorpion head", "Ensouled bear head", "Ensouled unicorn head", "Ensouled dog head", "Ensouled chaos druid head", "Ensouled giant head"]
+#define VAR_ENSOULED_HEADS_HIDE [ \
+  "Ensouled goblin head", \
+  "Ensouled monkey head", \
+  "Ensouled imp head", \
+  "Ensouled minotaur head", \
+  "Ensouled scorpion head", \
+  "Ensouled bear head", \
+  "Ensouled unicorn head", \
+  "Ensouled dog head", \
+  "Ensouled chaos druid head", \
+  "Ensouled giant head" \
+]
 
 
 apply (name:VAR_BONES_HIDE) {
@@ -1781,7 +2111,15 @@ enum: [
   }
 ]
 */
-#define VAR_COX_FISH_HIDE ["Pysk fish (0)", "Suphi fish (1)", "Leckish fish (2)", "Brawk fish (3)", "Mycil fish (4)", "Roqed fish (5)", "Kyren fish (6)"]
+#define VAR_COX_FISH_HIDE [ \
+  "Pysk fish (0)", \
+  "Suphi fish (1)", \
+  "Leckish fish (2)", \
+  "Brawk fish (3)", \
+  "Mycil fish (4)", \
+  "Roqed fish (5)", \
+  "Kyren fish (6)" \
+]
 
 /*@ define:input:chambers_of_xeric
 type: enumlist
@@ -1818,7 +2156,15 @@ enum: [
   }
 ]
 */
-#define VAR_COX_BATS_HIDE ["Guanic bat (0)", "Prael bat (1)", "Giral bat (2)", "Phluxia bat (3)", "Kryket bat (4)", "Murng bat (5)", "Psykk bat (6)"]
+#define VAR_COX_BATS_HIDE [ \
+  "Guanic bat (0)", \
+  "Prael bat (1)", \
+  "Giral bat (2)", \
+  "Phluxia bat (3)", \
+  "Kryket bat (4)", \
+  "Murng bat (5)", \
+  "Psykk bat (6)" \
+]
 
 /*@ define:input:chambers_of_xeric
 type: enumlist
@@ -1859,7 +2205,17 @@ enum: [
   "Rake"
 ]
 */
-#define VAR_COX_MISC_DROPS_HIDE ["Bones", "Big bones", "Fishing rod", "Iron pickaxe", "Iron axe", "Butterfly net", "Hammer", "Tinderbox", "Cave worms"]
+#define VAR_COX_MISC_DROPS_HIDE [ \
+  "Bones", \
+  "Big bones", \
+  "Fishing rod", \
+  "Iron pickaxe", \
+  "Iron axe", \
+  "Butterfly net", \
+  "Hammer", \
+  "Tinderbox", \
+  "Cave worms" \
+]
 
 
 /*@ define:input:chambers_of_xeric
@@ -2189,55 +2545,127 @@ apply (area:CONST_COX_AREA && name:VAR_COX_SEEDS_HIDE) {
 apply (area:CONST_COX_AREA && name:VAR_COX_MISC_DROPS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["elder (-)*", "elder potion*", "elder (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["elder (-)*", \
+  "elder potion*", \
+  "elder (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["twisted (-)*", "twisted potion*", "twisted (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["twisted (-)*", \
+  "twisted potion*", \
+  "twisted (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["kodai (-)*", "kodai potion*", "kodai (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["kodai (-)*", \
+  "kodai potion*", \
+  "kodai (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
+  "revitalisation potion*", \
+  "revitalisation (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
+  "prayer enhance (4)", \
+  "prayer enhance (3)", \
+  "prayer enhance (2)", \
+  "prayer enhance (1)", \
+  "prayer enhance (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
+  "xeric's aid (4)", \
+  "xeric's aid (3)", \
+  "xeric's aid (2)", \
+  "xeric's aid (1)", \
+  "xeric's aid (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["antipoison (-)*", \
+  "antipoison (4)", \
+  "antipoison (3)", \
+  "antipoison (2)", \
+  "antipoison (1)", \
+  "antipoison (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
-apply (area:CONST_COX_AREA && name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"] && name:VAR_COX_POTIONS_HIDE) {
+apply (area:CONST_COX_AREA && name:["overload (-)*", \
+  "overload (4)", \
+  "overload (3)", \
+  "overload (2)", \
+  "overload (1)", \
+  "overload (+)*" \
+] && name:VAR_COX_POTIONS_HIDE) {
     hidden = true;
 }
 
 
 
-apply (area:CONST_COX_AREA && name:["elder (-)*", "elder potion*", "elder (+)*"]) {
+apply (area:CONST_COX_AREA && name:["elder (-)*", \
+  "elder potion*", \
+  "elder (+)*" \
+]) {
     VAR_COX_ELDER_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["twisted (-)*", "twisted potion*", "twisted (+)*"]) {
+apply (area:CONST_COX_AREA && name:["twisted (-)*", \
+  "twisted potion*", \
+  "twisted (+)*" \
+]) {
     VAR_COX_TWISTED_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["kodai (-)*", "kodai potion*", "kodai (+)*"]) {
+apply (area:CONST_COX_AREA && name:["kodai (-)*", \
+  "kodai potion*", \
+  "kodai (+)*" \
+]) {
     VAR_COX_KODAI_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["revitalisation (-)*", "revitalisation potion*", "revitalisation (+)*"]) {
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
+  "revitalisation potion*", \
+  "revitalisation (+)*" \
+]) {
     VAR_COX_REVITALISATION_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", "prayer enhance (4)", "prayer enhance (3)", "prayer enhance (2)", "prayer enhance (1)", "prayer enhance (+)*"]) {
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
+  "prayer enhance (4)", \
+  "prayer enhance (3)", \
+  "prayer enhance (2)", \
+  "prayer enhance (1)", \
+  "prayer enhance (+)*" \
+]) {
     VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", "xeric's aid (4)", "xeric's aid (3)", "xeric's aid (2)", "xeric's aid (1)", "xeric's aid (+)*"]) {
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
+  "xeric's aid (4)", \
+  "xeric's aid (3)", \
+  "xeric's aid (2)", \
+  "xeric's aid (1)", \
+  "xeric's aid (+)*" \
+]) {
     VAR_COX_XERICS_AID_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["antipoison (-)*", "antipoison (4)", "antipoison (3)", "antipoison (2)", "antipoison (1)", "antipoison (+)*"]) {
+apply (area:CONST_COX_AREA && name:["antipoison (-)*", \
+  "antipoison (4)", \
+  "antipoison (3)", \
+  "antipoison (2)", \
+  "antipoison (1)", \
+  "antipoison (+)*" \
+]) {
     VAR_COX_ANTIPOISON_CUSTOMSTYLE 
 }
-apply (area:CONST_COX_AREA && name:["overload (-)*", "overload (4)", "overload (3)", "overload (2)", "overload (1)", "overload (+)*"]) {
+apply (area:CONST_COX_AREA && name:["overload (-)*", \
+  "overload (4)", \
+  "overload (3)", \
+  "overload (2)", \
+  "overload (1)", \
+  "overload (+)*" \
+]) {
     VAR_COX_OVERLOAD_CUSTOMSTYLE 
 }
 apply (area:CONST_COX_AREA && name:"Golpar seed") {
@@ -2399,7 +2827,9 @@ enum: [
   "Neutralising potion"
 ]
 */
-#define VAR_TOA_ROOM_ITEMS_HIDE ["Neutralising potion"]
+#define VAR_TOA_ROOM_ITEMS_HIDE [ \
+  "Neutralising potion" \
+]
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
@@ -2412,7 +2842,12 @@ enum: [
   "Scarab dung"
 ]
 */
-#define VAR_TOA_MVP_ITEMS_HIDE ["Big banana", "Eldritch ashes", "Fang", "Scarab dung"]
+#define VAR_TOA_MVP_ITEMS_HIDE [ \
+  "Big banana", \
+  "Eldritch ashes", \
+  "Fang", \
+  "Scarab dung" \
+]
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
@@ -2428,7 +2863,15 @@ enum: [
   "The Jackal's Torch"
 ]
 */
-#define VAR_TOA_BOOKS_HIDE ["Akila's journal", "Apmeken's Capture", "Crondis' Capture", "Het's Capture", "Scabaras' Capture", "The Wardens", "The Jackal's Torch"]
+#define VAR_TOA_BOOKS_HIDE [ \
+  "Akila's journal", \
+  "Apmeken's Capture", \
+  "Crondis' Capture", \
+  "Het's Capture", \
+  "Scabaras' Capture", \
+  "The Wardens", \
+  "The Jackal's Torch" \
+]
 
 
 /*@ define:input:tombs_of_amascut
@@ -2666,7 +3109,9 @@ type: stringlist
 label: God Wars Dungeon force shown
 group: God Wars Dungeon
 */
-#define VAR_BOSSING_GOD_WARS_DUNGEON_SHOW ["Hammer"]
+#define VAR_BOSSING_GOD_WARS_DUNGEON_SHOW [ \
+  "Hammer" \
+]
 
 /*@ define:input:bossing
 type: stringlist
@@ -2739,7 +3184,11 @@ enum: [
   "Unicorn horn"
 ]
 */
-#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE ["Steel arrow", "Steel dart", "Unicorn horn"]
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE [ \
+  "Steel arrow", \
+  "Steel dart", \
+  "Unicorn horn" \
+]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2878,7 +3327,11 @@ enum: [
   "Right eye patch"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE ["Steel arrow", "Steel dart", "Right eye patch"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE [ \
+  "Steel arrow", \
+  "Steel dart", \
+  "Right eye patch" \
+]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2922,7 +3375,12 @@ enum: [
   "Beer"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE ["Combat potion(3)", "Super strength(3)", "Beer", "Kebab"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE [ \
+  "Combat potion(3)", \
+  "Super strength(3)", \
+  "Beer", \
+  "Kebab" \
+]
 
 /*@ define:input:bossing
 type: enumlist
@@ -2940,7 +3398,13 @@ enum: [
   "Beer"
 ]
 */
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW ["Bones", "Big bones", "Super restore(4)", "Shark", "Chilli potato"]
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW [ \
+  "Bones", \
+  "Big bones", \
+  "Super restore(4)", \
+  "Shark", \
+  "Chilli potato" \
+]
 
 
 
@@ -3022,7 +3486,17 @@ enum: [
   "Steel arrow"
 ]
 */
-#define VAR_BOSSING_KREEARRA_COMMON_HIDE ["Feather", "Black d'hide body", "Rune crossbow", "Mind rune", "Rune arrow", "Runite bolts", "Crystal key", "Steel dart", "Steel arrow"]
+#define VAR_BOSSING_KREEARRA_COMMON_HIDE [ \
+  "Feather", \
+  "Black d'hide body", \
+  "Rune crossbow", \
+  "Mind rune", \
+  "Rune arrow", \
+  "Runite bolts", \
+  "Crystal key", \
+  "Steel dart", \
+  "Steel arrow" \
+]
 
 /*@ define:input:bossing
 type: enumlist
@@ -3079,7 +3553,14 @@ enum: [
   "Mushroom potato"
 ]
 */
-#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW ["Bones", "Big bones", "Ranging potion(3)", "Super defence(3)", "Manta ray", "Mushroom potato"]
+#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW [ \
+  "Bones", \
+  "Big bones", \
+  "Ranging potion(3)", \
+  "Super defence(3)", \
+  "Manta ray", \
+  "Mushroom potato" \
+]
 
 
 
@@ -3159,7 +3640,13 @@ enum: [
   "Steel arrow"
 ]
 */
-#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE ["Infernal ashes", "Malicious ashes", "Adamant arrow(p++)", "Steel dart", "Steel arrow"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE [ \
+  "Infernal ashes", \
+  "Malicious ashes", \
+  "Adamant arrow(p++)", \
+  "Steel dart", \
+  "Steel arrow" \
+]
 
 /*@ define:input:bossing
 type: enumlist
@@ -3199,7 +3686,11 @@ enum: [
   "Super strength(3)"
 ]
 */
-#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE ["Zamorak brew(3)", "Super attack(3)", "Super strength(3)"]
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE [ \
+  "Zamorak brew(3)", \
+  "Super attack(3)", \
+  "Super strength(3)" \
+]
 
 /*@ define:input:bossing
 type: enumlist
@@ -3521,7 +4012,9 @@ enum: [
   "Slayer's enchantment"
 ]
 */
-#define VAR_SLAYER_WILDERNESS_SLAYER_HIDE ["Slayer's enchantment"]
+#define VAR_SLAYER_WILDERNESS_SLAYER_HIDE [ \
+  "Slayer's enchantment" \
+]
 
 /*@ define:input:slayer
 type: enumlist
@@ -3570,7 +4063,11 @@ enum: [
   "Looting bag note"
 ]
 */
-#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE ["Blighted entangle sack", "Blighted karambwan", "Blighted teleport spell sack"]
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE [ \
+  "Blighted entangle sack", \
+  "Blighted karambwan", \
+  "Blighted teleport spell sack" \
+]
 
 /*@ define:input:slayer
 type: enumlist
@@ -3667,7 +4164,23 @@ enum: [
   "Ugthanki kebab"
 ]
 */
-#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE ["Adamant battleaxe", "Adamantite bar", "Air rune", "Ashes", "Coal", "Coins", "Crossbow string", "Fire rune", "Mithril plateskirt", "Red d'hide body", "Rune arrow", "Runite bolts", "Shark", "Steel bar", "Ugthanki kebab"]
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE [ \
+  "Adamant battleaxe", \
+  "Adamantite bar", \
+  "Air rune", \
+  "Ashes", \
+  "Coal", \
+  "Coins", \
+  "Crossbow string", \
+  "Fire rune", \
+  "Mithril plateskirt", \
+  "Red d'hide body", \
+  "Rune arrow", \
+  "Runite bolts", \
+  "Shark", \
+  "Steel bar", \
+  "Ugthanki kebab" \
+]
 
 /*@ define:input:slayer
 type: enumlist
@@ -3822,7 +4335,50 @@ description: |
 type: stringlist
 label: List of alchables
 */
-#define VAR_ALCHS_ITEM_LIST ["Adamant platebody", "Air battlestaff", "Dragon battleaxe", "Dragon dagger", "Dragon halberd", "Dragon longsword", "Dragon mace", "Dragon med helm", "Dragon platelegs", "Dragon plateskirt", "Dragon scimitar", "Earth battlestaff", "Fire battlestaff", "Lava battlestaff", "Mystic air staff", "Mystic earth staff", "Mystic fire staff", "Mystic lava staff", "Mystic robe bottom", "Mystic robe top", "Mystic water staff", "Onyx dragon bolts (e)", "Rune 2h sword", "Rune battleaxe", "Rune chainbody", "Rune full helm", "Rune halberd", "Rune hasta", "Rune kiteshield", "Rune longsword", "Rune med helm", "Rune pickaxe", "Rune platebody", "Rune platelegs", "Rune plateskirt", "Rune scimitar", "Rune spear", "Rune sq shield", "Rune sword", "Runite crossbow (u)", "Runite limbs", "Water battlestaff"]
+#define VAR_ALCHS_ITEM_LIST [ \
+  "Adamant platebody", \
+  "Air battlestaff", \
+  "Dragon battleaxe", \
+  "Dragon dagger", \
+  "Dragon halberd", \
+  "Dragon longsword", \
+  "Dragon mace", \
+  "Dragon med helm", \
+  "Dragon platelegs", \
+  "Dragon plateskirt", \
+  "Dragon scimitar", \
+  "Earth battlestaff", \
+  "Fire battlestaff", \
+  "Lava battlestaff", \
+  "Mystic air staff", \
+  "Mystic earth staff", \
+  "Mystic fire staff", \
+  "Mystic lava staff", \
+  "Mystic robe bottom", \
+  "Mystic robe top", \
+  "Mystic water staff", \
+  "Onyx dragon bolts (e)", \
+  "Rune 2h sword", \
+  "Rune battleaxe", \
+  "Rune chainbody", \
+  "Rune full helm", \
+  "Rune halberd", \
+  "Rune hasta", \
+  "Rune kiteshield", \
+  "Rune longsword", \
+  "Rune med helm", \
+  "Rune pickaxe", \
+  "Rune platebody", \
+  "Rune platelegs", \
+  "Rune plateskirt", \
+  "Rune scimitar", \
+  "Rune spear", \
+  "Rune sq shield", \
+  "Rune sword", \
+  "Runite crossbow (u)", \
+  "Runite limbs", \
+  "Water battlestaff" \
+]
 
 /*@ define:input:alchs
 type: boolean
@@ -3865,23 +4421,23 @@ subtitle: Forgetting your backpack?
 description: |
   Provides filtering for ammo either explicitly or based on value.
 */
-#define CONST_AMMO_STANDARD_ARROWS_LIST [\
-    "Bronze Arrow*", \
-    "Iron Arrow*", \
-    "Steel Arrow*", \
-    "Mithril Arrow*", \
-    "Adamant Arrow*", \
-    "Rune Arrow*", \
-    "Amethyst Arrow*", \
-    "Dragon Arrow*", \
-    "Bronze fire arrow", \
-    "Iron fire arrow", \
-    "Steel fire arrow", \
-    "Mithril fire arrow", \
-    "Adamant fire arrow", \
-    "Rune fire arrow", \
-    "Amethyst fire arrow", \
-    "Dragon fire arrow", \
+#define CONST_AMMO_STANDARD_ARROWS_LIST [ \
+  "Bronze Arrow*", \
+  "Iron Arrow*", \
+  "Steel Arrow*", \
+  "Mithril Arrow*", \
+  "Adamant Arrow*", \
+  "Rune Arrow*", \
+  "Amethyst Arrow*", \
+  "Dragon Arrow*", \
+  "Bronze fire arrow", \
+  "Iron fire arrow", \
+  "Steel fire arrow", \
+  "Mithril fire arrow", \
+  "Adamant fire arrow", \
+  "Rune fire arrow", \
+  "Amethyst fire arrow", \
+  "Dragon fire arrow" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -3922,7 +4478,14 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_STANDARD_ARROWS_HIDE ["Bronze*", "Iron*", "Steel*", "Mithril*", "Adamant*", "Rune*"]
+#define VAR_AMMO_STANDARD_ARROWS_HIDE [ \
+  "Bronze*", \
+  "Iron*", \
+  "Steel*", \
+  "Mithril*", \
+  "Adamant*", \
+  "Rune*" \
+]
 
 apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
     hidden = true;
@@ -3938,14 +4501,14 @@ apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_M
     hidden = true;
 }
 
-#define CONST_AMMO_BRUTAL_ARROWS_LIST [\
-    "Bronze brutal", \
-    "Iron brutal", \
-    "Steel brutal", \
-    "Black brutal", \
-    "Mithril brutal", \
-    "Adamant brutal", \
-    "Rune brutal", \
+#define CONST_AMMO_BRUTAL_ARROWS_LIST [ \
+  "Bronze brutal", \
+  "Iron brutal", \
+  "Steel brutal", \
+  "Black brutal", \
+  "Mithril brutal", \
+  "Adamant brutal", \
+  "Rune brutal" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -3982,7 +4545,13 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BRUTAL_ARROWS_HIDE ["Bronze brutal", "Iron brutal", "Steel brutal", "Black brutal", "Mithril brutal"]
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE [ \
+  "Bronze brutal", \
+  "Iron brutal", \
+  "Steel brutal", \
+  "Black brutal", \
+  "Mithril brutal" \
+]
 
 apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
     hidden = true;
@@ -3998,11 +4567,11 @@ apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_V
     hidden = true;
 }
 
-#define CONST_AMMO_SPECIAL_ARROWS_LIST [\
-    "Training Arrow", \
-    "Ogre Arrow", \
-    "Ice Arrow", \
-    "Broad Arrow", \
+#define CONST_AMMO_SPECIAL_ARROWS_LIST [ \
+  "Training Arrow", \
+  "Ogre Arrow", \
+  "Ice Arrow", \
+  "Broad Arrow" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4027,7 +4596,12 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_SPECIAL_ARROWS_HIDE ["Training Arrow", "Ogre Arrow", "Ice Arrow", "Broad Arrow"]
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE [ \
+  "Training Arrow", \
+  "Ogre Arrow", \
+  "Ice Arrow", \
+  "Broad Arrow" \
+]
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
     hidden = true;
@@ -4042,17 +4616,17 @@ group: Arrows
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE) {
     hidden = true;
 }
-#define CONST_AMMO_DARTS_LIST [\
-    "Bronze dart*", \
-    "Iron dart*", \
-    "Steel dart*", \
-    "Black dart*", \
-    "Mithril dart*", \
-    "Adamant dart*", \
-    "Rune dart*", \
-    "Amethyst dart*", \
-    "Dragon dart*", \
-    "Atlatl dart", \
+#define CONST_AMMO_DARTS_LIST [ \
+  "Bronze dart*", \
+  "Iron dart*", \
+  "Steel dart*", \
+  "Black dart*", \
+  "Mithril dart*", \
+  "Adamant dart*", \
+  "Rune dart*", \
+  "Amethyst dart*", \
+  "Dragon dart*", \
+  "Atlatl dart" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4101,7 +4675,14 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_DARTS_HIDE ["Bronze dart*", "Iron dart*", "Steel dart*", "Black dart*", "Mithril dart*", "Adamant dart*"]
+#define VAR_AMMO_DARTS_HIDE [ \
+  "Bronze dart*", \
+  "Iron dart*", \
+  "Steel dart*", \
+  "Black dart*", \
+  "Mithril dart*", \
+  "Adamant dart*" \
+]
 
 apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
     hidden = true;
@@ -4116,15 +4697,15 @@ group: Darts
 apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
     hidden = true;
 }
-#define CONST_AMMO_JAVELINS_LIST [\
-    "Bronze javelin*", \
-    "Iron javelin*", \
-    "Steel javelin*", \
-    "Mithril javelin*", \
-    "Adamant javelin*", \
-    "Rune javelin*", \
-    "Amethyst javelin*", \
-    "Dragon javelin*", \
+#define CONST_AMMO_JAVELINS_LIST [ \
+  "Bronze javelin*", \
+  "Iron javelin*", \
+  "Steel javelin*", \
+  "Mithril javelin*", \
+  "Adamant javelin*", \
+  "Rune javelin*", \
+  "Amethyst javelin*", \
+  "Dragon javelin*" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4165,7 +4746,14 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_JAVELINS_HIDE ["Bronze javelin*", "Iron javelin*", "Steel javelin*", "Mithril javelin*", "Adamant javelin*", "Rune javelin*"]
+#define VAR_AMMO_JAVELINS_HIDE [ \
+  "Bronze javelin*", \
+  "Iron javelin*", \
+  "Steel javelin*", \
+  "Mithril javelin*", \
+  "Adamant javelin*", \
+  "Rune javelin*" \
+]
 
 apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
     hidden = true;
@@ -4180,16 +4768,16 @@ group: Javelins
 apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
     hidden = true;
 }
-#define CONST_AMMO_BOLTS_LIST [\
-    "Bronze bolts*", \
-    "Blurite bolts*", \
-    "Silver bolts*", \
-    "Iron bolts*", \
-    "Steel bolts*", \
-    "Mithril bolts*", \
-    "Adamant bolts*", \
-    "Runite bolts*", \
-    "Dragon bolts*", \
+#define CONST_AMMO_BOLTS_LIST [ \
+  "Bronze bolts*", \
+  "Blurite bolts*", \
+  "Silver bolts*", \
+  "Iron bolts*", \
+  "Steel bolts*", \
+  "Mithril bolts*", \
+  "Adamant bolts*", \
+  "Runite bolts*", \
+  "Dragon bolts*" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4234,7 +4822,14 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BOLTS_HIDE ["Bronze bolts*", "Blurite bolts*", "Silver bolts*", "Iron bolts*", "Steel bolts*", "Mithril bolts*"]
+#define VAR_AMMO_BOLTS_HIDE [ \
+  "Bronze bolts*", \
+  "Blurite bolts*", \
+  "Silver bolts*", \
+  "Iron bolts*", \
+  "Steel bolts*", \
+  "Mithril bolts*" \
+]
 
 apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
     hidden = true;
@@ -4250,17 +4845,17 @@ apply (name:CONST_AMMO_BOLTS_LIST && value:<VAR_AMMO_BOLTS_MIN_VALUE) {
     hidden = true;
 }
 
-#define CONST_AMMO_BOLTS_E_LIST [\
-    "Opal bolts (e)", \
-    "Jade bolts (e)", \
-    "Pearl bolts (e)", \
-    "Topaz bolts (e)", \
-    "Sapphire bolts (e)", \
-    "Emerald bolts (e)", \
-    "Ruby bolts (e)", \
-    "Diamond bolts (e)", \
-    "Dragonstone bolts (e)", \
-    "Onyx bolts (e)", \
+#define CONST_AMMO_BOLTS_E_LIST [ \
+  "Opal bolts (e)", \
+  "Jade bolts (e)", \
+  "Pearl bolts (e)", \
+  "Topaz bolts (e)", \
+  "Sapphire bolts (e)", \
+  "Emerald bolts (e)", \
+  "Ruby bolts (e)", \
+  "Diamond bolts (e)", \
+  "Dragonstone bolts (e)", \
+  "Onyx bolts (e)" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4325,17 +4920,17 @@ apply (name:CONST_AMMO_BOLTS_E_LIST && value:<VAR_AMMO_BOLTS_E_MIN_VALUE) {
     hidden = true;
 }
 
-#define CONST_AMMO_DRAGON_BOLTS_E_LIST [\
-    "Opal dragon bolts (e)", \
-    "Jade dragon bolts (e)", \
-    "Pearl dragon bolts (e)", \
-    "Topaz dragon bolts (e)", \
-    "Sapphire dragon bolts (e)", \
-    "Emerald dragon bolts (e)", \
-    "Ruby dragon bolts (e)", \
-    "Diamond dragon bolts (e)", \
-    "Dragonstone dragon bolts (e)", \
-    "Onyx dragon bolts (e)", \
+#define CONST_AMMO_DRAGON_BOLTS_E_LIST [ \
+  "Opal dragon bolts (e)", \
+  "Jade dragon bolts (e)", \
+  "Pearl dragon bolts (e)", \
+  "Topaz dragon bolts (e)", \
+  "Sapphire dragon bolts (e)", \
+  "Emerald dragon bolts (e)", \
+  "Ruby dragon bolts (e)", \
+  "Diamond dragon bolts (e)", \
+  "Dragonstone dragon bolts (e)", \
+  "Onyx dragon bolts (e)" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4400,15 +4995,15 @@ apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && value:<VAR_AMMO_DRAGON_BOLTS_E_MIN
     hidden = true;
 }
 
-#define CONST_AMMO_SPECIAL_BOLTS_LIST [\
-    "Sunlight antler bolts", \
-    "Moonlight antler bolts", \
-    "Kebbit bolts", \
-    "Long kebbit bolts", \
-    "Broad bolts", \
-    "Amethyst broad bolts", \
-    "Barbed bolts", \
-    "Bone bolts", \
+#define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
+  "Sunlight antler bolts", \
+  "Moonlight antler bolts", \
+  "Kebbit bolts", \
+  "Long kebbit bolts", \
+  "Broad bolts", \
+  "Amethyst broad bolts", \
+  "Barbed bolts", \
+  "Bone bolts" \
 ]
 /*@ define:input:ammo
 type: enumlist
@@ -4518,28 +5113,28 @@ description: |
 */
 
 #define CONST_RUNE_NAMES [ \
-    "Air rune", \
-    "Mind rune", \
-    "Water rune", \
-    "Earth rune", \
-    "Fire rune", \
-    "Body rune", \
-    "Cosmic rune", \
-    "Chaos rune", \
-    "Nature rune", \
-    "Law rune", \
-    "Death rune", \
-    "Sunfire rune", \
-    "Astral rune", \
-    "Blood rune", \
-    "Soul rune", \
-    "Wrath rune", \
-    "Mist rune", \
-    "Dust rune", \
-    "Mud rune", \
-    "Smoke rune", \
-    "Steam rune", \
-    "Lava rune", \
+  "Air rune", \
+  "Mind rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Sunfire rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune" \
 ]
 
 /*@ define:input:runes
@@ -5640,65 +6235,65 @@ description: |
   This module provides filters for fishing equipment, fishing bait, and raw fish
 */
 
-#define CONST_FISHING_EQUIPMENT_LIST [\
-    "Small fishing net", \
-    "Big fishing net", \
-    "Drift net", \
-    "Fishing rod", \
-    "Fly fishing rod", \
-    "Oily fishing rod", \
-    "Harpoon", \
-    "Lobster pot", \
-    "Karambwan vessel", \
+#define CONST_FISHING_EQUIPMENT_LIST [ \
+  "Small fishing net", \
+  "Big fishing net", \
+  "Drift net", \
+  "Fishing rod", \
+  "Fly fishing rod", \
+  "Oily fishing rod", \
+  "Harpoon", \
+  "Lobster pot", \
+  "Karambwan vessel" \
 ]
-#define CONST_FISHING_BAIT_LIST [\
-    "Sandworms", \
-    "Fishing bait", \
-    "Feather", \
-    "Stripy feather", \
-    "Dark fishing bait", \
-    "King worm", \
-    "Fish chunks", \
-    "Raw karambwanji", \
+#define CONST_FISHING_BAIT_LIST [ \
+  "Sandworms", \
+  "Fishing bait", \
+  "Feather", \
+  "Stripy feather", \
+  "Dark fishing bait", \
+  "King worm", \
+  "Fish chunks", \
+  "Raw karambwanji" \
 ]
-#define CONST_FISHING_RAW_FISH_LIST [\
-    "Raw shrimps", \
-    "Raw anchovies", \
-    "Raw guppy", \
-    "Raw cavefish", \
-    "Raw tetra", \
-    "Frog spawn", \
-    "Raw monkfish", \
-    "Minnow", \
-    "Raw mackerel", \
-    "Raw cod", \
-    "Raw bass", \
-    "Raw catfish", \
-    "Raw sardine", \
-    "Raw herring", \
-    "Raw pike", \
-    "Raw slimy eel", \
-    "Raw cave eel", \
-    "Raw anglerfish", \
-    "Sacred eel", \
-    "Raw trout", \
-    "Raw salmon", \
-    "Raw rainbow fish", \
-    "Raw lava eel", \
-    "Infernal eel", \
-    "Leaping trout", \
-    "Leaping salmon", \
-    "Leaping sturgeon", \
-    "Raw tuna", \
-    "Raw swordfish", \
-    "Raw shark", \
-    "Raw lobster", \
-    "Raw dark crab", \
-    "Bluegill", \
-    "Common tench", \
-    "Mottled eel", \
-    "Greater siren", \
-    "Raw karambwan", \
+#define CONST_FISHING_RAW_FISH_LIST [ \
+  "Raw shrimps", \
+  "Raw anchovies", \
+  "Raw guppy", \
+  "Raw cavefish", \
+  "Raw tetra", \
+  "Frog spawn", \
+  "Raw monkfish", \
+  "Minnow", \
+  "Raw mackerel", \
+  "Raw cod", \
+  "Raw bass", \
+  "Raw catfish", \
+  "Raw sardine", \
+  "Raw herring", \
+  "Raw pike", \
+  "Raw slimy eel", \
+  "Raw cave eel", \
+  "Raw anglerfish", \
+  "Sacred eel", \
+  "Raw trout", \
+  "Raw salmon", \
+  "Raw rainbow fish", \
+  "Raw lava eel", \
+  "Infernal eel", \
+  "Leaping trout", \
+  "Leaping salmon", \
+  "Leaping sturgeon", \
+  "Raw tuna", \
+  "Raw swordfish", \
+  "Raw shark", \
+  "Raw lobster", \
+  "Raw dark crab", \
+  "Bluegill", \
+  "Common tench", \
+  "Mottled eel", \
+  "Greater siren", \
+  "Raw karambwan" \
 ]
 
 /*@ define:input:fishing
@@ -5717,7 +6312,15 @@ enum: [
   "Karambwan vessel"
 ]
 */
-#define VAR_FISHING_EQUIPMENT_HIDE ["Small fishing net", "Big fishing net", "Fishing rod", "Fly fishing rod", "Harpoon", "Lobster pot", "Karambwan vessel"]
+#define VAR_FISHING_EQUIPMENT_HIDE [ \
+  "Small fishing net", \
+  "Big fishing net", \
+  "Fishing rod", \
+  "Fly fishing rod", \
+  "Harpoon", \
+  "Lobster pot", \
+  "Karambwan vessel" \
+]
 
 /*@ define:input:fishing
 type: enumlist
@@ -5734,7 +6337,13 @@ enum: [
   "Raw karambwanji"
 ]
 */
-#define VAR_FISHING_BAIT_HIDE ["Fishing bait", "Feather", "Stripy feather", "King worm", "Fish chunks"]
+#define VAR_FISHING_BAIT_HIDE [ \
+  "Fishing bait", \
+  "Feather", \
+  "Stripy feather", \
+  "King worm", \
+  "Fish chunks" \
+]
 
 /*@ define:input:fishing
 type: enumlist
@@ -5780,7 +6389,31 @@ enum: [
   "Raw karambwan"
 ]
 */
-#define VAR_FISHING_RAW_FISH_HIDE ["Raw shrimps", "Raw anchovies", "Raw guppy", "Raw cavefish", "Raw tetra", "Frog spawn", "Raw mackerel", "Raw cod", "Raw bass", "Raw sardine", "Raw herring", "Raw pike", "Raw trout", "Raw salmon", "Raw rainbow fish", "Leaping trout", "Leaping salmon", "Leaping sturgeon", "Raw tuna", "Bluegill", "Common tench", "Mottled eel", "Greater siren"]
+#define VAR_FISHING_RAW_FISH_HIDE [ \
+  "Raw shrimps", \
+  "Raw anchovies", \
+  "Raw guppy", \
+  "Raw cavefish", \
+  "Raw tetra", \
+  "Frog spawn", \
+  "Raw mackerel", \
+  "Raw cod", \
+  "Raw bass", \
+  "Raw sardine", \
+  "Raw herring", \
+  "Raw pike", \
+  "Raw trout", \
+  "Raw salmon", \
+  "Raw rainbow fish", \
+  "Leaping trout", \
+  "Leaping salmon", \
+  "Leaping sturgeon", \
+  "Raw tuna", \
+  "Bluegill", \
+  "Common tench", \
+  "Mottled eel", \
+  "Greater siren" \
+]
 
 
 /*@ define:input:fishing
@@ -7064,66 +7697,102 @@ apply (name:VAR_GEMS_HIDE) {
     hidden = true;
 }
 
-apply (name:["Uncut sapphire", "Sapphire"]) {
+apply (name:["Uncut sapphire", \
+  "Sapphire" \
+]) {
     VAR_SAPPHIRE_CUSTOMSTYLE 
 }
-apply (name:["Uncut sapphire", "Sapphire"] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
+apply (name:["Uncut sapphire", \
+  "Sapphire" \
+] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut emerald", "Emerald"]) {
+apply (name:["Uncut emerald", \
+  "Emerald" \
+]) {
     VAR_EMERALD_CUSTOMSTYLE 
 }
-apply (name:["Uncut emerald", "Emerald"] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
+apply (name:["Uncut emerald", \
+  "Emerald" \
+] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut ruby", "Ruby"]) {
+apply (name:["Uncut ruby", \
+  "Ruby" \
+]) {
     VAR_RUBY_CUSTOMSTYLE 
 }
-apply (name:["Uncut ruby", "Ruby"] && quantity:<VAR_RUBY_MIN_QUANTITY) {
+apply (name:["Uncut ruby", \
+  "Ruby" \
+] && quantity:<VAR_RUBY_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut diamond", "Diamond"]) {
+apply (name:["Uncut diamond", \
+  "Diamond" \
+]) {
     VAR_DIAMOND_CUSTOMSTYLE 
 }
-apply (name:["Uncut diamond", "Diamond"] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
+apply (name:["Uncut diamond", \
+  "Diamond" \
+] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut opal", "Opal"]) {
+apply (name:["Uncut opal", \
+  "Opal" \
+]) {
     VAR_OPAL_CUSTOMSTYLE 
 }
-apply (name:["Uncut opal", "Opal"] && quantity:<VAR_OPAL_MIN_QUANTITY) {
+apply (name:["Uncut opal", \
+  "Opal" \
+] && quantity:<VAR_OPAL_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut jade", "Jade"]) {
+apply (name:["Uncut jade", \
+  "Jade" \
+]) {
     VAR_JADE_CUSTOMSTYLE 
 }
-apply (name:["Uncut jade", "Jade"] && quantity:<VAR_JADE_MIN_QUANTITY) {
+apply (name:["Uncut jade", \
+  "Jade" \
+] && quantity:<VAR_JADE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut red topaz", "Red topaz"]) {
+apply (name:["Uncut red topaz", \
+  "Red topaz" \
+]) {
     VAR_RED_TOPAZ_CUSTOMSTYLE 
 }
- apply (name:["Uncut red topaz", "Red topaz"] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
+ apply (name:["Uncut red topaz", \
+  "Red topaz" \
+] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut dragonstone", "Dragonstone"]) {
+apply (name:["Uncut dragonstone", \
+  "Dragonstone" \
+]) {
     VAR_DRAGONSTONE_CUSTOMSTYLE 
 }
-apply (name:["Uncut dragonstone", "Dragonstone"] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
+apply (name:["Uncut dragonstone", \
+  "Dragonstone" \
+] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:["Uncut onyx", "Onyx"]) {
+apply (name:["Uncut onyx", \
+  "Onyx" \
+]) {
     VAR_ONYX_CUSTOMSTYLE 
 }
-apply (name:["Uncut onyx", "Onyx"] && quantity:<VAR_ONYX_MIN_QUANTITY) {
+apply (name:["Uncut onyx", \
+  "Onyx" \
+] && quantity:<VAR_ONYX_MIN_QUANTITY) {
     hidden = true;
 }
 
@@ -7161,7 +7830,12 @@ enum: [
   "'Perfect' gold bar"
 ]
 */
-#define VAR_BARS_HIDE ["Bronze bar", "Iron bar", "Silver bar", "Gold bar"]
+#define VAR_BARS_HIDE [ \
+  "Bronze bar", \
+  "Iron bar", \
+  "Silver bar", \
+  "Gold bar" \
+]
 
 
 /*@ define:input:bars
@@ -7587,22 +8261,22 @@ description: |
   Provides herb filters, quantity filters per herb, and custom styling for each herb. By default, this gives each herb unique styling.
 */
 
-#define CONST_ALL_HERBS [\
-    "*guam leaf", \
-    "*marrentill", \
-    "*tarromin", \
-    "*harralander", \
-    "*ranarr weed", \
-    "*toadflax", \
-    "*irit leaf", \
-    "*avantoe", \
-    "*kwuarm", \
-    "*huasca", \
-    "*snapdragon", \
-    "*cadantine", \
-    "*lantadyme", \
-    "*dwarf weed", \
-    "*torstol", \
+#define CONST_ALL_HERBS [ \
+  "*guam leaf", \
+  "*marrentill", \
+  "*tarromin", \
+  "*harralander", \
+  "*ranarr weed", \
+  "*toadflax", \
+  "*irit leaf", \
+  "*avantoe", \
+  "*kwuarm", \
+  "*huasca", \
+  "*snapdragon", \
+  "*cadantine", \
+  "*lantadyme", \
+  "*dwarf weed", \
+  "*torstol" \
 ]
 
 /*@ define:input:herbs
@@ -7677,7 +8351,10 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_HIDE ["*Tarromin", "*Harralander"]
+#define VAR_HERBS_HIDE [ \
+  "*Tarromin", \
+  "*Harralander" \
+]
 
 /*@ define:input:herbs
 type: enumlist
@@ -7745,7 +8422,12 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_SHOW ["*Ranarr weed", "*Huasca", "*Snapdragon", "*Torstol"]
+#define VAR_HERBS_SHOW [ \
+  "*Ranarr weed", \
+  "*Huasca", \
+  "*Snapdragon", \
+  "*Torstol" \
+]
 
 
 /*@ define:input:herbs
@@ -8325,97 +9007,97 @@ subtitle: The stuff from the master farmers' pockets
 description: |
   Provides specific seed filters and value threshold for filtering out seeds from being shown. The default is to hide lower tier seeds.
 */
-#define CONST_FARMING_SEEDS_ALLOTMENT_LIST [\
-    "Potato seed", \
-    "Onion seed", \
-    "Cabbage seed", \
-    "Tomato seed", \
-    "Sweetcorn seed", \
-    "Strawberry seed", \
-    "Watermelon seed", \
-    "Snape grass seed", \
+#define CONST_FARMING_SEEDS_ALLOTMENT_LIST [ \
+  "Potato seed", \
+  "Onion seed", \
+  "Cabbage seed", \
+  "Tomato seed", \
+  "Sweetcorn seed", \
+  "Strawberry seed", \
+  "Watermelon seed", \
+  "Snape grass seed" \
 ]
-#define CONST_FARMING_SEEDS_FLOWER_LIST [\
-    "Marigold seed", \
-    "Rosemary seed", \
-    "Nasturtium seed", \
-    "Woad seed", \
-    "Limpwurt seed", \
-    "White lily seed", \
+#define CONST_FARMING_SEEDS_FLOWER_LIST [ \
+  "Marigold seed", \
+  "Rosemary seed", \
+  "Nasturtium seed", \
+  "Woad seed", \
+  "Limpwurt seed", \
+  "White lily seed" \
 ]
-#define CONST_FARMING_SEEDS_HERB_LIST [\
-    "Guam seed", \
-    "Marrentill seed", \
-    "Tarromin seed", \
-    "Harralander seed", \
-    "Ranarr seed", \
-    "Toadflax seed", \
-    "Irit seed", \
-    "Avantoe seed", \
-    "Kwuarm seed", \
-    "Snapdragon seed", \
-    "Huasca seed", \
-    "Cadantine seed", \
-    "Lantadyme seed", \
-    "Dwarf weed seed", \
-    "Torstol seed", \
+#define CONST_FARMING_SEEDS_HERB_LIST [ \
+  "Guam seed", \
+  "Marrentill seed", \
+  "Tarromin seed", \
+  "Harralander seed", \
+  "Ranarr seed", \
+  "Toadflax seed", \
+  "Irit seed", \
+  "Avantoe seed", \
+  "Kwuarm seed", \
+  "Snapdragon seed", \
+  "Huasca seed", \
+  "Cadantine seed", \
+  "Lantadyme seed", \
+  "Dwarf weed seed", \
+  "Torstol seed" \
 ]
-#define CONST_FARMING_SEEDS_HOPS_LIST [\
-    "Barley seed", \
-    "Hammerstone seed", \
-    "Asgarnian seed", \
-    "Jute seed", \
-    "Yanillian seed", \
-    "Krandorian seed", \
-    "Wildblood seed", \
+#define CONST_FARMING_SEEDS_HOPS_LIST [ \
+  "Barley seed", \
+  "Hammerstone seed", \
+  "Asgarnian seed", \
+  "Jute seed", \
+  "Yanillian seed", \
+  "Krandorian seed", \
+  "Wildblood seed" \
 ]
-#define CONST_FARMING_SEEDS_BUSH_LIST [\
-    "Redberry seed", \
-    "Cadavaberry seed", \
-    "Dwellberry seed", \
-    "Jangerberry seed", \
-    "Whiteberry seed", \
-    "Poison ivy seed", \
+#define CONST_FARMING_SEEDS_BUSH_LIST [ \
+  "Redberry seed", \
+  "Cadavaberry seed", \
+  "Dwellberry seed", \
+  "Jangerberry seed", \
+  "Whiteberry seed", \
+  "Poison ivy seed" \
 ]
-#define CONST_FARMING_SEEDS_TREE_LIST [\
-    "Acorn", \
-    "Willow seed", \
-    "Maple seed", \
-    "Yew seed", \
-    "Magic seed" \
+#define CONST_FARMING_SEEDS_TREE_LIST [ \
+  "Acorn", \
+  "Willow seed", \
+  "Maple seed", \
+  "Yew seed", \
+  "Magic seed" \
 ]
-#define CONST_FARMING_SEEDS_FRUIT_TREE_LIST [\
-    "Apple seed", \
-    "Banana seed", \
-    "Orange seed", \
-    "Curry seed", \
-    "Pineapple seed", \
-    "Papaya seed", \
-    "Palm tree seed", \
-    "Dragonfruit seed", \
+#define CONST_FARMING_SEEDS_FRUIT_TREE_LIST [ \
+  "Apple seed", \
+  "Banana seed", \
+  "Orange seed", \
+  "Curry seed", \
+  "Pineapple seed", \
+  "Papaya seed", \
+  "Palm tree seed", \
+  "Dragonfruit seed" \
 ]
-#define CONST_FARMING_SEEDS_SPECIAL_TREE_LIST [\
-    "Teak seed", \
-    "Mahogany seed", \
-    "Calquat tree seed", \
-    "Crystal acorn", \
-    "Spirit seed", \
-    "Celastrus seed", \
-    "Redwood tree seed", \
+#define CONST_FARMING_SEEDS_SPECIAL_TREE_LIST [ \
+  "Teak seed", \
+  "Mahogany seed", \
+  "Calquat tree seed", \
+  "Crystal acorn", \
+  "Spirit seed", \
+  "Celastrus seed", \
+  "Redwood tree seed" \
 ]
-#define CONST_FARMING_SEEDS_SPECIAL_LIST [\
-    "Seaweed spore", \
-    "Grape seed", \
-    "Mushroom spore", \
-    "Belladonna seed", \
-    "Hespori seed", \
-    "Cactus seed", \
-    "Potato cactus seed", \
+#define CONST_FARMING_SEEDS_SPECIAL_LIST [ \
+  "Seaweed spore", \
+  "Grape seed", \
+  "Mushroom spore", \
+  "Belladonna seed", \
+  "Hespori seed", \
+  "Cactus seed", \
+  "Potato cactus seed" \
 ]
-#define CONST_FARMING_SEEDS_ANIMA_LIST [\
-    "Kronos seed", \
-    "Iasor seed", \
-    "Attas seed", \
+#define CONST_FARMING_SEEDS_ANIMA_LIST [ \
+  "Kronos seed", \
+  "Iasor seed", \
+  "Attas seed" \
 ]
 
 /*@ define:input:farming_seeds
@@ -8439,7 +9121,12 @@ enum: [
   "Snape grass seed"
 ]
 */
-#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE ["Potato seed", "Onion seed", "Cabbage seed", "Tomato seed"]
+#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE [ \
+  "Potato seed", \
+  "Onion seed", \
+  "Cabbage seed", \
+  "Tomato seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8453,7 +9140,12 @@ enum: [
   "White lily seed"
 ]
 */
-#define VAR_FARMING_SEEDS_FLOWER_HIDE ["Marigold seed", "Rosemary seed", "Nasturtium seed", "Woad seed"]
+#define VAR_FARMING_SEEDS_FLOWER_HIDE [ \
+  "Marigold seed", \
+  "Rosemary seed", \
+  "Nasturtium seed", \
+  "Woad seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8476,7 +9168,12 @@ enum: [
   "Torstol seed"
 ]
 */
-#define VAR_FARMING_SEEDS_HERB_HIDE ["Guam seed", "Marrentill seed", "Tarromin seed", "Harralander seed"]
+#define VAR_FARMING_SEEDS_HERB_HIDE [ \
+  "Guam seed", \
+  "Marrentill seed", \
+  "Tarromin seed", \
+  "Harralander seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8491,7 +9188,15 @@ enum: [
   "Wildblood seed"
 ]
 */
-#define VAR_FARMING_SEEDS_HOPS_HIDE ["Barley seed", "Hammerstone seed", "Asgarnian seed", "Jute seed", "Yanillian seed", "Krandorian seed", "Wildblood seed"]
+#define VAR_FARMING_SEEDS_HOPS_HIDE [ \
+  "Barley seed", \
+  "Hammerstone seed", \
+  "Asgarnian seed", \
+  "Jute seed", \
+  "Yanillian seed", \
+  "Krandorian seed", \
+  "Wildblood seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8505,7 +9210,12 @@ enum: [
   "Poison ivy seed"
 ]
 */
-#define VAR_FARMING_SEEDS_BUSH_HIDE ["Redberry seed", "Cadavaberry seed", "Dwellberry seed", "Jangerberry seed"]
+#define VAR_FARMING_SEEDS_BUSH_HIDE [ \
+  "Redberry seed", \
+  "Cadavaberry seed", \
+  "Dwellberry seed", \
+  "Jangerberry seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8518,7 +9228,10 @@ enum: [
   "Magic seed"
 ]
 */
-#define VAR_FARMING_SEEDS_TREE_HIDE ["Acorn", "Willow seed"]
+#define VAR_FARMING_SEEDS_TREE_HIDE [ \
+  "Acorn", \
+  "Willow seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8534,7 +9247,13 @@ enum: [
   "Dragonfruit seed"
 ]
 */
-#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE ["Apple seed", "Banana seed", "Orange seed", "Curry seed", "Pineapple seed"]
+#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE [ \
+  "Apple seed", \
+  "Banana seed", \
+  "Orange seed", \
+  "Curry seed", \
+  "Pineapple seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8549,7 +9268,11 @@ enum: [
   "Redwood tree seed"
 ]
 */
-#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE ["Teak seed", "Mahogany seed", "Calquat tree seed"]
+#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE [ \
+  "Teak seed", \
+  "Mahogany seed", \
+  "Calquat tree seed" \
+]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8662,31 +9385,31 @@ description: |
   Provides some basic filtering for herblore secondaries.
 */
 
-#define CONST_SECONDARIES_LIST [\
-    "Eye of newt", \
-    "Unicorn horn dust", \
-    "Limpwurt root", \
-    "Volcanic ash", \
-    "Red spiders' eggs", \
-    "Chocolate dust", \
-    "White berries", \
-    "Toad's legs", \
-    "Goat horn dust", \
-    "Snape grass", \
-    "Mort myre fungus", \
-    "Kebbit teeth dust", \
-    "Dragon scale dust", \
-    "Nail beast nails", \
-    "Yew roots", \
-    "Wine of zamorak", \
-    "Potato cactus", \
-    "Jangerberries", \
-    "Magic roots", \
-    "Crushed nest", \
-    "Poison ivy berries", \
-    "Nihil dust", \
-    "Lily of the sands", \
-    "Aldarium", \
+#define CONST_SECONDARIES_LIST [ \
+  "Eye of newt", \
+  "Unicorn horn dust", \
+  "Limpwurt root", \
+  "Volcanic ash", \
+  "Red spiders' eggs", \
+  "Chocolate dust", \
+  "White berries", \
+  "Toad's legs", \
+  "Goat horn dust", \
+  "Snape grass", \
+  "Mort myre fungus", \
+  "Kebbit teeth dust", \
+  "Dragon scale dust", \
+  "Nail beast nails", \
+  "Yew roots", \
+  "Wine of zamorak", \
+  "Potato cactus", \
+  "Jangerberries", \
+  "Magic roots", \
+  "Crushed nest", \
+  "Poison ivy berries", \
+  "Nihil dust", \
+  "Lily of the sands", \
+  "Aldarium" \
 ]
 
 /*@ define:input:herblore_secondaries
@@ -8719,7 +9442,11 @@ enum: [
   "Aldarium"
 ]
 */
-#define VAR_SECONDARIES_HIDE ["Eye of newt", "Volcanic ash", "Chocolate dust"]
+#define VAR_SECONDARIES_HIDE [ \
+  "Eye of newt", \
+  "Volcanic ash", \
+  "Chocolate dust" \
+]
 
 /*@ define:input:herblore_secondaries
 type: number
@@ -8955,7 +9682,20 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_HIDE ["Attack potion(*", "Strength potion(*", "Serum 207(*", "Compost potion(*", "Restore potion(*", "Energy potion(*", "Defence potion(*", "Agility potion(*", "Combat potion(*", "Fishing potion(*", "Hunter potion(*", "Antidote+(*"]
+#define VAR_POTIONS_HIDE [ \
+  "Attack potion(*", \
+  "Strength potion(*", \
+  "Serum 207(*", \
+  "Compost potion(*", \
+  "Restore potion(*", \
+  "Energy potion(*", \
+  "Defence potion(*", \
+  "Agility potion(*", \
+  "Combat potion(*", \
+  "Fishing potion(*", \
+  "Hunter potion(*", \
+  "Antidote+(*" \
+]
 
 /*@ define:input:potions
 type: enumlist
@@ -9163,7 +9903,36 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_SHOW ["Anti-venom(*", "Anti-venom+(*", "Antidote++(*", "Antifire potion(*", "Bastion potion(*", "Battlemage potion(*", "Divine bastion potion(*", "Divine battlemage potion(*", "Divine magic potion(*", "Divine ranging potion(*", "Divine super attack potion(*", "Divine super combat potion(*", "Divine super defence potion(*", "Divine super strength potion(*", "Extended anti-venom+(*", "Extended antifire(*", "Extended super antifire(*", "Forgotten brew(*", "Goading potion(*", "Menaphite remedy(*", "Prayer regeneration potion(*", "Ranging potion(*", "Sanfew serum(*", "Saradomin brew(*", "Stamina potion(*", "Super antifire potion(*", "Super combat potion(*", "Super restore(*"]
+#define VAR_POTIONS_SHOW [ \
+  "Anti-venom(*", \
+  "Anti-venom+(*", \
+  "Antidote++(*", \
+  "Antifire potion(*", \
+  "Bastion potion(*", \
+  "Battlemage potion(*", \
+  "Divine bastion potion(*", \
+  "Divine battlemage potion(*", \
+  "Divine magic potion(*", \
+  "Divine ranging potion(*", \
+  "Divine super attack potion(*", \
+  "Divine super combat potion(*", \
+  "Divine super defence potion(*", \
+  "Divine super strength potion(*", \
+  "Extended anti-venom+(*", \
+  "Extended antifire(*", \
+  "Extended super antifire(*", \
+  "Forgotten brew(*", \
+  "Goading potion(*", \
+  "Menaphite remedy(*", \
+  "Prayer regeneration potion(*", \
+  "Ranging potion(*", \
+  "Sanfew serum(*", \
+  "Saradomin brew(*", \
+  "Stamina potion(*", \
+  "Super antifire potion(*", \
+  "Super combat potion(*", \
+  "Super restore(*" \
+]
 
 
 
@@ -9940,44 +10709,44 @@ description: |
   This module provides filters based on food groups with some sane defaults. It also provides styling options available for every food group that has a filter. This can be done at the group level or on a food-by-food basis. A few popular foods have been given custom styling out of the box.
 */
 
-#define CONST_HUNTER_FOODS_LIST [\
-    "Cooked wild kebbit", \
-    "Cooked larupia", \
-    "Cooked barb-tailed kebbit", \
-    "Cooked graahk", \
-    "Cooked kyatt", \
-    "Cooked pyre fox", \
-    "Cooked sunlight antelope", \
-    "Cooked dashing kebbit", \
-    "Cooked moonlight antelope", \
+#define CONST_HUNTER_FOODS_LIST [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk", \
+  "Cooked kyatt", \
+  "Cooked pyre fox", \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope" \
 ]
 
-#define CONST_FISH_FOODS_LIST [\
-    "Shrimp", \
-    "Sardine", \
-    "Karambwanji", \
-    "Herring", \
-    "Anchovies", \
-    "Mackerel", \
-    "Trout", \
-    "Cod", \
-    "Pike", \
-    "Slimy eel", \
-    "Salmon", \
-    "Tuna", \
-    "Rainbow fish", \
-    "Cave eel", \
-    "Lobster", \
-    "Bass", \
-    "Swordfish", \
-    "Lava eel", \
-    "Monkfish", \
-    "Cooked karambwan", \
-    "Shark", \
-    "Sea turtle", \
-    "Manta ray", \
-    "Anglerfish", \
-    "Dark crab", \
+#define CONST_FISH_FOODS_LIST [ \
+  "Shrimp", \
+  "Sardine", \
+  "Karambwanji", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Slimy eel", \
+  "Salmon", \
+  "Tuna", \
+  "Rainbow fish", \
+  "Cave eel", \
+  "Lobster", \
+  "Bass", \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab" \
 ]
 
 /*@ define:input:food
@@ -9996,7 +10765,12 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit", "Cooked larupia", "Cooked barb-tailed kebbit", "Cooked graahk"]
+#define VAR_FOOD_HUNTER_FOODS_HIDE [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk" \
+]
 
 /*@ define:input:food
 type: enumlist
@@ -10030,7 +10804,18 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp", "Sardine", "Herring", "Anchovies", "Mackerel", "Trout", "Cod", "Pike", "Salmon", "Tuna"]
+#define VAR_FOOD_FISH_FOODS_HIDE [ \
+  "Shrimp", \
+  "Sardine", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Salmon", \
+  "Tuna" \
+]
 
 /*@ define:input:food
 type: enumlist
@@ -10048,7 +10833,11 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_SHOW ["Cooked sunlight antelope", "Cooked dashing kebbit", "Cooked moonlight antelope"]
+#define VAR_FOOD_HUNTER_FOODS_SHOW [ \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope" \
+]
 
 /*@ define:input:food
 type: enumlist
@@ -10082,7 +10871,17 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_SHOW ["Swordfish", "Lava eel", "Monkfish", "Cooked karambwan", "Shark", "Sea turtle", "Manta ray", "Anglerfish", "Dark crab"]
+#define VAR_FOOD_FISH_FOODS_SHOW [ \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab" \
+]
 
 
 /*@ define:input:food
@@ -10451,7 +11250,13 @@ enum: [
   "Dragon*"
 ]
 */
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*", "Iron*", "Steel*", "Black*", "Mithril*"]
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE [ \
+  "Bronze*", \
+  "Iron*", \
+  "Steel*", \
+  "Black*", \
+  "Mithril*" \
+]
 
 
 /*@ define:input:metal_equipment
@@ -10846,611 +11651,611 @@ exampleItem: Dragon platelegs
   menuTextColor = "#FF541109";
 
 
-#define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [\
-    "Bronze dagger", \
-    "Bronze axe", \
-    "Bronze mace", \
-    "Bronze sword", \
-    "Bronze pickaxe", \
-    "Bronze scimitar", \
-    "Bronze hasta", \
-    "Bronze longsword", \
-    "Bronze warhammer", \
-    "Bronze battleaxe", \
+#define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [ \
+  "Bronze dagger", \
+  "Bronze axe", \
+  "Bronze mace", \
+  "Bronze sword", \
+  "Bronze pickaxe", \
+  "Bronze scimitar", \
+  "Bronze hasta", \
+  "Bronze longsword", \
+  "Bronze warhammer", \
+  "Bronze battleaxe" \
 ]
-#define CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS [\
-    "Bronze claws", \
-    "Bronze spear", \
-    "Bronze halberd", \
-    "Bronze 2h sword", \
+#define CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS [ \
+  "Bronze claws", \
+  "Bronze spear", \
+  "Bronze halberd", \
+  "Bronze 2h sword" \
 ]
-#define CONST_BRONZE_RANGED_WEAPONS [\
-    "Bronze crossbow", \
+#define CONST_BRONZE_RANGED_WEAPONS [ \
+  "Bronze crossbow" \
 ]
-#define CONST_BRONZE_AMMO [\
-    "Bronze dart", \
-    "Bronze knife", \
-    "Bronze thrownaxe", \
-    "Bronze arrow", \
-    "Bronze bolts", \
-    "Bronze brutal", \
-    "Bronze javelin", \
+#define CONST_BRONZE_AMMO [ \
+  "Bronze dart", \
+  "Bronze knife", \
+  "Bronze thrownaxe", \
+  "Bronze arrow", \
+  "Bronze bolts", \
+  "Bronze brutal", \
+  "Bronze javelin" \
 ]
-#define CONST_BRONZE_ARMOUR [\
-    "Bronze boots", \
-    "Bronze gloves", \
-    "Bronze defender", \
-    "Bronze med helm", \
-    "Bronze full helm", \
-    "Bronze sq shield", \
-    "Bronze platelegs", \
-    "Bronze plateskirt", \
-    "Bronze kiteshield", \
-    "Bronze chainbody", \
-    "Bronze platebody", \
+#define CONST_BRONZE_ARMOUR [ \
+  "Bronze boots", \
+  "Bronze gloves", \
+  "Bronze defender", \
+  "Bronze med helm", \
+  "Bronze full helm", \
+  "Bronze sq shield", \
+  "Bronze platelegs", \
+  "Bronze plateskirt", \
+  "Bronze kiteshield", \
+  "Bronze chainbody", \
+  "Bronze platebody" \
 ]
-#define CONST_BRONZE_TRIMMED_ARMOUR [\
-    "Bronze full helm (t)", \
-    "Bronze platebody (t)", \
-    "Bronze platelegs (t)", \
-    "Bronze kiteshield (t)", \
-    "Bronze plateskirt (t)", \
+#define CONST_BRONZE_TRIMMED_ARMOUR [ \
+  "Bronze full helm (t)", \
+  "Bronze platebody (t)", \
+  "Bronze platelegs (t)", \
+  "Bronze kiteshield (t)", \
+  "Bronze plateskirt (t)" \
 ]
-#define CONST_BRONZE_GOLD_TRIMMED_ARMOUR [\
-    "Bronze full helm (g)", \
-    "Bronze platebody (g)", \
-    "Bronze platelegs (g)", \
-    "Bronze kiteshield (g)", \
-    "Bronze plateskirt (g)", \
+#define CONST_BRONZE_GOLD_TRIMMED_ARMOUR [ \
+  "Bronze full helm (g)", \
+  "Bronze platebody (g)", \
+  "Bronze platelegs (g)", \
+  "Bronze kiteshield (g)", \
+  "Bronze plateskirt (g)" \
 ]
-#define CONST_BRONZE_OTHER [\
-    "Bronze Nails", \
-    "Bronze Javelin heads", \
-    "Bronze Arrowtips", \
-    "Bronze Dart tips", \
-    "Bronze Unfinished bolts", \
-]
-
-#define CONST_IRON_ONE_HANDED_MELEE_WEAPONS [\
-    "Iron dagger", \
-    "Iron axe", \
-    "Iron mace", \
-    "Iron sword", \
-    "Iron pickaxe", \
-    "Iron scimitar", \
-    "Iron hasta", \
-    "Iron longsword", \
-    "Iron warhammer", \
-    "Iron battleaxe", \
-]
-#define CONST_IRON_TWO_HANDED_MELEE_WEAPONS [\
-    "Iron claws", \
-    "Iron spear", \
-    "Iron halberd", \
-    "Iron 2h sword", \
-]
-#define CONST_IRON_RANGED_WEAPONS [\
-    "Iron crossbow", \
-]
-#define CONST_IRON_AMMO [\
-    "Iron dart", \
-    "Iron knife", \
-    "Iron thrownaxe", \
-    "Iron arrow", \
-    "Iron bolts", \
-    "Iron brutal", \
-    "Iron javelin", \
-]
-#define CONST_IRON_ARMOUR [\
-    "Iron boots", \
-    "Iron gloves", \
-    "Iron defender", \
-    "Iron med helm", \
-    "Iron full helm", \
-    "Iron sq shield", \
-    "Iron platelegs", \
-    "Iron plateskirt", \
-    "Iron kiteshield", \
-    "Iron chainbody", \
-    "Iron platebody", \
-]
-#define CONST_IRON_TRIMMED_ARMOUR [\
-    "Iron full helm (t)", \
-    "Iron platebody (t)", \
-    "Iron platelegs (t)", \
-    "Iron kiteshield (t)", \
-    "Iron plateskirt (t)", \
-]
-#define CONST_IRON_GOLD_TRIMMED_ARMOUR [\
-    "Iron full helm (g)", \
-    "Iron platebody (g)", \
-    "Iron platelegs (g)", \
-    "Iron kiteshield (g)", \
-    "Iron plateskirt (g)", \
-]
-#define CONST_IRON_OTHER [\
-    "Iron Nails", \
-    "Iron Javelin heads", \
-    "Iron Arrowtips", \
-    "Iron Dart tips", \
-    "Iron Unfinished bolts", \
-    "Oil lantern frame", \
-    "Cooking spit", \
+#define CONST_BRONZE_OTHER [ \
+  "Bronze Nails", \
+  "Bronze Javelin heads", \
+  "Bronze Arrowtips", \
+  "Bronze Dart tips", \
+  "Bronze Unfinished bolts" \
 ]
 
-#define CONST_STEEL_ONE_HANDED_MELEE_WEAPONS [\
-    "Steel dagger", \
-    "Steel axe", \
-    "Steel mace", \
-    "Steel sword", \
-    "Steel pickaxe", \
-    "Steel scimitar", \
-    "Steel hasta", \
-    "Steel longsword", \
-    "Steel warhammer", \
-    "Steel battleaxe", \
+#define CONST_IRON_ONE_HANDED_MELEE_WEAPONS [ \
+  "Iron dagger", \
+  "Iron axe", \
+  "Iron mace", \
+  "Iron sword", \
+  "Iron pickaxe", \
+  "Iron scimitar", \
+  "Iron hasta", \
+  "Iron longsword", \
+  "Iron warhammer", \
+  "Iron battleaxe" \
 ]
-#define CONST_STEEL_TWO_HANDED_MELEE_WEAPONS [\
-    "Steel claws", \
-    "Steel spear", \
-    "Steel halberd", \
-    "Steel 2h sword", \
+#define CONST_IRON_TWO_HANDED_MELEE_WEAPONS [ \
+  "Iron claws", \
+  "Iron spear", \
+  "Iron halberd", \
+  "Iron 2h sword" \
 ]
-#define CONST_STEEL_RANGED_WEAPONS [\
-    "Steel crossbow", \
+#define CONST_IRON_RANGED_WEAPONS [ \
+  "Iron crossbow" \
 ]
-#define CONST_STEEL_AMMO [\
-    "Steel dart", \
-    "Steel knife", \
-    "Steel thrownaxe", \
-    "Steel arrow", \
-    "Steel bolts", \
-    "Steel brutal", \
-    "Steel javelin", \
+#define CONST_IRON_AMMO [ \
+  "Iron dart", \
+  "Iron knife", \
+  "Iron thrownaxe", \
+  "Iron arrow", \
+  "Iron bolts", \
+  "Iron brutal", \
+  "Iron javelin" \
 ]
-#define CONST_STEEL_ARMOUR [\
-    "Steel boots", \
-    "Steel gloves", \
-    "Steel defender", \
-    "Steel med helm", \
-    "Steel full helm", \
-    "Steel sq shield", \
-    "Steel platelegs", \
-    "Steel plateskirt", \
-    "Steel kiteshield", \
-    "Steel chainbody", \
-    "Steel platebody", \
+#define CONST_IRON_ARMOUR [ \
+  "Iron boots", \
+  "Iron gloves", \
+  "Iron defender", \
+  "Iron med helm", \
+  "Iron full helm", \
+  "Iron sq shield", \
+  "Iron platelegs", \
+  "Iron plateskirt", \
+  "Iron kiteshield", \
+  "Iron chainbody", \
+  "Iron platebody" \
 ]
-#define CONST_STEEL_TRIMMED_ARMOUR [\
-    "Steel full helm (t)", \
-    "Steel platebody (t)", \
-    "Steel platelegs (t)", \
-    "Steel kiteshield (t)", \
-    "Steel plateskirt (t)", \
+#define CONST_IRON_TRIMMED_ARMOUR [ \
+  "Iron full helm (t)", \
+  "Iron platebody (t)", \
+  "Iron platelegs (t)", \
+  "Iron kiteshield (t)", \
+  "Iron plateskirt (t)" \
 ]
-#define CONST_STEEL_GOLD_TRIMMED_ARMOUR [\
-    "Steel full helm (g)", \
-    "Steel platebody (g)", \
-    "Steel platelegs (g)", \
-    "Steel kiteshield (g)", \
-    "Steel plateskirt (g)", \
+#define CONST_IRON_GOLD_TRIMMED_ARMOUR [ \
+  "Iron full helm (g)", \
+  "Iron platebody (g)", \
+  "Iron platelegs (g)", \
+  "Iron kiteshield (g)", \
+  "Iron plateskirt (g)" \
 ]
-#define CONST_STEEL_OTHER [\
-    "Steel Nails", \
-    "Steel Javelin heads", \
-    "Steel Arrowtips", \
-    "Steel Dart tips", \
-    "Steel Unfinished bolts", \
-    "Steel studs", \
+#define CONST_IRON_OTHER [ \
+  "Iron Nails", \
+  "Iron Javelin heads", \
+  "Iron Arrowtips", \
+  "Iron Dart tips", \
+  "Iron Unfinished bolts", \
+  "Oil lantern frame", \
+  "Cooking spit" \
 ]
 
-#define CONST_BLACK_ONE_HANDED_MELEE_WEAPONS [\
-    "Black dagger", \
-    "Black pickaxe", \
-    "Black axe", \
-    "Black sword", \
-    "Black mace", \
-    "Black scimitar", \
-    "Black longsword", \
-    "Black warhammer", \
-    "Black battleaxe", \
+#define CONST_STEEL_ONE_HANDED_MELEE_WEAPONS [ \
+  "Steel dagger", \
+  "Steel axe", \
+  "Steel mace", \
+  "Steel sword", \
+  "Steel pickaxe", \
+  "Steel scimitar", \
+  "Steel hasta", \
+  "Steel longsword", \
+  "Steel warhammer", \
+  "Steel battleaxe" \
 ]
-#define CONST_BLACK_TWO_HANDED_MELEE_WEAPONS [\
-    "Black claws", \
-    "Black spear", \
-    "Black halberd", \
-    "Black 2h sword", \
+#define CONST_STEEL_TWO_HANDED_MELEE_WEAPONS [ \
+  "Steel claws", \
+  "Steel spear", \
+  "Steel halberd", \
+  "Steel 2h sword" \
+]
+#define CONST_STEEL_RANGED_WEAPONS [ \
+  "Steel crossbow" \
+]
+#define CONST_STEEL_AMMO [ \
+  "Steel dart", \
+  "Steel knife", \
+  "Steel thrownaxe", \
+  "Steel arrow", \
+  "Steel bolts", \
+  "Steel brutal", \
+  "Steel javelin" \
+]
+#define CONST_STEEL_ARMOUR [ \
+  "Steel boots", \
+  "Steel gloves", \
+  "Steel defender", \
+  "Steel med helm", \
+  "Steel full helm", \
+  "Steel sq shield", \
+  "Steel platelegs", \
+  "Steel plateskirt", \
+  "Steel kiteshield", \
+  "Steel chainbody", \
+  "Steel platebody" \
+]
+#define CONST_STEEL_TRIMMED_ARMOUR [ \
+  "Steel full helm (t)", \
+  "Steel platebody (t)", \
+  "Steel platelegs (t)", \
+  "Steel kiteshield (t)", \
+  "Steel plateskirt (t)" \
+]
+#define CONST_STEEL_GOLD_TRIMMED_ARMOUR [ \
+  "Steel full helm (g)", \
+  "Steel platebody (g)", \
+  "Steel platelegs (g)", \
+  "Steel kiteshield (g)", \
+  "Steel plateskirt (g)" \
+]
+#define CONST_STEEL_OTHER [ \
+  "Steel Nails", \
+  "Steel Javelin heads", \
+  "Steel Arrowtips", \
+  "Steel Dart tips", \
+  "Steel Unfinished bolts", \
+  "Steel studs" \
+]
+
+#define CONST_BLACK_ONE_HANDED_MELEE_WEAPONS [ \
+  "Black dagger", \
+  "Black pickaxe", \
+  "Black axe", \
+  "Black sword", \
+  "Black mace", \
+  "Black scimitar", \
+  "Black longsword", \
+  "Black warhammer", \
+  "Black battleaxe" \
+]
+#define CONST_BLACK_TWO_HANDED_MELEE_WEAPONS [ \
+  "Black claws", \
+  "Black spear", \
+  "Black halberd", \
+  "Black 2h sword" \
 ]
 #define CONST_BLACK_RANGED_WEAPONS []
-#define CONST_BLACK_AMMO [\
-    "Black dart", \
-    "Black knife", \
-    "Black brutal", \
+#define CONST_BLACK_AMMO [ \
+  "Black dart", \
+  "Black knife", \
+  "Black brutal" \
 ]
-#define CONST_BLACK_ARMOUR [\
-    "Black gloves", \
-    "Black boots", \
-    "Black defender", \
-    "Black med helm", \
-    "Black full helm", \
-    "Black sq shield", \
-    "Black kiteshield", \
-    "Black platelegs", \
-    "Black plateskirt", \
-    "Black chainbody", \
-    "Black platebody", \
+#define CONST_BLACK_ARMOUR [ \
+  "Black gloves", \
+  "Black boots", \
+  "Black defender", \
+  "Black med helm", \
+  "Black full helm", \
+  "Black sq shield", \
+  "Black kiteshield", \
+  "Black platelegs", \
+  "Black plateskirt", \
+  "Black chainbody", \
+  "Black platebody" \
 ]
-#define CONST_BLACK_TRIMMED_ARMOUR [\
-    "Black full helm (t)", \
-    "Black platebody (t)", \
-    "Black platelegs (t)", \
-    "Black kiteshield (t)", \
-    "Black plateskirt (t)", \
+#define CONST_BLACK_TRIMMED_ARMOUR [ \
+  "Black full helm (t)", \
+  "Black platebody (t)", \
+  "Black platelegs (t)", \
+  "Black kiteshield (t)", \
+  "Black plateskirt (t)" \
 ]
-#define CONST_BLACK_GOLD_TRIMMED_ARMOUR [\
-    "Black full helm (g)", \
-    "Black platebody (g)", \
-    "Black platelegs (g)", \
-    "Black kiteshield (g)", \
-    "Black plateskirt (g)", \
+#define CONST_BLACK_GOLD_TRIMMED_ARMOUR [ \
+  "Black full helm (g)", \
+  "Black platebody (g)", \
+  "Black platelegs (g)", \
+  "Black kiteshield (g)", \
+  "Black plateskirt (g)" \
 ]
-#define CONST_BLACK_OTHER [\
-    "Black Nails", \
-    "Elite black full helm", \
-    "Elite black platelegs", \
-    "Elite black platebody", \
+#define CONST_BLACK_OTHER [ \
+  "Black Nails", \
+  "Elite black full helm", \
+  "Elite black platelegs", \
+  "Elite black platebody" \
 ]
-#define CONST_BLACK_HERALDIC_ARMOUR [\
-    "Black helm (h1)", \
-    "Black helm (h2)", \
-    "Black helm (h3)", \
-    "Black helm (h4)", \
-    "Black helm (h5)", \
-    "Black platebody (h1)", \
-    "Black platebody (h2)", \
-    "Black platebody (h3)", \
-    "Black platebody (h4)", \
-    "Black platebody (h5)", \
-    "Black shield (h1)", \
-    "Black shield (h2)", \
-    "Black shield (h3)", \
-    "Black shield (h4)", \
-    "Black shield (h5)", \
-]
-
-#define CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS [\
-    "Mithril dagger", \
-    "Mithril axe", \
-    "Mithril mace", \
-    "Mithril sword", \
-    "Mithril pickaxe", \
-    "Mithril scimitar", \
-    "Mithril hasta", \
-    "Mithril longsword", \
-    "Mithril warhammer", \
-    "Mithril battleaxe", \
-]
-#define CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS [\
-    "Mithril claws", \
-    "Mithril spear", \
-    "Mithril halberd", \
-    "Mithril 2h sword", \
-]
-#define CONST_MITHRIL_RANGED_WEAPONS [\
-    "Mithril crossbow", \
-]
-#define CONST_MITHRIL_AMMO [\
-    "Mithril dart", \
-    "Mithril knife", \
-    "Mithril thrownaxe", \
-    "Mithril arrow", \
-    "Mithril bolts", \
-    "Mithril brutal", \
-    "Mithril javelin", \
-]
-#define CONST_MITHRIL_ARMOUR [\
-    "Mithril boots", \
-    "Mithril gloves", \
-    "Mithril defender", \
-    "Mithril med helm", \
-    "Mithril full helm", \
-    "Mithril sq shield", \
-    "Mithril platelegs", \
-    "Mithril plateskirt", \
-    "Mithril kiteshield", \
-    "Mithril chainbody", \
-    "Mithril platebody", \
-]
-#define CONST_MITHRIL_TRIMMED_ARMOUR [\
-    "Mithril full helm (t)", \
-    "Mithril platebody (t)", \
-    "Mithril platelegs (t)", \
-    "Mithril kiteshield (t)", \
-    "Mithril plateskirt (t)", \
-]
-#define CONST_MITHRIL_GOLD_TRIMMED_ARMOUR [\
-    "Mithril full helm (g)", \
-    "Mithril platebody (g)", \
-    "Mithril platelegs (g)", \
-    "Mithril kiteshield (g)", \
-    "Mithril plateskirt (g)", \
-]
-#define CONST_MITHRIL_OTHER [\
-    "Mithril Nails", \
-    "Mithril Javelin heads", \
-    "Mithril Arrowtips", \
-    "Mithril Dart tips", \
-    "Mithril Unfinished bolts", \
-    "Mith grapple tip", \
-    "Mith grapple", \
+#define CONST_BLACK_HERALDIC_ARMOUR [ \
+  "Black helm (h1)", \
+  "Black helm (h2)", \
+  "Black helm (h3)", \
+  "Black helm (h4)", \
+  "Black helm (h5)", \
+  "Black platebody (h1)", \
+  "Black platebody (h2)", \
+  "Black platebody (h3)", \
+  "Black platebody (h4)", \
+  "Black platebody (h5)", \
+  "Black shield (h1)", \
+  "Black shield (h2)", \
+  "Black shield (h3)", \
+  "Black shield (h4)", \
+  "Black shield (h5)" \
 ]
 
-#define CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS [\
-    "Adamant dagger", \
-    "Adamant axe", \
-    "Adamant mace", \
-    "Adamant cane", \
-    "Adamant sword", \
-    "Adamant pickaxe", \
-    "Adamant scimitar", \
-    "Adamant hasta", \
-    "Adamant longsword", \
-    "Adamant warhammer", \
-    "Adamant battleaxe", \
+#define CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS [ \
+  "Mithril dagger", \
+  "Mithril axe", \
+  "Mithril mace", \
+  "Mithril sword", \
+  "Mithril pickaxe", \
+  "Mithril scimitar", \
+  "Mithril hasta", \
+  "Mithril longsword", \
+  "Mithril warhammer", \
+  "Mithril battleaxe" \
 ]
-#define CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS [\
-    "Adamant claws", \
-    "Adamant spear", \
-    "Adamant halberd", \
-    "Adamant 2h sword", \
+#define CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS [ \
+  "Mithril claws", \
+  "Mithril spear", \
+  "Mithril halberd", \
+  "Mithril 2h sword" \
 ]
-#define CONST_ADAMANT_RANGED_WEAPONS [\
-    "Adamant crossbow", \
+#define CONST_MITHRIL_RANGED_WEAPONS [ \
+  "Mithril crossbow" \
 ]
-#define CONST_ADAMANT_AMMO [\
-    "Adamant dart", \
-    "Adamant knife", \
-    "Adamant thrownaxe", \
-    "Adamant arrow", \
-    "Adamant bolts", \
-    "Adamant brutal", \
-    "Adamant javelin", \
+#define CONST_MITHRIL_AMMO [ \
+  "Mithril dart", \
+  "Mithril knife", \
+  "Mithril thrownaxe", \
+  "Mithril arrow", \
+  "Mithril bolts", \
+  "Mithril brutal", \
+  "Mithril javelin" \
 ]
-#define CONST_ADAMANT_ARMOUR [\
-    "Adamant boots", \
-    "Adamant gloves", \
-    "Adamant defender", \
-    "Adamant med helm", \
-    "Adamant full helm", \
-    "Adamant sq shield", \
-    "Adamant platelegs", \
-    "Adamant plateskirt", \
-    "Adamant kiteshield", \
-    "Adamant chainbody", \
-    "Adamant platebody", \
+#define CONST_MITHRIL_ARMOUR [ \
+  "Mithril boots", \
+  "Mithril gloves", \
+  "Mithril defender", \
+  "Mithril med helm", \
+  "Mithril full helm", \
+  "Mithril sq shield", \
+  "Mithril platelegs", \
+  "Mithril plateskirt", \
+  "Mithril kiteshield", \
+  "Mithril chainbody", \
+  "Mithril platebody" \
 ]
-#define CONST_ADAMANT_TRIMMED_ARMOUR [\
-    "Adamant full helm (t)", \
-    "Adamant platebody (t)", \
-    "Adamant platelegs (t)", \
-    "Adamant kiteshield (t)", \
-    "Adamant plateskirt (t)", \
+#define CONST_MITHRIL_TRIMMED_ARMOUR [ \
+  "Mithril full helm (t)", \
+  "Mithril platebody (t)", \
+  "Mithril platelegs (t)", \
+  "Mithril kiteshield (t)", \
+  "Mithril plateskirt (t)" \
 ]
-#define CONST_ADAMANT_GOLD_TRIMMED_ARMOUR [\
-    "Adamant full helm (g)", \
-    "Adamant platebody (g)", \
-    "Adamant platelegs (g)", \
-    "Adamant kiteshield (g)", \
-    "Adamant plateskirt (g)", \
+#define CONST_MITHRIL_GOLD_TRIMMED_ARMOUR [ \
+  "Mithril full helm (g)", \
+  "Mithril platebody (g)", \
+  "Mithril platelegs (g)", \
+  "Mithril kiteshield (g)", \
+  "Mithril plateskirt (g)" \
 ]
-#define CONST_ADAMANT_OTHER [\
-    "Adamant Nails", \
-    "Adamant Javelin heads", \
-    "Adamant Arrowtips", \
-    "Adamant Dart tips", \
-    "Adamant Unfinished bolts", \
-]
-#define CONST_ADAMANT_HERALDIC_ARMOUR [\
-    "Adamant helm (h1)", \
-    "Adamant helm (h2)", \
-    "Adamant helm (h3)", \
-    "Adamant helm (h4)", \
-    "Adamant helm (h5)", \
-    "Adamant platebody (h1)", \
-    "Adamant platebody (h2)", \
-    "Adamant platebody (h3)", \
-    "Adamant platebody (h4)", \
-    "Adamant platebody (h5)", \
-    "Adamant shield (h1)", \
-    "Adamant shield (h2)", \
-    "Adamant shield (h3)", \
-    "Adamant shield (h4)", \
-    "Adamant shield (h5)", \
+#define CONST_MITHRIL_OTHER [ \
+  "Mithril Nails", \
+  "Mithril Javelin heads", \
+  "Mithril Arrowtips", \
+  "Mithril Dart tips", \
+  "Mithril Unfinished bolts", \
+  "Mith grapple tip", \
+  "Mith grapple" \
 ]
 
-#define CONST_RUNE_ONE_HANDED_MELEE_WEAPONS [\
-    "Rune dagger", \
-    "Rune axe", \
-    "Rune mace", \
-    "Rune sword", \
-    "Rune pickaxe", \
-    "Rune scimitar", \
-    "Rune hasta", \
-    "Rune longsword", \
-    "Rune warhammer", \
-    "Rune battleaxe", \
+#define CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS [ \
+  "Adamant dagger", \
+  "Adamant axe", \
+  "Adamant mace", \
+  "Adamant cane", \
+  "Adamant sword", \
+  "Adamant pickaxe", \
+  "Adamant scimitar", \
+  "Adamant hasta", \
+  "Adamant longsword", \
+  "Adamant warhammer", \
+  "Adamant battleaxe" \
 ]
-#define CONST_RUNE_TWO_HANDED_MELEE_WEAPONS [\
-    "Rune claws", \
-    "Rune spear", \
-    "Rune halberd", \
-    "Rune 2h sword", \
+#define CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS [ \
+  "Adamant claws", \
+  "Adamant spear", \
+  "Adamant halberd", \
+  "Adamant 2h sword" \
 ]
-#define CONST_RUNE_RANGED_WEAPONS [\
-    "Rune crossbow", \
+#define CONST_ADAMANT_RANGED_WEAPONS [ \
+  "Adamant crossbow" \
 ]
-#define CONST_RUNE_AMMO [\
-    "Rune dart", \
-    "Rune knife", \
-    "Rune thrownaxe", \
-    "Rune arrow", \
-    "Rune bolts", \
-    "Rune brutal", \
-    "Rune javelin", \
+#define CONST_ADAMANT_AMMO [ \
+  "Adamant dart", \
+  "Adamant knife", \
+  "Adamant thrownaxe", \
+  "Adamant arrow", \
+  "Adamant bolts", \
+  "Adamant brutal", \
+  "Adamant javelin" \
 ]
-#define CONST_RUNE_ARMOUR [\
-    "Rune boots", \
-    "Rune gloves", \
-    "Rune defender", \
-    "Rune med helm", \
-    "Rune full helm", \
-    "Rune sq shield", \
-    "Rune platelegs", \
-    "Rune plateskirt", \
-    "Rune kiteshield", \
-    "Rune chainbody", \
-    "Rune platebody", \
+#define CONST_ADAMANT_ARMOUR [ \
+  "Adamant boots", \
+  "Adamant gloves", \
+  "Adamant defender", \
+  "Adamant med helm", \
+  "Adamant full helm", \
+  "Adamant sq shield", \
+  "Adamant platelegs", \
+  "Adamant plateskirt", \
+  "Adamant kiteshield", \
+  "Adamant chainbody", \
+  "Adamant platebody" \
 ]
-#define CONST_RUNE_TRIMMED_ARMOUR [\
-    "Rune full helm (t)", \
-    "Rune platebody (t)", \
-    "Rune platelegs (t)", \
-    "Rune kiteshield (t)", \
-    "Rune plateskirt (t)", \
+#define CONST_ADAMANT_TRIMMED_ARMOUR [ \
+  "Adamant full helm (t)", \
+  "Adamant platebody (t)", \
+  "Adamant platelegs (t)", \
+  "Adamant kiteshield (t)", \
+  "Adamant plateskirt (t)" \
 ]
-#define CONST_RUNE_GOLD_TRIMMED_ARMOUR [\
-    "Rune full helm (g)", \
-    "Rune platebody (g)", \
-    "Rune platelegs (g)", \
-    "Rune kiteshield (g)", \
-    "Rune plateskirt (g)", \
+#define CONST_ADAMANT_GOLD_TRIMMED_ARMOUR [ \
+  "Adamant full helm (g)", \
+  "Adamant platebody (g)", \
+  "Adamant platelegs (g)", \
+  "Adamant kiteshield (g)", \
+  "Adamant plateskirt (g)" \
 ]
-#define CONST_RUNE_OTHER [\
-    "Rune Nails", \
-    "Rune Javelin heads", \
-    "Rune Arrowtips", \
-    "Rune Dart tips", \
-    "Rune Unfinished bolts", \
+#define CONST_ADAMANT_OTHER [ \
+  "Adamant Nails", \
+  "Adamant Javelin heads", \
+  "Adamant Arrowtips", \
+  "Adamant Dart tips", \
+  "Adamant Unfinished bolts" \
 ]
-#define CONST_RUNE_HERALDIC_ARMOUR [\
-    "Rune helm (h1)", \
-    "Rune helm (h2)", \
-    "Rune helm (h3)", \
-    "Rune helm (h4)", \
-    "Rune helm (h5)", \
-    "Rune platebody (h1)", \
-    "Rune platebody (h2)", \
-    "Rune platebody (h3)", \
-    "Rune platebody (h4)", \
-    "Rune platebody (h5)", \
-    "Rune shield (h1)", \
-    "Rune shield (h2)", \
-    "Rune shield (h3)", \
-    "Rune shield (h4)", \
-    "Rune shield (h5)", \
-]
-#define CONST_RUNE_GILDED [\
-    "Gilded med helm", \
-    "Gilded full helm", \
-    "Gilded chainbody", \
-    "Gilded platebody", \
-    "Gilded platelegs", \
-    "Gilded plateskirt", \
-    "Gilded boots", \
-    "Gilded defender", \
-    "Gilded sq shield", \
-    "Gilded kiteshield", \
-    "Gilded hasta", \
-    "Gilded spear", \
-    "Gilded scimitar", \
-    "Gilded 2h sword", \
-]
-#define CONST_RUNE_ANCIENT_TRIMMED_ARMOUR [\
-    "Ancient full helm", \
-    "Ancient platebody", \
-    "Ancient platelegs", \
-    "Ancient kiteshield", \
-    "Ancient plateskirt", \
-]
-#define CONST_RUNE_ARMADYL_TRIMMED_ARMOUR [\
-    "Armadyl full helm", \
-    "Armadyl platebody", \
-    "Armadyl platelegs", \
-    "Armadyl kiteshield", \
-    "Armadyl plateskirt", \
-]
-#define CONST_RUNE_BANDOS_TRIMMED_ARMOUR [\
-    "Bandos full helm", \
-    "Bandos platebody", \
-    "Bandos platelegs", \
-    "Bandos kiteshield", \
-    "Bandos plateskirt", \
-]
-#define CONST_RUNE_GUTHIX_TRIMMED_ARMOUR [\
-    "Guthix full helm", \
-    "Guthix platebody", \
-    "Guthix platelegs", \
-    "Guthix kiteshield", \
-    "Guthix plateskirt", \
-]
-#define CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR [\
-    "Saradomin full helm", \
-    "Saradomin platebody", \
-    "Saradomin platelegs", \
-    "Saradomin kiteshield", \
-    "Saradomin plateskirt", \
-]
-#define CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR [\
-    "Zamorak full helm", \
-    "Zamorak platebody", \
-    "Zamorak platelegs", \
-    "Zamorak kiteshield", \
-    "Zamorak plateskirt", \
+#define CONST_ADAMANT_HERALDIC_ARMOUR [ \
+  "Adamant helm (h1)", \
+  "Adamant helm (h2)", \
+  "Adamant helm (h3)", \
+  "Adamant helm (h4)", \
+  "Adamant helm (h5)", \
+  "Adamant platebody (h1)", \
+  "Adamant platebody (h2)", \
+  "Adamant platebody (h3)", \
+  "Adamant platebody (h4)", \
+  "Adamant platebody (h5)", \
+  "Adamant shield (h1)", \
+  "Adamant shield (h2)", \
+  "Adamant shield (h3)", \
+  "Adamant shield (h4)", \
+  "Adamant shield (h5)" \
 ]
 
-#define CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS [\
-    "Dragon dagger", \
-    "Dragon axe", \
-    "Dragon pickaxe", \
-    "Dragon harpoon", \
-    "Dragon mace", \
-    "Dragon cane", \
-    "Dragon hasta", \
-    "Dragon sword", \
-    "Dragon scimitar", \
-    "Dragon longsword", \
-    "Dragon warhammer", \
-    "Dragon battleaxe", \
+#define CONST_RUNE_ONE_HANDED_MELEE_WEAPONS [ \
+  "Rune dagger", \
+  "Rune axe", \
+  "Rune mace", \
+  "Rune sword", \
+  "Rune pickaxe", \
+  "Rune scimitar", \
+  "Rune hasta", \
+  "Rune longsword", \
+  "Rune warhammer", \
+  "Rune battleaxe" \
 ]
-#define CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS [\
-    "Dragon claws", \
-    "Dragon spear", \
-    "Dragon halberd", \
-    "Dragon 2h sword", \
+#define CONST_RUNE_TWO_HANDED_MELEE_WEAPONS [ \
+  "Rune claws", \
+  "Rune spear", \
+  "Rune halberd", \
+  "Rune 2h sword" \
 ]
-#define CONST_DRAGON_RANGED_WEAPONS [\
-    "Dragon crossbow" \
+#define CONST_RUNE_RANGED_WEAPONS [ \
+  "Rune crossbow" \
 ]
-#define CONST_DRAGON_AMMO [\
-    "Dragon knife", \
-    "Dragon dart", \
-    "Dragon thrownaxe", \
-    "Dragon arrow", \
-    "Dragon bolts", \
-    "Dragon javelin", \
+#define CONST_RUNE_AMMO [ \
+  "Rune dart", \
+  "Rune knife", \
+  "Rune thrownaxe", \
+  "Rune arrow", \
+  "Rune bolts", \
+  "Rune brutal", \
+  "Rune javelin" \
 ]
-#define CONST_DRAGON_ARMOUR [\
-    "Dragon med helm", \
-    "Dragon full helm", \
-    "Dragon chainbody", \
-    "Dragon platebody", \
-    "Dragon platelegs", \
-    "Dragon plateskirt", \
-    "Dragon gloves", \
-    "Dragon boots", \
-    "Dragon sq shield", \
-    "Dragon kiteshield", \
-    "Dragon defender", \
+#define CONST_RUNE_ARMOUR [ \
+  "Rune boots", \
+  "Rune gloves", \
+  "Rune defender", \
+  "Rune med helm", \
+  "Rune full helm", \
+  "Rune sq shield", \
+  "Rune platelegs", \
+  "Rune plateskirt", \
+  "Rune kiteshield", \
+  "Rune chainbody", \
+  "Rune platebody" \
+]
+#define CONST_RUNE_TRIMMED_ARMOUR [ \
+  "Rune full helm (t)", \
+  "Rune platebody (t)", \
+  "Rune platelegs (t)", \
+  "Rune kiteshield (t)", \
+  "Rune plateskirt (t)" \
+]
+#define CONST_RUNE_GOLD_TRIMMED_ARMOUR [ \
+  "Rune full helm (g)", \
+  "Rune platebody (g)", \
+  "Rune platelegs (g)", \
+  "Rune kiteshield (g)", \
+  "Rune plateskirt (g)" \
+]
+#define CONST_RUNE_OTHER [ \
+  "Rune Nails", \
+  "Rune Javelin heads", \
+  "Rune Arrowtips", \
+  "Rune Dart tips", \
+  "Rune Unfinished bolts" \
+]
+#define CONST_RUNE_HERALDIC_ARMOUR [ \
+  "Rune helm (h1)", \
+  "Rune helm (h2)", \
+  "Rune helm (h3)", \
+  "Rune helm (h4)", \
+  "Rune helm (h5)", \
+  "Rune platebody (h1)", \
+  "Rune platebody (h2)", \
+  "Rune platebody (h3)", \
+  "Rune platebody (h4)", \
+  "Rune platebody (h5)", \
+  "Rune shield (h1)", \
+  "Rune shield (h2)", \
+  "Rune shield (h3)", \
+  "Rune shield (h4)", \
+  "Rune shield (h5)" \
+]
+#define CONST_RUNE_GILDED [ \
+  "Gilded med helm", \
+  "Gilded full helm", \
+  "Gilded chainbody", \
+  "Gilded platebody", \
+  "Gilded platelegs", \
+  "Gilded plateskirt", \
+  "Gilded boots", \
+  "Gilded defender", \
+  "Gilded sq shield", \
+  "Gilded kiteshield", \
+  "Gilded hasta", \
+  "Gilded spear", \
+  "Gilded scimitar", \
+  "Gilded 2h sword" \
+]
+#define CONST_RUNE_ANCIENT_TRIMMED_ARMOUR [ \
+  "Ancient full helm", \
+  "Ancient platebody", \
+  "Ancient platelegs", \
+  "Ancient kiteshield", \
+  "Ancient plateskirt" \
+]
+#define CONST_RUNE_ARMADYL_TRIMMED_ARMOUR [ \
+  "Armadyl full helm", \
+  "Armadyl platebody", \
+  "Armadyl platelegs", \
+  "Armadyl kiteshield", \
+  "Armadyl plateskirt" \
+]
+#define CONST_RUNE_BANDOS_TRIMMED_ARMOUR [ \
+  "Bandos full helm", \
+  "Bandos platebody", \
+  "Bandos platelegs", \
+  "Bandos kiteshield", \
+  "Bandos plateskirt" \
+]
+#define CONST_RUNE_GUTHIX_TRIMMED_ARMOUR [ \
+  "Guthix full helm", \
+  "Guthix platebody", \
+  "Guthix platelegs", \
+  "Guthix kiteshield", \
+  "Guthix plateskirt" \
+]
+#define CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR [ \
+  "Saradomin full helm", \
+  "Saradomin platebody", \
+  "Saradomin platelegs", \
+  "Saradomin kiteshield", \
+  "Saradomin plateskirt" \
+]
+#define CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR [ \
+  "Zamorak full helm", \
+  "Zamorak platebody", \
+  "Zamorak platelegs", \
+  "Zamorak kiteshield", \
+  "Zamorak plateskirt" \
+]
+
+#define CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS [ \
+  "Dragon dagger", \
+  "Dragon axe", \
+  "Dragon pickaxe", \
+  "Dragon harpoon", \
+  "Dragon mace", \
+  "Dragon cane", \
+  "Dragon hasta", \
+  "Dragon sword", \
+  "Dragon scimitar", \
+  "Dragon longsword", \
+  "Dragon warhammer", \
+  "Dragon battleaxe" \
+]
+#define CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS [ \
+  "Dragon claws", \
+  "Dragon spear", \
+  "Dragon halberd", \
+  "Dragon 2h sword" \
+]
+#define CONST_DRAGON_RANGED_WEAPONS [ \
+  "Dragon crossbow" \
+]
+#define CONST_DRAGON_AMMO [ \
+  "Dragon knife", \
+  "Dragon dart", \
+  "Dragon thrownaxe", \
+  "Dragon arrow", \
+  "Dragon bolts", \
+  "Dragon javelin" \
+]
+#define CONST_DRAGON_ARMOUR [ \
+  "Dragon med helm", \
+  "Dragon full helm", \
+  "Dragon chainbody", \
+  "Dragon platebody", \
+  "Dragon platelegs", \
+  "Dragon plateskirt", \
+  "Dragon gloves", \
+  "Dragon boots", \
+  "Dragon sq shield", \
+  "Dragon kiteshield", \
+  "Dragon defender" \
 ]
 
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
@@ -11867,7 +12672,13 @@ enum: [
   }
 ]
 */
-#define VAR_GAUNTLET_TOOLS_HIDE ["* sceptre", "* harpoon", "* axe", "* pickaxe", "Pestle and mortar"]
+#define VAR_GAUNTLET_TOOLS_HIDE [ \
+  "* sceptre", \
+  "* harpoon", \
+  "* axe", \
+  "* pickaxe", \
+  "Pestle and mortar" \
+]
 
 /*@ define:input:gauntlet
 type: enumlist
@@ -12464,13 +13275,16 @@ apply (area:CONST_GAUNTLET_AREA && name:"* body *") {
 apply (area:CONST_GAUNTLET_AREA && name:"* legs *") {
     VAR_GAUNTLET_CRYSTAL_LEGS_CUSTOMSTYLE 
 }
-apply (area:CONST_GAUNTLET_AREA && name:["* (basic)"]) {
+apply (area:CONST_GAUNTLET_AREA && name:["* (basic)" \
+]) {
     VAR_GAUNTLET_BASIC_CUSTOMSTYLE 
 }
-apply (area:CONST_GAUNTLET_AREA && name:["* (attuned)"]) {
+apply (area:CONST_GAUNTLET_AREA && name:["* (attuned)" \
+]) {
     VAR_GAUNTLET_ATTUNED_CUSTOMSTYLE 
 }
-apply (area:CONST_GAUNTLET_AREA && name:["* (perfected)"]) {
+apply (area:CONST_GAUNTLET_AREA && name:["* (perfected)" \
+]) {
     VAR_GAUNTLET_PERFECTED_CUSTOMSTYLE 
 }
 
@@ -12487,51 +13301,51 @@ description: |
 */
 #define CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA [3391, 5758, 0, 3521, 5889, 3]
 #define CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA [3457, 6017, 0, 3646, 6205, 3]
-#define CONST_LAST_MAN_STANDING_STARTER_GEAR_LIST [\
-    "Abyssal whip", \
-    "Ahrim's staff", \
-    "Amulet of glory", \
-    "Ancient staff", \
-    "Barrows gloves", \
-    "Berserker helm", \
-    "Berserker ring", \
-    "Black d'hide body", \
-    "Black d'hide chaps", \
-    "Climbing boots", \
-    "Diamond bolts (e)", \
-    "Dragon dagger", \
-    "Dragon defender", \
-    "Dragon scimitar", \
-    "Ghostly hood", \
-    "Ghostly robe (bottom)", \
-    "Ghostly robe (top)", \
-    "Helm of neitiznot", \
-    "Imbued guthix cape", \
-    "Imbued saradomin cape", \
-    "Imbued zamorak cape", \
-    "Mithril gloves", \
-    "Mystic robe bottom", \
-    "Mystic robe bottom (dark)", \
-    "Mystic robe bottom (light)", \
-    "Mystic robe top", \
-    "Mystic robe top (dark)", \
-    "Mystic robe top (light)", \
-    "Occult necklace", \
-    "Rune crossbow", \
-    "Rune defender", \
-    "Rune platelegs", \
-    "Spirit shield", \
-    "Tome of fire", \
-    "Unholy book",  \
+#define CONST_LAST_MAN_STANDING_STARTER_GEAR_LIST [ \
+  "Abyssal whip", \
+  "Ahrim's staff", \
+  "Amulet of glory", \
+  "Ancient staff", \
+  "Barrows gloves", \
+  "Berserker helm", \
+  "Berserker ring", \
+  "Black d'hide body", \
+  "Black d'hide chaps", \
+  "Climbing boots", \
+  "Diamond bolts (e)", \
+  "Dragon dagger", \
+  "Dragon defender", \
+  "Dragon scimitar", \
+  "Ghostly hood", \
+  "Ghostly robe (bottom)", \
+  "Ghostly robe (top)", \
+  "Helm of neitiznot", \
+  "Imbued guthix cape", \
+  "Imbued saradomin cape", \
+  "Imbued zamorak cape", \
+  "Mithril gloves", \
+  "Mystic robe bottom", \
+  "Mystic robe bottom (dark)", \
+  "Mystic robe bottom (light)", \
+  "Mystic robe top", \
+  "Mystic robe top (dark)", \
+  "Mystic robe top (light)", \
+  "Occult necklace", \
+  "Rune crossbow", \
+  "Rune defender", \
+  "Rune platelegs", \
+  "Spirit shield", \
+  "Tome of fire", \
+  "Unholy book",  \
 ]
-#define CONST_LAST_MAN_STANDING_AMMO_LIST [\
-    "Atlatl dart", \
-    "Diamond bolts (e)", \
-    "Dragon arrows", \
-    "Dragon javelins", \
-    "Dragon knife", \
-    "Morrigan's javelin", \
-    "Opal dragon bolts (e)", \
+#define CONST_LAST_MAN_STANDING_AMMO_LIST [ \
+  "Atlatl dart", \
+  "Diamond bolts (e)", \
+  "Dragon arrows", \
+  "Dragon javelins", \
+  "Dragon knife", \
+  "Morrigan's javelin", \
+  "Opal dragon bolts (e)" \
 ]
 
 /*@ define:input:last_man_standing
@@ -12847,7 +13661,13 @@ enum: [
   "Dragon spear"
 ]
 */
-#define VAR_RDT_SHOW ["Loop half of key", "Tooth half of key", "Rune spear", "Shield left half", "Dragon spear"]
+#define VAR_RDT_SHOW [ \
+  "Loop half of key", \
+  "Tooth half of key", \
+  "Rune spear", \
+  "Shield left half", \
+  "Dragon spear" \
+]
 
 
 /*@ define:input:rare_drop_table
