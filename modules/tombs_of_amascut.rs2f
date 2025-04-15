@@ -11,6 +11,47 @@ description: |
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
+label: Supplies to force shown
+group: TOA Item Filters
+enum: [
+  {
+    "value": "Honey locust (*",
+    "label": "Honey locust"
+  },
+  {
+    "value": "Ambrosia (*",
+    "label": "Ambrosia"
+  },
+  {
+    "value": "Blessed crystal scarab (*",
+    "label": "Blessed crystal scarab"
+  },
+  {
+    "value": "Liquid adrenaline (*",
+    "label": "Liquid adrenaline"
+  },
+  {
+    "value": "Nectar (*",
+    "label": "Nectar"
+  },
+  {
+    "value": "Silk dressing (*",
+    "label": "Silk dressing"
+  },
+  {
+    "value": "Smelling salts (*",
+    "label": "Smelling salts"
+  },
+  {
+    "value": "Tears of Elidinis (*",
+    "label": "Tears of Elidinis"
+  }
+]
+*/
+#define VAR_TOA_SUPPLIES_SHOW []
+
+/*@ define:input:tombs_of_amascut
+type: enumlist
 label: Supplies to force hidden
 group: TOA Item Filters
 enum: [
@@ -52,15 +93,42 @@ enum: [
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
+label: Room items to force shown
+group: TOA Item Filters
+enum: [
+  "Neutralising potion",
+  "Water container"
+]
+*/
+#define VAR_TOA_ROOM_ITEMS_SHOW [ \
+  "Water container", \
+]
+
+/*@ define:input:tombs_of_amascut
+type: enumlist
 label: Room items to force hidden
 group: TOA Item Filters
 enum: [
-  "Neutralising potion"
+  "Neutralising potion",
+  "Water container"
 ]
 */
 #define VAR_TOA_ROOM_ITEMS_HIDE [ \
   "Neutralising potion", \
 ]
+
+/*@ define:input:tombs_of_amascut
+type: enumlist
+label: MVP items to force shown
+group: TOA Item Filters
+enum: [
+  "Big banana",
+  "Eldritch ashes",
+  "Fang",
+  "Scarab dung"
+]
+*/
+#define VAR_TOA_MVP_ITEMS_SHOW []
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
@@ -79,6 +147,22 @@ enum: [
   "Fang", \
   "Scarab dung", \
 ]
+
+/*@ define:input:tombs_of_amascut
+type: enumlist
+label: Books to force shown
+group: TOA Item Filters
+enum: [
+  "Akila's journal",
+  "Apmeken's Capture",
+  "Crondis' Capture",
+  "Het's Capture",
+  "Scabaras' Capture",
+  "The Wardens",
+  "The Jackal's Torch"
+]
+*/
+#define VAR_TOA_BOOKS_SHOW []
 
 /*@ define:input:tombs_of_amascut
 type: enumlist
@@ -265,61 +349,67 @@ group: TOA Item Styles
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFe285b9";
 
-
-
-
-apply (name:VAR_TOA_SUPPLIES_HIDE) {
+apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_HIDE) {
     hidden = true;
 }
-apply (name:VAR_TOA_ROOM_ITEMS_HIDE) {
+apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_HIDE) {
     hidden = true;
 }
-apply (name:VAR_TOA_MVP_ITEMS_HIDE) {
+apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_HIDE) {
     hidden = true;
 }
-apply (name:VAR_TOA_BOOKS_HIDE) {
+apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
     hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
+    hidden = false;
 }
 
-apply (name:"Big banana") {
+apply (area:CONST_TOA_AREA && name:"Big banana") {
     VAR_BIG_BANANA_CUSTOMSTYLE
 }
-apply (name:"Eldritch ashes") {
+apply (area:CONST_TOA_AREA && name:"Eldritch ashes") {
     VAR_ELDRITCH_ASHES_CUSTOMSTYLE
 }
-apply (name:"Fang") {
+apply (area:CONST_TOA_AREA && name:"Fang") {
     VAR_FANG_CUSTOMSTYLE
 }
-apply (name:"Scarab dung") {
+apply (area:CONST_TOA_AREA && name:"Scarab dung") {
     VAR_SCARAB_DUNG_CUSTOMSTYLE
 }
-apply (name:"Neutralising potion") {
+apply (area:CONST_TOA_AREA && name:"Neutralising potion") {
     VAR_NEUTRALISING_POTION_CUSTOMSTYLE
 }
-apply (name:"Honey locust") {
+apply (area:CONST_TOA_AREA && name:"Honey locust") {
     VAR_HONEY_LOCUST_CUSTOMSTYLE
 }
-apply (name:"Ambrosia (*") {
+apply (area:CONST_TOA_AREA && name:"Ambrosia (*") {
     VAR_AMBROSIA_CUSTOMSTYLE
 }
-apply (name:"Blessed crystal scarab (*") {
+apply (area:CONST_TOA_AREA && name:"Blessed crystal scarab (*") {
     VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE
 }
-apply (name:"Liquid adrenaline (*") {
+apply (area:CONST_TOA_AREA && name:"Liquid adrenaline (*") {
     VAR_LIQUID_ADRENALINE_CUSTOMSTYLE
 }
-apply (name:"Nectar (*") {
+apply (area:CONST_TOA_AREA && name:"Nectar (*") {
     VAR_NECTAR_CUSTOMSTYLE
 }
-apply (name:"Silk dressing (*") {
+apply (area:CONST_TOA_AREA && name:"Silk dressing (*") {
     VAR_SILK_DRESSING_CUSTOMSTYLE
 }
-apply (name:"Smelling salts (*") {
+apply (area:CONST_TOA_AREA && name:"Smelling salts (*") {
     VAR_SMELLING_SALTS_CUSTOMSTYLE
 }
-apply (name:"Tears of Elidinis (*") {
+apply (area:CONST_TOA_AREA && name:"Tears of Elidinis (*") {
     VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE
 }
-
-
-
