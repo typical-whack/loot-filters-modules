@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "**/*.rs2f"
+  workflow_dispatch:
 
 jobs:
   build:
