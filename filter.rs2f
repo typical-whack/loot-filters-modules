@@ -102,7 +102,7 @@ group: Value Based Filters
 */
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
-#define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [
+#define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
     "1/2 meat pizza", \
     "1/2 pineapple pizza", \
