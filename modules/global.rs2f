@@ -46,6 +46,12 @@ label: Show Untradeable Value
 
 /*@ define:input:global_defaults
 type: boolean
+label: Hide world spawn items
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+/*@ define:input:global_defaults
+type: boolean
 label: Hide items owned by other players
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
@@ -320,6 +326,9 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VA
 }
 apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
     showValue = true;
+}
+apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
+    hidden = true;
 }
 apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
     hidden = true;
