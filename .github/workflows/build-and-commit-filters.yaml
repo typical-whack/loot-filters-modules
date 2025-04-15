@@ -15,32 +15,30 @@ jobs:
       - name: Cleanup
         run: |
           echo "Cleaning up previously built filter files"
-          rm -rf output
-          mkdir output
+          rm -f filter.rs2f default-filter.rs2f
 
       - name: Build
         run: |
           echo "Building filter"
           cat module_order.txt | while read line || [[ -n $line ]]; do
-            echo "meta { name = \"Joe's filter\"; }" >> output/filter.rs2f
-            cat modules/$line.rs2f >> output/filter.rs2f
+            echo "meta { name = \"Joe's filter\"; }" >> filter.rs2f
+            cat modules/$line.rs2f >> filter.rs2f
           done
           echo "Building default filter"
           cat module_order.txt | while read line || [[ -n $line ]]; do
-            echo "meta { name = \"[default: Joe's filter]\"; }" >> output/default-filter.rs2f
-            cat modules/$line.rs2f >> output/default-filter.rs2f
+            echo "meta { name = \"[default: Joe's filter]\"; }" >> default-filter.rs2f
+            cat modules/$line.rs2f >> default-filter.rs2f
           done
 
       - name: Print filter
-        run: cat output/filter.rs2f
+        run: cat filter.rs2f
 
       - name: Print default filter
-        run: cat output/default-filter.rs2f
+        run: cat default-filter.rs2f
 
       - name: Compute vars
         id: vars
         run: |
-          echo "date=$(date +%Y%m%d.%H%M%S)" >> $GITHUB_OUTPUT
           echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
       - name: Commit files
