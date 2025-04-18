@@ -2443,6 +2443,7 @@ type: style
 label: Elder potion custom style
 group: COX potion style
 exampleItem: Elder potion
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ELDER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2456,6 +2457,7 @@ type: style
 label: Twisted potion custom style
 group: COX potion style
 exampleItem: Twisted potion
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_TWISTED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2469,6 +2471,7 @@ type: style
 label: Kodai potion custom style
 group: COX potion style
 exampleItem: Kodai potion
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_KODAI_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2482,6 +2485,7 @@ type: style
 label: Revitalisation potion custom style
 group: COX potion style
 exampleItem: Revitalisation potion
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_REVITALISATION_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2495,6 +2499,7 @@ type: style
 label: Prayer enhance custom style
 group: COX potion style
 exampleItem: Prayer enhance
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2508,6 +2513,7 @@ type: style
 label: Xeric's aid custom style
 group: COX potion style
 exampleItem: Xeric's aid
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_XERICS_AID_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2521,6 +2527,7 @@ type: style
 label: Antipoison custom style
 group: COX potion style
 exampleItem: Antipoison
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ANTIPOISON_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2534,6 +2541,7 @@ type: style
 label: Overload custom style
 group: COX potion style
 exampleItem: Overload
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_OVERLOAD_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2547,6 +2555,7 @@ type: style
 label: Golpar seed custom style
 group: COX misc style
 exampleItem: Golpar seed
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_SEED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2560,6 +2569,7 @@ type: style
 label: Buchu seed custom style
 group: COX misc style
 exampleItem: Buchu seed
+backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_SEED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2573,6 +2583,7 @@ type: style
 label: Noxifer seed custom style
 group: COX misc style
 exampleItem: Noxifer seed
+backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_SEED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2586,6 +2597,7 @@ type: style
 label: Grimy golpar custom style
 group: COX misc style
 exampleItem: Grimy golpar
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_GOLPAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2599,6 +2611,7 @@ type: style
 label: Grimy buchu leaf custom style
 group: COX misc style
 exampleItem: Grimy buchu leaf
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2612,6 +2625,7 @@ type: style
 label: Grimy noxifer custom style
 group: COX misc style
 exampleItem: Grimy noxifer
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_NOXIFER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2625,6 +2639,7 @@ type: style
 label: Golpar custom style
 group: COX misc style
 exampleItem: Golpar
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2638,6 +2653,7 @@ type: style
 label: Buchu leaf custom style
 group: COX misc style
 exampleItem: Buchu leaf
+backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_LEAF_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2651,6 +2667,7 @@ type: style
 label: Noxifer custom style
 group: COX misc style
 exampleItem: Noxifer
+backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2664,6 +2681,7 @@ type: style
 label: Endarkened juice custom style
 group: COX misc style
 exampleItem: Endarkened juice
+backgroundImage: Chambers of Xeric
 */
 #define VAR_ENDARKENED_JUICE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2677,6 +2695,7 @@ type: style
 label: Stinkhorn mushroom custom style
 group: COX misc style
 exampleItem: Stinkhorn mushroom
+backgroundImage: Chambers of Xeric
 */
 #define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2690,6 +2709,7 @@ type: style
 label: Cicely custom style
 group: COX misc style
 exampleItem: Cicely
+backgroundImage: Chambers of Xeric
 */
 #define VAR_CICELY_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2703,6 +2723,7 @@ type: style
 label: Mallignum root plank custom style
 group: COX misc style
 exampleItem: Mallignum root plank
+backgroundImage: Chambers of Xeric
 */
 #define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2716,6 +2737,7 @@ type: style
 label: Cavern grubs custom style
 group: COX misc style
 exampleItem: Cavern grubs
+backgroundImage: Chambers of Xeric
 */
 #define VAR_CAVERN_GRUBS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2729,6 +2751,7 @@ type: style
 label: Empty gourd vial custom style
 group: COX misc style
 exampleItem: Empty gourd vial
+backgroundImage: Chambers of Xeric
 */
 #define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2742,6 +2765,7 @@ type: style
 label: Water-filled gourd vial custom style
 group: COX misc style
 exampleItem: Water-filled gourd vial
+backgroundImage: Chambers of Xeric
 */
 #define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2953,6 +2977,7 @@ description: |
 type: style
 label: Dawnbringer custom style
 exampleItem: Dawnbringer
+backgroundImage: Verzik Vitur
 */
 #define VAR_TOB_DAWNBRINGER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2965,6 +2990,7 @@ exampleItem: Dawnbringer
 type: style
 label: Salve custom style
 exampleItem: Salve amulet (e)
+backgroundImage: Verzik Vitur
 */
 #define VAR_TOB_SALVE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2973,9 +2999,6 @@ exampleItem: Salve amulet (e)
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFe39cb1";
 
-
-
-
 apply (name:"Dawnbringer") {
     VAR_TOB_DAWNBRINGER_CUSTOMSTYLE 
     hidden = false;
@@ -2983,9 +3006,6 @@ apply (name:"Dawnbringer") {
 apply (name:"Salve amulet (e)") {
     VAR_TOB_SALVE_CUSTOMSTYLE 
 }
-
-
-
 
 /*@ define:module:tombs_of_amascut
 ---
@@ -3181,6 +3201,7 @@ enum: [
 type: style
 label: Big banana
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_BIG_BANANA_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3194,6 +3215,7 @@ group: TOA Item Styles
 type: style
 label: Eldritch ashes
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_ELDRITCH_ASHES_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3207,6 +3229,7 @@ group: TOA Item Styles
 type: style
 label: Fang
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_FANG_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3220,6 +3243,7 @@ group: TOA Item Styles
 type: style
 label: Scarab dung
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_SCARAB_DUNG_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3233,6 +3257,7 @@ group: TOA Item Styles
 type: style
 label: Neutralising potion
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_NEUTRALISING_POTION_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3245,6 +3270,7 @@ group: TOA Item Styles
 type: style
 label: Honey locust
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_HONEY_LOCUST_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3257,6 +3283,7 @@ group: TOA Item Styles
 type: style
 label: Ambrosia
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_AMBROSIA_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3269,6 +3296,7 @@ group: TOA Item Styles
 type: style
 label: Blessed crystal scarab
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3281,6 +3309,7 @@ group: TOA Item Styles
 type: style
 label: Liquid adrenaline
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_LIQUID_ADRENALINE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3293,6 +3322,7 @@ group: TOA Item Styles
 type: style
 label: Nectar
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_NECTAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3305,6 +3335,7 @@ group: TOA Item Styles
 type: style
 label: Silk dressing
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_SILK_DRESSING_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3317,6 +3348,7 @@ group: TOA Item Styles
 type: style
 label: Smelling salts
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_SMELLING_SALTS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -3329,6 +3361,7 @@ group: TOA Item Styles
 type: style
 label: Tears of Elidinis
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\

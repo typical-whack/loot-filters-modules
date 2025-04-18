@@ -193,6 +193,7 @@ enum: [
 type: style
 label: Big banana
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_BIG_BANANA_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -206,6 +207,7 @@ group: TOA Item Styles
 type: style
 label: Eldritch ashes
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_ELDRITCH_ASHES_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -219,6 +221,7 @@ group: TOA Item Styles
 type: style
 label: Fang
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_FANG_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -232,6 +235,7 @@ group: TOA Item Styles
 type: style
 label: Scarab dung
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_SCARAB_DUNG_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -245,6 +249,7 @@ group: TOA Item Styles
 type: style
 label: Neutralising potion
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_NEUTRALISING_POTION_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -257,6 +262,7 @@ group: TOA Item Styles
 type: style
 label: Honey locust
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_HONEY_LOCUST_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -269,6 +275,7 @@ group: TOA Item Styles
 type: style
 label: Ambrosia
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_AMBROSIA_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -281,6 +288,7 @@ group: TOA Item Styles
 type: style
 label: Blessed crystal scarab
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -293,6 +301,7 @@ group: TOA Item Styles
 type: style
 label: Liquid adrenaline
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_LIQUID_ADRENALINE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -305,6 +314,7 @@ group: TOA Item Styles
 type: style
 label: Nectar
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_NECTAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -317,6 +327,7 @@ group: TOA Item Styles
 type: style
 label: Silk dressing
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_SILK_DRESSING_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -329,6 +340,7 @@ group: TOA Item Styles
 type: style
 label: Smelling salts
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_SMELLING_SALTS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -341,6 +353,7 @@ group: TOA Item Styles
 type: style
 label: Tears of Elidinis
 group: TOA Item Styles
+backgroundImage: Wardens
 */
 #define VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
