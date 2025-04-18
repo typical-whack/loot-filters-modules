@@ -21,14 +21,14 @@ jobs:
       - name: Build
         run: |
           echo "Building filter"
-          echo $"/*@ define:module:header\nhidden: true\nname: header\n*/" >> filter.rs2f
+          echo -e "/*@ define:module:header\nhidden: true\nname: header\n*/" >> filter.rs2f
           echo "meta { name = \"Joe's filter\"; }" >> filter.rs2f
           cat module_order.txt | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> filter.rs2f
           done
 
           echo "Building default filter"
-          echo $"/*@ define:module:header\nhidden: true\nname: header\n*/" >> default-filter.rs2f
+          echo -e "/*@ define:module:header\nhidden: true\nname: header\n*/" >> default-filter.rs2f
           echo "meta { name = \"[default: Joe's filter]\"; }" >> default-filter.rs2f
           cat module_order.txt | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> default-filter.rs2f
