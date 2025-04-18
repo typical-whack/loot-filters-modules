@@ -1,3 +1,4 @@
+/*@ define:module:header\nhidden: true\nname: header\n*/
 meta { name = "Joe's filter"; }
 
 /*@ define:module:global_defaults
