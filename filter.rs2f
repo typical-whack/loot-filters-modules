@@ -2443,7 +2443,7 @@ type: style
 label: Elder potion custom style
 group: COX potion style
 exampleItem: Elder potion
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ELDER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2457,7 +2457,7 @@ type: style
 label: Twisted potion custom style
 group: COX potion style
 exampleItem: Twisted potion
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_TWISTED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2471,7 +2471,7 @@ type: style
 label: Kodai potion custom style
 group: COX potion style
 exampleItem: Kodai potion
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_KODAI_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2485,7 +2485,7 @@ type: style
 label: Revitalisation potion custom style
 group: COX potion style
 exampleItem: Revitalisation potion
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_REVITALISATION_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2499,7 +2499,7 @@ type: style
 label: Prayer enhance custom style
 group: COX potion style
 exampleItem: Prayer enhance
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2513,7 +2513,7 @@ type: style
 label: Xeric's aid custom style
 group: COX potion style
 exampleItem: Xeric's aid
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_XERICS_AID_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2527,7 +2527,7 @@ type: style
 label: Antipoison custom style
 group: COX potion style
 exampleItem: Antipoison
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ANTIPOISON_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2541,7 +2541,7 @@ type: style
 label: Overload custom style
 group: COX potion style
 exampleItem: Overload
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_OVERLOAD_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2555,7 +2555,7 @@ type: style
 label: Golpar seed custom style
 group: COX misc style
 exampleItem: Golpar seed
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_SEED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2569,7 +2569,7 @@ type: style
 label: Buchu seed custom style
 group: COX misc style
 exampleItem: Buchu seed
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_SEED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2583,7 +2583,7 @@ type: style
 label: Noxifer seed custom style
 group: COX misc style
 exampleItem: Noxifer seed
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_SEED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2597,7 +2597,7 @@ type: style
 label: Grimy golpar custom style
 group: COX misc style
 exampleItem: Grimy golpar
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_GOLPAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2611,7 +2611,7 @@ type: style
 label: Grimy buchu leaf custom style
 group: COX misc style
 exampleItem: Grimy buchu leaf
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2625,7 +2625,7 @@ type: style
 label: Grimy noxifer custom style
 group: COX misc style
 exampleItem: Grimy noxifer
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_NOXIFER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2639,7 +2639,7 @@ type: style
 label: Golpar custom style
 group: COX misc style
 exampleItem: Golpar
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2653,7 +2653,7 @@ type: style
 label: Buchu leaf custom style
 group: COX misc style
 exampleItem: Buchu leaf
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_LEAF_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2667,7 +2667,7 @@ type: style
 label: Noxifer custom style
 group: COX misc style
 exampleItem: Noxifer
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2681,7 +2681,7 @@ type: style
 label: Endarkened juice custom style
 group: COX misc style
 exampleItem: Endarkened juice
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_ENDARKENED_JUICE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2695,7 +2695,7 @@ type: style
 label: Stinkhorn mushroom custom style
 group: COX misc style
 exampleItem: Stinkhorn mushroom
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2709,7 +2709,7 @@ type: style
 label: Cicely custom style
 group: COX misc style
 exampleItem: Cicely
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_CICELY_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2723,7 +2723,7 @@ type: style
 label: Mallignum root plank custom style
 group: COX misc style
 exampleItem: Mallignum root plank
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2737,7 +2737,7 @@ type: style
 label: Cavern grubs custom style
 group: COX misc style
 exampleItem: Cavern grubs
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_CAVERN_GRUBS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2751,7 +2751,7 @@ type: style
 label: Empty gourd vial custom style
 group: COX misc style
 exampleItem: Empty gourd vial
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -2765,7 +2765,7 @@ type: style
 label: Water-filled gourd vial custom style
 group: COX misc style
 exampleItem: Water-filled gourd vial
-backgroundImage: ChambersOfXeric
+backgroundImage: Chambers of Xeric
 */
 #define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
