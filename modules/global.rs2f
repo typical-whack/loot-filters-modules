@@ -34,13 +34,13 @@ label: Show Despawn Timer
 
 /*@ define:input:global_defaults
 type: boolean
-label: Show Tradeable Value
+label: Show Value for Tradeable Items
 */
 #define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
 
 /*@ define:input:global_defaults
 type: boolean
-label: Show Untradeable Value
+label: Show Value for Untradeable Items
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
