@@ -27,9 +27,17 @@ label: Items to show
 
 /*@ define:input:global_defaults
 type: boolean
-label: Show Icons
+label: Show Icons on all items
+group: Icons
 */
 #define VAR_GLOBAL_SHOW_ICONS true
+
+/*@ define:input:global_defaults
+type: stringlist
+label: Items to show icons for (if not showing for all items)
+group: Icons
+*/
+#define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
 
 /*@ define:input:global_defaults
 type: boolean
@@ -39,13 +47,13 @@ label: Show Despawn Timer
 
 /*@ define:input:global_defaults
 type: boolean
-label: Show Tradeable Value
+label: Show Value for Tradeable Items
 */
 #define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
 
 /*@ define:input:global_defaults
 type: boolean
-label: Show Untradeable Value
+label: Show Value for Untradeable Items
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
@@ -367,6 +375,9 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
     hidden = true;
 }
 
+apply (name:VAR_GLOBAL_SHOW_ICONS_ITEMLIST) {
+    icon = CurrentItem();
+}
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
