@@ -25,14 +25,14 @@ group: Item Filters
 /*@ define:input:global_defaults
 type: boolean
 label: Show Icons on all items
-group: Style Settings
+group: Icon Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS true
 
 /*@ define:input:global_defaults
 type: stringlist
 label: Items to show icons for (if not showing for all items)
-group: Style Settings
+group: Icon Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
 
@@ -97,7 +97,7 @@ group: Value-based Style Settings
 /*@ define:input:global_defaults
 type: number
 label: Hide icons for items below this value
-group: Value-based Style Settings
+group: Icon Settings
 */
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
