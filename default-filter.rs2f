@@ -15,12 +15,14 @@ description: |
 /*@ define:input:global_defaults
 type: stringlist
 label: Items to hide
+group: Item Filters
 */
 #define VAR_GLOBAL_HIDE []
 
 /*@ define:input:global_defaults
 type: stringlist
 label: Items to show
+group: Item Filters
 */
 #define VAR_GLOBAL_SHOW []
 
@@ -28,50 +30,56 @@ label: Items to show
 /*@ define:input:global_defaults
 type: boolean
 label: Show Icons on all items
-group: Icons
+group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS true
 
 /*@ define:input:global_defaults
 type: stringlist
 label: Items to show icons for (if not showing for all items)
-group: Icons
+group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
 
 /*@ define:input:global_defaults
 type: boolean
 label: Show Despawn Timer
+group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_DESPAWN true
 
 /*@ define:input:global_defaults
 type: boolean
 label: Show Value for Tradeable Items
+group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
 
 /*@ define:input:global_defaults
 type: boolean
 label: Show Value for Untradeable Items
+group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
 /*@ define:input:global_defaults
 type: boolean
 label: Hide world spawn items
+group: Item Filters
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
 /*@ define:input:global_defaults
 type: boolean
 label: Hide items owned by other players
+group: Item Filters
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
 /*@ define:input:global_defaults
 type: style
 label: Global default style
+group: Style Settings
 exampleItem: Santa hat
 */
 #define VAR_GLOBAL_CUSTOMSTYLE 
@@ -80,21 +88,21 @@ exampleItem: Santa hat
 /*@ define:input:global_defaults
 type: number
 label: Hide despawn timer for items below this value
-group: Value Based Settings
+group: Value-based Style Settings
 */
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
 
 /*@ define:input:global_defaults
 type: number
 label: Hide prices for items below this value
-group: Value Based Settings
+group: Value-based Style Settings
 */
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
 
 /*@ define:input:global_defaults
 type: number
 label: Hide icons for items below this value
-group: Value Based Settings
+group: Value-based Style Settings
 */
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
@@ -102,21 +110,21 @@ group: Value Based Settings
 /*@ define:input:global_defaults
 type: number
 label: Hide items below this value
-group: Value Based Filters
+group: Value-based Filters
 */
 #define VAR_GLOBAL_MINIMUM_VALUE 0
 
 /*@ define:input:global_defaults
 type: number
 label: Hide stackable items below this value
-group: Value Based Filters
+group: Value-based Filters
 */
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
 
 /*@ define:input:global_defaults
 type: number
 label: Hide non-stackable items below this value
-group: Value Based Filters
+group: Value-based Filters
 */
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
