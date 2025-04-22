@@ -340,21 +340,3 @@ apply (name:VAR_UNIQUES_LIST) {
 apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SHOW_ICONS) {
     icon = CurrentItem();
 }
-
-/*@ define:input:uniques
-type: boolean
-label: Play sound when a unique item drops
-*/
-#define VAR_UNIQUES_SOUND false
-
-/*@ define:input:uniques
-type: number
-label: Unique item sound ID (defaults to the muspah unique sound)
-*/
-#define VAR_UNIQUES_SOUND_ID 6765
-
-
-apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SOUND) {
-    sound = VAR_UNIQUES_SOUND_ID;
-}
-
