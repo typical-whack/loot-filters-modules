@@ -8,6 +8,155 @@ description: |
 */
 
 /*@ define:input:global_defaults
+type: boolean
+label: Sort menu by item value
+*/
+#define VAR_GLOBAL_MENU_SORT_BY_VALUE false
+
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>0) {
+    menuSort = 0;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10) {
+    menuSort = 10;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20) {
+    menuSort = 20;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30) {
+    menuSort = 30;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40) {
+    menuSort = 40;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50) {
+    menuSort = 50;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60) {
+    menuSort = 60;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70) {
+    menuSort = 70;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80) {
+    menuSort = 80;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90) {
+    menuSort = 90;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100) {
+    menuSort = 100;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200) {
+    menuSort = 200;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300) {
+    menuSort = 300;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400) {
+    menuSort = 400;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500) {
+    menuSort = 500;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600) {
+    menuSort = 600;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700) {
+    menuSort = 700;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800) {
+    menuSort = 800;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900) {
+    menuSort = 900;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000) {
+    menuSort = 1000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000) {
+    menuSort = 2000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000) {
+    menuSort = 3000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000) {
+    menuSort = 4000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000) {
+    menuSort = 5000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000) {
+    menuSort = 6000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000) {
+    menuSort = 7000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000) {
+    menuSort = 8000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000) {
+    menuSort = 9000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000) {
+    menuSort = 10000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000) {
+    menuSort = 20000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000) {
+    menuSort = 30000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000) {
+    menuSort = 40000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000) {
+    menuSort = 50000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000) {
+    menuSort = 60000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000) {
+    menuSort = 70000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000) {
+    menuSort = 80000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000) {
+    menuSort = 90000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000) {
+    menuSort = 100000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200000) {
+    menuSort = 200000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300000) {
+    menuSort = 300000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400000) {
+    menuSort = 400000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500000) {
+    menuSort = 500000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600000) {
+    menuSort = 600000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700000) {
+    menuSort = 700000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800000) {
+    menuSort = 800000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900000) {
+    menuSort = 900000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000000) {
+    menuSort = 1000000;
+}
+
+
+/*@ define:input:global_defaults
 type: stringlist
 label: Items to hide
 group: Item Filters
