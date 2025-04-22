@@ -8,6 +8,26 @@ description: |
 */
 
 #define CONST_COX_AREA [3200, 5120, 0, 3391, 5759, 2]
+#define CONST_COX_OLM_AREA [3211, 5703, 0, 3254, 5761, 0]
+
+/*@ define:input:chambers_of_xeric
+type: stringlist
+label: Items to exempt from ownership filtering
+group: COX item filters
+*/
+#define VAR_COX_OWNERSHIP_EXEMPTION_ITEMS [ \
+    "Elder*", \
+    "Twisted*", \
+    "Kodai*", \
+    "Revitalisation*", \
+    "Prayer enhance*", \
+    "Xeric's aid*", \
+    "Antipoison*", \
+    "Overload*", \
+    "Golpar seed", \
+    "Buchu seed", \
+    "Noxifer seed", \
+]
 
 /*@ define:input:chambers_of_xeric
 type: enumlist
@@ -529,8 +549,9 @@ backgroundImage: Chambers of Xeric
   menuTextColor = "#FFa7a8c0";
 
 
-
-
+apply (area:CONST_COX_AREA && name:VAR_COX_OWNERSHIP_EXEMPTION_ITEMS) {
+    hidden = false;
+}
 apply (area:CONST_COX_AREA && name:VAR_COX_FISH_HIDE) {
     hidden = true;
 }
