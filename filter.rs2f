@@ -538,65 +538,6 @@ group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW_ICONS false
 
-
-/*@ define:input:item_tiers
-type: boolean
-label: Play Sound For Tier 1 Items
-group: Tier 1
-*/
-#define VAR_VALUES_TIER_1_SOUND false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Play Sound For Tier 2 Items
-group: Tier 2
-*/
-#define VAR_VALUES_TIER_2_SOUND false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Play Sound For Tier 3 Items
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_SOUND false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Play Sound For Tier 4 Items
-group: Tier 4
-*/
-#define VAR_VALUES_TIER_4_SOUND false
-
-
-/*@ define:input:item_tiers
-type: number
-label: Tier 1 Items Sound ID (defaults to muspah unique sound)
-group: Tier 1
-*/
-#define VAR_VALUES_TIER_1_SOUND_ID 6765
-
-/*@ define:input:item_tiers
-type: number
-label: Tier 2 Items Sound ID (defaults to muspah unique sound)
-group: Tier 2
-*/
-#define VAR_VALUES_TIER_2_SOUND_ID 6765
-
-/*@ define:input:item_tiers
-type: number
-label: Tier 3 Items Sound ID (defaults to muspah unique sound)
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_SOUND_ID 6765
-
-/*@ define:input:item_tiers
-type: number
-label: Tier 4 Items Sound ID (defaults to muspah unique sound)
-group: Tier 4
-*/
-#define VAR_VALUES_TIER_4_SOUND_ID 6765
-
-
 apply (value:>=VAR_VALUES_TIER_1_VALUE) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
@@ -608,12 +549,6 @@ apply (value:>=VAR_VALUES_TIER_1_VALUE && VAR_VALUES_TIER_1_SHOW_ICONS) {
 }
 apply (name:VAR_VALUES_TIER_1_SHOW && VAR_VALUES_TIER_1_SHOW_ICONS) {
     icon = CurrentItem();
-}
-apply (value:>=VAR_VALUES_TIER_1_VALUE && VAR_VALUES_TIER_1_SOUND) {
-    sound = VAR_VALUES_TIER_1_SOUND_ID;
-}
-apply (name:VAR_VALUES_TIER_1_SHOW && VAR_VALUES_TIER_1_SOUND) {
-    sound = VAR_VALUES_TIER_1_SOUND_ID;
 }
 
 apply (value:>=VAR_VALUES_TIER_2_VALUE) {
@@ -628,13 +563,6 @@ apply (value:>=VAR_VALUES_TIER_2_VALUE && VAR_VALUES_TIER_2_SHOW_ICONS) {
 apply (name:VAR_VALUES_TIER_2_SHOW && VAR_VALUES_TIER_2_SHOW_ICONS) {
     icon = CurrentItem();
 }
-apply (value:>=VAR_VALUES_TIER_2_VALUE && VAR_VALUES_TIER_2_SOUND) {
-    sound = VAR_VALUES_TIER_2_SOUND_ID;
-}
-apply (name:VAR_VALUES_TIER_2_SHOW && VAR_VALUES_TIER_2_SOUND) {
-    sound = VAR_VALUES_TIER_2_SOUND_ID;
-}
-
 apply (value:>=VAR_VALUES_TIER_3_VALUE) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
 }
@@ -646,12 +574,6 @@ apply (value:>=VAR_VALUES_TIER_3_VALUE && VAR_VALUES_TIER_3_SHOW_ICONS) {
 }
 apply (name:VAR_VALUES_TIER_3_SHOW && VAR_VALUES_TIER_3_SHOW_ICONS) {
     icon = CurrentItem();
-}
-apply (value:>=VAR_VALUES_TIER_3_VALUE && VAR_VALUES_TIER_3_SOUND) {
-    sound = VAR_VALUES_TIER_3_SOUND_ID;
-}
-apply (name:VAR_VALUES_TIER_3_SHOW && VAR_VALUES_TIER_3_SOUND) {
-    sound = VAR_VALUES_TIER_3_SOUND_ID;
 }
 
 apply (value:>=VAR_VALUES_TIER_4_VALUE) {
@@ -666,15 +588,6 @@ apply (value:>=VAR_VALUES_TIER_4_VALUE && VAR_VALUES_TIER_4_SHOW_ICONS) {
 apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SHOW_ICONS) {
     icon = CurrentItem();
 }
-apply (value:>=VAR_VALUES_TIER_4_VALUE && VAR_VALUES_TIER_4_SOUND) {
-    sound = VAR_VALUES_TIER_4_SOUND_ID;
-}
-apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SOUND) {
-    sound = VAR_VALUES_TIER_4_SOUND_ID;
-}
-
-
-
 
 /*@ define:module:uniques
 ---
@@ -1017,24 +930,6 @@ apply (name:VAR_UNIQUES_LIST) {
 apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SHOW_ICONS) {
     icon = CurrentItem();
 }
-
-/*@ define:input:uniques
-type: boolean
-label: Play sound when a unique item drops
-*/
-#define VAR_UNIQUES_SOUND false
-
-/*@ define:input:uniques
-type: number
-label: Unique item sound ID (defaults to the muspah unique sound)
-*/
-#define VAR_UNIQUES_SOUND_ID 6765
-
-
-apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SOUND) {
-    sound = VAR_UNIQUES_SOUND_ID;
-}
-
 
 /*@ define:module:currency
 ---
