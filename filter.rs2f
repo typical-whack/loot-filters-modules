@@ -159,6 +159,60 @@ apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900000) {
 apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000000) {
     menuSort = 1000000;
 }
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000000) {
+    menuSort = 2000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000000) {
+    menuSort = 3000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000000) {
+    menuSort = 4000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000000) {
+    menuSort = 5000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000000) {
+    menuSort = 6000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000000) {
+    menuSort = 7000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000000) {
+    menuSort = 8000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000000) {
+    menuSort = 9000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000000) {
+    menuSort = 10000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000000) {
+    menuSort = 20000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000000) {
+    menuSort = 30000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000000) {
+    menuSort = 40000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000000) {
+    menuSort = 50000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000000) {
+    menuSort = 60000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000000) {
+    menuSort = 70000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000000) {
+    menuSort = 80000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000000) {
+    menuSort = 90000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000000) {
+    menuSort = 100000000;
+}
 
 
 /*@ define:input:global_defaults
