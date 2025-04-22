@@ -2184,6 +2184,10 @@ group: COX item filters
     "Golpar seed", \
     "Buchu seed", \
     "Noxifer seed", \
+    "Endarkened juice", \
+    "Stinkhorn mushroom", \
+    "Cicely", \
+    "Mallignum root plank", \
 ]
 
 /*@ define:input:chambers_of_xeric
