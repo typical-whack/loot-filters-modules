@@ -70,7 +70,8 @@ exampleItem: Abyssal whip
   borderColor = "#FFFF9600";\
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF9600";\
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#FFFF9600";
 
 /*@ define:input:item_tiers
 type: style
@@ -84,7 +85,8 @@ exampleItem: Twisted bow
   borderColor = "#FFFF66B2";\
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF66B2";\
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#FFFF66B2";
 
 
 /*@ define:input:item_tiers
