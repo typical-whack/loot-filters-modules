@@ -4814,7 +4814,7 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 /*@ define:module:monsters
 ---
 name: Monsters
-subtitle: ...
+subtitle: Bonk!
 description: |
   Provides filtering and styling for specific monster drops
 */
