@@ -5566,7 +5566,6 @@ group: Utilities
 apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
     sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
 }
-
 /*@ define:module:runes
 ---
 name: Runes
@@ -5630,6 +5629,165 @@ enum: [
 */
 #define VAR_RUNES_HIDE []
 
+/*@ define:input:runes
+type: boolean
+label: Force runes to be shown if they're above min quantity
+*/
+#define VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY false
+
+/*@ define:input:runes
+type: number
+label: Air rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_AIR_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Water rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_WATER_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Earth rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_EARTH_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Fire rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_FIRE_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Mind rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_MIND_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Body rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_BODY_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Cosmic rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_COSMIC_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Chaos rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_CHAOS_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Nature rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_NATURE_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Law rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_LAW_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Death rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_DEATH_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Sunfire rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Astral rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Blood rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_BLOOD_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Soul rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_SOUL_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Wrath rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_WRATH_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Mist rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_MIST_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Dust rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_DUST_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Mud rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_MUD_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Smoke rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_SMOKE_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Steam rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_STEAM_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Lava rune minimum quantity
+group: Runes Filtering
+*/
+#define VAR_LAVA_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: style
@@ -5917,172 +6075,9 @@ exampleItem: Lava rune
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFD28019";
 
-
-/*@ define:input:runes
-type: number
-label: Air rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_AIR_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Water rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_WATER_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Earth rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_EARTH_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Fire rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_FIRE_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Mind rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_MIND_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Body rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_BODY_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Cosmic rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_COSMIC_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Chaos rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_CHAOS_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Nature rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_NATURE_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Law rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_LAW_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Death rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_DEATH_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Sunfire rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Astral rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Blood rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_BLOOD_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Soul rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_SOUL_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Wrath rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_WRATH_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Mist rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_MIST_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Dust rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_DUST_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Mud rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_MUD_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Smoke rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_SMOKE_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Steam rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_STEAM_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Lava rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_LAVA_RUNE_MIN_QUANTITY 50
-
-
-// waiting on 1.6
-// apply (name:CONST_RUNE_NAMES && !VAR_RUNES_COLOR_MENU_TEXT) {
-//    menuTextColor=CONST_DEFAULT_MENU_TEXT_COLOR
-//}
-
 apply (name:VAR_RUNES_HIDE) {
     hidden = true;
 }
-
-
 
 apply (name:"Air rune") {
     VAR_AIR_RUNE_CUSTOMSTYLE 
@@ -6239,6 +6234,72 @@ apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
 }
 
 
+apply (name:"Air rune" && quantity:>VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Mind rune" && quantity:>VAR_MIND_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Water rune" && quantity:>VAR_WATER_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Earth rune" && quantity:>VAR_EARTH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Fire rune" && quantity:>VAR_FIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Body rune" && quantity:>VAR_BODY_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Cosmic rune" && quantity:>VAR_COSMIC_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Chaos rune" && quantity:>VAR_CHAOS_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Nature rune" && quantity:>VAR_NATURE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Law rune" && quantity:>VAR_LAW_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Death rune" && quantity:>VAR_DEATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Sunfire rune" && quantity:>VAR_SUNFIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Astral rune" && quantity:>VAR_ASTRAL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Blood rune" && quantity:>VAR_BLOOD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Soul rune" && quantity:>VAR_SOUL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Wrath rune" && quantity:>VAR_WRATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Mist rune" && quantity:>VAR_MIST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Dust rune" && quantity:>VAR_DUST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Mud rune" && quantity:>VAR_MUD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Smoke rune" && quantity:>VAR_SMOKE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Steam rune" && quantity:>VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Lava rune" && quantity:>VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
 
 /*@ define:module:logs
 ---
@@ -9831,7 +9892,6 @@ apply (name:CONST_FARMING_SEEDS_ANIMA_LIST && value:<VAR_FARMING_SEEDS_MINIMUM_V
 
 
 
-
 /*@ define:module:herblore_secondaries
 ---
 name: Herblore secondaries
@@ -9865,6 +9925,7 @@ description: |
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
+  "Araxyte venom sack", \
 ]
 
 /*@ define:input:herblore_secondaries
@@ -9894,7 +9955,8 @@ enum: [
   "Poison ivy berries",
   "Nihil dust",
   "Lily of the sands",
-  "Aldarium"
+  "Aldarium",
+  "Araxyte venom sack"
 ]
 */
 #define VAR_SECONDARIES_HIDE [ \
@@ -9904,23 +9966,61 @@ enum: [
 ]
 
 /*@ define:input:herblore_secondaries
+type: enumlist
+label: Secondaries to force shown
+enum: [
+  "Eye of newt",
+  "Unicorn horn dust",
+  "Limpwurt root",
+  "Volcanic ash",
+  "Red spiders' eggs",
+  "Chocolate dust",
+  "White berries",
+  "Toad's legs",
+  "Goat horn dust",
+  "Snape grass",
+  "Mort myre fungus",
+  "Kebbit teeth dust",
+  "Dragon scale dust",
+  "Nail beast nails",
+  "Yew roots",
+  "Wine of zamorak",
+  "Potato cactus",
+  "Jangerberries",
+  "Magic roots",
+  "Crushed nest",
+  "Poison ivy berries",
+  "Nihil dust",
+  "Lily of the sands",
+  "Aldarium",
+  "Araxyte venom sack"
+]
+*/
+#define VAR_SECONDARIES_SHOW [ \
+  "Crushed nest", \
+  "Nihil dust", \
+  "Lily of the sands", \
+  "Aldarium", \
+  "Araxyte venom sack" \
+]
+
+/*@ define:input:herblore_secondaries
 type: number
 label: Minimum value to display secondaries at
 */
 #define VAR_SECONDARIES_MINIMUM_VALUE 0
 
-
-
-
 apply (name:CONST_SECONDARIES_LIST && value:<VAR_SECONDARIES_MINIMUM_VALUE) {
     hidden = true;
 }
+
 apply (name:VAR_SECONDARIES_HIDE) {
     hidden = true;
 }
 
-
-
+apply (name:VAR_SECONDARIES_SHOW) {
+    hidden = false;
+}
 
 /*@ define:module:potions
 ---
