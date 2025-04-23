@@ -4876,7 +4876,7 @@ exampleItem: Smouldering gland
     textAccentColor = "#FF000000";\
     menuTextColor = "#FFfada1e";
 
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:"Smouldering gland") {
+apply (name:"Smouldering gland") {
     VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE
 }
 
@@ -4893,7 +4893,7 @@ exampleItem: Smouldering heart
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFfada1e";
 
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:"Smouldering heart") {
+apply (name:"Smouldering heart") {
     VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE
 }
 
@@ -4910,8 +4910,80 @@ exampleItem: Smouldering pile of flesh
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFfada1e";
 
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:"Smouldering pile of flesh") {
+apply (name:"Smouldering pile of flesh") {
     VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Tormented synapse
+group: Tormented Demons
+exampleItem: Tormented synapse
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
+
+apply (name:"Tormented synapse") {
+    VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Burning claw
+group: Tormented Demons
+exampleItem: Burning claw
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+
+apply (name:"Burning claw") {
+    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Burning claws
+group: Tormented Demons
+exampleItem: Burning claws
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+
+apply (name:"Burning claws") {
+    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Emberlight
+group: Tormented Demons
+exampleItem: Emberlight
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
+
+apply (name:"Emberlight") {
+  VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Purging staff
+group: Tormented Demons
+exampleItem: Purging staff
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
+
+apply (name:"Purging staff") {
+  VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Scorching bow
+group: Tormented Demons
+exampleItem: Scorching bow
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
+
+apply (name:"Scorching bow") {
+  VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
 }
 
 /*@ define:module:alchs
