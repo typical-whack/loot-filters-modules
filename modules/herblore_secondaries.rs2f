@@ -32,6 +32,7 @@ description: |
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
+  "Araxyte venom sack", \
 ]
 
 /*@ define:input:herblore_secondaries
@@ -61,7 +62,8 @@ enum: [
   "Poison ivy berries",
   "Nihil dust",
   "Lily of the sands",
-  "Aldarium"
+  "Aldarium",
+  "Araxyte venom sack"
 ]
 */
 #define VAR_SECONDARIES_HIDE [ \
