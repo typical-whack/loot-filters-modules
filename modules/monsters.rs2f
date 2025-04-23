@@ -30,7 +30,7 @@ apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_D
 
 /*@ define:input:monsters
 type: enumlist
-label: Supply drops force hidden
+label: Supply drops force shown
 group: Tormented Demons
 enum: [
   "Smouldering gland",
