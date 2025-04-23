@@ -1,0 +1,103 @@
+
+/*@ define:module:monsters
+---
+name: Monsters
+subtitle: ...
+description: |
+  Provides filtering and styling for specific monster drops
+*/
+
+#define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
+
+/*@ define:input:monsters
+type: enumlist
+label: Supply drops force hidden
+group: Tormented Demons
+enum: [
+  "Smouldering gland",
+  "Smouldering heart",
+  "Smouldering pile of flesh",
+  "Manta ray",
+  "Prayer potion(2)",
+  "Prayer potion(4)",
+]
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_HIDE []
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:monsters
+type: enumlist
+label: Supply drops force hidden
+group: Tormented Demons
+enum: [
+  "Smouldering gland",
+  "Smouldering heart",
+  "Smouldering pile of flesh",
+  "Manta ray",
+  "Prayer potion(2)",
+  "Prayer potion(4)",
+]
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_SHOW [ \
+    "Smouldering gland", \
+    "Smouldering heart", \
+    "Smouldering pile of flesh", \
+]
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:monsters
+type: style
+label: Smouldering gland
+group: Tormented Demons
+exampleItem: Smouldering gland
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE \
+    textColor = "#FFFFFFFF";\
+    backgroundColor = "#50ae9815";\
+    borderColor = "#FFFFFFFF";\
+    textAccentColor = "#FF000000";\
+    menuTextColor = "#FFfada1e";
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:"Smouldering gland") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Smouldering heart
+group: Tormented Demons
+exampleItem: Smouldering heart
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50ae9815";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFfada1e";
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:"Smouldering heart") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE
+}
+
+/*@ define:input:monsters
+type: style
+label: Smouldering pile of flesh
+group: Tormented Demons
+exampleItem: Smouldering pile of flesh
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50ae9815";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFfada1e";
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:"Smouldering pile of flesh") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE
+}

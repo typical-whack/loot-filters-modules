@@ -423,9 +423,6 @@ exampleItem: Dark crab
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF9aff90";
 
-
-
-
 apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
     hidden = true;
 }
@@ -438,7 +435,6 @@ apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
 apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
     hidden = false;
 }
-
 
 apply (name:CONST_HUNTER_FOODS_LIST) {
     VAR_FOOD_HUNTER_CUSTOMSTYLE 
@@ -521,6 +517,3 @@ apply (name:"Anglerfish") {
 apply (name:"Dark crab") {
     VAR_DARK_CRAB_CUSTOMSTYLE 
 }
-
-
-
