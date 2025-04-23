@@ -16,7 +16,7 @@ description: |
 type: boolean
 label: Sort menu by item value
 */
-#define VAR_GLOBAL_MENU_SORT_BY_VALUE false
+#define VAR_GLOBAL_MENU_SORT_BY_VALUE true
 
 apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>0) {
     menuSort = 0;
