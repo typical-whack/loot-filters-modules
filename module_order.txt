@@ -9,6 +9,7 @@ theatre_of_blood
 tombs_of_amascut
 bossing
 slayer
+monsters
 alchs
 ammo
 runes
