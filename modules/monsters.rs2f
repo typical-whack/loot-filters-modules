@@ -2,7 +2,7 @@
 /*@ define:module:monsters
 ---
 name: Monsters
-subtitle: ...
+subtitle: Bonk!
 description: |
   Provides filtering and styling for specific monster drops
 */
