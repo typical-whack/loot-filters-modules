@@ -666,69 +666,69 @@ apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
 }
 
 
-apply (name:"Air rune" && quantity:>VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Air rune" && quantity:>=VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Mind rune" && quantity:>VAR_MIND_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Mind rune" && quantity:>=VAR_MIND_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Water rune" && quantity:>VAR_WATER_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Water rune" && quantity:>=VAR_WATER_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Earth rune" && quantity:>VAR_EARTH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Earth rune" && quantity:>=VAR_EARTH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Fire rune" && quantity:>VAR_FIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Fire rune" && quantity:>=VAR_FIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Body rune" && quantity:>VAR_BODY_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Body rune" && quantity:>=VAR_BODY_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Cosmic rune" && quantity:>VAR_COSMIC_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Cosmic rune" && quantity:>=VAR_COSMIC_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Chaos rune" && quantity:>VAR_CHAOS_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Chaos rune" && quantity:>=VAR_CHAOS_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Nature rune" && quantity:>VAR_NATURE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Nature rune" && quantity:>=VAR_NATURE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Law rune" && quantity:>VAR_LAW_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Law rune" && quantity:>=VAR_LAW_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Death rune" && quantity:>VAR_DEATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Death rune" && quantity:>=VAR_DEATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Sunfire rune" && quantity:>VAR_SUNFIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Sunfire rune" && quantity:>=VAR_SUNFIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Astral rune" && quantity:>VAR_ASTRAL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Astral rune" && quantity:>=VAR_ASTRAL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Blood rune" && quantity:>VAR_BLOOD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Blood rune" && quantity:>=VAR_BLOOD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Soul rune" && quantity:>VAR_SOUL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Soul rune" && quantity:>=VAR_SOUL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Wrath rune" && quantity:>VAR_WRATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Wrath rune" && quantity:>=VAR_WRATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Mist rune" && quantity:>VAR_MIST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Mist rune" && quantity:>=VAR_MIST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Dust rune" && quantity:>VAR_DUST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Dust rune" && quantity:>=VAR_DUST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Mud rune" && quantity:>VAR_MUD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Mud rune" && quantity:>=VAR_MUD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Smoke rune" && quantity:>VAR_SMOKE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Smoke rune" && quantity:>=VAR_SMOKE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Steam rune" && quantity:>VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Steam rune" && quantity:>=VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
-apply (name:"Lava rune" && quantity:>VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
