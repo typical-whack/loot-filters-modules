@@ -12,29 +12,14 @@ type: number
 label: Minimum value
 group: Tier 1
 */
-#define VAR_VALUES_TIER_1_VALUE 20001
+#define VAR_VALUES_TIER_1_VALUE 20000
 
 /*@ define:input:item_tiers
-type: number
-label: Minimum value
-group: Tier 2
+type: stringlist
+label: Tier 1 force items shown
+group: Tier 1
 */
-#define VAR_VALUES_TIER_2_VALUE 100000
-
-/*@ define:input:item_tiers
-type: number
-label: Minimum value
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_VALUE 1000000
-
-/*@ define:input:item_tiers
-type: number
-label: Minimum value
-group: Tier 4
-*/
-#define VAR_VALUES_TIER_4_VALUE 10000000
-
+#define VAR_VALUES_TIER_1_SHOW []
 
 /*@ define:input:item_tiers
 type: style
@@ -49,6 +34,24 @@ exampleItemId: 10828
   menuTextColor = "#FFFF9600";\
   icon = CurrentItem();
 
+apply (value:>=VAR_VALUES_TIER_1_VALUE || name:VAR_VALUES_TIER_1_SHOW) {
+    VAR_VALUES_TIER_1_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_VALUE 100000
+
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 2 force items shown
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_SHOW []
+
 /*@ define:input:item_tiers
 type: style
 label: Tier 2 custom style
@@ -61,6 +64,24 @@ exampleItemId: 6920
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF9600";\
   icon = CurrentItem();
+
+apply (value:>=VAR_VALUES_TIER_2_VALUE || name:VAR_VALUES_TIER_2_SHOW) {
+    VAR_VALUES_TIER_2_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_VALUE 1000000
+
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 3 force items shown
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_SHOW []
 
 /*@ define:input:item_tiers
 type: style
@@ -79,6 +100,24 @@ exampleItemId: 4151
   lootbeamColor = "#FFFF9600";\
   icon = CurrentItem();
 
+apply (value:>=VAR_VALUES_TIER_3_VALUE || name:VAR_VALUES_TIER_3_SHOW) {
+    VAR_VALUES_TIER_3_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_VALUE 10000000
+
+/*@ define:input:item_tiers
+type: stringlist
+label: Tier 4 force items shown
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_SHOW []
+
 /*@ define:input:item_tiers
 type: style
 label: Tier 4 custom style
@@ -96,87 +135,6 @@ exampleItemId: 20997
   lootbeamColor = "#FFFF66B2";\
   icon = CurrentItem();
 
-/*@ define:input:item_tiers
-type: stringlist
-label: Tier 1 force items shown
-group: Tier 1
-*/
-#define VAR_VALUES_TIER_1_SHOW []
-
-/*@ define:input:item_tiers
-type: stringlist
-label: Tier 2 force items shown
-group: Tier 2
-*/
-#define VAR_VALUES_TIER_2_SHOW []
-
-/*@ define:input:item_tiers
-type: stringlist
-label: Tier 3 force items shown
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_SHOW []
-
-/*@ define:input:item_tiers
-type: stringlist
-label: Tier 4 force items shown
-group: Tier 4
-*/
-#define VAR_VALUES_TIER_4_SHOW []
-
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 1 Items
-group: Tier 1
-*/
-#define VAR_VALUES_TIER_1_SHOW_ICONS false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 2 Items
-group: Tier 2
-*/
-#define VAR_VALUES_TIER_2_SHOW_ICONS false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 3 Items
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_SHOW_ICONS false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 4 Items
-group: Tier 4
-*/
-#define VAR_VALUES_TIER_4_SHOW_ICONS false
-
-apply (value:>=VAR_VALUES_TIER_1_VALUE || name:VAR_VALUES_TIER_1_SHOW) {
-    VAR_VALUES_TIER_1_CUSTOMSTYLE 
-}
-apply ((value:>=VAR_VALUES_TIER_1_VALUE || name:VAR_VALUES_TIER_1_SHOW) && VAR_VALUES_TIER_1_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-
-apply (value:>=VAR_VALUES_TIER_2_VALUE || name:VAR_VALUES_TIER_2_SHOW) {
-    VAR_VALUES_TIER_2_CUSTOMSTYLE 
-}
-apply ((value:>=VAR_VALUES_TIER_2_VALUE || name:VAR_VALUES_TIER_2_SHOW) && VAR_VALUES_TIER_2_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-
-apply (value:>=VAR_VALUES_TIER_3_VALUE || name:VAR_VALUES_TIER_3_SHOW) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
-}
-apply ((value:>=VAR_VALUES_TIER_3_VALUE || name:VAR_VALUES_TIER_3_SHOW) && VAR_VALUES_TIER_3_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-
 apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
-}
-apply ((value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) && VAR_VALUES_TIER_4_SHOW_ICONS) {
-    icon = CurrentItem();
 }
