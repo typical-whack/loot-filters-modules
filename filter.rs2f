@@ -595,7 +595,6 @@ apply (name:VAR_GLOBAL_HIDE) {
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
-
 /*@ define:module:item_tiers
 ---
 name: Item tiers
@@ -4982,7 +4981,6 @@ exampleItem: Scorching bow
 apply (name:"Scorching bow") {
   VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
 }
-
 /*@ define:module:alchs
 ---
 name: Alchs
@@ -5041,18 +5039,13 @@ label: List of alchables
 ]
 
 /*@ define:input:alchs
-type: boolean
-label: Set high alch icon
-*/
-#define VAR_ALCHS_SET_HIGH_ALCH_ICON true
-
-/*@ define:input:alchs
 type: style
 label: Custom style for items on the alchs list
 exampleItem: Rune platelegs
+exampleItemId: 1079
 */
-#define VAR_ALCHS_CUSTOMSTYLE 
-
+#define VAR_ALCHS_CUSTOMSTYLE \
+    icon = Sprite(41, 0);
 
 /*@ define:input:alchs
 type: boolean
@@ -5061,17 +5054,18 @@ group: Power User Settings
 */
 #define VAR_ALCHS_TERMINATE false
 
-
-apply (VAR_ALCHS_SET_HIGH_ALCH_ICON && name:VAR_ALCHS_ITEM_LIST) {
-    icon = Sprite(41, 0);
-}
 apply (name:VAR_ALCHS_ITEM_LIST) {
     VAR_ALCHS_CUSTOMSTYLE
 }
-if (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {
 
-}
+/*@ define:input:alchs
+type: boolean
+label: Dont let alchables get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_ALCHS_TERMINATE false
 
+rule (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {}
 
 /*@ define:module:ammo
 ---
