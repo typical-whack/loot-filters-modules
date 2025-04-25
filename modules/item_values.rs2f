@@ -65,7 +65,7 @@ exampleItemId: 6920
   menuTextColor = "#FFFF9600";\
   icon = CurrentItem();
 
-apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE)) || name:VAR_VALUES_TIER_2_SHOW) {
+apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
 }
 
