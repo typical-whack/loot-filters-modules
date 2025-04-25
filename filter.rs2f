@@ -422,6 +422,83 @@ apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000000) {
 }
 
 /*@ define:input:global_defaults
+type: stringlist
+label: Items to hide
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE []
+
+apply (name:VAR_GLOBAL_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: stringlist
+label: Items to show
+group: Item Filters
+*/
+#define VAR_GLOBAL_SHOW []
+
+apply (name:VAR_GLOBAL_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:global_defaults
+type: number
+label: Hide items below this value
+group: Item Filters
+*/
+#define VAR_GLOBAL_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: number
+label: Hide stackable items below this value
+group: Item Filters
+*/
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: number
+label: Hide non-stackable items below this value
+group: Item Filters
+*/
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: boolean
+label: Hide world spawn items
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: boolean
+label: Hide items owned by other players
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
+
+apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
 type: style
 label: Global default style
 group: Style Settings
@@ -459,28 +536,6 @@ apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
 }
 
 /*@ define:input:global_defaults
-type: boolean
-label: Hide world spawn items
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
-apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide items owned by other players
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
-
-apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
 type: number
 label: Hide despawn timer for items below this value
 group: Style Settings
@@ -515,39 +570,6 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 }
 
 /*@ define:input:global_defaults
-type: number
-label: Hide items below this value
-group: Value-based Filters
-*/
-#define VAR_GLOBAL_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide stackable items below this value
-group: Value-based Filters
-*/
-#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide non-stackable items below this value
-group: Value-based Filters
-*/
-#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
 type: stringlist
 label: Items to show icons for (if not showing for all items)
 group: Style Settings
@@ -556,28 +578,6 @@ group: Style Settings
 
 apply (name:VAR_GLOBAL_SHOW_ICONS_ITEMLIST) {
     icon = CurrentItem();
-}
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to hide
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE []
-
-apply (name:VAR_GLOBAL_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to show
-group: Item Filters
-*/
-#define VAR_GLOBAL_SHOW []
-
-apply (name:VAR_GLOBAL_SHOW) {
-    hidden = false;
 }
 /*@ define:module:item_tiers
 ---
