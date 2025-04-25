@@ -3,7 +3,6 @@ hidden: true
 name: header
 */
 meta { name = "[default: Joe's filter]"; }
-
 /*@ define:module:global_defaults
 ---
 name: Global defaults
@@ -11,325 +10,6 @@ subtitle: The first layer of styling and filtering
 description: |
   This provides some default styling options to apply to all items, unless overridden by a module below. This also provides an option to explicitly show and hide specific items. This list however can be overridden in a below modules as well.
 */
-
-/*@ define:input:global_defaults
-type: boolean
-label: Sort menu by item value
-*/
-#define VAR_GLOBAL_MENU_SORT_BY_VALUE true
-
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>0) {
-    menuSort = 0;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10) {
-    menuSort = 10;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20) {
-    menuSort = 20;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30) {
-    menuSort = 30;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40) {
-    menuSort = 40;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50) {
-    menuSort = 50;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60) {
-    menuSort = 60;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70) {
-    menuSort = 70;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80) {
-    menuSort = 80;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90) {
-    menuSort = 90;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100) {
-    menuSort = 100;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200) {
-    menuSort = 200;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300) {
-    menuSort = 300;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400) {
-    menuSort = 400;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500) {
-    menuSort = 500;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600) {
-    menuSort = 600;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700) {
-    menuSort = 700;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800) {
-    menuSort = 800;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900) {
-    menuSort = 900;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000) {
-    menuSort = 1000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000) {
-    menuSort = 2000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000) {
-    menuSort = 3000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000) {
-    menuSort = 4000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000) {
-    menuSort = 5000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000) {
-    menuSort = 6000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000) {
-    menuSort = 7000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000) {
-    menuSort = 8000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000) {
-    menuSort = 9000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000) {
-    menuSort = 10000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000) {
-    menuSort = 20000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000) {
-    menuSort = 30000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000) {
-    menuSort = 40000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000) {
-    menuSort = 50000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000) {
-    menuSort = 60000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000) {
-    menuSort = 70000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000) {
-    menuSort = 80000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000) {
-    menuSort = 90000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000) {
-    menuSort = 100000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200000) {
-    menuSort = 200000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300000) {
-    menuSort = 300000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400000) {
-    menuSort = 400000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500000) {
-    menuSort = 500000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600000) {
-    menuSort = 600000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700000) {
-    menuSort = 700000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800000) {
-    menuSort = 800000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900000) {
-    menuSort = 900000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000000) {
-    menuSort = 1000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000000) {
-    menuSort = 2000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000000) {
-    menuSort = 3000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000000) {
-    menuSort = 4000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000000) {
-    menuSort = 5000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000000) {
-    menuSort = 6000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000000) {
-    menuSort = 7000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000000) {
-    menuSort = 8000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000000) {
-    menuSort = 9000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000000) {
-    menuSort = 10000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000000) {
-    menuSort = 20000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000000) {
-    menuSort = 30000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000000) {
-    menuSort = 40000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000000) {
-    menuSort = 50000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000000) {
-    menuSort = 60000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000000) {
-    menuSort = 70000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000000) {
-    menuSort = 80000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000000) {
-    menuSort = 90000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000000) {
-    menuSort = 100000000;
-}
-
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to hide
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE []
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to show
-group: Item Filters
-*/
-#define VAR_GLOBAL_SHOW []
-
-
-/*@ define:input:global_defaults
-type: boolean
-label: Show Icons on all items
-group: Icon Settings
-*/
-#define VAR_GLOBAL_SHOW_ICONS true
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to show icons for (if not showing for all items)
-group: Icon Settings
-*/
-#define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
-
-/*@ define:input:global_defaults
-type: boolean
-label: Show Despawn Timer
-group: Style Settings
-*/
-#define VAR_GLOBAL_SHOW_DESPAWN true
-
-/*@ define:input:global_defaults
-type: boolean
-label: Show Value for Tradeable Items
-group: Style Settings
-*/
-#define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
-
-/*@ define:input:global_defaults
-type: boolean
-label: Show Value for Untradeable Items
-group: Style Settings
-*/
-#define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide world spawn items
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide items owned by other players
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
-
-/*@ define:input:global_defaults
-type: style
-label: Global default style
-group: Style Settings
-exampleItem: Santa hat
-*/
-#define VAR_GLOBAL_CUSTOMSTYLE 
-
-
-/*@ define:input:global_defaults
-type: number
-label: Hide despawn timer for items below this value
-group: Value-based Style Settings
-*/
-#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
-
-/*@ define:input:global_defaults
-type: number
-label: Hide prices for items below this value
-group: Value-based Style Settings
-*/
-#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
-
-/*@ define:input:global_defaults
-type: number
-label: Hide icons for items below this value
-group: Icon Settings
-*/
-#define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
-
-
-/*@ define:input:global_defaults
-type: number
-label: Hide items below this value
-group: Value-based Filters
-*/
-#define VAR_GLOBAL_MINIMUM_VALUE 0
-
-/*@ define:input:global_defaults
-type: number
-label: Hide stackable items below this value
-group: Value-based Filters
-*/
-#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
-
-/*@ define:input:global_defaults
-type: number
-label: Hide non-stackable items below this value
-group: Value-based Filters
-*/
-#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
@@ -539,61 +219,365 @@ group: Value-based Filters
     "Weapon store key", \
 ]
 
-apply (VAR_GLOBAL_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (VAR_GLOBAL_SHOW_DESPAWN) {
-    showDespawn = true;
-}
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VAR_GLOBAL_SHOW_TRADEABLE_VALUE) {
-    showValue = true;
-}
-apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
-    showValue = true;
-}
-apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
-    hidden = true;
-}
-apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
-    hidden = true;
-}
+/*@ define:input:global_defaults
+type: style
+label: Global default style
+group: Style Settings
+exampleItem: Santa hat
+exampleItemId: 1053
+*/
+#define VAR_GLOBAL_CUSTOMSTYLE \
+  icon = CurrentItem();\
+  showDespawn = true;
 
 apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
 }
 
+/*@ define:input:global_defaults
+type: boolean
+label: Show Value for Tradeable Items
+group: Style Settings
+*/
+#define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VAR_GLOBAL_SHOW_TRADEABLE_VALUE) {
+    showValue = true;
+}
+
+/*@ define:input:global_defaults
+type: boolean
+label: Show Value for Untradeable Items
+group: Style Settings
+*/
+#define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
+
+apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
+    showValue = true;
+}
+
+/*@ define:input:global_defaults
+type: boolean
+label: Hide world spawn items
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: boolean
+label: Hide items owned by other players
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
+
+apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
+    hidden = true;
+}
+
+/*@ define:input:global_defaults
+type: number
+label: Hide despawn timer for items below this value
+group: Style Settings
+*/
+#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
+
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE) {
     showDespawn = false;
 }
+
+/*@ define:input:global_defaults
+type: number
+label: Hide prices for items below this value
+group: Style Settings
+*/
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE) {
     showValue = false;
 }
+
+/*@ define:input:global_defaults
+type: number
+label: Hide icons for items below this value
+group: Style Settings
+*/
+#define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
+
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_ICON_MINIMUM_VALUE) {
     // this is a hack to turn off the icon
     icon = Sprite(9000000, 0);
 }
 
+/*@ define:input:global_defaults
+type: number
+label: Hide items below this value
+group: Value-based Filters
+*/
+#define VAR_GLOBAL_MINIMUM_VALUE 0
+
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_MINIMUM_VALUE) {
     hidden = true;
 }
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+
+/*@ define:input:global_defaults
+type: number
+label: Hide stackable items below this value
+group: Value-based Filters
+*/
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
     hidden = true;
 }
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && noted:true && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
+
+/*@ define:input:global_defaults
+type: number
+label: Hide non-stackable items below this value
+group: Value-based Filters
+*/
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
+
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
     hidden = true;
 }
 
+/*@ define:input:global_defaults
+type: stringlist
+label: Items to show icons for (if not showing for all items)
+group: Style Settings
+*/
+#define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
+
 apply (name:VAR_GLOBAL_SHOW_ICONS_ITEMLIST) {
     icon = CurrentItem();
 }
+
+/*@ define:input:global_defaults
+type: stringlist
+label: Items to hide
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE []
+
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
+
+/*@ define:input:global_defaults
+type: stringlist
+label: Items to show
+group: Item Filters
+*/
+#define VAR_GLOBAL_SHOW []
+
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
+}
+
+/*@ define:input:global_defaults
+type: boolean
+label: Sort menu by item value
+*/
+#define VAR_GLOBAL_MENU_SORT_BY_VALUE true
+
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>0) {
+    menuSort = 0;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10) {
+    menuSort = 10;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20) {
+    menuSort = 20;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30) {
+    menuSort = 30;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40) {
+    menuSort = 40;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50) {
+    menuSort = 50;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60) {
+    menuSort = 60;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70) {
+    menuSort = 70;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80) {
+    menuSort = 80;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90) {
+    menuSort = 90;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100) {
+    menuSort = 100;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200) {
+    menuSort = 200;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300) {
+    menuSort = 300;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400) {
+    menuSort = 400;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500) {
+    menuSort = 500;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600) {
+    menuSort = 600;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700) {
+    menuSort = 700;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800) {
+    menuSort = 800;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900) {
+    menuSort = 900;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000) {
+    menuSort = 1000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000) {
+    menuSort = 2000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000) {
+    menuSort = 3000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000) {
+    menuSort = 4000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000) {
+    menuSort = 5000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000) {
+    menuSort = 6000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000) {
+    menuSort = 7000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000) {
+    menuSort = 8000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000) {
+    menuSort = 9000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000) {
+    menuSort = 10000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000) {
+    menuSort = 20000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000) {
+    menuSort = 30000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000) {
+    menuSort = 40000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000) {
+    menuSort = 50000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000) {
+    menuSort = 60000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000) {
+    menuSort = 70000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000) {
+    menuSort = 80000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000) {
+    menuSort = 90000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000) {
+    menuSort = 100000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200000) {
+    menuSort = 200000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300000) {
+    menuSort = 300000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400000) {
+    menuSort = 400000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500000) {
+    menuSort = 500000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600000) {
+    menuSort = 600000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700000) {
+    menuSort = 700000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800000) {
+    menuSort = 800000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900000) {
+    menuSort = 900000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000000) {
+    menuSort = 1000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000000) {
+    menuSort = 2000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000000) {
+    menuSort = 3000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000000) {
+    menuSort = 4000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000000) {
+    menuSort = 5000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000000) {
+    menuSort = 6000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000000) {
+    menuSort = 7000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000000) {
+    menuSort = 8000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000000) {
+    menuSort = 9000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000000) {
+    menuSort = 10000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000000) {
+    menuSort = 20000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000000) {
+    menuSort = 30000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000000) {
+    menuSort = 40000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000000) {
+    menuSort = 50000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000000) {
+    menuSort = 60000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000000) {
+    menuSort = 70000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000000) {
+    menuSort = 80000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000000) {
+    menuSort = 90000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000000) {
+    menuSort = 100000000;
 }
 /*@ define:module:item_tiers
 ---
