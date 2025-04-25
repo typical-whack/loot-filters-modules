@@ -41,6 +41,7 @@ type: style
 label: Tier 1 custom style
 group: Tier 1
 exampleItem: Helm of neitiznot
+exampleItemId: 10828
 */
 #define VAR_VALUES_TIER_1_CUSTOMSTYLE \
   textColor = "#FF66B2FF";\
@@ -52,6 +53,7 @@ type: style
 label: Tier 2 custom style
 group: Tier 2
 exampleItem: Infinity boots
+exampleItemId: 6920
 */
 #define VAR_VALUES_TIER_2_CUSTOMSTYLE \
   textColor = "#FF99FF99";\
@@ -63,6 +65,7 @@ type: style
 label: Tier 3 custom style
 group: Tier 3
 exampleItem: Abyssal whip
+exampleItemId: 4151
 */
 #define VAR_VALUES_TIER_3_CUSTOMSTYLE \
   textColor = "#FFFF9600";\
@@ -78,6 +81,7 @@ type: style
 label: Tier 4 custom style
 group: Tier 4
 exampleItem: Twisted bow
+exampleItemId: 20997
 */
 #define VAR_VALUES_TIER_4_CUSTOMSTYLE \
   textColor = "#FFFF66B2";\
