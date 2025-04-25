@@ -5047,13 +5047,6 @@ exampleItemId: 1079
 #define VAR_ALCHS_CUSTOMSTYLE \
     icon = Sprite(41, 0);
 
-/*@ define:input:alchs
-type: boolean
-label: Don't let following modules make changes to alchables
-group: Power User Settings
-*/
-#define VAR_ALCHS_TERMINATE false
-
 apply (name:VAR_ALCHS_ITEM_LIST) {
     VAR_ALCHS_CUSTOMSTYLE
 }
