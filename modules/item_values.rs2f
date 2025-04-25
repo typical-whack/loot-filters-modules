@@ -12,82 +12,7 @@ type: number
 label: Minimum value
 group: Tier 1
 */
-#define VAR_VALUES_TIER_1_VALUE 20001
-
-/*@ define:input:item_tiers
-type: number
-label: Minimum value
-group: Tier 2
-*/
-#define VAR_VALUES_TIER_2_VALUE 100000
-
-/*@ define:input:item_tiers
-type: number
-label: Minimum value
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_VALUE 1000000
-
-/*@ define:input:item_tiers
-type: number
-label: Minimum value
-group: Tier 4
-*/
-#define VAR_VALUES_TIER_4_VALUE 10000000
-
-
-/*@ define:input:item_tiers
-type: style
-label: Tier 1 custom style
-group: Tier 1
-exampleItem: Helm of neitiznot
-*/
-#define VAR_VALUES_TIER_1_CUSTOMSTYLE \
-  textColor = "#FF66B2FF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";
-
-/*@ define:input:item_tiers
-type: style
-label: Tier 2 custom style
-group: Tier 2
-exampleItem: Infinity boots
-*/
-#define VAR_VALUES_TIER_2_CUSTOMSTYLE \
-  textColor = "#FF99FF99";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";
-
-/*@ define:input:item_tiers
-type: style
-label: Tier 3 custom style
-group: Tier 3
-exampleItem: Abyssal whip
-*/
-#define VAR_VALUES_TIER_3_CUSTOMSTYLE \
-  textColor = "#FFFF9600";\
-  backgroundColor = "#50FFFFFF";\
-  borderColor = "#FFFF9600";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";\
-  showLootbeam = true; \
-  lootbeamColor = "#FFFF9600";
-
-/*@ define:input:item_tiers
-type: style
-label: Tier 4 custom style
-group: Tier 4
-exampleItem: Twisted bow
-*/
-#define VAR_VALUES_TIER_4_CUSTOMSTYLE \
-  textColor = "#FFFF66B2";\
-  backgroundColor = "#50FFFFFF";\
-  borderColor = "#FFFF66B2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF66B2";\
-  showLootbeam = true; \
-  lootbeamColor = "#FFFF66B2";
-
+#define VAR_VALUES_TIER_1_VALUE 20000
 
 /*@ define:input:item_tiers
 type: stringlist
@@ -97,11 +22,59 @@ group: Tier 1
 #define VAR_VALUES_TIER_1_SHOW []
 
 /*@ define:input:item_tiers
+type: style
+label: Tier 1 custom style
+group: Tier 1
+exampleItem: Helm of neitiznot
+exampleItemId: 10828
+*/
+#define VAR_VALUES_TIER_1_CUSTOMSTYLE \
+  textColor = "#FF66B2FF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFFF9600";\
+  icon = CurrentItem();
+
+apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW) {
+    VAR_VALUES_TIER_1_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 2
+*/
+#define VAR_VALUES_TIER_2_VALUE 100000
+
+/*@ define:input:item_tiers
 type: stringlist
 label: Tier 2 force items shown
 group: Tier 2
 */
 #define VAR_VALUES_TIER_2_SHOW []
+
+/*@ define:input:item_tiers
+type: style
+label: Tier 2 custom style
+group: Tier 2
+exampleItem: Infinity boots
+exampleItemId: 6920
+*/
+#define VAR_VALUES_TIER_2_CUSTOMSTYLE \
+  textColor = "#FF99FF99";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFFF9600";\
+  icon = CurrentItem();
+
+apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
+    VAR_VALUES_TIER_2_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 3
+*/
+#define VAR_VALUES_TIER_3_VALUE 1000000
 
 /*@ define:input:item_tiers
 type: stringlist
@@ -111,88 +84,90 @@ group: Tier 3
 #define VAR_VALUES_TIER_3_SHOW []
 
 /*@ define:input:item_tiers
+type: style
+label: Tier 3 custom style
+group: Tier 3
+exampleItem: Abyssal whip
+exampleItemId: 4151
+*/
+#define VAR_VALUES_TIER_3_CUSTOMSTYLE \
+  textColor = "#FFFF9600";\
+  backgroundColor = "#50FFFFFF";\
+  borderColor = "#FFFF9600";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFFF9600";\
+  showLootbeam = true; \
+  lootbeamColor = "#FFFF9600";\
+  icon = CurrentItem();
+
+apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
+    VAR_VALUES_TIER_3_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_tiers
+type: number
+label: Minimum value
+group: Tier 4
+*/
+#define VAR_VALUES_TIER_4_VALUE 10000000
+
+/*@ define:input:item_tiers
 type: stringlist
 label: Tier 4 force items shown
 group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW []
 
-
 /*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 1 Items
-group: Tier 1
-*/
-#define VAR_VALUES_TIER_1_SHOW_ICONS false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 2 Items
-group: Tier 2
-*/
-#define VAR_VALUES_TIER_2_SHOW_ICONS false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 3 Items
-group: Tier 3
-*/
-#define VAR_VALUES_TIER_3_SHOW_ICONS false
-
-/*@ define:input:item_tiers
-type: boolean
-label: Show Icons For Tier 4 Items
+type: style
+label: Tier 4 custom style
 group: Tier 4
+exampleItem: Twisted bow
+exampleItemId: 20997
 */
-#define VAR_VALUES_TIER_4_SHOW_ICONS false
+#define VAR_VALUES_TIER_4_CUSTOMSTYLE \
+  textColor = "#FFFF66B2";\
+  backgroundColor = "#50FFFFFF";\
+  borderColor = "#FFFF66B2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFFF66B2";\
+  showLootbeam = true; \
+  lootbeamColor = "#FFFF66B2";\
+  icon = CurrentItem();
 
-apply (value:>=VAR_VALUES_TIER_1_VALUE) {
-    VAR_VALUES_TIER_1_CUSTOMSTYLE 
-}
-apply (name:VAR_VALUES_TIER_1_SHOW) {
-    VAR_VALUES_TIER_1_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_1_VALUE && VAR_VALUES_TIER_1_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_1_SHOW && VAR_VALUES_TIER_1_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-
-apply (value:>=VAR_VALUES_TIER_2_VALUE) {
-    VAR_VALUES_TIER_2_CUSTOMSTYLE 
-}
-apply (name:VAR_VALUES_TIER_2_SHOW) {
-    VAR_VALUES_TIER_2_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_2_VALUE && VAR_VALUES_TIER_2_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_2_SHOW && VAR_VALUES_TIER_2_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (value:>=VAR_VALUES_TIER_3_VALUE) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
-}
-apply (name:VAR_VALUES_TIER_3_SHOW) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_3_VALUE && VAR_VALUES_TIER_3_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_3_SHOW && VAR_VALUES_TIER_3_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-
-apply (value:>=VAR_VALUES_TIER_4_VALUE) {
+apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
 }
-apply (name:VAR_VALUES_TIER_4_SHOW) {
-    VAR_VALUES_TIER_4_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_4_VALUE && VAR_VALUES_TIER_4_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SHOW_ICONS) {
-    icon = CurrentItem();
-}
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 1 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_1_TERMINATE false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 2 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_2_TERMINATE false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 3 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_3_TERMINATE false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 4 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_4_TERMINATE false
+
+rule (VAR_VALUES_TIER_1_TERMINATE && ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW)) {}
+rule (VAR_VALUES_TIER_2_TERMINATE && ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW)) {}
+rule (VAR_VALUES_TIER_3_TERMINATE && ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW)) {}
+rule (VAR_VALUES_TIER_4_TERMINATE && ((value:>=VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_4_SHOW)) {}
