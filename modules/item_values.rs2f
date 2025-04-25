@@ -34,7 +34,7 @@ exampleItemId: 10828
   menuTextColor = "#FFFF9600";\
   icon = CurrentItem();
 
-apply (value:>=VAR_VALUES_TIER_1_VALUE || name:VAR_VALUES_TIER_1_SHOW) {
+apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
 
@@ -65,7 +65,7 @@ exampleItemId: 6920
   menuTextColor = "#FFFF9600";\
   icon = CurrentItem();
 
-apply (value:>=VAR_VALUES_TIER_2_VALUE || name:VAR_VALUES_TIER_2_SHOW) {
+apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE)) || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
 }
 
@@ -100,7 +100,7 @@ exampleItemId: 4151
   lootbeamColor = "#FFFF9600";\
   icon = CurrentItem();
 
-apply (value:>=VAR_VALUES_TIER_3_VALUE || name:VAR_VALUES_TIER_3_SHOW) {
+apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
 }
 
@@ -138,3 +138,36 @@ exampleItemId: 20997
 apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
 }
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 1 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_1_TERMINATE false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 2 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_2_TERMINATE false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 3 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_3_TERMINATE false
+
+/*@ define:input:item_tiers
+type: boolean
+label: Dont let tier 4 items get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_VALUES_TIER_4_TERMINATE false
+
+rule (VAR_VALUES_TIER_1_TERMINATE && ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW)) {}
+rule (VAR_VALUES_TIER_2_TERMINATE && ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW)) {}
+rule (VAR_VALUES_TIER_3_TERMINATE && ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW)) {}
+rule (VAR_VALUES_TIER_4_TERMINATE && ((value:>=VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_4_SHOW)) {}
