@@ -46,7 +46,8 @@ exampleItemId: 10828
 #define VAR_VALUES_TIER_1_CUSTOMSTYLE \
   textColor = "#FF66B2FF";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";
+  menuTextColor = "#FFFF9600";\
+  icon = CurrentItem();
 
 /*@ define:input:item_tiers
 type: style
@@ -58,7 +59,8 @@ exampleItemId: 6920
 #define VAR_VALUES_TIER_2_CUSTOMSTYLE \
   textColor = "#FF99FF99";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";
+  menuTextColor = "#FFFF9600";\
+  icon = CurrentItem();
 
 /*@ define:input:item_tiers
 type: style
@@ -74,7 +76,8 @@ exampleItemId: 4151
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF9600";\
   showLootbeam = true; \
-  lootbeamColor = "#FFFF9600";
+  lootbeamColor = "#FFFF9600";\
+  icon = CurrentItem();
 
 /*@ define:input:item_tiers
 type: style
@@ -90,8 +93,8 @@ exampleItemId: 20997
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF66B2";\
   showLootbeam = true; \
-  lootbeamColor = "#FFFF66B2";
-
+  lootbeamColor = "#FFFF66B2";\
+  icon = CurrentItem();
 
 /*@ define:input:item_tiers
 type: stringlist
