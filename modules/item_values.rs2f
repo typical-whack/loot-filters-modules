@@ -146,53 +146,30 @@ group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW_ICONS false
 
-apply (value:>=VAR_VALUES_TIER_1_VALUE) {
+apply (value:>=VAR_VALUES_TIER_1_VALUE || name:VAR_VALUES_TIER_1_SHOW) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
-apply (name:VAR_VALUES_TIER_1_SHOW) {
-    VAR_VALUES_TIER_1_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_1_VALUE && VAR_VALUES_TIER_1_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_1_SHOW && VAR_VALUES_TIER_1_SHOW_ICONS) {
+apply ((value:>=VAR_VALUES_TIER_1_VALUE || name:VAR_VALUES_TIER_1_SHOW) && VAR_VALUES_TIER_1_SHOW_ICONS) {
     icon = CurrentItem();
 }
 
-apply (value:>=VAR_VALUES_TIER_2_VALUE) {
+apply (value:>=VAR_VALUES_TIER_2_VALUE || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
 }
-apply (name:VAR_VALUES_TIER_2_SHOW) {
-    VAR_VALUES_TIER_2_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_2_VALUE && VAR_VALUES_TIER_2_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_2_SHOW && VAR_VALUES_TIER_2_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (value:>=VAR_VALUES_TIER_3_VALUE) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
-}
-apply (name:VAR_VALUES_TIER_3_SHOW) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_3_VALUE && VAR_VALUES_TIER_3_SHOW_ICONS) {
-    icon = CurrentItem();
-}
-apply (name:VAR_VALUES_TIER_3_SHOW && VAR_VALUES_TIER_3_SHOW_ICONS) {
+apply ((value:>=VAR_VALUES_TIER_2_VALUE || name:VAR_VALUES_TIER_2_SHOW) && VAR_VALUES_TIER_2_SHOW_ICONS) {
     icon = CurrentItem();
 }
 
-apply (value:>=VAR_VALUES_TIER_4_VALUE) {
-    VAR_VALUES_TIER_4_CUSTOMSTYLE 
+apply (value:>=VAR_VALUES_TIER_3_VALUE || name:VAR_VALUES_TIER_3_SHOW) {
+    VAR_VALUES_TIER_3_CUSTOMSTYLE 
 }
-apply (name:VAR_VALUES_TIER_4_SHOW) {
-    VAR_VALUES_TIER_4_CUSTOMSTYLE 
-}
-apply (value:>=VAR_VALUES_TIER_4_VALUE && VAR_VALUES_TIER_4_SHOW_ICONS) {
+apply ((value:>=VAR_VALUES_TIER_3_VALUE || name:VAR_VALUES_TIER_3_SHOW) && VAR_VALUES_TIER_3_SHOW_ICONS) {
     icon = CurrentItem();
 }
-apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SHOW_ICONS) {
+
+apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
+    VAR_VALUES_TIER_4_CUSTOMSTYLE 
+}
+apply ((value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) && VAR_VALUES_TIER_4_SHOW_ICONS) {
     icon = CurrentItem();
 }
