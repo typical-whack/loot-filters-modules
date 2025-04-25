@@ -773,12 +773,24 @@ rule (VAR_VALUES_TIER_4_TERMINATE && ((value:>=VAR_VALUES_TIER_4_VALUE) || name:
 name: Uniques
 subtitle: Uniques are special! (even if they're not worth a lot)
 description: |
-  Add custom effect to unique items. By default this gives uniques on this list a loot beam. This can layer with other styling such as item tiers.
+  Add custom styling to unique items. By default this gives uniques on this list a loot beam and bold text. This can layer with other styling such as item tiers.
 */
 
 /*@ define:input:uniques
+type: style
+label: Uniques custom style
+exampleItem: Tanzanite fang
+exampleItemId: 12922
+*/
+#define VAR_UNIQUES_CUSTOMSTYLE \
+  fontType = 3;\
+  showLootbeam = true;\
+  icon = CurrentItem();
+
+/*@ define:input:uniques
 type: stringlist
-label: List of uniques to apply custom unique style to (by default just lootbeam)
+label: Uniques
+group: Uniques List
 */
 #define VAR_UNIQUES_LIST [ \
   "Jar of dirt", \
@@ -1086,29 +1098,18 @@ label: List of uniques to apply custom unique style to (by default just lootbeam
   "Kurask head", \
 ]
 
-
-/*@ define:input:uniques
-type: boolean
-label: Show Icons For Unique Items
-*/
-#define VAR_UNIQUES_SHOW_ICONS false
-
-/*@ define:input:uniques
-type: style
-label: Uniques custom style
-exampleItem: Tanzanite fang
-*/
-#define VAR_UNIQUES_CUSTOMSTYLE \
-  fontType = 3;\
-  showLootbeam = true;
-
-
 apply (name:VAR_UNIQUES_LIST) {
     VAR_UNIQUES_CUSTOMSTYLE 
 }
-apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SHOW_ICONS) {
-    icon = CurrentItem();
-}
+
+/*@ define:input:uniques
+type: boolean
+label: Dont let uniques get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_UNIQUES_TERMINATE false
+
+rule (VAR_UNIQUES_TERMINATE && name:VAR_UNIQUES_LIST) {}
 
 /*@ define:module:currency
 ---
