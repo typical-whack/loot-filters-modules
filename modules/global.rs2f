@@ -219,7 +219,7 @@ type: style
 label: Global default style
 group: Style Settings
 exampleItem: Santa hat
-exampleItemId: 1053
+exampleItemId: 1050
 */
 #define VAR_GLOBAL_CUSTOMSTYLE \
   icon = CurrentItem();\
