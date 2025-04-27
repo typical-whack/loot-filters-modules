@@ -4781,48 +4781,6 @@ description: |
 #define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
 /*@ define:input:monsters
-type: enumlist
-label: Supply drops force hidden
-group: Tormented Demons
-enum: [
-  "Smouldering gland",
-  "Smouldering heart",
-  "Smouldering pile of flesh",
-  "Manta ray",
-  "Prayer potion(2)",
-  "Prayer potion(4)",
-]
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_HIDE []
-
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:monsters
-type: enumlist
-label: Supply drops force shown
-group: Tormented Demons
-enum: [
-  "Smouldering gland",
-  "Smouldering heart",
-  "Smouldering pile of flesh",
-  "Manta ray",
-  "Prayer potion(2)",
-  "Prayer potion(4)",
-]
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_SHOW [ \
-    "Smouldering gland", \
-    "Smouldering heart", \
-    "Smouldering pile of flesh", \
-]
-
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SUPPLY_DROPS_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:monsters
 type: stringlist
 label: List of items to force hidden at tormented demons
 group: Tormented Demons
@@ -4838,7 +4796,11 @@ type: stringlist
 label: List of items to force shown at tormented demons
 group: Tormented Demons
 */
-#define VAR_MONSTERS_TORMENTED_DEMONS_SHOW []
+#define VAR_MONSTERS_TORMENTED_DEMONS_SHOW [ \
+    "Smouldering gland", \
+    "Smouldering heart", \
+    "Smouldering pile of flesh", \
+]
 
 apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SHOW) {
     hidden = false;
