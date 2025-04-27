@@ -7,8 +7,32 @@ description: |
 */
 
 /*@ define:input:alchs
+type: boolean
+label: Force items from the alchs list to be shown
+*/
+#define VAR_ALCHS_FORCE_SHOWN true
+
+apply (VAR_ALCHS_FORCE_SHOWN && name:VAR_ALCHS_ITEM_LIST) {
+    hidden = false;
+}
+
+/*@ define:input:alchs
+type: style
+label: Custom style for items on the alchs list
+exampleItem: Rune platelegs
+exampleItemId: 1079
+*/
+#define VAR_ALCHS_CUSTOMSTYLE \
+    icon = Sprite(41, 0);
+
+apply (name:VAR_ALCHS_ITEM_LIST) {
+    VAR_ALCHS_CUSTOMSTYLE
+}
+
+/*@ define:input:alchs
 type: stringlist
 label: List of alchables
+group: List of alchables
 */
 #define VAR_ALCHS_ITEM_LIST [ \
   "Adamant platebody", \
@@ -54,19 +78,6 @@ label: List of alchables
   "Runite limbs", \
   "Water battlestaff", \
 ]
-
-/*@ define:input:alchs
-type: style
-label: Custom style for items on the alchs list
-exampleItem: Rune platelegs
-exampleItemId: 1079
-*/
-#define VAR_ALCHS_CUSTOMSTYLE \
-    icon = Sprite(41, 0);
-
-apply (name:VAR_ALCHS_ITEM_LIST) {
-    VAR_ALCHS_CUSTOMSTYLE
-}
 
 /*@ define:input:alchs
 type: boolean
