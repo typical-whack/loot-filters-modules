@@ -144,7 +144,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Brutal Arrows minimum value
-group: Arrows
+group: Brutal Arrows
 */
 #define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
 
