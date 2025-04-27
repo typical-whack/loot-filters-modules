@@ -1,0 +1,11 @@
+/*@ define:module:final
+hidden: true
+name: final
+*/
+
+apply (name:VAR_GLOBAL_HIDE) {
+    hidden = true;
+}
+apply (name:VAR_GLOBAL_SHOW) {
+    hidden = false;
+}
