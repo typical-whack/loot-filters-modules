@@ -8,11 +8,11 @@ description: |
 
 /*@ define:input:alchs
 type: boolean
-label: Do not hide items from the alchs list
+label: Force items from the alchs list to be shown
 */
-#define VAR_ALCHS_DO_NOT_HIDE true
+#define VAR_ALCHS_FORCE_SHOWN true
 
-apply (VAR_GLOBAL_HIDE_SPAWN_ITEMS && name:VAR_ALCHS_ITEM_LIST) {
+apply (VAR_ALCHS_FORCE_SHOWN && name:VAR_ALCHS_ITEM_LIST) {
     hidden = false;
 }
 
