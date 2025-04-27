@@ -7,6 +7,16 @@ description: |
 */
 
 /*@ define:input:alchs
+type: boolean
+label: Do not hide items from the alchs list
+*/
+#define VAR_ALCHS_DO_NOT_HIDE true
+
+apply (VAR_GLOBAL_HIDE_SPAWN_ITEMS && name:VAR_ALCHS_ITEM_LIST) {
+    hidden = false;
+}
+
+/*@ define:input:alchs
 type: style
 label: Custom style for items on the alchs list
 exampleItem: Rune platelegs
