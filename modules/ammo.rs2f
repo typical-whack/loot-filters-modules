@@ -1,4 +1,3 @@
-
 /*@ define:module:ammo
 ---
 name: Ammo
@@ -6,6 +5,9 @@ subtitle: Forgetting your backpack?
 description: |
   Provides filtering for ammo either explicitly or based on value.
 */
+
+/* --- ARROWS --- */
+
 #define CONST_AMMO_STANDARD_ARROWS_LIST [ \
   "Bronze Arrow*", \
   "Iron Arrow*", \
@@ -24,6 +26,7 @@ description: |
   "Amethyst fire arrow", \
   "Dragon fire arrow", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Standard arrows to force hidden
@@ -72,9 +75,6 @@ enum: [
   "Rune*", \
 ]
 
-apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Standard Arrows minimum value
@@ -82,9 +82,11 @@ group: Arrows
 */
 #define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE) {
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && (name:VAR_AMMO_STANDARD_ARROWS_HIDE || value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- BRUTAL ARROWS --- */
 
 #define CONST_AMMO_BRUTAL_ARROWS_LIST [ \
   "Bronze brutal", \
@@ -95,10 +97,11 @@ apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_M
   "Adamant brutal", \
   "Rune brutal", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Brutal arrows to force hidden
-group: Arrows
+group: Brutal Arrows
 enum: [
   {
     "value": "Bronze brutal",
@@ -138,9 +141,6 @@ enum: [
   "Mithril brutal", \
 ]
 
-apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Brutal Arrows minimum value
@@ -148,9 +148,11 @@ group: Arrows
 */
 #define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE) {
+apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && (name:VAR_AMMO_BRUTAL_ARROWS_HIDE || value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- SPECIAL ARROWS --- */
 
 #define CONST_AMMO_SPECIAL_ARROWS_LIST [ \
   "Training Arrow", \
@@ -158,10 +160,11 @@ apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_V
   "Ice Arrow", \
   "Broad Arrow", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Special arrows to force hidden
-group: Arrows
+group: Special Arrows
 enum: [
   {
     "value": "Training Arrow",
@@ -188,19 +191,19 @@ enum: [
   "Broad Arrow", \
 ]
 
-apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Special Arrows minimum value
-group: Arrows
+group: Special Arrows
 */
 #define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE) {
+apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE || value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- DARTS --- */
+
 #define CONST_AMMO_DARTS_LIST [ \
   "Bronze dart*", \
   "Iron dart*", \
@@ -213,6 +216,7 @@ apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN
   "Dragon dart*", \
   "Atlatl dart", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Darts to force hidden
@@ -269,9 +273,6 @@ enum: [
   "Adamant dart*", \
 ]
 
-apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Darts minimum value
@@ -279,9 +280,12 @@ group: Darts
 */
 #define VAR_AMMO_DARTS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
+apply (name:CONST_AMMO_DARTS_LIST && (name:VAR_AMMO_DARTS_HIDE || value:<VAR_AMMO_DARTS_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- JAVELINS --- */
+
 #define CONST_AMMO_JAVELINS_LIST [ \
   "Bronze javelin*", \
   "Iron javelin*", \
@@ -292,6 +296,7 @@ apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
   "Amethyst javelin*", \
   "Dragon javelin*", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Javelins to force hidden
@@ -340,9 +345,6 @@ enum: [
   "Rune javelin*", \
 ]
 
-apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Javelins minimum value
@@ -350,9 +352,12 @@ group: Javelins
 */
 #define VAR_AMMO_JAVELINS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
+apply (name:CONST_AMMO_JAVELINS_LIST && (name:VAR_AMMO_JAVELINS_HIDE || value:<VAR_AMMO_JAVELINS_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- BOLTS --- */
+
 #define CONST_AMMO_BOLTS_LIST [ \
   "Bronze bolts*", \
   "Blurite bolts*", \
@@ -364,6 +369,7 @@ apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
   "Runite bolts*", \
   "Dragon bolts*", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Bolts to force hidden
@@ -416,9 +422,6 @@ enum: [
   "Mithril bolts*", \
 ]
 
-apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Bolts minimum value
@@ -426,9 +429,11 @@ group: Bolts
 */
 #define VAR_AMMO_BOLTS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_BOLTS_LIST && value:<VAR_AMMO_BOLTS_MIN_VALUE) {
+apply (name:CONST_AMMO_BOLTS_LIST && (name:VAR_AMMO_BOLTS_HIDE || value:<VAR_AMMO_BOLTS_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- ENCHANTED BOLTS --- */
 
 #define CONST_AMMO_BOLTS_E_LIST [ \
   "Opal bolts (e)", \
@@ -442,10 +447,11 @@ apply (name:CONST_AMMO_BOLTS_LIST && value:<VAR_AMMO_BOLTS_MIN_VALUE) {
   "Dragonstone bolts (e)", \
   "Onyx bolts (e)", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Enchanted bolts to force hidden
-group: Bolts
+group: Enchanted Bolts
 enum: [
   {
     "value": "Opal bolts (e)",
@@ -491,19 +497,18 @@ enum: [
 */
 #define VAR_AMMO_BOLTS_E_HIDE []
 
-apply (name:CONST_AMMO_BOLTS_E_LIST && name:VAR_AMMO_BOLTS_E_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Enchanted bolts minimum value
-group: Bolts
+group: Enchanted Bolts
 */
 #define VAR_AMMO_BOLTS_E_MIN_VALUE 500
 
-apply (name:CONST_AMMO_BOLTS_E_LIST && value:<VAR_AMMO_BOLTS_E_MIN_VALUE) {
+apply (name:CONST_AMMO_BOLTS_E_LIST && (name:VAR_AMMO_BOLTS_E_HIDE || value:<VAR_AMMO_BOLTS_E_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- DRAGON ENCHANTED BOLTS --- */
 
 #define CONST_AMMO_DRAGON_BOLTS_E_LIST [ \
   "Opal dragon bolts (e)", \
@@ -517,10 +522,11 @@ apply (name:CONST_AMMO_BOLTS_E_LIST && value:<VAR_AMMO_BOLTS_E_MIN_VALUE) {
   "Dragonstone dragon bolts (e)", \
   "Onyx dragon bolts (e)", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Dragon enchanted bolts to force hidden
-group: Bolts
+group: Dragon Enchanted Bolts
 enum: [
   {
     "value": "Opal dragon bolts (e)",
@@ -566,19 +572,18 @@ enum: [
 */
 #define VAR_AMMO_DRAGON_BOLTS_E_HIDE []
 
-apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && name:VAR_AMMO_DRAGON_BOLTS_E_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Dragon enchanted bolts minimum value
-group: Bolts
+group: Dragon Enchanted Bolts
 */
 #define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 500
 
-apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && value:<VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE) {
+apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && (name:VAR_AMMO_DRAGON_BOLTS_E_HIDE || value:<VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE)) {
     hidden = true;
 }
+
+/* --- SPECIAL BOLTS --- */
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
   "Sunlight antler bolts", \
@@ -590,10 +595,11 @@ apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && value:<VAR_AMMO_DRAGON_BOLTS_E_MIN
   "Barbed bolts", \
   "Bone bolts", \
 ]
+
 /*@ define:input:ammo
 type: enumlist
 label: Special bolts to force hidden
-group: Bolts
+group: Special Bolts
 enum: [
   {
     "value": "Sunlight antler bolts",
@@ -631,19 +637,17 @@ enum: [
 */
 #define VAR_AMMO_SPECIAL_BOLTS_HIDE []
 
-apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && name:VAR_AMMO_SPECIAL_BOLTS_HIDE) {
-    hidden = true;
-}
 /*@ define:input:ammo
 type: number
 label: Special bolts minimum value
-group: Bolts
+group: Special Bolts
 */
 #define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 500
 
-apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && value:<VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE) {
+apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && (name:VAR_AMMO_SPECIAL_BOLTS_HIDE || value:<VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE)) {
     hidden = true;
 }
+
 /*@ define:input:ammo
 type: boolean
 label: Backpack reminder sound
@@ -657,9 +661,6 @@ label: Backpack reminder sound ID (defaults to "ping")
 group: Utilities
 */
 #define VAR_AMMO_BACKPACK_REMINDER_SOUND_ID 933
-
-
-
 
 apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
     sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
