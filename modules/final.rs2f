@@ -461,3 +461,9 @@ apply (VAR_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true)
 apply (VAR_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>1000000000) {
     menuSort = 2000000000;
 }
+
+/* --- putting certain items first in the menu sorting --- */
+
+apply (name:VAR_MENU_SORT_ITEMS_FIRST) {
+    menuSort = 2100000000;
+}

@@ -19,3 +19,9 @@ type: boolean
 label: Sort menu by item value, but with stackable/noted items first
 */
 #define VAR_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
+
+/*@ define:input:menu_sorting
+type: stringlist
+label: Items to always show first
+*/
+#define VAR_MENU_SORT_ITEMS_FIRST []
