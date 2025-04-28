@@ -5,7 +5,7 @@ subtitle: Hmm. Difficult. Very difficult.
 description: |
   This allows you to sort the menu by item value.
 
-  If you come up with other ideas for sorting menus. Let me know!
+  NOTE: This requires that "Price Sort" in the "Custom Menu Swaps" plugin under "Ground Item Sort" to be DISABLED.
 */
 
 /*@ define:input:sorting
