@@ -1,4 +1,4 @@
-global_styling
+default_styling
 menu_sorting
 filtering
 value_filtering
