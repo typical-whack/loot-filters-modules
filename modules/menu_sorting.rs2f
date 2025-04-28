@@ -1,0 +1,16 @@
+/*@ define:module:menu_sorting
+---
+name: Menu Sorting
+subtitle: I want it that way
+description: |
+  This allows you to sort the menu by item value.
+
+  If you come up with other ideas for sorting menus. Let me know!
+*/
+
+/*@ define:input:menu_sorting
+type: boolean
+label: Sort menu by item value
+*/
+#define VAR_GLOBAL_MENU_SORT_BY_VALUE true
+
