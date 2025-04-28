@@ -1,4 +1,4 @@
-/*@ define:module:menu_sorting
+/*@ define:module:sorting
 ---
 name: Sorting
 subtitle: Hmm. Difficult. Very difficult.
@@ -8,28 +8,28 @@ description: |
   If you come up with other ideas for sorting menus. Let me know!
 */
 
-/*@ define:input:menu_sorting
+/*@ define:input:sorting
 type: boolean
 label: Sort menu by item value
 group: Menu Sorting
 */
 #define VAR_SORTING_MENU_SORT_BY_VALUE true
 
-/*@ define:input:menu_sorting
+/*@ define:input:sorting
 type: boolean
 label: Sort menu by item value, but with stackable/noted items first
 group: Menu Sorting
 */
 #define VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
 
-/*@ define:input:menu_sorting
+/*@ define:input:sorting
 type: stringlist
 label: Items to always show first
 group: Menu Sorting
 */
 #define VAR_MENU_SORT_ITEMS_FIRST []
 
-/*@ define:input:menu_sorting
+/*@ define:input:sorting
 type: boolean
 label: Show untradeable items first
 group: Menu Sorting
