@@ -1,7 +1,7 @@
 /*@ define:module:value_filtering
 ---
 name: Value Filtering
-subtitle: Hide the junk
+subtitle: Hide the cheap stuff
 description: |
   Hides tradable items below a certain value. This is useful for filtering out items that are not worth picking up.
   Exceptions can be made to this in following modules.
