@@ -205,7 +205,15 @@ label: Hide world spawn items
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
-apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
+/*@ define:input:ownership_filtering
+type: stringlist
+label: Item exceptions to hidden world spawns
+*/
+#define VAR_OWNERSHIP_FILTERING_SPAWN_EXCEPTIONS [ \
+    "Water container", \
+]
+
+apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_SPAWN_EXCEPTIONS) {
     hidden = true;
 }
 
@@ -215,7 +223,30 @@ label: Hide items owned by other players
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
-apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
+/*@ define:input:ownership_filtering
+type: stringlist
+label: Item exceptions to hidden other players items
+*/
+#define VAR_OWNERSHIP_FILTERING_OTHER_PLAYERS_EXCEPTIONS [ \
+    "Dawnbringer", \
+    "Elder*", \
+    "Twisted*", \
+    "Kodai*", \
+    "Revitalisation*", \
+    "Prayer enhance*", \
+    "Xeric's aid*", \
+    "Antipoison*", \
+    "Overload*", \
+    "Golpar seed", \
+    "Buchu seed", \
+    "Noxifer seed", \
+    "Endarkened juice", \
+    "Stinkhorn mushroom", \
+    "Cicely", \
+    "Mallignum root plank", \
+]
+
+apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_OTHER_PLAYERS_EXCEPTIONS) {
     hidden = true;
 }
 /*@ define:module:item_tiers
@@ -1974,29 +2005,6 @@ description: |
 #define CONST_COX_THIEVING_AREA [3263, 5374, 0, 3360, 5408, 0]
 
 /*@ define:input:chambers_of_xeric
-type: stringlist
-label: Items to exempt from ownership filtering
-group: COX item filters
-*/
-#define VAR_COX_OWNERSHIP_EXEMPTION_ITEMS [ \
-    "Elder*", \
-    "Twisted*", \
-    "Kodai*", \
-    "Revitalisation*", \
-    "Prayer enhance*", \
-    "Xeric's aid*", \
-    "Antipoison*", \
-    "Overload*", \
-    "Golpar seed", \
-    "Buchu seed", \
-    "Noxifer seed", \
-    "Endarkened juice", \
-    "Stinkhorn mushroom", \
-    "Cicely", \
-    "Mallignum root plank", \
-]
-
-/*@ define:input:chambers_of_xeric
 type: enumlist
 label: Potions to force hidden
 group: COX item filters
@@ -2515,10 +2523,6 @@ backgroundImage: Chambers of Xeric
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFa7a8c0";
 
-
-apply (area:CONST_COX_AREA && name:VAR_COX_OWNERSHIP_EXEMPTION_ITEMS) {
-    hidden = false;
-}
 apply (area:CONST_COX_AREA && name:VAR_COX_FISH_HIDE) {
     hidden = true;
 }
