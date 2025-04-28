@@ -10,7 +10,6 @@ description: |
 /*@ define:input:ownership_filtering
 type: boolean
 label: Hide world spawn items
-group: Item Filters
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
@@ -21,7 +20,6 @@ apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
 /*@ define:input:ownership_filtering
 type: boolean
 label: Hide items owned by other players
-group: Item Filters
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
