@@ -3,6 +3,8 @@ hidden: true
 name: final
 */
 
+/* --- hiding and showing specific items --- */
+
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
