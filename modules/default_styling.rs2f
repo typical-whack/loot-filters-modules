@@ -22,6 +22,20 @@ apply (true) {
 }
 
 /*@ define:input:default_styling
+type: style
+label: Default Untradeable Style
+group: Default Untradeable Style
+exampleItem: Long bone
+exampleItemId: 10976
+*/
+#define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE \
+  borderColor = "#ffff00ff";
+
+apply (tradeable:false) {
+    VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Tradeable Items
 */
