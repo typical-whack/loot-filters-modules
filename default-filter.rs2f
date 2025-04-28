@@ -229,6 +229,18 @@ description: |
 */
 
 /*@ define:input:ownership_filtering
+type: boolean
+label: Hide world spawn items
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+/*@ define:input:ownership_filtering
+type: boolean
+label: Hide items owned by other players
+*/
+#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
+
+/*@ define:input:ownership_filtering
 type: stringlist
 label: Item exceptions to ownership filtering
 group: Ownership Filtering Exceptions
@@ -253,21 +265,9 @@ group: Ownership Filtering Exceptions
     "Mallignum root plank", \
 ]
 
-/*@ define:input:ownership_filtering
-type: boolean
-label: Hide world spawn items
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
 rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
 }
-
-/*@ define:input:ownership_filtering
-type: boolean
-label: Hide items owned by other players
-*/
-#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
 rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
