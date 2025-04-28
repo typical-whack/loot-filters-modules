@@ -3,309 +3,20 @@ hidden: true
 name: header
 */
 meta { name = "[default: Joe's filter]"; }
-/*@ define:module:global_defaults
+/*@ define:module:default_styling
 ---
-name: Global defaults
-subtitle: The first layer of styling and filtering
+name: Default Styling
+subtitle: The first layer of styling items
 description: |
-  This provides some default styling options to apply to all items, unless overridden by a module below. This also provides an option to explicitly show and hide specific items. This list however can be overridden in a below modules as well.
+  This contains the default styles and options to configure style programmatically.
+  
+  These styles can be overridden or added to by modules below.
 */
 
-#define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
-    "1/2 anchovy pizza", \
-    "1/2 meat pizza", \
-    "1/2 pineapple pizza", \
-    "1/2 plain pizza", \
-    "2/3 cake", \
-    "2/3 chocolate cake", \
-    "Adamant fire arrow", \
-    "Air rune pack", \
-    "Amethyst fire arrow", \
-    "An empty box", \
-    "Anchovy paste", \
-    "Apples(1)", \
-    "Apples(2)", \
-    "Apples(3)", \
-    "Apples(4)", \
-    "Astronomy book", \
-    "Bailing bucket", \
-    "Bananas(1)", \
-    "Bananas(2)", \
-    "Bananas(3)", \
-    "Bananas(4)", \
-    "Bandages", \
-    "Barricade", \
-    "Basket pack", \
-    "Black mask (1)", \
-    "Black mask (10)", \
-    "Black mask (2)", \
-    "Black mask (3)", \
-    "Black mask (4)", \
-    "Black mask (5)", \
-    "Black mask (6)", \
-    "Black mask (7)", \
-    "Black mask (8)", \
-    "Black mask (9)", \
-    "Black satchel", \
-    "Blue flowers", \
-    "Broken pole", \
-    "Bronze fire arrow", \
-    "Bruised banana", \
-    "Bucket of rubble", \
-    "Burnt anglerfish", \
-    "Burnt bat", \
-    "Burnt batta", \
-    "Burnt beast meat", \
-    "Burnt bird meat", \
-    "Burnt bread", \
-    "Burnt cake", \
-    "Burnt cave eel", \
-    "Burnt chicken", \
-    "Burnt crunchies", \
-    "Burnt curry", \
-    "Burnt dark crab", \
-    "Burnt eel", \
-    "Burnt egg", \
-    "Burnt fish", \
-    "Burnt fish", \
-    "Burnt fish", \
-    "Burnt fish", \
-    "Burnt fish", \
-    "Burnt fish", \
-    "Burnt gnomebowl", \
-    "Burnt jubbly", \
-    "Burnt karambwan", \
-    "Burnt lobster", \
-    "Burnt manta ray", \
-    "Burnt meat", \
-    "Burnt monkfish", \
-    "Burnt mushroom", \
-    "Burnt onion", \
-    "Burnt oomlie", \
-    "Burnt oomlie wrap", \
-    "Burnt pie", \
-    "Burnt pizza", \
-    "Burnt potato", \
-    "Burnt rabbit", \
-    "Burnt rainbow fish", \
-    "Burnt sea turtle", \
-    "Burnt shark", \
-    "Burnt shrimp", \
-    "Burnt snail", \
-    "Burnt spider (stick)", \
-    "Burnt stew", \
-    "Burnt sweetcorn", \
-    "Burnt swordfish", \
-    "Cadarn lineage", \
-    "Cat training medal", \
-    "Chaos rune pack", \
-    "Chaotic handegg", \
-    "Chocolate slice", \
-    "Climbing rope", \
-    "Coconut shell", \
-    "Coins", \
-    "Cooked chicken", \
-    "Cooked meat", \
-    "Crate", \
-    "Crushed gem", \
-    "Crystal singing for beginners", \
-    "Damp egg", \
-    "Damp tinderbox", \
-    "Dragon fire arrow", \
-    "Earth rune pack", \
-    "Empty oyster", \
-    "Explosive potion", \
-    "Feather pack", \
-    "Field ration", \
-    "Fire rune pack", \
-    "Flyer", \
-    "Fossilised Dung", \
-    "Glassblowing book", \
-    "Gold satchel", \
-    "Green satchel", \
-    "Ground bat bones", \
-    "Guthix balance (unf)", \
-    "Half a admiral pie", \
-    "Half a apple pie", \
-    "Half a botanical pie", \
-    "Half a dragonfruit pie", \
-    "Half a fish pie", \
-    "Half a garden pie", \
-    "Half a meat pie", \
-    "Half a mud pie", \
-    "Half a mushroom pie", \
-    "Half a redberry pie", \
-    "Half a summer pie", \
-    "Half a wild pie", \
-    "Half certificate (left)", \
-    "Half certificate (right)", \
-    "Half coconut", \
-    "Holy handegg", \
-    "Incomplete pizza", \
-    "Iron fire arrow", \
-    "Iron sickle", \
-    "Mind rune pack", \
-    "Miscellaneous key", \
-    "Mithril fire arrow", \
-    "Mud", \
-    "Muddy rock", \
-    "Newcomer map", \
-    "Newspaper", \
-    "Old wool", \
-    "Oranges(1)", \
-    "Oranges(2)", \
-    "Oranges(3)", \
-    "Oranges(4)", \
-    "Part admiral pie", \
-    "Part fish pie", \
-    "Part garden pie", \
-    "Part mud pie", \
-    "Part summer pie", \
-    "Part wild pie", \
-    "Peaceful handegg", \
-    "Pete's candlestick", \
-    "Phoenix crossbow", \
-    "Plain satchel", \
-    "Plant pot pack", \
-    "Platinum token", \
-    "Potion", \
-    "Raw beef", \
-    "Raw chicken", \
-    "Raw swamp paste", \
-    "Red flowers", \
-    "Red satchel", \
-    "Rock", \
-    "Rock", \
-    "Rotten food", \
-    "Rotten tomato", \
-    "Ruined chompy", \
-    "Ruined herb tea", \
-    "Rune fire arrow", \
-    "Rune satchel", \
-    "Sack pack", \
-    "Sample bottle", \
-    "Shayzien supply crate", \
-    "Slice of cake", \
-    "Smashed glass", \
-    "Smelly sock", \
-    "Spare controls", \
-    "Spider on shaft", \
-    "Spooky egg", \
-    "Steel fire arrow", \
-    "Strawberries(1)", \
-    "Strawberries(2)", \
-    "Strawberries(3)", \
-    "Strawberries(4)", \
-    "Strip of cloth", \
-    "Sulphur", \
-    "Tankard", \
-    "Tea leaves", \
-    "Tile", \
-    "Tomatoes(1)", \
-    "Tomatoes(2)", \
-    "Tomatoes(3)", \
-    "Tomatoes(4)", \
-    "Toolkit", \
-    "Tzhaar air rune pack", \
-    "Tzhaar earth rune pack", \
-    "Tzhaar fire rune pack", \
-    "Tzhaar water rune pack", \
-    "Ugthanki kebab", \
-    "Uncooked pizza", \
-    "Unfinished broad bolt pack", \
-    "Washing bowl", \
-    "Water rune pack", \
-    "Water-filled vial pack", \
-    "Weapon store key", \
-]
-
-/*@ define:input:global_defaults
-type: boolean
-label: Sort menu by item value
-*/
-#define VAR_GLOBAL_MENU_SORT_BY_VALUE true
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to hide
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE []
-
-apply (name:VAR_GLOBAL_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to show
-group: Item Filters
-*/
-#define VAR_GLOBAL_SHOW []
-
-apply (name:VAR_GLOBAL_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide items below this value
-group: Item Filters
-*/
-#define VAR_GLOBAL_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide stackable items below this value
-group: Item Filters
-*/
-#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide non-stackable items below this value
-group: Item Filters
-*/
-#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide world spawn items
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
-apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide items owned by other players
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
-
-apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: style
-label: Global default style
-group: Style Settings
+label: Default Style
+group: Default Style
 exampleItem: Santa hat
 exampleItemId: 1050
 */
@@ -317,10 +28,35 @@ apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
+type: style
+label: "Default Stackable/Noted Style"
+group: "Default Stackable/Noted Style"
+exampleItem: Magic shortbow (u)
+exampleItemId: 73
+*/
+#define VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE
+
+apply (stackable:true || noted:true) {
+    VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
+type: style
+label: Default Untradeable Style
+group: Default Untradeable Style
+exampleItem: Long bone
+exampleItemId: 10976
+*/
+#define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE
+
+apply (tradeable:false) {
+    VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Tradeable Items
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
 
@@ -328,10 +64,9 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VA
     showValue = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Untradeable Items
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
@@ -339,10 +74,10 @@ apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
     showValue = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide despawn timer for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
 
@@ -350,10 +85,10 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     showDespawn = false;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide prices for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
 
@@ -361,10 +96,10 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     showValue = false;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide icons for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
@@ -373,15 +108,180 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     icon = Sprite(9000000, 0);
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: stringlist
 label: Items to show icons for (if not showing for all items)
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
 
 apply (name:VAR_GLOBAL_SHOW_ICONS_ITEMLIST) {
     icon = CurrentItem();
+}
+/*@ define:module:sorting
+---
+name: Sorting
+subtitle: Picking up the good stuff first
+description: |
+  This allows you to order the pickup menu in a few different ways.
+
+  NOTE: This requires that "Price Sort" in the "Custom Menu Swaps" plugin under "Ground Item Sort" to be DISABLED.
+*/
+
+/*@ define:input:sorting
+type: boolean
+label: Sort by value
+group: Menu Sorting
+*/
+#define VAR_SORTING_MENU_SORT_BY_VALUE true
+
+/*@ define:input:sorting
+type: boolean
+label: Stackable/noted first
+group: Menu Sorting
+*/
+#define VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
+
+/*@ define:input:sorting
+type: boolean
+label: Untradeables first
+group: Menu Sorting
+*/
+#define VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST false
+
+/*@ define:input:sorting
+type: stringlist
+label: Items to always show first
+group: Menu Sorting
+*/
+#define VAR_MENU_SORT_ITEMS_FIRST []
+/*@ define:module:filtering
+---
+name: Filtering
+subtitle: Sifting through the junk
+description: |
+  Individual Item Filtering
+  ---
+  Showing and hiding individual items.
+
+  Value-Based Filtering
+  ---
+  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
+  
+  *Note: Exceptions can be made to this in following modules.*
+
+  Ownership Filtering
+  ---
+  This has options to hide items based on their ownership.
+
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+*/
+
+/* --- Individual Item Filtering --- */
+
+/*@ define:input:filtering
+type: stringlist
+label: Items to hide
+group: Individual Item Filtering
+*/
+#define VAR_GLOBAL_HIDE []
+
+apply (name:VAR_GLOBAL_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: stringlist
+label: Items to show
+group: Individual Item Filtering
+*/
+#define VAR_GLOBAL_SHOW []
+
+apply (name:VAR_GLOBAL_SHOW) {
+    hidden = false;
+}
+
+/* --- Value-Based Filtering --- */
+
+/*@ define:input:filtering
+type: number
+label: Hide items below this value
+group: Value-Based Filtering
+*/
+#define VAR_GLOBAL_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: number
+label: Hide stackable items below this value
+group: Value-Based Filtering
+*/
+#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: number
+label: Hide non-stackable items below this value
+group: Value-Based Filtering
+*/
+#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/* --- Ownership Filtering --- */
+
+/*@ define:input:filtering
+type: boolean
+label: Hide others' drops
+group: Ownership Filtering
+*/
+#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
+
+/*@ define:input:filtering
+type: boolean
+label: Hide world spawns
+group: Ownership Filtering
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+/*@ define:input:filtering
+type: stringlist
+label: Exceptions to ownership filtering
+group: Ownership Filtering
+*/
+#define VAR_OWNERSHIP_FILTERING_EXCEPTIONS [ \
+    "Water container", \
+    "Dawnbringer", \
+    "Elder*", \
+    "Twisted*", \
+    "Kodai*", \
+    "Revitalisation*", \
+    "Prayer enhance*", \
+    "Xeric's aid*", \
+    "Antipoison*", \
+    "Overload*", \
+    "Golpar seed", \
+    "Buchu seed", \
+    "Noxifer seed", \
+    "Endarkened juice", \
+    "Stinkhorn mushroom", \
+    "Cicely", \
+    "Mallignum root plank", \
+]
+
+rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
+    hidden = true;
+}
+
+rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
+    hidden = true;
 }
 /*@ define:module:item_tiers
 ---
@@ -2139,29 +2039,6 @@ description: |
 #define CONST_COX_THIEVING_AREA [3263, 5374, 0, 3360, 5408, 0]
 
 /*@ define:input:chambers_of_xeric
-type: stringlist
-label: Items to exempt from ownership filtering
-group: COX item filters
-*/
-#define VAR_COX_OWNERSHIP_EXEMPTION_ITEMS [ \
-    "Elder*", \
-    "Twisted*", \
-    "Kodai*", \
-    "Revitalisation*", \
-    "Prayer enhance*", \
-    "Xeric's aid*", \
-    "Antipoison*", \
-    "Overload*", \
-    "Golpar seed", \
-    "Buchu seed", \
-    "Noxifer seed", \
-    "Endarkened juice", \
-    "Stinkhorn mushroom", \
-    "Cicely", \
-    "Mallignum root plank", \
-]
-
-/*@ define:input:chambers_of_xeric
 type: enumlist
 label: Potions to force hidden
 group: COX item filters
@@ -2680,10 +2557,6 @@ backgroundImage: Chambers of Xeric
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFa7a8c0";
 
-
-apply (area:CONST_COX_AREA && name:VAR_COX_OWNERSHIP_EXEMPTION_ITEMS) {
-    hidden = false;
-}
 apply (area:CONST_COX_AREA && name:VAR_COX_FISH_HIDE) {
     hidden = true;
 }
@@ -14413,6 +14286,8 @@ hidden: true
 name: final
 */
 
+/* --- hiding and showing specific items --- */
+
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
@@ -14420,198 +14295,986 @@ apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
 
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>0) {
+/* --- sorting menu by value --- */
+
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=0 && value:<10) {
     menuSort = 0;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=10 && value:<20) {
+    menuSort = 1;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=20 && value:<30) {
+    menuSort = 2;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=30 && value:<40) {
+    menuSort = 3;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=40 && value:<50) {
+    menuSort = 4;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=50 && value:<60) {
+    menuSort = 5;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=60 && value:<70) {
+    menuSort = 6;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=70 && value:<80) {
+    menuSort = 7;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=80 && value:<90) {
+    menuSort = 8;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=90 && value:<100) {
+    menuSort = 9;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=100 && value:<200) {
     menuSort = 10;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=200 && value:<300) {
+    menuSort = 11;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=300 && value:<400) {
+    menuSort = 12;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=400 && value:<500) {
+    menuSort = 13;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=500 && value:<600) {
+    menuSort = 14;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=600 && value:<700) {
+    menuSort = 15;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=700 && value:<800) {
+    menuSort = 16;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=800 && value:<900) {
+    menuSort = 17;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=900 && value:<1000) {
+    menuSort = 18;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1000 && value:<2000) {
+    menuSort = 19;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=2000 && value:<3000) {
     menuSort = 20;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=3000 && value:<4000) {
+    menuSort = 21;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=4000 && value:<5000) {
+    menuSort = 22;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=5000 && value:<6000) {
+    menuSort = 23;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=6000 && value:<7000) {
+    menuSort = 24;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=7000 && value:<8000) {
+    menuSort = 25;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=8000 && value:<9000) {
+    menuSort = 26;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=9000 && value:<10000) {
+    menuSort = 27;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=10000 && value:<20000) {
+    menuSort = 28;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=20000 && value:<30000) {
+    menuSort = 29;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=30000 && value:<40000) {
     menuSort = 30;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=40000 && value:<50000) {
+    menuSort = 31;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=50000 && value:<60000) {
+    menuSort = 32;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=60000 && value:<70000) {
+    menuSort = 33;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=70000 && value:<80000) {
+    menuSort = 34;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=80000 && value:<90000) {
+    menuSort = 35;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=90000 && value:<100000) {
+    menuSort = 36;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=100000 && value:<200000) {
+    menuSort = 37;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=200000 && value:<300000) {
+    menuSort = 38;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=300000 && value:<400000) {
+    menuSort = 39;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=400000 && value:<500000) {
     menuSort = 40;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=500000 && value:<600000) {
+    menuSort = 41;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=600000 && value:<700000) {
+    menuSort = 42;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=700000 && value:<800000) {
+    menuSort = 43;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=800000 && value:<900000) {
+    menuSort = 44;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=900000 && value:<1000000) {
+    menuSort = 45;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1000000 && value:<2000000) {
+    menuSort = 46;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=2000000 && value:<3000000) {
+    menuSort = 47;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=3000000 && value:<4000000) {
+    menuSort = 48;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=4000000 && value:<5000000) {
+    menuSort = 49;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=5000000 && value:<6000000) {
     menuSort = 50;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=6000000 && value:<7000000) {
+    menuSort = 51;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=7000000 && value:<8000000) {
+    menuSort = 52;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=8000000 && value:<9000000) {
+    menuSort = 53;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=9000000 && value:<10000000) {
+    menuSort = 54;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=10000000 && value:<20000000) {
+    menuSort = 55;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=20000000 && value:<30000000) {
+    menuSort = 56;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=30000000 && value:<40000000) {
+    menuSort = 57;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=40000000 && value:<50000000) {
+    menuSort = 58;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=50000000 && value:<60000000) {
+    menuSort = 59;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=60000000 && value:<70000000) {
     menuSort = 60;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=70000000 && value:<80000000) {
+    menuSort = 61;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=80000000 && value:<90000000) {
+    menuSort = 62;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=90000000 && value:<100000000) {
+    menuSort = 63;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=100000000 && value:<200000000) {
+    menuSort = 64;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=200000000 && value:<300000000) {
+    menuSort = 65;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=300000000 && value:<400000000) {
+    menuSort = 66;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=400000000 && value:<500000000) {
+    menuSort = 67;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=500000000 && value:<600000000) {
+    menuSort = 68;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=600000000 && value:<700000000) {
+    menuSort = 69;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=700000000 && value:<800000000) {
     menuSort = 70;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=800000000 && value:<900000000) {
+    menuSort = 71;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=900000000 && value:<1000000000) {
+    menuSort = 72;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1000000000 && value:<1100000000) {
+    menuSort = 73;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1100000000 && value:<1200000000) {
+    menuSort = 74;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1200000000 && value:<1300000000) {
+    menuSort = 75;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1300000000 && value:<1400000000) {
+    menuSort = 76;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1400000000 && value:<1500000000) {
+    menuSort = 77;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1500000000 && value:<1600000000) {
+    menuSort = 78;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1600000000 && value:<1700000000) {
+    menuSort = 79;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1700000000 && value:<1800000000) {
     menuSort = 80;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1800000000 && value:<1900000000) {
+    menuSort = 81;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1900000000 && value:<2000000000) {
+    menuSort = 82;
+}
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=2000000000) {
+    menuSort = 83;
+}
+
+/* --- sorting menu by value with stackables first --- */
+
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=0 && value:<10) {
+    menuSort = 84;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=10 && value:<20) {
+    menuSort = 85;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=20 && value:<30) {
+    menuSort = 86;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=30 && value:<40) {
+    menuSort = 87;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=40 && value:<50) {
+    menuSort = 88;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=50 && value:<60) {
+    menuSort = 89;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=60 && value:<70) {
     menuSort = 90;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100) {
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=70 && value:<80) {
+    menuSort = 91;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=80 && value:<90) {
+    menuSort = 92;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=90 && value:<100) {
+    menuSort = 93;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=100 && value:<200) {
+    menuSort = 94;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=200 && value:<300) {
+    menuSort = 95;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=300 && value:<400) {
+    menuSort = 96;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=400 && value:<500) {
+    menuSort = 97;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=500 && value:<600) {
+    menuSort = 98;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=600 && value:<700) {
+    menuSort = 99;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=700 && value:<800) {
     menuSort = 100;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200) {
-    menuSort = 200;
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=800 && value:<900) {
+    menuSort = 101;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300) {
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=900 && value:<1000) {
+    menuSort = 102;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1000 && value:<2000) {
+    menuSort = 103;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=2000 && value:<3000) {
+    menuSort = 104;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=3000 && value:<4000) {
+    menuSort = 105;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=4000 && value:<5000) {
+    menuSort = 106;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=5000 && value:<6000) {
+    menuSort = 107;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=6000 && value:<7000) {
+    menuSort = 108;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=7000 && value:<8000) {
+    menuSort = 109;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=8000 && value:<9000) {
+    menuSort = 110;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=9000 && value:<10000) {
+    menuSort = 111;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=10000 && value:<20000) {
+    menuSort = 112;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=20000 && value:<30000) {
+    menuSort = 113;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=30000 && value:<40000) {
+    menuSort = 114;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=40000 && value:<50000) {
+    menuSort = 115;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=50000 && value:<60000) {
+    menuSort = 116;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=60000 && value:<70000) {
+    menuSort = 117;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=70000 && value:<80000) {
+    menuSort = 118;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=80000 && value:<90000) {
+    menuSort = 119;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=90000 && value:<100000) {
+    menuSort = 120;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=100000 && value:<200000) {
+    menuSort = 121;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=200000 && value:<300000) {
+    menuSort = 122;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=300000 && value:<400000) {
+    menuSort = 123;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=400000 && value:<500000) {
+    menuSort = 124;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=500000 && value:<600000) {
+    menuSort = 125;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=600000 && value:<700000) {
+    menuSort = 126;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=700000 && value:<800000) {
+    menuSort = 127;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=800000 && value:<900000) {
+    menuSort = 128;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=900000 && value:<1000000) {
+    menuSort = 129;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1000000 && value:<2000000) {
+    menuSort = 130;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=2000000 && value:<3000000) {
+    menuSort = 131;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=3000000 && value:<4000000) {
+    menuSort = 132;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=4000000 && value:<5000000) {
+    menuSort = 133;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=5000000 && value:<6000000) {
+    menuSort = 134;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=6000000 && value:<7000000) {
+    menuSort = 135;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=7000000 && value:<8000000) {
+    menuSort = 136;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=8000000 && value:<9000000) {
+    menuSort = 137;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=9000000 && value:<10000000) {
+    menuSort = 138;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=10000000 && value:<20000000) {
+    menuSort = 139;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=20000000 && value:<30000000) {
+    menuSort = 140;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=30000000 && value:<40000000) {
+    menuSort = 141;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=40000000 && value:<50000000) {
+    menuSort = 142;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=50000000 && value:<60000000) {
+    menuSort = 143;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=60000000 && value:<70000000) {
+    menuSort = 144;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=70000000 && value:<80000000) {
+    menuSort = 145;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=80000000 && value:<90000000) {
+    menuSort = 146;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=90000000 && value:<100000000) {
+    menuSort = 147;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=100000000 && value:<200000000) {
+    menuSort = 148;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=200000000 && value:<300000000) {
+    menuSort = 149;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=300000000 && value:<400000000) {
+    menuSort = 150;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=400000000 && value:<500000000) {
+    menuSort = 151;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=500000000 && value:<600000000) {
+    menuSort = 152;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=600000000 && value:<700000000) {
+    menuSort = 153;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=700000000 && value:<800000000) {
+    menuSort = 154;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=800000000 && value:<900000000) {
+    menuSort = 155;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=900000000 && value:<1000000000) {
+    menuSort = 156;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1000000000 && value:<1100000000) {
+    menuSort = 157;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1100000000 && value:<1200000000) {
+    menuSort = 158;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1200000000 && value:<1300000000) {
+    menuSort = 159;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1300000000 && value:<1400000000) {
+    menuSort = 160;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1400000000 && value:<1500000000) {
+    menuSort = 161;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1500000000 && value:<1600000000) {
+    menuSort = 162;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1600000000 && value:<1700000000) {
+    menuSort = 163;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1700000000 && value:<1800000000) {
+    menuSort = 164;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1800000000 && value:<1900000000) {
+    menuSort = 165;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=1900000000 && value:<2000000000) {
+    menuSort = 166;
+}
+apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=2000000000) {
+    menuSort = 167;
+}
+
+/* --- handling menu sort for untradeables --- */
+
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=0 && value:<10) {
+    menuSort = 201;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=10 && value:<20) {
+    menuSort = 202;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=20 && value:<30) {
+    menuSort = 203;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=30 && value:<40) {
+    menuSort = 204;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=40 && value:<50) {
+    menuSort = 205;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=50 && value:<60) {
+    menuSort = 206;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=60 && value:<70) {
+    menuSort = 207;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=70 && value:<80) {
+    menuSort = 208;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=80 && value:<90) {
+    menuSort = 209;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=90 && value:<100) {
+    menuSort = 210;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=100 && value:<200) {
+    menuSort = 211;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=200 && value:<300) {
+    menuSort = 212;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=300 && value:<400) {
+    menuSort = 213;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=400 && value:<500) {
+    menuSort = 214;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=500 && value:<600) {
+    menuSort = 215;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=600 && value:<700) {
+    menuSort = 216;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=700 && value:<800) {
+    menuSort = 217;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=800 && value:<900) {
+    menuSort = 218;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=900 && value:<1000) {
+    menuSort = 219;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1000 && value:<2000) {
+    menuSort = 220;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=2000 && value:<3000) {
+    menuSort = 221;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=3000 && value:<4000) {
+    menuSort = 222;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=4000 && value:<5000) {
+    menuSort = 223;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=5000 && value:<6000) {
+    menuSort = 224;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=6000 && value:<7000) {
+    menuSort = 225;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=7000 && value:<8000) {
+    menuSort = 226;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=8000 && value:<9000) {
+    menuSort = 227;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=9000 && value:<10000) {
+    menuSort = 228;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=10000 && value:<20000) {
+    menuSort = 229;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=20000 && value:<30000) {
+    menuSort = 230;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=30000 && value:<40000) {
+    menuSort = 231;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=40000 && value:<50000) {
+    menuSort = 232;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=50000 && value:<60000) {
+    menuSort = 233;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=60000 && value:<70000) {
+    menuSort = 234;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=70000 && value:<80000) {
+    menuSort = 235;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=80000 && value:<90000) {
+    menuSort = 236;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=90000 && value:<100000) {
+    menuSort = 237;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=100000 && value:<200000) {
+    menuSort = 238;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=200000 && value:<300000) {
+    menuSort = 239;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=300000 && value:<400000) {
+    menuSort = 240;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=400000 && value:<500000) {
+    menuSort = 241;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=500000 && value:<600000) {
+    menuSort = 242;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=600000 && value:<700000) {
+    menuSort = 243;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=700000 && value:<800000) {
+    menuSort = 244;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=800000 && value:<900000) {
+    menuSort = 245;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=900000 && value:<1000000) {
+    menuSort = 246;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1000000 && value:<2000000) {
+    menuSort = 247;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=2000000 && value:<3000000) {
+    menuSort = 248;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=3000000 && value:<4000000) {
+    menuSort = 249;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=4000000 && value:<5000000) {
+    menuSort = 250;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=5000000 && value:<6000000) {
+    menuSort = 251;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=6000000 && value:<7000000) {
+    menuSort = 252;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=7000000 && value:<8000000) {
+    menuSort = 253;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=8000000 && value:<9000000) {
+    menuSort = 254;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=9000000 && value:<10000000) {
+    menuSort = 255;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=10000000 && value:<20000000) {
+    menuSort = 256;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=20000000 && value:<30000000) {
+    menuSort = 257;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=30000000 && value:<40000000) {
+    menuSort = 258;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=40000000 && value:<50000000) {
+    menuSort = 259;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=50000000 && value:<60000000) {
+    menuSort = 260;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=60000000 && value:<70000000) {
+    menuSort = 261;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=70000000 && value:<80000000) {
+    menuSort = 262;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=80000000 && value:<90000000) {
+    menuSort = 263;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=90000000 && value:<100000000) {
+    menuSort = 264;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=100000000 && value:<200000000) {
+    menuSort = 265;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=200000000 && value:<300000000) {
+    menuSort = 266;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=300000000 && value:<400000000) {
+    menuSort = 267;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=400000000 && value:<500000000) {
+    menuSort = 268;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=500000000 && value:<600000000) {
+    menuSort = 269;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=600000000 && value:<700000000) {
+    menuSort = 270;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=700000000 && value:<800000000) {
+    menuSort = 271;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=800000000 && value:<900000000) {
+    menuSort = 272;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=900000000 && value:<1000000000) {
+    menuSort = 273;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1000000000 && value:<1100000000) {
+    menuSort = 274;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1100000000 && value:<1200000000) {
+    menuSort = 275;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1200000000 && value:<1300000000) {
+    menuSort = 276;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1300000000 && value:<1400000000) {
+    menuSort = 277;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1400000000 && value:<1500000000) {
+    menuSort = 278;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1500000000 && value:<1600000000) {
+    menuSort = 279;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1600000000 && value:<1700000000) {
+    menuSort = 280;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1700000000 && value:<1800000000) {
+    menuSort = 281;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1800000000 && value:<1900000000) {
+    menuSort = 282;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=1900000000 && value:<2000000000) {
+    menuSort = 283;
+}
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false && value:>=2000000000) {
+    menuSort = 284;
+}
+
+/* --- putting certain items first in the menu sorting --- */
+
+apply (name:VAR_MENU_SORT_ITEMS_FIRST) {
     menuSort = 300;
 }
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400) {
-    menuSort = 400;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500) {
-    menuSort = 500;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600) {
-    menuSort = 600;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700) {
-    menuSort = 700;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800) {
-    menuSort = 800;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900) {
-    menuSort = 900;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000) {
-    menuSort = 1000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000) {
-    menuSort = 2000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000) {
-    menuSort = 3000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000) {
-    menuSort = 4000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000) {
-    menuSort = 5000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000) {
-    menuSort = 6000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000) {
-    menuSort = 7000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000) {
-    menuSort = 8000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000) {
-    menuSort = 9000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000) {
-    menuSort = 10000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000) {
-    menuSort = 20000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000) {
-    menuSort = 30000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000) {
-    menuSort = 40000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000) {
-    menuSort = 50000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000) {
-    menuSort = 60000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000) {
-    menuSort = 70000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000) {
-    menuSort = 80000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000) {
-    menuSort = 90000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000) {
-    menuSort = 100000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200000) {
-    menuSort = 200000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300000) {
-    menuSort = 300000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400000) {
-    menuSort = 400000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500000) {
-    menuSort = 500000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600000) {
-    menuSort = 600000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700000) {
-    menuSort = 700000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800000) {
-    menuSort = 800000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900000) {
-    menuSort = 900000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000000) {
-    menuSort = 1000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>2000000) {
-    menuSort = 2000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>3000000) {
-    menuSort = 3000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>4000000) {
-    menuSort = 4000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>5000000) {
-    menuSort = 5000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>6000000) {
-    menuSort = 6000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>7000000) {
-    menuSort = 7000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>8000000) {
-    menuSort = 8000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>9000000) {
-    menuSort = 9000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>10000000) {
-    menuSort = 10000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>20000000) {
-    menuSort = 20000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>30000000) {
-    menuSort = 30000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>40000000) {
-    menuSort = 40000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>50000000) {
-    menuSort = 50000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>60000000) {
-    menuSort = 60000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>70000000) {
-    menuSort = 70000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>80000000) {
-    menuSort = 80000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000000) {
-    menuSort = 90000000;
-}
-apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000000) {
-    menuSort = 100000000;
-}
+/*@ define:module:constants
+hidden: true
+name: Constants
+*/
+
+#define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
+    "1/2 anchovy pizza", \
+    "1/2 meat pizza", \
+    "1/2 pineapple pizza", \
+    "1/2 plain pizza", \
+    "2/3 cake", \
+    "2/3 chocolate cake", \
+    "Adamant fire arrow", \
+    "Air rune pack", \
+    "Amethyst fire arrow", \
+    "An empty box", \
+    "Anchovy paste", \
+    "Apples(1)", \
+    "Apples(2)", \
+    "Apples(3)", \
+    "Apples(4)", \
+    "Astronomy book", \
+    "Bailing bucket", \
+    "Bananas(1)", \
+    "Bananas(2)", \
+    "Bananas(3)", \
+    "Bananas(4)", \
+    "Bandages", \
+    "Barricade", \
+    "Basket pack", \
+    "Black mask (1)", \
+    "Black mask (10)", \
+    "Black mask (2)", \
+    "Black mask (3)", \
+    "Black mask (4)", \
+    "Black mask (5)", \
+    "Black mask (6)", \
+    "Black mask (7)", \
+    "Black mask (8)", \
+    "Black mask (9)", \
+    "Black satchel", \
+    "Blue flowers", \
+    "Broken pole", \
+    "Bronze fire arrow", \
+    "Bruised banana", \
+    "Bucket of rubble", \
+    "Burnt anglerfish", \
+    "Burnt bat", \
+    "Burnt batta", \
+    "Burnt beast meat", \
+    "Burnt bird meat", \
+    "Burnt bread", \
+    "Burnt cake", \
+    "Burnt cave eel", \
+    "Burnt chicken", \
+    "Burnt crunchies", \
+    "Burnt curry", \
+    "Burnt dark crab", \
+    "Burnt eel", \
+    "Burnt egg", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt gnomebowl", \
+    "Burnt jubbly", \
+    "Burnt karambwan", \
+    "Burnt lobster", \
+    "Burnt manta ray", \
+    "Burnt meat", \
+    "Burnt monkfish", \
+    "Burnt mushroom", \
+    "Burnt onion", \
+    "Burnt oomlie", \
+    "Burnt oomlie wrap", \
+    "Burnt pie", \
+    "Burnt pizza", \
+    "Burnt potato", \
+    "Burnt rabbit", \
+    "Burnt rainbow fish", \
+    "Burnt sea turtle", \
+    "Burnt shark", \
+    "Burnt shrimp", \
+    "Burnt snail", \
+    "Burnt spider (stick)", \
+    "Burnt stew", \
+    "Burnt sweetcorn", \
+    "Burnt swordfish", \
+    "Cadarn lineage", \
+    "Cat training medal", \
+    "Chaos rune pack", \
+    "Chaotic handegg", \
+    "Chocolate slice", \
+    "Climbing rope", \
+    "Coconut shell", \
+    "Coins", \
+    "Cooked chicken", \
+    "Cooked meat", \
+    "Crate", \
+    "Crushed gem", \
+    "Crystal singing for beginners", \
+    "Damp egg", \
+    "Damp tinderbox", \
+    "Dragon fire arrow", \
+    "Earth rune pack", \
+    "Empty oyster", \
+    "Explosive potion", \
+    "Feather pack", \
+    "Field ration", \
+    "Fire rune pack", \
+    "Flyer", \
+    "Fossilised Dung", \
+    "Glassblowing book", \
+    "Gold satchel", \
+    "Green satchel", \
+    "Ground bat bones", \
+    "Guthix balance (unf)", \
+    "Half a admiral pie", \
+    "Half a apple pie", \
+    "Half a botanical pie", \
+    "Half a dragonfruit pie", \
+    "Half a fish pie", \
+    "Half a garden pie", \
+    "Half a meat pie", \
+    "Half a mud pie", \
+    "Half a mushroom pie", \
+    "Half a redberry pie", \
+    "Half a summer pie", \
+    "Half a wild pie", \
+    "Half certificate (left)", \
+    "Half certificate (right)", \
+    "Half coconut", \
+    "Holy handegg", \
+    "Incomplete pizza", \
+    "Iron fire arrow", \
+    "Iron sickle", \
+    "Mind rune pack", \
+    "Miscellaneous key", \
+    "Mithril fire arrow", \
+    "Mud", \
+    "Muddy rock", \
+    "Newcomer map", \
+    "Newspaper", \
+    "Old wool", \
+    "Oranges(1)", \
+    "Oranges(2)", \
+    "Oranges(3)", \
+    "Oranges(4)", \
+    "Part admiral pie", \
+    "Part fish pie", \
+    "Part garden pie", \
+    "Part mud pie", \
+    "Part summer pie", \
+    "Part wild pie", \
+    "Peaceful handegg", \
+    "Pete's candlestick", \
+    "Phoenix crossbow", \
+    "Plain satchel", \
+    "Plant pot pack", \
+    "Platinum token", \
+    "Potion", \
+    "Raw beef", \
+    "Raw chicken", \
+    "Raw swamp paste", \
+    "Red flowers", \
+    "Red satchel", \
+    "Rock", \
+    "Rock", \
+    "Rotten food", \
+    "Rotten tomato", \
+    "Ruined chompy", \
+    "Ruined herb tea", \
+    "Rune fire arrow", \
+    "Rune satchel", \
+    "Sack pack", \
+    "Sample bottle", \
+    "Shayzien supply crate", \
+    "Slice of cake", \
+    "Smashed glass", \
+    "Smelly sock", \
+    "Spare controls", \
+    "Spider on shaft", \
+    "Spooky egg", \
+    "Steel fire arrow", \
+    "Strawberries(1)", \
+    "Strawberries(2)", \
+    "Strawberries(3)", \
+    "Strawberries(4)", \
+    "Strip of cloth", \
+    "Sulphur", \
+    "Tankard", \
+    "Tea leaves", \
+    "Tile", \
+    "Tomatoes(1)", \
+    "Tomatoes(2)", \
+    "Tomatoes(3)", \
+    "Tomatoes(4)", \
+    "Toolkit", \
+    "Tzhaar air rune pack", \
+    "Tzhaar earth rune pack", \
+    "Tzhaar fire rune pack", \
+    "Tzhaar water rune pack", \
+    "Ugthanki kebab", \
+    "Uncooked pizza", \
+    "Unfinished broad bolt pack", \
+    "Washing bowl", \
+    "Water rune pack", \
+    "Water-filled vial pack", \
+    "Weapon store key", \
+]
+

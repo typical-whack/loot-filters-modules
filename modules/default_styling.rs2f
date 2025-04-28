@@ -1,0 +1,114 @@
+/*@ define:module:default_styling
+---
+name: Default Styling
+subtitle: The first layer of styling items
+description: |
+  This contains the default styles and options to configure style programmatically.
+  
+  These styles can be overridden or added to by modules below.
+*/
+
+/*@ define:input:default_styling
+type: style
+label: Default Style
+group: Default Style
+exampleItem: Santa hat
+exampleItemId: 1050
+*/
+#define VAR_GLOBAL_CUSTOMSTYLE \
+  icon = CurrentItem();\
+  showDespawn = true;
+
+apply (true) {
+    VAR_GLOBAL_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
+type: style
+label: "Default Stackable/Noted Style"
+group: "Default Stackable/Noted Style"
+exampleItem: Magic shortbow (u)
+exampleItemId: 73
+*/
+#define VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE
+
+apply (stackable:true || noted:true) {
+    VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
+type: style
+label: Default Untradeable Style
+group: Default Untradeable Style
+exampleItem: Long bone
+exampleItemId: 10976
+*/
+#define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE
+
+apply (tradeable:false) {
+    VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
+type: boolean
+label: Show Value for Tradeable Items
+*/
+#define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VAR_GLOBAL_SHOW_TRADEABLE_VALUE) {
+    showValue = true;
+}
+
+/*@ define:input:default_styling
+type: boolean
+label: Show Value for Untradeable Items
+*/
+#define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
+
+apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
+    showValue = true;
+}
+
+/*@ define:input:default_styling
+type: number
+label: Hide despawn timer for items below this value
+group: Value-Based Style Settings
+*/
+#define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE) {
+    showDespawn = false;
+}
+
+/*@ define:input:default_styling
+type: number
+label: Hide prices for items below this value
+group: Value-Based Style Settings
+*/
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE) {
+    showValue = false;
+}
+
+/*@ define:input:default_styling
+type: number
+label: Hide icons for items below this value
+group: Value-Based Style Settings
+*/
+#define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
+
+apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_ICON_MINIMUM_VALUE) {
+    // this is a hack to turn off the icon
+    icon = Sprite(9000000, 0);
+}
+
+/*@ define:input:default_styling
+type: stringlist
+label: Items to show icons for (if not showing for all items)
+*/
+#define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
+
+apply (name:VAR_GLOBAL_SHOW_ICONS_ITEMLIST) {
+    icon = CurrentItem();
+}

@@ -1,0 +1,37 @@
+/*@ define:module:sorting
+---
+name: Sorting
+subtitle: Picking up the good stuff first
+description: |
+  This allows you to order the pickup menu in a few different ways.
+
+  NOTE: This requires that "Price Sort" in the "Custom Menu Swaps" plugin under "Ground Item Sort" to be DISABLED.
+*/
+
+/*@ define:input:sorting
+type: boolean
+label: Sort by value
+group: Menu Sorting
+*/
+#define VAR_SORTING_MENU_SORT_BY_VALUE true
+
+/*@ define:input:sorting
+type: boolean
+label: Stackable/noted first
+group: Menu Sorting
+*/
+#define VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
+
+/*@ define:input:sorting
+type: boolean
+label: Untradeables first
+group: Menu Sorting
+*/
+#define VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST false
+
+/*@ define:input:sorting
+type: stringlist
+label: Items to always show first
+group: Menu Sorting
+*/
+#define VAR_MENU_SORT_ITEMS_FIRST []
