@@ -31,7 +31,6 @@ apply (name:VAR_GLOBAL_SHOW) {
 /*@ define:input:global_defaults
 type: style
 label: Global default style
-group: Style Settings
 exampleItem: Santa hat
 exampleItemId: 1050
 */
@@ -46,7 +45,6 @@ apply (true) {
 /*@ define:input:global_defaults
 type: boolean
 label: Show Value for Tradeable Items
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
 
@@ -57,7 +55,6 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VA
 /*@ define:input:global_defaults
 type: boolean
 label: Show Value for Untradeable Items
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
@@ -68,7 +65,7 @@ apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
 /*@ define:input:global_defaults
 type: number
 label: Hide despawn timer for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
 
@@ -79,7 +76,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:global_defaults
 type: number
 label: Hide prices for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
 
@@ -90,7 +87,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:global_defaults
 type: number
 label: Hide icons for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
@@ -102,7 +99,6 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:global_defaults
 type: stringlist
 label: Items to show icons for (if not showing for all items)
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
 
