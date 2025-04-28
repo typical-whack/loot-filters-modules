@@ -8,34 +8,12 @@ description: |
 */
 
 /*@ define:input:ownership_filtering
-type: boolean
-label: Hide world spawn items
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
-/*@ define:input:ownership_filtering
 type: stringlist
-label: Item exceptions to hidden world spawns
+label: Item exceptions to ownership filtering
+group: Ownership Filtering Exceptions
 */
-#define VAR_OWNERSHIP_FILTERING_SPAWN_EXCEPTIONS [ \
+#define VAR_OWNERSHIP_FILTERING_EXCEPTIONS [ \
     "Water container", \
-]
-
-apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_SPAWN_EXCEPTIONS) {
-    hidden = true;
-}
-
-/*@ define:input:ownership_filtering
-type: boolean
-label: Hide items owned by other players
-*/
-#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
-
-/*@ define:input:ownership_filtering
-type: stringlist
-label: Item exceptions to hidden other players items
-*/
-#define VAR_OWNERSHIP_FILTERING_OTHER_PLAYERS_EXCEPTIONS [ \
     "Dawnbringer", \
     "Elder*", \
     "Twisted*", \
@@ -54,6 +32,22 @@ label: Item exceptions to hidden other players items
     "Mallignum root plank", \
 ]
 
-apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_OTHER_PLAYERS_EXCEPTIONS) {
+/*@ define:input:ownership_filtering
+type: boolean
+label: Hide world spawn items
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
+    hidden = true;
+}
+
+/*@ define:input:ownership_filtering
+type: boolean
+label: Hide items owned by other players
+*/
+#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
+
+rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
 }
