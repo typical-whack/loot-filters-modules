@@ -14291,513 +14291,261 @@ apply (name:VAR_GLOBAL_SHOW) {
 
 /* --- sorting menu by value --- */
 
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=0 && value:<10) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=0 && value:<10) {
     menuSort = 0;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=10 && value:<20) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=10 && value:<20) {
     menuSort = 1;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=20 && value:<30) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=20 && value:<30) {
     menuSort = 2;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=30 && value:<40) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=30 && value:<40) {
     menuSort = 3;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=40 && value:<50) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=40 && value:<50) {
     menuSort = 4;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=50 && value:<60) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=50 && value:<60) {
     menuSort = 5;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=60 && value:<70) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=60 && value:<70) {
     menuSort = 6;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=70 && value:<80) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=70 && value:<80) {
     menuSort = 7;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=80 && value:<90) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=80 && value:<90) {
     menuSort = 8;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=90 && value:<100) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=90 && value:<100) {
     menuSort = 9;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=100 && value:<200) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=100 && value:<200) {
     menuSort = 10;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=200 && value:<300) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=200 && value:<300) {
     menuSort = 11;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=300 && value:<400) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=300 && value:<400) {
     menuSort = 12;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=400 && value:<500) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=400 && value:<500) {
     menuSort = 13;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=500 && value:<600) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=500 && value:<600) {
     menuSort = 14;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=600 && value:<700) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=600 && value:<700) {
     menuSort = 15;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=700 && value:<800) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=700 && value:<800) {
     menuSort = 16;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=800 && value:<900) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=800 && value:<900) {
     menuSort = 17;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=900 && value:<1000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=900 && value:<1000) {
     menuSort = 18;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1000 && value:<2000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1000 && value:<2000) {
     menuSort = 19;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=2000 && value:<3000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=2000 && value:<3000) {
     menuSort = 20;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=3000 && value:<4000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=3000 && value:<4000) {
     menuSort = 21;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=4000 && value:<5000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=4000 && value:<5000) {
     menuSort = 22;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=5000 && value:<6000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=5000 && value:<6000) {
     menuSort = 23;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=6000 && value:<7000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=6000 && value:<7000) {
     menuSort = 24;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=7000 && value:<8000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=7000 && value:<8000) {
     menuSort = 25;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=8000 && value:<9000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=8000 && value:<9000) {
     menuSort = 26;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=9000 && value:<10000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=9000 && value:<10000) {
     menuSort = 27;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=10000 && value:<20000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=10000 && value:<20000) {
     menuSort = 28;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=20000 && value:<30000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=20000 && value:<30000) {
     menuSort = 29;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=30000 && value:<40000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=30000 && value:<40000) {
     menuSort = 30;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=40000 && value:<50000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=40000 && value:<50000) {
     menuSort = 31;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=50000 && value:<60000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=50000 && value:<60000) {
     menuSort = 32;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=60000 && value:<70000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=60000 && value:<70000) {
     menuSort = 33;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=70000 && value:<80000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=70000 && value:<80000) {
     menuSort = 34;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=80000 && value:<90000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=80000 && value:<90000) {
     menuSort = 35;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=90000 && value:<100000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=90000 && value:<100000) {
     menuSort = 36;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=100000 && value:<200000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=100000 && value:<200000) {
     menuSort = 37;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=200000 && value:<300000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=200000 && value:<300000) {
     menuSort = 38;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=300000 && value:<400000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=300000 && value:<400000) {
     menuSort = 39;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=400000 && value:<500000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=400000 && value:<500000) {
     menuSort = 40;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=500000 && value:<600000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=500000 && value:<600000) {
     menuSort = 41;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=600000 && value:<700000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=600000 && value:<700000) {
     menuSort = 42;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=700000 && value:<800000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=700000 && value:<800000) {
     menuSort = 43;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=800000 && value:<900000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=800000 && value:<900000) {
     menuSort = 44;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=900000 && value:<1000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=900000 && value:<1000000) {
     menuSort = 45;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1000000 && value:<2000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1000000 && value:<2000000) {
     menuSort = 46;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=2000000 && value:<3000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=2000000 && value:<3000000) {
     menuSort = 47;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=3000000 && value:<4000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=3000000 && value:<4000000) {
     menuSort = 48;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=4000000 && value:<5000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=4000000 && value:<5000000) {
     menuSort = 49;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=5000000 && value:<6000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=5000000 && value:<6000000) {
     menuSort = 50;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=6000000 && value:<7000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=6000000 && value:<7000000) {
     menuSort = 51;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=7000000 && value:<8000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=7000000 && value:<8000000) {
     menuSort = 52;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=8000000 && value:<9000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=8000000 && value:<9000000) {
     menuSort = 53;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=9000000 && value:<10000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=9000000 && value:<10000000) {
     menuSort = 54;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=10000000 && value:<20000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=10000000 && value:<20000000) {
     menuSort = 55;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=20000000 && value:<30000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=20000000 && value:<30000000) {
     menuSort = 56;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=30000000 && value:<40000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=30000000 && value:<40000000) {
     menuSort = 57;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=40000000 && value:<50000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=40000000 && value:<50000000) {
     menuSort = 58;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=50000000 && value:<60000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=50000000 && value:<60000000) {
     menuSort = 59;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=60000000 && value:<70000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=60000000 && value:<70000000) {
     menuSort = 60;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=70000000 && value:<80000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=70000000 && value:<80000000) {
     menuSort = 61;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=80000000 && value:<90000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=80000000 && value:<90000000) {
     menuSort = 62;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=90000000 && value:<100000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=90000000 && value:<100000000) {
     menuSort = 63;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=100000000 && value:<200000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=100000000 && value:<200000000) {
     menuSort = 64;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=200000000 && value:<300000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=200000000 && value:<300000000) {
     menuSort = 65;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=300000000 && value:<400000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=300000000 && value:<400000000) {
     menuSort = 66;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=400000000 && value:<500000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=400000000 && value:<500000000) {
     menuSort = 67;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=500000000 && value:<600000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=500000000 && value:<600000000) {
     menuSort = 68;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=600000000 && value:<700000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=600000000 && value:<700000000) {
     menuSort = 69;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=700000000 && value:<800000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=700000000 && value:<800000000) {
     menuSort = 70;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=800000000 && value:<900000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=800000000 && value:<900000000) {
     menuSort = 71;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=900000000 && value:<1000000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=900000000 && value:<1000000000) {
     menuSort = 72;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1000000000 && value:<1100000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1000000000 && value:<1100000000) {
     menuSort = 73;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1100000000 && value:<1200000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1100000000 && value:<1200000000) {
     menuSort = 74;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1200000000 && value:<1300000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1200000000 && value:<1300000000) {
     menuSort = 75;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1300000000 && value:<1400000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1300000000 && value:<1400000000) {
     menuSort = 76;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1400000000 && value:<1500000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1400000000 && value:<1500000000) {
     menuSort = 77;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1500000000 && value:<1600000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1500000000 && value:<1600000000) {
     menuSort = 78;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1600000000 && value:<1700000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1600000000 && value:<1700000000) {
     menuSort = 79;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1700000000 && value:<1800000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1700000000 && value:<1800000000) {
     menuSort = 80;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1800000000 && value:<1900000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1800000000 && value:<1900000000) {
     menuSort = 81;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=1900000000 && value:<2000000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=1900000000 && value:<2000000000) {
     menuSort = 82;
 }
-apply (VAR_SORTING_MENU_SORT_BY_VALUE && !VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && value:>=2000000000) {
+apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=2000000000) {
     menuSort = 83;
 }
 
 /* --- sorting menu by value with stackables first --- */
 
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=0 && value:<10) {
-    menuSort = 0;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=10 && value:<20) {
-    menuSort = 1;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=20 && value:<30) {
-    menuSort = 2;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=30 && value:<40) {
-    menuSort = 3;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=40 && value:<50) {
-    menuSort = 4;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=50 && value:<60) {
-    menuSort = 5;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=60 && value:<70) {
-    menuSort = 6;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=70 && value:<80) {
-    menuSort = 7;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=80 && value:<90) {
-    menuSort = 8;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=90 && value:<100) {
-    menuSort = 9;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=100 && value:<200) {
-    menuSort = 10;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=200 && value:<300) {
-    menuSort = 11;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=300 && value:<400) {
-    menuSort = 12;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=400 && value:<500) {
-    menuSort = 13;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=500 && value:<600) {
-    menuSort = 14;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=600 && value:<700) {
-    menuSort = 15;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=700 && value:<800) {
-    menuSort = 16;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=800 && value:<900) {
-    menuSort = 17;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=900 && value:<1000) {
-    menuSort = 18;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1000 && value:<2000) {
-    menuSort = 19;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=2000 && value:<3000) {
-    menuSort = 20;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=3000 && value:<4000) {
-    menuSort = 21;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=4000 && value:<5000) {
-    menuSort = 22;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=5000 && value:<6000) {
-    menuSort = 23;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=6000 && value:<7000) {
-    menuSort = 24;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=7000 && value:<8000) {
-    menuSort = 25;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=8000 && value:<9000) {
-    menuSort = 26;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=9000 && value:<10000) {
-    menuSort = 27;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=10000 && value:<20000) {
-    menuSort = 28;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=20000 && value:<30000) {
-    menuSort = 29;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=30000 && value:<40000) {
-    menuSort = 30;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=40000 && value:<50000) {
-    menuSort = 31;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=50000 && value:<60000) {
-    menuSort = 32;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=60000 && value:<70000) {
-    menuSort = 33;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=70000 && value:<80000) {
-    menuSort = 34;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=80000 && value:<90000) {
-    menuSort = 35;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=90000 && value:<100000) {
-    menuSort = 36;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=100000 && value:<200000) {
-    menuSort = 37;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=200000 && value:<300000) {
-    menuSort = 38;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=300000 && value:<400000) {
-    menuSort = 39;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=400000 && value:<500000) {
-    menuSort = 40;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=500000 && value:<600000) {
-    menuSort = 41;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=600000 && value:<700000) {
-    menuSort = 42;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=700000 && value:<800000) {
-    menuSort = 43;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=800000 && value:<900000) {
-    menuSort = 44;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=900000 && value:<1000000) {
-    menuSort = 45;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1000000 && value:<2000000) {
-    menuSort = 46;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=2000000 && value:<3000000) {
-    menuSort = 47;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=3000000 && value:<4000000) {
-    menuSort = 48;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=4000000 && value:<5000000) {
-    menuSort = 49;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=5000000 && value:<6000000) {
-    menuSort = 50;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=6000000 && value:<7000000) {
-    menuSort = 51;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=7000000 && value:<8000000) {
-    menuSort = 52;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=8000000 && value:<9000000) {
-    menuSort = 53;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=9000000 && value:<10000000) {
-    menuSort = 54;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=10000000 && value:<20000000) {
-    menuSort = 55;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=20000000 && value:<30000000) {
-    menuSort = 56;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=30000000 && value:<40000000) {
-    menuSort = 57;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=40000000 && value:<50000000) {
-    menuSort = 58;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=50000000 && value:<60000000) {
-    menuSort = 59;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=60000000 && value:<70000000) {
-    menuSort = 60;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=70000000 && value:<80000000) {
-    menuSort = 61;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=80000000 && value:<90000000) {
-    menuSort = 62;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=90000000 && value:<100000000) {
-    menuSort = 63;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=100000000 && value:<200000000) {
-    menuSort = 64;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=200000000 && value:<300000000) {
-    menuSort = 65;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=300000000 && value:<400000000) {
-    menuSort = 66;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=400000000 && value:<500000000) {
-    menuSort = 67;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=500000000 && value:<600000000) {
-    menuSort = 68;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=600000000 && value:<700000000) {
-    menuSort = 69;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=700000000 && value:<800000000) {
-    menuSort = 70;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=800000000 && value:<900000000) {
-    menuSort = 71;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=900000000 && value:<1000000000) {
-    menuSort = 72;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1000000000 && value:<1100000000) {
-    menuSort = 73;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1100000000 && value:<1200000000) {
-    menuSort = 74;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1200000000 && value:<1300000000) {
-    menuSort = 75;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1300000000 && value:<1400000000) {
-    menuSort = 76;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1400000000 && value:<1500000000) {
-    menuSort = 77;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1500000000 && value:<1600000000) {
-    menuSort = 78;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1600000000 && value:<1700000000) {
-    menuSort = 79;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1700000000 && value:<1800000000) {
-    menuSort = 80;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1800000000 && value:<1900000000) {
-    menuSort = 81;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=1900000000 && value:<2000000000) {
-    menuSort = 82;
-}
-apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && !(stackable:true || noted:true) && value:>=2000000000) {
-    menuSort = 83;
-}
 apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || noted:true) && value:>=0 && value:<10) {
     menuSort = 84;
 }
