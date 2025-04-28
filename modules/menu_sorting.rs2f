@@ -1,7 +1,7 @@
 /*@ define:module:menu_sorting
 ---
-name: Menu Sorting
-subtitle: I want it that way
+name: Sorting
+subtitle: Hmm. Difficult. Very difficult.
 description: |
   This allows you to sort the menu by item value.
 
@@ -11,17 +11,20 @@ description: |
 /*@ define:input:menu_sorting
 type: boolean
 label: Sort menu by item value
+group: Menu Sorting
 */
 #define VAR_MENU_SORT_BY_VALUE true
 
 /*@ define:input:menu_sorting
 type: boolean
 label: Sort menu by item value, but with stackable/noted items first
+group: Menu Sorting
 */
 #define VAR_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
 
 /*@ define:input:menu_sorting
 type: stringlist
 label: Items to always show first
+group: Menu Sorting
 */
 #define VAR_MENU_SORT_ITEMS_FIRST []
