@@ -16,6 +16,6 @@ label: Sort menu by item value
 
 /*@ define:input:menu_sorting
 type: boolean
-label: Sort menu by item value, but with stackables first
+label: Sort menu by item value, but with stackable/noted items first
 */
 #define VAR_GLOBAL_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
