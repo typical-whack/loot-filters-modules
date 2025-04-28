@@ -3,40 +3,17 @@ hidden: true
 name: header
 */
 meta { name = "Joe's filter"; }
-/*@ define:module:global_styling
+/*@ define:module:default_styling
 ---
-name: Global Styling
+name: Default Styling
 subtitle: The first layer of styling items
 description: |
-  This contains a base style and options to configure style programmatically. This style can be overridden or added to by modules below.
+  This contains the default style and options to configure style programmatically. This style can be overridden or added to by modules below.
 */
 
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to hide
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE []
-
-apply (name:VAR_GLOBAL_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: stringlist
-label: Items to show
-group: Item Filters
-*/
-#define VAR_GLOBAL_SHOW []
-
-apply (name:VAR_GLOBAL_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: style
-label: Global default style
-group: Style Settings
+label: Default Style
 exampleItem: Santa hat
 exampleItemId: 1050
 */
@@ -48,10 +25,9 @@ apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Tradeable Items
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_TRADEABLE_VALUE true
 
@@ -59,10 +35,9 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VA
     showValue = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Untradeable Items
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE false
 
@@ -70,10 +45,10 @@ apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
     showValue = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide despawn timer for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
 
@@ -81,10 +56,10 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     showDespawn = false;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide prices for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
 
@@ -92,10 +67,10 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     showValue = false;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide icons for items below this value
-group: Style Settings
+group: Value-Based Style Settings
 */
 #define VAR_GLOBAL_ICON_MINIMUM_VALUE 0
 
@@ -104,10 +79,9 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     icon = Sprite(9000000, 0);
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: stringlist
 label: Items to show icons for (if not showing for all items)
-group: Style Settings
 */
 #define VAR_GLOBAL_SHOW_ICONS_ITEMLIST []
 
@@ -141,6 +115,33 @@ type: stringlist
 label: Items to always show first
 */
 #define VAR_MENU_SORT_ITEMS_FIRST []
+/*@ define:module:filtering
+---
+name: Filtering
+subtitle: Showing / Hiding Specific Items
+description: |
+  Show or hide specific items.
+*/
+
+/*@ define:input:filtering
+type: stringlist
+label: Items to hide
+*/
+#define VAR_GLOBAL_HIDE []
+
+apply (name:VAR_GLOBAL_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: stringlist
+label: Items to show
+*/
+#define VAR_GLOBAL_SHOW []
+
+apply (name:VAR_GLOBAL_SHOW) {
+    hidden = false;
+}
 /*@ define:module:value_filtering
 ---
 name: Value Filtering
@@ -153,7 +154,6 @@ description: |
 /*@ define:input:value_filtering
 type: number
 label: Hide items below this value
-group: Item Filters
 */
 #define VAR_GLOBAL_MINIMUM_VALUE 0
 
@@ -164,7 +164,6 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:value_filtering
 type: number
 label: Hide stackable items below this value
-group: Item Filters
 */
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
 
@@ -175,7 +174,6 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (s
 /*@ define:input:value_filtering
 type: number
 label: Hide non-stackable items below this value
-group: Item Filters
 */
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
@@ -194,7 +192,6 @@ description: |
 /*@ define:input:ownership_filtering
 type: boolean
 label: Hide world spawn items
-group: Item Filters
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
@@ -205,7 +202,6 @@ apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
 /*@ define:input:ownership_filtering
 type: boolean
 label: Hide items owned by other players
-group: Item Filters
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
