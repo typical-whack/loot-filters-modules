@@ -36,6 +36,19 @@ apply (tradeable:false) {
 }
 
 /*@ define:input:default_styling
+type: style
+label: "Default Stackable/Noted Style"
+group: "Default Stackable/Noted Style"
+exampleItem: Magic shortbow (u)
+exampleItemId: 73
+*/
+#define VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE
+
+apply (stackable:true || noted:true) {
+    VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Tradeable Items
 */
