@@ -9,6 +9,7 @@ description: |
 /*@ define:input:default_styling
 type: style
 label: Default Style
+group: Default Style
 exampleItem: Santa hat
 exampleItemId: 1050
 */
