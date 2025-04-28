@@ -23,15 +23,15 @@ group: Menu Sorting
 #define VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
 
 /*@ define:input:sorting
-type: stringlist
-label: Items to always show first
-group: Menu Sorting
-*/
-#define VAR_MENU_SORT_ITEMS_FIRST []
-
-/*@ define:input:sorting
 type: boolean
 label: Show untradeable items first
 group: Menu Sorting
 */
 #define VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST false
+
+/*@ define:input:sorting
+type: stringlist
+label: Items to always show first
+group: Menu Sorting
+*/
+#define VAR_MENU_SORT_ITEMS_FIRST []
