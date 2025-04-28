@@ -1,0 +1,213 @@
+/*@ define:module:constants
+hidden: true
+name: Constants
+*/
+
+#define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
+    "1/2 anchovy pizza", \
+    "1/2 meat pizza", \
+    "1/2 pineapple pizza", \
+    "1/2 plain pizza", \
+    "2/3 cake", \
+    "2/3 chocolate cake", \
+    "Adamant fire arrow", \
+    "Air rune pack", \
+    "Amethyst fire arrow", \
+    "An empty box", \
+    "Anchovy paste", \
+    "Apples(1)", \
+    "Apples(2)", \
+    "Apples(3)", \
+    "Apples(4)", \
+    "Astronomy book", \
+    "Bailing bucket", \
+    "Bananas(1)", \
+    "Bananas(2)", \
+    "Bananas(3)", \
+    "Bananas(4)", \
+    "Bandages", \
+    "Barricade", \
+    "Basket pack", \
+    "Black mask (1)", \
+    "Black mask (10)", \
+    "Black mask (2)", \
+    "Black mask (3)", \
+    "Black mask (4)", \
+    "Black mask (5)", \
+    "Black mask (6)", \
+    "Black mask (7)", \
+    "Black mask (8)", \
+    "Black mask (9)", \
+    "Black satchel", \
+    "Blue flowers", \
+    "Broken pole", \
+    "Bronze fire arrow", \
+    "Bruised banana", \
+    "Bucket of rubble", \
+    "Burnt anglerfish", \
+    "Burnt bat", \
+    "Burnt batta", \
+    "Burnt beast meat", \
+    "Burnt bird meat", \
+    "Burnt bread", \
+    "Burnt cake", \
+    "Burnt cave eel", \
+    "Burnt chicken", \
+    "Burnt crunchies", \
+    "Burnt curry", \
+    "Burnt dark crab", \
+    "Burnt eel", \
+    "Burnt egg", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt fish", \
+    "Burnt gnomebowl", \
+    "Burnt jubbly", \
+    "Burnt karambwan", \
+    "Burnt lobster", \
+    "Burnt manta ray", \
+    "Burnt meat", \
+    "Burnt monkfish", \
+    "Burnt mushroom", \
+    "Burnt onion", \
+    "Burnt oomlie", \
+    "Burnt oomlie wrap", \
+    "Burnt pie", \
+    "Burnt pizza", \
+    "Burnt potato", \
+    "Burnt rabbit", \
+    "Burnt rainbow fish", \
+    "Burnt sea turtle", \
+    "Burnt shark", \
+    "Burnt shrimp", \
+    "Burnt snail", \
+    "Burnt spider (stick)", \
+    "Burnt stew", \
+    "Burnt sweetcorn", \
+    "Burnt swordfish", \
+    "Cadarn lineage", \
+    "Cat training medal", \
+    "Chaos rune pack", \
+    "Chaotic handegg", \
+    "Chocolate slice", \
+    "Climbing rope", \
+    "Coconut shell", \
+    "Coins", \
+    "Cooked chicken", \
+    "Cooked meat", \
+    "Crate", \
+    "Crushed gem", \
+    "Crystal singing for beginners", \
+    "Damp egg", \
+    "Damp tinderbox", \
+    "Dragon fire arrow", \
+    "Earth rune pack", \
+    "Empty oyster", \
+    "Explosive potion", \
+    "Feather pack", \
+    "Field ration", \
+    "Fire rune pack", \
+    "Flyer", \
+    "Fossilised Dung", \
+    "Glassblowing book", \
+    "Gold satchel", \
+    "Green satchel", \
+    "Ground bat bones", \
+    "Guthix balance (unf)", \
+    "Half a admiral pie", \
+    "Half a apple pie", \
+    "Half a botanical pie", \
+    "Half a dragonfruit pie", \
+    "Half a fish pie", \
+    "Half a garden pie", \
+    "Half a meat pie", \
+    "Half a mud pie", \
+    "Half a mushroom pie", \
+    "Half a redberry pie", \
+    "Half a summer pie", \
+    "Half a wild pie", \
+    "Half certificate (left)", \
+    "Half certificate (right)", \
+    "Half coconut", \
+    "Holy handegg", \
+    "Incomplete pizza", \
+    "Iron fire arrow", \
+    "Iron sickle", \
+    "Mind rune pack", \
+    "Miscellaneous key", \
+    "Mithril fire arrow", \
+    "Mud", \
+    "Muddy rock", \
+    "Newcomer map", \
+    "Newspaper", \
+    "Old wool", \
+    "Oranges(1)", \
+    "Oranges(2)", \
+    "Oranges(3)", \
+    "Oranges(4)", \
+    "Part admiral pie", \
+    "Part fish pie", \
+    "Part garden pie", \
+    "Part mud pie", \
+    "Part summer pie", \
+    "Part wild pie", \
+    "Peaceful handegg", \
+    "Pete's candlestick", \
+    "Phoenix crossbow", \
+    "Plain satchel", \
+    "Plant pot pack", \
+    "Platinum token", \
+    "Potion", \
+    "Raw beef", \
+    "Raw chicken", \
+    "Raw swamp paste", \
+    "Red flowers", \
+    "Red satchel", \
+    "Rock", \
+    "Rock", \
+    "Rotten food", \
+    "Rotten tomato", \
+    "Ruined chompy", \
+    "Ruined herb tea", \
+    "Rune fire arrow", \
+    "Rune satchel", \
+    "Sack pack", \
+    "Sample bottle", \
+    "Shayzien supply crate", \
+    "Slice of cake", \
+    "Smashed glass", \
+    "Smelly sock", \
+    "Spare controls", \
+    "Spider on shaft", \
+    "Spooky egg", \
+    "Steel fire arrow", \
+    "Strawberries(1)", \
+    "Strawberries(2)", \
+    "Strawberries(3)", \
+    "Strawberries(4)", \
+    "Strip of cloth", \
+    "Sulphur", \
+    "Tankard", \
+    "Tea leaves", \
+    "Tile", \
+    "Tomatoes(1)", \
+    "Tomatoes(2)", \
+    "Tomatoes(3)", \
+    "Tomatoes(4)", \
+    "Toolkit", \
+    "Tzhaar air rune pack", \
+    "Tzhaar earth rune pack", \
+    "Tzhaar fire rune pack", \
+    "Tzhaar water rune pack", \
+    "Ugthanki kebab", \
+    "Uncooked pizza", \
+    "Unfinished broad bolt pack", \
+    "Washing bowl", \
+    "Water rune pack", \
+    "Water-filled vial pack", \
+    "Weapon store key", \
+]
+
