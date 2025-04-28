@@ -1,4 +1,4 @@
-/*@ define:module:value_filtering
+/*@ define:module:filtering
 ---
 name: Filtering
 subtitle: Showing / Hiding Specific Items
@@ -6,7 +6,7 @@ description: |
   Show or hide specific items.
 */
 
-/*@ define:input:global_defaults
+/*@ define:input:filtering
 type: stringlist
 label: Items to hide
 */
@@ -16,7 +16,7 @@ apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:filtering
 type: stringlist
 label: Items to show
 */
