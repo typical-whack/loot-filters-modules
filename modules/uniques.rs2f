@@ -15,8 +15,7 @@ exampleItemId: 12922
 */
 #define VAR_UNIQUES_CUSTOMSTYLE \
   fontType = 3;\
-  showLootbeam = true;\
-  icon = CurrentItem();
+  showLootbeam = true;
 
 /*@ define:input:uniques
 type: stringlist
