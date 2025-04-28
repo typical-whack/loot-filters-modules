@@ -1,5 +1,6 @@
 global_styling
 menu_sorting
+filtering
 value_filtering
 ownership_filtering
 item_values
