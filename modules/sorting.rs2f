@@ -1,9 +1,9 @@
 /*@ define:module:sorting
 ---
 name: Sorting
-subtitle: Hmm. Difficult. Very difficult.
+subtitle: Picking up the good stuff first
 description: |
-  This allows you to sort the menu by item value.
+  This allows you to order the pickup menu in a few different ways.
 
   NOTE: This requires that "Price Sort" in the "Custom Menu Swaps" plugin under "Ground Item Sort" to be DISABLED.
 */
