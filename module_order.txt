@@ -1,5 +1,5 @@
 default_styling
-menu_sorting
+sorting
 filtering
 value_filtering
 ownership_filtering
