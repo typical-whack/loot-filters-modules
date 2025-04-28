@@ -14,3 +14,8 @@ label: Sort menu by item value
 */
 #define VAR_GLOBAL_MENU_SORT_BY_VALUE true
 
+/*@ define:input:menu_sorting
+type: boolean
+label: Sort menu by item value, but with stackables first
+*/
+#define VAR_GLOBAL_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
