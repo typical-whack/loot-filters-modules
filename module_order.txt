@@ -1,4 +1,4 @@
-global
+global_styling
 item_values
 uniques
 currency
