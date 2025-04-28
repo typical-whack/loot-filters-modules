@@ -1,4 +1,4 @@
-/*@ define:module:global_styling
+/*@ define:module:default_styling
 ---
 name: Global Styling
 subtitle: The first layer of styling items
@@ -6,7 +6,7 @@ description: |
   This contains a base style and options to configure style programmatically. This style can be overridden or added to by modules below.
 */
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: style
 label: Global default style
 exampleItem: Santa hat
@@ -20,7 +20,7 @@ apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Tradeable Items
 */
@@ -30,7 +30,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && VA
     showValue = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: boolean
 label: Show Value for Untradeable Items
 */
@@ -40,7 +40,7 @@ apply (tradeable:false && VAR_GLOBAL_SHOW_UNTRADEABLE_VALUE) {
     showValue = true;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide despawn timer for items below this value
 group: Value-Based Style Settings
@@ -51,7 +51,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     showDespawn = false;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide prices for items below this value
 group: Value-Based Style Settings
@@ -62,7 +62,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     showValue = false;
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: number
 label: Hide icons for items below this value
 group: Value-Based Style Settings
@@ -74,7 +74,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     icon = Sprite(9000000, 0);
 }
 
-/*@ define:input:global_defaults
+/*@ define:input:default_styling
 type: stringlist
 label: Items to show icons for (if not showing for all items)
 */
