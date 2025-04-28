@@ -205,3 +205,30 @@ apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>90000000) {
 apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>100000000) {
     menuSort = 100000000;
 }
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>200000000) {
+    menuSort = 200000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>300000000) {
+    menuSort = 300000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>400000000) {
+    menuSort = 400000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>500000000) {
+    menuSort = 500000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>600000000) {
+    menuSort = 600000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>700000000) {
+    menuSort = 700000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>800000000) {
+    menuSort = 800000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>900000000) {
+    menuSort = 900000000;
+}
+apply (VAR_GLOBAL_MENU_SORT_BY_VALUE && value:>1000000000) {
+    menuSort = 1000000000;
+}
