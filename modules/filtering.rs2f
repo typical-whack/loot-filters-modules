@@ -3,16 +3,21 @@
 name: Filtering
 subtitle: Sifting through the junk
 description: |
-  ## Individual Item Filtering
+  Individual Item Filtering
+  ---
   Showing and hiding individual items.
 
-  ## Value-Based Filtering
+  Value-Based Filtering
+  ---
   Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
+  
   *Exceptions can be made to this in following modules.*
 
-  ## Ownership Filtering
+  Ownership Filtering
+  ---
   This has options to hide items based on their ownership.
-  **These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.**
+
+  *These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
 */
 
 /* --- Individual Item Filtering --- */
