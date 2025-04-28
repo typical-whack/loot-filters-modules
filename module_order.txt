@@ -3,7 +3,7 @@ sorting
 filtering
 value_filtering
 ownership_filtering
-item_values
+item_tiers
 uniques
 currency
 clues
