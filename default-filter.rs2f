@@ -415,8 +415,7 @@ exampleItemId: 10828
 #define VAR_VALUES_TIER_1_CUSTOMSTYLE \
   textColor = "#FF66B2FF";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";\
-  icon = CurrentItem();
+  menuTextColor = "#FFFF9600";
 
 apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
@@ -446,8 +445,7 @@ exampleItemId: 6920
 #define VAR_VALUES_TIER_2_CUSTOMSTYLE \
   textColor = "#FF99FF99";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";\
-  icon = CurrentItem();
+  menuTextColor = "#FFFF9600";
 
 apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
@@ -481,8 +479,7 @@ exampleItemId: 4151
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF9600";\
   showLootbeam = true; \
-  lootbeamColor = "#FFFF9600";\
-  icon = CurrentItem();
+  lootbeamColor = "#FFFF9600";
 
 apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
@@ -516,8 +513,7 @@ exampleItemId: 20997
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF66B2";\
   showLootbeam = true; \
-  lootbeamColor = "#FFFF66B2";\
-  icon = CurrentItem();
+  lootbeamColor = "#FFFF66B2";
 
 apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
@@ -572,8 +568,7 @@ exampleItemId: 12922
 */
 #define VAR_UNIQUES_CUSTOMSTYLE \
   fontType = 3;\
-  showLootbeam = true;\
-  icon = CurrentItem();
+  showLootbeam = true;
 
 /*@ define:input:uniques
 type: stringlist
