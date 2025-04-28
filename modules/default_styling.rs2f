@@ -1,14 +1,14 @@
 /*@ define:module:default_styling
 ---
-name: Global Styling
+name: Default Styling
 subtitle: The first layer of styling items
 description: |
-  This contains a base style and options to configure style programmatically. This style can be overridden or added to by modules below.
+  This contains the default style and options to configure style programmatically. This style can be overridden or added to by modules below.
 */
 
 /*@ define:input:default_styling
 type: style
-label: Global default style
+label: Default Style
 exampleItem: Santa hat
 exampleItemId: 1050
 */
