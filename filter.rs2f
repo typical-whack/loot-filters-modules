@@ -8,7 +8,9 @@ meta { name = "Joe's filter"; }
 name: Default Styling
 subtitle: The first layer of styling items
 description: |
-  This contains the default style and options to configure style programmatically. This style can be overridden or added to by modules below.
+  This contains the default styles and options to configure style programmatically.
+  
+  These styles can be overridden or added to by modules below.
 */
 
 /*@ define:input:default_styling
