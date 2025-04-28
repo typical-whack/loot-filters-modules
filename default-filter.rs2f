@@ -157,14 +157,26 @@ group: Menu Sorting
 /*@ define:module:filtering
 ---
 name: Filtering
-subtitle: Showing / Hiding Specific Items
+subtitle: Sifting through the junk
 description: |
-  Show or hide specific items.
+  ## Individual Item Filtering
+  Showing and hiding individual items.
+
+  ## Value-Based Filtering
+  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
+  *Exceptions can be made to this in following modules.*
+
+  ## Ownership Filtering
+  This has options to hide items based on their ownership.
+  **These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.**
 */
+
+/* --- Individual Item Filtering --- */
 
 /*@ define:input:filtering
 type: stringlist
 label: Items to hide
+group: Individual Item Filtering
 */
 #define VAR_GLOBAL_HIDE []
 
@@ -175,24 +187,20 @@ apply (name:VAR_GLOBAL_HIDE) {
 /*@ define:input:filtering
 type: stringlist
 label: Items to show
+group: Individual Item Filtering
 */
 #define VAR_GLOBAL_SHOW []
 
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
-/*@ define:module:value_filtering
----
-name: Value Filtering
-subtitle: Hide the cheap stuff
-description: |
-  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
-  Exceptions can be made to this in following modules.
-*/
 
-/*@ define:input:value_filtering
+/* --- Value-Based Filtering --- */
+
+/*@ define:input:filtering
 type: number
 label: Hide items below this value
+group: Value-Based Filtering
 */
 #define VAR_GLOBAL_MINIMUM_VALUE 0
 
@@ -200,9 +208,10 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
     hidden = true;
 }
 
-/*@ define:input:value_filtering
+/*@ define:input:filtering
 type: number
 label: Hide stackable items below this value
+group: Value-Based Filtering
 */
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
 
@@ -210,39 +219,37 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (s
     hidden = true;
 }
 
-/*@ define:input:value_filtering
+/*@ define:input:filtering
 type: number
 label: Hide non-stackable items below this value
+group: Value-Based Filtering
 */
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
     hidden = true;
 }
-/*@ define:module:ownership_filtering
----
-name: Ownership Filtering
-subtitle: Hey! That's not yours!
-description: |
-  This has options to hide items based on their ownership.
-  Exceptions can be made to this in following modules.
-*/
 
-/*@ define:input:ownership_filtering
+/* --- Ownership Filtering --- */
+
+/*@ define:input:filtering
 type: boolean
 label: Hide others' drops
+group: Ownership Filtering
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
-/*@ define:input:ownership_filtering
+/*@ define:input:filtering
 type: boolean
 label: Hide world spawns
+group: Ownership Filtering
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
-/*@ define:input:ownership_filtering
+/*@ define:input:filtering
 type: stringlist
 label: Exceptions to ownership filtering
+group: Ownership Filtering
 */
 #define VAR_OWNERSHIP_FILTERING_EXCEPTIONS [ \
     "Water container", \
