@@ -230,20 +230,19 @@ description: |
 
 /*@ define:input:ownership_filtering
 type: boolean
-label: Hide world spawn items
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
-/*@ define:input:ownership_filtering
-type: boolean
-label: Hide items owned by other players
+label: Hide others' drops
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
 /*@ define:input:ownership_filtering
+type: boolean
+label: Hide world spawns
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+/*@ define:input:ownership_filtering
 type: stringlist
-label: Item exceptions to ownership filtering
-group: Ownership Filtering Exceptions
+label: Exceptions to ownership filtering
 */
 #define VAR_OWNERSHIP_FILTERING_EXCEPTIONS [ \
     "Water container", \
