@@ -46,8 +46,7 @@ group: Default Untradeable Style
 exampleItem: Long bone
 exampleItemId: 10976
 */
-#define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE \
-  borderColor = "#ffff00ff";
+#define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE
 
 apply (tradeable:false) {
     VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
