@@ -1,4 +1,5 @@
 global_styling
+value_filtering
 item_values
 uniques
 currency

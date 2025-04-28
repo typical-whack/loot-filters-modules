@@ -35,38 +35,6 @@ apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
 
-/*@ define:input:global_defaults
-type: number
-label: Hide items below this value
-group: Item Filters
-*/
-#define VAR_GLOBAL_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide stackable items below this value
-group: Item Filters
-*/
-#define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_GLOBAL_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: number
-label: Hide non-stackable items below this value
-group: Item Filters
-*/
-#define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
-
-apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE) {
-    hidden = true;
-}
 
 /*@ define:input:global_defaults
 type: boolean
