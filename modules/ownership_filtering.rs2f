@@ -1,0 +1,30 @@
+/*@ define:module:ownership_filtering
+---
+name: Ownership Filtering
+subtitle: Hey! That's not yours!
+description: |
+  This has options to hide items based on their ownership.
+  Exceptions can be made to this in following modules.
+*/
+
+/*@ define:input:ownership_filtering
+type: boolean
+label: Hide world spawn items
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
+
+apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
+    hidden = true;
+}
+
+/*@ define:input:ownership_filtering
+type: boolean
+label: Hide items owned by other players
+group: Item Filters
+*/
+#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
+
+apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
+    hidden = true;
+}

@@ -1,5 +1,6 @@
 global_styling
 value_filtering
+ownership_filtering
 item_values
 uniques
 currency

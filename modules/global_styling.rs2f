@@ -1,11 +1,10 @@
-/*@ define:module:global_defaults
+/*@ define:module:global_styling
 ---
-name: Global Defaults
-subtitle: The first layer of styling and filtering
+name: Global Styling
+subtitle: The first layer of styling items
 description: |
-  This provides some default styling options to apply to all items, unless overridden by a module below. This also provides an option to explicitly show and hide specific items. This list however can be overridden in a below modules as well.
+  This contains a base style and options to configure style programmatically. This style can be overridden or added to by modules below.
 */
-
 
 /*@ define:input:global_defaults
 type: boolean
@@ -33,29 +32,6 @@ group: Item Filters
 
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
-}
-
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide world spawn items
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
-
-apply (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS) {
-    hidden = true;
-}
-
-/*@ define:input:global_defaults
-type: boolean
-label: Hide items owned by other players
-group: Item Filters
-*/
-#define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
-
-apply (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS) {
-    hidden = true;
 }
 
 /*@ define:input:global_defaults
