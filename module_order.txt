@@ -1,8 +1,6 @@
 default_styling
 sorting
 filtering
-value_filtering
-ownership_filtering
 item_tiers
 uniques
 currency
