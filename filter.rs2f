@@ -14,6 +14,7 @@ description: |
 /*@ define:input:default_styling
 type: style
 label: Default Style
+group: Default Style
 exampleItem: Santa hat
 exampleItemId: 1050
 */
@@ -23,6 +24,20 @@ exampleItemId: 1050
 
 apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
+}
+
+/*@ define:input:default_styling
+type: style
+label: Default Untradeable Style
+group: Default Untradeable Style
+exampleItem: Long bone
+exampleItemId: 10976
+*/
+#define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE \
+  borderColor = "#ffff00ff";
+
+apply (tradeable:false) {
+    VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
 }
 
 /*@ define:input:default_styling
