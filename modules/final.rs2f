@@ -467,3 +467,9 @@ apply (VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST && (stackable:true || not
 apply (name:VAR_MENU_SORT_ITEMS_FIRST) {
     menuSort = 2100000000;
 }
+
+/* --- handling menu sort for untradeables --- */
+
+apply (VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST && tradeable:false) {
+    menuSort = 2100000000;
+}
