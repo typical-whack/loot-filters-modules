@@ -17,14 +17,14 @@ group: Menu Sorting
 
 /*@ define:input:sorting
 type: boolean
-label: Stackable/noted first
+label: Prioritize Stackable/noted
 group: Menu Sorting
 */
 #define VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST false
 
 /*@ define:input:sorting
 type: boolean
-label: Untradeables first
+label: Prioritize Untradeables
 group: Menu Sorting
 */
 #define VAR_SORTING_MENU_SORT_UNTRADEABLE_FIRST false
