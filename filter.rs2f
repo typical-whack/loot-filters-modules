@@ -10,7 +10,7 @@ subtitle: The first layer of styling items
 description: |
   This contains the default styles and options to configure style programmatically.
   
-  These styles can be overridden or added to by modules below.
+  *Note: These styles can be overridden by modules below.*
 */
 
 /*@ define:input:default_styling
