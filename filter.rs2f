@@ -159,10 +159,6 @@ group: Menu Sorting
 name: Filtering
 subtitle: Sifting through the junk
 description: |
-  Individual Item Filtering
-  ---
-  Showing and hiding individual items.
-
   Value-Based Filtering
   ---
   Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
@@ -183,8 +179,6 @@ description: |
 name: Individual Item Filtering
 description: |
   Showing and hiding individual items.
-
-  Value-Based Filtering
 */
 
 /*@ define:input:filtering
