@@ -22,6 +22,15 @@ description: |
 
 /* --- Individual Item Filtering --- */
 
+/*@ define:group:individual_item_filtering
+---
+name: Individual Item Filtering
+description: |
+  Showing and hiding individual items.
+
+  Value-Based Filtering
+*/
+
 /*@ define:input:filtering
 type: stringlist
 label: Items to hide
