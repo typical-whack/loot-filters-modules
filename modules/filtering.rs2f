@@ -12,6 +12,8 @@ description: |
 ---
 name: Individual Item Filtering
 description: |
+  Individual Item Filtering
+  ---
   Showing and hiding individual items.
 */
 
@@ -43,6 +45,8 @@ apply (name:VAR_GLOBAL_SHOW) {
 ---
 name: Value-Based Filtering
 description: |
+  Value-Based Filtering
+  ---
   Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
   
   *Note: Exceptions can be made to this in following modules.*
@@ -87,6 +91,8 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 ---
 name: Ownership Filtering
 description: |
+  Ownership Filtering
+  ---
   This has options to hide items based on their ownership.
 
   *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
