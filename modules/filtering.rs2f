@@ -18,7 +18,7 @@ description: |
 
 /* --- Individual Item Filtering --- */
 
-/*@ define:group:individual_item_filtering
+/*@ define:group
 ---
 name: Individual Item Filtering
 description: |
