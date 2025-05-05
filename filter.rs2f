@@ -159,17 +159,7 @@ group: Menu Sorting
 name: Filtering
 subtitle: Sifting through the junk
 description: |
-  Value-Based Filtering
-  ---
-  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
-  
-  *Note: Exceptions can be made to this in following modules.*
-
-  Ownership Filtering
-  ---
-  This has options to hide items based on their ownership.
-
-  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+  Provides a few different ways to filter out items.
 */
 
 /* --- Individual Item Filtering --- */
@@ -205,6 +195,15 @@ apply (name:VAR_GLOBAL_SHOW) {
 
 /* --- Value-Based Filtering --- */
 
+/*@ define:group
+---
+name: Value-Based Filtering
+description: |
+  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
+  
+  *Note: Exceptions can be made to this in following modules.*
+*/
+
 /*@ define:input:filtering
 type: number
 label: Hide items below this value
@@ -239,6 +238,15 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 }
 
 /* --- Ownership Filtering --- */
+
+/*@ define:group
+---
+name: Ownership Filtering
+description: |
+  This has options to hide items based on their ownership.
+
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+*/
 
 /*@ define:input:filtering
 type: boolean
