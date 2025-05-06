@@ -101,7 +101,7 @@ description: |
 
 /*@ define:input:farming_seeds
 type: number
-label: Minimum value to display secondaries at
+label: Hide seeds below this value
 */
 #define VAR_FARMING_SEEDS_MINIMUM_VALUE 0
 
