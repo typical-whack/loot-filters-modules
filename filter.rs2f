@@ -5884,28 +5884,28 @@ apply (name:"Air rune" && quantity:<VAR_AIR_RUNE_MIN_QUANTITY) {
 apply (name:"Mind rune") {
     VAR_MIND_RUNE_CUSTOMSTYLE 
 }
-apply (name:"Mind rune" && quantity:<VAR_WATER_RUNE_MIN_QUANTITY) {
+apply (name:"Mind rune" && quantity:<VAR_MIND_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Water rune") {
     VAR_WATER_RUNE_CUSTOMSTYLE 
 }
-apply (name:"Water rune" && quantity:<VAR_EARTH_RUNE_MIN_QUANTITY) {
+apply (name:"Water rune" && quantity:<VAR_WATER_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Earth rune") {
     VAR_EARTH_RUNE_CUSTOMSTYLE 
 }
-apply (name:"Earth rune" && quantity:<VAR_FIRE_RUNE_MIN_QUANTITY) {
+apply (name:"Earth rune" && quantity:<VAR_EARTH_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
 apply (name:"Fire rune") {
     VAR_FIRE_RUNE_CUSTOMSTYLE 
 }
-apply (name:"Fire rune" && quantity:<VAR_MIND_RUNE_MIN_QUANTITY) {
+apply (name:"Fire rune" && quantity:<VAR_FIRE_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
