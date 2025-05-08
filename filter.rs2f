@@ -201,7 +201,7 @@ apply (name:VAR_GLOBAL_SHOW) {
 /*@ define:group
 ---
 name: Value-Based Filtering
-expanded: false
+expanded: true
 description: |
   Value-Based Filtering
   ---
@@ -248,6 +248,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 /*@ define:group
 ---
 name: Ownership Filtering
+expanded: true
 description: |
   Ownership Filtering
   ---
