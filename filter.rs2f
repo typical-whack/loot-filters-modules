@@ -159,26 +159,21 @@ group: Menu Sorting
 name: Filtering
 subtitle: Sifting through the junk
 description: |
-  Individual Item Filtering
-  ---
-  Showing and hiding individual items.
-
-  Value-Based Filtering
-  ---
-  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
-  
-  *Note: Exceptions can be made to this in following modules.*
-
-  Ownership Filtering
-  ---
-  This has options to hide items based on their ownership.
-
-  *Plugin Settings Change Required: Please disable "Ownership filter" and "Item spawn filter" in the "General" settings section of "Loot Filters" in the Runelite sidebar.*
-
-  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+  Provides a few different ways to filter out items.
 */
 
 /* --- Individual Item Filtering --- */
+
+/*@ define:group
+---
+name: Individual Item Filtering
+expanded: true
+description: |
+  Individual Item Filtering
+  ---
+
+  Showing and hiding individual items.
+*/
 
 /*@ define:input:filtering
 type: stringlist
@@ -203,6 +198,18 @@ apply (name:VAR_GLOBAL_SHOW) {
 }
 
 /* --- Value-Based Filtering --- */
+
+/*@ define:group
+---
+name: Value-Based Filtering
+expanded: true
+description: |
+  Value-Based Filtering
+  ---
+  Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
+  
+  *Note: Exceptions can be made to this in following modules.*
+*/
 
 /*@ define:input:filtering
 type: number
@@ -238,6 +245,20 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 }
 
 /* --- Ownership Filtering --- */
+
+/*@ define:group
+---
+name: Ownership Filtering
+expanded: true
+description: |
+  Ownership Filtering
+  ---
+  This has options to hide items based on their ownership.
+
+  *Plugin Settings Change Required: Please disable "Ownership filter" and "Item spawn filter" in the "General" settings section of "Loot Filters" in the Runelite sidebar.*
+
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+*/
 
 /*@ define:input:filtering
 type: boolean
