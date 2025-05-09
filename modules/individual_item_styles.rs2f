@@ -242,7 +242,7 @@ apply (name:"Imbued heart") {
 
 /*@ define:group
 ---
-name: Chambers of Xeric
+name: Chambers of Xeric Styles
 expanded: false
 description: |
   Chambers of Xeric
@@ -721,7 +721,7 @@ apply (area:CONST_COX_AREA && name:"Water-filled gourd vial") {
 
 /*@ define:group
 ---
-name: Theatre of Blood
+name: Theatre of Blood Styles
 expanded: false
 description: |
   Theatre of Blood
@@ -732,7 +732,7 @@ description: |
 /*@ define:input:individual_item_styles
 type: style
 label: Dawnbringer custom style
-group: Theatre of Blood
+group: Theatre of Blood Styles
 exampleItem: Dawnbringer
 backgroundImage: Verzik Vitur
 */
@@ -746,7 +746,7 @@ backgroundImage: Verzik Vitur
 /*@ define:input:individual_item_styles
 type: style
 label: Salve custom style
-group: Theatre of Blood
+group: Theatre of Blood Styles
 exampleItem: Salve amulet (e)
 backgroundImage: Verzik Vitur
 */
