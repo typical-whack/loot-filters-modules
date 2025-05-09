@@ -11,9 +11,9 @@ description: |
 name: Currency Styles
 expanded: false
 description: |
-  Currency
+  Currency Styles
   ---
-  This group provides styling and quantity filters for all currencies in the game.
+  This group provides styling for all currencies in the game.
 */
 
 /*@ define:input:currency
