@@ -1,0 +1,234 @@
+/*@ define:group
+---
+name: Tombs of Amascut Styles
+expanded: false
+description: |
+  Tombs of Amascut Styles
+  ---
+  This provides per-item custom styling for all drops within the Tombs of Amascut. By default this styles each drop uniquely.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smelling salts
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_SMELLING_SALTS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50e7cb1d";\
+  borderColor = "#FFe7cb1d";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFe7cb1d";
+
+apply (area:CONST_TOA_AREA && name:"Smelling salts (*") {
+    VAR_SMELLING_SALTS_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ambrosia
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_AMBROSIA_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50fcfdfc";\
+  borderColor = "#FFfcfdfc";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFfcfdfc";
+
+apply (area:CONST_TOA_AREA && name:"Ambrosia (*") {
+    VAR_AMBROSIA_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tears of Elidinis
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50e285b9";\
+  borderColor = "#FFe285b9";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFe285b9";
+
+apply (area:CONST_TOA_AREA && name:"Tears of Elidinis (*") {
+    VAR_TEARS_OF_ELIDINIS_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Nectar
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_NECTAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50ad8f2a";\
+  borderColor = "#FFad8f2a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFad8f2a";
+
+apply (area:CONST_TOA_AREA && name:"Nectar (*") {
+    VAR_NECTAR_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Liquid adrenaline
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_LIQUID_ADRENALINE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5035c6d7";\
+  borderColor = "#FF35c6d7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF35c6d7";
+
+apply (area:CONST_TOA_AREA && name:"Liquid adrenaline (*") {
+    VAR_LIQUID_ADRENALINE_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blessed crystal scarab
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50c8c1c1";\
+  borderColor = "#FFc8c1c1";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFc8c1c1";
+
+apply (area:CONST_TOA_AREA && name:"Blessed crystal scarab (*") {
+    VAR_BLESSED_CRYSTAL_SCARAB_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Silk dressing
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_SILK_DRESSING_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50ab9f9f";\
+  borderColor = "#FFab9f9f";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFab9f9f";
+
+apply (area:CONST_TOA_AREA && name:"Silk dressing (*") {
+    VAR_SILK_DRESSING_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Honey locust
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_HONEY_LOCUST_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50d3b91a";\
+  borderColor = "#FF9b5826";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFd3b91a";
+
+apply (area:CONST_TOA_AREA && name:"Honey locust") {
+    VAR_HONEY_LOCUST_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Neutralising potion
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_NEUTRALISING_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500d8011";\
+  borderColor = "#FF0d8011";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0d8011";
+
+apply (area:CONST_TOA_AREA && name:"Neutralising potion") {
+    VAR_NEUTRALISING_POTION_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Big banana
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_BIG_BANANA_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50cbca49";\
+  borderColor = "#FFcbca49";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFcbca49";\
+  showLootbeam = true;
+
+apply (area:CONST_TOA_AREA && name:"Big banana") {
+    VAR_BIG_BANANA_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Eldritch ashes
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_ELDRITCH_ASHES_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50acb6b7";\
+  borderColor = "#FFacb6b7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFacb6b7";\
+  showLootbeam = true;
+
+apply (area:CONST_TOA_AREA && name:"Eldritch ashes") {
+    VAR_ELDRITCH_ASHES_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fang
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_FANG_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50c6c6be";\
+  borderColor = "#FF882a22";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFc6c6be";\
+  showLootbeam = true;
+
+apply (area:CONST_TOA_AREA && name:"Fang") {
+    VAR_FANG_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Scarab dung
+group: Tombs of Amascut Styles
+backgroundImage: Wardens
+*/
+#define VAR_SCARAB_DUNG_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50985d37";\
+  borderColor = "#FF985d37";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF985d37";\
+  showLootbeam = true;
+
+apply (area:CONST_TOA_AREA && name:"Scarab dung") {
+    VAR_SCARAB_DUNG_CUSTOMSTYLE
+}
