@@ -1,0 +1,437 @@
+/*@ define:module:individual_item_styles
+---
+name: Individual Item Styles
+subtitle: Fancy
+description: |
+  This module provides styling for individual items.
+*/
+
+/*@ define:group
+---
+name: Currency
+expanded: false
+description: |
+  Currency
+  ---
+  This group provides styling and quantity filters for all currencies in the game.
+*/
+
+/*@ define:input:currency
+type: style
+label: Abyssal pearls custom style
+group: Currency Styles
+exampleItem: Abyssal pearls
+*/
+#define VAR_ABYSSAL_PEARLS_CUSTOMSTYLE 
+
+apply (name:"Abyssal pearls") {
+    VAR_ABYSSAL_PEARLS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Agility arena ticket custom style
+group: Currency Styles
+exampleItem: Agility arena ticket
+*/
+#define VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE 
+
+apply (name:"Agility arena ticket") {
+    VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Anima-infused bark custom style
+group: Currency Styles
+exampleItem: Anima-infused bark
+*/
+#define VAR_ANIMA_INFUSED_BARK_CUSTOMSTYLE 
+
+apply (name:"Anima-infused bark") {
+    VAR_ANIMA_INFUSED_BARK_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Archery ticket custom style
+group: Currency Styles
+exampleItem: Archery ticket
+*/
+#define VAR_ARCHERY_TICKET_CUSTOMSTYLE 
+
+apply (name:"Archery ticket") {
+    VAR_ARCHERY_TICKET_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Barronite shards custom style
+group: Currency Styles
+exampleItem: Barronite shards
+*/
+#define VAR_BARRONITE_SHARDS_CUSTOMSTYLE 
+
+apply (name:"Barronite shards") {
+    VAR_BARRONITE_SHARDS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Blood money custom style
+group: Currency Styles
+exampleItem: Blood money
+*/
+#define VAR_BLOOD_MONEY_CUSTOMSTYLE 
+
+apply (name:"Blood money") {
+    VAR_BLOOD_MONEY_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Brimhaven voucher custom style
+group: Currency Styles
+exampleItem: Brimhaven voucher
+*/
+#define VAR_BRIMHAVEN_VOUCHER_CUSTOMSTYLE 
+
+apply (name:"Brimhaven voucher") {
+    VAR_BRIMHAVEN_VOUCHER_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Castle wars ticket custom style
+group: Currency Styles
+exampleItem: Castle wars ticket
+*/
+#define VAR_CASTLE_WARS_TICKET_CUSTOMSTYLE 
+
+apply (name:"Castle wars ticket") {
+    VAR_CASTLE_WARS_TICKET_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Coins custom style
+group: Currency Styles
+exampleItem: Coins
+*/
+#define VAR_COINS_CUSTOMSTYLE 
+
+apply (name:"Coins") {
+    VAR_COINS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Ecto-token custom style
+group: Currency Styles
+exampleItem: Ecto-token
+*/
+#define VAR_ECTO_TOKEN_CUSTOMSTYLE 
+
+apply (name:"Ecto-token") {
+    VAR_ECTO_TOKEN_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Frog token custom style
+group: Currency Styles
+exampleItem: Frog token
+*/
+#define VAR_FROG_TOKEN_CUSTOMSTYLE 
+
+apply (name:"Frog token") {
+    VAR_FROG_TOKEN_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Glistening tear custom style
+group: Currency Styles
+exampleItem: Glistening tear
+*/
+#define VAR_GLISTENING_TEAR_CUSTOMSTYLE 
+
+apply (name:"Glistening tear") {
+    VAR_GLISTENING_TEAR_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Golden nugget custom style
+group: Currency Styles
+exampleItem: Golden nugget
+*/
+#define VAR_GOLDEN_NUGGET_CUSTOMSTYLE 
+
+apply (name:"Golden nugget") {
+    VAR_GOLDEN_NUGGET_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Hallowed mark custom style
+group: Currency Styles
+exampleItem: Hallowed mark
+*/
+#define VAR_HALLOWED_MARK_CUSTOMSTYLE 
+
+apply (name:"Hallowed mark") {
+    VAR_HALLOWED_MARK_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Intelligence custom style
+group: Currency Styles
+exampleItem: Intelligence
+*/
+#define VAR_INTELLIGENCE_CUSTOMSTYLE 
+
+apply (name:"Intelligence") {
+    VAR_INTELLIGENCE_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Mark of grace custom style
+group: Currency Styles
+exampleItem: Mark of grace
+*/
+#define VAR_MARK_OF_GRACE_CUSTOMSTYLE 
+
+apply (name:"Mark of grace") {
+    VAR_MARK_OF_GRACE_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Mermaid's tear custom style
+group: Currency Styles
+exampleItem: Mermaid's tear
+*/
+#define VAR_MERMAIDS_TEAR_CUSTOMSTYLE 
+
+apply (name:"Mermaid's tear") {
+    VAR_MERMAIDS_TEAR_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Minnow custom style
+group: Currency Styles
+exampleItem: Minnow
+*/
+#define VAR_MINNOW_CUSTOMSTYLE 
+
+apply (name:"Minnow") {
+    VAR_MINNOW_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Molch pearl custom style
+group: Currency Styles
+exampleItem: Molch pearl
+*/
+#define VAR_MOLCH_PEARL_CUSTOMSTYLE 
+
+apply (name:"Molch pearl") {
+    VAR_MOLCH_PEARL_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Mole claw custom style
+group: Currency Styles
+exampleItem: Mole claw
+*/
+#define VAR_MOLE_CLAW_CUSTOMSTYLE 
+
+apply (name:"Mole claw") {
+    VAR_MOLE_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Mole skin custom style
+group: Currency Styles
+exampleItem: Mole skin
+*/
+#define VAR_MOLE_SKIN_CUSTOMSTYLE 
+
+apply (name:"Mole skin") {
+    VAR_MOLE_SKIN_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Nuggets custom style
+group: Currency Styles
+exampleItem: Nuggets
+*/
+#define VAR_NUGGETS_CUSTOMSTYLE 
+
+apply (name:"Nuggets") {
+    VAR_NUGGETS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Numulite custom style
+group: Currency Styles
+exampleItem: Numulite
+*/
+#define VAR_NUMULITE_CUSTOMSTYLE 
+
+apply (name:"Numulite") {
+    VAR_NUMULITE_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Paramaya ticket custom style
+group: Currency Styles
+exampleItem: Paramaya ticket
+*/
+#define VAR_PARAMAYA_TICKET_CUSTOMSTYLE 
+
+apply (name:"Paramaya ticket") {
+    VAR_PARAMAYA_TICKET_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Platinum token custom style
+group: Currency Styles
+exampleItem: Platinum token
+*/
+#define VAR_PLATINUM_TOKEN_CUSTOMSTYLE 
+
+apply (name:"Platinum token") {
+    VAR_PLATINUM_TOKEN_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Rare creature parts custom style
+group: Currency Styles
+exampleItem: Rare creature parts
+*/
+#define VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE 
+
+apply (name:"Rare creature parts") {
+    VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Reward token credits custom style
+group: Currency Styles
+exampleItem: Reward token credits
+*/
+#define VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE 
+
+apply (name:"Reward token credits") {
+    VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Shantay pass custom style
+group: Currency Styles
+exampleItem: Shantay pass
+*/
+#define VAR_SHANTAY_PASS_CUSTOMSTYLE 
+
+apply (name:"Shantay pass") {
+    VAR_SHANTAY_PASS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Ship ticket custom style
+group: Currency Styles
+exampleItem: Ship ticket
+*/
+#define VAR_SHIP_TICKET_CUSTOMSTYLE 
+
+apply (name:"Ship ticket") {
+    VAR_SHIP_TICKET_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Stardust custom style
+group: Currency Styles
+exampleItem: Stardust
+*/
+#define VAR_STARDUST_CUSTOMSTYLE 
+
+apply (name:"Stardust") {
+    VAR_STARDUST_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Termites custom style
+group: Currency Styles
+exampleItem: Termites
+*/
+#define VAR_TERMITES_CUSTOMSTYLE 
+
+apply (name:"Termites") {
+    VAR_TERMITES_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Tokkul custom style
+group: Currency Styles
+exampleItem: Tokkul
+*/
+#define VAR_TOKKUL_CUSTOMSTYLE 
+
+apply (name:"Tokkul") {
+    VAR_TOKKUL_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Trading sticks custom style
+group: Currency Styles
+exampleItem: Trading sticks
+*/
+#define VAR_TRADING_STICKS_CUSTOMSTYLE 
+
+apply (name:"Trading sticks") {
+    VAR_TRADING_STICKS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Unidentified minerals custom style
+group: Currency Styles
+exampleItem: Unidentified minerals
+*/
+#define VAR_UNIDENTIFIED_MINERALS_CUSTOMSTYLE 
+
+apply (name:"Unidentified minerals") {
+    VAR_UNIDENTIFIED_MINERALS_CUSTOMSTYLE
+}
+
+/*@ define:input:currency
+type: style
+label: Warrior guild token custom style
+group: Currency Styles
+exampleItem: Warrior guild token
+*/
+#define VAR_WARRIOR_GUILD_TOKEN_CUSTOMSTYLE 
+
+apply (name:"Warrior guild token") {
+    VAR_WARRIOR_GUILD_TOKEN_CUSTOMSTYLE
+}

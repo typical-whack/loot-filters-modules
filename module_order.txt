@@ -3,6 +3,7 @@ sorting
 filtering
 item_tiers
 uniques
+individual_item_styles
 currency
 clues
 remains
