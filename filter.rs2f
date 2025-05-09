@@ -850,7 +850,7 @@ description: |
 
 /*@ define:group
 ---
-name: Currency
+name: Currency Styles
 expanded: false
 description: |
   Currency
