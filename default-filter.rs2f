@@ -1938,6 +1938,527 @@ apply (area:CONST_TOA_AREA && name:"Scarab dung") {
 
 /*@ define:group
 ---
+name: Tormented Demons Drop Styles
+expanded: false
+description: |
+  Tormented Demons Drop Styles
+  ---
+  Provides styling for Tormented Demons drops.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smouldering gland
+group: Tormented Demons Drop Styles
+exampleItem: Smouldering gland
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5059D4A8";\
+  borderColor = "#FF59D4A8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF59D4A8";
+
+apply (name:"Smouldering gland") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smouldering heart
+group: Tormented Demons Drop Styles
+exampleItem: Smouldering heart
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5019640B";\
+  borderColor = "#FF19640B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF19640B";
+
+apply (name:"Smouldering heart") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smouldering pile of flesh
+group: Tormented Demons Drop Styles
+exampleItem: Smouldering pile of flesh
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50624b18";\
+  borderColor = "#FF624b18";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFffd480";
+
+apply (name:"Smouldering pile of flesh") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tormented synapse
+group: Tormented Demons Drop Styles
+exampleItem: Tormented synapse
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
+
+apply (name:"Tormented synapse") {
+    VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Burning claw
+group: Tormented Demons Drop Styles
+exampleItem: Burning claw
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+
+apply (name:"Burning claw") {
+    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Burning claws
+group: Tormented Demons Drop Styles
+exampleItem: Burning claws
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+
+apply (name:"Burning claws") {
+    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Emberlight
+group: Tormented Demons Drop Styles
+exampleItem: Emberlight
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
+
+apply (name:"Emberlight") {
+  VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Purging staff
+group: Tormented Demons Drop Styles
+exampleItem: Purging staff
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
+
+apply (name:"Purging staff") {
+  VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Scorching bow
+group: Tormented Demons Drop Styles
+exampleItem: Scorching bow
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
+
+apply (name:"Scorching bow") {
+  VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
+}
+
+
+
+/*@ define:group
+---
+name: Runes Styles
+expanded: false
+description: |
+  Runes Styles
+  ---
+  Custom styling for runes
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Air rune custom style
+group: Runes Styles
+exampleItem: Air rune
+*/
+#define VAR_AIR_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E1DEDE";\
+  borderColor = "#FFE1DEDE";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE1DEDE";
+
+apply (name:"Air rune") {
+    VAR_AIR_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mind rune custom style
+group: Runes Styles
+exampleItem: Mind rune
+*/
+#define VAR_MIND_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D58A2E";\
+  borderColor = "#FFD58A2E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD58A2E";
+
+apply (name:"Mind rune") {
+    VAR_MIND_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Water rune custom style
+group: Runes Styles
+exampleItem: Water rune
+*/
+#define VAR_WATER_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50151AA7";\
+  borderColor = "#FF151AA7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF151AA7";
+
+apply (name:"Water rune") {
+    VAR_WATER_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Earth rune custom style
+group: Runes Styles
+exampleItem: Earth rune
+*/
+#define VAR_EARTH_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506D490D";\
+  borderColor = "#FF6D490D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6D490D";
+
+apply (name:"Earth rune") {
+    VAR_EARTH_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fire rune custom style
+group: Runes Styles
+exampleItem: Fire rune
+*/
+#define VAR_FIRE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A72215";\
+  borderColor = "#FFA72215";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFA72215";
+
+apply (name:"Fire rune") {
+    VAR_FIRE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Body rune custom style
+group: Runes Styles
+exampleItem: Body rune
+*/
+#define VAR_BODY_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501A21CF";\
+  borderColor = "#FF1A21CF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1A21CF";
+
+apply (name:"Body rune") {
+    VAR_BODY_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cosmic rune custom style
+group: Runes Styles
+exampleItem: Cosmic rune
+*/
+#define VAR_COSMIC_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E0DE1A";\
+  borderColor = "#FFE0DE1A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE0DE1A";
+
+apply (name:"Cosmic rune") {
+    VAR_COSMIC_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Chaos rune custom style
+group: Runes Styles
+exampleItem: Chaos rune
+*/
+#define VAR_CHAOS_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E0A81A";\
+  borderColor = "#FFE0A81A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE0A81A";
+
+apply (name:"Chaos rune") {
+    VAR_CHAOS_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Nature rune custom style
+group: Runes Styles
+exampleItem: Nature rune
+*/
+#define VAR_NATURE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50168B1A";\
+  borderColor = "#FF168B1A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF168B1A";
+
+apply (name:"Nature rune") {
+    VAR_NATURE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Law rune custom style
+group: Runes Styles
+exampleItem: Law rune
+*/
+#define VAR_LAW_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501A22E0";\
+  borderColor = "#FF1A22E0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1A22E0";
+
+apply (name:"Law rune") {
+    VAR_LAW_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Death rune custom style
+group: Runes Styles
+exampleItem: Death rune
+*/
+#define VAR_DEATH_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E4E1E1";\
+  borderColor = "#FFE4E1E1";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE4E1E1";
+
+apply (name:"Death rune") {
+    VAR_DEATH_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sunfire rune custom style
+group: Runes Styles
+exampleItem: Sunfire rune
+*/
+#define VAR_SUNFIRE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50DFA81A";\
+  borderColor = "#FFDFA81A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFDFA81A";
+
+apply (name:"Sunfire rune") {
+    VAR_SUNFIRE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Astral rune custom style
+group: Runes Styles
+exampleItem: Astral rune
+*/
+#define VAR_ASTRAL_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CDB5CD";\
+  borderColor = "#FFCDB5CD";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCDB5CD";
+
+apply (name:"Astral rune") {
+    VAR_ASTRAL_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blood rune custom style
+group: Runes Styles
+exampleItem: Blood rune
+*/
+#define VAR_BLOOD_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50891D11";\
+  borderColor = "#FF891D11";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF891D11";
+
+apply (name:"Blood rune") {
+    VAR_BLOOD_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Soul rune custom style
+group: Runes Styles
+exampleItem: Soul rune
+*/
+#define VAR_SOUL_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509192D3";\
+  borderColor = "#FF9192D3";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9192D3";
+
+apply (name:"Soul rune") {
+    VAR_SOUL_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Wrath rune custom style
+group: Runes Styles
+exampleItem: Wrath rune
+*/
+#define VAR_WRATH_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50353030";\
+  borderColor = "#FF353030";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF353030";
+
+apply (name:"Wrath rune") {
+    VAR_WRATH_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mist rune custom style
+group: Runes Styles
+exampleItem: Mist rune
+*/
+#define VAR_MIST_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C8C0C0";\
+  borderColor = "#FFC8C0C0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC8C0C0";
+
+apply (name:"Mist rune") {
+    VAR_MIST_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dust rune custom style
+group: Runes Styles
+exampleItem: Dust rune
+*/
+#define VAR_DUST_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50746241";\
+  borderColor = "#FF746241";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF746241";
+
+apply (name:"Dust rune") {
+    VAR_DUST_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mud rune custom style
+group: Runes Styles
+exampleItem: Mud rune
+*/
+#define VAR_MUD_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505D3B17";\
+  borderColor = "#FF5D3B17";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5D3B17";
+
+apply (name:"Mud rune") {
+    VAR_MUD_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smoke rune custom style
+group: Runes Styles
+exampleItem: Smoke rune
+*/
+#define VAR_SMOKE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50534D4D";\
+  borderColor = "#FF534D4D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF534D4D";
+
+apply (name:"Smoke rune") {
+    VAR_SMOKE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Steam rune custom style
+group: Runes Styles
+exampleItem: Steam rune
+*/
+#define VAR_STEAM_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AEAEB7";\
+  borderColor = "#FFAEAEB7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFAEAEB7";
+
+apply (name:"Steam rune") {
+    VAR_STEAM_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lava rune custom style
+group: Runes Styles
+exampleItem: Lava rune
+*/
+#define VAR_LAVA_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D28019";\
+  borderColor = "#FFD28019";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD28019";
+
+apply (name:"Lava rune") {
+    VAR_LAVA_RUNE_CUSTOMSTYLE 
+}
+
+
+
+/*@ define:group
+---
 name: Currency Styles
 expanded: false
 description: |
@@ -4657,7 +5178,6 @@ description: |
   Provides filtering and styling for specific monster drops
 */
 
-#define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
 /*@ define:input:monsters
 type: stringlist
@@ -4683,129 +5203,6 @@ group: Tormented Demons
 
 apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SHOW) {
     hidden = false;
-}
-
-/*@ define:input:monsters
-type: style
-label: Smouldering gland
-group: Tormented Demons
-exampleItem: Smouldering gland
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5059D4A8";\
-  borderColor = "#FF59D4A8";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF59D4A8";
-
-apply (name:"Smouldering gland") {
-    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Smouldering heart
-group: Tormented Demons
-exampleItem: Smouldering heart
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5019640B";\
-  borderColor = "#FF19640B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF19640B";
-
-apply (name:"Smouldering heart") {
-    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Smouldering pile of flesh
-group: Tormented Demons
-exampleItem: Smouldering pile of flesh
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50624b18";\
-  borderColor = "#FF624b18";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFffd480";
-
-apply (name:"Smouldering pile of flesh") {
-    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Tormented synapse
-group: Tormented Demons
-exampleItem: Tormented synapse
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
-
-apply (name:"Tormented synapse") {
-    VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Burning claw
-group: Tormented Demons
-exampleItem: Burning claw
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
-
-apply (name:"Burning claw") {
-    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Burning claws
-group: Tormented Demons
-exampleItem: Burning claws
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
-
-apply (name:"Burning claws") {
-    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Emberlight
-group: Tormented Demons
-exampleItem: Emberlight
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
-
-apply (name:"Emberlight") {
-  VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Purging staff
-group: Tormented Demons
-exampleItem: Purging staff
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
-
-apply (name:"Purging staff") {
-  VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
-}
-
-/*@ define:input:monsters
-type: style
-label: Scorching bow
-group: Tormented Demons
-exampleItem: Scorching bow
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
-
-apply (name:"Scorching bow") {
-  VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
 }
 /*@ define:module:ammo
 ---
@@ -5700,446 +6097,94 @@ group: Runes Filtering
 */
 #define VAR_LAVA_RUNE_MIN_QUANTITY 50
 
-/*@ define:input:runes
-type: style
-label: Air rune custom style
-group: Custom Styling
-exampleItem: Air rune
-*/
-#define VAR_AIR_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E1DEDE";\
-  borderColor = "#FFE1DEDE";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE1DEDE";
-
-/*@ define:input:runes
-type: style
-label: Mind rune custom style
-group: Custom Styling
-exampleItem: Mind rune
-*/
-#define VAR_MIND_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D58A2E";\
-  borderColor = "#FFD58A2E";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD58A2E";
-
-/*@ define:input:runes
-type: style
-label: Water rune custom style
-group: Custom Styling
-exampleItem: Water rune
-*/
-#define VAR_WATER_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50151AA7";\
-  borderColor = "#FF151AA7";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF151AA7";
-
-/*@ define:input:runes
-type: style
-label: Earth rune custom style
-group: Custom Styling
-exampleItem: Earth rune
-*/
-#define VAR_EARTH_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#506D490D";\
-  borderColor = "#FF6D490D";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF6D490D";
-
-/*@ define:input:runes
-type: style
-label: Fire rune custom style
-group: Custom Styling
-exampleItem: Fire rune
-*/
-#define VAR_FIRE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50A72215";\
-  borderColor = "#FFA72215";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFA72215";
-
-/*@ define:input:runes
-type: style
-label: Body rune custom style
-group: Custom Styling
-exampleItem: Body rune
-*/
-#define VAR_BODY_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#501A21CF";\
-  borderColor = "#FF1A21CF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1A21CF";
-
-/*@ define:input:runes
-type: style
-label: Cosmic rune custom style
-group: Custom Styling
-exampleItem: Cosmic rune
-*/
-#define VAR_COSMIC_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E0DE1A";\
-  borderColor = "#FFE0DE1A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE0DE1A";
-
-/*@ define:input:runes
-type: style
-label: Chaos rune custom style
-group: Custom Styling
-exampleItem: Chaos rune
-*/
-#define VAR_CHAOS_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E0A81A";\
-  borderColor = "#FFE0A81A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE0A81A";
-
-/*@ define:input:runes
-type: style
-label: Nature rune custom style
-group: Custom Styling
-exampleItem: Nature rune
-*/
-#define VAR_NATURE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50168B1A";\
-  borderColor = "#FF168B1A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF168B1A";
-
-/*@ define:input:runes
-type: style
-label: Law rune custom style
-group: Custom Styling
-exampleItem: Law rune
-*/
-#define VAR_LAW_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#501A22E0";\
-  borderColor = "#FF1A22E0";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1A22E0";
-
-/*@ define:input:runes
-type: style
-label: Death rune custom style
-group: Custom Styling
-exampleItem: Death rune
-*/
-#define VAR_DEATH_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E4E1E1";\
-  borderColor = "#FFE4E1E1";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE4E1E1";
-
-/*@ define:input:runes
-type: style
-label: Sunfire rune custom style
-group: Custom Styling
-exampleItem: Sunfire rune
-*/
-#define VAR_SUNFIRE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50DFA81A";\
-  borderColor = "#FFDFA81A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFDFA81A";
-
-/*@ define:input:runes
-type: style
-label: Astral rune custom style
-group: Custom Styling
-exampleItem: Astral rune
-*/
-#define VAR_ASTRAL_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50CDB5CD";\
-  borderColor = "#FFCDB5CD";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFCDB5CD";
-
-/*@ define:input:runes
-type: style
-label: Blood rune custom style
-group: Custom Styling
-exampleItem: Blood rune
-*/
-#define VAR_BLOOD_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50891D11";\
-  borderColor = "#FF891D11";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF891D11";
-
-/*@ define:input:runes
-type: style
-label: Soul rune custom style
-group: Custom Styling
-exampleItem: Soul rune
-*/
-#define VAR_SOUL_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509192D3";\
-  borderColor = "#FF9192D3";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9192D3";
-
-/*@ define:input:runes
-type: style
-label: Wrath rune custom style
-group: Custom Styling
-exampleItem: Wrath rune
-*/
-#define VAR_WRATH_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50353030";\
-  borderColor = "#FF353030";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF353030";
-
-/*@ define:input:runes
-type: style
-label: Mist rune custom style
-group: Custom Styling
-exampleItem: Mist rune
-*/
-#define VAR_MIST_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C8C0C0";\
-  borderColor = "#FFC8C0C0";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC8C0C0";
-
-/*@ define:input:runes
-type: style
-label: Dust rune custom style
-group: Custom Styling
-exampleItem: Dust rune
-*/
-#define VAR_DUST_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50746241";\
-  borderColor = "#FF746241";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF746241";
-
-/*@ define:input:runes
-type: style
-label: Mud rune custom style
-group: Custom Styling
-exampleItem: Mud rune
-*/
-#define VAR_MUD_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#505D3B17";\
-  borderColor = "#FF5D3B17";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF5D3B17";
-
-/*@ define:input:runes
-type: style
-label: Smoke rune custom style
-group: Custom Styling
-exampleItem: Smoke rune
-*/
-#define VAR_SMOKE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50534D4D";\
-  borderColor = "#FF534D4D";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF534D4D";
-
-/*@ define:input:runes
-type: style
-label: Steam rune custom style
-group: Custom Styling
-exampleItem: Steam rune
-*/
-#define VAR_STEAM_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50AEAEB7";\
-  borderColor = "#FFAEAEB7";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFAEAEB7";
-
-/*@ define:input:runes
-type: style
-label: Lava rune custom style
-group: Custom Styling
-exampleItem: Lava rune
-*/
-#define VAR_LAVA_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D28019";\
-  borderColor = "#FFD28019";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD28019";
-
 apply (name:VAR_RUNES_HIDE) {
     hidden = true;
 }
 
-apply (name:"Air rune") {
-    VAR_AIR_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Air rune" && quantity:<VAR_AIR_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Mind rune") {
-    VAR_MIND_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Mind rune" && quantity:<VAR_MIND_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Water rune") {
-    VAR_WATER_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Water rune" && quantity:<VAR_WATER_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Earth rune") {
-    VAR_EARTH_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Earth rune" && quantity:<VAR_EARTH_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Fire rune") {
-    VAR_FIRE_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Fire rune" && quantity:<VAR_FIRE_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Body rune") {
-    VAR_BODY_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Body rune" && quantity:<VAR_BODY_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Cosmic rune") {
-    VAR_COSMIC_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Cosmic rune" && quantity:<VAR_COSMIC_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Chaos rune") {
-    VAR_CHAOS_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Chaos rune" && quantity:<VAR_CHAOS_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Nature rune") {
-    VAR_NATURE_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Nature rune" && quantity:<VAR_NATURE_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Law rune") {
-    VAR_LAW_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Law rune" && quantity:<VAR_LAW_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Death rune") {
-    VAR_DEATH_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Death rune" && quantity:<VAR_DEATH_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Sunfire rune") {
-    VAR_SUNFIRE_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Sunfire rune" && quantity:<VAR_SUNFIRE_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Astral rune") {
-    VAR_ASTRAL_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Astral rune" && quantity:<VAR_ASTRAL_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Blood rune") {
-    VAR_BLOOD_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Blood rune" && quantity:<VAR_BLOOD_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Soul rune") {
-    VAR_SOUL_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Soul rune" && quantity:<VAR_SOUL_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Wrath rune") {
-    VAR_WRATH_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Wrath rune" && quantity:<VAR_WRATH_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Mist rune") {
-    VAR_MIST_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Mist rune" && quantity:<VAR_MIST_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Dust rune") {
-    VAR_DUST_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Dust rune" && quantity:<VAR_DUST_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Mud rune") {
-    VAR_MUD_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Mud rune" && quantity:<VAR_MUD_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Smoke rune") {
-    VAR_SMOKE_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Smoke rune" && quantity:<VAR_SMOKE_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Steam rune") {
-    VAR_STEAM_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Steam rune" && quantity:<VAR_STEAM_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
-apply (name:"Lava rune") {
-    VAR_LAVA_RUNE_CUSTOMSTYLE 
-}
 apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
@@ -15297,15 +15342,11 @@ name: Constants
 #define CONST_COX_ICE_DEMON_AREA [3263, 5341, 0, 3361, 5375, 0]
 #define CONST_COX_THIEVING_AREA [3263, 5374, 0, 3360, 5408, 0]
 
-
-
 #define CONST_TOB_AREA [3153, 4233, 0, 3322, 4479, 0]
-
-
 
 #define CONST_TOA_AREA [3515, 5126, 0, 3965, 5432, 0]
 
-
+#define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
