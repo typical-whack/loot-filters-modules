@@ -1047,9 +1047,6 @@ exampleItem: Clue scroll (master)
 apply (name:"Clue scroll (master)") {
     VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE 
 }
-
-
-
 /*@ define:group
 ---
 name: Slayer Styles
@@ -1167,9 +1164,6 @@ exampleItem: Imbued heart
 apply (name:"Imbued heart") {
     VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
 }
-
-
-
 /*@ define:group
 ---
 name: Chambers of Xeric Styles
@@ -1647,9 +1641,6 @@ backgroundImage: Chambers of Xeric
 apply (area:CONST_COX_AREA && name:"Water-filled gourd vial") {
     VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE 
 }
-
-
-
 /*@ define:group
 ---
 name: Theatre of Blood Styles
@@ -1695,9 +1686,6 @@ apply (name:"Dawnbringer") {
 apply (name:"Salve amulet (e)") {
     VAR_TOB_SALVE_CUSTOMSTYLE 
 }
-
-
-
 /*@ define:group
 ---
 name: Tombs of Amascut Styles
@@ -1932,9 +1920,6 @@ backgroundImage: Wardens
 apply (area:CONST_TOA_AREA && name:"Scarab dung") {
     VAR_SCARAB_DUNG_CUSTOMSTYLE
 }
-
-
-
 /*@ define:group
 ---
 name: Tormented Demons Drop Styles
@@ -2067,9 +2052,6 @@ exampleItem: Scorching bow
 apply (name:"Scorching bow") {
   VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
 }
-
-
-
 /*@ define:group
 ---
 name: Runes Styles
@@ -2453,9 +2435,6 @@ exampleItem: Lava rune
 apply (name:"Lava rune") {
     VAR_LAVA_RUNE_CUSTOMSTYLE 
 }
-
-
-
 /*@ define:group
 ---
 name: Currency Styles
