@@ -16,7 +16,7 @@ description: |
   This group provides custom styling for each clue tier.
 */
 
-/*@ define:input:clue_scrolls
+/*@ define:input:individual_item_styles
 type: style
 label: Beginner clue scroll custom style
 group: Clue Scrolls Styles
@@ -33,7 +33,7 @@ apply (name:"Clue scroll (beginner)") {
     VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE 
 }
 
-/*@ define:input:clue_scrolls
+/*@ define:input:individual_item_styles
 type: style
 label: Easy clue scroll custom style
 group: Clue Scrolls Styles
@@ -50,7 +50,7 @@ apply (name:"Clue scroll (easy)") {
     VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE 
 }
 
-/*@ define:input:clue_scrolls
+/*@ define:input:individual_item_styles
 type: style
 label: Medium clue scroll custom style
 group: Clue Scrolls Styles
@@ -67,7 +67,7 @@ apply (name:"Clue scroll (medium)") {
     VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE 
 }
 
-/*@ define:input:clue_scrolls
+/*@ define:input:individual_item_styles
 type: style
 label: Hard clue scroll custom style
 group: Clue Scrolls Styles
@@ -84,7 +84,7 @@ apply (name:"Clue scroll (hard)") {
     VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE 
 }
 
-/*@ define:input:clue_scrolls
+/*@ define:input:individual_item_styles
 type: style
 label: Elite clue scroll custom style
 group: Clue Scrolls Styles
@@ -101,7 +101,7 @@ apply (name:"Clue scroll (elite)") {
     VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE 
 }
 
-/*@ define:input:clue_scrolls
+/*@ define:input:individual_item_styles
 type: style
 label: Master clue scroll custom style
 group: Clue Scrolls Styles
@@ -130,7 +130,7 @@ description: |
   Provides styling for slayer keys and superior uniques.
 */
 
-/*@ define:input:slayer
+/*@ define:input:individual_item_styles
 type: style
 label: Larran's key
 group: Slayer Styles
@@ -148,7 +148,7 @@ apply (name:"Larran's key") {
     VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
 }
 
-/*@ define:input:slayer
+/*@ define:input:individual_item_styles
 type: style
 label: Brimstone key
 group: Slayer Styles
@@ -166,7 +166,7 @@ apply (name:"Brimstone key") {
     VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
 }
 
-/*@ define:input:slayer
+/*@ define:input:individual_item_styles
 type: style
 label: Dust battlestaff
 group: Slayer Styles
@@ -184,7 +184,7 @@ apply (name:"Dust battlestaff") {
     VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
 }
 
-/*@ define:input:slayer
+/*@ define:input:individual_item_styles
 type: style
 label: Mist battlestaff
 group: Slayer Styles
@@ -202,7 +202,7 @@ apply (name:"Mist battlestaff") {
     VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE 
 }
 
-/*@ define:input:slayer
+/*@ define:input:individual_item_styles
 type: style
 label: Eternal gem
 group: Slayer Styles
@@ -220,7 +220,7 @@ apply (name:"Eternal gem") {
     VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE 
 }
 
-/*@ define:input:slayer
+/*@ define:input:individual_item_styles
 type: style
 label: Imbued heart
 group: Slayer Styles
@@ -250,7 +250,7 @@ description: |
   This provides unique styling for the dawnbringer and salve amulet (e) items which are frequently found on the ground in the theater.
 */
 
-/*@ define:input:theatre_of_blood
+/*@ define:input:individual_item_styles
 type: style
 label: Dawnbringer custom style
 group: Theatre of Blood
@@ -264,7 +264,7 @@ backgroundImage: Verzik Vitur
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFad62a7";
 
-/*@ define:input:theatre_of_blood
+/*@ define:input:individual_item_styles
 type: style
 label: Salve custom style
 group: Theatre of Blood
@@ -298,7 +298,7 @@ description: |
   This group provides styling for all currencies in the game.
 */
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Abyssal pearls custom style
 group: Currency Styles
@@ -310,7 +310,7 @@ apply (name:"Abyssal pearls") {
     VAR_ABYSSAL_PEARLS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Agility arena ticket custom style
 group: Currency Styles
@@ -322,7 +322,7 @@ apply (name:"Agility arena ticket") {
     VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Anima-infused bark custom style
 group: Currency Styles
@@ -334,7 +334,7 @@ apply (name:"Anima-infused bark") {
     VAR_ANIMA_INFUSED_BARK_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Archery ticket custom style
 group: Currency Styles
@@ -346,7 +346,7 @@ apply (name:"Archery ticket") {
     VAR_ARCHERY_TICKET_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Barronite shards custom style
 group: Currency Styles
@@ -358,7 +358,7 @@ apply (name:"Barronite shards") {
     VAR_BARRONITE_SHARDS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Blood money custom style
 group: Currency Styles
@@ -370,7 +370,7 @@ apply (name:"Blood money") {
     VAR_BLOOD_MONEY_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Brimhaven voucher custom style
 group: Currency Styles
@@ -382,7 +382,7 @@ apply (name:"Brimhaven voucher") {
     VAR_BRIMHAVEN_VOUCHER_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Castle wars ticket custom style
 group: Currency Styles
@@ -394,7 +394,7 @@ apply (name:"Castle wars ticket") {
     VAR_CASTLE_WARS_TICKET_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Coins custom style
 group: Currency Styles
@@ -406,7 +406,7 @@ apply (name:"Coins") {
     VAR_COINS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Ecto-token custom style
 group: Currency Styles
@@ -418,7 +418,7 @@ apply (name:"Ecto-token") {
     VAR_ECTO_TOKEN_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Frog token custom style
 group: Currency Styles
@@ -430,7 +430,7 @@ apply (name:"Frog token") {
     VAR_FROG_TOKEN_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Glistening tear custom style
 group: Currency Styles
@@ -442,7 +442,7 @@ apply (name:"Glistening tear") {
     VAR_GLISTENING_TEAR_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Golden nugget custom style
 group: Currency Styles
@@ -454,7 +454,7 @@ apply (name:"Golden nugget") {
     VAR_GOLDEN_NUGGET_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Hallowed mark custom style
 group: Currency Styles
@@ -466,7 +466,7 @@ apply (name:"Hallowed mark") {
     VAR_HALLOWED_MARK_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Intelligence custom style
 group: Currency Styles
@@ -478,7 +478,7 @@ apply (name:"Intelligence") {
     VAR_INTELLIGENCE_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Mark of grace custom style
 group: Currency Styles
@@ -490,7 +490,7 @@ apply (name:"Mark of grace") {
     VAR_MARK_OF_GRACE_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Mermaid's tear custom style
 group: Currency Styles
@@ -502,7 +502,7 @@ apply (name:"Mermaid's tear") {
     VAR_MERMAIDS_TEAR_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Minnow custom style
 group: Currency Styles
@@ -514,7 +514,7 @@ apply (name:"Minnow") {
     VAR_MINNOW_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Molch pearl custom style
 group: Currency Styles
@@ -526,7 +526,7 @@ apply (name:"Molch pearl") {
     VAR_MOLCH_PEARL_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Mole claw custom style
 group: Currency Styles
@@ -538,7 +538,7 @@ apply (name:"Mole claw") {
     VAR_MOLE_CLAW_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Mole skin custom style
 group: Currency Styles
@@ -550,7 +550,7 @@ apply (name:"Mole skin") {
     VAR_MOLE_SKIN_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Nuggets custom style
 group: Currency Styles
@@ -562,7 +562,7 @@ apply (name:"Nuggets") {
     VAR_NUGGETS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Numulite custom style
 group: Currency Styles
@@ -574,7 +574,7 @@ apply (name:"Numulite") {
     VAR_NUMULITE_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Paramaya ticket custom style
 group: Currency Styles
@@ -586,7 +586,7 @@ apply (name:"Paramaya ticket") {
     VAR_PARAMAYA_TICKET_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Platinum token custom style
 group: Currency Styles
@@ -598,7 +598,7 @@ apply (name:"Platinum token") {
     VAR_PLATINUM_TOKEN_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Rare creature parts custom style
 group: Currency Styles
@@ -610,7 +610,7 @@ apply (name:"Rare creature parts") {
     VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Reward token credits custom style
 group: Currency Styles
@@ -622,7 +622,7 @@ apply (name:"Reward token credits") {
     VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Shantay pass custom style
 group: Currency Styles
@@ -634,7 +634,7 @@ apply (name:"Shantay pass") {
     VAR_SHANTAY_PASS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Ship ticket custom style
 group: Currency Styles
@@ -646,7 +646,7 @@ apply (name:"Ship ticket") {
     VAR_SHIP_TICKET_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Stardust custom style
 group: Currency Styles
@@ -658,7 +658,7 @@ apply (name:"Stardust") {
     VAR_STARDUST_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Termites custom style
 group: Currency Styles
@@ -670,7 +670,7 @@ apply (name:"Termites") {
     VAR_TERMITES_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Tokkul custom style
 group: Currency Styles
@@ -682,7 +682,7 @@ apply (name:"Tokkul") {
     VAR_TOKKUL_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Trading sticks custom style
 group: Currency Styles
@@ -694,7 +694,7 @@ apply (name:"Trading sticks") {
     VAR_TRADING_STICKS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Unidentified minerals custom style
 group: Currency Styles
@@ -706,7 +706,7 @@ apply (name:"Unidentified minerals") {
     VAR_UNIDENTIFIED_MINERALS_CUSTOMSTYLE
 }
 
-/*@ define:input:currency
+/*@ define:input:individual_item_styles
 type: style
 label: Warrior guild token custom style
 group: Currency Styles
