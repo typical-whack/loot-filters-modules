@@ -767,16 +767,15 @@ apply (name:"Salve amulet (e)") {
 
 
 
-
-
-
-
-
-
-
-
-
-
+/*@ define:group
+---
+name: Tombs of Amascut Styles
+expanded: false
+description: |
+  Tombs of Amascut Styles
+  ---
+  This provides per-item custom styling for all drops within the Tombs of Amascut. By default this styles each drop uniquely.
+*/
 
 /*@ define:input:individual_item_styles
 type: style

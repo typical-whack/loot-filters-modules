@@ -4,7 +4,7 @@
 name: Tombs of Amascut
 subtitle: Beneath blessed sands
 description: |
-  This provides per-item filters and custom styling for all drops within the Tombs of Amascut. By default this styles each drop uniquely and filters out a MVP items and books.
+  This provides per-item filters. By default this filters out a MVP items and books.
 */
 
 /*@ define:input:tombs_of_amascut
