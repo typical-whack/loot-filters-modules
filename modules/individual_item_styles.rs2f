@@ -118,6 +118,128 @@ apply (name:"Clue scroll (master)") {
     VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE 
 }
 
+
+
+/*@ define:group
+---
+name: Slayer Styles
+expanded: false
+description: |
+  Slayer Styles
+  ---
+  Provides styling for slayer keys and superior uniques.
+*/
+
+/*@ define:input:slayer
+type: style
+label: Larran's key
+group: Slayer Styles
+exampleItem: Larran's key
+*/
+#define VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50ae9815";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFfada1e";\
+  showLootbeam = true;
+
+apply (name:"Larran's key") {
+    VAR_SLAYER_LARRANS_KEY_CUSTOMSTYLE 
+}
+
+/*@ define:input:slayer
+type: style
+label: Brimstone key
+group: Slayer Styles
+exampleItem: Brimstone key
+*/
+#define VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5026636b";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF41a9b7";\
+  showLootbeam = true;
+
+apply (name:"Brimstone key") {
+    VAR_SLAYER_BRIMSTONE_KEY_CUSTOMSTYLE 
+}
+
+/*@ define:input:slayer
+type: style
+label: Dust battlestaff
+group: Slayer Styles
+exampleItem: Dust battlestaff
+*/
+#define VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5071603f";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFbda069";\
+  showLootbeam = true;
+
+apply (name:"Dust battlestaff") {
+    VAR_SLAYER_DUST_BATTLESTAFF_CUSTOMSTYLE 
+}
+
+/*@ define:input:slayer
+type: style
+label: Mist battlestaff
+group: Slayer Styles
+exampleItem: Mist battlestaff
+*/
+#define VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50847a83";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFd0c0ce";\
+  showLootbeam = true;
+
+apply (name:"Mist battlestaff") {
+    VAR_SLAYER_MIST_BATTLESTAFF_CUSTOMSTYLE 
+}
+
+/*@ define:input:slayer
+type: style
+label: Eternal gem
+group: Slayer Styles
+exampleItem: Eternal gem
+*/
+#define VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5036aebc";\
+  borderColor = "#FF9fc34a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF36aebc";\
+  showLootbeam = true;
+
+apply (name:"Eternal gem") {
+    VAR_SLAYER_ETERNAL_GEM_CUSTOMSTYLE 
+}
+
+/*@ define:input:slayer
+type: style
+label: Imbued heart
+group: Slayer Styles
+exampleItem: Imbued heart
+*/
+#define VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5061374a";\
+  borderColor = "#FF432e43";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFad6284";\
+  showLootbeam = true;
+
+apply (name:"Imbued heart") {
+    VAR_SLAYER_IMBUED_HEART_CUSTOMSTYLE 
+}
+
+
+
 /*@ define:group
 ---
 name: Currency Styles
