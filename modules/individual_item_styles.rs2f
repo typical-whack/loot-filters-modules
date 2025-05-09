@@ -242,6 +242,485 @@ apply (name:"Imbued heart") {
 
 /*@ define:group
 ---
+name: Chambers of Xeric
+expanded: false
+description: |
+  Chambers of Xeric
+  ---
+  This provides per-item custom styling for all drops that happen during your chambers of xeric raid. By default this styles each drop uniquely so they are easier to pick off the ground.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Elder potion custom style
+group: Chambers of Xeric Styles
+exampleItem: Elder potion
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_ELDER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50845B5C";\
+  borderColor = "#FF845B5C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF845B5C";
+
+apply (area:CONST_COX_AREA && name:["elder (-)*", \
+  "elder potion*", \
+  "elder (+)*", \
+]) {
+    VAR_COX_ELDER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Twisted potion custom style
+group: Chambers of Xeric Styles
+exampleItem: Twisted potion
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_TWISTED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50657E69";\
+  borderColor = "#FF657E69";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF657E69";
+
+apply (area:CONST_COX_AREA && name:["twisted (-)*", \
+  "twisted potion*", \
+  "twisted (+)*", \
+]) {
+    VAR_COX_TWISTED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Kodai potion custom style
+group: Chambers of Xeric Styles
+exampleItem: Kodai potion
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_KODAI_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#507288A8";\
+  borderColor = "#FF7288A8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7288A8";
+
+apply (area:CONST_COX_AREA && name:["kodai (-)*", \
+  "kodai potion*", \
+  "kodai (+)*", \
+]) {
+    VAR_COX_KODAI_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Revitalisation potion custom style
+group: Chambers of Xeric Styles
+exampleItem: Revitalisation potion
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_REVITALISATION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A56785";\
+  borderColor = "#FFA56785";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFed89b5";
+
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
+  "revitalisation potion*", \
+  "revitalisation (+)*", \
+]) {
+    VAR_COX_REVITALISATION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Prayer enhance custom style
+group: Chambers of Xeric Styles
+exampleItem: Prayer enhance
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509257BA";\
+  borderColor = "#FF9257BA";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9257BA";
+
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
+  "prayer enhance (4)", \
+  "prayer enhance (3)", \
+  "prayer enhance (2)", \
+  "prayer enhance (1)", \
+  "prayer enhance (+)*", \
+]) {
+    VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Xeric's aid custom style
+group: Chambers of Xeric Styles
+exampleItem: Xeric's aid
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_XERICS_AID_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AFAC73";\
+  borderColor = "#FFE7E6D5";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFf7f84d";
+
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
+  "xeric's aid (4)", \
+  "xeric's aid (3)", \
+  "xeric's aid (2)", \
+  "xeric's aid (1)", \
+  "xeric's aid (+)*", \
+]) {
+    VAR_COX_XERICS_AID_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Antipoison custom style
+group: Chambers of Xeric Styles
+exampleItem: Antipoison
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_ANTIPOISON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A4D27E";\
+  borderColor = "#FFA4D27E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFA4D27E";
+
+apply (area:CONST_COX_AREA && name:["antipoison (-)*", \
+  "antipoison (4)", \
+  "antipoison (3)", \
+  "antipoison (2)", \
+  "antipoison (1)", \
+  "antipoison (+)*", \
+]) {
+    VAR_COX_ANTIPOISON_CUSTOMSTYLE 
+}
+/*@ define:input:individual_item_styles
+type: style
+label: Overload custom style
+group: Chambers of Xeric Styles
+exampleItem: Overload
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_OVERLOAD_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50130F0F";\
+  borderColor = "#FF130F0F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF130F0F";
+
+apply (area:CONST_COX_AREA && name:["overload (-)*", \
+  "overload (4)", \
+  "overload (3)", \
+  "overload (2)", \
+  "overload (1)", \
+  "overload (+)*", \
+]) {
+    VAR_COX_OVERLOAD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Golpar seed custom style
+group: Chambers of Xeric Styles
+exampleItem: Golpar seed
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_GOLPAR_SEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A6A1DE";\
+  borderColor = "#FFA6A1DE";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFA6A1DE";
+
+apply (area:CONST_COX_AREA && name:"Golpar seed") {
+    VAR_GOLPAR_SEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Buchu seed custom style
+group: Chambers of Xeric Styles
+exampleItem: Buchu seed
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_BUCHU_SEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A5423C";\
+  borderColor = "#FFA5423C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFA5423C";
+
+apply (area:CONST_COX_AREA && name:"Buchu seed") {
+    VAR_BUCHU_SEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Noxifer seed custom style
+group: Chambers of Xeric Styles
+exampleItem: Noxifer seed
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_NOXIFER_SEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503E348F";\
+  borderColor = "#FF3E348F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF3E348F";
+
+apply (area:CONST_COX_AREA && name:"Noxifer seed") {
+    VAR_NOXIFER_SEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Grimy golpar custom style
+group: Chambers of Xeric Styles
+exampleItem: Grimy golpar
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_GRIMY_GOLPAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50836138";\
+  borderColor = "#FF1AE4A6";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1AE4A6";
+
+apply (area:CONST_COX_AREA && name:"Grimy golpar") {
+    VAR_GRIMY_GOLPAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Grimy buchu leaf custom style
+group: Chambers of Xeric Styles
+exampleItem: Grimy buchu leaf
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50856339";\
+  borderColor = "#FFD32C19";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD32C19";
+
+apply (area:CONST_COX_AREA && name:"Grimy buchu leaf") {
+    VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Grimy noxifer custom style
+group: Chambers of Xeric Styles
+exampleItem: Grimy noxifer
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_GRIMY_NOXIFER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50805F38";\
+  borderColor = "#FFD3B4FC";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD3B4FC";
+
+apply (area:CONST_COX_AREA && name:"Grimy noxifer") {
+    VAR_GRIMY_NOXIFER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Golpar custom style
+group: Chambers of Xeric Styles
+exampleItem: Golpar
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_GOLPAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505D4477";\
+  borderColor = "#FF1ADFA2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1ADFA2";
+
+apply (area:CONST_COX_AREA && name:"golpar") {
+    VAR_GOLPAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Buchu leaf custom style
+group: Chambers of Xeric Styles
+exampleItem: Buchu leaf
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_BUCHU_LEAF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505A4173";\
+  borderColor = "#FFD12C18";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD12C18";
+
+apply (area:CONST_COX_AREA && name:"buchu leaf") {
+    VAR_BUCHU_LEAF_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Noxifer custom style
+group: Chambers of Xeric Styles
+exampleItem: Noxifer
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_NOXIFER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505B4275";\
+  borderColor = "#FFD3B4FC";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD3B4FC";
+
+apply (area:CONST_COX_AREA && name:"noxifer") {
+    VAR_NOXIFER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Endarkened juice custom style
+group: Chambers of Xeric Styles
+exampleItem: Endarkened juice
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_ENDARKENED_JUICE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#507539e0";\
+  borderColor = "#FF7539e0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7539e0";
+
+apply (area:CONST_COX_AREA && name:"Endarkened juice") {
+    VAR_ENDARKENED_JUICE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Stinkhorn mushroom custom style
+group: Chambers of Xeric Styles
+exampleItem: Stinkhorn mushroom
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506d3532";\
+  borderColor = "#FF6d3532";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6d3532";
+
+apply (area:CONST_COX_AREA && name:"Stinkhorn mushroom") {
+    VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cicely custom style
+group: Chambers of Xeric Styles
+exampleItem: Cicely
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_CICELY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50a48aa8";\
+  borderColor = "#FFa48aa8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFa48aa8";
+
+apply (area:CONST_COX_AREA && name:"Cicely") {
+    VAR_CICELY_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mallignum root plank custom style
+group: Chambers of Xeric Styles
+exampleItem: Mallignum root plank
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50484320";\
+  borderColor = "#FF484320";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFb2b099";
+
+apply (area:CONST_COX_AREA && name:"Mallignum root plank") {
+    VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cavern grubs custom style
+group: Chambers of Xeric Styles
+exampleItem: Cavern grubs
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_CAVERN_GRUBS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509f7756";\
+  borderColor = "#FF9f7756";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFcfbbaa";
+
+apply (area:CONST_COX_AREA && name:"Cavern grubs") {
+    VAR_CAVERN_GRUBS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Empty gourd vial custom style
+group: Chambers of Xeric Styles
+exampleItem: Empty gourd vial
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50636165";\
+  borderColor = "#FFbeb8c2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFbeb8c2";
+
+apply (area:CONST_COX_AREA && name:"Empty gourd vial") {
+    VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Water-filled gourd vial custom style
+group: Chambers of Xeric Styles
+exampleItem: Water-filled gourd vial
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50a7a8c0";\
+  borderColor = "#FFb8b2bc";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFa7a8c0";
+
+apply (area:CONST_COX_AREA && name:"Water-filled gourd vial") {
+    VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE 
+}
+
+
+
+/*@ define:group
+---
 name: Theatre of Blood
 expanded: false
 description: |
