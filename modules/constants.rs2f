@@ -20,6 +20,10 @@ name: Constants
 
 
 
+#define CONST_TOA_AREA [3515, 5126, 0, 3965, 5432, 0]
+
+
+
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
     "1/2 meat pizza", \
