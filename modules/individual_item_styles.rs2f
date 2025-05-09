@@ -1169,23 +1169,6 @@ apply (name:"Air rune") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Mind rune custom style
-group: Runes Styles
-exampleItem: Mind rune
-*/
-#define VAR_MIND_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D58A2E";\
-  borderColor = "#FFD58A2E";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD58A2E";
-
-apply (name:"Mind rune") {
-    VAR_MIND_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
 label: Water rune custom style
 group: Runes Styles
 exampleItem: Water rune
@@ -1233,6 +1216,23 @@ exampleItem: Fire rune
 
 apply (name:"Fire rune") {
     VAR_FIRE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mind rune custom style
+group: Runes Styles
+exampleItem: Mind rune
+*/
+#define VAR_MIND_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D58A2E";\
+  borderColor = "#FFD58A2E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD58A2E";
+
+apply (name:"Mind rune") {
+    VAR_MIND_RUNE_CUSTOMSTYLE 
 }
 
 /*@ define:input:individual_item_styles
