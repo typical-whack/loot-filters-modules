@@ -17,6 +17,12 @@ exampleItemId: 12922
   fontType = 3;\
   showLootbeam = true;
 
+/*@ define:group
+---
+name: "Uniques List"
+expanded: false
+*/
+
 /*@ define:input:uniques
 type: stringlist
 label: Uniques
