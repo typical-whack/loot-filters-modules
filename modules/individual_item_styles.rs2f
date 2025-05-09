@@ -1007,6 +1007,142 @@ apply (area:CONST_TOA_AREA && name:"Scarab dung") {
 
 /*@ define:group
 ---
+name: Tormented Demons Drop Styles
+expanded: false
+description: |
+  Tormented Demons Drop Styles
+  ---
+  Provides styling for Tormented Demons drops.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smouldering gland
+group: Tormented Demons Drop Styles
+exampleItem: Smouldering gland
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5059D4A8";\
+  borderColor = "#FF59D4A8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF59D4A8";
+
+apply (name:"Smouldering gland") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_GLAND_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smouldering heart
+group: Tormented Demons Drop Styles
+exampleItem: Smouldering heart
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5019640B";\
+  borderColor = "#FF19640B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF19640B";
+
+apply (name:"Smouldering heart") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_HEART_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smouldering pile of flesh
+group: Tormented Demons Drop Styles
+exampleItem: Smouldering pile of flesh
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50624b18";\
+  borderColor = "#FF624b18";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFffd480";
+
+apply (name:"Smouldering pile of flesh") {
+    VAR_MONSTERS_TORMENTED_DEMONS_SMOULDERING_PILE_OF_FLESH_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tormented synapse
+group: Tormented Demons Drop Styles
+exampleItem: Tormented synapse
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
+
+apply (name:"Tormented synapse") {
+    VAR_MONSTERS_TORMENTED_DEMONS_TORMENTED_SYNAPSE_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Burning claw
+group: Tormented Demons Drop Styles
+exampleItem: Burning claw
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+
+apply (name:"Burning claw") {
+    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Burning claws
+group: Tormented Demons Drop Styles
+exampleItem: Burning claws
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+
+apply (name:"Burning claws") {
+    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Emberlight
+group: Tormented Demons Drop Styles
+exampleItem: Emberlight
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
+
+apply (name:"Emberlight") {
+  VAR_MONSTERS_TORMENTED_DEMONS_EMBERLIGHT_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Purging staff
+group: Tormented Demons Drop Styles
+exampleItem: Purging staff
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
+
+apply (name:"Purging staff") {
+  VAR_MONSTERS_TORMENTED_DEMONS_PURGING_STAFF_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Scorching bow
+group: Tormented Demons Drop Styles
+exampleItem: Scorching bow
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
+
+apply (name:"Scorching bow") {
+  VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
+}
+
+
+
+
+/*@ define:group
+---
 name: Currency Styles
 expanded: false
 description: |
