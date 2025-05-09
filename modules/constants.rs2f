@@ -3,6 +3,8 @@ hidden: true
 name: Constants
 */
 
+#define CONST_TOB_AREA [3153, 4233, 0, 3322, 4479, 0]
+
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
     "1/2 meat pizza", \
@@ -210,7 +212,6 @@ name: Constants
     "Water-filled vial pack", \
     "Weapon store key", \
 ]
-
 
 #define CONST_FARMING_SEEDS_ALLOTMENT_LIST [ \
   "Potato seed", \

@@ -8,7 +8,6 @@ currency
 clues
 remains
 chambers_of_xeric
-theatre_of_blood
 tombs_of_amascut
 bossing
 slayer
