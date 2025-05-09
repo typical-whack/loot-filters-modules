@@ -8,6 +8,12 @@ description: |
   *Note: These styles can be overridden by modules below.*
 */
 
+/*@ define:group
+---
+name: Default Style
+expanded: true
+*/
+
 /*@ define:input:default_styling
 type: style
 label: Default Style
@@ -23,6 +29,12 @@ apply (true) {
     VAR_GLOBAL_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: "Default Stackable/Noted Style"
+expanded: true
+*/
+
 /*@ define:input:default_styling
 type: style
 label: "Default Stackable/Noted Style"
@@ -35,6 +47,12 @@ exampleItemId: 73
 apply (stackable:true || noted:true) {
     VAR_DEFAULT_STACKABLE_NOTED_CUSTOMSTYLE 
 }
+
+/*@ define:group
+---
+name: "Default Untradeable Style"
+expanded: true
+*/
 
 /*@ define:input:default_styling
 type: style
