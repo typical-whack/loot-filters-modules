@@ -3,6 +3,7 @@ sorting
 filtering
 item_tiers
 uniques
+alchs
 individual_item_styles
 currency
 clues
@@ -12,7 +13,6 @@ tombs_of_amascut
 bossing
 slayer
 monsters
-alchs
 ammo
 runes
 logs
