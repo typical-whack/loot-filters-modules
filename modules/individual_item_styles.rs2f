@@ -252,6 +252,99 @@ description: |
 
 /*@ define:input:individual_item_styles
 type: style
+label: Overload custom style
+group: Chambers of Xeric Styles
+exampleItem: Overload
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_OVERLOAD_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50130F0F";\
+  borderColor = "#FF130F0F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF130F0F";
+
+apply (area:CONST_COX_AREA && name:["overload (-)*", \
+  "overload (4)", \
+  "overload (3)", \
+  "overload (2)", \
+  "overload (1)", \
+  "overload (+)*", \
+]) {
+    VAR_COX_OVERLOAD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Xeric's aid custom style
+group: Chambers of Xeric Styles
+exampleItem: Xeric's aid
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_XERICS_AID_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AFAC73";\
+  borderColor = "#FFE7E6D5";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFf7f84d";
+
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
+  "xeric's aid (4)", \
+  "xeric's aid (3)", \
+  "xeric's aid (2)", \
+  "xeric's aid (1)", \
+  "xeric's aid (+)*", \
+]) {
+    VAR_COX_XERICS_AID_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Revitalisation potion custom style
+group: Chambers of Xeric Styles
+exampleItem: Revitalisation potion
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_REVITALISATION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A56785";\
+  borderColor = "#FFA56785";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFed89b5";
+
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
+  "revitalisation potion*", \
+  "revitalisation (+)*", \
+]) {
+    VAR_COX_REVITALISATION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Prayer enhance custom style
+group: Chambers of Xeric Styles
+exampleItem: Prayer enhance
+backgroundImage: Chambers of Xeric
+*/
+#define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509257BA";\
+  borderColor = "#FF9257BA";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9257BA";
+
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
+  "prayer enhance (4)", \
+  "prayer enhance (3)", \
+  "prayer enhance (2)", \
+  "prayer enhance (1)", \
+  "prayer enhance (+)*", \
+]) {
+    VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
 label: Elder potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Elder potion
@@ -315,75 +408,6 @@ apply (area:CONST_COX_AREA && name:["kodai (-)*", \
 
 /*@ define:input:individual_item_styles
 type: style
-label: Revitalisation potion custom style
-group: Chambers of Xeric Styles
-exampleItem: Revitalisation potion
-backgroundImage: Chambers of Xeric
-*/
-#define VAR_COX_REVITALISATION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50A56785";\
-  borderColor = "#FFA56785";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFed89b5";
-
-apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
-  "revitalisation potion*", \
-  "revitalisation (+)*", \
-]) {
-    VAR_COX_REVITALISATION_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Prayer enhance custom style
-group: Chambers of Xeric Styles
-exampleItem: Prayer enhance
-backgroundImage: Chambers of Xeric
-*/
-#define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509257BA";\
-  borderColor = "#FF9257BA";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9257BA";
-
-apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
-  "prayer enhance (4)", \
-  "prayer enhance (3)", \
-  "prayer enhance (2)", \
-  "prayer enhance (1)", \
-  "prayer enhance (+)*", \
-]) {
-    VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Xeric's aid custom style
-group: Chambers of Xeric Styles
-exampleItem: Xeric's aid
-backgroundImage: Chambers of Xeric
-*/
-#define VAR_COX_XERICS_AID_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50AFAC73";\
-  borderColor = "#FFE7E6D5";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFf7f84d";
-
-apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
-  "xeric's aid (4)", \
-  "xeric's aid (3)", \
-  "xeric's aid (2)", \
-  "xeric's aid (1)", \
-  "xeric's aid (+)*", \
-]) {
-    VAR_COX_XERICS_AID_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
 label: Antipoison custom style
 group: Chambers of Xeric Styles
 exampleItem: Antipoison
@@ -404,29 +428,6 @@ apply (area:CONST_COX_AREA && name:["antipoison (-)*", \
   "antipoison (+)*", \
 ]) {
     VAR_COX_ANTIPOISON_CUSTOMSTYLE 
-}
-/*@ define:input:individual_item_styles
-type: style
-label: Overload custom style
-group: Chambers of Xeric Styles
-exampleItem: Overload
-backgroundImage: Chambers of Xeric
-*/
-#define VAR_COX_OVERLOAD_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50130F0F";\
-  borderColor = "#FF130F0F";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF130F0F";
-
-apply (area:CONST_COX_AREA && name:["overload (-)*", \
-  "overload (4)", \
-  "overload (3)", \
-  "overload (2)", \
-  "overload (1)", \
-  "overload (+)*", \
-]) {
-    VAR_COX_OVERLOAD_CUSTOMSTYLE 
 }
 
 /*@ define:input:individual_item_styles
