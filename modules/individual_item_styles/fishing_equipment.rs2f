@@ -1,0 +1,246 @@
+/*@ define:group
+---
+name: Fishing Equipment Styles
+expanded: false
+description: |
+  Fishing Equipment Styles
+  ---
+  This module provides custom style for fishing equipment
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Small fishing net custom style
+group: Fishing Equipment Styles
+exampleItem: Small fishing net
+*/
+#define VAR_SMALL_FISHING_NET_CUSTOMSTYLE 
+
+apply (name:"Small fishing net") {
+    VAR_SMALL_FISHING_NET_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Big fishing net custom style
+group: Fishing Equipment Styles
+exampleItem: Big fishing net
+*/
+#define VAR_BIG_FISHING_NET_CUSTOMSTYLE 
+
+apply (name:"Big fishing net") {
+    VAR_BIG_FISHING_NET_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Drift net custom style
+group: Fishing Equipment Styles
+exampleItem: Drift net
+*/
+#define VAR_DRIFT_NET_CUSTOMSTYLE 
+
+apply (name:"Drift net") {
+    VAR_DRIFT_NET_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fishing rod custom style
+group: Fishing Equipment Styles
+exampleItem: Fishing rod
+*/
+#define VAR_FISHING_ROD_CUSTOMSTYLE 
+
+apply (name:"Fishing rod") {
+    VAR_FISHING_ROD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fly fishing rod custom style
+group: Fishing Equipment Styles
+exampleItem: Fly fishing rod
+*/
+#define VAR_FLY_FISHING_ROD_CUSTOMSTYLE 
+
+apply (name:"Fly fishing rod") {
+    VAR_FLY_FISHING_ROD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Oily fishing rod custom style
+group: Fishing Equipment Styles
+exampleItem: Oily fishing rod
+*/
+#define VAR_OILY_FISHING_ROD_CUSTOMSTYLE 
+
+apply (name:"Oily fishing rod") {
+    VAR_OILY_FISHING_ROD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Harpoon custom style
+group: Fishing Equipment Styles
+exampleItem: Harpoon
+*/
+#define VAR_HARPOON_CUSTOMSTYLE 
+
+apply (name:"Harpoon") {
+    VAR_HARPOON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lobster pot custom style
+group: Fishing Equipment Styles
+exampleItem: Lobster pot
+*/
+#define VAR_LOBSTER_POT_CUSTOMSTYLE 
+
+apply (name:"Lobster pot") {
+    VAR_LOBSTER_POT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Karambwan vessel custom style
+group: Fishing Equipment Styles
+exampleItem: Karambwan vessel
+*/
+#define VAR_KARAMBWAN_VESSEL_CUSTOMSTYLE 
+
+apply (name:"Karambwan vessel") {
+    VAR_KARAMBWAN_VESSEL_CUSTOMSTYLE 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sandworms custom style
+group: Fishing bait custom style
+exampleItem: Sandworms
+*/
+#define VAR_SANDWORMS_CUSTOMSTYLE 
+
+apply (name:"Sandworms") {
+    VAR_SANDWORMS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fishing bait custom style
+group: Fishing default styles
+exampleItem: Fishing bait
+*/
+#define VAR_FISHING_BAIT_CUSTOMSTYLE 
+
+apply (name:"Fishing bait") {
+    VAR_FISHING_BAIT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Feather custom style
+group: Fishing bait custom style
+exampleItem: Feather
+*/
+#define VAR_FEATHER_CUSTOMSTYLE 
+
+apply (name:"Feather") {
+    VAR_FEATHER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Stripy feather custom style
+group: Fishing bait custom style
+exampleItem: Stripy feather
+*/
+#define VAR_STRIPY_FEATHER_CUSTOMSTYLE 
+
+apply (name:"Stripy feather") {
+    VAR_STRIPY_FEATHER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dark fishing bait custom style
+group: Fishing bait custom style
+exampleItem: Dark fishing bait
+*/
+#define VAR_DARK_FISHING_BAIT_CUSTOMSTYLE 
+
+apply (name:"Dark fishing bait") {
+    VAR_DARK_FISHING_BAIT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: King worm custom style
+group: Fishing bait custom style
+exampleItem: King worm
+*/
+#define VAR_KING_WORM_CUSTOMSTYLE 
+
+apply (name:"King worm") {
+    VAR_KING_WORM_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fish chunks custom style
+group: Fishing bait custom style
+exampleItem: Fish chunks
+*/
+#define VAR_FISH_CHUNKS_CUSTOMSTYLE 
+
+apply (name:"Fish chunks") {
+    VAR_FISH_CHUNKS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw karambwanji custom style
+group: Fishing bait custom style
+exampleItem: Raw karambwanji
+*/
+#define VAR_RAW_KARAMBWANJI_CUSTOMSTYLE 
+
+apply (name:"Raw karambwanji") {
+    VAR_RAW_KARAMBWANJI_CUSTOMSTYLE 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
