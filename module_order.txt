@@ -11,6 +11,7 @@ individual_item_styles/chambers_of_xeric
 individual_item_styles/theatre_of_blood
 individual_item_styles/tombs_of_amascut
 individual_item_styles/tormented_demons
+individual_item_styles/logs
 individual_item_styles/runes
 individual_item_styles/currency
 currency
