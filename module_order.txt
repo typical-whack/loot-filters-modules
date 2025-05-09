@@ -4,6 +4,7 @@ filtering
 item_tiers
 uniques
 alchs
+individual_item_styles/_module_definition
 individual_item_styles
 currency
 clues
