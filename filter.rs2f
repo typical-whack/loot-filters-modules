@@ -840,6 +840,95 @@ group: "Power User: Stop Filter Execution"
 #define VAR_UNIQUES_TERMINATE false
 
 rule (VAR_UNIQUES_TERMINATE && name:VAR_UNIQUES_LIST) {}
+/*@ define:module:alchs
+---
+name: Alchs
+subtitle: Ka-ching!
+description: |
+  Provides styling options for common alchable items.
+*/
+
+/*@ define:input:alchs
+type: boolean
+label: Force items from the alchs list to be shown
+*/
+#define VAR_ALCHS_FORCE_SHOWN true
+
+apply (VAR_ALCHS_FORCE_SHOWN && name:VAR_ALCHS_ITEM_LIST) {
+    hidden = false;
+}
+
+/*@ define:input:alchs
+type: style
+label: Custom style for items on the alchs list
+exampleItem: Rune platelegs
+exampleItemId: 1079
+*/
+#define VAR_ALCHS_CUSTOMSTYLE \
+    icon = Sprite(41, 0);
+
+apply (name:VAR_ALCHS_ITEM_LIST) {
+    VAR_ALCHS_CUSTOMSTYLE
+}
+
+/*@ define:input:alchs
+type: stringlist
+label: List of alchables
+group: List of alchables
+*/
+#define VAR_ALCHS_ITEM_LIST [ \
+  "Adamant platebody", \
+  "Air battlestaff", \
+  "Dragon battleaxe", \
+  "Dragon dagger", \
+  "Dragon halberd", \
+  "Dragon longsword", \
+  "Dragon mace", \
+  "Dragon med helm", \
+  "Dragon platelegs", \
+  "Dragon plateskirt", \
+  "Dragon scimitar", \
+  "Earth battlestaff", \
+  "Fire battlestaff", \
+  "Lava battlestaff", \
+  "Mystic air staff", \
+  "Mystic earth staff", \
+  "Mystic fire staff", \
+  "Mystic lava staff", \
+  "Mystic robe bottom", \
+  "Mystic robe top", \
+  "Mystic water staff", \
+  "Onyx dragon bolts (e)", \
+  "Rune 2h sword", \
+  "Rune battleaxe", \
+  "Rune chainbody", \
+  "Rune full helm", \
+  "Rune halberd", \
+  "Rune hasta", \
+  "Rune kiteshield", \
+  "Rune longsword", \
+  "Rune med helm", \
+  "Rune pickaxe", \
+  "Rune platebody", \
+  "Rune platelegs", \
+  "Rune plateskirt", \
+  "Rune scimitar", \
+  "Rune spear", \
+  "Rune sq shield", \
+  "Rune sword", \
+  "Runite crossbow (u)", \
+  "Runite limbs", \
+  "Water battlestaff", \
+]
+
+/*@ define:input:alchs
+type: boolean
+label: Dont let alchables get filtered out or restyled in future modules
+group: "Power User: Stop Filter Execution"
+*/
+#define VAR_ALCHS_TERMINATE false
+
+rule (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {}
 /*@ define:module:individual_item_styles
 ---
 name: Individual Item Styles
@@ -1084,7 +1173,7 @@ apply (name:"Imbued heart") {
 
 /*@ define:group
 ---
-name: Chambers of Xeric
+name: Chambers of Xeric Styles
 expanded: false
 description: |
   Chambers of Xeric
@@ -1563,7 +1652,7 @@ apply (area:CONST_COX_AREA && name:"Water-filled gourd vial") {
 
 /*@ define:group
 ---
-name: Theatre of Blood
+name: Theatre of Blood Styles
 expanded: false
 description: |
   Theatre of Blood
@@ -1574,7 +1663,7 @@ description: |
 /*@ define:input:individual_item_styles
 type: style
 label: Dawnbringer custom style
-group: Theatre of Blood
+group: Theatre of Blood Styles
 exampleItem: Dawnbringer
 backgroundImage: Verzik Vitur
 */
@@ -1588,7 +1677,7 @@ backgroundImage: Verzik Vitur
 /*@ define:input:individual_item_styles
 type: style
 label: Salve custom style
-group: Theatre of Blood
+group: Theatre of Blood Styles
 exampleItem: Salve amulet (e)
 backgroundImage: Verzik Vitur
 */
@@ -4696,95 +4785,6 @@ exampleItem: Scorching bow
 apply (name:"Scorching bow") {
   VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
 }
-/*@ define:module:alchs
----
-name: Alchs
-subtitle: Ka-ching!
-description: |
-  Provides styling options for common alchable items.
-*/
-
-/*@ define:input:alchs
-type: boolean
-label: Force items from the alchs list to be shown
-*/
-#define VAR_ALCHS_FORCE_SHOWN true
-
-apply (VAR_ALCHS_FORCE_SHOWN && name:VAR_ALCHS_ITEM_LIST) {
-    hidden = false;
-}
-
-/*@ define:input:alchs
-type: style
-label: Custom style for items on the alchs list
-exampleItem: Rune platelegs
-exampleItemId: 1079
-*/
-#define VAR_ALCHS_CUSTOMSTYLE \
-    icon = Sprite(41, 0);
-
-apply (name:VAR_ALCHS_ITEM_LIST) {
-    VAR_ALCHS_CUSTOMSTYLE
-}
-
-/*@ define:input:alchs
-type: stringlist
-label: List of alchables
-group: List of alchables
-*/
-#define VAR_ALCHS_ITEM_LIST [ \
-  "Adamant platebody", \
-  "Air battlestaff", \
-  "Dragon battleaxe", \
-  "Dragon dagger", \
-  "Dragon halberd", \
-  "Dragon longsword", \
-  "Dragon mace", \
-  "Dragon med helm", \
-  "Dragon platelegs", \
-  "Dragon plateskirt", \
-  "Dragon scimitar", \
-  "Earth battlestaff", \
-  "Fire battlestaff", \
-  "Lava battlestaff", \
-  "Mystic air staff", \
-  "Mystic earth staff", \
-  "Mystic fire staff", \
-  "Mystic lava staff", \
-  "Mystic robe bottom", \
-  "Mystic robe top", \
-  "Mystic water staff", \
-  "Onyx dragon bolts (e)", \
-  "Rune 2h sword", \
-  "Rune battleaxe", \
-  "Rune chainbody", \
-  "Rune full helm", \
-  "Rune halberd", \
-  "Rune hasta", \
-  "Rune kiteshield", \
-  "Rune longsword", \
-  "Rune med helm", \
-  "Rune pickaxe", \
-  "Rune platebody", \
-  "Rune platelegs", \
-  "Rune plateskirt", \
-  "Rune scimitar", \
-  "Rune spear", \
-  "Rune sq shield", \
-  "Rune sword", \
-  "Runite crossbow (u)", \
-  "Runite limbs", \
-  "Water battlestaff", \
-]
-
-/*@ define:input:alchs
-type: boolean
-label: Dont let alchables get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
-*/
-#define VAR_ALCHS_TERMINATE false
-
-rule (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {}
 /*@ define:module:ammo
 ---
 name: Ammo
