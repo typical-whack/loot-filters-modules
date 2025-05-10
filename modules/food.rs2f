@@ -7,46 +7,6 @@ description: |
   This module provides filters based on food groups with some sane defaults.
 */
 
-#define CONST_HUNTER_FOODS_LIST [ \
-  "Cooked wild kebbit", \
-  "Cooked larupia", \
-  "Cooked barb-tailed kebbit", \
-  "Cooked graahk", \
-  "Cooked kyatt", \
-  "Cooked pyre fox", \
-  "Cooked sunlight antelope", \
-  "Cooked dashing kebbit", \
-  "Cooked moonlight antelope", \
-]
-
-#define CONST_FISH_FOODS_LIST [ \
-  "Shrimp", \
-  "Sardine", \
-  "Karambwanji", \
-  "Herring", \
-  "Anchovies", \
-  "Mackerel", \
-  "Trout", \
-  "Cod", \
-  "Pike", \
-  "Slimy eel", \
-  "Salmon", \
-  "Tuna", \
-  "Rainbow fish", \
-  "Cave eel", \
-  "Lobster", \
-  "Bass", \
-  "Swordfish", \
-  "Lava eel", \
-  "Monkfish", \
-  "Cooked karambwan", \
-  "Shark", \
-  "Sea turtle", \
-  "Manta ray", \
-  "Anglerfish", \
-  "Dark crab", \
-]
-
 /*@ define:input:food
 type: enumlist
 label: Hunter foods to force hidden
