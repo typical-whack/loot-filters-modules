@@ -9,6 +9,7 @@ filtering/gems
 filtering/fishing
 filtering/ores
 area_based_filtering/_module_definition
+area_based_filtering/tombs_of_amascut
 area_based_filtering/monsters_tormented_demons
 area_based_filtering/gauntlet
 area_based_filtering/last_man_standing
@@ -40,7 +41,6 @@ rdt
 currency
 remains
 chambers_of_xeric
-tombs_of_amascut
 bossing
 slayer
 ammo

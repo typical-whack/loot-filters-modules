@@ -1,16 +1,16 @@
-
-/*@ define:module:tombs_of_amascut
+/*@ define:group
 ---
 name: Tombs of Amascut
-subtitle: Beneath blessed sands
 description: |
-  This provides per-item filters. By default this filters out a MVP items and books.
+  Tombs of Amascut
+  ---
+  Provides filtering within the Tombs of Amascut. By default this filters out a MVP items and books.
 */
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: Supplies to force shown
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   {
     "value": "Honey locust (*",
@@ -48,10 +48,10 @@ enum: [
 */
 #define VAR_TOA_SUPPLIES_SHOW []
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: Supplies to force hidden
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   {
     "value": "Honey locust (*",
@@ -89,10 +89,10 @@ enum: [
 */
 #define VAR_TOA_SUPPLIES_HIDE []
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: Room items to force shown
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   "Neutralising potion",
   "Water container"
@@ -102,10 +102,10 @@ enum: [
   "Water container", \
 ]
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: Room items to force hidden
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   "Neutralising potion",
   "Water container"
@@ -115,10 +115,10 @@ enum: [
   "Neutralising potion", \
 ]
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: MVP items to force shown
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   "Big banana",
   "Eldritch ashes",
@@ -128,10 +128,10 @@ enum: [
 */
 #define VAR_TOA_MVP_ITEMS_SHOW []
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: MVP items to force hidden
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   "Big banana",
   "Eldritch ashes",
@@ -146,10 +146,10 @@ enum: [
   "Scarab dung", \
 ]
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: Books to force shown
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   "Akila's journal",
   "Apmeken's Capture",
@@ -162,10 +162,10 @@ enum: [
 */
 #define VAR_TOA_BOOKS_SHOW []
 
-/*@ define:input:tombs_of_amascut
+/*@ define:input:area_based_filtering
 type: enumlist
 label: Books to force hidden
-group: TOA Item Filters
+group: Tombs of Amascut
 enum: [
   "Akila's journal",
   "Apmeken's Capture",
