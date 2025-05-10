@@ -471,6 +471,7 @@ apply (name:CONST_AMMO_JAVELINS_LIST && (name:VAR_AMMO_JAVELINS_HIDE || value:<V
 /* --- SPECIAL BOLTS --- */
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
+  "Moonlight antler bolts", \
   "Sunlight antler bolts", \
   "Kebbit bolts", \
   "Long kebbit bolts", \
