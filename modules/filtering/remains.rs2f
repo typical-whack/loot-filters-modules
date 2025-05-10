@@ -14,6 +14,22 @@ group: Remains
 */
 #define VAR_REMAINS_MINIMUM_VALUE 0
 
+apply (name:CONST_BONES_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+apply (name:CONST_ASHES_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+apply (name:CONST_SHADES_REMAINS_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+apply (name:CONST_ENSOULED_HEAD_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
 /*@ define:input:remains
 type: enumlist
 label: Bones to force hidden
@@ -62,6 +78,10 @@ enum: [
   "Zogre bones", \
 ]
 
+apply (name:VAR_BONES_HIDE) {
+    hidden = true;
+}
+
 /*@ define:input:remains
 type: enumlist
 label: Ashes to force hidden
@@ -79,6 +99,10 @@ enum: [
   "Vile ashes", \
 ]
 
+apply (name:VAR_ASHES_HIDE) {
+    hidden = true;
+}
+
 /*@ define:input:remains
 type: enumlist
 label: Shades of morton remains to force hidden
@@ -93,6 +117,10 @@ enum: [
 ]
 */
 #define VAR_SHADES_REMAINS_HIDE []
+
+apply (name:VAR_SHADES_REMAINS_HIDE) {
+    hidden = true;
+}
 
 /*@ define:input:remains
 type: enumlist
@@ -137,32 +165,6 @@ enum: [
   "Ensouled giant head", \
 ]
 
-
-apply (name:VAR_BONES_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BONES_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-apply (name:VAR_ASHES_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_ASHES_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-apply (name:VAR_SHADES_REMAINS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_SHADES_REMAINS_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
-    hidden = true;
-}
-
 apply (name:VAR_ENSOULED_HEADS_HIDE) {
     hidden = true;
 }
-apply (name:CONST_ENSOULED_HEAD_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
-    hidden = true;
-}
-
