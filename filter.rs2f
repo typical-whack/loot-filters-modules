@@ -324,6 +324,205 @@ rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNE
 rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
 }
+/*@ define:module:area_based_filtering
+---
+name: Area-Based Filtering
+subtitle: Sifting through the junk (in specific areas)
+description: |
+  This module provides filtering for items based on the area they are in.
+*/
+/*@ define:group
+---
+name: The Gauntlet
+expanded: false
+description: |
+  The Gauntlet
+  ---
+  Filtering for the Gauntlet
+*/
+
+
+/*@ define:input:gauntlet
+type: enumlist
+label: Tools to force hidden
+group: The Gauntlet
+enum: [
+  {
+    "value": "* sceptre",
+    "label": "Crystal sceptre"
+  },
+  {
+    "value": "* harpoon",
+    "label": "Crystal harpoon"
+  },
+  {
+    "value": "* axe",
+    "label": "Crystal axe"
+  },
+  {
+    "value": "* pickaxe",
+    "label": "Crystal pickaxe"
+  },
+  {
+    "value": "Pestle and mortar",
+    "label": "Pestle and mortar"
+  },
+  {
+    "value": "*teleport crystal",
+    "label": "Teleport crystal"
+  },
+  {
+    "value": "*escape crystal",
+    "label": "Escape crystal"
+  }
+]
+*/
+#define VAR_GAUNTLET_TOOLS_HIDE [ \
+  "* sceptre", \
+  "* harpoon", \
+  "* axe", \
+  "* pickaxe", \
+  "Pestle and mortar", \
+]
+
+apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_TOOLS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:gauntlet
+type: enumlist
+label: Resources to force hidden
+group: The Gauntlet
+enum: [
+  {
+    "value": "* shards",
+    "label": "Crystal shards"
+  },
+  {
+    "value": "Crystal dust",
+    "label": "Crystal dust"
+  },
+  {
+    "value": "Vial",
+    "label": "Vial"
+  },
+  {
+    "value": "Water-filled vial",
+    "label": "Water-filled vial"
+  },
+  {
+    "value": "Grym leaf",
+    "label": "Grym leaf"
+  },
+  {
+    "value": "Grym potion (unf)",
+    "label": "Grym potion (unf)"
+  },
+  {
+    "value": "Raw paddlefish",
+    "label": "Raw paddlefish"
+  },
+  {
+    "value": "Weapon frame",
+    "label": "Weapon frame"
+  },
+  {
+    "value": "* spike",
+    "label": "Crystal spike"
+  },
+  {
+    "value": "* orb",
+    "label": "Crystal orb"
+  },
+  {
+    "value": "* bowstring",
+    "label": "Crystalline bowstring"
+  },
+  {
+    "value": "Linum tirinum*",
+    "label": "Linum tirinum"
+  },
+  {
+    "value": "Phren bark*",
+    "label": "Phren bark"
+  },
+  {
+    "value": "* ore",
+    "label": "Crystal ore"
+  }
+]
+*/
+#define VAR_GAUNTLET_RESOURCES_HIDE []
+
+apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_RESOURCES_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:gauntlet
+type: enumlist
+label: Supplies to force hidden
+group: The Gauntlet
+enum: [
+  {
+    "value": "Egniol potion (*",
+    "label": "Egniol potion"
+  },
+  {
+    "value": "Paddlefish",
+    "label": "Paddlefish"
+  },
+  {
+    "value": "Crystal paddlefish",
+    "label": "Crystal paddlefish"
+  },
+  {
+    "value": "Corrupted paddlefish",
+    "label": "Corrupted paddlefish"
+  }
+]
+*/
+#define VAR_GAUNTLET_SUPPLIES_HIDE []
+
+apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_SUPPLIES_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:gauntlet
+type: enumlist
+label: Equipment to force hidden
+group: The Gauntlet
+enum: [
+  {
+    "value": "* halberd *",
+    "label": "Crystal halberd"
+  },
+  {
+    "value": "* bow *",
+    "label": "Crystal bow"
+  },
+  {
+    "value": "* staff *",
+    "label": "Crystal staff"
+  },
+  {
+    "value": "* helm *",
+    "label": "Crystal helm"
+  },
+  {
+    "value": "* body *",
+    "label": "Crystal body"
+  },
+  {
+    "value": "* legs *",
+    "label": "Crystal legs"
+  }
+]
+*/
+#define VAR_GAUNTLET_EQUIPMENT_HIDE []
+
+apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_EQUIPMENT_HIDE) {
+    hidden = true;
+}
 /*@ define:module:item_tiers
 ---
 name: Item tiers
@@ -13639,196 +13838,6 @@ apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
 }
 
 apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:module:gauntlet
----
-name: Gauntlet
-subtitle: Crystal palace of suffering
-description: |
-  Filtering and style for the Gauntlet
-*/
-
-/*@ define:input:gauntlet
-type: enumlist
-label: Tools to force hidden
-group: Filtering
-enum: [
-  {
-    "value": "* sceptre",
-    "label": "Crystal sceptre"
-  },
-  {
-    "value": "* harpoon",
-    "label": "Crystal harpoon"
-  },
-  {
-    "value": "* axe",
-    "label": "Crystal axe"
-  },
-  {
-    "value": "* pickaxe",
-    "label": "Crystal pickaxe"
-  },
-  {
-    "value": "Pestle and mortar",
-    "label": "Pestle and mortar"
-  },
-  {
-    "value": "*teleport crystal",
-    "label": "Teleport crystal"
-  },
-  {
-    "value": "*escape crystal",
-    "label": "Escape crystal"
-  }
-]
-*/
-#define VAR_GAUNTLET_TOOLS_HIDE [ \
-  "* sceptre", \
-  "* harpoon", \
-  "* axe", \
-  "* pickaxe", \
-  "Pestle and mortar", \
-]
-
-apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_TOOLS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:gauntlet
-type: enumlist
-label: Resources to force hidden
-group: Filtering
-enum: [
-  {
-    "value": "* shards",
-    "label": "Crystal shards"
-  },
-  {
-    "value": "Crystal dust",
-    "label": "Crystal dust"
-  },
-  {
-    "value": "Vial",
-    "label": "Vial"
-  },
-  {
-    "value": "Water-filled vial",
-    "label": "Water-filled vial"
-  },
-  {
-    "value": "Grym leaf",
-    "label": "Grym leaf"
-  },
-  {
-    "value": "Grym potion (unf)",
-    "label": "Grym potion (unf)"
-  },
-  {
-    "value": "Raw paddlefish",
-    "label": "Raw paddlefish"
-  },
-  {
-    "value": "Weapon frame",
-    "label": "Weapon frame"
-  },
-  {
-    "value": "* spike",
-    "label": "Crystal spike"
-  },
-  {
-    "value": "* orb",
-    "label": "Crystal orb"
-  },
-  {
-    "value": "* bowstring",
-    "label": "Crystalline bowstring"
-  },
-  {
-    "value": "Linum tirinum*",
-    "label": "Linum tirinum"
-  },
-  {
-    "value": "Phren bark*",
-    "label": "Phren bark"
-  },
-  {
-    "value": "* ore",
-    "label": "Crystal ore"
-  }
-]
-*/
-#define VAR_GAUNTLET_RESOURCES_HIDE []
-
-apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_RESOURCES_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:gauntlet
-type: enumlist
-label: Supplies to force hidden
-group: Filtering
-enum: [
-  {
-    "value": "Egniol potion (*",
-    "label": "Egniol potion"
-  },
-  {
-    "value": "Paddlefish",
-    "label": "Paddlefish"
-  },
-  {
-    "value": "Crystal paddlefish",
-    "label": "Crystal paddlefish"
-  },
-  {
-    "value": "Corrupted paddlefish",
-    "label": "Corrupted paddlefish"
-  }
-]
-*/
-#define VAR_GAUNTLET_SUPPLIES_HIDE []
-
-apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_SUPPLIES_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:gauntlet
-type: enumlist
-label: Equipment to force hidden
-group: Filtering
-enum: [
-  {
-    "value": "* halberd *",
-    "label": "Crystal halberd"
-  },
-  {
-    "value": "* bow *",
-    "label": "Crystal bow"
-  },
-  {
-    "value": "* staff *",
-    "label": "Crystal staff"
-  },
-  {
-    "value": "* helm *",
-    "label": "Crystal helm"
-  },
-  {
-    "value": "* body *",
-    "label": "Crystal body"
-  },
-  {
-    "value": "* legs *",
-    "label": "Crystal legs"
-  }
-]
-*/
-#define VAR_GAUNTLET_EQUIPMENT_HIDE []
-
-apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_EQUIPMENT_HIDE) {
     hidden = true;
 }
 
