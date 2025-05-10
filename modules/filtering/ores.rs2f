@@ -1,15 +1,16 @@
-
-/*@ define:module:ores
+/*@ define:group
 ---
 name: Ores
-subtitle: The children yearn for the mines
 description: |
-  Quantity thresholds, filters, and custom styling for all ores. By default colors them based on the item color.
+  Ores
+  ---
+  This module provides quantity filtering and tier filtering for ores.
 */
 
 /*@ define:input:ores
 type: enumlist
 label: Ores to force hidden
+group: Ores
 enum: [
   "Copper ore",
   "Tin ore",
@@ -35,7 +36,7 @@ apply (name:VAR_ORES_HIDE) {
 /*@ define:input:ores
 type: number
 label: Copper ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_COPPER_ORE_MIN_QUANTITY 0
 
@@ -46,7 +47,7 @@ apply (name:"copper ore" && quantity:<VAR_COPPER_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Tin ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_TIN_ORE_MIN_QUANTITY 0
 
@@ -57,7 +58,7 @@ apply (name:"tin ore" && quantity:<VAR_TIN_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Iron ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_IRON_ORE_MIN_QUANTITY 0
 
@@ -68,7 +69,7 @@ apply (name:"iron ore" && quantity:<VAR_IRON_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Silver ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_SILVER_ORE_MIN_QUANTITY 0
 
@@ -79,7 +80,7 @@ apply (name:"silver ore" && quantity:<VAR_SILVER_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Coal minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_COAL_ORE_MIN_QUANTITY 0
 
@@ -90,7 +91,7 @@ apply (name:"coal" && quantity:<VAR_COAL_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Gold ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_GOLD_ORE_MIN_QUANTITY 0
 
@@ -101,7 +102,7 @@ apply (name:"gold ore" && quantity:<VAR_GOLD_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Mithril ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_MITHRIL_ORE_MIN_QUANTITY 0
 
@@ -112,7 +113,7 @@ apply (name:"mithril ore" && quantity:<VAR_MITHRIL_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Adamantite ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_ADAMANTITE_ORE_MIN_QUANTITY 0
 
@@ -123,7 +124,7 @@ apply (name:"adamantite ore" && quantity:<VAR_ADAMANTITE_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Runite ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_RUNITE_ORE_MIN_QUANTITY 0
 
@@ -134,7 +135,7 @@ apply (name:"runite ore" && quantity:<VAR_RUNITE_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Daeyalt ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_DAEYALT_ORE_MIN_QUANTITY 0
 
@@ -145,7 +146,7 @@ apply (name:"daeyalt ore" && quantity:<VAR_DAEYALT_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Blasted ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_BLASTED_ORE_MIN_QUANTITY 0
 
@@ -156,7 +157,7 @@ apply (name:"blasted ore" && quantity:<VAR_BLASTED_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Blurite ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_BLURITE_ORE_MIN_QUANTITY 0
 
@@ -167,7 +168,7 @@ apply (name:"blurite ore" && quantity:<VAR_BLURITE_ORE_MIN_QUANTITY) {
 /*@ define:input:ores
 type: number
 label: Lovakite ore minimum quantity
-group: Ore Filters
+group: Ores
 */
 #define VAR_LOVAKITE_ORE_MIN_QUANTITY 0
 
