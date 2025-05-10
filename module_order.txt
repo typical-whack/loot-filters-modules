@@ -49,7 +49,6 @@ herblore_secondaries
 potions
 food
 metal_equipment
-gauntlet
 last_man_standing
 final
 constants
