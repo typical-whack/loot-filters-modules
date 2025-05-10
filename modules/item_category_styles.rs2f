@@ -8,7 +8,7 @@ description: |
   Individual item styles will replace these styles if they are defined.
 */
 
-/*@ define:input:fishing
+/*@ define:input:item_category_styles
 type: style
 label: Fishing equipment custom style
 group: Fishing equipment Style
@@ -20,7 +20,7 @@ apply (name:CONST_FISHING_EQUIPMENT_LIST) {
     VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
 }
 
-/*@ define:input:fishing
+/*@ define:input:item_category_styles
 type: style
 label: Fishing bait custom style
 group: Fishing bait Style
@@ -32,7 +32,7 @@ apply (name:CONST_FISHING_BAIT_LIST) {
     VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
 }
 
-/*@ define:input:fishing
+/*@ define:input:item_category_styles
 type: style
 label: Raw fish custom style
 group: Raw fish Style
@@ -44,7 +44,7 @@ apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
 
-/*@ define:input:food
+/*@ define:input:item_category_styles
 type: style
 label: Hunter food style
 group: Hunter food style
@@ -56,7 +56,7 @@ apply (name:CONST_HUNTER_FOODS_LIST) {
     VAR_FOOD_HUNTER_CUSTOMSTYLE 
 }
 
-/*@ define:input:food
+/*@ define:input:item_category_styles
 type: style
 label: Fish food style
 group: Fish food style
