@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 07:23:35 UTC 2025 */
-/* Commit: e8f2057 */
+/* Built on: Sat May 10 07:37:16 UTC 2025 */
+/* Commit: 06f4ff0 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -527,6 +527,640 @@ enum: [
 
 apply (name:VAR_ENSOULED_HEADS_HIDE) {
     hidden = true;
+}
+/*@ define:group
+---
+name: Food
+description: |
+  Food
+  ---
+  Provides filters based on food groups with some sane defaults.
+*/
+
+/*@ define:input:food
+type: enumlist
+label: Hunter foods to force hidden
+group: Food
+enum: [
+  "Cooked wild kebbit",
+  "Cooked larupia",
+  "Cooked barb-tailed kebbit",
+  "Cooked graahk",
+  "Cooked kyatt",
+  "Cooked pyre fox",
+  "Cooked sunlight antelope",
+  "Cooked dashing kebbit",
+  "Cooked moonlight antelope"
+]
+*/
+#define VAR_FOOD_HUNTER_FOODS_HIDE [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk", \
+]
+
+apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:food
+type: enumlist
+label: Fish foods to force hidden
+group: Food
+enum: [
+  "Shrimp",
+  "Sardine",
+  "Karambwanji",
+  "Herring",
+  "Anchovies",
+  "Mackerel",
+  "Trout",
+  "Cod",
+  "Pike",
+  "Slimy eel",
+  "Salmon",
+  "Tuna",
+  "Rainbow fish",
+  "Cave eel",
+  "Lobster",
+  "Bass",
+  "Swordfish",
+  "Lava eel",
+  "Monkfish",
+  "Cooked karambwan",
+  "Shark",
+  "Sea turtle",
+  "Manta ray",
+  "Anglerfish",
+  "Dark crab"
+]
+*/
+#define VAR_FOOD_FISH_FOODS_HIDE [ \
+  "Shrimp", \
+  "Sardine", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Salmon", \
+  "Tuna", \
+]
+
+apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:food
+type: enumlist
+label: Hunter foods to force shown
+group: Food
+enum: [
+  "Cooked wild kebbit",
+  "Cooked larupia",
+  "Cooked barb-tailed kebbit",
+  "Cooked graahk",
+  "Cooked kyatt",
+  "Cooked pyre fox",
+  "Cooked sunlight antelope",
+  "Cooked dashing kebbit",
+  "Cooked moonlight antelope"
+]
+*/
+#define VAR_FOOD_HUNTER_FOODS_SHOW [ \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope", \
+]
+
+apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:food
+type: enumlist
+label: Fish foods to force shown
+group: Food
+enum: [
+  "Shrimp",
+  "Sardine",
+  "Karambwanji",
+  "Herring",
+  "Anchovies",
+  "Mackerel",
+  "Trout",
+  "Cod",
+  "Pike",
+  "Slimy eel",
+  "Salmon",
+  "Tuna",
+  "Rainbow fish",
+  "Cave eel",
+  "Lobster",
+  "Bass",
+  "Swordfish",
+  "Lava eel",
+  "Monkfish",
+  "Cooked karambwan",
+  "Shark",
+  "Sea turtle",
+  "Manta ray",
+  "Anglerfish",
+  "Dark crab"
+]
+*/
+#define VAR_FOOD_FISH_FOODS_SHOW [ \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab", \
+]
+
+apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
+    hidden = false;
+}
+/*@ define:group
+---
+name: Potions
+description: |
+  Potions
+  ---
+  Filters for potions. By default this filters out lower tier potions
+*/
+
+/*@ define:input:potions
+type: enumlist
+label: Potions to force hidden
+group: Potions
+enum: [
+  {
+    "value": "Attack potion(*",
+    "label": "Attack potion"
+  },
+  {
+    "value": "Antipoison(*",
+    "label": "Antipoison"
+  },
+  {
+    "value": "Strength potion(*",
+    "label": "Strength potion"
+  },
+  {
+    "value": "Serum 207(*",
+    "label": "Serum 207"
+  },
+  {
+    "value": "Compost potion(*",
+    "label": "Compost potion"
+  },
+  {
+    "value": "Restore potion(*",
+    "label": "Restore potion"
+  },
+  {
+    "value": "Energy potion(*",
+    "label": "Energy potion"
+  },
+  {
+    "value": "Defence potion(*",
+    "label": "Defence potion"
+  },
+  {
+    "value": "Agility potion(*",
+    "label": "Agility potion"
+  },
+  {
+    "value": "Combat potion(*",
+    "label": "Combat potion"
+  },
+  {
+    "value": "Prayer potion(*",
+    "label": "Prayer potion"
+  },
+  {
+    "value": "Super attack(*",
+    "label": "Super attack"
+  },
+  {
+    "value": "Superantipoison(*",
+    "label": "Superantipoison"
+  },
+  {
+    "value": "Fishing potion(*",
+    "label": "Fishing potion"
+  },
+  {
+    "value": "Super energy(*",
+    "label": "Super energy"
+  },
+  {
+    "value": "Hunter potion(*",
+    "label": "Hunter potion"
+  },
+  {
+    "value": "Goading potion(*",
+    "label": "Goading potion"
+  },
+  {
+    "value": "Super strength(*",
+    "label": "Super strength"
+  },
+  {
+    "value": "Prayer regeneration potion(*",
+    "label": "Prayer regeneration potion"
+  },
+  {
+    "value": "Super restore(*",
+    "label": "Super restore"
+  },
+  {
+    "value": "Sanfew serum(*",
+    "label": "Sanfew serum"
+  },
+  {
+    "value": "Super defence(*",
+    "label": "Super defence"
+  },
+  {
+    "value": "Antidote+(*",
+    "label": "Antidote+"
+  },
+  {
+    "value": "Antifire potion(*",
+    "label": "Antifire potion"
+  },
+  {
+    "value": "Divine super attack potion(*",
+    "label": "Divine super attack potion"
+  },
+  {
+    "value": "Divine super defence potion(*",
+    "label": "Divine super defence potion"
+  },
+  {
+    "value": "Divine super strength potion(*",
+    "label": "Divine super strength potion"
+  },
+  {
+    "value": "Ranging potion(*",
+    "label": "Ranging potion"
+  },
+  {
+    "value": "Divine ranging potion(*",
+    "label": "Divine ranging potion"
+  },
+  {
+    "value": "Magic potion(*",
+    "label": "Magic potion"
+  },
+  {
+    "value": "Stamina potion(*",
+    "label": "Stamina potion"
+  },
+  {
+    "value": "Zamorak brew(*",
+    "label": "Zamorak brew"
+  },
+  {
+    "value": "Divine magic potion(*",
+    "label": "Divine magic potion"
+  },
+  {
+    "value": "Antidote++(*",
+    "label": "Antidote++"
+  },
+  {
+    "value": "Bastion potion(*",
+    "label": "Bastion potion"
+  },
+  {
+    "value": "Battlemage potion(*",
+    "label": "Battlemage potion"
+  },
+  {
+    "value": "Saradomin brew(*",
+    "label": "Saradomin brew"
+  },
+  {
+    "value": "Extended antifire(*",
+    "label": "Extended antifire"
+  },
+  {
+    "value": "Ancient brew(*",
+    "label": "Ancient brew"
+  },
+  {
+    "value": "Divine bastion potion(*",
+    "label": "Divine bastion potion"
+  },
+  {
+    "value": "Divine battlemage potion(*",
+    "label": "Divine battlemage potion"
+  },
+  {
+    "value": "Anti-venom(*",
+    "label": "Anti-venom"
+  },
+  {
+    "value": "Menaphite remedy(*",
+    "label": "Menaphite remedy"
+  },
+  {
+    "value": "Super combat potion(*",
+    "label": "Super combat potion"
+  },
+  {
+    "value": "Forgotten brew(*",
+    "label": "Forgotten brew"
+  },
+  {
+    "value": "Super antifire potion(*",
+    "label": "Super antifire potion"
+  },
+  {
+    "value": "Anti-venom+(*",
+    "label": "Anti-venom+"
+  },
+  {
+    "value": "Extended anti-venom+(*",
+    "label": "Extended anti-venom+"
+  },
+  {
+    "value": "Divine super combat potion(*",
+    "label": "Divine super combat potion"
+  },
+  {
+    "value": "Extended super antifire(*",
+    "label": "Extended super antifire"
+  }
+]
+*/
+#define VAR_POTIONS_HIDE [ \
+  "Attack potion(*", \
+  "Strength potion(*", \
+  "Serum 207(*", \
+  "Compost potion(*", \
+  "Restore potion(*", \
+  "Energy potion(*", \
+  "Defence potion(*", \
+  "Agility potion(*", \
+  "Combat potion(*", \
+  "Fishing potion(*", \
+  "Hunter potion(*", \
+  "Antidote+(*", \
+]
+
+apply (name:VAR_POTIONS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:potions
+type: enumlist
+label: Potions to force shown
+group: Potions
+enum: [
+  {
+    "value": "Attack potion(*",
+    "label": "Attack potion"
+  },
+  {
+    "value": "Antipoison(*",
+    "label": "Antipoison"
+  },
+  {
+    "value": "Strength potion(*",
+    "label": "Strength potion"
+  },
+  {
+    "value": "Serum 207(*",
+    "label": "Serum 207"
+  },
+  {
+    "value": "Compost potion(*",
+    "label": "Compost potion"
+  },
+  {
+    "value": "Restore potion(*",
+    "label": "Restore potion"
+  },
+  {
+    "value": "Energy potion(*",
+    "label": "Energy potion"
+  },
+  {
+    "value": "Defence potion(*",
+    "label": "Defence potion"
+  },
+  {
+    "value": "Agility potion(*",
+    "label": "Agility potion"
+  },
+  {
+    "value": "Combat potion(*",
+    "label": "Combat potion"
+  },
+  {
+    "value": "Prayer potion(*",
+    "label": "Prayer potion"
+  },
+  {
+    "value": "Super attack(*",
+    "label": "Super attack"
+  },
+  {
+    "value": "Superantipoison(*",
+    "label": "Superantipoison"
+  },
+  {
+    "value": "Fishing potion(*",
+    "label": "Fishing potion"
+  },
+  {
+    "value": "Super energy(*",
+    "label": "Super energy"
+  },
+  {
+    "value": "Hunter potion(*",
+    "label": "Hunter potion"
+  },
+  {
+    "value": "Goading potion(*",
+    "label": "Goading potion"
+  },
+  {
+    "value": "Super strength(*",
+    "label": "Super strength"
+  },
+  {
+    "value": "Prayer regeneration potion(*",
+    "label": "Prayer regeneration potion"
+  },
+  {
+    "value": "Super restore(*",
+    "label": "Super restore"
+  },
+  {
+    "value": "Sanfew serum(*",
+    "label": "Sanfew serum"
+  },
+  {
+    "value": "Super defence(*",
+    "label": "Super defence"
+  },
+  {
+    "value": "Antidote+(*",
+    "label": "Antidote+"
+  },
+  {
+    "value": "Antifire potion(*",
+    "label": "Antifire potion"
+  },
+  {
+    "value": "Divine super attack potion(*",
+    "label": "Divine super attack potion"
+  },
+  {
+    "value": "Divine super defence potion(*",
+    "label": "Divine super defence potion"
+  },
+  {
+    "value": "Divine super strength potion(*",
+    "label": "Divine super strength potion"
+  },
+  {
+    "value": "Ranging potion(*",
+    "label": "Ranging potion"
+  },
+  {
+    "value": "Divine ranging potion(*",
+    "label": "Divine ranging potion"
+  },
+  {
+    "value": "Magic potion(*",
+    "label": "Magic potion"
+  },
+  {
+    "value": "Stamina potion(*",
+    "label": "Stamina potion"
+  },
+  {
+    "value": "Zamorak brew(*",
+    "label": "Zamorak brew"
+  },
+  {
+    "value": "Divine magic potion(*",
+    "label": "Divine magic potion"
+  },
+  {
+    "value": "Antidote++(*",
+    "label": "Antidote++"
+  },
+  {
+    "value": "Bastion potion(*",
+    "label": "Bastion potion"
+  },
+  {
+    "value": "Battlemage potion(*",
+    "label": "Battlemage potion"
+  },
+  {
+    "value": "Saradomin brew(*",
+    "label": "Saradomin brew"
+  },
+  {
+    "value": "Extended antifire(*",
+    "label": "Extended antifire"
+  },
+  {
+    "value": "Ancient brew(*",
+    "label": "Ancient brew"
+  },
+  {
+    "value": "Divine bastion potion(*",
+    "label": "Divine bastion potion"
+  },
+  {
+    "value": "Divine battlemage potion(*",
+    "label": "Divine battlemage potion"
+  },
+  {
+    "value": "Anti-venom(*",
+    "label": "Anti-venom"
+  },
+  {
+    "value": "Menaphite remedy(*",
+    "label": "Menaphite remedy"
+  },
+  {
+    "value": "Super combat potion(*",
+    "label": "Super combat potion"
+  },
+  {
+    "value": "Forgotten brew(*",
+    "label": "Forgotten brew"
+  },
+  {
+    "value": "Super antifire potion(*",
+    "label": "Super antifire potion"
+  },
+  {
+    "value": "Anti-venom+(*",
+    "label": "Anti-venom+"
+  },
+  {
+    "value": "Extended anti-venom+(*",
+    "label": "Extended anti-venom+"
+  },
+  {
+    "value": "Divine super combat potion(*",
+    "label": "Divine super combat potion"
+  },
+  {
+    "value": "Extended super antifire(*",
+    "label": "Extended super antifire"
+  }
+]
+*/
+#define VAR_POTIONS_SHOW [ \
+  "Anti-venom(*", \
+  "Anti-venom+(*", \
+  "Antidote++(*", \
+  "Antifire potion(*", \
+  "Bastion potion(*", \
+  "Battlemage potion(*", \
+  "Divine bastion potion(*", \
+  "Divine battlemage potion(*", \
+  "Divine magic potion(*", \
+  "Divine ranging potion(*", \
+  "Divine super attack potion(*", \
+  "Divine super combat potion(*", \
+  "Divine super defence potion(*", \
+  "Divine super strength potion(*", \
+  "Extended anti-venom+(*", \
+  "Extended antifire(*", \
+  "Extended super antifire(*", \
+  "Forgotten brew(*", \
+  "Goading potion(*", \
+  "Menaphite remedy(*", \
+  "Prayer regeneration potion(*", \
+  "Ranging potion(*", \
+  "Sanfew serum(*", \
+  "Saradomin brew(*", \
+  "Stamina potion(*", \
+  "Super antifire potion(*", \
+  "Super combat potion(*", \
+  "Super restore(*", \
+]
+
+apply (name:VAR_POTIONS_SHOW) {
+    hidden = false;
 }
 /*@ define:group
 ---
@@ -1064,6 +1698,509 @@ apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SH
 }
 /*@ define:group
 ---
+name: Herbs
+description: |
+  Herbs
+  ---
+  Provides herb filters and quantity filters per herb for each herb. 
+*/
+
+/*@ define:input:herbs
+type: number
+label: Hide herbs below this value
+group: Herbs
+*/
+#define VAR_HERBS_MINIMUM_VALUE 0
+
+apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: enumlist
+label: Herbs to force hidden
+group: Herbs
+enum: [
+  {
+    "value": "*Guam leaf",
+    "label": "Guam leaf"
+  },
+  {
+    "value": "*Marrentill",
+    "label": "Marrentill"
+  },
+  {
+    "value": "*Tarromin",
+    "label": "Tarromin"
+  },
+  {
+    "value": "*Harralander",
+    "label": "Harralander"
+  },
+  {
+    "value": "*Ranarr weed",
+    "label": "Ranarr weed"
+  },
+  {
+    "value": "*Toadflax",
+    "label": "Toadflax"
+  },
+  {
+    "value": "*Irit leaf",
+    "label": "Irit leaf"
+  },
+  {
+    "value": "*Avantoe",
+    "label": "Avantoe"
+  },
+  {
+    "value": "*Kwuarm",
+    "label": "Kwuarm"
+  },
+  {
+    "value": "*Huasca",
+    "label": "Huasca"
+  },
+  {
+    "value": "*Snapdragon",
+    "label": "Snapdragon"
+  },
+  {
+    "value": "*Cadantine",
+    "label": "Cadantine"
+  },
+  {
+    "value": "*Lantadyme",
+    "label": "Lantadyme"
+  },
+  {
+    "value": "*Dwarf weed",
+    "label": "Dwarf weed"
+  },
+  {
+    "value": "*Torstol",
+    "label": "Torstol"
+  }
+]
+*/
+#define VAR_HERBS_HIDE [ \
+  "*Tarromin", \
+  "*Harralander", \
+]
+
+apply (name:VAR_HERBS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: enumlist
+label: Herbs to force shown
+group: Herbs
+enum: [
+  {
+    "value": "*Guam leaf",
+    "label": "Guam leaf"
+  },
+  {
+    "value": "*Marrentill",
+    "label": "Marrentill"
+  },
+  {
+    "value": "*Tarromin",
+    "label": "Tarromin"
+  },
+  {
+    "value": "*Harralander",
+    "label": "Harralander"
+  },
+  {
+    "value": "*Ranarr weed",
+    "label": "Ranarr weed"
+  },
+  {
+    "value": "*Toadflax",
+    "label": "Toadflax"
+  },
+  {
+    "value": "*Irit leaf",
+    "label": "Irit leaf"
+  },
+  {
+    "value": "*Avantoe",
+    "label": "Avantoe"
+  },
+  {
+    "value": "*Kwuarm",
+    "label": "Kwuarm"
+  },
+  {
+    "value": "*Huasca",
+    "label": "Huasca"
+  },
+  {
+    "value": "*Snapdragon",
+    "label": "Snapdragon"
+  },
+  {
+    "value": "*Cadantine",
+    "label": "Cadantine"
+  },
+  {
+    "value": "*Lantadyme",
+    "label": "Lantadyme"
+  },
+  {
+    "value": "*Dwarf weed",
+    "label": "Dwarf weed"
+  },
+  {
+    "value": "*Torstol",
+    "label": "Torstol"
+  }
+]
+*/
+#define VAR_HERBS_SHOW [ \
+  "*Ranarr weed", \
+  "*Huasca", \
+  "*Snapdragon", \
+  "*Torstol", \
+]
+
+apply (name:VAR_HERBS_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:herbs
+type: number
+label: Guam leaf minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
+
+apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Guam leaf noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 0
+
+apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Marrentill minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
+
+apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Marrentill noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 0
+
+apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Tarromin minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
+
+apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Tarromin noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 0
+
+apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Harralander minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
+
+apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Harralander noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 0
+
+apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
+
+apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 0
+
+apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Toadflax minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
+
+apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Toadflax noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 0
+
+apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
+
+apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 0
+
+apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Avantoe minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
+
+apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Avantoe noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 0
+
+apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
+
+apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 0
+
+apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Huasca minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
+
+apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Huasca noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 0
+
+apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
+
+apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 0
+
+apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Cadantine minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
+
+apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Cadantine noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 0
+
+apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
+
+apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 0
+
+apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
+
+apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 0
+
+apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Torstol minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
+
+apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Torstol noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 0
+
+apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+/*@ define:group
+---
 name: Fishing
 description: |
   Fishing
@@ -1376,6 +2513,212 @@ group: Ores
 #define VAR_LOVAKITE_ORE_MIN_QUANTITY 0
 
 apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Bars
+description: |
+  Bars
+  ---
+  This module provides bar tier filters and quantity filters for all bars.
+*/
+
+/*@ define:input:bars
+type: enumlist
+label: Bars to force hidden
+group: Bars
+enum: [
+  "Bronze bar",
+  "Iron bar",
+  "Silver bar",
+  "Steel bar",
+  "Gold bar",
+  "Mithril bar",
+  "Adamantite bar",
+  "Runite bar",
+  "Elemental metal",
+  "Primed bar",
+  "Primed mind bar",
+  "Blurite bar",
+  "Enchanted bar",
+  "Lovakite bar",
+  "'Perfect' gold bar"
+]
+*/
+#define VAR_BARS_HIDE [ \
+  "Bronze bar", \
+  "Iron bar", \
+  "Silver bar", \
+  "Gold bar", \
+]
+
+apply (name:VAR_BARS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Bronze bar minimum quantity
+group: Bars
+*/
+#define VAR_BRONZE_BAR_MIN_QUANTITY 0
+
+apply (name:"Bronze bar" && quantity:<VAR_BRONZE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Iron bar minimum quantity
+group: Bars
+*/
+#define VAR_IRON_BAR_MIN_QUANTITY 0
+
+apply (name:"Iron bar" && quantity:<VAR_IRON_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Silver bar minimum quantity
+group: Bars
+*/
+#define VAR_SILVER_BAR_MIN_QUANTITY 0
+
+apply (name:"Silver bar" && quantity:<VAR_SILVER_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Steel bar minimum quantity
+group: Bars
+*/
+#define VAR_STEEL_BAR_MIN_QUANTITY 0
+
+apply (name:"Steel bar" && quantity:<VAR_STEEL_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Gold bar minimum quantity
+group: Bars
+*/
+#define VAR_GOLD_BAR_MIN_QUANTITY 0
+
+apply (name:"Gold bar" && quantity:<VAR_GOLD_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Mithril bar minimum quantity
+group: Bars
+*/
+#define VAR_MITHRIL_BAR_MIN_QUANTITY 0
+
+apply (name:"Mithril bar" && quantity:<VAR_MITHRIL_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Adamantite bar minimum quantity
+group: Bars
+*/
+#define VAR_ADAMANTITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Adamantite bar" && quantity:<VAR_ADAMANTITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Runite bar minimum quantity
+group: Bars
+*/
+#define VAR_RUNITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Runite bar" && quantity:<VAR_RUNITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Elemental metal minimum quantity
+group: Bars
+*/
+#define VAR_ELEMENTAL_METAL_MIN_QUANTITY 0
+
+apply (name:"Elemental metal" && quantity:<VAR_ELEMENTAL_METAL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Primed bar minimum quantity
+group: Bars
+*/
+#define VAR_PRIMED_BAR_MIN_QUANTITY 0
+
+apply (name:"Primed bar" && quantity:<VAR_PRIMED_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Primed mind bar minimum quantity
+group: Bars
+*/
+#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY 0
+
+apply (name:"Primed mind bar" && quantity:<VAR_PRIMED_MIND_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Blurite bar minimum quantity
+group: Bars
+*/
+#define VAR_BLURITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Blurite bar" && quantity:<VAR_BLURITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Enchanted bar minimum quantity
+group: Bars
+*/
+#define VAR_ENCHANTED_BAR_MIN_QUANTITY 0
+
+apply (name:"Enchanted bar" && quantity:<VAR_ENCHANTED_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Lovakite bar minimum quantity
+group: Bars
+*/
+#define VAR_LOVAKITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Lovakite bar" && quantity:<VAR_LOVAKITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: "'Perfect' gold bar minimum quantity"
+group: Bars
+*/
+#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
+
+apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY) {
     hidden = true;
 }
 /*@ define:group
@@ -2158,6 +3501,589 @@ apply (name:VAR_SECONDARIES_HIDE) {
 
 apply (name:VAR_SECONDARIES_SHOW) {
     hidden = false;
+}
+/*@ define:group
+---
+name: Currency
+description: |
+  Currency
+  ---
+  Provides quantity filters for all currencies in the game.
+*/
+
+/*@ define:input:currency
+type: stringlist
+label: Currency to force hidden
+group: Currency
+*/
+#define VAR_CURRENCY_HIDE [ \
+  "Archery ticket", \
+]
+
+apply (name:VAR_CURRENCY_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Abyssal pearls minimum quantity
+group: Currency
+*/
+#define VAR_ABYSSAL_PEARLS_MIN_QUANTITY 0
+
+apply (name:"Archery ticket" && quantity:<VAR_ARCHERY_TICKET_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Agility arena ticket minimum quantity
+group: Currency
+*/
+#define VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY 0
+
+apply (name:"Coins" && quantity:<VAR_COINS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Anima-infused bark minimum quantity
+group: Currency
+*/
+#define VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY 0
+
+apply (name:"Mole claw" && quantity:<VAR_MOLE_CLAW_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Archery ticket minimum quantity
+group: Currency
+*/
+#define VAR_ARCHERY_TICKET_MIN_QUANTITY 0
+
+apply (name:"Mole skin" && quantity:<VAR_MOLE_SKIN_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Barronite shards minimum quantity
+group: Currency
+*/
+#define VAR_BARRONITE_SHARDS_MIN_QUANTITY 0
+
+apply (name:"Numulite" && quantity:<VAR_NUMULITE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Blood money minimum quantity
+group: Currency
+*/
+#define VAR_BLOOD_MONEY_MIN_QUANTITY 0
+
+apply (name:"Platinum token" && quantity:<VAR_PLATINUM_TOKEN_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Brimhaven voucher minimum quantity
+group: Currency
+*/
+#define VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY 0
+
+apply (name:"Trading sticks" && quantity:<VAR_TRADING_STICKS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Castle wars ticket minimum quantity
+group: Currency
+*/
+#define VAR_CASTLE_WARS_TICKET_MIN_QUANTITY 0
+
+apply (name:"Shantay pass" && quantity:<VAR_SHANTAY_PASS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Coins minimum quantity
+group: Currency
+*/
+#define VAR_COINS_MIN_QUANTITY 0
+
+apply (name:"Ship ticket" && quantity:<VAR_SHIP_TICKET_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Ecto-token minimum quantity
+group: Currency
+*/
+#define VAR_ECTO_TOKEN_MIN_QUANTITY 0
+
+apply (name:"Abyssal pearls" && quantity:<VAR_ABYSSAL_PEARLS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Frog token minimum quantity
+group: Currency
+*/
+#define VAR_FROG_TOKEN_MIN_QUANTITY 0
+
+apply (name:"Anima-infused bark" && quantity:<VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Glistening tear minimum quantity
+group: Currency
+*/
+#define VAR_GLISTENING_TEAR_MIN_QUANTITY 0
+
+apply (name:"Agility arena ticket" && quantity:<VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Golden nugget minimum quantity
+group: Currency
+*/
+#define VAR_GOLDEN_NUGGET_MIN_QUANTITY 0
+
+apply (name:"Barronite shards" && quantity:<VAR_BARRONITE_SHARDS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Hallowed mark minimum quantity
+group: Currency
+*/
+#define VAR_HALLOWED_MARK_MIN_QUANTITY 0
+
+apply (name:"Blood money" && quantity:<VAR_BLOOD_MONEY_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Intelligence minimum quantity
+group: Currency
+*/
+#define VAR_INTELLIGENCE_MIN_QUANTITY 0
+
+apply (name:"Brimhaven voucher" && quantity:<VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Mark of grace minimum quantity
+group: Currency
+*/
+#define VAR_MARK_OF_GRACE_MIN_QUANTITY 0
+
+apply (name:"Castle wars ticket" && quantity:<VAR_CASTLE_WARS_TICKET_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Mermaid's tear minimum quantity
+group: Currency
+*/
+#define VAR_MERMAIDS_TEAR_MIN_QUANTITY 0
+
+apply (name:"Ecto-token" && quantity:<VAR_ECTO_TOKEN_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Minnow minimum quantity
+group: Currency
+*/
+#define VAR_MINNOW_MIN_QUANTITY 0
+
+apply (name:"Frog token" && quantity:<VAR_FROG_TOKEN_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Molch pearl minimum quantity
+group: Currency
+*/
+#define VAR_MOLCH_PEARL_MIN_QUANTITY 0
+
+apply (name:"Golden nugget" && quantity:<VAR_GOLDEN_NUGGET_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Mole claw minimum quantity
+group: Currency
+*/
+#define VAR_MOLE_CLAW_MIN_QUANTITY 0
+
+apply (name:"Glistening tear" && quantity:<VAR_GLISTENING_TEAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Mole skin minimum quantity
+group: Currency
+*/
+#define VAR_MOLE_SKIN_MIN_QUANTITY 0
+
+apply (name:"Hallowed mark" && quantity:<VAR_HALLOWED_MARK_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Nuggets minimum quantity
+group: Currency
+*/
+#define VAR_NUGGETS_MIN_QUANTITY 0
+
+apply (name:"Intelligence" && quantity:<VAR_INTELLIGENCE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Numulite minimum quantity
+group: Currency
+*/
+#define VAR_NUMULITE_MIN_QUANTITY 0
+
+apply (name:"Mark of grace" && quantity:<VAR_MARK_OF_GRACE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Paramaya ticket minimum quantity
+group: Currency
+*/
+#define VAR_PARAMAYA_TICKET_MIN_QUANTITY 0
+
+apply (name:"Mermaid's tear" && quantity:<VAR_MERMAIDS_TEAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Platinum token minimum quantity
+group: Currency
+*/
+#define VAR_PLATINUM_TOKEN_MIN_QUANTITY 0
+
+apply (name:"Minnow" && quantity:<VAR_MINNOW_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Rare creature parts minimum quantity
+group: Currency
+*/
+#define VAR_RARE_CREATURE_PARTS_MIN_QUANTITY 0
+
+apply (name:"Molch pearl" && quantity:<VAR_MOLCH_PEARL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Reward token credits minimum quantity
+group: Currency
+*/
+#define VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY 0
+
+apply (name:"Nuggets" && quantity:<VAR_NUGGETS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Shantay pass minimum quantity
+group: Currency
+*/
+#define VAR_SHANTAY_PASS_MIN_QUANTITY 0
+
+apply (name:"Paramaya ticket" && quantity:<VAR_PARAMAYA_TICKET_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Ship ticket minimum quantity
+group: Currency
+*/
+#define VAR_SHIP_TICKET_MIN_QUANTITY 0
+
+apply (name:"Rare creature parts" && quantity:<VAR_RARE_CREATURE_PARTS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Stardust minimum quantity
+group: Currency
+*/
+#define VAR_STARDUST_MIN_QUANTITY 0
+
+apply (name:"Reward token credits" && quantity:<VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Termites minimum quantity
+group: Currency
+*/
+#define VAR_TERMITES_MIN_QUANTITY 0
+
+apply (name:"Stardust" && quantity:<VAR_STARDUST_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Tokkul minimum quantity
+group: Currency
+*/
+#define VAR_TOKKUL_MIN_QUANTITY 0
+
+apply (name:"Tokkul" && quantity:<VAR_TOKKUL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Trading sticks minimum quantity
+group: Currency
+*/
+#define VAR_TRADING_STICKS_MIN_QUANTITY 0
+
+apply (name:"Termites" && quantity:<VAR_TERMITES_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Unidentified minerals minimum quantity
+group: Currency
+*/
+#define VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY 0
+
+apply (name:"Unidentified minerals" && quantity:<VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:currency
+type: number
+label: Warrior guild token minimum quantity
+group: Currency
+*/
+#define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
+
+apply (name:"Warrior guild token" && quantity:<VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Metal Equipment
+description: |
+  Metal Equipment
+  ---
+  Provides a metal tier filter
+*/
+
+/*@ define:input:metal_equipment
+type: enumlist
+label: Metal equipment to force hidden
+group: Metal Equipment
+enum: [
+  "Bronze*",
+  "Iron*",
+  "Steel*",
+  "Black*",
+  "Mithril*",
+  "Adamant*",
+  "Rune*",
+  "Dragon*"
+]
+*/
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE [ \
+  "Bronze*", \
+  "Iron*", \
+  "Steel*", \
+  "Black*", \
+  "Mithril*", \
+]
+
+apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BRONZE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_BRONZE_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_IRON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_IRON_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_STEEL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_BLACK_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_MITHRIL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_ADAMANT_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_RUNE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
+}
+
+apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
+    hidden = true;
 }
 /*@ define:module:area_based_filtering
 ---
@@ -10310,411 +12236,6 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
     sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
 }
 
-/*@ define:module:currency
----
-name: Currency
-subtitle: Money makes the world go 'round
-description: |
-  This module provides styling and quantity filters for all currencies in the game.
-*/
-
-/*@ define:input:currency
-type: stringlist
-label: Currency to force hidden
-*/
-#define VAR_CURRENCY_HIDE [ \
-  "Archery ticket", \
-]
-
-apply (name:VAR_CURRENCY_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Abyssal pearls minimum quantity
-group: Currency Filters
-*/
-#define VAR_ABYSSAL_PEARLS_MIN_QUANTITY 0
-
-apply (name:"Archery ticket" && quantity:<VAR_ARCHERY_TICKET_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Agility arena ticket minimum quantity
-group: Currency Filters
-*/
-#define VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY 0
-
-apply (name:"Coins" && quantity:<VAR_COINS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Anima-infused bark minimum quantity
-group: Currency Filters
-*/
-#define VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY 0
-
-apply (name:"Mole claw" && quantity:<VAR_MOLE_CLAW_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Archery ticket minimum quantity
-group: Currency Filters
-*/
-#define VAR_ARCHERY_TICKET_MIN_QUANTITY 0
-
-apply (name:"Mole skin" && quantity:<VAR_MOLE_SKIN_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Barronite shards minimum quantity
-group: Currency Filters
-*/
-#define VAR_BARRONITE_SHARDS_MIN_QUANTITY 0
-
-apply (name:"Numulite" && quantity:<VAR_NUMULITE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Blood money minimum quantity
-group: Currency Filters
-*/
-#define VAR_BLOOD_MONEY_MIN_QUANTITY 0
-
-apply (name:"Platinum token" && quantity:<VAR_PLATINUM_TOKEN_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Brimhaven voucher minimum quantity
-group: Currency Filters
-*/
-#define VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY 0
-
-apply (name:"Trading sticks" && quantity:<VAR_TRADING_STICKS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Castle wars ticket minimum quantity
-group: Currency Filters
-*/
-#define VAR_CASTLE_WARS_TICKET_MIN_QUANTITY 0
-
-apply (name:"Shantay pass" && quantity:<VAR_SHANTAY_PASS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Coins minimum quantity
-group: Currency Filters
-*/
-#define VAR_COINS_MIN_QUANTITY 0
-
-apply (name:"Ship ticket" && quantity:<VAR_SHIP_TICKET_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Ecto-token minimum quantity
-group: Currency Filters
-*/
-#define VAR_ECTO_TOKEN_MIN_QUANTITY 0
-
-apply (name:"Abyssal pearls" && quantity:<VAR_ABYSSAL_PEARLS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Frog token minimum quantity
-group: Currency Filters
-*/
-#define VAR_FROG_TOKEN_MIN_QUANTITY 0
-
-apply (name:"Anima-infused bark" && quantity:<VAR_ANIMA_INFUSED_BARK_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Glistening tear minimum quantity
-group: Currency Filters
-*/
-#define VAR_GLISTENING_TEAR_MIN_QUANTITY 0
-
-apply (name:"Agility arena ticket" && quantity:<VAR_AGILITY_ARENA_TICKET_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Golden nugget minimum quantity
-group: Currency Filters
-*/
-#define VAR_GOLDEN_NUGGET_MIN_QUANTITY 0
-
-apply (name:"Barronite shards" && quantity:<VAR_BARRONITE_SHARDS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Hallowed mark minimum quantity
-group: Currency Filters
-*/
-#define VAR_HALLOWED_MARK_MIN_QUANTITY 0
-
-apply (name:"Blood money" && quantity:<VAR_BLOOD_MONEY_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Intelligence minimum quantity
-group: Currency Filters
-*/
-#define VAR_INTELLIGENCE_MIN_QUANTITY 0
-
-apply (name:"Brimhaven voucher" && quantity:<VAR_BRIMHAVEN_VOUCHER_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Mark of grace minimum quantity
-group: Currency Filters
-*/
-#define VAR_MARK_OF_GRACE_MIN_QUANTITY 0
-
-apply (name:"Castle wars ticket" && quantity:<VAR_CASTLE_WARS_TICKET_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Mermaid's tear minimum quantity
-group: Currency Filters
-*/
-#define VAR_MERMAIDS_TEAR_MIN_QUANTITY 0
-
-apply (name:"Ecto-token" && quantity:<VAR_ECTO_TOKEN_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Minnow minimum quantity
-group: Currency Filters
-*/
-#define VAR_MINNOW_MIN_QUANTITY 0
-
-apply (name:"Frog token" && quantity:<VAR_FROG_TOKEN_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Molch pearl minimum quantity
-group: Currency Filters
-*/
-#define VAR_MOLCH_PEARL_MIN_QUANTITY 0
-
-apply (name:"Golden nugget" && quantity:<VAR_GOLDEN_NUGGET_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Mole claw minimum quantity
-group: Currency Filters
-*/
-#define VAR_MOLE_CLAW_MIN_QUANTITY 0
-
-apply (name:"Glistening tear" && quantity:<VAR_GLISTENING_TEAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Mole skin minimum quantity
-group: Currency Filters
-*/
-#define VAR_MOLE_SKIN_MIN_QUANTITY 0
-
-apply (name:"Hallowed mark" && quantity:<VAR_HALLOWED_MARK_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Nuggets minimum quantity
-group: Currency Filters
-*/
-#define VAR_NUGGETS_MIN_QUANTITY 0
-
-apply (name:"Intelligence" && quantity:<VAR_INTELLIGENCE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Numulite minimum quantity
-group: Currency Filters
-*/
-#define VAR_NUMULITE_MIN_QUANTITY 0
-
-apply (name:"Mark of grace" && quantity:<VAR_MARK_OF_GRACE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Paramaya ticket minimum quantity
-group: Currency Filters
-*/
-#define VAR_PARAMAYA_TICKET_MIN_QUANTITY 0
-
-apply (name:"Mermaid's tear" && quantity:<VAR_MERMAIDS_TEAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Platinum token minimum quantity
-group: Currency Filters
-*/
-#define VAR_PLATINUM_TOKEN_MIN_QUANTITY 0
-
-apply (name:"Minnow" && quantity:<VAR_MINNOW_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Rare creature parts minimum quantity
-group: Currency Filters
-*/
-#define VAR_RARE_CREATURE_PARTS_MIN_QUANTITY 0
-
-apply (name:"Molch pearl" && quantity:<VAR_MOLCH_PEARL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Reward token credits minimum quantity
-group: Currency Filters
-*/
-#define VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY 0
-
-apply (name:"Nuggets" && quantity:<VAR_NUGGETS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Shantay pass minimum quantity
-group: Currency Filters
-*/
-#define VAR_SHANTAY_PASS_MIN_QUANTITY 0
-
-apply (name:"Paramaya ticket" && quantity:<VAR_PARAMAYA_TICKET_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Ship ticket minimum quantity
-group: Currency Filters
-*/
-#define VAR_SHIP_TICKET_MIN_QUANTITY 0
-
-apply (name:"Rare creature parts" && quantity:<VAR_RARE_CREATURE_PARTS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Stardust minimum quantity
-group: Currency Filters
-*/
-#define VAR_STARDUST_MIN_QUANTITY 0
-
-apply (name:"Reward token credits" && quantity:<VAR_REWARD_TOKEN_CREDITS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Termites minimum quantity
-group: Currency Filters
-*/
-#define VAR_TERMITES_MIN_QUANTITY 0
-
-apply (name:"Stardust" && quantity:<VAR_STARDUST_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Tokkul minimum quantity
-group: Currency Filters
-*/
-#define VAR_TOKKUL_MIN_QUANTITY 0
-
-apply (name:"Tokkul" && quantity:<VAR_TOKKUL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Trading sticks minimum quantity
-group: Currency Filters
-*/
-#define VAR_TRADING_STICKS_MIN_QUANTITY 0
-
-apply (name:"Termites" && quantity:<VAR_TERMITES_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Unidentified minerals minimum quantity
-group: Currency Filters
-*/
-#define VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY 0
-
-apply (name:"Unidentified minerals" && quantity:<VAR_UNIDENTIFIED_MINERALS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:currency
-type: number
-label: Warrior guild token minimum quantity
-group: Currency Filters
-*/
-#define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
-
-apply (name:"Warrior guild token" && quantity:<VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY) {
-    hidden = true;
-}
-
 /*@ define:module:bossing
 ---
 name: Bossing
@@ -12486,1517 +14007,6 @@ group: Special Arrows
 #define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE || value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE)) {
-    hidden = true;
-}
-/*@ define:module:bars
----
-name: Bars
-subtitle: The thing between ores and armours
-description: |
-  This module provides bar tier filters, quantity filters, and custom styling for all bars.
-*/
-//module:bars
-
-/*@ define:input:bars
-type: enumlist
-label: Bars to force hidden
-enum: [
-  "Bronze bar",
-  "Iron bar",
-  "Silver bar",
-  "Steel bar",
-  "Gold bar",
-  "Mithril bar",
-  "Adamantite bar",
-  "Runite bar",
-  "Elemental metal",
-  "Primed bar",
-  "Primed mind bar",
-  "Blurite bar",
-  "Enchanted bar",
-  "Lovakite bar",
-  "'Perfect' gold bar"
-]
-*/
-#define VAR_BARS_HIDE [ \
-  "Bronze bar", \
-  "Iron bar", \
-  "Silver bar", \
-  "Gold bar", \
-]
-
-apply (name:VAR_BARS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Bronze bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_BRONZE_BAR_MIN_QUANTITY 0
-
-apply (name:"Bronze bar" && quantity:<VAR_BRONZE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Iron bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_IRON_BAR_MIN_QUANTITY 0
-
-apply (name:"Iron bar" && quantity:<VAR_IRON_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Silver bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_SILVER_BAR_MIN_QUANTITY 0
-
-apply (name:"Silver bar" && quantity:<VAR_SILVER_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Steel bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_STEEL_BAR_MIN_QUANTITY 0
-
-apply (name:"Steel bar" && quantity:<VAR_STEEL_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Gold bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_GOLD_BAR_MIN_QUANTITY 0
-
-apply (name:"Gold bar" && quantity:<VAR_GOLD_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Mithril bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_MITHRIL_BAR_MIN_QUANTITY 0
-
-apply (name:"Mithril bar" && quantity:<VAR_MITHRIL_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Adamantite bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_ADAMANTITE_BAR_MIN_QUANTITY 0
-
-apply (name:"Adamantite bar" && quantity:<VAR_ADAMANTITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Runite bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_RUNITE_BAR_MIN_QUANTITY 0
-
-apply (name:"Runite bar" && quantity:<VAR_RUNITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Elemental metal minimum quantity
-group: Bar Filtering
-*/
-#define VAR_ELEMENTAL_METAL_MIN_QUANTITY 0
-
-apply (name:"Elemental metal" && quantity:<VAR_ELEMENTAL_METAL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Primed bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_PRIMED_BAR_MIN_QUANTITY 0
-
-apply (name:"Primed bar" && quantity:<VAR_PRIMED_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Primed mind bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY 0
-
-apply (name:"Primed mind bar" && quantity:<VAR_PRIMED_MIND_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Blurite bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_BLURITE_BAR_MIN_QUANTITY 0
-
-apply (name:"Blurite bar" && quantity:<VAR_BLURITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Enchanted bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_ENCHANTED_BAR_MIN_QUANTITY 0
-
-apply (name:"Enchanted bar" && quantity:<VAR_ENCHANTED_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: Lovakite bar minimum quantity
-group: Bar Filtering
-*/
-#define VAR_LOVAKITE_BAR_MIN_QUANTITY 0
-
-apply (name:"Lovakite bar" && quantity:<VAR_LOVAKITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:bars
-type: number
-label: "'Perfect' gold bar minimum quantity"
-group: Bar Filtering
-*/
-#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
-
-apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-/*@ define:module:herbs
----
-name: Herbs
-subtitle: Kaqemeex would be proud
-description: |
-  Provides herb filters and quantity filters per herb for each herb. By default, this gives each herb unique styling.
-*/
-
-/*@ define:input:herbs
-type: number
-label: Hide herbs below this value
-*/
-#define VAR_HERBS_MINIMUM_VALUE 0
-
-apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: enumlist
-label: Herbs to force hidden
-enum: [
-  {
-    "value": "*Guam leaf",
-    "label": "Guam leaf"
-  },
-  {
-    "value": "*Marrentill",
-    "label": "Marrentill"
-  },
-  {
-    "value": "*Tarromin",
-    "label": "Tarromin"
-  },
-  {
-    "value": "*Harralander",
-    "label": "Harralander"
-  },
-  {
-    "value": "*Ranarr weed",
-    "label": "Ranarr weed"
-  },
-  {
-    "value": "*Toadflax",
-    "label": "Toadflax"
-  },
-  {
-    "value": "*Irit leaf",
-    "label": "Irit leaf"
-  },
-  {
-    "value": "*Avantoe",
-    "label": "Avantoe"
-  },
-  {
-    "value": "*Kwuarm",
-    "label": "Kwuarm"
-  },
-  {
-    "value": "*Huasca",
-    "label": "Huasca"
-  },
-  {
-    "value": "*Snapdragon",
-    "label": "Snapdragon"
-  },
-  {
-    "value": "*Cadantine",
-    "label": "Cadantine"
-  },
-  {
-    "value": "*Lantadyme",
-    "label": "Lantadyme"
-  },
-  {
-    "value": "*Dwarf weed",
-    "label": "Dwarf weed"
-  },
-  {
-    "value": "*Torstol",
-    "label": "Torstol"
-  }
-]
-*/
-#define VAR_HERBS_HIDE [ \
-  "*Tarromin", \
-  "*Harralander", \
-]
-
-apply (name:VAR_HERBS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: enumlist
-label: Herbs to force shown
-enum: [
-  {
-    "value": "*Guam leaf",
-    "label": "Guam leaf"
-  },
-  {
-    "value": "*Marrentill",
-    "label": "Marrentill"
-  },
-  {
-    "value": "*Tarromin",
-    "label": "Tarromin"
-  },
-  {
-    "value": "*Harralander",
-    "label": "Harralander"
-  },
-  {
-    "value": "*Ranarr weed",
-    "label": "Ranarr weed"
-  },
-  {
-    "value": "*Toadflax",
-    "label": "Toadflax"
-  },
-  {
-    "value": "*Irit leaf",
-    "label": "Irit leaf"
-  },
-  {
-    "value": "*Avantoe",
-    "label": "Avantoe"
-  },
-  {
-    "value": "*Kwuarm",
-    "label": "Kwuarm"
-  },
-  {
-    "value": "*Huasca",
-    "label": "Huasca"
-  },
-  {
-    "value": "*Snapdragon",
-    "label": "Snapdragon"
-  },
-  {
-    "value": "*Cadantine",
-    "label": "Cadantine"
-  },
-  {
-    "value": "*Lantadyme",
-    "label": "Lantadyme"
-  },
-  {
-    "value": "*Dwarf weed",
-    "label": "Dwarf weed"
-  },
-  {
-    "value": "*Torstol",
-    "label": "Torstol"
-  }
-]
-*/
-#define VAR_HERBS_SHOW [ \
-  "*Ranarr weed", \
-  "*Huasca", \
-  "*Snapdragon", \
-  "*Torstol", \
-]
-
-apply (name:VAR_HERBS_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:herbs
-type: number
-label: Guam leaf minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
-
-apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Guam leaf minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 0
-
-apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Marrentill minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
-
-apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Marrentill minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 0
-
-apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Tarromin minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
-
-apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Tarromin minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 0
-
-apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Harralander minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
-
-apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Harralander minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 0
-
-apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Ranarr weed minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
-
-apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Ranarr weed minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 0
-
-apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Toadflax minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
-
-apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Toadflax minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 0
-
-apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Irit leaf minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
-
-apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Irit leaf minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 0
-
-apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Avantoe minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
-
-apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Avantoe minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 0
-
-apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Kwuarm minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
-
-apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Kwuarm minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 0
-
-apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Huasca minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
-
-apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Huasca minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 0
-
-apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Snapdragon minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
-
-apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Snapdragon minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 0
-
-apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Cadantine minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
-
-apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Cadantine minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 0
-
-apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Lantadyme minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
-
-apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Lantadyme minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 0
-
-apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Dwarf weed minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
-
-apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Dwarf weed minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 0
-
-apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Torstol minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
-
-apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:herbs
-type: number
-label: Torstol minimum quantity
-group: Noted Herb Quantity Filtering
-*/
-#define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 0
-
-apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-/*@ define:module:potions
----
-name: Potions
-subtitle: Drink up!
-description: |
-  Filters and styling for potions. By default this filters out lower tier potions and gives every potion unique styling.
-*/
-
-/*@ define:input:potions
-type: enumlist
-label: Potions to force hidden
-enum: [
-  {
-    "value": "Attack potion(*",
-    "label": "Attack potion"
-  },
-  {
-    "value": "Antipoison(*",
-    "label": "Antipoison"
-  },
-  {
-    "value": "Strength potion(*",
-    "label": "Strength potion"
-  },
-  {
-    "value": "Serum 207(*",
-    "label": "Serum 207"
-  },
-  {
-    "value": "Compost potion(*",
-    "label": "Compost potion"
-  },
-  {
-    "value": "Restore potion(*",
-    "label": "Restore potion"
-  },
-  {
-    "value": "Energy potion(*",
-    "label": "Energy potion"
-  },
-  {
-    "value": "Defence potion(*",
-    "label": "Defence potion"
-  },
-  {
-    "value": "Agility potion(*",
-    "label": "Agility potion"
-  },
-  {
-    "value": "Combat potion(*",
-    "label": "Combat potion"
-  },
-  {
-    "value": "Prayer potion(*",
-    "label": "Prayer potion"
-  },
-  {
-    "value": "Super attack(*",
-    "label": "Super attack"
-  },
-  {
-    "value": "Superantipoison(*",
-    "label": "Superantipoison"
-  },
-  {
-    "value": "Fishing potion(*",
-    "label": "Fishing potion"
-  },
-  {
-    "value": "Super energy(*",
-    "label": "Super energy"
-  },
-  {
-    "value": "Hunter potion(*",
-    "label": "Hunter potion"
-  },
-  {
-    "value": "Goading potion(*",
-    "label": "Goading potion"
-  },
-  {
-    "value": "Super strength(*",
-    "label": "Super strength"
-  },
-  {
-    "value": "Prayer regeneration potion(*",
-    "label": "Prayer regeneration potion"
-  },
-  {
-    "value": "Super restore(*",
-    "label": "Super restore"
-  },
-  {
-    "value": "Sanfew serum(*",
-    "label": "Sanfew serum"
-  },
-  {
-    "value": "Super defence(*",
-    "label": "Super defence"
-  },
-  {
-    "value": "Antidote+(*",
-    "label": "Antidote+"
-  },
-  {
-    "value": "Antifire potion(*",
-    "label": "Antifire potion"
-  },
-  {
-    "value": "Divine super attack potion(*",
-    "label": "Divine super attack potion"
-  },
-  {
-    "value": "Divine super defence potion(*",
-    "label": "Divine super defence potion"
-  },
-  {
-    "value": "Divine super strength potion(*",
-    "label": "Divine super strength potion"
-  },
-  {
-    "value": "Ranging potion(*",
-    "label": "Ranging potion"
-  },
-  {
-    "value": "Divine ranging potion(*",
-    "label": "Divine ranging potion"
-  },
-  {
-    "value": "Magic potion(*",
-    "label": "Magic potion"
-  },
-  {
-    "value": "Stamina potion(*",
-    "label": "Stamina potion"
-  },
-  {
-    "value": "Zamorak brew(*",
-    "label": "Zamorak brew"
-  },
-  {
-    "value": "Divine magic potion(*",
-    "label": "Divine magic potion"
-  },
-  {
-    "value": "Antidote++(*",
-    "label": "Antidote++"
-  },
-  {
-    "value": "Bastion potion(*",
-    "label": "Bastion potion"
-  },
-  {
-    "value": "Battlemage potion(*",
-    "label": "Battlemage potion"
-  },
-  {
-    "value": "Saradomin brew(*",
-    "label": "Saradomin brew"
-  },
-  {
-    "value": "Extended antifire(*",
-    "label": "Extended antifire"
-  },
-  {
-    "value": "Ancient brew(*",
-    "label": "Ancient brew"
-  },
-  {
-    "value": "Divine bastion potion(*",
-    "label": "Divine bastion potion"
-  },
-  {
-    "value": "Divine battlemage potion(*",
-    "label": "Divine battlemage potion"
-  },
-  {
-    "value": "Anti-venom(*",
-    "label": "Anti-venom"
-  },
-  {
-    "value": "Menaphite remedy(*",
-    "label": "Menaphite remedy"
-  },
-  {
-    "value": "Super combat potion(*",
-    "label": "Super combat potion"
-  },
-  {
-    "value": "Forgotten brew(*",
-    "label": "Forgotten brew"
-  },
-  {
-    "value": "Super antifire potion(*",
-    "label": "Super antifire potion"
-  },
-  {
-    "value": "Anti-venom+(*",
-    "label": "Anti-venom+"
-  },
-  {
-    "value": "Extended anti-venom+(*",
-    "label": "Extended anti-venom+"
-  },
-  {
-    "value": "Divine super combat potion(*",
-    "label": "Divine super combat potion"
-  },
-  {
-    "value": "Extended super antifire(*",
-    "label": "Extended super antifire"
-  }
-]
-*/
-#define VAR_POTIONS_HIDE [ \
-  "Attack potion(*", \
-  "Strength potion(*", \
-  "Serum 207(*", \
-  "Compost potion(*", \
-  "Restore potion(*", \
-  "Energy potion(*", \
-  "Defence potion(*", \
-  "Agility potion(*", \
-  "Combat potion(*", \
-  "Fishing potion(*", \
-  "Hunter potion(*", \
-  "Antidote+(*", \
-]
-
-apply (name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:potions
-type: enumlist
-label: Potions to force shown
-enum: [
-  {
-    "value": "Attack potion(*",
-    "label": "Attack potion"
-  },
-  {
-    "value": "Antipoison(*",
-    "label": "Antipoison"
-  },
-  {
-    "value": "Strength potion(*",
-    "label": "Strength potion"
-  },
-  {
-    "value": "Serum 207(*",
-    "label": "Serum 207"
-  },
-  {
-    "value": "Compost potion(*",
-    "label": "Compost potion"
-  },
-  {
-    "value": "Restore potion(*",
-    "label": "Restore potion"
-  },
-  {
-    "value": "Energy potion(*",
-    "label": "Energy potion"
-  },
-  {
-    "value": "Defence potion(*",
-    "label": "Defence potion"
-  },
-  {
-    "value": "Agility potion(*",
-    "label": "Agility potion"
-  },
-  {
-    "value": "Combat potion(*",
-    "label": "Combat potion"
-  },
-  {
-    "value": "Prayer potion(*",
-    "label": "Prayer potion"
-  },
-  {
-    "value": "Super attack(*",
-    "label": "Super attack"
-  },
-  {
-    "value": "Superantipoison(*",
-    "label": "Superantipoison"
-  },
-  {
-    "value": "Fishing potion(*",
-    "label": "Fishing potion"
-  },
-  {
-    "value": "Super energy(*",
-    "label": "Super energy"
-  },
-  {
-    "value": "Hunter potion(*",
-    "label": "Hunter potion"
-  },
-  {
-    "value": "Goading potion(*",
-    "label": "Goading potion"
-  },
-  {
-    "value": "Super strength(*",
-    "label": "Super strength"
-  },
-  {
-    "value": "Prayer regeneration potion(*",
-    "label": "Prayer regeneration potion"
-  },
-  {
-    "value": "Super restore(*",
-    "label": "Super restore"
-  },
-  {
-    "value": "Sanfew serum(*",
-    "label": "Sanfew serum"
-  },
-  {
-    "value": "Super defence(*",
-    "label": "Super defence"
-  },
-  {
-    "value": "Antidote+(*",
-    "label": "Antidote+"
-  },
-  {
-    "value": "Antifire potion(*",
-    "label": "Antifire potion"
-  },
-  {
-    "value": "Divine super attack potion(*",
-    "label": "Divine super attack potion"
-  },
-  {
-    "value": "Divine super defence potion(*",
-    "label": "Divine super defence potion"
-  },
-  {
-    "value": "Divine super strength potion(*",
-    "label": "Divine super strength potion"
-  },
-  {
-    "value": "Ranging potion(*",
-    "label": "Ranging potion"
-  },
-  {
-    "value": "Divine ranging potion(*",
-    "label": "Divine ranging potion"
-  },
-  {
-    "value": "Magic potion(*",
-    "label": "Magic potion"
-  },
-  {
-    "value": "Stamina potion(*",
-    "label": "Stamina potion"
-  },
-  {
-    "value": "Zamorak brew(*",
-    "label": "Zamorak brew"
-  },
-  {
-    "value": "Divine magic potion(*",
-    "label": "Divine magic potion"
-  },
-  {
-    "value": "Antidote++(*",
-    "label": "Antidote++"
-  },
-  {
-    "value": "Bastion potion(*",
-    "label": "Bastion potion"
-  },
-  {
-    "value": "Battlemage potion(*",
-    "label": "Battlemage potion"
-  },
-  {
-    "value": "Saradomin brew(*",
-    "label": "Saradomin brew"
-  },
-  {
-    "value": "Extended antifire(*",
-    "label": "Extended antifire"
-  },
-  {
-    "value": "Ancient brew(*",
-    "label": "Ancient brew"
-  },
-  {
-    "value": "Divine bastion potion(*",
-    "label": "Divine bastion potion"
-  },
-  {
-    "value": "Divine battlemage potion(*",
-    "label": "Divine battlemage potion"
-  },
-  {
-    "value": "Anti-venom(*",
-    "label": "Anti-venom"
-  },
-  {
-    "value": "Menaphite remedy(*",
-    "label": "Menaphite remedy"
-  },
-  {
-    "value": "Super combat potion(*",
-    "label": "Super combat potion"
-  },
-  {
-    "value": "Forgotten brew(*",
-    "label": "Forgotten brew"
-  },
-  {
-    "value": "Super antifire potion(*",
-    "label": "Super antifire potion"
-  },
-  {
-    "value": "Anti-venom+(*",
-    "label": "Anti-venom+"
-  },
-  {
-    "value": "Extended anti-venom+(*",
-    "label": "Extended anti-venom+"
-  },
-  {
-    "value": "Divine super combat potion(*",
-    "label": "Divine super combat potion"
-  },
-  {
-    "value": "Extended super antifire(*",
-    "label": "Extended super antifire"
-  }
-]
-*/
-#define VAR_POTIONS_SHOW [ \
-  "Anti-venom(*", \
-  "Anti-venom+(*", \
-  "Antidote++(*", \
-  "Antifire potion(*", \
-  "Bastion potion(*", \
-  "Battlemage potion(*", \
-  "Divine bastion potion(*", \
-  "Divine battlemage potion(*", \
-  "Divine magic potion(*", \
-  "Divine ranging potion(*", \
-  "Divine super attack potion(*", \
-  "Divine super combat potion(*", \
-  "Divine super defence potion(*", \
-  "Divine super strength potion(*", \
-  "Extended anti-venom+(*", \
-  "Extended antifire(*", \
-  "Extended super antifire(*", \
-  "Forgotten brew(*", \
-  "Goading potion(*", \
-  "Menaphite remedy(*", \
-  "Prayer regeneration potion(*", \
-  "Ranging potion(*", \
-  "Sanfew serum(*", \
-  "Saradomin brew(*", \
-  "Stamina potion(*", \
-  "Super antifire potion(*", \
-  "Super combat potion(*", \
-  "Super restore(*", \
-]
-
-apply (name:VAR_POTIONS_SHOW) {
-    hidden = false;
-}
-
-/*@ define:module:food
----
-name: Food
-subtitle: The stuff you eat
-description: |
-  This module provides filters based on food groups with some sane defaults.
-*/
-
-/*@ define:input:food
-type: enumlist
-label: Hunter foods to force hidden
-group: Food filters
-enum: [
-  "Cooked wild kebbit",
-  "Cooked larupia",
-  "Cooked barb-tailed kebbit",
-  "Cooked graahk",
-  "Cooked kyatt",
-  "Cooked pyre fox",
-  "Cooked sunlight antelope",
-  "Cooked dashing kebbit",
-  "Cooked moonlight antelope"
-]
-*/
-#define VAR_FOOD_HUNTER_FOODS_HIDE [ \
-  "Cooked wild kebbit", \
-  "Cooked larupia", \
-  "Cooked barb-tailed kebbit", \
-  "Cooked graahk", \
-]
-
-apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:food
-type: enumlist
-label: Fish foods to force hidden
-group: Food filters
-enum: [
-  "Shrimp",
-  "Sardine",
-  "Karambwanji",
-  "Herring",
-  "Anchovies",
-  "Mackerel",
-  "Trout",
-  "Cod",
-  "Pike",
-  "Slimy eel",
-  "Salmon",
-  "Tuna",
-  "Rainbow fish",
-  "Cave eel",
-  "Lobster",
-  "Bass",
-  "Swordfish",
-  "Lava eel",
-  "Monkfish",
-  "Cooked karambwan",
-  "Shark",
-  "Sea turtle",
-  "Manta ray",
-  "Anglerfish",
-  "Dark crab"
-]
-*/
-#define VAR_FOOD_FISH_FOODS_HIDE [ \
-  "Shrimp", \
-  "Sardine", \
-  "Herring", \
-  "Anchovies", \
-  "Mackerel", \
-  "Trout", \
-  "Cod", \
-  "Pike", \
-  "Salmon", \
-  "Tuna", \
-]
-
-apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:food
-type: enumlist
-label: Hunter foods to force shown
-group: Food filters
-enum: [
-  "Cooked wild kebbit",
-  "Cooked larupia",
-  "Cooked barb-tailed kebbit",
-  "Cooked graahk",
-  "Cooked kyatt",
-  "Cooked pyre fox",
-  "Cooked sunlight antelope",
-  "Cooked dashing kebbit",
-  "Cooked moonlight antelope"
-]
-*/
-#define VAR_FOOD_HUNTER_FOODS_SHOW [ \
-  "Cooked sunlight antelope", \
-  "Cooked dashing kebbit", \
-  "Cooked moonlight antelope", \
-]
-
-apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:food
-type: enumlist
-label: Fish foods to force shown
-group: Food filters
-enum: [
-  "Shrimp",
-  "Sardine",
-  "Karambwanji",
-  "Herring",
-  "Anchovies",
-  "Mackerel",
-  "Trout",
-  "Cod",
-  "Pike",
-  "Slimy eel",
-  "Salmon",
-  "Tuna",
-  "Rainbow fish",
-  "Cave eel",
-  "Lobster",
-  "Bass",
-  "Swordfish",
-  "Lava eel",
-  "Monkfish",
-  "Cooked karambwan",
-  "Shark",
-  "Sea turtle",
-  "Manta ray",
-  "Anglerfish",
-  "Dark crab"
-]
-*/
-#define VAR_FOOD_FISH_FOODS_SHOW [ \
-  "Swordfish", \
-  "Lava eel", \
-  "Monkfish", \
-  "Cooked karambwan", \
-  "Shark", \
-  "Sea turtle", \
-  "Manta ray", \
-  "Anglerfish", \
-  "Dark crab", \
-]
-
-apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
-    hidden = false;
-}
-
-/*@ define:module:metal_equipment
----
-name: Metal Equipment
-subtitle: Watch out for lightning
-description: |
-  Provides a metal tier filter and custom styling for metal equipment including trimmed, gold trimmed, gilded, heraldic, and god rune armours.
-*/
-
-/*@ define:input:metal_equipment
-type: enumlist
-label: Metal equipment to force hidden
-enum: [
-  "Bronze*",
-  "Iron*",
-  "Steel*",
-  "Black*",
-  "Mithril*",
-  "Adamant*",
-  "Rune*",
-  "Dragon*"
-]
-*/
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE [ \
-  "Bronze*", \
-  "Iron*", \
-  "Steel*", \
-  "Black*", \
-  "Mithril*", \
-]
-
-apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BRONZE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BRONZE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BRONZE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_BRONZE_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_IRON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_IRON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_IRON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_IRON_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_STEEL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_STEEL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_STEEL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_STEEL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BLACK_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BLACK_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BLACK_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_BLACK_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_MITHRIL_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_MITHRIL_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_MITHRIL_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_MITHRIL_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_ADAMANT_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_ADAMANT_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_ADAMANT_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_ADAMANT_OTHER && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_RUNE_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_RUNE_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_RUNE_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_DRAGON_RANGED_WEAPONS && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-apply (name:CONST_DRAGON_AMMO && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_DRAGON_ARMOUR && name:VAR_METAL_EQUIPMENT_TIERS_HIDE) {
     hidden = true;
 }
 /*@ define:module:final
