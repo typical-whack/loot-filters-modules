@@ -2316,6 +2316,620 @@ exampleItem: Blisterwood logs
 apply (name:"Blisterwood logs") {
     VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE 
 }
+
+/*@ define:group
+---
+name: Ores Styles
+expanded: false
+description: |
+  Ores Styles
+  ---
+  This module provides custom style for ores. By default this colors all ores similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Copper ore custom style
+group: Ores Styles
+exampleItem: Copper ore
+*/
+#define VAR_COPPER_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50DA7D37";\
+  borderColor = "#FFDA7D37";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFDA7D37";
+
+apply (name:"copper ore") {
+    VAR_COPPER_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tin ore custom style
+group: Ores Styles
+exampleItem: Tin ore
+*/
+#define VAR_TIN_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50887F7E";\
+  borderColor = "#FF887F7E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF887F7E";
+
+apply (name:"tin ore") {
+    VAR_TIN_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Iron ore custom style
+group: Ores Styles
+exampleItem: Iron ore
+*/
+#define VAR_IRON_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504C2D22";\
+  borderColor = "#FF4C2D22";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4C2D22";
+
+apply (name:"iron ore") {
+    VAR_IRON_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Silver ore custom style
+group: Ores Styles
+exampleItem: Silver ore
+*/
+#define VAR_SILVER_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509999A5";\
+  borderColor = "#FF9999A5";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9999A5";
+
+apply (name:"silver ore") {
+    VAR_SILVER_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Coal custom style
+group: Ores Styles
+exampleItem: Coal
+*/
+#define VAR_COAL_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50383725";\
+  borderColor = "#FF383725";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF383725";
+
+apply (name:"coal") {
+    VAR_COAL_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Gold ore custom style
+group: Ores Styles
+exampleItem: Gold ore
+*/
+#define VAR_GOLD_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C6A118";\
+  borderColor = "#FFC6A118";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC6A118";
+
+apply (name:"gold ore") {
+    VAR_GOLD_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mithril ore custom style
+group: Ores Styles
+exampleItem: Mithril ore
+*/
+#define VAR_MITHRIL_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5048486A";\
+  borderColor = "#FF48486A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF48486A";
+
+apply (name:"mithril ore") {
+    VAR_MITHRIL_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Adamantite ore custom style
+group: Ores Styles
+exampleItem: Adamantite ore
+*/
+#define VAR_ADAMANTITE_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50485B49";\
+  borderColor = "#FF485B49";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF485B49";
+
+apply (name:"adamantite ore") {
+    VAR_ADAMANTITE_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Runite ore custom style
+group: Ores Styles
+exampleItem: Runite ore
+*/
+#define VAR_RUNITE_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504D6671";\
+  borderColor = "#FF4D6671";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4D6671";
+
+apply (name:"runite ore") {
+    VAR_RUNITE_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Daeyalt ore custom style
+group: Ores Styles
+exampleItem: Daeyalt ore
+*/
+#define VAR_DAEYALT_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500A645B";\
+  borderColor = "#FF0A645B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0A645B";
+
+apply (name:"daeyalt ore") {
+    VAR_DAEYALT_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blasted ore custom style
+group: Ores Styles
+exampleItem: Blasted ore
+*/
+#define VAR_BLASTED_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50515757";\
+  borderColor = "#FF515757";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF515757";
+
+apply (name:"blasted ore") {
+    VAR_BLASTED_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blurite ore custom style
+group: Ores Styles
+exampleItem: Blurite ore
+*/
+#define VAR_BLURITE_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50787ACF";\
+  borderColor = "#FF787ACF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF787ACF";
+
+apply (name:"blurite ore") {
+    VAR_BLURITE_ORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lovakite ore custom style
+group: Ores Styles
+exampleItem: Lovakite ore
+*/
+#define VAR_LOVAKITE_ORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505C1009";\
+  borderColor = "#FF5C1009";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5C1009";
+
+apply (name:"lovakite ore") {
+    VAR_LOVAKITE_ORE_CUSTOMSTYLE 
+}
+/*@ define:group
+---
+name: Runes Styles
+expanded: false
+description: |
+  Runes Styles
+  ---
+  Custom styling for runes
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Air rune custom style
+group: Runes Styles
+exampleItem: Air rune
+*/
+#define VAR_AIR_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E1DEDE";\
+  borderColor = "#FFE1DEDE";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE1DEDE";
+
+apply (name:"Air rune") {
+    VAR_AIR_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Water rune custom style
+group: Runes Styles
+exampleItem: Water rune
+*/
+#define VAR_WATER_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50151AA7";\
+  borderColor = "#FF151AA7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF151AA7";
+
+apply (name:"Water rune") {
+    VAR_WATER_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Earth rune custom style
+group: Runes Styles
+exampleItem: Earth rune
+*/
+#define VAR_EARTH_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506D490D";\
+  borderColor = "#FF6D490D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6D490D";
+
+apply (name:"Earth rune") {
+    VAR_EARTH_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fire rune custom style
+group: Runes Styles
+exampleItem: Fire rune
+*/
+#define VAR_FIRE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A72215";\
+  borderColor = "#FFA72215";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFA72215";
+
+apply (name:"Fire rune") {
+    VAR_FIRE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mind rune custom style
+group: Runes Styles
+exampleItem: Mind rune
+*/
+#define VAR_MIND_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D58A2E";\
+  borderColor = "#FFD58A2E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD58A2E";
+
+apply (name:"Mind rune") {
+    VAR_MIND_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Body rune custom style
+group: Runes Styles
+exampleItem: Body rune
+*/
+#define VAR_BODY_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501A21CF";\
+  borderColor = "#FF1A21CF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1A21CF";
+
+apply (name:"Body rune") {
+    VAR_BODY_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cosmic rune custom style
+group: Runes Styles
+exampleItem: Cosmic rune
+*/
+#define VAR_COSMIC_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E0DE1A";\
+  borderColor = "#FFE0DE1A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE0DE1A";
+
+apply (name:"Cosmic rune") {
+    VAR_COSMIC_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Chaos rune custom style
+group: Runes Styles
+exampleItem: Chaos rune
+*/
+#define VAR_CHAOS_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E0A81A";\
+  borderColor = "#FFE0A81A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE0A81A";
+
+apply (name:"Chaos rune") {
+    VAR_CHAOS_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Nature rune custom style
+group: Runes Styles
+exampleItem: Nature rune
+*/
+#define VAR_NATURE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50168B1A";\
+  borderColor = "#FF168B1A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF168B1A";
+
+apply (name:"Nature rune") {
+    VAR_NATURE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Law rune custom style
+group: Runes Styles
+exampleItem: Law rune
+*/
+#define VAR_LAW_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501A22E0";\
+  borderColor = "#FF1A22E0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1A22E0";
+
+apply (name:"Law rune") {
+    VAR_LAW_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Death rune custom style
+group: Runes Styles
+exampleItem: Death rune
+*/
+#define VAR_DEATH_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50E4E1E1";\
+  borderColor = "#FFE4E1E1";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFE4E1E1";
+
+apply (name:"Death rune") {
+    VAR_DEATH_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sunfire rune custom style
+group: Runes Styles
+exampleItem: Sunfire rune
+*/
+#define VAR_SUNFIRE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50DFA81A";\
+  borderColor = "#FFDFA81A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFDFA81A";
+
+apply (name:"Sunfire rune") {
+    VAR_SUNFIRE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Astral rune custom style
+group: Runes Styles
+exampleItem: Astral rune
+*/
+#define VAR_ASTRAL_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CDB5CD";\
+  borderColor = "#FFCDB5CD";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCDB5CD";
+
+apply (name:"Astral rune") {
+    VAR_ASTRAL_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blood rune custom style
+group: Runes Styles
+exampleItem: Blood rune
+*/
+#define VAR_BLOOD_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50891D11";\
+  borderColor = "#FF891D11";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF891D11";
+
+apply (name:"Blood rune") {
+    VAR_BLOOD_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Soul rune custom style
+group: Runes Styles
+exampleItem: Soul rune
+*/
+#define VAR_SOUL_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509192D3";\
+  borderColor = "#FF9192D3";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9192D3";
+
+apply (name:"Soul rune") {
+    VAR_SOUL_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Wrath rune custom style
+group: Runes Styles
+exampleItem: Wrath rune
+*/
+#define VAR_WRATH_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50353030";\
+  borderColor = "#FF353030";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF353030";
+
+apply (name:"Wrath rune") {
+    VAR_WRATH_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mist rune custom style
+group: Runes Styles
+exampleItem: Mist rune
+*/
+#define VAR_MIST_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C8C0C0";\
+  borderColor = "#FFC8C0C0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC8C0C0";
+
+apply (name:"Mist rune") {
+    VAR_MIST_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dust rune custom style
+group: Runes Styles
+exampleItem: Dust rune
+*/
+#define VAR_DUST_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50746241";\
+  borderColor = "#FF746241";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF746241";
+
+apply (name:"Dust rune") {
+    VAR_DUST_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mud rune custom style
+group: Runes Styles
+exampleItem: Mud rune
+*/
+#define VAR_MUD_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505D3B17";\
+  borderColor = "#FF5D3B17";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5D3B17";
+
+apply (name:"Mud rune") {
+    VAR_MUD_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Smoke rune custom style
+group: Runes Styles
+exampleItem: Smoke rune
+*/
+#define VAR_SMOKE_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50534D4D";\
+  borderColor = "#FF534D4D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF534D4D";
+
+apply (name:"Smoke rune") {
+    VAR_SMOKE_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Steam rune custom style
+group: Runes Styles
+exampleItem: Steam rune
+*/
+#define VAR_STEAM_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AEAEB7";\
+  borderColor = "#FFAEAEB7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFAEAEB7";
+
+apply (name:"Steam rune") {
+    VAR_STEAM_RUNE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lava rune custom style
+group: Runes Styles
+exampleItem: Lava rune
+*/
+#define VAR_LAVA_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D28019";\
+  borderColor = "#FFD28019";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD28019";
+
+apply (name:"Lava rune") {
+    VAR_LAVA_RUNE_CUSTOMSTYLE 
+}
 /*@ define:group
 ---
 name: Raw Fish Styles
@@ -2990,389 +3604,6 @@ exampleItem: Karambwan vessel
 
 apply (name:"Karambwan vessel") {
     VAR_KARAMBWAN_VESSEL_CUSTOMSTYLE 
-}
-/*@ define:group
----
-name: Runes Styles
-expanded: false
-description: |
-  Runes Styles
-  ---
-  Custom styling for runes
-*/
-
-/*@ define:input:individual_item_styles
-type: style
-label: Air rune custom style
-group: Runes Styles
-exampleItem: Air rune
-*/
-#define VAR_AIR_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E1DEDE";\
-  borderColor = "#FFE1DEDE";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE1DEDE";
-
-apply (name:"Air rune") {
-    VAR_AIR_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Water rune custom style
-group: Runes Styles
-exampleItem: Water rune
-*/
-#define VAR_WATER_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50151AA7";\
-  borderColor = "#FF151AA7";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF151AA7";
-
-apply (name:"Water rune") {
-    VAR_WATER_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Earth rune custom style
-group: Runes Styles
-exampleItem: Earth rune
-*/
-#define VAR_EARTH_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#506D490D";\
-  borderColor = "#FF6D490D";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF6D490D";
-
-apply (name:"Earth rune") {
-    VAR_EARTH_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Fire rune custom style
-group: Runes Styles
-exampleItem: Fire rune
-*/
-#define VAR_FIRE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50A72215";\
-  borderColor = "#FFA72215";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFA72215";
-
-apply (name:"Fire rune") {
-    VAR_FIRE_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Mind rune custom style
-group: Runes Styles
-exampleItem: Mind rune
-*/
-#define VAR_MIND_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D58A2E";\
-  borderColor = "#FFD58A2E";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD58A2E";
-
-apply (name:"Mind rune") {
-    VAR_MIND_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Body rune custom style
-group: Runes Styles
-exampleItem: Body rune
-*/
-#define VAR_BODY_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#501A21CF";\
-  borderColor = "#FF1A21CF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1A21CF";
-
-apply (name:"Body rune") {
-    VAR_BODY_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Cosmic rune custom style
-group: Runes Styles
-exampleItem: Cosmic rune
-*/
-#define VAR_COSMIC_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E0DE1A";\
-  borderColor = "#FFE0DE1A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE0DE1A";
-
-apply (name:"Cosmic rune") {
-    VAR_COSMIC_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Chaos rune custom style
-group: Runes Styles
-exampleItem: Chaos rune
-*/
-#define VAR_CHAOS_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E0A81A";\
-  borderColor = "#FFE0A81A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE0A81A";
-
-apply (name:"Chaos rune") {
-    VAR_CHAOS_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Nature rune custom style
-group: Runes Styles
-exampleItem: Nature rune
-*/
-#define VAR_NATURE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50168B1A";\
-  borderColor = "#FF168B1A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF168B1A";
-
-apply (name:"Nature rune") {
-    VAR_NATURE_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Law rune custom style
-group: Runes Styles
-exampleItem: Law rune
-*/
-#define VAR_LAW_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#501A22E0";\
-  borderColor = "#FF1A22E0";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1A22E0";
-
-apply (name:"Law rune") {
-    VAR_LAW_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Death rune custom style
-group: Runes Styles
-exampleItem: Death rune
-*/
-#define VAR_DEATH_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50E4E1E1";\
-  borderColor = "#FFE4E1E1";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFE4E1E1";
-
-apply (name:"Death rune") {
-    VAR_DEATH_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Sunfire rune custom style
-group: Runes Styles
-exampleItem: Sunfire rune
-*/
-#define VAR_SUNFIRE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50DFA81A";\
-  borderColor = "#FFDFA81A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFDFA81A";
-
-apply (name:"Sunfire rune") {
-    VAR_SUNFIRE_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Astral rune custom style
-group: Runes Styles
-exampleItem: Astral rune
-*/
-#define VAR_ASTRAL_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50CDB5CD";\
-  borderColor = "#FFCDB5CD";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFCDB5CD";
-
-apply (name:"Astral rune") {
-    VAR_ASTRAL_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Blood rune custom style
-group: Runes Styles
-exampleItem: Blood rune
-*/
-#define VAR_BLOOD_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50891D11";\
-  borderColor = "#FF891D11";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF891D11";
-
-apply (name:"Blood rune") {
-    VAR_BLOOD_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Soul rune custom style
-group: Runes Styles
-exampleItem: Soul rune
-*/
-#define VAR_SOUL_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509192D3";\
-  borderColor = "#FF9192D3";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9192D3";
-
-apply (name:"Soul rune") {
-    VAR_SOUL_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Wrath rune custom style
-group: Runes Styles
-exampleItem: Wrath rune
-*/
-#define VAR_WRATH_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50353030";\
-  borderColor = "#FF353030";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF353030";
-
-apply (name:"Wrath rune") {
-    VAR_WRATH_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Mist rune custom style
-group: Runes Styles
-exampleItem: Mist rune
-*/
-#define VAR_MIST_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C8C0C0";\
-  borderColor = "#FFC8C0C0";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC8C0C0";
-
-apply (name:"Mist rune") {
-    VAR_MIST_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Dust rune custom style
-group: Runes Styles
-exampleItem: Dust rune
-*/
-#define VAR_DUST_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50746241";\
-  borderColor = "#FF746241";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF746241";
-
-apply (name:"Dust rune") {
-    VAR_DUST_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Mud rune custom style
-group: Runes Styles
-exampleItem: Mud rune
-*/
-#define VAR_MUD_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#505D3B17";\
-  borderColor = "#FF5D3B17";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF5D3B17";
-
-apply (name:"Mud rune") {
-    VAR_MUD_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Smoke rune custom style
-group: Runes Styles
-exampleItem: Smoke rune
-*/
-#define VAR_SMOKE_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50534D4D";\
-  borderColor = "#FF534D4D";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF534D4D";
-
-apply (name:"Smoke rune") {
-    VAR_SMOKE_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Steam rune custom style
-group: Runes Styles
-exampleItem: Steam rune
-*/
-#define VAR_STEAM_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50AEAEB7";\
-  borderColor = "#FFAEAEB7";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFAEAEB7";
-
-apply (name:"Steam rune") {
-    VAR_STEAM_RUNE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Lava rune custom style
-group: Runes Styles
-exampleItem: Lava rune
-*/
-#define VAR_LAVA_RUNE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D28019";\
-  borderColor = "#FFD28019";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD28019";
-
-apply (name:"Lava rune") {
-    VAR_LAVA_RUNE_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
@@ -7723,227 +7954,6 @@ group: Ore Filters
 
 apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
     hidden = true;
-}
-
-/*@ define:input:ores
-type: style
-label: Copper ore custom style
-group: Custom Styling
-exampleItem: Copper ore
-*/
-#define VAR_COPPER_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50DA7D37";\
-  borderColor = "#FFDA7D37";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFDA7D37";
-
-apply (name:"copper ore") {
-    VAR_COPPER_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Tin ore custom style
-group: Custom Styling
-exampleItem: Tin ore
-*/
-#define VAR_TIN_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50887F7E";\
-  borderColor = "#FF887F7E";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF887F7E";
-
-apply (name:"tin ore") {
-    VAR_TIN_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Iron ore custom style
-group: Custom Styling
-exampleItem: Iron ore
-*/
-#define VAR_IRON_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#504C2D22";\
-  borderColor = "#FF4C2D22";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4C2D22";
-
-apply (name:"iron ore") {
-    VAR_IRON_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Silver ore custom style
-group: Custom Styling
-exampleItem: Silver ore
-*/
-#define VAR_SILVER_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509999A5";\
-  borderColor = "#FF9999A5";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9999A5";
-
-apply (name:"silver ore") {
-    VAR_SILVER_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Coal custom style
-group: Custom Styling
-exampleItem: Coal
-*/
-#define VAR_COAL_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50383725";\
-  borderColor = "#FF383725";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF383725";
-
-apply (name:"coal") {
-    VAR_COAL_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Gold ore custom style
-group: Custom Styling
-exampleItem: Gold ore
-*/
-#define VAR_GOLD_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C6A118";\
-  borderColor = "#FFC6A118";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC6A118";
-
-apply (name:"gold ore") {
-    VAR_GOLD_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Mithril ore custom style
-group: Custom Styling
-exampleItem: Mithril ore
-*/
-#define VAR_MITHRIL_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5048486A";\
-  borderColor = "#FF48486A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF48486A";
-
-apply (name:"mithril ore") {
-    VAR_MITHRIL_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Adamantite ore custom style
-group: Custom Styling
-exampleItem: Adamantite ore
-*/
-#define VAR_ADAMANTITE_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50485B49";\
-  borderColor = "#FF485B49";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF485B49";
-
-apply (name:"adamantite ore") {
-    VAR_ADAMANTITE_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Runite ore custom style
-group: Custom Styling
-exampleItem: Runite ore
-*/
-#define VAR_RUNITE_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#504D6671";\
-  borderColor = "#FF4D6671";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4D6671";
-
-apply (name:"runite ore") {
-    VAR_RUNITE_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Daeyalt ore custom style
-group: Custom Styling
-exampleItem: Daeyalt ore
-*/
-#define VAR_DAEYALT_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#500A645B";\
-  borderColor = "#FF0A645B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF0A645B";
-
-apply (name:"daeyalt ore") {
-    VAR_DAEYALT_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Blasted ore custom style
-group: Custom Styling
-exampleItem: Blasted ore
-*/
-#define VAR_BLASTED_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50515757";\
-  borderColor = "#FF515757";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF515757";
-
-apply (name:"blasted ore") {
-    VAR_BLASTED_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Blurite ore custom style
-group: Custom Styling
-exampleItem: Blurite ore
-*/
-#define VAR_BLURITE_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50787ACF";\
-  borderColor = "#FF787ACF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF787ACF";
-
-apply (name:"blurite ore") {
-    VAR_BLURITE_ORE_CUSTOMSTYLE 
-}
-
-/*@ define:input:ores
-type: style
-label: Lovakite ore custom style
-group: Custom Styling
-exampleItem: Lovakite ore
-*/
-#define VAR_LOVAKITE_ORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#505C1009";\
-  borderColor = "#FF5C1009";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF5C1009";
-
-apply (name:"lovakite ore") {
-    VAR_LOVAKITE_ORE_CUSTOMSTYLE 
 }
 
 /*@ define:module:gems
