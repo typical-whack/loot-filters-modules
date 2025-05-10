@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 07:04:15 UTC 2025 */
-/* Commit: 644f43b */
+/* Built on: Sat May 10 07:06:04 UTC 2025 */
+/* Commit: 21efcda */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -180,7 +180,6 @@ description: |
 /*@ define:group
 ---
 name: Individual Items
-expanded: true
 description: |
   Individual Items
   ---
@@ -212,7 +211,6 @@ apply (name:VAR_GLOBAL_SHOW) {
 /*@ define:group
 ---
 name: Value-Based
-expanded: true
 description: |
   Value-Based
   ---
@@ -256,7 +254,6 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 /*@ define:group
 ---
 name: Ownership
-expanded: true
 description: |
   Ownership
   ---
