@@ -1,14 +1,16 @@
-/*@ define:module:potions
+/*@ define:group
 ---
 name: Potions
-subtitle: Drink up!
 description: |
-  Filters and styling for potions. By default this filters out lower tier potions and gives every potion unique styling.
+  Potions
+  ---
+  Filters for potions. By default this filters out lower tier potions
 */
 
 /*@ define:input:potions
 type: enumlist
 label: Potions to force hidden
+group: Potions
 enum: [
   {
     "value": "Attack potion(*",
@@ -234,6 +236,7 @@ apply (name:VAR_POTIONS_HIDE) {
 /*@ define:input:potions
 type: enumlist
 label: Potions to force shown
+group: Potions
 enum: [
   {
     "value": "Attack potion(*",

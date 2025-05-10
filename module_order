@@ -7,6 +7,7 @@ filtering/ownership
 filtering/clue_scrolls
 filtering/remains
 filtering/food
+filtering/potions
 filtering/gems
 filtering/runes
 filtering/fishing
@@ -52,7 +53,6 @@ slayer
 ammo
 bars
 herbs
-potions
 metal_equipment
 final
 constants
