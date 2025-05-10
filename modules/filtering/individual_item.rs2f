@@ -1,7 +1,6 @@
 /*@ define:group
 ---
 name: Individual Items
-expanded: true
 description: |
   Individual Items
   ---

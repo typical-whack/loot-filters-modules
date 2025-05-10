@@ -1,7 +1,6 @@
 /*@ define:group
 ---
 name: Value-Based
-expanded: true
 description: |
   Value-Based
   ---

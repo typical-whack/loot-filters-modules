@@ -1,7 +1,6 @@
 /*@ define:group
 ---
 name: Ownership
-expanded: true
 description: |
   Ownership
   ---
