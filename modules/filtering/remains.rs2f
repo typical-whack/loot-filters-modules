@@ -1,93 +1,23 @@
-
-/*@ define:module:remains
+/*@ define:group
 ---
 name: Remains
-subtitle: Don't open dead inside
 description: |
-  For filtering out bones, ensouled heads, ashes, and shades of morton remains
+  Remains
+  ---
+   For filtering out bones, ensouled heads, ashes, and shades of morton remains
 */
-
-#define CONST_BONES_LIST [ \
-  "Bones", \
-  "Wolf bones", \
-  "Burnt bones", \
-  "Monkey bones", \
-  "Bat bones", \
-  "Big bones", \
-  "Jogre bones", \
-  "Wyrmling bones", \
-  "Zogre bones", \
-  "Shaikahan bones", \
-  "Babydragon bones", \
-  "Wyrm bones", \
-  "Wyvern bones", \
-  "Dragon bones", \
-  "Drake bones", \
-  "Fayrg bones", \
-  "Lava dragon bones", \
-  "Raurg bones", \
-  "Hydra bones", \
-  "Dagannoth bones", \
-  "Ourg bones", \
-  "Superior dragon bones", \
-  "Bleached bones", \
-  "Small zombie monkey bones", \
-  "Large zombie monkey bones", \
-  "Small ninja monkey bones", \
-  "Medium ninja monkey bones", \
-  "Gorilla bones", \
-  "Bearded gorilla bones", \
-]
-#define CONST_ASHES_LIST [ \
-  "Fiendish ashes", \
-  "Vile ashes", \
-  "Malicious ashes", \
-  "Abyssal ashes", \
-  "Infernal ashes", \
-]
-#define CONST_SHADES_REMAINS_LIST [ \
-  "Loar remains", \
-  "Phrin remains", \
-  "Riyl remains", \
-  "Asyn remains", \
-  "Fiyr remains", \
-  "Urium remains", \
-]
-#define CONST_ENSOULED_HEAD_LIST [ \
-  "Ensouled goblin head", \
-  "Ensouled monkey head", \
-  "Ensouled imp head", \
-  "Ensouled minotaur head", \
-  "Ensouled scorpion head", \
-  "Ensouled bear head", \
-  "Ensouled unicorn head", \
-  "Ensouled dog head", \
-  "Ensouled chaos druid head", \
-  "Ensouled giant head", \
-  "Ensouled ogre head", \
-  "Ensouled elf head", \
-  "Ensouled troll head", \
-  "Ensouled horror head", \
-  "Ensouled kalphite head", \
-  "Ensouled dagannoth head", \
-  "Ensouled bloodveld head", \
-  "Ensouled tzHaar head", \
-  "Ensouled demon head", \
-  "Ensouled hellhound head", \
-  "Ensouled aviansie head", \
-  "Ensouled abyssal head", \
-  "Ensouled dragon head", \
-]
 
 /*@ define:input:remains
 type: number
 label: Minimum value to display remains at
+group: Remains
 */
 #define VAR_REMAINS_MINIMUM_VALUE 0
 
 /*@ define:input:remains
 type: enumlist
 label: Bones to force hidden
+group: Remains
 enum: [
   "Bones",
   "Wolf bones",
@@ -135,6 +65,7 @@ enum: [
 /*@ define:input:remains
 type: enumlist
 label: Ashes to force hidden
+group: Remains
 enum: [
   "Fiendish ashes",
   "Vile ashes",
@@ -151,6 +82,7 @@ enum: [
 /*@ define:input:remains
 type: enumlist
 label: Shades of morton remains to force hidden
+group: Remains
 enum: [
   "Loar remains",
   "Phrin remains",
@@ -165,6 +97,7 @@ enum: [
 /*@ define:input:remains
 type: enumlist
 label: Ensouled heads to force hidden
+group: Remains
 enum: [
   "Ensouled goblin head",
   "Ensouled monkey head",

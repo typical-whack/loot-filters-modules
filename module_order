@@ -5,6 +5,7 @@ filtering/individual_item
 filtering/value_based
 filtering/ownership
 filtering/clue_scrolls
+filtering/remains
 filtering/gems
 filtering/fishing
 filtering/ores
@@ -40,7 +41,6 @@ individual_item_styles/currency
 individual_item_styles/gauntlet
 rdt
 currency
-remains
 bossing
 slayer
 ammo
