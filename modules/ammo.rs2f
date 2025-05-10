@@ -648,23 +648,3 @@ group: Special Arrows
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE || value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE)) {
     hidden = true;
 }
-
-/* --- Utilities --- */
-
-/*@ define:input:ammo
-type: boolean
-label: Backpack reminder sound
-group: Utilities
-*/
-#define VAR_AMMO_BACKPACK_REMINDER_SOUND false
-
-/*@ define:input:ammo
-type: number
-label: Backpack reminder sound ID (defaults to "ping")
-group: Utilities
-*/
-#define VAR_AMMO_BACKPACK_REMINDER_SOUND_ID 933
-
-apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
-    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
-}

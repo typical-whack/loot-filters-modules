@@ -1,0 +1,38 @@
+/*@ define:module:ammo
+---
+name: Ammo
+subtitle: Forgetting your backpack?
+description: |
+  Provides utilities based on items on the ground.
+  
+  Currently only provides a sound backpack reminder.
+*/
+
+/*@ define:group
+---
+name: Backpack reminder sound
+description: |
+  Backpack reminder sound
+  ---
+    This plays a sound reminder when a single piece of ammo falls on the ground.
+
+    Defaults to "ping" (933) but can be changed to any sound ID.
+*/
+
+/*@ define:input:utilities
+type: boolean
+label: Enable backpack reminder sound
+group: Backpack reminder sound
+*/
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND false
+
+/*@ define:input:utilities
+type: number
+label: Backpack reminder sound ID
+group: Backpack reminder sound
+*/
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND_ID 933
+
+apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
