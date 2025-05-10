@@ -929,6 +929,51 @@ group: "Power User: Stop Filter Execution"
 #define VAR_ALCHS_TERMINATE false
 
 rule (VAR_ALCHS_TERMINATE && name:VAR_ALCHS_ITEM_LIST) {}
+/*@ define:module:item_category_styles
+---
+name: Item Category Styles
+subtitle: Style large groups of items with simple rules
+description: |
+  This module provides styling for large groups of items based on their categories. This is useful for applying consistent styles to similar items without needing to define individual styles for each item.
+
+  Individual item styles will replace these styles if they are defined.
+*/
+
+/*@ define:input:fishing
+type: style
+label: Fishing equipment custom style
+group: Fishing Styles
+exampleItem: Fishing rod
+*/
+#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
+
+/*@ define:input:fishing
+type: style
+label: Fishing bait custom style
+group: Fishing Styles
+exampleItem: Fishing bait
+*/
+#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+}
+
+/*@ define:input:fishing
+type: style
+label: Raw fish custom style
+group: Fishing Styles
+exampleItem: Raw tuna
+*/
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
 /*@ define:module:individual_item_styles
 ---
 name: Individual Item Styles
