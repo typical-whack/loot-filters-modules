@@ -1,15 +1,16 @@
-
-/*@ define:module:gems
+/*@ define:group
 ---
 name: Gems
-subtitle: Shilo village provides
 description: |
-  This module provides quantity filtering, tier filtering, and styling for all gem tiers. By default this styles gems to closely match their in-game colors.
+  Gems
+  ---
+  This module provides quantity filtering and tier filtering for gems.
 */
 
 /*@ define:input:gems
 type: enumlist
 label: Gems to force hidden
+group: Gems
 enum: [
   {
     "value": "*Sapphire",
@@ -58,7 +59,7 @@ apply (name:VAR_GEMS_HIDE) {
 /*@ define:input:gems
 type: number
 label: Sapphire minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_SAPPHIRE_MIN_QUANTITY 0
 
@@ -71,7 +72,7 @@ apply (name:["Uncut sapphire", \
 /*@ define:input:gems
 type: number
 label: Emerald minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_EMERALD_MIN_QUANTITY 0
 
@@ -84,7 +85,7 @@ apply (name:["Uncut emerald", \
 /*@ define:input:gems
 type: number
 label: Ruby minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_RUBY_MIN_QUANTITY 0
 
@@ -97,7 +98,7 @@ apply (name:["Uncut ruby", \
 /*@ define:input:gems
 type: number
 label: Diamond minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_DIAMOND_MIN_QUANTITY 0
 
@@ -110,7 +111,7 @@ apply (name:["Uncut diamond", \
 /*@ define:input:gems
 type: number
 label: Opal minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_OPAL_MIN_QUANTITY 0
 
@@ -123,7 +124,7 @@ apply (name:["Uncut opal", \
 /*@ define:input:gems
 type: number
 label: Jade minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_JADE_MIN_QUANTITY 0
 
@@ -136,7 +137,7 @@ apply (name:["Uncut jade", \
 /*@ define:input:gems
 type: number
 label: Red topaz minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_RED_TOPAZ_MIN_QUANTITY 0
 
@@ -149,7 +150,7 @@ apply (name:["Uncut red topaz", \
 /*@ define:input:gems
 type: number
 label: Dragonstone minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_DRAGONSTONE_MIN_QUANTITY 0
 
@@ -162,7 +163,7 @@ apply (name:["Uncut dragonstone", \
 /*@ define:input:gems
 type: number
 label: Onyx minimum quantity
-group: Gems Filters
+group: Gems
 */
 #define VAR_ONYX_MIN_QUANTITY 0
 

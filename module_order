@@ -5,6 +5,7 @@ filtering/individual_item
 filtering/value_based
 filtering/ownership
 filtering/clue_scrolls
+filtering/gems
 area_based_filtering/_module_definition
 area_based_filtering/gauntlet
 area_based_filtering/last_man_standing
