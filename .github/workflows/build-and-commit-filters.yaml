@@ -27,12 +27,13 @@ jobs:
         id: vars
         run: |
           echo "short_commit=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "current_date_and_time=$(date)" >> $GITHUB_OUTPUT
 
       - name: Build
         run: |
           echo "Building filter"
           echo -e "/*@ define:module:header\nhidden: true\nname: header\n*/" >> filter.rs2f
-          echo -e "/* Built on: $(date) */" >> filter.rs2f
+          echo -e "/* Built on: ${{ steps.vars.outputs.current_date_and_time }} */" >> filter.rs2f
           echo -e "/* Commit: ${{ steps.vars.outputs.short_commit }} */" >> filter.rs2f
           echo "meta { name = \"Joe's filter\"; }" >> filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
@@ -41,7 +42,7 @@ jobs:
 
           echo "Building default filter"
           echo -e "/*@ define:module:header\nhidden: true\nname: header\n*/" >> default-filter.rs2f
-          echo -e "/* Built on: $(date) */" >> default-filter.rs2f
+          echo -e "/* Built on: ${{ steps.vars.outputs.current_date_and_time }} */" >> default-filter.rs2f
           echo -e "/* Commit: ${{ steps.vars.outputs.short_commit }} */" >> default-filter.rs2f
           echo "meta { name = \"[default: Joe's filter]\"; }" >> default-filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
