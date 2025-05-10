@@ -4,7 +4,7 @@
 name: Food
 subtitle: The stuff you eat
 description: |
-  This module provides filters based on food groups with some sane defaults. It also provides styling options available for every food group that has a filter. This can be done at the group level or on a food-by-food basis. A few popular foods have been given custom styling out of the box.
+  This module provides filters based on food groups with some sane defaults.
 */
 
 #define CONST_HUNTER_FOODS_LIST [ \
@@ -195,28 +195,4 @@ enum: [
 
 apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
     hidden = false;
-}
-
-/*@ define:input:food
-type: style
-label: Hunter food style
-group: Food group style
-exampleItem: Cooked moonlight antelope
-*/
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
-
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
-}
-
-/*@ define:input:food
-type: style
-label: Fish food default style
-group: Food group style
-exampleItem: Tuna
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
 }

@@ -43,3 +43,27 @@ exampleItem: Raw tuna
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
+
+/*@ define:input:food
+type: style
+label: Hunter food style
+group: Hunter food style
+exampleItem: Cooked moonlight antelope
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:food
+type: style
+label: Fish food style
+group: Fish food style
+exampleItem: Tuna
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}

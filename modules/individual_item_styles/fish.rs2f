@@ -5,7 +5,7 @@ expanded: false
 description: |
   Fish Styles
   ---
-  This module provides custom style for cooked fish
+  This module provides custom style for cooked fish. A few popular foods have been given custom styling out of the box.
 */
 
 /*@ define:input:individual_item_styles
