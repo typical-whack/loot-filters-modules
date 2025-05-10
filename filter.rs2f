@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 06:17:14 UTC 2025 */
-/* Commit: 96b1744 */
+/* Built on: Sat May 10 06:23:24 UTC 2025 */
+/* Commit: d78f7e2 */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -326,6 +326,55 @@ rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNE
 rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
 }
+
+/*@ define:group
+---
+name: Clue Scrolls
+expanded: false
+description: |
+  Clue Scrolls Filtering
+  ---
+  Provides filtering out of specific clue tiers.
+*/
+
+/*@ define:input:filtering
+type: enumlist
+label: Clue tiers to force hidden
+group: Clue Scrolls Filtering
+enum: [
+  {
+    "value": "Clue scroll (beginner)",
+    "label": "Beginner"
+  },
+  {
+    "value": "Clue scroll (easy)",
+    "label": "Easy"
+  },
+  {
+    "value": "Clue scroll (medium)",
+    "label": "Medium"
+  },
+  {
+    "value": "Clue scroll (hard)",
+    "label": "Hard"
+  },
+  {
+    "value": "Clue scroll (elite)",
+    "label": "Elite"
+  },
+  {
+    "value": "Clue scroll (master)",
+    "label": "Master"
+  }
+]
+*/
+#define VAR_CLUE_SCROLLS_HIDE []
+
+apply (name:VAR_CLUE_SCROLLS_HIDE) {
+    hidden = true;
+}
+
+/* TODO: add filtering of specific steps based on item ID */
 /*@ define:module:area_based_filtering
 ---
 name: Area-Based Filtering
@@ -8073,50 +8122,6 @@ group: Currency Filters
 #define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
 
 apply (name:"Warrior guild token" && quantity:<VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:module:clue_scrolls
----
-name: Clue Scrolls
-subtitle: Can you do me one small favor?
-description: |
-  This module provides clue tier filters and custom styling for each clue tier.
-*/
-
-/*@ define:input:clue_scrolls
-type: enumlist
-label: Clue tiers to force hidden
-enum: [
-  {
-    "value": "Clue scroll (beginner)",
-    "label": "Beginner"
-  },
-  {
-    "value": "Clue scroll (easy)",
-    "label": "Easy"
-  },
-  {
-    "value": "Clue scroll (medium)",
-    "label": "Medium"
-  },
-  {
-    "value": "Clue scroll (hard)",
-    "label": "Hard"
-  },
-  {
-    "value": "Clue scroll (elite)",
-    "label": "Elite"
-  },
-  {
-    "value": "Clue scroll (master)",
-    "label": "Master"
-  }
-]
-*/
-#define VAR_CLUE_SCROLLS_HIDE []
-
-apply (name:VAR_CLUE_SCROLLS_HIDE) {
     hidden = true;
 }
 
