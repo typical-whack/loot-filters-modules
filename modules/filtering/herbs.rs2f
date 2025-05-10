@@ -1,14 +1,16 @@
-/*@ define:module:herbs
+/*@ define:group
 ---
 name: Herbs
-subtitle: Kaqemeex would be proud
 description: |
-  Provides herb filters and quantity filters per herb for each herb. By default, this gives each herb unique styling.
+  Herbs
+  ---
+  Provides herb filters and quantity filters per herb for each herb. 
 */
 
 /*@ define:input:herbs
 type: number
 label: Hide herbs below this value
+group: Herbs
 */
 #define VAR_HERBS_MINIMUM_VALUE 0
 
@@ -19,6 +21,7 @@ apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
 /*@ define:input:herbs
 type: enumlist
 label: Herbs to force hidden
+group: Herbs
 enum: [
   {
     "value": "*Guam leaf",
@@ -94,6 +97,7 @@ apply (name:VAR_HERBS_HIDE) {
 /*@ define:input:herbs
 type: enumlist
 label: Herbs to force shown
+group: Herbs
 enum: [
   {
     "value": "*Guam leaf",
@@ -171,7 +175,7 @@ apply (name:VAR_HERBS_SHOW) {
 /*@ define:input:herbs
 type: number
 label: Guam leaf minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
 
@@ -181,8 +185,8 @@ apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Guam leaf minimum quantity
-group: Noted Herb Quantity Filtering
+label: Guam leaf noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 0
 
@@ -193,7 +197,7 @@ apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MI
 /*@ define:input:herbs
 type: number
 label: Marrentill minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
 
@@ -203,8 +207,8 @@ apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Marrentill minimum quantity
-group: Noted Herb Quantity Filtering
+label: Marrentill noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 0
 
@@ -215,7 +219,7 @@ apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_
 /*@ define:input:herbs
 type: number
 label: Tarromin minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
 
@@ -225,8 +229,8 @@ apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Tarromin minimum quantity
-group: Noted Herb Quantity Filtering
+label: Tarromin noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 0
 
@@ -237,7 +241,7 @@ apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_
 /*@ define:input:herbs
 type: number
 label: Harralander minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
 
@@ -247,8 +251,8 @@ apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Harralander minimum quantity
-group: Noted Herb Quantity Filtering
+label: Harralander noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 0
 
@@ -259,7 +263,7 @@ apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTE
 /*@ define:input:herbs
 type: number
 label: Ranarr weed minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
 
@@ -269,8 +273,8 @@ apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Ranarr weed minimum quantity
-group: Noted Herb Quantity Filtering
+label: Ranarr weed noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 0
 
@@ -281,7 +285,7 @@ apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTE
 /*@ define:input:herbs
 type: number
 label: Toadflax minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
 
@@ -291,8 +295,8 @@ apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Toadflax minimum quantity
-group: Noted Herb Quantity Filtering
+label: Toadflax noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 0
 
@@ -303,7 +307,7 @@ apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_
 /*@ define:input:herbs
 type: number
 label: Irit leaf minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
 
@@ -313,8 +317,8 @@ apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Irit leaf minimum quantity
-group: Noted Herb Quantity Filtering
+label: Irit leaf noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 0
 
@@ -325,7 +329,7 @@ apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MI
 /*@ define:input:herbs
 type: number
 label: Avantoe minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
 
@@ -335,8 +339,8 @@ apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Avantoe minimum quantity
-group: Noted Herb Quantity Filtering
+label: Avantoe noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 0
 
@@ -347,7 +351,7 @@ apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QU
 /*@ define:input:herbs
 type: number
 label: Kwuarm minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_KWUARM_MIN_QUANTITY 0
 
@@ -357,8 +361,8 @@ apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Kwuarm minimum quantity
-group: Noted Herb Quantity Filtering
+label: Kwuarm noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 0
 
@@ -369,7 +373,7 @@ apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUAN
 /*@ define:input:herbs
 type: number
 label: Huasca minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_HUASCA_MIN_QUANTITY 0
 
@@ -379,8 +383,8 @@ apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Huasca minimum quantity
-group: Noted Herb Quantity Filtering
+label: Huasca noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 0
 
@@ -391,7 +395,7 @@ apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUAN
 /*@ define:input:herbs
 type: number
 label: Snapdragon minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
 
@@ -401,8 +405,8 @@ apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Snapdragon minimum quantity
-group: Noted Herb Quantity Filtering
+label: Snapdragon noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 0
 
@@ -413,7 +417,7 @@ apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_
 /*@ define:input:herbs
 type: number
 label: Cadantine minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
 
@@ -423,8 +427,8 @@ apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Cadantine minimum quantity
-group: Noted Herb Quantity Filtering
+label: Cadantine noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 0
 
@@ -435,7 +439,7 @@ apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MI
 /*@ define:input:herbs
 type: number
 label: Lantadyme minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
 
@@ -445,8 +449,8 @@ apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Lantadyme minimum quantity
-group: Noted Herb Quantity Filtering
+label: Lantadyme noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 0
 
@@ -457,7 +461,7 @@ apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MI
 /*@ define:input:herbs
 type: number
 label: Dwarf weed minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
 
@@ -467,8 +471,8 @@ apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Dwarf weed minimum quantity
-group: Noted Herb Quantity Filtering
+label: Dwarf weed noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 0
 
@@ -479,7 +483,7 @@ apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_
 /*@ define:input:herbs
 type: number
 label: Torstol minimum quantity
-group: Herb Quantity Filtering
+group: Herbs
 */
 #define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
 
@@ -489,8 +493,8 @@ apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
 
 /*@ define:input:herbs
 type: number
-label: Torstol minimum quantity
-group: Noted Herb Quantity Filtering
+label: Torstol noted minimum quantity
+group: Herbs
 */
 #define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 0
 

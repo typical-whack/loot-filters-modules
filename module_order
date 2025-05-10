@@ -10,6 +10,7 @@ filtering/food
 filtering/potions
 filtering/gems
 filtering/runes
+filtering/herbs
 filtering/fishing
 filtering/ores
 filtering/logs
@@ -52,7 +53,6 @@ bossing
 slayer
 ammo
 bars
-herbs
 metal_equipment
 final
 constants
