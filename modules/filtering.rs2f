@@ -150,3 +150,52 @@ rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNE
 rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
 }
+
+/*@ define:group
+---
+name: Clue Scrolls
+expanded: false
+description: |
+  Clue Scrolls Filtering
+  ---
+  Provides filtering out of specific clue tiers.
+*/
+
+/*@ define:input:filtering
+type: enumlist
+label: Clue tiers to force hidden
+group: Clue Scrolls Filtering
+enum: [
+  {
+    "value": "Clue scroll (beginner)",
+    "label": "Beginner"
+  },
+  {
+    "value": "Clue scroll (easy)",
+    "label": "Easy"
+  },
+  {
+    "value": "Clue scroll (medium)",
+    "label": "Medium"
+  },
+  {
+    "value": "Clue scroll (hard)",
+    "label": "Hard"
+  },
+  {
+    "value": "Clue scroll (elite)",
+    "label": "Elite"
+  },
+  {
+    "value": "Clue scroll (master)",
+    "label": "Master"
+  }
+]
+*/
+#define VAR_CLUE_SCROLLS_HIDE []
+
+apply (name:VAR_CLUE_SCROLLS_HIDE) {
+    hidden = true;
+}
+
+/* TODO: add filtering of specific steps based on item ID */
