@@ -1,6 +1,7 @@
 default_styling
 sorting
 filtering
+area_based_filtering/_module_definition
 item_tiers
 uniques
 alchs
