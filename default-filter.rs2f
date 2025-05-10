@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 16:24:11 UTC 2025 */
-/* Commit: a7c20a5 */
+/* Built on: Sat May 10 22:08:46 UTC 2025 */
+/* Commit: 6db7ca4 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -261,7 +261,7 @@ description: |
 
   *Plugin Settings Change Required: Please disable "Ownership filter" and "Item spawn filter" in the "General" settings section of "Loot Filters" in the Runelite sidebar.*
 
-  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" lis
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
 */
 
 /*@ define:input:filtering
