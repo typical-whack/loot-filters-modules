@@ -7,7 +7,7 @@ description: |
   This module provides quantity filtering and tier filtering for gems.
 */
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: enumlist
 label: Gems to force hidden
 group: Gems
@@ -56,7 +56,7 @@ apply (name:VAR_GEMS_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Sapphire minimum quantity
 group: Gems
@@ -69,7 +69,7 @@ apply (name:["Uncut sapphire", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Emerald minimum quantity
 group: Gems
@@ -82,7 +82,7 @@ apply (name:["Uncut emerald", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Ruby minimum quantity
 group: Gems
@@ -95,7 +95,7 @@ apply (name:["Uncut ruby", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Diamond minimum quantity
 group: Gems
@@ -108,7 +108,7 @@ apply (name:["Uncut diamond", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Opal minimum quantity
 group: Gems
@@ -121,7 +121,7 @@ apply (name:["Uncut opal", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Jade minimum quantity
 group: Gems
@@ -134,7 +134,7 @@ apply (name:["Uncut jade", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Red topaz minimum quantity
 group: Gems
@@ -147,7 +147,7 @@ apply (name:["Uncut red topaz", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Dragonstone minimum quantity
 group: Gems
@@ -160,7 +160,7 @@ apply (name:["Uncut dragonstone", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Onyx minimum quantity
 group: Gems

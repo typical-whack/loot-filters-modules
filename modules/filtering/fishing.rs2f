@@ -7,7 +7,7 @@ description: |
   This module provides filters for fishing equipment, fishing bait, and raw fish.
 */
 
-/*@ define:input:fishing
+/*@ define:input:filtering
 type: enumlist
 label: Fishing equipment to force hidden
 group: Fishing
@@ -37,7 +37,7 @@ apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:fishing
+/*@ define:input:filtering
 type: enumlist
 label: Fishing bait to force hidden
 group: Fishing
@@ -64,7 +64,7 @@ apply (name:VAR_FISHING_BAIT_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:fishing
+/*@ define:input:filtering
 type: enumlist
 label: Raw fish to force hidden
 group: Fishing
