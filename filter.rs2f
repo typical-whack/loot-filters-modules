@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 07:37:16 UTC 2025 */
-/* Commit: 06f4ff0 */
+/* Built on: Sat May 10 07:50:15 UTC 2025 */
+/* Commit: 54ac7ab */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -1161,6 +1161,529 @@ enum: [
 
 apply (name:VAR_POTIONS_SHOW) {
     hidden = false;
+}
+/*@ define:group
+---
+name: Ammo
+description: |
+  Ammo
+  ---
+  Provides filtering for ammo either explicitly or based on value.
+*/
+
+/*@ define:input:ammo
+type: enumlist
+label: Standard arrows to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Bronze*",
+    "label": "Bronze Arrows"
+  },
+  {
+    "value": "Iron*",
+    "label": "Iron Arrows"
+  },
+  {
+    "value": "Steel*",
+    "label": "Steel Arrows"
+  },
+  {
+    "value": "Mithril*",
+    "label": "Mithril Arrows"
+  },
+  {
+    "value": "Adamant*",
+    "label": "Adamant Arrows"
+  },
+  {
+    "value": "Rune*",
+    "label": "Rune Arrows"
+  },
+  {
+    "value": "Amethyst*",
+    "label": "Amethyst Arrows"
+  },
+  {
+    "value": "Dragon*",
+    "label": "Dragon Arrows"
+  }
+]
+*/
+#define VAR_AMMO_STANDARD_ARROWS_HIDE [ \
+  "Bronze*", \
+  "Iron*", \
+  "Steel*", \
+  "Mithril*", \
+  "Adamant*", \
+  "Rune*", \
+]
+
+/*@ define:input:ammo
+type: number
+label: Standard Arrows minimum value
+group: Ammo
+*/
+#define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && (name:VAR_AMMO_STANDARD_ARROWS_HIDE || value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Darts to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Bronze dart*",
+    "label": "Bronze darts"
+  },
+  {
+    "value": "Iron dart*",
+    "label": "Iron darts"
+  },
+  {
+    "value": "Steel dart*",
+    "label": "Steel darts"
+  },
+  {
+    "value": "Black dart*",
+    "label": "Black darts"
+  },
+  {
+    "value": "Mithril dart*",
+    "label": "Mithril darts"
+  },
+  {
+    "value": "Adamant dart*",
+    "label": "Adamant darts"
+  },
+  {
+    "value": "Rune dart*",
+    "label": "Rune darts"
+  },
+  {
+    "value": "Amethyst dart*",
+    "label": "Amethyst darts"
+  },
+  {
+    "value": "Dragon dart*",
+    "label": "Dragon darts"
+  },
+  {
+    "value": "Atlatl dart",
+    "label": "Atlatl darts"
+  }
+]
+*/
+#define VAR_AMMO_DARTS_HIDE [ \
+  "Bronze dart*", \
+  "Iron dart*", \
+  "Steel dart*", \
+  "Black dart*", \
+  "Mithril dart*", \
+  "Adamant dart*", \
+]
+
+/*@ define:input:ammo
+type: number
+label: Darts minimum value
+group: Ammo
+*/
+#define VAR_AMMO_DARTS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_DARTS_LIST && (name:VAR_AMMO_DARTS_HIDE || value:<VAR_AMMO_DARTS_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Bolts to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Bronze bolts*",
+    "label": "Bronze bolts"
+  },
+  {
+    "value": "Blurite bolts*",
+    "label": "Blurite bolts"
+  },
+  {
+    "value": "Silver bolts*",
+    "label": "Silver bolts"
+  },
+  {
+    "value": "Iron bolts*",
+    "label": "Iron bolts"
+  },
+  {
+    "value": "Steel bolts*",
+    "label": "Steel bolts"
+  },
+  {
+    "value": "Mithril bolts*",
+    "label": "Mithril bolts"
+  },
+  {
+    "value": "Adamant bolts*",
+    "label": "Adamant bolts"
+  },
+  {
+    "value": "Runite bolts*",
+    "label": "Runite bolts"
+  },
+  {
+    "value": "Dragon bolts*",
+    "label": "Dragon bolts"
+  }
+]
+*/
+#define VAR_AMMO_BOLTS_HIDE [ \
+  "Bronze bolts*", \
+  "Blurite bolts*", \
+  "Silver bolts*", \
+  "Iron bolts*", \
+  "Steel bolts*", \
+  "Mithril bolts*", \
+]
+
+/*@ define:input:ammo
+type: number
+label: Bolts minimum value
+group: Ammo
+*/
+#define VAR_AMMO_BOLTS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_BOLTS_LIST && (name:VAR_AMMO_BOLTS_HIDE || value:<VAR_AMMO_BOLTS_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Enchanted bolts to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Opal bolts (e)",
+    "label": "Opal bolts (e)"
+  },
+  {
+    "value": "Jade bolts (e)",
+    "label": "Jade bolts (e)"
+  },
+  {
+    "value": "Pearl bolts (e)",
+    "label": "Pearl bolts (e)"
+  },
+  {
+    "value": "Topaz bolts (e)",
+    "label": "Topaz bolts (e)"
+  },
+  {
+    "value": "Sapphire bolts (e)",
+    "label": "Sapphire bolts (e)"
+  },
+  {
+    "value": "Emerald bolts (e)",
+    "label": "Emerald bolts (e)"
+  },
+  {
+    "value": "Ruby bolts (e)",
+    "label": "Ruby bolts (e)"
+  },
+  {
+    "value": "Diamond bolts (e)",
+    "label": "Diamond bolts (e)"
+  },
+  {
+    "value": "Dragonstone bolts (e)",
+    "label": "Dragonstone bolts (e)"
+  },
+  {
+    "value": "Onyx bolts (e)",
+    "label": "Onyx bolts (e)"
+  }
+]
+*/
+#define VAR_AMMO_BOLTS_E_HIDE []
+
+/*@ define:input:ammo
+type: number
+label: Enchanted bolts minimum value
+group: Ammo
+*/
+#define VAR_AMMO_BOLTS_E_MIN_VALUE 500
+
+apply (name:CONST_AMMO_BOLTS_E_LIST && (name:VAR_AMMO_BOLTS_E_HIDE || value:<VAR_AMMO_BOLTS_E_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Dragon enchanted bolts to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Opal dragon bolts (e)",
+    "label": "Opal dragon bolts (e)"
+  },
+  {
+    "value": "Jade dragon bolts (e)",
+    "label": "Jade dragon bolts (e)"
+  },
+  {
+    "value": "Pearl dragon bolts (e)",
+    "label": "Pearl dragon bolts (e)"
+  },
+  {
+    "value": "Topaz dragon bolts (e)",
+    "label": "Topaz dragon bolts (e)"
+  },
+  {
+    "value": "Sapphire dragon bolts (e)",
+    "label": "Sapphire dragon bolts (e)"
+  },
+  {
+    "value": "Emerald dragon bolts (e)",
+    "label": "Emerald dragon bolts (e)"
+  },
+  {
+    "value": "Ruby dragon bolts (e)",
+    "label": "Ruby dragon bolts (e)"
+  },
+  {
+    "value": "Diamond dragon bolts (e)",
+    "label": "Diamond dragon bolts (e)"
+  },
+  {
+    "value": "Dragonstone dragon bolts (e)",
+    "label": "Dragonstone dragon bolts (e)"
+  },
+  {
+    "value": "Onyx dragon bolts (e)",
+    "label": "Onyx dragon bolts (e)"
+  }
+]
+*/
+#define VAR_AMMO_DRAGON_BOLTS_E_HIDE []
+
+/*@ define:input:ammo
+type: number
+label: Dragon enchanted bolts minimum value
+group: Ammo
+*/
+#define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 500
+
+apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && (name:VAR_AMMO_DRAGON_BOLTS_E_HIDE || value:<VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Javelins to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Bronze javelin*",
+    "label": "Bronze javelins"
+  },
+  {
+    "value": "Iron javelin*",
+    "label": "Iron javelins"
+  },
+  {
+    "value": "Steel javelin*",
+    "label": "Steel javelins"
+  },
+  {
+    "value": "Mithril javelin*",
+    "label": "Mithril javelins"
+  },
+  {
+    "value": "Adamant javelin*",
+    "label": "Adamant javelins"
+  },
+  {
+    "value": "Rune javelin*",
+    "label": "Rune javelins"
+  },
+  {
+    "value": "Amethyst javelin*",
+    "label": "Amethyst javelins"
+  },
+  {
+    "value": "Dragon javelin*",
+    "label": "Dragon javelins"
+  }
+]
+*/
+#define VAR_AMMO_JAVELINS_HIDE [ \
+  "Bronze javelin*", \
+  "Iron javelin*", \
+  "Steel javelin*", \
+  "Mithril javelin*", \
+  "Adamant javelin*", \
+  "Rune javelin*", \
+]
+
+/*@ define:input:ammo
+type: number
+label: Javelins minimum value
+group: Ammo
+*/
+#define VAR_AMMO_JAVELINS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_JAVELINS_LIST && (name:VAR_AMMO_JAVELINS_HIDE || value:<VAR_AMMO_JAVELINS_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Special bolts to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Sunlight antler bolts",
+    "label": "Sunlight antler bolts"
+  },
+  {
+    "value": "Moonlight antler bolts",
+    "label": "Moonlight antler bolts"
+  },
+  {
+    "value": "Kebbit bolts",
+    "label": "Kebbit bolts"
+  },
+  {
+    "value": "Long kebbit bolts",
+    "label": "Long kebbit bolts"
+  },
+  {
+    "value": "Broad bolts",
+    "label": "Broad bolts"
+  },
+  {
+    "value": "Amethyst broad bolts",
+    "label": "Amethyst broad bolts"
+  },
+  {
+    "value": "Barbed bolts",
+    "label": "Barbed bolts"
+  },
+  {
+    "value": "Bone bolts",
+    "label": "Bone bolts"
+  }
+]
+*/
+#define VAR_AMMO_SPECIAL_BOLTS_HIDE []
+
+/*@ define:input:ammo
+type: number
+label: Special bolts minimum value
+group: Ammo
+*/
+#define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && (name:VAR_AMMO_SPECIAL_BOLTS_HIDE || value:<VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Brutal arrows to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Bronze brutal",
+    "label": "Bronze brutal arrows"
+  },
+  {
+    "value": "Iron brutal",
+    "label": "Iron brutal arrows"
+  },
+  {
+    "value": "Steel brutal",
+    "label": "Steel brutal arrows"
+  },
+  {
+    "value": "Black brutal",
+    "label": "Black brutal arrows"
+  },
+  {
+    "value": "Mithril brutal",
+    "label": "Mithril brutal arrows"
+  },
+  {
+    "value": "Adamant brutal",
+    "label": "Adamant brutal arrows"
+  },
+  {
+    "value": "Rune brutal",
+    "label": "Rune brutal arrows"
+  }
+]
+*/
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE [ \
+  "Bronze brutal", \
+  "Iron brutal", \
+  "Steel brutal", \
+  "Black brutal", \
+  "Mithril brutal", \
+]
+
+/*@ define:input:ammo
+type: number
+label: Brutal Arrows minimum value
+group: Ammo
+*/
+#define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && (name:VAR_AMMO_BRUTAL_ARROWS_HIDE || value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE)) {
+    hidden = true;
+}
+
+/*@ define:input:ammo
+type: enumlist
+label: Special arrows to force hidden
+group: Ammo
+enum: [
+  {
+    "value": "Training Arrow",
+    "label": "Training Arrows"
+  },
+  {
+    "value": "Ogre Arrow",
+    "label": "Ogre Arrows"
+  },
+  {
+    "value": "Ice Arrow",
+    "label": "Ice Arrows"
+  },
+  {
+    "value": "Broad Arrow",
+    "label": "Broad Arrows"
+  }
+]
+*/
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE [ \
+  "Training Arrow", \
+  "Ogre Arrow", \
+  "Ice Arrow", \
+  "Broad Arrow", \
+]
+
+/*@ define:input:ammo
+type: number
+label: Special Arrows minimum value
+group: Ammo
+*/
+#define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
+
+apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE || value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE)) {
+    hidden = true;
 }
 /*@ define:group
 ---
@@ -4565,6 +5088,996 @@ apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
     hidden = true;
 }
 apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
+    hidden = false;
+}
+/*@ define:input:bossing
+type: stringlist
+label: God Wars Dungeon force shown
+group: God Wars Dungeon
+*/
+#define VAR_BOSSING_GOD_WARS_DUNGEON_SHOW [ \
+  "Hammer", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: God Wars Dungeon force hidden
+group: God Wars Dungeon
+*/
+#define VAR_BOSSING_GOD_WARS_DUNGEON_HIDE []
+
+apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HIDE) {
+    hidden = true;
+}
+
+apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force hidden
+group: Commander Zilyana
+enum: [
+  "Saradomin sword",
+  "Saradomin's light",
+  "Armadyl crossbow",
+  "Saradomin hilt"
+]
+*/
+#define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force shown
+group: Commander Zilyana
+enum: [
+  "Saradomin sword",
+  "Saradomin's light",
+  "Armadyl crossbow",
+  "Saradomin hilt"
+]
+*/
+#define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force hidden
+group: Commander Zilyana
+enum: [
+  "Coins",
+  "Grimy ranarr weed",
+  "Ranarr seed",
+  "Magic seed",
+  "Adamant platebody",
+  "Rune dart",
+  "Rune kiteshield",
+  "Rune plateskirt",
+  "Law rune",
+  "Diamond",
+  "Snape grass",
+  "Steel arrow",
+  "Steel dart",
+  "Unicorn horn"
+]
+*/
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE [ \
+  "Steel arrow", \
+  "Steel dart", \
+  "Unicorn horn", \
+]
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force shown
+group: Commander Zilyana
+enum: [
+  "Coins",
+  "Grimy ranarr weed",
+  "Ranarr seed",
+  "Magic seed",
+  "Adamant platebody",
+  "Rune dart",
+  "Rune kiteshield",
+  "Rune plateskirt",
+  "Law rune",
+  "Diamond",
+  "Snape grass",
+  "Steel arrow",
+  "Steel dart",
+  "Unicorn horn"
+]
+*/
+#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force hidden
+group: Commander Zilyana
+enum: [
+  "Prayer potion(4)",
+  "Super defence(3)",
+  "Magic potion(3)",
+  "Saradomin brew(3)",
+  "Super restore(4)",
+  "Summer pie",
+  "Monkfish",
+  "Bones"
+]
+*/
+#define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force shown
+group: Commander Zilyana
+enum: [
+  "Prayer potion(4)",
+  "Super defence(3)",
+  "Magic potion(3)",
+  "Saradomin brew(3)",
+  "Super restore(4)",
+  "Summer pie",
+  "Monkfish",
+  "Bones"
+]
+*/
+#define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW []
+
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force hidden
+group: General Graardor
+enum: [
+  "Bandos chestplate",
+  "Bandos tassets",
+  "Bandos boots",
+  "Bandos hilt"
+]
+*/
+#define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force shown
+group: General Graardor
+enum: [
+  "Bandos chestplate",
+  "Bandos tassets",
+  "Bandos boots",
+  "Bandos hilt"
+]
+*/
+#define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force hidden
+group: General Graardor
+enum: [
+  "Coins",
+  "Grimy snapdragon",
+  "Snapdragon seed",
+  "Adamantite ore",
+  "Coal",
+  "Nature rune",
+  "Cosmic rune",
+  "Magic logs",
+  "Limpwurt root",
+  "Rune longsword",
+  "Rune 2h sword",
+  "Rune platebody",
+  "Rune pickaxe",
+  "Steel arrow",
+  "Steel dart",
+  "Right eye patch"
+]
+*/
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE [ \
+  "Steel arrow", \
+  "Steel dart", \
+  "Right eye patch", \
+]
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force shown
+group: General Graardor
+enum: [
+  "Coins",
+  "Grimy snapdragon",
+  "Snapdragon seed",
+  "Adamantite ore",
+  "Coal",
+  "Nature rune",
+  "Cosmic rune",
+  "Magic logs",
+  "Limpwurt root",
+  "Rune longsword",
+  "Rune 2h sword",
+  "Rune platebody",
+  "Rune pickaxe",
+  "Steel arrow",
+  "Steel dart",
+  "Right eye patch"
+]
+*/
+#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force hidden
+group: General Graardor
+enum: [
+  "Bones",
+  "Big bones",
+  "Super restore(4)",
+  "Shark",
+  "Chilli potato",
+  "Kebab",
+  "Combat potion(3)",
+  "Super strength(3)",
+  "Beer"
+]
+*/
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE [ \
+  "Combat potion(3)", \
+  "Super strength(3)", \
+  "Beer", \
+  "Kebab", \
+]
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force shown
+group: General Graardor
+enum: [
+  "Bones",
+  "Big bones",
+  "Super restore(4)",
+  "Shark",
+  "Chilli potato",
+  "Kebab",
+  "Combat potion(3)",
+  "Super strength(3)",
+  "Beer"
+]
+*/
+#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW [ \
+  "Bones", \
+  "Big bones", \
+  "Super restore(4)", \
+  "Shark", \
+  "Chilli potato", \
+]
+
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force hidden
+group: Kree'arra
+enum: [
+  "Armadyl helmet",
+  "Armadyl chestplate",
+  "Armadyl chainskirt",
+  "Armadyl hilt"
+]
+*/
+#define VAR_BOSSING_KREEARRA_UNIQUES_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force shown
+group: Kree'arra
+enum: [
+  "Armadyl helmet",
+  "Armadyl chestplate",
+  "Armadyl chainskirt",
+  "Armadyl hilt"
+]
+*/
+#define VAR_BOSSING_KREEARRA_UNIQUES_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force hidden
+group: Kree'arra
+enum: [
+  "Coins",
+  "Grimy dwarf weed",
+  "Dwarf weed seed",
+  "Dragonstone bolts (e)",
+  "Smoke rune",
+  "Yew seed",
+  "Crushed nest",
+  "Grimy kwuarm",
+  "Feather",
+  "Black d'hide body",
+  "Rune crossbow",
+  "Mind rune",
+  "Rune arrow",
+  "Runite bolts",
+  "Crystal key",
+  "Steel dart",
+  "Steel arrow"
+]
+*/
+#define VAR_BOSSING_KREEARRA_COMMON_HIDE [ \
+  "Feather", \
+  "Black d'hide body", \
+  "Rune crossbow", \
+  "Mind rune", \
+  "Rune arrow", \
+  "Runite bolts", \
+  "Crystal key", \
+  "Steel dart", \
+  "Steel arrow", \
+]
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force shown
+group: Kree'arra
+enum: [
+  "Coins",
+  "Grimy dwarf weed",
+  "Dwarf weed seed",
+  "Dragonstone bolts (e)",
+  "Smoke rune",
+  "Yew seed",
+  "Crushed nest",
+  "Grimy kwuarm",
+  "Feather",
+  "Black d'hide body",
+  "Rune crossbow",
+  "Mind rune",
+  "Rune arrow",
+  "Runite bolts",
+  "Crystal key",
+  "Steel dart",
+  "Steel arrow"
+]
+*/
+#define VAR_BOSSING_KREEARRA_COMMON_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force hidden
+group: Kree'arra
+enum: [
+  "Bones",
+  "Big bones",
+  "Ranging potion(3)",
+  "Super defence(3)",
+  "Manta ray",
+  "Mushroom potato"
+]
+*/
+#define VAR_BOSSING_KREEARRA_SUPPLY_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force shown
+group: Kree'arra
+enum: [
+  "Bones",
+  "Big bones",
+  "Ranging potion(3)",
+  "Super defence(3)",
+  "Manta ray",
+  "Mushroom potato"
+]
+*/
+#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW [ \
+  "Bones", \
+  "Big bones", \
+  "Ranging potion(3)", \
+  "Super defence(3)", \
+  "Manta ray", \
+  "Mushroom potato", \
+]
+
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force hidden
+group: K'ril Tsutsaroth
+enum: [
+  "Steam battlestaff",
+  "Zamorakian spear",
+  "Staff of the dead",
+  "Zamorak hilt"
+]
+*/
+#define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force shown
+group: K'ril Tsutsaroth
+enum: [
+  "Steam battlestaff",
+  "Zamorakian spear",
+  "Staff of the dead",
+  "Zamorak hilt"
+]
+*/
+#define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force hidden
+group: K'ril Tsutsaroth
+enum: [
+  "Coins",
+  "Rune platelegs",
+  "Grimy lantadyme",
+  "Lantadyme seed",
+  "Death rune",
+  "Blood rune",
+  "Wine of zamorak",
+  "Rune scimitar",
+  "Adamant platebody",
+  "Dragon dagger(p++)",
+  "Infernal ashes",
+  "Malicious ashes",
+  "Adamant arrow(p++)",
+  "Steel dart",
+  "Steel arrow"
+]
+*/
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE [ \
+  "Infernal ashes", \
+  "Malicious ashes", \
+  "Adamant arrow(p++)", \
+  "Steel dart", \
+  "Steel arrow", \
+]
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force shown
+group: K'ril Tsutsaroth
+enum: [
+  "Coins",
+  "Rune platelegs",
+  "Grimy lantadyme",
+  "Lantadyme seed",
+  "Death rune",
+  "Blood rune",
+  "Wine of zamorak",
+  "Rune scimitar",
+  "Adamant platebody",
+  "Dragon dagger(p++)",
+  "Infernal ashes",
+  "Malicious ashes",
+  "Adamant arrow(p++)",
+  "Steel dart",
+  "Steel arrow"
+]
+*/
+#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force hidden
+group: K'ril Tsutsaroth
+enum: [
+  "Shark",
+  "Tuna potato",
+  "Super restore(3)",
+  "Zamorak brew(3)",
+  "Super attack(3)",
+  "Super strength(3)"
+]
+*/
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE [ \
+  "Zamorak brew(3)", \
+  "Super attack(3)", \
+  "Super strength(3)", \
+]
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force shown
+group: K'ril Tsutsaroth
+enum: [
+  "Shark",
+  "Tuna potato",
+  "Super restore(3)",
+  "Zamorak brew(3)",
+  "Super attack(3)",
+  "Super strength(3)"
+]
+*/
+#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW []
+
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force hidden
+group: Nex
+enum: [
+  "Zaryte vambraces",
+  "Nihil horn",
+  "Torva full helm (damaged)",
+  "Torva platebody (damaged)",
+  "Torva platelegs (damaged)",
+  "Ancient hilt",
+  "Ancient ceremonial mask",
+  "Ancient ceremonial top",
+  "Ancient ceremonial legs",
+  "Ancient ceremonial gloves",
+  "Ancient ceremonial boots"
+]
+*/
+#define VAR_BOSSING_NEX_UNIQUES_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Unique drops force shown
+group: Nex
+enum: [
+  "Zaryte vambraces",
+  "Nihil horn",
+  "Torva full helm (damaged)",
+  "Torva platebody (damaged)",
+  "Torva platelegs (damaged)",
+  "Ancient hilt",
+  "Ancient ceremonial mask",
+  "Ancient ceremonial top",
+  "Ancient ceremonial legs",
+  "Ancient ceremonial gloves",
+  "Ancient ceremonial boots"
+]
+*/
+#define VAR_BOSSING_NEX_UNIQUES_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force hidden
+group: Nex
+enum: [
+  "Rune sword",
+  "Runite ore",
+  "Ecumenical key shard",
+  "Nihil shard",
+  "Blood essence",
+  "Onyx bolts (e)",
+  "Dragon bolts (unf)",
+  "Coins",
+  "Blood rune",
+  "Death rune",
+  "Soul rune",
+  "Cannonball",
+  "Uncut ruby",
+  "Uncut diamond",
+  "Wine of zamorak",
+  "Air rune",
+  "Fire rune",
+  "Water rune",
+  "Air orb",
+  "Coal"
+]
+*/
+#define VAR_BOSSING_NEX_COMMON_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Common drops force shown
+group: Nex
+enum: [
+  "Rune sword",
+  "Runite ore",
+  "Ecumenical key shard",
+  "Nihil shard",
+  "Blood essence",
+  "Onyx bolts (e)",
+  "Dragon bolts (unf)",
+  "Coins",
+  "Blood rune",
+  "Death rune",
+  "Soul rune",
+  "Cannonball",
+  "Uncut ruby",
+  "Uncut diamond",
+  "Wine of zamorak",
+  "Air rune",
+  "Fire rune",
+  "Water rune",
+  "Air orb",
+  "Coal"
+]
+*/
+#define VAR_BOSSING_NEX_COMMON_SHOW []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force hidden
+group: Nex
+enum: [
+  "Shark",
+  "Prayer potion(4)",
+  "Saradomin brew(4)",
+  "Super restore(4)"
+]
+*/
+#define VAR_BOSSING_NEX_SUPPLY_HIDE []
+
+/*@ define:input:bossing
+type: enumlist
+label: Supply drops force shown
+group: Nex
+enum: [
+  "Shark",
+  "Prayer potion(4)",
+  "Saradomin brew(4)",
+  "Super restore(4)"
+]
+*/
+#define VAR_BOSSING_NEX_SUPPLY_SHOW []
+
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_HIDE) {
+    hidden = true;
+}
+
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_HIDE) {
+    hidden = true;
+}
+
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_HIDE) {
+    hidden = true;
+}
+
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_SHOW) {
+    hidden = false;
+}
+
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_SHOW) {
+    hidden = false;
+}
+
+apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
+    hidden = false;
+}
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer drops force hidden
+group: Wilderness Slayer
+enum: [
+  "Slayer's enchantment"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_HIDE [ \
+  "Slayer's enchantment", \
+]
+
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer drops force shown
+group: Wilderness Slayer
+enum: [
+  "Slayer's enchantment"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_SHOW []
+
+apply (name:VAR_SLAYER_WILDERNESS_SLAYER_HIDE) {
+    hidden = true;
+}
+
+apply (name:VAR_SLAYER_WILDERNESS_SLAYER_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer cave drops force hidden
+group: Wilderness Slayer
+enum: [
+  "Blighted entangle sack",
+  "Blighted anglerfish",
+  "Blighted manta ray",
+  "Blighted karambwan",
+  "Blighted teleport spell sack",
+  "Blighted ancient ice sack",
+  "Blighted vengeance sack",
+  "Blighted super restore(4)",
+  "Revenant cave teleport",
+  "Dareeyak teleport (tablet)",
+  "Wilderness crabs teleport",
+  "Carrallanger teleport (tablet)",
+  "Paddewwa teleport (tablet)",
+  "Annakarl teleport (tablet)",
+  "Lassar teleport (tablet)",
+  "Kharyrll teleport (tablet)",
+  "Senntisten teleport (tablet)",
+  "Ghorrock teleport (tablet)",
+  "Target teleport",
+  "Magic shortbow scroll",
+  "Ring of wealth scroll",
+  "Trouver parchment",
+  "Looting bag note"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE [ \
+  "Blighted entangle sack", \
+  "Blighted karambwan", \
+  "Blighted teleport spell sack", \
+]
+
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer cave drops force shown
+group: Wilderness Slayer
+enum: [
+  "Blighted entangle sack",
+  "Blighted anglerfish",
+  "Blighted manta ray",
+  "Blighted karambwan",
+  "Blighted teleport spell sack",
+  "Blighted ancient ice sack",
+  "Blighted vengeance sack",
+  "Blighted super restore(4)",
+  "Revenant cave teleport",
+  "Dareeyak teleport (tablet)",
+  "Wilderness crabs teleport",
+  "Carrallanger teleport (tablet)",
+  "Paddewwa teleport (tablet)",
+  "Annakarl teleport (tablet)",
+  "Lassar teleport (tablet)",
+  "Kharyrll teleport (tablet)",
+  "Senntisten teleport (tablet)",
+  "Ghorrock teleport (tablet)",
+  "Target teleport",
+  "Magic shortbow scroll",
+  "Ring of wealth scroll",
+  "Trouver parchment",
+  "Looting bag note"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW []
+
+apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:slayer
+type: enumlist
+label: Unique drop force hidden
+group: Smoke Devils
+enum: [
+  "Occult necklace",
+  "Dragon chainbody"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE []
+
+/*@ define:input:slayer
+type: enumlist
+label: Unique drop force shown
+group: Smoke Devils
+enum: [
+  "Occult necklace",
+  "Dragon chainbody"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW []
+
+/*@ define:input:slayer
+type: enumlist
+label: Common drop force hidden
+group: Smoke Devils
+enum: [
+  "Adamant battleaxe",
+  "Adamantite bar",
+  "Air battlestaff",
+  "Air rune",
+  "Ashes",
+  "Black d'hide vambraces",
+  "Coal",
+  "Coins",
+  "Crossbow string",
+  "Fire battlestaff",
+  "Fire rune",
+  "Magic logs",
+  "Mithril plateskirt",
+  "Red d'hide body",
+  "Rune arrow",
+  "Rune chainbody",
+  "Rune dagger",
+  "Rune full helm",
+  "Runite bolts",
+  "Shark",
+  "Smoke rune",
+  "Soul rune",
+  "Steel bar",
+  "Ugthanki kebab"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE [ \
+  "Adamant battleaxe", \
+  "Adamantite bar", \
+  "Air rune", \
+  "Ashes", \
+  "Coal", \
+  "Coins", \
+  "Crossbow string", \
+  "Fire rune", \
+  "Mithril plateskirt", \
+  "Red d'hide body", \
+  "Rune arrow", \
+  "Runite bolts", \
+  "Shark", \
+  "Steel bar", \
+  "Ugthanki kebab", \
+]
+
+/*@ define:input:slayer
+type: enumlist
+label: Common drop force shown
+group: Smoke Devils
+enum: [
+  "Adamant battleaxe",
+  "Adamantite bar",
+  "Air battlestaff",
+  "Air rune",
+  "Ashes",
+  "Black d'hide vambraces",
+  "Coal",
+  "Coins",
+  "Crossbow string",
+  "Fire battlestaff",
+  "Fire rune",
+  "Magic logs",
+  "Mithril plateskirt",
+  "Red d'hide body",
+  "Rune arrow",
+  "Rune chainbody",
+  "Rune dagger",
+  "Rune full helm",
+  "Runite bolts",
+  "Shark",
+  "Smoke rune",
+  "Soul rune",
+  "Steel bar",
+  "Ugthanki kebab"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW []
+
+/*@ define:input:slayer
+type: enumlist
+label: Herb drop force hidden
+group: Smoke Devils
+enum: [
+  "Grimy guam leaf",
+  "Grimy marrentill",
+  "Grimy tarromin",
+  "Grimy harralander",
+  "Grimy ranarr weed",
+  "Grimy irit leaf",
+  "Grimy avantoe",
+  "Grimy kwuarm",
+  "Grimy cadantine",
+  "Grimy lantadyme",
+  "Grimy dwarf weed"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE []
+
+/*@ define:input:slayer
+type: enumlist
+label: Herb drop force shown
+group: Smoke Devils
+enum: [
+  "Grimy guam leaf",
+  "Grimy marrentill",
+  "Grimy tarromin",
+  "Grimy harralander",
+  "Grimy ranarr weed",
+  "Grimy irit leaf",
+  "Grimy avantoe",
+  "Grimy kwuarm",
+  "Grimy cadantine",
+  "Grimy lantadyme",
+  "Grimy dwarf weed"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW []
+
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW) {
     hidden = false;
 }
 /*@ define:group
@@ -12235,1780 +13748,6 @@ group: Backpack reminder sound
 apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
     sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
 }
-
-/*@ define:module:bossing
----
-name: Bossing
-subtitle: Break their bones!
-description: |
-  This provides area-based item filtering for bosses. (Just GWD covered so far)
-*/
-
-#define CONST_GOD_WARS_DUNGEON_AREA [2816, 5184, 0, 2943, 5375, 3]
-
-/*@ define:input:bossing
-type: stringlist
-label: God Wars Dungeon force shown
-group: God Wars Dungeon
-*/
-#define VAR_BOSSING_GOD_WARS_DUNGEON_SHOW [ \
-  "Hammer", \
-]
-
-/*@ define:input:bossing
-type: stringlist
-label: God Wars Dungeon force hidden
-group: God Wars Dungeon
-*/
-#define VAR_BOSSING_GOD_WARS_DUNGEON_HIDE []
-
-
-
-
-apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HIDE) {
-    hidden = true;
-}
-
-apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
-    hidden = false;
-}
-
-
-
-#define CONST_COMMANDER_ZILYANA_AREA [2884, 5257, 0, 2908, 5276, 0]
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force hidden
-group: Commander Zilyana
-enum: [
-  "Saradomin sword",
-  "Saradomin's light",
-  "Armadyl crossbow",
-  "Saradomin hilt"
-]
-*/
-#define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force shown
-group: Commander Zilyana
-enum: [
-  "Saradomin sword",
-  "Saradomin's light",
-  "Armadyl crossbow",
-  "Saradomin hilt"
-]
-*/
-#define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force hidden
-group: Commander Zilyana
-enum: [
-  "Coins",
-  "Grimy ranarr weed",
-  "Ranarr seed",
-  "Magic seed",
-  "Adamant platebody",
-  "Rune dart",
-  "Rune kiteshield",
-  "Rune plateskirt",
-  "Law rune",
-  "Diamond",
-  "Snape grass",
-  "Steel arrow",
-  "Steel dart",
-  "Unicorn horn"
-]
-*/
-#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE [ \
-  "Steel arrow", \
-  "Steel dart", \
-  "Unicorn horn", \
-]
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force shown
-group: Commander Zilyana
-enum: [
-  "Coins",
-  "Grimy ranarr weed",
-  "Ranarr seed",
-  "Magic seed",
-  "Adamant platebody",
-  "Rune dart",
-  "Rune kiteshield",
-  "Rune plateskirt",
-  "Law rune",
-  "Diamond",
-  "Snape grass",
-  "Steel arrow",
-  "Steel dart",
-  "Unicorn horn"
-]
-*/
-#define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force hidden
-group: Commander Zilyana
-enum: [
-  "Prayer potion(4)",
-  "Super defence(3)",
-  "Magic potion(3)",
-  "Saradomin brew(3)",
-  "Super restore(4)",
-  "Summer pie",
-  "Monkfish",
-  "Bones"
-]
-*/
-#define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force shown
-group: Commander Zilyana
-enum: [
-  "Prayer potion(4)",
-  "Super defence(3)",
-  "Magic potion(3)",
-  "Saradomin brew(3)",
-  "Super restore(4)",
-  "Summer pie",
-  "Monkfish",
-  "Bones"
-]
-*/
-#define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW []
-
-
-
-
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-
-
-#define CONST_GENERAL_GRAARDOR_AREA [2863, 5350, 2, 2877, 5373, 2]
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force hidden
-group: General Graardor
-enum: [
-  "Bandos chestplate",
-  "Bandos tassets",
-  "Bandos boots",
-  "Bandos hilt"
-]
-*/
-#define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force shown
-group: General Graardor
-enum: [
-  "Bandos chestplate",
-  "Bandos tassets",
-  "Bandos boots",
-  "Bandos hilt"
-]
-*/
-#define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force hidden
-group: General Graardor
-enum: [
-  "Coins",
-  "Grimy snapdragon",
-  "Snapdragon seed",
-  "Adamantite ore",
-  "Coal",
-  "Nature rune",
-  "Cosmic rune",
-  "Magic logs",
-  "Limpwurt root",
-  "Rune longsword",
-  "Rune 2h sword",
-  "Rune platebody",
-  "Rune pickaxe",
-  "Steel arrow",
-  "Steel dart",
-  "Right eye patch"
-]
-*/
-#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE [ \
-  "Steel arrow", \
-  "Steel dart", \
-  "Right eye patch", \
-]
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force shown
-group: General Graardor
-enum: [
-  "Coins",
-  "Grimy snapdragon",
-  "Snapdragon seed",
-  "Adamantite ore",
-  "Coal",
-  "Nature rune",
-  "Cosmic rune",
-  "Magic logs",
-  "Limpwurt root",
-  "Rune longsword",
-  "Rune 2h sword",
-  "Rune platebody",
-  "Rune pickaxe",
-  "Steel arrow",
-  "Steel dart",
-  "Right eye patch"
-]
-*/
-#define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force hidden
-group: General Graardor
-enum: [
-  "Bones",
-  "Big bones",
-  "Super restore(4)",
-  "Shark",
-  "Chilli potato",
-  "Kebab",
-  "Combat potion(3)",
-  "Super strength(3)",
-  "Beer"
-]
-*/
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE [ \
-  "Combat potion(3)", \
-  "Super strength(3)", \
-  "Beer", \
-  "Kebab", \
-]
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force shown
-group: General Graardor
-enum: [
-  "Bones",
-  "Big bones",
-  "Super restore(4)",
-  "Shark",
-  "Chilli potato",
-  "Kebab",
-  "Combat potion(3)",
-  "Super strength(3)",
-  "Beer"
-]
-*/
-#define VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW [ \
-  "Bones", \
-  "Big bones", \
-  "Super restore(4)", \
-  "Shark", \
-  "Chilli potato", \
-]
-
-
-
-
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-
-
-#define CONST_KREEARRA_AREA [2820, 5295, 2, 2843, 5309, 2]
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force hidden
-group: Kree'arra
-enum: [
-  "Armadyl helmet",
-  "Armadyl chestplate",
-  "Armadyl chainskirt",
-  "Armadyl hilt"
-]
-*/
-#define VAR_BOSSING_KREEARRA_UNIQUES_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force shown
-group: Kree'arra
-enum: [
-  "Armadyl helmet",
-  "Armadyl chestplate",
-  "Armadyl chainskirt",
-  "Armadyl hilt"
-]
-*/
-#define VAR_BOSSING_KREEARRA_UNIQUES_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force hidden
-group: Kree'arra
-enum: [
-  "Coins",
-  "Grimy dwarf weed",
-  "Dwarf weed seed",
-  "Dragonstone bolts (e)",
-  "Smoke rune",
-  "Yew seed",
-  "Crushed nest",
-  "Grimy kwuarm",
-  "Feather",
-  "Black d'hide body",
-  "Rune crossbow",
-  "Mind rune",
-  "Rune arrow",
-  "Runite bolts",
-  "Crystal key",
-  "Steel dart",
-  "Steel arrow"
-]
-*/
-#define VAR_BOSSING_KREEARRA_COMMON_HIDE [ \
-  "Feather", \
-  "Black d'hide body", \
-  "Rune crossbow", \
-  "Mind rune", \
-  "Rune arrow", \
-  "Runite bolts", \
-  "Crystal key", \
-  "Steel dart", \
-  "Steel arrow", \
-]
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force shown
-group: Kree'arra
-enum: [
-  "Coins",
-  "Grimy dwarf weed",
-  "Dwarf weed seed",
-  "Dragonstone bolts (e)",
-  "Smoke rune",
-  "Yew seed",
-  "Crushed nest",
-  "Grimy kwuarm",
-  "Feather",
-  "Black d'hide body",
-  "Rune crossbow",
-  "Mind rune",
-  "Rune arrow",
-  "Runite bolts",
-  "Crystal key",
-  "Steel dart",
-  "Steel arrow"
-]
-*/
-#define VAR_BOSSING_KREEARRA_COMMON_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force hidden
-group: Kree'arra
-enum: [
-  "Bones",
-  "Big bones",
-  "Ranging potion(3)",
-  "Super defence(3)",
-  "Manta ray",
-  "Mushroom potato"
-]
-*/
-#define VAR_BOSSING_KREEARRA_SUPPLY_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force shown
-group: Kree'arra
-enum: [
-  "Bones",
-  "Big bones",
-  "Ranging potion(3)",
-  "Super defence(3)",
-  "Manta ray",
-  "Mushroom potato"
-]
-*/
-#define VAR_BOSSING_KREEARRA_SUPPLY_SHOW [ \
-  "Bones", \
-  "Big bones", \
-  "Ranging potion(3)", \
-  "Super defence(3)", \
-  "Manta ray", \
-  "Mushroom potato", \
-]
-
-
-
-
-apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-
-
-#define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force hidden
-group: K'ril Tsutsaroth
-enum: [
-  "Steam battlestaff",
-  "Zamorakian spear",
-  "Staff of the dead",
-  "Zamorak hilt"
-]
-*/
-#define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force shown
-group: K'ril Tsutsaroth
-enum: [
-  "Steam battlestaff",
-  "Zamorakian spear",
-  "Staff of the dead",
-  "Zamorak hilt"
-]
-*/
-#define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force hidden
-group: K'ril Tsutsaroth
-enum: [
-  "Coins",
-  "Rune platelegs",
-  "Grimy lantadyme",
-  "Lantadyme seed",
-  "Death rune",
-  "Blood rune",
-  "Wine of zamorak",
-  "Rune scimitar",
-  "Adamant platebody",
-  "Dragon dagger(p++)",
-  "Infernal ashes",
-  "Malicious ashes",
-  "Adamant arrow(p++)",
-  "Steel dart",
-  "Steel arrow"
-]
-*/
-#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE [ \
-  "Infernal ashes", \
-  "Malicious ashes", \
-  "Adamant arrow(p++)", \
-  "Steel dart", \
-  "Steel arrow", \
-]
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force shown
-group: K'ril Tsutsaroth
-enum: [
-  "Coins",
-  "Rune platelegs",
-  "Grimy lantadyme",
-  "Lantadyme seed",
-  "Death rune",
-  "Blood rune",
-  "Wine of zamorak",
-  "Rune scimitar",
-  "Adamant platebody",
-  "Dragon dagger(p++)",
-  "Infernal ashes",
-  "Malicious ashes",
-  "Adamant arrow(p++)",
-  "Steel dart",
-  "Steel arrow"
-]
-*/
-#define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force hidden
-group: K'ril Tsutsaroth
-enum: [
-  "Shark",
-  "Tuna potato",
-  "Super restore(3)",
-  "Zamorak brew(3)",
-  "Super attack(3)",
-  "Super strength(3)"
-]
-*/
-#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE [ \
-  "Zamorak brew(3)", \
-  "Super attack(3)", \
-  "Super strength(3)", \
-]
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force shown
-group: K'ril Tsutsaroth
-enum: [
-  "Shark",
-  "Tuna potato",
-  "Super restore(3)",
-  "Zamorak brew(3)",
-  "Super attack(3)",
-  "Super strength(3)"
-]
-*/
-#define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW []
-
-
-
-
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-
-
-#define CONST_NEX_AREA [2900, 5188, 0, 2943, 5218, 0]
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force hidden
-group: Nex
-enum: [
-  "Zaryte vambraces",
-  "Nihil horn",
-  "Torva full helm (damaged)",
-  "Torva platebody (damaged)",
-  "Torva platelegs (damaged)",
-  "Ancient hilt",
-  "Ancient ceremonial mask",
-  "Ancient ceremonial top",
-  "Ancient ceremonial legs",
-  "Ancient ceremonial gloves",
-  "Ancient ceremonial boots"
-]
-*/
-#define VAR_BOSSING_NEX_UNIQUES_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Unique drops force shown
-group: Nex
-enum: [
-  "Zaryte vambraces",
-  "Nihil horn",
-  "Torva full helm (damaged)",
-  "Torva platebody (damaged)",
-  "Torva platelegs (damaged)",
-  "Ancient hilt",
-  "Ancient ceremonial mask",
-  "Ancient ceremonial top",
-  "Ancient ceremonial legs",
-  "Ancient ceremonial gloves",
-  "Ancient ceremonial boots"
-]
-*/
-#define VAR_BOSSING_NEX_UNIQUES_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force hidden
-group: Nex
-enum: [
-  "Rune sword",
-  "Runite ore",
-  "Ecumenical key shard",
-  "Nihil shard",
-  "Blood essence",
-  "Onyx bolts (e)",
-  "Dragon bolts (unf)",
-  "Coins",
-  "Blood rune",
-  "Death rune",
-  "Soul rune",
-  "Cannonball",
-  "Uncut ruby",
-  "Uncut diamond",
-  "Wine of zamorak",
-  "Air rune",
-  "Fire rune",
-  "Water rune",
-  "Air orb",
-  "Coal"
-]
-*/
-#define VAR_BOSSING_NEX_COMMON_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Common drops force shown
-group: Nex
-enum: [
-  "Rune sword",
-  "Runite ore",
-  "Ecumenical key shard",
-  "Nihil shard",
-  "Blood essence",
-  "Onyx bolts (e)",
-  "Dragon bolts (unf)",
-  "Coins",
-  "Blood rune",
-  "Death rune",
-  "Soul rune",
-  "Cannonball",
-  "Uncut ruby",
-  "Uncut diamond",
-  "Wine of zamorak",
-  "Air rune",
-  "Fire rune",
-  "Water rune",
-  "Air orb",
-  "Coal"
-]
-*/
-#define VAR_BOSSING_NEX_COMMON_SHOW []
-
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force hidden
-group: Nex
-enum: [
-  "Shark",
-  "Prayer potion(4)",
-  "Saradomin brew(4)",
-  "Super restore(4)"
-]
-*/
-#define VAR_BOSSING_NEX_SUPPLY_HIDE []
-
-/*@ define:input:bossing
-type: enumlist
-label: Supply drops force shown
-group: Nex
-enum: [
-  "Shark",
-  "Prayer potion(4)",
-  "Saradomin brew(4)",
-  "Super restore(4)"
-]
-*/
-#define VAR_BOSSING_NEX_SUPPLY_SHOW []
-
-
-
-
-apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_HIDE) {
-    hidden = true;
-}
-
-apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_HIDE) {
-    hidden = true;
-}
-
-apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_HIDE) {
-    hidden = true;
-}
-
-apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_SHOW) {
-    hidden = false;
-}
-
-apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_SHOW) {
-    hidden = false;
-}
-
-apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
-    hidden = false;
-}
-
-
-
-
-/*@ define:module:slayer
----
-name: Slayer
-subtitle: Let it rain blood
-description: |
-  Provides area-based item filtering for slayer monsters.
-*/
-
-/*@ define:input:slayer
-type: enumlist
-label: Wilderness slayer drops force hidden
-group: Wilderness Slayer
-enum: [
-  "Slayer's enchantment"
-]
-*/
-#define VAR_SLAYER_WILDERNESS_SLAYER_HIDE [ \
-  "Slayer's enchantment", \
-]
-
-/*@ define:input:slayer
-type: enumlist
-label: Wilderness slayer drops force shown
-group: Wilderness Slayer
-enum: [
-  "Slayer's enchantment"
-]
-*/
-#define VAR_SLAYER_WILDERNESS_SLAYER_SHOW []
-
-apply (name:VAR_SLAYER_WILDERNESS_SLAYER_HIDE) {
-    hidden = true;
-}
-apply (name:VAR_SLAYER_WILDERNESS_SLAYER_SHOW) {
-    hidden = false;
-}
-#define CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA [3323, 10044, 0, 3458, 10178, 0]
-/*@ define:input:slayer
-type: enumlist
-label: Wilderness slayer cave drops force hidden
-group: Wilderness Slayer
-enum: [
-  "Blighted entangle sack",
-  "Blighted anglerfish",
-  "Blighted manta ray",
-  "Blighted karambwan",
-  "Blighted teleport spell sack",
-  "Blighted ancient ice sack",
-  "Blighted vengeance sack",
-  "Blighted super restore(4)",
-  "Revenant cave teleport",
-  "Dareeyak teleport (tablet)",
-  "Wilderness crabs teleport",
-  "Carrallanger teleport (tablet)",
-  "Paddewwa teleport (tablet)",
-  "Annakarl teleport (tablet)",
-  "Lassar teleport (tablet)",
-  "Kharyrll teleport (tablet)",
-  "Senntisten teleport (tablet)",
-  "Ghorrock teleport (tablet)",
-  "Target teleport",
-  "Magic shortbow scroll",
-  "Ring of wealth scroll",
-  "Trouver parchment",
-  "Looting bag note"
-]
-*/
-#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE [ \
-  "Blighted entangle sack", \
-  "Blighted karambwan", \
-  "Blighted teleport spell sack", \
-]
-
-/*@ define:input:slayer
-type: enumlist
-label: Wilderness slayer cave drops force shown
-group: Wilderness Slayer
-enum: [
-  "Blighted entangle sack",
-  "Blighted anglerfish",
-  "Blighted manta ray",
-  "Blighted karambwan",
-  "Blighted teleport spell sack",
-  "Blighted ancient ice sack",
-  "Blighted vengeance sack",
-  "Blighted super restore(4)",
-  "Revenant cave teleport",
-  "Dareeyak teleport (tablet)",
-  "Wilderness crabs teleport",
-  "Carrallanger teleport (tablet)",
-  "Paddewwa teleport (tablet)",
-  "Annakarl teleport (tablet)",
-  "Lassar teleport (tablet)",
-  "Kharyrll teleport (tablet)",
-  "Senntisten teleport (tablet)",
-  "Ghorrock teleport (tablet)",
-  "Target teleport",
-  "Magic shortbow scroll",
-  "Ring of wealth scroll",
-  "Trouver parchment",
-  "Looting bag note"
-]
-*/
-#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW []
-
-apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
-    hidden = false;
-}
-
-#define CONST_SLAYER_HYDRAS_AREA [1291, 10221, 0, 1341, 10279, 0]
-
-#define CONST_SLAYER_SMOKE_DEVILS_AREA [2376, 9408, 0, 2432, 9472, 0]
-/*@ define:input:slayer
-type: enumlist
-label: Unique drop force hidden
-group: Smoke Devils
-enum: [
-  "Occult necklace",
-  "Dragon chainbody"
-]
-*/
-#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE []
-
-/*@ define:input:slayer
-type: enumlist
-label: Unique drop force shown
-group: Smoke Devils
-enum: [
-  "Occult necklace",
-  "Dragon chainbody"
-]
-*/
-#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW []
-
-/*@ define:input:slayer
-type: enumlist
-label: Common drop force hidden
-group: Smoke Devils
-enum: [
-  "Adamant battleaxe",
-  "Adamantite bar",
-  "Air battlestaff",
-  "Air rune",
-  "Ashes",
-  "Black d'hide vambraces",
-  "Coal",
-  "Coins",
-  "Crossbow string",
-  "Fire battlestaff",
-  "Fire rune",
-  "Magic logs",
-  "Mithril plateskirt",
-  "Red d'hide body",
-  "Rune arrow",
-  "Rune chainbody",
-  "Rune dagger",
-  "Rune full helm",
-  "Runite bolts",
-  "Shark",
-  "Smoke rune",
-  "Soul rune",
-  "Steel bar",
-  "Ugthanki kebab"
-]
-*/
-#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE [ \
-  "Adamant battleaxe", \
-  "Adamantite bar", \
-  "Air rune", \
-  "Ashes", \
-  "Coal", \
-  "Coins", \
-  "Crossbow string", \
-  "Fire rune", \
-  "Mithril plateskirt", \
-  "Red d'hide body", \
-  "Rune arrow", \
-  "Runite bolts", \
-  "Shark", \
-  "Steel bar", \
-  "Ugthanki kebab", \
-]
-
-/*@ define:input:slayer
-type: enumlist
-label: Common drop force shown
-group: Smoke Devils
-enum: [
-  "Adamant battleaxe",
-  "Adamantite bar",
-  "Air battlestaff",
-  "Air rune",
-  "Ashes",
-  "Black d'hide vambraces",
-  "Coal",
-  "Coins",
-  "Crossbow string",
-  "Fire battlestaff",
-  "Fire rune",
-  "Magic logs",
-  "Mithril plateskirt",
-  "Red d'hide body",
-  "Rune arrow",
-  "Rune chainbody",
-  "Rune dagger",
-  "Rune full helm",
-  "Runite bolts",
-  "Shark",
-  "Smoke rune",
-  "Soul rune",
-  "Steel bar",
-  "Ugthanki kebab"
-]
-*/
-#define VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW []
-
-/*@ define:input:slayer
-type: enumlist
-label: Herb drop force hidden
-group: Smoke Devils
-enum: [
-  "Grimy guam leaf",
-  "Grimy marrentill",
-  "Grimy tarromin",
-  "Grimy harralander",
-  "Grimy ranarr weed",
-  "Grimy irit leaf",
-  "Grimy avantoe",
-  "Grimy kwuarm",
-  "Grimy cadantine",
-  "Grimy lantadyme",
-  "Grimy dwarf weed"
-]
-*/
-#define VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE []
-
-/*@ define:input:slayer
-type: enumlist
-label: Herb drop force shown
-group: Smoke Devils
-enum: [
-  "Grimy guam leaf",
-  "Grimy marrentill",
-  "Grimy tarromin",
-  "Grimy harralander",
-  "Grimy ranarr weed",
-  "Grimy irit leaf",
-  "Grimy avantoe",
-  "Grimy kwuarm",
-  "Grimy cadantine",
-  "Grimy lantadyme",
-  "Grimy dwarf weed"
-]
-*/
-#define VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW []
-
-apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW) {
-    hidden = false;
-}
-
-#define CONST_SLAYER_ARAXYTES_AREA [3650, 9793, 0, 3716, 9870, 0]
-
-#define CONST_SLAYER_DARK_BEASTS_MOURNER_TUNNELS_AREA [1979, 4629, 0, 2043, 4678, 0]
-#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_1_AREA [3151, 12415, 0, 3182, 12439, 0]
-#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_2_AREA [3200, 12381, 0, 3243, 12407, 0]
-
-#define CONST_SLAYER_CAVE_KRAKEN_AREA [2238, 9983, 0, 2304, 10022, 0]
-
-#define CONST_SLAYER_ABYSSAL_DEMONS_ABYSSAL_AREA_AREA [3007, 4865, 0, 3070, 4926, 0]
-#define CONST_SLAYER_ABYSSAL_DEMONS_CATACOMBS_CENTER_AREA [1667, 10049, 0, 1685, 10065, 0]
-#define CONST_SLAYER_ABYSSAL_DEMONS_CATACOMBS_NORTH_AREA [1667, 10083, 0, 1681, 10102, 0]
-#define CONST_SLAYER_ABYSSAL_DEMONS_SLAYER_TOWER_TOP_AREA [3404, 3555, 2, 3431, 3581, 2]
-#define CONST_SLAYER_ABYSSAL_DEMONS_SLAYER_TOWER_BASEMENT_AREA [3429, 9953, 3, 3449, 9977, 3]
-#define CONST_SLAYER_ABYSSAL_DEMONS_WILDERNESS_SLAYER_CAVE_AREA [3331, 10151, 0, 3353, 10174, 0]
-
-#define CONST_SLAYER_DRAKES_AREA [1297, 10224, 1, 1363, 10260, 1]
-
-#define CONST_SLAYER_NECHRYAEL_SLAYER_TOWER_TOP_AREA [3431, 3555, 2, 3453, 3580, 2]
-#define CONST_SLAYER_NECHRYAEL_SLAYER_TOWER_BASEMENT_AREA [3399, 9977, 3, 3429, 9954, 3]
-#define CONST_SLAYER_GREATER_NECHRYAEL_CATACOMBS_AREA [1689, 10087, 0, 1712, 10075, 0]
-#define CONST_SLAYER_GREATER_NECHRYAEL_IORWERTH_NORTH_AREA [3216, 12449, 0, 3241, 12469, 0]
-#define CONST_SLAYER_GREATER_NECHRYAEL_IORWERTH_SOUTH_AREA [3213, 12410, 0, 3233, 12432, 0]
-#define CONST_SLAYER_GREATER_NECHRYAEL_WILDERNESS_SLAYER_CAVE_AREA [3329, 10095, 0, 3345, 10120, 0]
-
-#define CONST_SLAYER_GARGOYLES_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_SKELETAL_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_KURASKS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_FOSSIL_ISLAND_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_DUST_DEVILS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_WYRMS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_CAVE_HORRORS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_ZYGOMITES_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_WARPED_CREATURES_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_TUROTHS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-#define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
-/*@ define:module:ammo
----
-name: Ammo
-subtitle: Forgetting your backpack?
-description: |
-  Provides filtering for ammo either explicitly or based on value.
-*/
-
-/* --- ARROWS --- */
-
-#define CONST_AMMO_STANDARD_ARROWS_LIST [ \
-  "Bronze Arrow*", \
-  "Iron Arrow*", \
-  "Steel Arrow*", \
-  "Mithril Arrow*", \
-  "Adamant Arrow*", \
-  "Rune Arrow*", \
-  "Amethyst Arrow*", \
-  "Dragon Arrow*", \
-  "Bronze fire arrow", \
-  "Iron fire arrow", \
-  "Steel fire arrow", \
-  "Mithril fire arrow", \
-  "Adamant fire arrow", \
-  "Rune fire arrow", \
-  "Amethyst fire arrow", \
-  "Dragon fire arrow", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Standard arrows to force hidden
-group: Arrows
-enum: [
-  {
-    "value": "Bronze*",
-    "label": "Bronze Arrows"
-  },
-  {
-    "value": "Iron*",
-    "label": "Iron Arrows"
-  },
-  {
-    "value": "Steel*",
-    "label": "Steel Arrows"
-  },
-  {
-    "value": "Mithril*",
-    "label": "Mithril Arrows"
-  },
-  {
-    "value": "Adamant*",
-    "label": "Adamant Arrows"
-  },
-  {
-    "value": "Rune*",
-    "label": "Rune Arrows"
-  },
-  {
-    "value": "Amethyst*",
-    "label": "Amethyst Arrows"
-  },
-  {
-    "value": "Dragon*",
-    "label": "Dragon Arrows"
-  }
-]
-*/
-#define VAR_AMMO_STANDARD_ARROWS_HIDE [ \
-  "Bronze*", \
-  "Iron*", \
-  "Steel*", \
-  "Mithril*", \
-  "Adamant*", \
-  "Rune*", \
-]
-
-/*@ define:input:ammo
-type: number
-label: Standard Arrows minimum value
-group: Arrows
-*/
-#define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && (name:VAR_AMMO_STANDARD_ARROWS_HIDE || value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- DARTS --- */
-
-#define CONST_AMMO_DARTS_LIST [ \
-  "Bronze dart*", \
-  "Iron dart*", \
-  "Steel dart*", \
-  "Black dart*", \
-  "Mithril dart*", \
-  "Adamant dart*", \
-  "Rune dart*", \
-  "Amethyst dart*", \
-  "Dragon dart*", \
-  "Atlatl dart", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Darts to force hidden
-group: Darts
-enum: [
-  {
-    "value": "Bronze dart*",
-    "label": "Bronze darts"
-  },
-  {
-    "value": "Iron dart*",
-    "label": "Iron darts"
-  },
-  {
-    "value": "Steel dart*",
-    "label": "Steel darts"
-  },
-  {
-    "value": "Black dart*",
-    "label": "Black darts"
-  },
-  {
-    "value": "Mithril dart*",
-    "label": "Mithril darts"
-  },
-  {
-    "value": "Adamant dart*",
-    "label": "Adamant darts"
-  },
-  {
-    "value": "Rune dart*",
-    "label": "Rune darts"
-  },
-  {
-    "value": "Amethyst dart*",
-    "label": "Amethyst darts"
-  },
-  {
-    "value": "Dragon dart*",
-    "label": "Dragon darts"
-  },
-  {
-    "value": "Atlatl dart",
-    "label": "Atlatl darts"
-  }
-]
-*/
-#define VAR_AMMO_DARTS_HIDE [ \
-  "Bronze dart*", \
-  "Iron dart*", \
-  "Steel dart*", \
-  "Black dart*", \
-  "Mithril dart*", \
-  "Adamant dart*", \
-]
-
-/*@ define:input:ammo
-type: number
-label: Darts minimum value
-group: Darts
-*/
-#define VAR_AMMO_DARTS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_DARTS_LIST && (name:VAR_AMMO_DARTS_HIDE || value:<VAR_AMMO_DARTS_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- BOLTS --- */
-
-#define CONST_AMMO_BOLTS_LIST [ \
-  "Bronze bolts*", \
-  "Blurite bolts*", \
-  "Silver bolts*", \
-  "Iron bolts*", \
-  "Steel bolts*", \
-  "Mithril bolts*", \
-  "Adamant bolts*", \
-  "Runite bolts*", \
-  "Dragon bolts*", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Bolts to force hidden
-group: Bolts
-enum: [
-  {
-    "value": "Bronze bolts*",
-    "label": "Bronze bolts"
-  },
-  {
-    "value": "Blurite bolts*",
-    "label": "Blurite bolts"
-  },
-  {
-    "value": "Silver bolts*",
-    "label": "Silver bolts"
-  },
-  {
-    "value": "Iron bolts*",
-    "label": "Iron bolts"
-  },
-  {
-    "value": "Steel bolts*",
-    "label": "Steel bolts"
-  },
-  {
-    "value": "Mithril bolts*",
-    "label": "Mithril bolts"
-  },
-  {
-    "value": "Adamant bolts*",
-    "label": "Adamant bolts"
-  },
-  {
-    "value": "Runite bolts*",
-    "label": "Runite bolts"
-  },
-  {
-    "value": "Dragon bolts*",
-    "label": "Dragon bolts"
-  }
-]
-*/
-#define VAR_AMMO_BOLTS_HIDE [ \
-  "Bronze bolts*", \
-  "Blurite bolts*", \
-  "Silver bolts*", \
-  "Iron bolts*", \
-  "Steel bolts*", \
-  "Mithril bolts*", \
-]
-
-/*@ define:input:ammo
-type: number
-label: Bolts minimum value
-group: Bolts
-*/
-#define VAR_AMMO_BOLTS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_BOLTS_LIST && (name:VAR_AMMO_BOLTS_HIDE || value:<VAR_AMMO_BOLTS_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- ENCHANTED BOLTS --- */
-
-#define CONST_AMMO_BOLTS_E_LIST [ \
-  "Opal bolts (e)", \
-  "Jade bolts (e)", \
-  "Pearl bolts (e)", \
-  "Topaz bolts (e)", \
-  "Sapphire bolts (e)", \
-  "Emerald bolts (e)", \
-  "Ruby bolts (e)", \
-  "Diamond bolts (e)", \
-  "Dragonstone bolts (e)", \
-  "Onyx bolts (e)", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Enchanted bolts to force hidden
-group: Enchanted Bolts
-enum: [
-  {
-    "value": "Opal bolts (e)",
-    "label": "Opal bolts (e)"
-  },
-  {
-    "value": "Jade bolts (e)",
-    "label": "Jade bolts (e)"
-  },
-  {
-    "value": "Pearl bolts (e)",
-    "label": "Pearl bolts (e)"
-  },
-  {
-    "value": "Topaz bolts (e)",
-    "label": "Topaz bolts (e)"
-  },
-  {
-    "value": "Sapphire bolts (e)",
-    "label": "Sapphire bolts (e)"
-  },
-  {
-    "value": "Emerald bolts (e)",
-    "label": "Emerald bolts (e)"
-  },
-  {
-    "value": "Ruby bolts (e)",
-    "label": "Ruby bolts (e)"
-  },
-  {
-    "value": "Diamond bolts (e)",
-    "label": "Diamond bolts (e)"
-  },
-  {
-    "value": "Dragonstone bolts (e)",
-    "label": "Dragonstone bolts (e)"
-  },
-  {
-    "value": "Onyx bolts (e)",
-    "label": "Onyx bolts (e)"
-  }
-]
-*/
-#define VAR_AMMO_BOLTS_E_HIDE []
-
-/*@ define:input:ammo
-type: number
-label: Enchanted bolts minimum value
-group: Enchanted Bolts
-*/
-#define VAR_AMMO_BOLTS_E_MIN_VALUE 500
-
-apply (name:CONST_AMMO_BOLTS_E_LIST && (name:VAR_AMMO_BOLTS_E_HIDE || value:<VAR_AMMO_BOLTS_E_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- DRAGON ENCHANTED BOLTS --- */
-
-#define CONST_AMMO_DRAGON_BOLTS_E_LIST [ \
-  "Opal dragon bolts (e)", \
-  "Jade dragon bolts (e)", \
-  "Pearl dragon bolts (e)", \
-  "Topaz dragon bolts (e)", \
-  "Sapphire dragon bolts (e)", \
-  "Emerald dragon bolts (e)", \
-  "Ruby dragon bolts (e)", \
-  "Diamond dragon bolts (e)", \
-  "Dragonstone dragon bolts (e)", \
-  "Onyx dragon bolts (e)", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Dragon enchanted bolts to force hidden
-group: Dragon Enchanted Bolts
-enum: [
-  {
-    "value": "Opal dragon bolts (e)",
-    "label": "Opal dragon bolts (e)"
-  },
-  {
-    "value": "Jade dragon bolts (e)",
-    "label": "Jade dragon bolts (e)"
-  },
-  {
-    "value": "Pearl dragon bolts (e)",
-    "label": "Pearl dragon bolts (e)"
-  },
-  {
-    "value": "Topaz dragon bolts (e)",
-    "label": "Topaz dragon bolts (e)"
-  },
-  {
-    "value": "Sapphire dragon bolts (e)",
-    "label": "Sapphire dragon bolts (e)"
-  },
-  {
-    "value": "Emerald dragon bolts (e)",
-    "label": "Emerald dragon bolts (e)"
-  },
-  {
-    "value": "Ruby dragon bolts (e)",
-    "label": "Ruby dragon bolts (e)"
-  },
-  {
-    "value": "Diamond dragon bolts (e)",
-    "label": "Diamond dragon bolts (e)"
-  },
-  {
-    "value": "Dragonstone dragon bolts (e)",
-    "label": "Dragonstone dragon bolts (e)"
-  },
-  {
-    "value": "Onyx dragon bolts (e)",
-    "label": "Onyx dragon bolts (e)"
-  }
-]
-*/
-#define VAR_AMMO_DRAGON_BOLTS_E_HIDE []
-
-/*@ define:input:ammo
-type: number
-label: Dragon enchanted bolts minimum value
-group: Dragon Enchanted Bolts
-*/
-#define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 500
-
-apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && (name:VAR_AMMO_DRAGON_BOLTS_E_HIDE || value:<VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- JAVELINS --- */
-
-#define CONST_AMMO_JAVELINS_LIST [ \
-  "Bronze javelin*", \
-  "Iron javelin*", \
-  "Steel javelin*", \
-  "Mithril javelin*", \
-  "Adamant javelin*", \
-  "Rune javelin*", \
-  "Amethyst javelin*", \
-  "Dragon javelin*", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Javelins to force hidden
-group: Javelins
-enum: [
-  {
-    "value": "Bronze javelin*",
-    "label": "Bronze javelins"
-  },
-  {
-    "value": "Iron javelin*",
-    "label": "Iron javelins"
-  },
-  {
-    "value": "Steel javelin*",
-    "label": "Steel javelins"
-  },
-  {
-    "value": "Mithril javelin*",
-    "label": "Mithril javelins"
-  },
-  {
-    "value": "Adamant javelin*",
-    "label": "Adamant javelins"
-  },
-  {
-    "value": "Rune javelin*",
-    "label": "Rune javelins"
-  },
-  {
-    "value": "Amethyst javelin*",
-    "label": "Amethyst javelins"
-  },
-  {
-    "value": "Dragon javelin*",
-    "label": "Dragon javelins"
-  }
-]
-*/
-#define VAR_AMMO_JAVELINS_HIDE [ \
-  "Bronze javelin*", \
-  "Iron javelin*", \
-  "Steel javelin*", \
-  "Mithril javelin*", \
-  "Adamant javelin*", \
-  "Rune javelin*", \
-]
-
-/*@ define:input:ammo
-type: number
-label: Javelins minimum value
-group: Javelins
-*/
-#define VAR_AMMO_JAVELINS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_JAVELINS_LIST && (name:VAR_AMMO_JAVELINS_HIDE || value:<VAR_AMMO_JAVELINS_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- SPECIAL BOLTS --- */
-
-#define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
-  "Sunlight antler bolts", \
-  "Moonlight antler bolts", \
-  "Kebbit bolts", \
-  "Long kebbit bolts", \
-  "Broad bolts", \
-  "Amethyst broad bolts", \
-  "Barbed bolts", \
-  "Bone bolts", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Special bolts to force hidden
-group: Special Bolts
-enum: [
-  {
-    "value": "Sunlight antler bolts",
-    "label": "Sunlight antler bolts"
-  },
-  {
-    "value": "Moonlight antler bolts",
-    "label": "Moonlight antler bolts"
-  },
-  {
-    "value": "Kebbit bolts",
-    "label": "Kebbit bolts"
-  },
-  {
-    "value": "Long kebbit bolts",
-    "label": "Long kebbit bolts"
-  },
-  {
-    "value": "Broad bolts",
-    "label": "Broad bolts"
-  },
-  {
-    "value": "Amethyst broad bolts",
-    "label": "Amethyst broad bolts"
-  },
-  {
-    "value": "Barbed bolts",
-    "label": "Barbed bolts"
-  },
-  {
-    "value": "Bone bolts",
-    "label": "Bone bolts"
-  }
-]
-*/
-#define VAR_AMMO_SPECIAL_BOLTS_HIDE []
-
-/*@ define:input:ammo
-type: number
-label: Special bolts minimum value
-group: Special Bolts
-*/
-#define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && (name:VAR_AMMO_SPECIAL_BOLTS_HIDE || value:<VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE)) {
-    hidden = true;
-}
-
-/* --- BRUTAL ARROWS --- */
-
-#define CONST_AMMO_BRUTAL_ARROWS_LIST [ \
-  "Bronze brutal", \
-  "Iron brutal", \
-  "Steel brutal", \
-  "Black brutal", \
-  "Mithril brutal", \
-  "Adamant brutal", \
-  "Rune brutal", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Brutal arrows to force hidden
-group: Brutal Arrows
-enum: [
-  {
-    "value": "Bronze brutal",
-    "label": "Bronze brutal arrows"
-  },
-  {
-    "value": "Iron brutal",
-    "label": "Iron brutal arrows"
-  },
-  {
-    "value": "Steel brutal",
-    "label": "Steel brutal arrows"
-  },
-  {
-    "value": "Black brutal",
-    "label": "Black brutal arrows"
-  },
-  {
-    "value": "Mithril brutal",
-    "label": "Mithril brutal arrows"
-  },
-  {
-    "value": "Adamant brutal",
-    "label": "Adamant brutal arrows"
-  },
-  {
-    "value": "Rune brutal",
-    "label": "Rune brutal arrows"
-  }
-]
-*/
-#define VAR_AMMO_BRUTAL_ARROWS_HIDE [ \
-  "Bronze brutal", \
-  "Iron brutal", \
-  "Steel brutal", \
-  "Black brutal", \
-  "Mithril brutal", \
-]
-
-/*@ define:input:ammo
-type: number
-label: Brutal Arrows minimum value
-group: Brutal Arrows
-*/
-#define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && (name:VAR_AMMO_BRUTAL_ARROWS_HIDE || value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE)) {
-    hidden = true;
-}
-
-
-/* --- SPECIAL ARROWS --- */
-
-#define CONST_AMMO_SPECIAL_ARROWS_LIST [ \
-  "Training Arrow", \
-  "Ogre Arrow", \
-  "Ice Arrow", \
-  "Broad Arrow", \
-]
-
-/*@ define:input:ammo
-type: enumlist
-label: Special arrows to force hidden
-group: Special Arrows
-enum: [
-  {
-    "value": "Training Arrow",
-    "label": "Training Arrows"
-  },
-  {
-    "value": "Ogre Arrow",
-    "label": "Ogre Arrows"
-  },
-  {
-    "value": "Ice Arrow",
-    "label": "Ice Arrows"
-  },
-  {
-    "value": "Broad Arrow",
-    "label": "Broad Arrows"
-  }
-]
-*/
-#define VAR_AMMO_SPECIAL_ARROWS_HIDE [ \
-  "Training Arrow", \
-  "Ogre Arrow", \
-  "Ice Arrow", \
-  "Broad Arrow", \
-]
-
-/*@ define:input:ammo
-type: number
-label: Special Arrows minimum value
-group: Special Arrows
-*/
-#define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
-
-apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE || value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE)) {
-    hidden = true;
-}
 /*@ define:module:final
 hidden: true
 name: final
@@ -14813,6 +14552,13 @@ name: Constants
 
 #define CONST_TOA_AREA [3515, 5126, 0, 3965, 5432, 0]
 
+#define CONST_GOD_WARS_DUNGEON_AREA [2816, 5184, 0, 2943, 5375, 3]
+#define CONST_COMMANDER_ZILYANA_AREA [2884, 5257, 0, 2908, 5276, 0]
+#define CONST_GENERAL_GRAARDOR_AREA [2863, 5350, 2, 2877, 5373, 2]
+#define CONST_KREEARRA_AREA [2820, 5295, 2, 2843, 5309, 2]
+#define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
+#define CONST_NEX_AREA [2900, 5188, 0, 2943, 5218, 0]
+
 #define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
 #define CONST_GAUNTLET_AREA [1856, 5632, 0, 1983, 5695, 3]
@@ -14820,6 +14566,40 @@ name: Constants
 #define CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA [3391, 5758, 0, 3521, 5889, 3]
 
 #define CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA [3457, 6017, 0, 3646, 6205, 3]
+
+#define CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA [3323, 10044, 0, 3458, 10178, 0]
+#define CONST_SLAYER_HYDRAS_AREA [1291, 10221, 0, 1341, 10279, 0]
+#define CONST_SLAYER_SMOKE_DEVILS_AREA [2376, 9408, 0, 2432, 9472, 0]
+#define CONST_SLAYER_ARAXYTES_AREA [3650, 9793, 0, 3716, 9870, 0]
+#define CONST_SLAYER_DARK_BEASTS_MOURNER_TUNNELS_AREA [1979, 4629, 0, 2043, 4678, 0]
+#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_1_AREA [3151, 12415, 0, 3182, 12439, 0]
+#define CONST_SLAYER_DARK_BEASTS_IORWERTH_DUNGEON_2_AREA [3200, 12381, 0, 3243, 12407, 0]
+#define CONST_SLAYER_CAVE_KRAKEN_AREA [2238, 9983, 0, 2304, 10022, 0]
+#define CONST_SLAYER_ABYSSAL_DEMONS_ABYSSAL_AREA_AREA [3007, 4865, 0, 3070, 4926, 0]
+#define CONST_SLAYER_ABYSSAL_DEMONS_CATACOMBS_CENTER_AREA [1667, 10049, 0, 1685, 10065, 0]
+#define CONST_SLAYER_ABYSSAL_DEMONS_CATACOMBS_NORTH_AREA [1667, 10083, 0, 1681, 10102, 0]
+#define CONST_SLAYER_ABYSSAL_DEMONS_SLAYER_TOWER_TOP_AREA [3404, 3555, 2, 3431, 3581, 2]
+#define CONST_SLAYER_ABYSSAL_DEMONS_SLAYER_TOWER_BASEMENT_AREA [3429, 9953, 3, 3449, 9977, 3]
+#define CONST_SLAYER_ABYSSAL_DEMONS_WILDERNESS_SLAYER_CAVE_AREA [3331, 10151, 0, 3353, 10174, 0]
+#define CONST_SLAYER_DRAKES_AREA [1297, 10224, 1, 1363, 10260, 1]
+#define CONST_SLAYER_NECHRYAEL_SLAYER_TOWER_TOP_AREA [3431, 3555, 2, 3453, 3580, 2]
+#define CONST_SLAYER_NECHRYAEL_SLAYER_TOWER_BASEMENT_AREA [3399, 9977, 3, 3429, 9954, 3]
+#define CONST_SLAYER_GREATER_NECHRYAEL_CATACOMBS_AREA [1689, 10087, 0, 1712, 10075, 0]
+#define CONST_SLAYER_GREATER_NECHRYAEL_IORWERTH_NORTH_AREA [3216, 12449, 0, 3241, 12469, 0]
+#define CONST_SLAYER_GREATER_NECHRYAEL_IORWERTH_SOUTH_AREA [3213, 12410, 0, 3233, 12432, 0]
+#define CONST_SLAYER_GREATER_NECHRYAEL_WILDERNESS_SLAYER_CAVE_AREA [3329, 10095, 0, 3345, 10120, 0]
+#define CONST_SLAYER_GARGOYLES_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_SKELETAL_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_KURASKS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_FOSSIL_ISLAND_WYVERNS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_DUST_DEVILS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_WYRMS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_CAVE_HORRORS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_ZYGOMITES_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_WARPED_CREATURES_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_TUROTHS_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
+#define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
 
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
@@ -16135,4 +15915,113 @@ name: Constants
   "Lily of the sands", \
   "Aldarium", \
   "Araxyte venom sack", \
+]
+
+#define CONST_AMMO_STANDARD_ARROWS_LIST [ \
+  "Bronze Arrow*", \
+  "Iron Arrow*", \
+  "Steel Arrow*", \
+  "Mithril Arrow*", \
+  "Adamant Arrow*", \
+  "Rune Arrow*", \
+  "Amethyst Arrow*", \
+  "Dragon Arrow*", \
+  "Bronze fire arrow", \
+  "Iron fire arrow", \
+  "Steel fire arrow", \
+  "Mithril fire arrow", \
+  "Adamant fire arrow", \
+  "Rune fire arrow", \
+  "Amethyst fire arrow", \
+  "Dragon fire arrow", \
+]
+
+#define CONST_AMMO_DARTS_LIST [ \
+  "Bronze dart*", \
+  "Iron dart*", \
+  "Steel dart*", \
+  "Black dart*", \
+  "Mithril dart*", \
+  "Adamant dart*", \
+  "Rune dart*", \
+  "Amethyst dart*", \
+  "Dragon dart*", \
+  "Atlatl dart", \
+]
+
+#define CONST_AMMO_BOLTS_LIST [ \
+  "Bronze bolts*", \
+  "Blurite bolts*", \
+  "Silver bolts*", \
+  "Iron bolts*", \
+  "Steel bolts*", \
+  "Mithril bolts*", \
+  "Adamant bolts*", \
+  "Runite bolts*", \
+  "Dragon bolts*", \
+]
+
+#define CONST_AMMO_BOLTS_E_LIST [ \
+  "Opal bolts (e)", \
+  "Jade bolts (e)", \
+  "Pearl bolts (e)", \
+  "Topaz bolts (e)", \
+  "Sapphire bolts (e)", \
+  "Emerald bolts (e)", \
+  "Ruby bolts (e)", \
+  "Diamond bolts (e)", \
+  "Dragonstone bolts (e)", \
+  "Onyx bolts (e)", \
+]
+
+#define CONST_AMMO_DRAGON_BOLTS_E_LIST [ \
+  "Opal dragon bolts (e)", \
+  "Jade dragon bolts (e)", \
+  "Pearl dragon bolts (e)", \
+  "Topaz dragon bolts (e)", \
+  "Sapphire dragon bolts (e)", \
+  "Emerald dragon bolts (e)", \
+  "Ruby dragon bolts (e)", \
+  "Diamond dragon bolts (e)", \
+  "Dragonstone dragon bolts (e)", \
+  "Onyx dragon bolts (e)", \
+]
+
+#define CONST_AMMO_JAVELINS_LIST [ \
+  "Bronze javelin*", \
+  "Iron javelin*", \
+  "Steel javelin*", \
+  "Mithril javelin*", \
+  "Adamant javelin*", \
+  "Rune javelin*", \
+  "Amethyst javelin*", \
+  "Dragon javelin*", \
+]
+
+#define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
+  "Moonlight antler bolts", \
+  "Sunlight antler bolts", \
+  "Kebbit bolts", \
+  "Long kebbit bolts", \
+  "Broad bolts", \
+  "Amethyst broad bolts", \
+  "Barbed bolts", \
+  "Bone bolts", \
+]
+
+#define CONST_AMMO_BRUTAL_ARROWS_LIST [ \
+  "Bronze brutal", \
+  "Iron brutal", \
+  "Steel brutal", \
+  "Black brutal", \
+  "Mithril brutal", \
+  "Adamant brutal", \
+  "Rune brutal", \
+]
+
+#define CONST_AMMO_SPECIAL_ARROWS_LIST [ \
+  "Training Arrow", \
+  "Ogre Arrow", \
+  "Ice Arrow", \
+  "Broad Arrow", \
 ]
