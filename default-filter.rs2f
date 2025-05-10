@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 22:37:30 UTC 2025 */
-/* Commit: 907341f */
+/* Built on: Sat May 10 22:43:55 UTC 2025 */
+/* Commit: f21a015 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -7205,6 +7205,12 @@ exampleItem: Bronze platelegs
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF43341d";
 
+/*@ define:input:item_category_styles
+type: style
+label: Bronze (t) Armour
+group: Bronze (t) Armour
+exampleItem: Bronze platelegs (t)
+*/
 #define VAR_BRONZE_TRIMMED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
   backgroundColor = "#8043341d";\
