@@ -8,7 +8,7 @@ description: |
   This module provides custom style for potions
 */
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Attack potion
 group: Potions Styles
@@ -25,7 +25,7 @@ apply (name:"Attack potion(*") {
     VAR_ATTACK_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Antipoison
 group: Potions Styles
@@ -42,7 +42,7 @@ apply (name:"Antipoison(*") {
     VAR_ANTIPOISON_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Strength potion
 group: Potions Styles
@@ -59,7 +59,7 @@ apply (name:"Strength potion(*") {
     VAR_STRENGTH_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Serum 207
 group: Potions Styles
@@ -76,7 +76,7 @@ apply (name:"Serum 207(*") {
     VAR_SERUM_207_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Compost potion
 group: Potions Styles
@@ -93,7 +93,7 @@ apply (name:"Compost potion(*") {
     VAR_COMPOST_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Restore potion
 group: Potions Styles
@@ -110,7 +110,7 @@ apply (name:"Restore potion(*") {
     VAR_RESTORE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Energy potion
 group: Potions Styles
@@ -127,7 +127,7 @@ apply (name:"Energy potion(*") {
     VAR_ENERGY_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Defence potion
 group: Potions Styles
@@ -144,7 +144,7 @@ apply (name:"Defence potion(*") {
     VAR_DEFENCE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Agility potion
 group: Potions Styles
@@ -161,7 +161,7 @@ apply (name:"Agility potion(*") {
     VAR_AGILITY_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Combat potion
 group: Potions Styles
@@ -178,7 +178,7 @@ apply (name:"Combat potion(*") {
     VAR_COMBAT_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Prayer potion
 group: Potions Styles
@@ -195,7 +195,7 @@ apply (name:"Prayer potion(*") {
     VAR_PRAYER_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super attack
 group: Potions Styles
@@ -212,7 +212,7 @@ apply (name:"Super attack(*") {
     VAR_SUPER_ATTACK_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Superantipoison
 group: Potions Styles
@@ -229,7 +229,7 @@ apply (name:"Superantipoison(*") {
     VAR_SUPERANTIPOISON_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Fishing potion
 group: Potions Styles
@@ -246,7 +246,7 @@ apply (name:"Fishing potion(*") {
     VAR_FISHING_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super energy
 group: Potions Styles
@@ -263,7 +263,7 @@ apply (name:"Super energy(*") {
     VAR_SUPER_ENERGY_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Hunter potion
 group: Potions Styles
@@ -280,7 +280,7 @@ apply (name:"Hunter potion(*") {
     VAR_HUNTER_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Goading potion
 group: Potions Styles
@@ -297,7 +297,7 @@ apply (name:"Goading potion(*") {
     VAR_GOADING_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super strength
 group: Potions Styles
@@ -314,7 +314,7 @@ apply (name:"Super strength(*") {
     VAR_SUPER_STRENGTH_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Prayer regeneration potion
 group: Potions Styles
@@ -331,7 +331,7 @@ apply (name:"Prayer regeneration potion(*") {
     VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super restore
 group: Potions Styles
@@ -348,7 +348,7 @@ apply (name:"Super restore(*") {
     VAR_SUPER_RESTORE_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Sanfew serum
 group: Potions Styles
@@ -365,7 +365,7 @@ apply (name:"Sanfew serum(*") {
     VAR_SANFEW_SERUM_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super defence
 group: Potions Styles
@@ -382,7 +382,7 @@ apply (name:"Super defence(*") {
     VAR_SUPER_DEFENCE_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Antidote+
 group: Potions Styles
@@ -399,7 +399,7 @@ apply (name:"Antidote+(*") {
     VAR_ANTIDOTE_PLUS_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Antifire potion
 group: Potions Styles
@@ -416,7 +416,7 @@ apply (name:"Antifire potion(*") {
     VAR_ANTIFIRE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine super attack potion
 group: Potions Styles
@@ -433,7 +433,7 @@ apply (name:"Divine super attack potion(*") {
     VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine super defence potion
 group: Potions Styles
@@ -450,7 +450,7 @@ apply (name:"Divine super defence potion(*") {
     VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine super strength potion
 group: Potions Styles
@@ -467,7 +467,7 @@ apply (name:"Divine super strength potion(*") {
     VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Ranging potion
 group: Potions Styles
@@ -484,7 +484,7 @@ apply (name:"Ranging potion(*") {
     VAR_RANGING_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine ranging potion
 group: Potions Styles
@@ -501,7 +501,7 @@ apply (name:"Divine ranging potion(*") {
     VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Magic potion
 group: Potions Styles
@@ -518,7 +518,7 @@ apply (name:"Magic potion(*") {
     VAR_MAGIC_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Stamina potion
 group: Potions Styles
@@ -535,7 +535,7 @@ apply (name:"Stamina potion(*") {
     VAR_STAMINA_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Zamorak brew
 group: Potions Styles
@@ -552,7 +552,7 @@ apply (name:"Zamorak brew(*") {
     VAR_ZAMORAK_BREW_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine magic potion
 group: Potions Styles
@@ -569,7 +569,7 @@ apply (name:"Divine magic potion(*") {
     VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Antidote++
 group: Potions Styles
@@ -586,7 +586,7 @@ apply (name:"Antidote++(*") {
     VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Bastion potion
 group: Potions Styles
@@ -603,7 +603,7 @@ apply (name:"Bastion potion(*") {
     VAR_BASTION_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Battlemage potion
 group: Potions Styles
@@ -620,7 +620,7 @@ apply (name:"Battlemage potion(*") {
     VAR_BATTLEMAGE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Saradomin brew
 group: Potions Styles
@@ -637,7 +637,7 @@ apply (name:"Saradomin brew(*") {
     VAR_SARADOMIN_BREW_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Extended antifire
 group: Potions Styles
@@ -654,7 +654,7 @@ apply (name:"Extended antifire(*") {
     VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Ancient brew
 group: Potions Styles
@@ -671,7 +671,7 @@ apply (name:"Ancient brew(*") {
     VAR_ANCIENT_BREW_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine bastion potion
 group: Potions Styles
@@ -688,7 +688,7 @@ apply (name:"Divine bastion potion(*") {
     VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine battlemage potion
 group: Potions Styles
@@ -705,7 +705,7 @@ apply (name:"Divine battlemage potion(*") {
     VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Anti-venom
 group: Potions Styles
@@ -722,7 +722,7 @@ apply (name:"Anti-venom(*") {
     VAR_ANTI_VENOM_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Menaphite remedy
 group: Potions Styles
@@ -739,7 +739,7 @@ apply (name:"Menaphite remedy(*") {
     VAR_MENAPHITE_REMEDY_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super combat potion
 group: Potions Styles
@@ -756,7 +756,7 @@ apply (name:"Super combat potion(*") {
     VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Forgotten brew
 group: Potions Styles
@@ -773,7 +773,7 @@ apply (name:"Forgotten brew(*") {
     VAR_FORGOTTEN_BREW_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Super antifire potion
 group: Potions Styles
@@ -790,7 +790,7 @@ apply (name:"Super antifire potion(*") {
     VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Anti-venom+
 group: Potions Styles
@@ -807,7 +807,7 @@ apply (name:"Anti-venom+(*") {
     VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Extended anti-venom+
 group: Potions Styles
@@ -824,7 +824,7 @@ apply (name:"Extended anti-venom+(*") {
     VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Divine super combat potion
 group: Potions Styles
@@ -841,7 +841,7 @@ apply (name:"Divine super combat potion(*") {
     VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE 
 }
 
-/*@ define:input:potions
+/*@ define:input:individual_item_styles
 type: style
 label: Extended super antifire
 group: Potions Styles
