@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 07:50:15 UTC 2025 */
-/* Commit: 54ac7ab */
+/* Built on: Sat May 10 07:51:28 UTC 2025 */
+/* Commit: b902bd4 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -13710,9 +13710,9 @@ apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
 
-/*@ define:module:ammo
+/*@ define:module:utilities
 ---
-name: Ammo
+name: Utilities
 subtitle: Forgetting your backpack?
 description: |
   Provides utilities based on items on the ground.
