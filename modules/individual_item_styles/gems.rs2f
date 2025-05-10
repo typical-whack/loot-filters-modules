@@ -1,17 +1,17 @@
 /*@ define:group
 ---
-name: Gem Styles
+name: Gems Styles
 expanded: false
 description: |
-  Gem Styles
+  Gems Styles
   ---
   This group provides custom styling for all gems. By default this colors all gems similar to their item color.
 */
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Sapphire custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Sapphire
 */
 #define VAR_SAPPHIRE_CUSTOMSTYLE \
@@ -27,10 +27,10 @@ apply (name:["Uncut sapphire", \
     VAR_SAPPHIRE_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Emerald custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Emerald
 */
 #define VAR_EMERALD_CUSTOMSTYLE \
@@ -46,10 +46,10 @@ apply (name:["Uncut emerald", \
     VAR_EMERALD_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Ruby custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Ruby
 */
 #define VAR_RUBY_CUSTOMSTYLE \
@@ -65,10 +65,10 @@ apply (name:["Uncut ruby", \
     VAR_RUBY_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Diamond custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Diamond
 */
 #define VAR_DIAMOND_CUSTOMSTYLE \
@@ -84,10 +84,10 @@ apply (name:["Uncut diamond", \
     VAR_DIAMOND_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Opal custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Opal
 */
 #define VAR_OPAL_CUSTOMSTYLE \
@@ -103,10 +103,10 @@ apply (name:["Uncut opal", \
     VAR_OPAL_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Jade custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Jade
 */
 #define VAR_JADE_CUSTOMSTYLE \
@@ -122,10 +122,10 @@ apply (name:["Uncut jade", \
     VAR_JADE_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Red topaz custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Red topaz
 */
 #define VAR_RED_TOPAZ_CUSTOMSTYLE \
@@ -141,10 +141,10 @@ apply (name:["Uncut red topaz", \
     VAR_RED_TOPAZ_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Dragonstone custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Dragonstone
 */
 #define VAR_DRAGONSTONE_CUSTOMSTYLE \
@@ -160,10 +160,10 @@ apply (name:["Uncut dragonstone", \
     VAR_DRAGONSTONE_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Onyx custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Onyx
 */
 #define VAR_ONYX_CUSTOMSTYLE \
