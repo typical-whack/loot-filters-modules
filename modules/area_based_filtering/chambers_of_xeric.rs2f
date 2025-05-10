@@ -1,16 +1,16 @@
-
-/*@ define:module:chambers_of_xeric
+/*@ define:group
 ---
 name: Chambers of Xeric
-subtitle: The twisted bow awaits...
 description: |
-  This provides per-item filters and custom styling for all drops that happen during your chambers of xeric raid. By default this styles each drop uniquely so they are easier to pick off the ground.
+  Chambers of Xeric
+  ---
+  This provides per-item filters for all drops that happen during your chambers of xeric raid.
 */
 
 /*@ define:input:chambers_of_xeric
 type: enumlist
 label: Potions to force hidden
-group: COX item filters
+group: Chambers of Xeric
 enum: [
   {
     "value": "Elder*",
@@ -51,7 +51,7 @@ enum: [
 /*@ define:input:chambers_of_xeric
 type: enumlist
 label: Fish to force hidden
-group: COX item filters
+group: Chambers of Xeric
 enum: [
   {
     "value": "Pysk fish (0)",
@@ -96,7 +96,7 @@ enum: [
 /*@ define:input:chambers_of_xeric
 type: enumlist
 label: Bats to force hidden
-group: COX item filters
+group: Chambers of Xeric
 enum: [
   {
     "value": "Guanic bat (0)",
@@ -141,7 +141,7 @@ enum: [
 /*@ define:input:chambers_of_xeric
 type: enumlist
 label: Seeds to force hidden
-group: COX item filters
+group: Chambers of Xeric
 enum: [
   "Golpar seed",
   "Buchu seed",
@@ -153,7 +153,7 @@ enum: [
 /*@ define:input:chambers_of_xeric
 type: enumlist
 label: Misc drops to force hidden
-group: COX item filters
+group: Chambers of Xeric
 enum: [
   "Bones",
   "Big bones",

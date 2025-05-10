@@ -9,6 +9,7 @@ filtering/gems
 filtering/fishing
 filtering/ores
 area_based_filtering/_module_definition
+area_based_filtering/chambers_of_xeric
 area_based_filtering/tombs_of_amascut
 area_based_filtering/monsters_tormented_demons
 area_based_filtering/gauntlet
@@ -40,7 +41,6 @@ individual_item_styles/gauntlet
 rdt
 currency
 remains
-chambers_of_xeric
 bossing
 slayer
 ammo
