@@ -1,9 +1,9 @@
 /*@ define:group
 ---
-name: Last Man Standing Filtering
+name: Last Man Standing
 expanded: false
 description: |
-  Last Man Standing Filtering
+  Last Man Standing
   ---
   Provides area-based filtering for the Last Man Standing minigame.
 */
@@ -11,7 +11,7 @@ description: |
 /*@ define:input:area_based_filtering
 type: boolean
 label: Hide starting gear
-group: Last Man Standing Filtering
+group: Last Man Standing
 */
 #define VAR_LAST_MAN_STANDING_STARTER_GEAR_HIDE true
 
@@ -25,7 +25,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:CONST_LAST_MAN_STA
 /*@ define:input:area_based_filtering
 type: number
 label: Hide ammo under this quantity
-group: Last Man Standing Filtering
+group: Last Man Standing
 */
 #define VAR_LAST_MAN_STANDING_AMMO_MIN_QUANTITY 100
 
@@ -39,7 +39,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:CONST_LAST_MAN_STA
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Misc Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "Mithril seeds"
 ]
@@ -55,7 +55,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Weapons Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "Ancient godsword",
   "Armadyl godsword",
@@ -83,7 +83,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Armour Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "Amulet of fury",
   "Amulet of torture",
@@ -124,7 +124,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Weapons Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "Armadyl crossbow",
   "Dark bow",
@@ -147,7 +147,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Armour Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "3rd age range coif",
   "3rd age range legs",
@@ -174,7 +174,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Ammo Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "Atlatl dart",
   "Dragon arrows",
@@ -193,7 +193,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Weapons Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "Blue moon spear",
   "Kodai wand",
@@ -213,7 +213,7 @@ apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STAND
 /*@ define:input:area_based_filtering
 type: enumlist
 label: Armour Hidden Items
-group: Last Man Standing Filtering
+group: Last Man Standing
 enum: [
   "3rd age mage hat",
   "3rd age robe",
