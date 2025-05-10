@@ -4,69 +4,8 @@
 name: Fishing
 subtitle: Filters for fishing equipment and raw fish
 description: |
-  This module provides filters for fishing equipment, fishing bait, and raw fish
+  This module provides filters for fishing equipment, fishing bait, and raw fish and default styles for fishing related item categories.
 */
-
-#define CONST_FISHING_EQUIPMENT_LIST [ \
-  "Small fishing net", \
-  "Big fishing net", \
-  "Drift net", \
-  "Fishing rod", \
-  "Fly fishing rod", \
-  "Oily fishing rod", \
-  "Harpoon", \
-  "Lobster pot", \
-  "Karambwan vessel", \
-]
-#define CONST_FISHING_BAIT_LIST [ \
-  "Sandworms", \
-  "Fishing bait", \
-  "Feather", \
-  "Stripy feather", \
-  "Dark fishing bait", \
-  "King worm", \
-  "Fish chunks", \
-  "Raw karambwanji", \
-]
-#define CONST_FISHING_RAW_FISH_LIST [ \
-  "Raw shrimps", \
-  "Raw anchovies", \
-  "Raw guppy", \
-  "Raw cavefish", \
-  "Raw tetra", \
-  "Frog spawn", \
-  "Raw monkfish", \
-  "Minnow", \
-  "Raw mackerel", \
-  "Raw cod", \
-  "Raw bass", \
-  "Raw catfish", \
-  "Raw sardine", \
-  "Raw herring", \
-  "Raw pike", \
-  "Raw slimy eel", \
-  "Raw cave eel", \
-  "Raw anglerfish", \
-  "Sacred eel", \
-  "Raw trout", \
-  "Raw salmon", \
-  "Raw rainbow fish", \
-  "Raw lava eel", \
-  "Infernal eel", \
-  "Leaping trout", \
-  "Leaping salmon", \
-  "Leaping sturgeon", \
-  "Raw tuna", \
-  "Raw swordfish", \
-  "Raw shark", \
-  "Raw lobster", \
-  "Raw dark crab", \
-  "Bluegill", \
-  "Common tench", \
-  "Mottled eel", \
-  "Greater siren", \
-  "Raw karambwan", \
-]
 
 /*@ define:input:fishing
 type: enumlist
@@ -94,6 +33,10 @@ enum: [
   "Karambwan vessel", \
 ]
 
+apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
+    hidden = true;
+}
+
 /*@ define:input:fishing
 type: enumlist
 label: Fishing bait to force hidden
@@ -116,6 +59,10 @@ enum: [
   "King worm", \
   "Fish chunks", \
 ]
+
+apply (name:VAR_FISHING_BAIT_HIDE) {
+    hidden = true;
+}
 
 /*@ define:input:fishing
 type: enumlist
@@ -187,6 +134,10 @@ enum: [
   "Greater siren", \
 ]
 
+apply (name:VAR_FISHING_RAW_FISH_HIDE) {
+    hidden = true;
+}
+
 /*@ define:input:fishing
 type: style
 label: Fishing equipment custom style
@@ -194,6 +145,10 @@ group: Fishing default styles
 exampleItem: Fishing rod
 */
 #define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
 
 /*@ define:input:fishing
 type: style
@@ -203,6 +158,10 @@ exampleItem: Fishing bait
 */
 #define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
 
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+}
+
 /*@ define:input:fishing
 type: style
 label: Raw fish custom style
@@ -211,22 +170,6 @@ exampleItem: Raw tuna
 */
 #define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 
-apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
-    hidden = true;
-}
-apply (name:VAR_FISHING_BAIT_HIDE) {
-    hidden = true;
-}
-apply (name:VAR_FISHING_RAW_FISH_HIDE) {
-    hidden = true;
-}
-
-apply (name:CONST_FISHING_EQUIPMENT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-}
-apply (name:CONST_FISHING_BAIT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
