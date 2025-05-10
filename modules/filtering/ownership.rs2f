@@ -8,7 +8,7 @@ description: |
 
   *Plugin Settings Change Required: Please disable "Ownership filter" and "Item spawn filter" in the "General" settings section of "Loot Filters" in the Runelite sidebar.*
 
-  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" lis
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
 */
 
 /*@ define:input:filtering
