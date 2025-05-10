@@ -24,6 +24,7 @@ individual_item_styles/raw_fish
 individual_item_styles/fishing_bait
 individual_item_styles/fishing_equipment
 individual_item_styles/currency
+rdt
 currency
 clues
 remains
@@ -47,6 +48,5 @@ food
 metal_equipment
 gauntlet
 last_man_standing
-rdt
 final
 constants
