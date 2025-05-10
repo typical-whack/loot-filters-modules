@@ -1,6 +1,6 @@
-/*@ define:module:ammo
+/*@ define:module:utilities
 ---
-name: Ammo
+name: Utilities
 subtitle: Forgetting your backpack?
 description: |
   Provides utilities based on items on the ground.
