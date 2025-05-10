@@ -5,6 +5,7 @@ on:
     paths:
       - "**/*.rs2f"
       - "module_order"
+      - ".github/workflows/build-and-commit-filters.yaml"
   workflow_dispatch:
 
 jobs:
