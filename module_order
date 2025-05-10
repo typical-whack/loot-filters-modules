@@ -17,6 +17,7 @@ filtering/bars
 filtering/logs
 filtering/farming_seeds
 filtering/herblore_secondaries
+filtering/metal_equipment
 area_based_filtering/_module_definition
 area_based_filtering/chambers_of_xeric
 area_based_filtering/tombs_of_amascut
@@ -53,6 +54,5 @@ currency
 bossing
 slayer
 ammo
-metal_equipment
 final
 constants

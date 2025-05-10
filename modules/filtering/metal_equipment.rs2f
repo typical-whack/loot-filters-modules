@@ -1,15 +1,16 @@
-
-/*@ define:module:metal_equipment
+/*@ define:group
 ---
 name: Metal Equipment
-subtitle: Watch out for lightning
 description: |
-  Provides a metal tier filter and custom styling for metal equipment including trimmed, gold trimmed, gilded, heraldic, and god rune armours.
+  Metal Equipment
+  ---
+  Provides a metal tier filter
 */
 
 /*@ define:input:metal_equipment
 type: enumlist
 label: Metal equipment to force hidden
+group: Metal Equipment
 enum: [
   "Bronze*",
   "Iron*",
