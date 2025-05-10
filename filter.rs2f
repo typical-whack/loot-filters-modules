@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 06:43:17 UTC 2025 */
-/* Commit: 28f243f */
+/* Built on: Sat May 10 06:45:30 UTC 2025 */
+/* Commit: c5deb8b */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -943,31 +943,37 @@ apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Power User
+expanded: false
+*/
+
 /*@ define:input:item_tiers
 type: boolean
 label: Dont let tier 1 items get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
+group: Power User
 */
 #define VAR_VALUES_TIER_1_TERMINATE false
 
 /*@ define:input:item_tiers
 type: boolean
 label: Dont let tier 2 items get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
+group: Power User
 */
 #define VAR_VALUES_TIER_2_TERMINATE false
 
 /*@ define:input:item_tiers
 type: boolean
 label: Dont let tier 3 items get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
+group: Power User
 */
 #define VAR_VALUES_TIER_3_TERMINATE false
 
 /*@ define:input:item_tiers
 type: boolean
 label: Dont let tier 4 items get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
+group: Power User
 */
 #define VAR_VALUES_TIER_4_TERMINATE false
 
