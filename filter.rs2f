@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 06:45:30 UTC 2025 */
-/* Commit: c5deb8b */
+/* Built on: Sat May 10 06:53:05 UTC 2025 */
+/* Commit: cfb42ce */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -361,6 +361,496 @@ apply (name:VAR_CLUE_SCROLLS_HIDE) {
 }
 
 /* TODO: add filtering of specific steps based on item ID */
+/*@ define:group
+---
+name: Gems
+description: |
+  Gems
+  ---
+  This module provides quantity filtering and tier filtering for gems.
+*/
+
+/*@ define:input:gems
+type: enumlist
+label: Gems to force hidden
+group: Gems
+enum: [
+  {
+    "value": "*Sapphire",
+    "label": "Sapphire"
+  },
+  {
+    "value": "*Emerald",
+    "label": "Emerald"
+  },
+  {
+    "value": "*Ruby",
+    "label": "Ruby"
+  },
+  {
+    "value": "*Diamond",
+    "label": "Diamond"
+  },
+  {
+    "value": "*Opal",
+    "label": "Opal"
+  },
+  {
+    "value": "*Jade",
+    "label": "Jade"
+  },
+  {
+    "value": "*Red topaz",
+    "label": "Red topaz"
+  },
+  {
+    "value": "*Dragonstone",
+    "label": "Dragonstone"
+  },
+  {
+    "value": "*Onyx",
+    "label": "Onyx"
+  }
+]
+*/
+#define VAR_GEMS_HIDE []
+
+apply (name:VAR_GEMS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Sapphire minimum quantity
+group: Gems
+*/
+#define VAR_SAPPHIRE_MIN_QUANTITY 0
+
+apply (name:["Uncut sapphire", \
+  "Sapphire", \
+] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Emerald minimum quantity
+group: Gems
+*/
+#define VAR_EMERALD_MIN_QUANTITY 0
+
+apply (name:["Uncut emerald", \
+  "Emerald", \
+] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Ruby minimum quantity
+group: Gems
+*/
+#define VAR_RUBY_MIN_QUANTITY 0
+
+apply (name:["Uncut ruby", \
+  "Ruby", \
+] && quantity:<VAR_RUBY_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Diamond minimum quantity
+group: Gems
+*/
+#define VAR_DIAMOND_MIN_QUANTITY 0
+
+apply (name:["Uncut diamond", \
+  "Diamond", \
+] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Opal minimum quantity
+group: Gems
+*/
+#define VAR_OPAL_MIN_QUANTITY 0
+
+apply (name:["Uncut opal", \
+  "Opal", \
+] && quantity:<VAR_OPAL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Jade minimum quantity
+group: Gems
+*/
+#define VAR_JADE_MIN_QUANTITY 0
+
+apply (name:["Uncut jade", \
+  "Jade", \
+] && quantity:<VAR_JADE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Red topaz minimum quantity
+group: Gems
+*/
+#define VAR_RED_TOPAZ_MIN_QUANTITY 0
+
+apply (name:["Uncut red topaz", \
+  "Red topaz", \
+] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Dragonstone minimum quantity
+group: Gems
+*/
+#define VAR_DRAGONSTONE_MIN_QUANTITY 0
+
+apply (name:["Uncut dragonstone", \
+  "Dragonstone", \
+] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:gems
+type: number
+label: Onyx minimum quantity
+group: Gems
+*/
+#define VAR_ONYX_MIN_QUANTITY 0
+
+apply (name:["Uncut onyx", \
+  "Onyx", \
+] && quantity:<VAR_ONYX_MIN_QUANTITY) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Fishing
+description: |
+  Fishing
+  ---
+  This module provides filters for fishing equipment, fishing bait, and raw fish.
+*/
+
+/*@ define:input:fishing
+type: enumlist
+label: Fishing equipment to force hidden
+group: Fishing
+enum: [
+  "Small fishing net",
+  "Big fishing net",
+  "Drift net",
+  "Fishing rod",
+  "Fly fishing rod",
+  "Oily fishing rod",
+  "Harpoon",
+  "Lobster pot",
+  "Karambwan vessel"
+]
+*/
+#define VAR_FISHING_EQUIPMENT_HIDE [ \
+  "Small fishing net", \
+  "Big fishing net", \
+  "Fishing rod", \
+  "Fly fishing rod", \
+  "Harpoon", \
+  "Lobster pot", \
+  "Karambwan vessel", \
+]
+
+apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:fishing
+type: enumlist
+label: Fishing bait to force hidden
+group: Fishing
+enum: [
+  "Sandworms",
+  "Fishing bait",
+  "Feather",
+  "Stripy feather",
+  "Dark fishing bait",
+  "King worm",
+  "Fish chunks",
+  "Raw karambwanji"
+]
+*/
+#define VAR_FISHING_BAIT_HIDE [ \
+  "Fishing bait", \
+  "Feather", \
+  "Stripy feather", \
+  "King worm", \
+  "Fish chunks", \
+]
+
+apply (name:VAR_FISHING_BAIT_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:fishing
+type: enumlist
+label: Raw fish to force hidden
+group: Fishing
+enum: [
+  "Raw shrimps",
+  "Raw anchovies",
+  "Raw guppy",
+  "Raw cavefish",
+  "Raw tetra",
+  "Frog spawn",
+  "Raw monkfish",
+  "Minnow",
+  "Raw mackerel",
+  "Raw cod",
+  "Raw bass",
+  "Raw catfish",
+  "Raw sardine",
+  "Raw herring",
+  "Raw pike",
+  "Raw slimy eel",
+  "Raw cave eel",
+  "Raw anglerfish",
+  "Sacred eel",
+  "Raw trout",
+  "Raw salmon",
+  "Raw rainbow fish",
+  "Raw lava eel",
+  "Infernal eel",
+  "Leaping trout",
+  "Leaping salmon",
+  "Leaping sturgeon",
+  "Raw tuna",
+  "Raw swordfish",
+  "Raw shark",
+  "Raw lobster",
+  "Raw dark crab",
+  "Bluegill",
+  "Common tench",
+  "Mottled eel",
+  "Greater siren",
+  "Raw karambwan"
+]
+*/
+#define VAR_FISHING_RAW_FISH_HIDE [ \
+  "Raw shrimps", \
+  "Raw anchovies", \
+  "Raw guppy", \
+  "Raw cavefish", \
+  "Raw tetra", \
+  "Frog spawn", \
+  "Raw mackerel", \
+  "Raw cod", \
+  "Raw bass", \
+  "Raw sardine", \
+  "Raw herring", \
+  "Raw pike", \
+  "Raw trout", \
+  "Raw salmon", \
+  "Raw rainbow fish", \
+  "Leaping trout", \
+  "Leaping salmon", \
+  "Leaping sturgeon", \
+  "Raw tuna", \
+  "Bluegill", \
+  "Common tench", \
+  "Mottled eel", \
+  "Greater siren", \
+]
+
+apply (name:VAR_FISHING_RAW_FISH_HIDE) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Ores
+description: |
+  Ores
+  ---
+  This module provides quantity filtering and tier filtering for ores.
+*/
+
+/*@ define:input:ores
+type: enumlist
+label: Ores to force hidden
+group: Ores
+enum: [
+  "Copper ore",
+  "Tin ore",
+  "Iron ore",
+  "Silver ore",
+  "Coal",
+  "Gold ore",
+  "Mithril ore",
+  "Adamantite ore",
+  "Runite ore",
+  "Daeyalt ore",
+  "Blasted ore",
+  "Blurite ore",
+  "Lovakite ore"
+]
+*/
+#define VAR_ORES_HIDE []
+
+apply (name:VAR_ORES_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Copper ore minimum quantity
+group: Ores
+*/
+#define VAR_COPPER_ORE_MIN_QUANTITY 0
+
+apply (name:"copper ore" && quantity:<VAR_COPPER_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Tin ore minimum quantity
+group: Ores
+*/
+#define VAR_TIN_ORE_MIN_QUANTITY 0
+
+apply (name:"tin ore" && quantity:<VAR_TIN_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Iron ore minimum quantity
+group: Ores
+*/
+#define VAR_IRON_ORE_MIN_QUANTITY 0
+
+apply (name:"iron ore" && quantity:<VAR_IRON_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Silver ore minimum quantity
+group: Ores
+*/
+#define VAR_SILVER_ORE_MIN_QUANTITY 0
+
+apply (name:"silver ore" && quantity:<VAR_SILVER_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Coal minimum quantity
+group: Ores
+*/
+#define VAR_COAL_ORE_MIN_QUANTITY 0
+
+apply (name:"coal" && quantity:<VAR_COAL_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Gold ore minimum quantity
+group: Ores
+*/
+#define VAR_GOLD_ORE_MIN_QUANTITY 0
+
+apply (name:"gold ore" && quantity:<VAR_GOLD_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Mithril ore minimum quantity
+group: Ores
+*/
+#define VAR_MITHRIL_ORE_MIN_QUANTITY 0
+
+apply (name:"mithril ore" && quantity:<VAR_MITHRIL_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Adamantite ore minimum quantity
+group: Ores
+*/
+#define VAR_ADAMANTITE_ORE_MIN_QUANTITY 0
+
+apply (name:"adamantite ore" && quantity:<VAR_ADAMANTITE_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Runite ore minimum quantity
+group: Ores
+*/
+#define VAR_RUNITE_ORE_MIN_QUANTITY 0
+
+apply (name:"runite ore" && quantity:<VAR_RUNITE_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Daeyalt ore minimum quantity
+group: Ores
+*/
+#define VAR_DAEYALT_ORE_MIN_QUANTITY 0
+
+apply (name:"daeyalt ore" && quantity:<VAR_DAEYALT_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Blasted ore minimum quantity
+group: Ores
+*/
+#define VAR_BLASTED_ORE_MIN_QUANTITY 0
+
+apply (name:"blasted ore" && quantity:<VAR_BLASTED_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Blurite ore minimum quantity
+group: Ores
+*/
+#define VAR_BLURITE_ORE_MIN_QUANTITY 0
+
+apply (name:"blurite ore" && quantity:<VAR_BLURITE_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:ores
+type: number
+label: Lovakite ore minimum quantity
+group: Ores
+*/
+#define VAR_LOVAKITE_ORE_MIN_QUANTITY 0
+
+apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
+    hidden = true;
+}
 /*@ define:module:area_based_filtering
 ---
 name: Area-Based Filtering
@@ -11488,494 +11978,6 @@ apply (name:"Bark" && quantity:<VAR_BARK_MIN_QUANTITY) {
 }
 
 apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:module:fishing
----
-name: Fishing
-subtitle: Filters for fishing equipment and raw fish
-description: |
-  This module provides filters for fishing equipment, fishing bait, and raw fish and default styles for fishing related item categories.
-*/
-
-/*@ define:input:fishing
-type: enumlist
-label: Fishing equipment to force hidden
-group: Fishing filters
-enum: [
-  "Small fishing net",
-  "Big fishing net",
-  "Drift net",
-  "Fishing rod",
-  "Fly fishing rod",
-  "Oily fishing rod",
-  "Harpoon",
-  "Lobster pot",
-  "Karambwan vessel"
-]
-*/
-#define VAR_FISHING_EQUIPMENT_HIDE [ \
-  "Small fishing net", \
-  "Big fishing net", \
-  "Fishing rod", \
-  "Fly fishing rod", \
-  "Harpoon", \
-  "Lobster pot", \
-  "Karambwan vessel", \
-]
-
-apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:fishing
-type: enumlist
-label: Fishing bait to force hidden
-group: Fishing filters
-enum: [
-  "Sandworms",
-  "Fishing bait",
-  "Feather",
-  "Stripy feather",
-  "Dark fishing bait",
-  "King worm",
-  "Fish chunks",
-  "Raw karambwanji"
-]
-*/
-#define VAR_FISHING_BAIT_HIDE [ \
-  "Fishing bait", \
-  "Feather", \
-  "Stripy feather", \
-  "King worm", \
-  "Fish chunks", \
-]
-
-apply (name:VAR_FISHING_BAIT_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:fishing
-type: enumlist
-label: Raw fish to force hidden
-group: Fishing filters
-enum: [
-  "Raw shrimps",
-  "Raw anchovies",
-  "Raw guppy",
-  "Raw cavefish",
-  "Raw tetra",
-  "Frog spawn",
-  "Raw monkfish",
-  "Minnow",
-  "Raw mackerel",
-  "Raw cod",
-  "Raw bass",
-  "Raw catfish",
-  "Raw sardine",
-  "Raw herring",
-  "Raw pike",
-  "Raw slimy eel",
-  "Raw cave eel",
-  "Raw anglerfish",
-  "Sacred eel",
-  "Raw trout",
-  "Raw salmon",
-  "Raw rainbow fish",
-  "Raw lava eel",
-  "Infernal eel",
-  "Leaping trout",
-  "Leaping salmon",
-  "Leaping sturgeon",
-  "Raw tuna",
-  "Raw swordfish",
-  "Raw shark",
-  "Raw lobster",
-  "Raw dark crab",
-  "Bluegill",
-  "Common tench",
-  "Mottled eel",
-  "Greater siren",
-  "Raw karambwan"
-]
-*/
-#define VAR_FISHING_RAW_FISH_HIDE [ \
-  "Raw shrimps", \
-  "Raw anchovies", \
-  "Raw guppy", \
-  "Raw cavefish", \
-  "Raw tetra", \
-  "Frog spawn", \
-  "Raw mackerel", \
-  "Raw cod", \
-  "Raw bass", \
-  "Raw sardine", \
-  "Raw herring", \
-  "Raw pike", \
-  "Raw trout", \
-  "Raw salmon", \
-  "Raw rainbow fish", \
-  "Leaping trout", \
-  "Leaping salmon", \
-  "Leaping sturgeon", \
-  "Raw tuna", \
-  "Bluegill", \
-  "Common tench", \
-  "Mottled eel", \
-  "Greater siren", \
-]
-
-apply (name:VAR_FISHING_RAW_FISH_HIDE) {
-    hidden = true;
-}
-
-/*@ define:module:ores
----
-name: Ores
-subtitle: The children yearn for the mines
-description: |
-  Quantity thresholds, filters, and custom styling for all ores. By default colors them based on the item color.
-*/
-
-/*@ define:input:ores
-type: enumlist
-label: Ores to force hidden
-enum: [
-  "Copper ore",
-  "Tin ore",
-  "Iron ore",
-  "Silver ore",
-  "Coal",
-  "Gold ore",
-  "Mithril ore",
-  "Adamantite ore",
-  "Runite ore",
-  "Daeyalt ore",
-  "Blasted ore",
-  "Blurite ore",
-  "Lovakite ore"
-]
-*/
-#define VAR_ORES_HIDE []
-
-apply (name:VAR_ORES_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Copper ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_COPPER_ORE_MIN_QUANTITY 0
-
-apply (name:"copper ore" && quantity:<VAR_COPPER_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Tin ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_TIN_ORE_MIN_QUANTITY 0
-
-apply (name:"tin ore" && quantity:<VAR_TIN_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Iron ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_IRON_ORE_MIN_QUANTITY 0
-
-apply (name:"iron ore" && quantity:<VAR_IRON_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Silver ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_SILVER_ORE_MIN_QUANTITY 0
-
-apply (name:"silver ore" && quantity:<VAR_SILVER_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Coal minimum quantity
-group: Ore Filters
-*/
-#define VAR_COAL_ORE_MIN_QUANTITY 0
-
-apply (name:"coal" && quantity:<VAR_COAL_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Gold ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_GOLD_ORE_MIN_QUANTITY 0
-
-apply (name:"gold ore" && quantity:<VAR_GOLD_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Mithril ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_MITHRIL_ORE_MIN_QUANTITY 0
-
-apply (name:"mithril ore" && quantity:<VAR_MITHRIL_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Adamantite ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_ADAMANTITE_ORE_MIN_QUANTITY 0
-
-apply (name:"adamantite ore" && quantity:<VAR_ADAMANTITE_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Runite ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_RUNITE_ORE_MIN_QUANTITY 0
-
-apply (name:"runite ore" && quantity:<VAR_RUNITE_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Daeyalt ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_DAEYALT_ORE_MIN_QUANTITY 0
-
-apply (name:"daeyalt ore" && quantity:<VAR_DAEYALT_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Blasted ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_BLASTED_ORE_MIN_QUANTITY 0
-
-apply (name:"blasted ore" && quantity:<VAR_BLASTED_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Blurite ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_BLURITE_ORE_MIN_QUANTITY 0
-
-apply (name:"blurite ore" && quantity:<VAR_BLURITE_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:ores
-type: number
-label: Lovakite ore minimum quantity
-group: Ore Filters
-*/
-#define VAR_LOVAKITE_ORE_MIN_QUANTITY 0
-
-apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:module:gems
----
-name: Gems
-subtitle: Shilo village provides
-description: |
-  This module provides quantity filtering, tier filtering, and styling for all gem tiers. By default this styles gems to closely match their in-game colors.
-*/
-
-/*@ define:input:gems
-type: enumlist
-label: Gems to force hidden
-enum: [
-  {
-    "value": "*Sapphire",
-    "label": "Sapphire"
-  },
-  {
-    "value": "*Emerald",
-    "label": "Emerald"
-  },
-  {
-    "value": "*Ruby",
-    "label": "Ruby"
-  },
-  {
-    "value": "*Diamond",
-    "label": "Diamond"
-  },
-  {
-    "value": "*Opal",
-    "label": "Opal"
-  },
-  {
-    "value": "*Jade",
-    "label": "Jade"
-  },
-  {
-    "value": "*Red topaz",
-    "label": "Red topaz"
-  },
-  {
-    "value": "*Dragonstone",
-    "label": "Dragonstone"
-  },
-  {
-    "value": "*Onyx",
-    "label": "Onyx"
-  }
-]
-*/
-#define VAR_GEMS_HIDE []
-
-apply (name:VAR_GEMS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Sapphire minimum quantity
-group: Gems Filters
-*/
-#define VAR_SAPPHIRE_MIN_QUANTITY 0
-
-apply (name:["Uncut sapphire", \
-  "Sapphire", \
-] && quantity:<VAR_SAPPHIRE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Emerald minimum quantity
-group: Gems Filters
-*/
-#define VAR_EMERALD_MIN_QUANTITY 0
-
-apply (name:["Uncut emerald", \
-  "Emerald", \
-] && quantity:<VAR_EMERALD_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Ruby minimum quantity
-group: Gems Filters
-*/
-#define VAR_RUBY_MIN_QUANTITY 0
-
-apply (name:["Uncut ruby", \
-  "Ruby", \
-] && quantity:<VAR_RUBY_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Diamond minimum quantity
-group: Gems Filters
-*/
-#define VAR_DIAMOND_MIN_QUANTITY 0
-
-apply (name:["Uncut diamond", \
-  "Diamond", \
-] && quantity:<VAR_DIAMOND_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Opal minimum quantity
-group: Gems Filters
-*/
-#define VAR_OPAL_MIN_QUANTITY 0
-
-apply (name:["Uncut opal", \
-  "Opal", \
-] && quantity:<VAR_OPAL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Jade minimum quantity
-group: Gems Filters
-*/
-#define VAR_JADE_MIN_QUANTITY 0
-
-apply (name:["Uncut jade", \
-  "Jade", \
-] && quantity:<VAR_JADE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Red topaz minimum quantity
-group: Gems Filters
-*/
-#define VAR_RED_TOPAZ_MIN_QUANTITY 0
-
-apply (name:["Uncut red topaz", \
-  "Red topaz", \
-] && quantity:<VAR_RED_TOPAZ_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Dragonstone minimum quantity
-group: Gems Filters
-*/
-#define VAR_DRAGONSTONE_MIN_QUANTITY 0
-
-apply (name:["Uncut dragonstone", \
-  "Dragonstone", \
-] && quantity:<VAR_DRAGONSTONE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-/*@ define:input:gems
-type: number
-label: Onyx minimum quantity
-group: Gems Filters
-*/
-#define VAR_ONYX_MIN_QUANTITY 0
-
-apply (name:["Uncut onyx", \
-  "Onyx", \
-] && quantity:<VAR_ONYX_MIN_QUANTITY) {
     hidden = true;
 }
 /*@ define:module:bars
