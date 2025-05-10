@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 07:11:04 UTC 2025 */
-/* Commit: 86100d7 */
+/* Built on: Sat May 10 07:23:35 UTC 2025 */
+/* Commit: e8f2057 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -704,6 +704,366 @@ apply (name:["Uncut onyx", \
 }
 /*@ define:group
 ---
+name: Runes
+description: |
+  Runes
+  ---
+  Quantity thresholds filters for runes.
+*/
+
+/*@ define:input:runes
+type: enumlist
+label: Runes to force hidden
+group: Runes
+enum: [
+  "Air rune",
+  "Mind rune",
+  "Water rune",
+  "Earth rune",
+  "Fire rune",
+  "Body rune",
+  "Cosmic rune",
+  "Chaos rune",
+  "Nature rune",
+  "Law rune",
+  "Death rune",
+  "Sunfire rune",
+  "Astral rune",
+  "Blood rune",
+  "Soul rune",
+  "Wrath rune",
+  "Mist rune",
+  "Dust rune",
+  "Mud rune",
+  "Smoke rune",
+  "Steam rune",
+  "Lava rune"
+]
+*/
+#define VAR_RUNES_HIDE []
+
+/*@ define:input:runes
+type: boolean
+label: Force runes to be shown if they're above min quantity
+group: Runes
+*/
+#define VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY false
+
+/*@ define:input:runes
+type: number
+label: Air rune minimum quantity
+group: Runes
+*/
+#define VAR_AIR_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Water rune minimum quantity
+group: Runes
+*/
+#define VAR_WATER_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Earth rune minimum quantity
+group: Runes
+*/
+#define VAR_EARTH_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Fire rune minimum quantity
+group: Runes
+*/
+#define VAR_FIRE_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Mind rune minimum quantity
+group: Runes
+*/
+#define VAR_MIND_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Body rune minimum quantity
+group: Runes
+*/
+#define VAR_BODY_RUNE_MIN_QUANTITY 500
+
+/*@ define:input:runes
+type: number
+label: Cosmic rune minimum quantity
+group: Runes
+*/
+#define VAR_COSMIC_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Chaos rune minimum quantity
+group: Runes
+*/
+#define VAR_CHAOS_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Nature rune minimum quantity
+group: Runes
+*/
+#define VAR_NATURE_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Law rune minimum quantity
+group: Runes
+*/
+#define VAR_LAW_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Death rune minimum quantity
+group: Runes
+*/
+#define VAR_DEATH_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Sunfire rune minimum quantity
+group: Runes
+*/
+#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Astral rune minimum quantity
+group: Runes
+*/
+#define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Blood rune minimum quantity
+group: Runes
+*/
+#define VAR_BLOOD_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Soul rune minimum quantity
+group: Runes
+*/
+#define VAR_SOUL_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Wrath rune minimum quantity
+group: Runes
+*/
+#define VAR_WRATH_RUNE_MIN_QUANTITY 10
+
+/*@ define:input:runes
+type: number
+label: Mist rune minimum quantity
+group: Runes
+*/
+#define VAR_MIST_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Dust rune minimum quantity
+group: Runes
+*/
+#define VAR_DUST_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Mud rune minimum quantity
+group: Runes
+*/
+#define VAR_MUD_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Smoke rune minimum quantity
+group: Runes
+*/
+#define VAR_SMOKE_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Steam rune minimum quantity
+group: Runes
+*/
+#define VAR_STEAM_RUNE_MIN_QUANTITY 50
+
+/*@ define:input:runes
+type: number
+label: Lava rune minimum quantity
+group: Runes
+*/
+#define VAR_LAVA_RUNE_MIN_QUANTITY 50
+
+apply (name:VAR_RUNES_HIDE) {
+    hidden = true;
+}
+
+apply (name:"Air rune" && quantity:<VAR_AIR_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Mind rune" && quantity:<VAR_MIND_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Water rune" && quantity:<VAR_WATER_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Earth rune" && quantity:<VAR_EARTH_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Fire rune" && quantity:<VAR_FIRE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Body rune" && quantity:<VAR_BODY_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Cosmic rune" && quantity:<VAR_COSMIC_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Chaos rune" && quantity:<VAR_CHAOS_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Nature rune" && quantity:<VAR_NATURE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Law rune" && quantity:<VAR_LAW_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Death rune" && quantity:<VAR_DEATH_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Sunfire rune" && quantity:<VAR_SUNFIRE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Astral rune" && quantity:<VAR_ASTRAL_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Blood rune" && quantity:<VAR_BLOOD_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Soul rune" && quantity:<VAR_SOUL_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Wrath rune" && quantity:<VAR_WRATH_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Mist rune" && quantity:<VAR_MIST_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Dust rune" && quantity:<VAR_DUST_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Mud rune" && quantity:<VAR_MUD_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Smoke rune" && quantity:<VAR_SMOKE_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Steam rune" && quantity:<VAR_STEAM_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+
+apply (name:"Air rune" && quantity:>=VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Mind rune" && quantity:>=VAR_MIND_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Water rune" && quantity:>=VAR_WATER_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Earth rune" && quantity:>=VAR_EARTH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Fire rune" && quantity:>=VAR_FIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Body rune" && quantity:>=VAR_BODY_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Cosmic rune" && quantity:>=VAR_COSMIC_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Chaos rune" && quantity:>=VAR_CHAOS_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Nature rune" && quantity:>=VAR_NATURE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Law rune" && quantity:>=VAR_LAW_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Death rune" && quantity:>=VAR_DEATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Sunfire rune" && quantity:>=VAR_SUNFIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Astral rune" && quantity:>=VAR_ASTRAL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Blood rune" && quantity:>=VAR_BLOOD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Soul rune" && quantity:>=VAR_SOUL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Wrath rune" && quantity:>=VAR_WRATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Mist rune" && quantity:>=VAR_MIST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Dust rune" && quantity:>=VAR_DUST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Mud rune" && quantity:>=VAR_MUD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Smoke rune" && quantity:>=VAR_SMOKE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Steam rune" && quantity:>=VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+/*@ define:group
+---
 name: Fishing
 description: |
   Fishing
@@ -1017,6 +1377,787 @@ group: Ores
 
 apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
     hidden = true;
+}
+/*@ define:group
+---
+name: Logs
+description: |
+  Logs
+  ---
+  Provides quantity filters and log type filters.
+*/
+
+/*@ define:input:logs
+type: enumlist
+label: Logs to force hidden
+group: Logs
+enum: [
+  "Logs",
+  "Oak logs",
+  "Willow logs",
+  "Maple logs",
+  "Yew logs",
+  "Magic logs",
+  "Redwood logs",
+  "Teak logs",
+  "Mahogany logs",
+  "Achey tree logs",
+  "Arctic pine logs",
+  "Scrapey tree logs",
+  "Juniper logs",
+  "Bark",
+  "Blisterwood logs"
+]
+*/
+#define VAR_LOGS_HIDE []
+
+/*@ define:input:logs
+type: number
+label: Logs minimum quantity
+group: Logs
+*/
+#define VAR_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Oak logs minimum quantity
+group: Logs
+*/
+#define VAR_OAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Willow logs minimum quantity
+group: Logs
+*/
+#define VAR_WILLOW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Maple logs minimum quantity
+group: Logs
+*/
+#define VAR_MAPLE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Yew logs minimum quantity
+group: Logs
+*/
+#define VAR_YEW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Magic logs minimum quantity
+group: Logs
+*/
+#define VAR_MAGIC_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Redwood logs minimum quantity
+group: Logs
+*/
+#define VAR_REDWOOD_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Teak logs minimum quantity
+group: Logs
+*/
+#define VAR_TEAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Mahogany logs minimum quantity
+group: Logs
+*/
+#define VAR_MAHOGANY_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Achey tree logs minimum quantity
+group: Logs
+*/
+#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Arctic pine logs minimum quantity
+group: Logs
+*/
+#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Scrapey tree logs minimum quantity
+group: Logs
+*/
+#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Juniper logs minimum quantity
+group: Logs
+*/
+#define VAR_JUNIPER_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Bark minimum quantity
+group: Logs
+*/
+#define VAR_BARK_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Blisterwood logs minimum quantity
+group: Logs
+*/
+#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY 0
+
+apply (name:VAR_LOGS_HIDE) {
+    hidden = true;
+}
+
+apply (name:"Logs" && quantity:<VAR_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Oak logs" && quantity:<VAR_OAK_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Willow logs" && quantity:<VAR_WILLOW_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Maple logs" && quantity:<VAR_MAPLE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Yew logs" && quantity:<VAR_YEW_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Magic logs" && quantity:<VAR_MAGIC_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Redwood logs" && quantity:<VAR_REDWOOD_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Teak logs" && quantity:<VAR_TEAK_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Mahogany logs" && quantity:<VAR_MAHOGANY_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Achey tree logs" && quantity:<VAR_ACHEY_TREE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Arctic pine logs" && quantity:<VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Scrapey tree logs" && quantity:<VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Juniper logs" && quantity:<VAR_JUNIPER_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Bark" && quantity:<VAR_BARK_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Farming seeds
+description: |
+  Farming seeds
+  ---
+  Provides specific seed filters and value threshold for filtering out seeds from being shown. The default is to hide lower tier seeds.
+*/
+
+/*@ define:input:farming_seeds
+type: number
+label: Hide seeds below this value
+group: Farming seeds
+*/
+#define VAR_FARMING_SEEDS_MINIMUM_VALUE 0
+
+apply ((name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) && value:<VAR_FARMING_SEEDS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Allotment seeds to force hidden
+group: Farming seeds
+enum: [
+  "Potato seed",
+  "Onion seed",
+  "Cabbage seed",
+  "Tomato seed",
+  "Sweetcorn seed",
+  "Strawberry seed",
+  "Watermelon seed",
+  "Snape grass seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE [ \
+  "Potato seed", \
+  "Onion seed", \
+  "Cabbage seed", \
+  "Tomato seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_ALLOTMENT_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Flower seeds to force hidden
+group: Farming seeds
+enum: [
+  "Marigold seed",
+  "Rosemary seed",
+  "Nasturtium seed",
+  "Woad seed",
+  "Limpwurt seed",
+  "White lily seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FLOWER_HIDE [ \
+  "Marigold seed", \
+  "Rosemary seed", \
+  "Nasturtium seed", \
+  "Woad seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_FLOWER_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Herb seeds to force hidden
+group: Farming seeds
+enum: [
+  "Guam seed",
+  "Marrentill seed",
+  "Tarromin seed",
+  "Harralander seed",
+  "Ranarr seed",
+  "Toadflax seed",
+  "Irit seed",
+  "Avantoe seed",
+  "Kwuarm seed",
+  "Snapdragon seed",
+  "Huasca seed",
+  "Cadantine seed",
+  "Lantadyme seed",
+  "Dwarf weed seed",
+  "Torstol seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HERB_HIDE [ \
+  "Guam seed", \
+  "Marrentill seed", \
+  "Tarromin seed", \
+  "Harralander seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_HERB_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Hops seeds to force hidden
+group: Farming seeds
+enum: [
+  "Barley seed",
+  "Hammerstone seed",
+  "Asgarnian seed",
+  "Jute seed",
+  "Yanillian seed",
+  "Krandorian seed",
+  "Wildblood seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HOPS_HIDE [ \
+  "Barley seed", \
+  "Hammerstone seed", \
+  "Asgarnian seed", \
+  "Jute seed", \
+  "Yanillian seed", \
+  "Krandorian seed", \
+  "Wildblood seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_HOPS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Bush seeds to force hidden
+group: Farming seeds
+enum: [
+  "Redberry seed",
+  "Cadavaberry seed",
+  "Dwellberry seed",
+  "Jangerberry seed",
+  "Whiteberry seed",
+  "Poison ivy seed"
+]
+*/
+#define VAR_FARMING_SEEDS_BUSH_HIDE [ \
+  "Redberry seed", \
+  "Cadavaberry seed", \
+  "Dwellberry seed", \
+  "Jangerberry seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_BUSH_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Tree seeds to force hidden
+group: Farming seeds
+enum: [
+  "Acorn",
+  "Willow seed",
+  "Maple seed",
+  "Yew seed",
+  "Magic seed"
+]
+*/
+#define VAR_FARMING_SEEDS_TREE_HIDE [ \
+  "Acorn", \
+  "Willow seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_TREE_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force hidden
+group: Farming seeds
+enum: [
+  "Apple seed",
+  "Banana seed",
+  "Orange seed",
+  "Curry seed",
+  "Pineapple seed",
+  "Papaya seed",
+  "Palm tree seed",
+  "Dragonfruit seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE [ \
+  "Apple seed", \
+  "Banana seed", \
+  "Orange seed", \
+  "Curry seed", \
+  "Pineapple seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force hidden
+group: Farming seeds
+enum: [
+  "Teak seed",
+  "Mahogany seed",
+  "Calquat tree seed",
+  "Crystal acorn",
+  "Spirit seed",
+  "Celastrus seed",
+  "Redwood tree seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE [ \
+  "Teak seed", \
+  "Mahogany seed", \
+  "Calquat tree seed", \
+]
+
+apply (name:VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Special seeds to force hidden
+group: Farming seeds
+enum: [
+  "Seaweed spore",
+  "Grape seed",
+  "Mushroom spore",
+  "Belladonna seed",
+  "Hespori seed",
+  "Cactus seed",
+  "Potato cactus seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_HIDE []
+
+apply (name:VAR_FARMING_SEEDS_SPECIAL_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Anima seeds to force hidden
+group: Farming seeds
+enum: [
+  "Kronos seed",
+  "Iasor seed",
+  "Attas seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ANIMA_HIDE []
+
+apply (name:VAR_FARMING_SEEDS_ANIMA_HIDE) {
+    hidden = true;
+}
+
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Allotment seeds to force shown
+group: Seeds to Show
+enum: [
+  "Potato seed",
+  "Onion seed",
+  "Cabbage seed",
+  "Tomato seed",
+  "Sweetcorn seed",
+  "Strawberry seed",
+  "Watermelon seed",
+  "Snape grass seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ALLOTMENT_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_ALLOTMENT_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Flower seeds to force shown
+group: Seeds to Show
+enum: [
+  "Marigold seed",
+  "Rosemary seed",
+  "Nasturtium seed",
+  "Woad seed",
+  "Limpwurt seed",
+  "White lily seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FLOWER_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_FLOWER_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Herb seeds to force shown
+group: Seeds to Show
+enum: [
+  "Guam seed",
+  "Marrentill seed",
+  "Tarromin seed",
+  "Harralander seed",
+  "Ranarr seed",
+  "Toadflax seed",
+  "Irit seed",
+  "Avantoe seed",
+  "Kwuarm seed",
+  "Snapdragon seed",
+  "Huasca seed",
+  "Cadantine seed",
+  "Lantadyme seed",
+  "Dwarf weed seed",
+  "Torstol seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HERB_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_HERB_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Hops seeds to force shown
+group: Seeds to Show
+enum: [
+  "Barley seed",
+  "Hammerstone seed",
+  "Asgarnian seed",
+  "Jute seed",
+  "Yanillian seed",
+  "Krandorian seed",
+  "Wildblood seed"
+]
+*/
+#define VAR_FARMING_SEEDS_HOPS_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_HOPS_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Bush seeds to force shown
+group: Seeds to Show
+enum: [
+  "Redberry seed",
+  "Cadavaberry seed",
+  "Dwellberry seed",
+  "Jangerberry seed",
+  "Whiteberry seed",
+  "Poison ivy seed"
+]
+*/
+#define VAR_FARMING_SEEDS_BUSH_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_BUSH_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Tree seeds to force shown
+group: Seeds to Show
+enum: [
+  "Acorn",
+  "Willow seed",
+  "Maple seed",
+  "Yew seed",
+  "Magic seed"
+]
+*/
+#define VAR_FARMING_SEEDS_TREE_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_TREE_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force shown
+group: Seeds to Show
+enum: [
+  "Apple seed",
+  "Banana seed",
+  "Orange seed",
+  "Curry seed",
+  "Pineapple seed",
+  "Papaya seed",
+  "Palm tree seed",
+  "Dragonfruit seed"
+]
+*/
+#define VAR_FARMING_SEEDS_FRUIT_TREE_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Fruit tree seeds to force shown
+group: Seeds to Show
+enum: [
+  "Teak seed",
+  "Mahogany seed",
+  "Calquat tree seed",
+  "Crystal acorn",
+  "Spirit seed",
+  "Celastrus seed",
+  "Redwood tree seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_TREE_SHOW [ \
+]
+
+apply (name:VAR_FARMING_SEEDS_SPECIAL_TREE_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Special seeds to force shown
+group: Seeds to Show
+enum: [
+  "Seaweed spore",
+  "Grape seed",
+  "Mushroom spore",
+  "Belladonna seed",
+  "Hespori seed",
+  "Cactus seed",
+  "Potato cactus seed"
+]
+*/
+#define VAR_FARMING_SEEDS_SPECIAL_SHOW [\
+]
+
+apply (name:VAR_FARMING_SEEDS_SPECIAL_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:farming_seeds
+type: enumlist
+label: Anima seeds to force shown
+group: Seeds to Show
+enum: [
+  "Kronos seed",
+  "Iasor seed",
+  "Attas seed"
+]
+*/
+#define VAR_FARMING_SEEDS_ANIMA_SHOW [\
+]
+
+apply (name:VAR_FARMING_SEEDS_ANIMA_SHOW) {
+    hidden = false;
+}
+/*@ define:group
+---
+name: Herblore secondaries
+description: |
+  Herblore secondaries
+  ---
+  Provides some basic filtering for herblore secondaries.
+*/
+
+/*@ define:input:herblore_secondaries
+type: enumlist
+label: Secondaries to force hidden
+group: Herblore secondaries
+enum: [
+  "Eye of newt",
+  "Unicorn horn dust",
+  "Limpwurt root",
+  "Volcanic ash",
+  "Red spiders' eggs",
+  "Chocolate dust",
+  "White berries",
+  "Toad's legs",
+  "Goat horn dust",
+  "Snape grass",
+  "Mort myre fungus",
+  "Kebbit teeth dust",
+  "Dragon scale dust",
+  "Nail beast nails",
+  "Yew roots",
+  "Wine of zamorak",
+  "Potato cactus",
+  "Jangerberries",
+  "Magic roots",
+  "Crushed nest",
+  "Poison ivy berries",
+  "Nihil dust",
+  "Lily of the sands",
+  "Aldarium",
+  "Araxyte venom sack"
+]
+*/
+#define VAR_SECONDARIES_HIDE [ \
+  "Eye of newt", \
+  "Volcanic ash", \
+  "Chocolate dust", \
+]
+
+/*@ define:input:herblore_secondaries
+type: enumlist
+label: Secondaries to force shown
+group: Herblore secondaries
+enum: [
+  "Eye of newt",
+  "Unicorn horn dust",
+  "Limpwurt root",
+  "Volcanic ash",
+  "Red spiders' eggs",
+  "Chocolate dust",
+  "White berries",
+  "Toad's legs",
+  "Goat horn dust",
+  "Snape grass",
+  "Mort myre fungus",
+  "Kebbit teeth dust",
+  "Dragon scale dust",
+  "Nail beast nails",
+  "Yew roots",
+  "Wine of zamorak",
+  "Potato cactus",
+  "Jangerberries",
+  "Magic roots",
+  "Crushed nest",
+  "Poison ivy berries",
+  "Nihil dust",
+  "Lily of the sands",
+  "Aldarium",
+  "Araxyte venom sack"
+]
+*/
+#define VAR_SECONDARIES_SHOW [ \
+  "Crushed nest", \
+  "Nihil dust", \
+  "Lily of the sands", \
+  "Aldarium", \
+  "Araxyte venom sack" \
+]
+
+/*@ define:input:herblore_secondaries
+type: number
+label: Minimum value to display secondaries at
+group: Herblore secondaries
+*/
+#define VAR_SECONDARIES_MINIMUM_VALUE 0
+
+apply (name:CONST_SECONDARIES_LIST && value:<VAR_SECONDARIES_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+apply (name:VAR_SECONDARIES_HIDE) {
+    hidden = true;
+}
+
+apply (name:VAR_SECONDARIES_SHOW) {
+    hidden = false;
 }
 /*@ define:module:area_based_filtering
 ---
@@ -9130,6 +10271,44 @@ apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
     hidden=true;
 }
 
+/*@ define:module:ammo
+---
+name: Ammo
+subtitle: Forgetting your backpack?
+description: |
+  Provides utilities based on items on the ground.
+  
+  Currently only provides a sound backpack reminder.
+*/
+
+/*@ define:group
+---
+name: Backpack reminder sound
+description: |
+  Backpack reminder sound
+  ---
+    This plays a sound reminder when a single piece of ammo falls on the ground.
+
+    Defaults to "ping" (933) but can be changed to any sound ID.
+*/
+
+/*@ define:input:utilities
+type: boolean
+label: Enable backpack reminder sound
+group: Backpack reminder sound
+*/
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND false
+
+/*@ define:input:utilities
+type: number
+label: Backpack reminder sound ID
+group: Backpack reminder sound
+*/
+#define VAR_AMMO_BACKPACK_REMINDER_SOUND_ID 933
+
+apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
+    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
+}
 
 /*@ define:module:currency
 ---
@@ -11309,608 +12488,6 @@ group: Special Arrows
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE || value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE)) {
     hidden = true;
 }
-
-/* --- Utilities --- */
-
-/*@ define:input:ammo
-type: boolean
-label: Backpack reminder sound
-group: Utilities
-*/
-#define VAR_AMMO_BACKPACK_REMINDER_SOUND false
-
-/*@ define:input:ammo
-type: number
-label: Backpack reminder sound ID (defaults to "ping")
-group: Utilities
-*/
-#define VAR_AMMO_BACKPACK_REMINDER_SOUND_ID 933
-
-apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
-    sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
-}
-/*@ define:module:runes
----
-name: Runes
-subtitle: The magic things, not the armor
-description: |
-  Quantity thresholds, filters, and custom styling for runes.
-*/
-
-#define CONST_RUNE_NAMES [ \
-  "Air rune", \
-  "Mind rune", \
-  "Water rune", \
-  "Earth rune", \
-  "Fire rune", \
-  "Body rune", \
-  "Cosmic rune", \
-  "Chaos rune", \
-  "Nature rune", \
-  "Law rune", \
-  "Death rune", \
-  "Sunfire rune", \
-  "Astral rune", \
-  "Blood rune", \
-  "Soul rune", \
-  "Wrath rune", \
-  "Mist rune", \
-  "Dust rune", \
-  "Mud rune", \
-  "Smoke rune", \
-  "Steam rune", \
-  "Lava rune", \
-]
-
-/*@ define:input:runes
-type: enumlist
-label: Runes to force hidden
-enum: [
-  "Air rune",
-  "Mind rune",
-  "Water rune",
-  "Earth rune",
-  "Fire rune",
-  "Body rune",
-  "Cosmic rune",
-  "Chaos rune",
-  "Nature rune",
-  "Law rune",
-  "Death rune",
-  "Sunfire rune",
-  "Astral rune",
-  "Blood rune",
-  "Soul rune",
-  "Wrath rune",
-  "Mist rune",
-  "Dust rune",
-  "Mud rune",
-  "Smoke rune",
-  "Steam rune",
-  "Lava rune"
-]
-*/
-#define VAR_RUNES_HIDE []
-
-/*@ define:input:runes
-type: boolean
-label: Force runes to be shown if they're above min quantity
-*/
-#define VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY false
-
-/*@ define:input:runes
-type: number
-label: Air rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_AIR_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Water rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_WATER_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Earth rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_EARTH_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Fire rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_FIRE_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Mind rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_MIND_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Body rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_BODY_RUNE_MIN_QUANTITY 500
-
-/*@ define:input:runes
-type: number
-label: Cosmic rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_COSMIC_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Chaos rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_CHAOS_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Nature rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_NATURE_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Law rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_LAW_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Death rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_DEATH_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Sunfire rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Astral rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Blood rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_BLOOD_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Soul rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_SOUL_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Wrath rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_WRATH_RUNE_MIN_QUANTITY 10
-
-/*@ define:input:runes
-type: number
-label: Mist rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_MIST_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Dust rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_DUST_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Mud rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_MUD_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Smoke rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_SMOKE_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Steam rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_STEAM_RUNE_MIN_QUANTITY 50
-
-/*@ define:input:runes
-type: number
-label: Lava rune minimum quantity
-group: Runes Filtering
-*/
-#define VAR_LAVA_RUNE_MIN_QUANTITY 50
-
-apply (name:VAR_RUNES_HIDE) {
-    hidden = true;
-}
-
-apply (name:"Air rune" && quantity:<VAR_AIR_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Mind rune" && quantity:<VAR_MIND_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Water rune" && quantity:<VAR_WATER_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Earth rune" && quantity:<VAR_EARTH_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Fire rune" && quantity:<VAR_FIRE_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Body rune" && quantity:<VAR_BODY_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Cosmic rune" && quantity:<VAR_COSMIC_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Chaos rune" && quantity:<VAR_CHAOS_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Nature rune" && quantity:<VAR_NATURE_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Law rune" && quantity:<VAR_LAW_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Death rune" && quantity:<VAR_DEATH_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Sunfire rune" && quantity:<VAR_SUNFIRE_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Astral rune" && quantity:<VAR_ASTRAL_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Blood rune" && quantity:<VAR_BLOOD_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Soul rune" && quantity:<VAR_SOUL_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Wrath rune" && quantity:<VAR_WRATH_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Mist rune" && quantity:<VAR_MIST_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Dust rune" && quantity:<VAR_DUST_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Mud rune" && quantity:<VAR_MUD_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Smoke rune" && quantity:<VAR_SMOKE_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Steam rune" && quantity:<VAR_STEAM_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
-    hidden = true;
-}
-
-
-apply (name:"Air rune" && quantity:>=VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Mind rune" && quantity:>=VAR_MIND_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Water rune" && quantity:>=VAR_WATER_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Earth rune" && quantity:>=VAR_EARTH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Fire rune" && quantity:>=VAR_FIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Body rune" && quantity:>=VAR_BODY_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Cosmic rune" && quantity:>=VAR_COSMIC_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Chaos rune" && quantity:>=VAR_CHAOS_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Nature rune" && quantity:>=VAR_NATURE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Law rune" && quantity:>=VAR_LAW_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Death rune" && quantity:>=VAR_DEATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Sunfire rune" && quantity:>=VAR_SUNFIRE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Astral rune" && quantity:>=VAR_ASTRAL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Blood rune" && quantity:>=VAR_BLOOD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Soul rune" && quantity:>=VAR_SOUL_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Wrath rune" && quantity:>=VAR_WRATH_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Mist rune" && quantity:>=VAR_MIST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Dust rune" && quantity:>=VAR_DUST_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Mud rune" && quantity:>=VAR_MUD_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Smoke rune" && quantity:>=VAR_SMOKE_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Steam rune" && quantity:>=VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
-  hidden = false;
-}
-
-/*@ define:module:logs
----
-name: Logs
-subtitle: Chop chop!
-description: |
-  Provides quantity filters and log type filters.
-*/
-
-/*@ define:input:logs
-type: enumlist
-label: Logs to force hidden
-enum: [
-  "Logs",
-  "Oak logs",
-  "Willow logs",
-  "Maple logs",
-  "Yew logs",
-  "Magic logs",
-  "Redwood logs",
-  "Teak logs",
-  "Mahogany logs",
-  "Achey tree logs",
-  "Arctic pine logs",
-  "Scrapey tree logs",
-  "Juniper logs",
-  "Bark",
-  "Blisterwood logs"
-]
-*/
-#define VAR_LOGS_HIDE []
-
-/*@ define:input:logs
-type: number
-label: Logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Oak logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_OAK_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Willow logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_WILLOW_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Maple logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_MAPLE_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Yew logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_YEW_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Magic logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_MAGIC_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Redwood logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_REDWOOD_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Teak logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_TEAK_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Mahogany logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_MAHOGANY_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Achey tree logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Arctic pine logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Scrapey tree logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Juniper logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_JUNIPER_LOGS_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Bark minimum quantity
-group: Logs Filters
-*/
-#define VAR_BARK_MIN_QUANTITY 0
-
-/*@ define:input:logs
-type: number
-label: Blisterwood logs minimum quantity
-group: Logs Filters
-*/
-#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY 0
-
-apply (name:VAR_LOGS_HIDE) {
-    hidden = true;
-}
-
-apply (name:"Logs" && quantity:<VAR_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Oak logs" && quantity:<VAR_OAK_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Willow logs" && quantity:<VAR_WILLOW_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Maple logs" && quantity:<VAR_MAPLE_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Yew logs" && quantity:<VAR_YEW_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Magic logs" && quantity:<VAR_MAGIC_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Redwood logs" && quantity:<VAR_REDWOOD_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Teak logs" && quantity:<VAR_TEAK_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Mahogany logs" && quantity:<VAR_MAHOGANY_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Achey tree logs" && quantity:<VAR_ACHEY_TREE_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Arctic pine logs" && quantity:<VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Scrapey tree logs" && quantity:<VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Juniper logs" && quantity:<VAR_JUNIPER_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Bark" && quantity:<VAR_BARK_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
-    hidden = true;
-}
 /*@ define:module:bars
 ---
 name: Bars
@@ -12614,609 +13191,6 @@ group: Noted Herb Quantity Filtering
 
 apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
     hidden = true;
-}
-
-/*@ define:module:farming_seeds
----
-name: Farming seeds
-subtitle: The stuff from the master farmers' pockets
-description: |
-  Provides specific seed filters and value threshold for filtering out seeds from being shown. The default is to hide lower tier seeds.
-*/
-
-/*@ define:input:farming_seeds
-type: number
-label: Hide seeds below this value
-*/
-#define VAR_FARMING_SEEDS_MINIMUM_VALUE 0
-
-apply ((name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) && value:<VAR_FARMING_SEEDS_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Allotment seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Potato seed",
-  "Onion seed",
-  "Cabbage seed",
-  "Tomato seed",
-  "Sweetcorn seed",
-  "Strawberry seed",
-  "Watermelon seed",
-  "Snape grass seed"
-]
-*/
-#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE [ \
-  "Potato seed", \
-  "Onion seed", \
-  "Cabbage seed", \
-  "Tomato seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_ALLOTMENT_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Flower seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Marigold seed",
-  "Rosemary seed",
-  "Nasturtium seed",
-  "Woad seed",
-  "Limpwurt seed",
-  "White lily seed"
-]
-*/
-#define VAR_FARMING_SEEDS_FLOWER_HIDE [ \
-  "Marigold seed", \
-  "Rosemary seed", \
-  "Nasturtium seed", \
-  "Woad seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_FLOWER_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Herb seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Guam seed",
-  "Marrentill seed",
-  "Tarromin seed",
-  "Harralander seed",
-  "Ranarr seed",
-  "Toadflax seed",
-  "Irit seed",
-  "Avantoe seed",
-  "Kwuarm seed",
-  "Snapdragon seed",
-  "Huasca seed",
-  "Cadantine seed",
-  "Lantadyme seed",
-  "Dwarf weed seed",
-  "Torstol seed"
-]
-*/
-#define VAR_FARMING_SEEDS_HERB_HIDE [ \
-  "Guam seed", \
-  "Marrentill seed", \
-  "Tarromin seed", \
-  "Harralander seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_HERB_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Hops seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Barley seed",
-  "Hammerstone seed",
-  "Asgarnian seed",
-  "Jute seed",
-  "Yanillian seed",
-  "Krandorian seed",
-  "Wildblood seed"
-]
-*/
-#define VAR_FARMING_SEEDS_HOPS_HIDE [ \
-  "Barley seed", \
-  "Hammerstone seed", \
-  "Asgarnian seed", \
-  "Jute seed", \
-  "Yanillian seed", \
-  "Krandorian seed", \
-  "Wildblood seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_HOPS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Bush seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Redberry seed",
-  "Cadavaberry seed",
-  "Dwellberry seed",
-  "Jangerberry seed",
-  "Whiteberry seed",
-  "Poison ivy seed"
-]
-*/
-#define VAR_FARMING_SEEDS_BUSH_HIDE [ \
-  "Redberry seed", \
-  "Cadavaberry seed", \
-  "Dwellberry seed", \
-  "Jangerberry seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_BUSH_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Tree seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Acorn",
-  "Willow seed",
-  "Maple seed",
-  "Yew seed",
-  "Magic seed"
-]
-*/
-#define VAR_FARMING_SEEDS_TREE_HIDE [ \
-  "Acorn", \
-  "Willow seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_TREE_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Fruit tree seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Apple seed",
-  "Banana seed",
-  "Orange seed",
-  "Curry seed",
-  "Pineapple seed",
-  "Papaya seed",
-  "Palm tree seed",
-  "Dragonfruit seed"
-]
-*/
-#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE [ \
-  "Apple seed", \
-  "Banana seed", \
-  "Orange seed", \
-  "Curry seed", \
-  "Pineapple seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Fruit tree seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Teak seed",
-  "Mahogany seed",
-  "Calquat tree seed",
-  "Crystal acorn",
-  "Spirit seed",
-  "Celastrus seed",
-  "Redwood tree seed"
-]
-*/
-#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE [ \
-  "Teak seed", \
-  "Mahogany seed", \
-  "Calquat tree seed", \
-]
-
-apply (name:VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Special seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Seaweed spore",
-  "Grape seed",
-  "Mushroom spore",
-  "Belladonna seed",
-  "Hespori seed",
-  "Cactus seed",
-  "Potato cactus seed"
-]
-*/
-#define VAR_FARMING_SEEDS_SPECIAL_HIDE []
-
-apply (name:VAR_FARMING_SEEDS_SPECIAL_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Anima seeds to force hidden
-group: Seeds to hide
-enum: [
-  "Kronos seed",
-  "Iasor seed",
-  "Attas seed"
-]
-*/
-#define VAR_FARMING_SEEDS_ANIMA_HIDE []
-
-apply (name:VAR_FARMING_SEEDS_ANIMA_HIDE) {
-    hidden = true;
-}
-
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Allotment seeds to force shown
-group: Seeds to Show
-enum: [
-  "Potato seed",
-  "Onion seed",
-  "Cabbage seed",
-  "Tomato seed",
-  "Sweetcorn seed",
-  "Strawberry seed",
-  "Watermelon seed",
-  "Snape grass seed"
-]
-*/
-#define VAR_FARMING_SEEDS_ALLOTMENT_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_ALLOTMENT_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Flower seeds to force shown
-group: Seeds to Show
-enum: [
-  "Marigold seed",
-  "Rosemary seed",
-  "Nasturtium seed",
-  "Woad seed",
-  "Limpwurt seed",
-  "White lily seed"
-]
-*/
-#define VAR_FARMING_SEEDS_FLOWER_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_FLOWER_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Herb seeds to force shown
-group: Seeds to Show
-enum: [
-  "Guam seed",
-  "Marrentill seed",
-  "Tarromin seed",
-  "Harralander seed",
-  "Ranarr seed",
-  "Toadflax seed",
-  "Irit seed",
-  "Avantoe seed",
-  "Kwuarm seed",
-  "Snapdragon seed",
-  "Huasca seed",
-  "Cadantine seed",
-  "Lantadyme seed",
-  "Dwarf weed seed",
-  "Torstol seed"
-]
-*/
-#define VAR_FARMING_SEEDS_HERB_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_HERB_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Hops seeds to force shown
-group: Seeds to Show
-enum: [
-  "Barley seed",
-  "Hammerstone seed",
-  "Asgarnian seed",
-  "Jute seed",
-  "Yanillian seed",
-  "Krandorian seed",
-  "Wildblood seed"
-]
-*/
-#define VAR_FARMING_SEEDS_HOPS_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_HOPS_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Bush seeds to force shown
-group: Seeds to Show
-enum: [
-  "Redberry seed",
-  "Cadavaberry seed",
-  "Dwellberry seed",
-  "Jangerberry seed",
-  "Whiteberry seed",
-  "Poison ivy seed"
-]
-*/
-#define VAR_FARMING_SEEDS_BUSH_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_BUSH_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Tree seeds to force shown
-group: Seeds to Show
-enum: [
-  "Acorn",
-  "Willow seed",
-  "Maple seed",
-  "Yew seed",
-  "Magic seed"
-]
-*/
-#define VAR_FARMING_SEEDS_TREE_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_TREE_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Fruit tree seeds to force shown
-group: Seeds to Show
-enum: [
-  "Apple seed",
-  "Banana seed",
-  "Orange seed",
-  "Curry seed",
-  "Pineapple seed",
-  "Papaya seed",
-  "Palm tree seed",
-  "Dragonfruit seed"
-]
-*/
-#define VAR_FARMING_SEEDS_FRUIT_TREE_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Fruit tree seeds to force shown
-group: Seeds to Show
-enum: [
-  "Teak seed",
-  "Mahogany seed",
-  "Calquat tree seed",
-  "Crystal acorn",
-  "Spirit seed",
-  "Celastrus seed",
-  "Redwood tree seed"
-]
-*/
-#define VAR_FARMING_SEEDS_SPECIAL_TREE_SHOW [ \
-]
-
-apply (name:VAR_FARMING_SEEDS_SPECIAL_TREE_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Special seeds to force shown
-group: Seeds to Show
-enum: [
-  "Seaweed spore",
-  "Grape seed",
-  "Mushroom spore",
-  "Belladonna seed",
-  "Hespori seed",
-  "Cactus seed",
-  "Potato cactus seed"
-]
-*/
-#define VAR_FARMING_SEEDS_SPECIAL_SHOW [\
-]
-
-apply (name:VAR_FARMING_SEEDS_SPECIAL_SHOW) {
-    hidden = false;
-}
-
-/*@ define:input:farming_seeds
-type: enumlist
-label: Anima seeds to force shown
-group: Seeds to Show
-enum: [
-  "Kronos seed",
-  "Iasor seed",
-  "Attas seed"
-]
-*/
-#define VAR_FARMING_SEEDS_ANIMA_SHOW [\
-]
-
-apply (name:VAR_FARMING_SEEDS_ANIMA_SHOW) {
-    hidden = false;
-}
-/*@ define:module:herblore_secondaries
----
-name: Herblore secondaries
-subtitle: Eyes, eggs, and everything in-between
-description: |
-  Provides some basic filtering for herblore secondaries.
-*/
-
-#define CONST_SECONDARIES_LIST [ \
-  "Eye of newt", \
-  "Unicorn horn dust", \
-  "Limpwurt root", \
-  "Volcanic ash", \
-  "Red spiders' eggs", \
-  "Chocolate dust", \
-  "White berries", \
-  "Toad's legs", \
-  "Goat horn dust", \
-  "Snape grass", \
-  "Mort myre fungus", \
-  "Kebbit teeth dust", \
-  "Dragon scale dust", \
-  "Nail beast nails", \
-  "Yew roots", \
-  "Wine of zamorak", \
-  "Potato cactus", \
-  "Jangerberries", \
-  "Magic roots", \
-  "Crushed nest", \
-  "Poison ivy berries", \
-  "Nihil dust", \
-  "Lily of the sands", \
-  "Aldarium", \
-  "Araxyte venom sack", \
-]
-
-/*@ define:input:herblore_secondaries
-type: enumlist
-label: Secondaries to force hidden
-enum: [
-  "Eye of newt",
-  "Unicorn horn dust",
-  "Limpwurt root",
-  "Volcanic ash",
-  "Red spiders' eggs",
-  "Chocolate dust",
-  "White berries",
-  "Toad's legs",
-  "Goat horn dust",
-  "Snape grass",
-  "Mort myre fungus",
-  "Kebbit teeth dust",
-  "Dragon scale dust",
-  "Nail beast nails",
-  "Yew roots",
-  "Wine of zamorak",
-  "Potato cactus",
-  "Jangerberries",
-  "Magic roots",
-  "Crushed nest",
-  "Poison ivy berries",
-  "Nihil dust",
-  "Lily of the sands",
-  "Aldarium",
-  "Araxyte venom sack"
-]
-*/
-#define VAR_SECONDARIES_HIDE [ \
-  "Eye of newt", \
-  "Volcanic ash", \
-  "Chocolate dust", \
-]
-
-/*@ define:input:herblore_secondaries
-type: enumlist
-label: Secondaries to force shown
-enum: [
-  "Eye of newt",
-  "Unicorn horn dust",
-  "Limpwurt root",
-  "Volcanic ash",
-  "Red spiders' eggs",
-  "Chocolate dust",
-  "White berries",
-  "Toad's legs",
-  "Goat horn dust",
-  "Snape grass",
-  "Mort myre fungus",
-  "Kebbit teeth dust",
-  "Dragon scale dust",
-  "Nail beast nails",
-  "Yew roots",
-  "Wine of zamorak",
-  "Potato cactus",
-  "Jangerberries",
-  "Magic roots",
-  "Crushed nest",
-  "Poison ivy berries",
-  "Nihil dust",
-  "Lily of the sands",
-  "Aldarium",
-  "Araxyte venom sack"
-]
-*/
-#define VAR_SECONDARIES_SHOW [ \
-  "Crushed nest", \
-  "Nihil dust", \
-  "Lily of the sands", \
-  "Aldarium", \
-  "Araxyte venom sack" \
-]
-
-/*@ define:input:herblore_secondaries
-type: number
-label: Minimum value to display secondaries at
-*/
-#define VAR_SECONDARIES_MINIMUM_VALUE 0
-
-apply (name:CONST_SECONDARIES_LIST && value:<VAR_SECONDARIES_MINIMUM_VALUE) {
-    hidden = true;
-}
-
-apply (name:VAR_SECONDARIES_HIDE) {
-    hidden = true;
-}
-
-apply (name:VAR_SECONDARIES_SHOW) {
-    hidden = false;
 }
 /*@ define:module:potions
 ---
@@ -16098,4 +16072,57 @@ name: Constants
   "Ensouled aviansie head", \
   "Ensouled abyssal head", \
   "Ensouled dragon head", \
+]
+
+#define CONST_RUNE_NAMES [ \
+  "Air rune", \
+  "Mind rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Sunfire rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+]
+
+#define CONST_SECONDARIES_LIST [ \
+  "Eye of newt", \
+  "Unicorn horn dust", \
+  "Limpwurt root", \
+  "Volcanic ash", \
+  "Red spiders' eggs", \
+  "Chocolate dust", \
+  "White berries", \
+  "Toad's legs", \
+  "Goat horn dust", \
+  "Snape grass", \
+  "Mort myre fungus", \
+  "Kebbit teeth dust", \
+  "Dragon scale dust", \
+  "Nail beast nails", \
+  "Yew roots", \
+  "Wine of zamorak", \
+  "Potato cactus", \
+  "Jangerberries", \
+  "Magic roots", \
+  "Crushed nest", \
+  "Poison ivy berries", \
+  "Nihil dust", \
+  "Lily of the sands", \
+  "Aldarium", \
+  "Araxyte venom sack", \
 ]
