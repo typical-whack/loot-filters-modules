@@ -8,6 +8,7 @@ filtering/clue_scrolls
 filtering/remains
 filtering/food
 filtering/potions
+filtering/ammo
 filtering/gems
 filtering/runes
 filtering/herbs
@@ -53,6 +54,5 @@ rdt
 utilities
 bossing
 slayer
-ammo
 final
 constants

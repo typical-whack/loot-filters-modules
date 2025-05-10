@@ -1,8 +1,9 @@
-/*@ define:module:ammo
+/*@ define:group
 ---
 name: Ammo
-subtitle: Forgetting your backpack?
 description: |
+  Ammo
+  ---
   Provides filtering for ammo either explicitly or based on value.
 */
 
@@ -30,7 +31,7 @@ description: |
 /*@ define:input:ammo
 type: enumlist
 label: Standard arrows to force hidden
-group: Arrows
+group: Ammo
 enum: [
   {
     "value": "Bronze*",
@@ -78,7 +79,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Standard Arrows minimum value
-group: Arrows
+group: Ammo
 */
 #define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 500
 
@@ -104,7 +105,7 @@ apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && (name:VAR_AMMO_STANDARD_ARROWS_HI
 /*@ define:input:ammo
 type: enumlist
 label: Darts to force hidden
-group: Darts
+group: Ammo
 enum: [
   {
     "value": "Bronze dart*",
@@ -160,7 +161,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Darts minimum value
-group: Darts
+group: Ammo
 */
 #define VAR_AMMO_DARTS_MIN_VALUE 500
 
@@ -185,7 +186,7 @@ apply (name:CONST_AMMO_DARTS_LIST && (name:VAR_AMMO_DARTS_HIDE || value:<VAR_AMM
 /*@ define:input:ammo
 type: enumlist
 label: Bolts to force hidden
-group: Bolts
+group: Ammo
 enum: [
   {
     "value": "Bronze bolts*",
@@ -237,7 +238,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Bolts minimum value
-group: Bolts
+group: Ammo
 */
 #define VAR_AMMO_BOLTS_MIN_VALUE 500
 
@@ -263,7 +264,7 @@ apply (name:CONST_AMMO_BOLTS_LIST && (name:VAR_AMMO_BOLTS_HIDE || value:<VAR_AMM
 /*@ define:input:ammo
 type: enumlist
 label: Enchanted bolts to force hidden
-group: Enchanted Bolts
+group: Ammo
 enum: [
   {
     "value": "Opal bolts (e)",
@@ -312,7 +313,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Enchanted bolts minimum value
-group: Enchanted Bolts
+group: Ammo
 */
 #define VAR_AMMO_BOLTS_E_MIN_VALUE 500
 
@@ -338,7 +339,7 @@ apply (name:CONST_AMMO_BOLTS_E_LIST && (name:VAR_AMMO_BOLTS_E_HIDE || value:<VAR
 /*@ define:input:ammo
 type: enumlist
 label: Dragon enchanted bolts to force hidden
-group: Dragon Enchanted Bolts
+group: Ammo
 enum: [
   {
     "value": "Opal dragon bolts (e)",
@@ -387,7 +388,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Dragon enchanted bolts minimum value
-group: Dragon Enchanted Bolts
+group: Ammo
 */
 #define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 500
 
@@ -411,7 +412,7 @@ apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && (name:VAR_AMMO_DRAGON_BOLTS_E_HIDE
 /*@ define:input:ammo
 type: enumlist
 label: Javelins to force hidden
-group: Javelins
+group: Ammo
 enum: [
   {
     "value": "Bronze javelin*",
@@ -459,7 +460,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Javelins minimum value
-group: Javelins
+group: Ammo
 */
 #define VAR_AMMO_JAVELINS_MIN_VALUE 500
 
@@ -471,7 +472,6 @@ apply (name:CONST_AMMO_JAVELINS_LIST && (name:VAR_AMMO_JAVELINS_HIDE || value:<V
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
   "Sunlight antler bolts", \
-  "Moonlight antler bolts", \
   "Kebbit bolts", \
   "Long kebbit bolts", \
   "Broad bolts", \
@@ -483,7 +483,7 @@ apply (name:CONST_AMMO_JAVELINS_LIST && (name:VAR_AMMO_JAVELINS_HIDE || value:<V
 /*@ define:input:ammo
 type: enumlist
 label: Special bolts to force hidden
-group: Special Bolts
+group: Ammo
 enum: [
   {
     "value": "Sunlight antler bolts",
@@ -524,7 +524,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Special bolts minimum value
-group: Special Bolts
+group: Ammo
 */
 #define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 500
 
@@ -547,7 +547,7 @@ apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && (name:VAR_AMMO_SPECIAL_BOLTS_HIDE |
 /*@ define:input:ammo
 type: enumlist
 label: Brutal arrows to force hidden
-group: Brutal Arrows
+group: Ammo
 enum: [
   {
     "value": "Bronze brutal",
@@ -590,7 +590,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Brutal Arrows minimum value
-group: Brutal Arrows
+group: Ammo
 */
 #define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
 
@@ -611,7 +611,7 @@ apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && (name:VAR_AMMO_BRUTAL_ARROWS_HIDE |
 /*@ define:input:ammo
 type: enumlist
 label: Special arrows to force hidden
-group: Special Arrows
+group: Ammo
 enum: [
   {
     "value": "Training Arrow",
@@ -641,7 +641,7 @@ enum: [
 /*@ define:input:ammo
 type: number
 label: Special Arrows minimum value
-group: Special Arrows
+group: Ammo
 */
 #define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
 
