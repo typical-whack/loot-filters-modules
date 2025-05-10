@@ -17,6 +17,7 @@ individual_item_styles/ores
 individual_item_styles/bars
 individual_item_styles/gems
 individual_item_styles/runes
+individual_item_styles/herbs
 individual_item_styles/raw_fish
 individual_item_styles/fishing_bait
 individual_item_styles/fishing_equipment

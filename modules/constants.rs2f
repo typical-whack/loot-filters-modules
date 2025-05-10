@@ -430,3 +430,21 @@ name: Constants
   "Greater siren", \
   "Raw karambwan", \
 ]
+
+#define CONST_ALL_HERBS [ \
+  "*guam leaf", \
+  "*marrentill", \
+  "*tarromin", \
+  "*harralander", \
+  "*ranarr weed", \
+  "*toadflax", \
+  "*irit leaf", \
+  "*avantoe", \
+  "*kwuarm", \
+  "*huasca", \
+  "*snapdragon", \
+  "*cadantine", \
+  "*lantadyme", \
+  "*dwarf weed", \
+  "*torstol", \
+]
