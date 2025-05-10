@@ -1,17 +1,16 @@
-
-/*@ define:module:monsters
+/*@ define:group
 ---
-name: Monsters
-subtitle: Bonk!
+name: "Ancient Guthixian Temple (Tormented Demons)"
 description: |
-  Provides filtering and styling for specific monster drops
+  "Ancient Guthixian Temple (Tormented Demons)"
+  ---
+  Provides filtering within the Ancient Guthixian Temple, specifically for Tormented Demons.
 */
 
-
-/*@ define:input:monsters
+/*@ define:input:area_based_filtering
 type: stringlist
 label: List of items to force hidden at tormented demons
-group: Tormented Demons
+group: "Ancient Guthixian Temple (Tormented Demons)"
 */
 #define VAR_MONSTERS_TORMENTED_DEMONS_HIDE []
 
@@ -19,10 +18,10 @@ apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_D
     hidden = true;
 }
 
-/*@ define:input:monsters
+/*@ define:input:area_based_filtering
 type: stringlist
 label: List of items to force shown at tormented demons
-group: Tormented Demons
+group: "Ancient Guthixian Temple (Tormented Demons)"
 */
 #define VAR_MONSTERS_TORMENTED_DEMONS_SHOW [ \
     "Smouldering gland", \
