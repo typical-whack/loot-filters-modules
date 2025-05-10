@@ -10,6 +10,650 @@ description: |
 
 /*@ define:input:item_category_styles
 type: style
+label: Bronze
+group: Bronze Armour and Weapons
+exampleItem: Bronze platelegs
+*/
+#define VAR_BRONZE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#8043341d";\
+  borderColor = "#FF43341d";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF43341d";
+
+/*@ define:input:item_category_styles
+type: style
+label: Bronze (t)
+group: Bronze (t) Armour and Weapons
+exampleItem: Bronze platelegs (t)
+*/
+#define VAR_BRONZE_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#8043341d";\
+  borderColor = "#FF615c2d";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF43341d";
+
+/*@ define:input:item_category_styles
+type: style
+label: Bronze (g)
+group: Bronze (g) Armour and Weapons
+exampleItem: Bronze platelegs (g)
+*/
+#define VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#8043341d";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF43341d";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Iron
+group: Iron Armour and Weapons
+exampleItem: Iron platelegs
+*/
+#define VAR_IRON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#804f4948";\
+  borderColor = "#FF4f4948";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4f4948";
+
+/*@ define:input:item_category_styles
+type: style
+label: Iron (t)
+group: Iron (t) Armour and Weapons
+exampleItem: Iron platelegs (t)
+*/
+#define VAR_IRON_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#804f4948";\
+  borderColor = "#FF151111";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4f4948";
+
+/*@ define:input:item_category_styles
+type: style
+label: Iron (g)
+group: Iron (g) Armour and Weapons
+exampleItem: Iron platelegs (g)
+*/
+#define VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#804f4948";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4f4948";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Steel
+group: Steel Armour and Weapons
+exampleItem: Steel platelegs
+*/
+#define VAR_STEEL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80857c7b";\
+  borderColor = "#FF857c7b";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF857c7b";
+
+/*@ define:input:item_category_styles
+type: style
+label: Steel (t)
+group: Steel (t) Armour and Weapons
+exampleItem: Steel platelegs (t)
+*/
+#define VAR_STEEL_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80857c7b";\
+  borderColor = "#FFb1a6a6";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF857c7b";
+
+/*@ define:input:item_category_styles
+type: style
+label: Steel (g)
+group: Steel (g) Armour and Weapons
+exampleItem: Steel platelegs (g)
+*/
+#define VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80857c7b";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF857c7b";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Black
+group: Black Armour and Weapons
+exampleItem: Black platelegs
+*/
+#define VAR_BLACK_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#801d1b1b";\
+  borderColor = "#FF1d1b1b";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1d1b1b";
+
+/*@ define:input:item_category_styles
+type: style
+label: Black (t)
+group: Black (t) Armour and Weapons
+exampleItem: Black platelegs (t)
+*/
+#define VAR_BLACK_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#801d1b1b";\
+  borderColor = "#FF423e3e";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1d1b1b";
+
+/*@ define:input:item_category_styles
+type: style
+label: Black (g)
+group: Black (g) Armour and Weapons
+exampleItem: Black platelegs (g)
+*/
+#define VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#801d1b1b";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1d1b1b";
+
+/*@ define:input:item_category_styles
+type: style
+label: Black heraldic
+group: Black heraldic Armour and Weapons
+exampleItem: Black helm (h1)
+*/
+#define VAR_BLACK_HERALDIC_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#801d1b1b";\
+  borderColor = "#FF1d1b1b";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1d1b1b";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Mithril
+group: Mithril Armour and Weapons
+exampleItem: Mithril platelegs
+*/
+#define VAR_MITHRIL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80414161";\
+  borderColor = "#FF414161";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF414161";
+
+/*@ define:input:item_category_styles
+type: style
+label: Mithril (t)
+group: Mithril (t) Armour and Weapons
+exampleItem: Mithril platelegs (t)
+*/
+#define VAR_MITHRIL_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80414161";\
+  borderColor = "#FF6e8aa3";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF414161";
+
+/*@ define:input:item_category_styles
+type: style
+label: Mithril (g)
+group: Mithril (g) Armour and Weapons
+exampleItem: Mithril platelegs (g)
+*/
+#define VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80414161";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF414161";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Adamant
+group: Adamant Armour and Weapons
+exampleItem: Adamant platelegs
+*/
+#define VAR_ADAMANT_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80405140";\
+  borderColor = "#FF405140";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF405140";
+
+/*@ define:input:item_category_styles
+type: style
+label: Adamant (t)
+group: Adamant (t) Armour and Weapons
+exampleItem: Adamant platelegs (t)
+*/
+#define VAR_ADAMANT_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80405140";\
+  borderColor = "#FF6a725a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF405140";
+
+/*@ define:input:item_category_styles
+type: style
+label: Adamant (g)
+group: Adamant (g) Armour and Weapons
+exampleItem: Adamant platelegs (g)
+*/
+#define VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80405140";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF405140";
+
+/*@ define:input:item_category_styles
+type: style
+label: Adamant heraldic
+group: Adamant heraldic Armour and Weapons
+exampleItem: Adamant helm (h1)
+*/
+#define VAR_ADAMANT_HERALDIC_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80405140";\
+  borderColor = "#FF405140";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF405140";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune
+group: Rune Armour and Weapons
+exampleItem: Rune platelegs
+*/
+#define VAR_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF415760";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF415760";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune (t)
+group: Rune (t) Armour and Weapons
+exampleItem: Rune platelegs (t)
+*/
+#define VAR_RUNE_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF6d88a1";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF415760";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune (g)
+group: Rune (g) Armour and Weapons
+exampleItem: Rune platelegs (g)
+*/
+#define VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FFdea71a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF415760";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune heraldic
+group: Rune heraldic Armour and Weapons
+exampleItem: Rune helm (h1)
+*/
+#define VAR_RUNE_HERALDIC_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF415760";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF415760";
+
+/*@ define:input:item_category_styles
+type: style
+label: Gilded
+group: Gilded Armour and Weapons
+exampleItem: Gilded platelegs
+*/
+#define VAR_RUNE_GILDED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80c39318";\
+  borderColor = "#FF7c540c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7c540c";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune ancient
+group: Rune ancient Armour and Weapons
+exampleItem: Ancient platelegs
+*/
+#define VAR_RUNE_ANCIENT_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF552f53";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF552f53";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune armadyl
+group: Rune armadyl Armour and Weapons
+exampleItem: Armadyl platelegs
+*/
+#define VAR_RUNE_ARMADYL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF706868";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF706868";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune bandos
+group: Rune bandos Armour and Weapons
+exampleItem: Bandos platelegs
+*/
+#define VAR_RUNE_BANDOS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF746228";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF746228";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune guthix
+group: Rune guthix Armour and Weapons
+exampleItem: Guthix platelegs
+*/
+#define VAR_RUNE_GUTHIX_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF437745";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF437745";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune saradomin
+group: Rune saradomin Armour and Weapons
+exampleItem: Saradomin platelegs
+*/
+#define VAR_RUNE_SARADOMIN_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FFacab88";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFacab88";
+
+/*@ define:input:item_category_styles
+type: style
+label: Rune zamorak
+group: Rune zamorak Armour and Weapons
+exampleItem: Zamorak platelegs
+*/
+#define VAR_RUNE_ZAMORAK_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80415760";\
+  borderColor = "#FF801a0d";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF801a0d";
+
+
+/*@ define:input:item_category_styles
+type: style
+label: Dragon
+group: Dragon Armour and Weapons
+exampleItem: Dragon platelegs
+*/
+#define VAR_DRAGON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80541109";\
+  borderColor = "#FF541109";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF541109";
+
+apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_RANGED_WEAPONS) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_AMMO) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_ARMOUR) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
+    VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
+    VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_OTHER) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+
+apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_RANGED_WEAPONS) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_AMMO) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_ARMOUR) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_TRIMMED_ARMOUR) {
+    VAR_IRON_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
+    VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_OTHER) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+
+apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_RANGED_WEAPONS) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_AMMO) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_ARMOUR) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
+    VAR_STEEL_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
+    VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_OTHER) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+
+apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_RANGED_WEAPONS) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_AMMO) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_ARMOUR) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
+    VAR_BLACK_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
+    VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_OTHER) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
+    VAR_BLACK_HERALDIC_CUSTOMSTYLE 
+}
+
+apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_RANGED_WEAPONS) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_AMMO) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_ARMOUR) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
+    VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
+    VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_OTHER) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+
+apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_RANGED_WEAPONS) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_AMMO) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_ARMOUR) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
+    VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
+    VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_OTHER) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
+    VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
+}
+
+apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_RUNE_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_RUNE_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_RANGED_WEAPONS) {
+    VAR_RUNE_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_AMMO) {
+    VAR_RUNE_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_ARMOUR) {
+    VAR_RUNE_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_TRIMMED_ARMOUR) {
+    VAR_RUNE_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
+    VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_OTHER) {
+    VAR_RUNE_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_HERALDIC_ARMOUR) {
+    VAR_RUNE_HERALDIC_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_GILDED) {
+    VAR_RUNE_GILDED_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_ANCIENT_TRIMMED_ARMOUR) {
+    VAR_RUNE_ANCIENT_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_ARMADYL_TRIMMED_ARMOUR) {
+    VAR_RUNE_ARMADYL_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_BANDOS_TRIMMED_ARMOUR) {
+    VAR_RUNE_BANDOS_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_GUTHIX_TRIMMED_ARMOUR) {
+    VAR_RUNE_GUTHIX_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR) {
+    VAR_RUNE_SARADOMIN_CUSTOMSTYLE 
+}
+apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
+    VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
+}
+
+apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_DRAGON_CUSTOMSTYLE 
+}
+apply (name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_DRAGON_CUSTOMSTYLE 
+}
+apply (name:CONST_DRAGON_RANGED_WEAPONS) {
+    VAR_DRAGON_CUSTOMSTYLE 
+}
+apply (name:CONST_DRAGON_AMMO) {
+    VAR_DRAGON_CUSTOMSTYLE 
+}
+apply (name:CONST_DRAGON_ARMOUR) {
+    VAR_DRAGON_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
 label: Fishing equipment custom style
 group: Fishing equipment Style
 exampleItem: Fishing rod
