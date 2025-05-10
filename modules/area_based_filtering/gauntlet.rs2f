@@ -1,16 +1,18 @@
-
-/*@ define:module:gauntlet
+/*@ define:group
 ---
-name: Gauntlet
-subtitle: Crystal palace of suffering
+name: The Gauntlet
+expanded: false
 description: |
-  Filtering and style for the Gauntlet
+  The Gauntlet
+  ---
+  Filtering for the Gauntlet
 */
+
 
 /*@ define:input:gauntlet
 type: enumlist
 label: Tools to force hidden
-group: Filtering
+group: The Gauntlet
 enum: [
   {
     "value": "* sceptre",
@@ -57,7 +59,7 @@ apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_TOOLS_HIDE) {
 /*@ define:input:gauntlet
 type: enumlist
 label: Resources to force hidden
-group: Filtering
+group: The Gauntlet
 enum: [
   {
     "value": "* shards",
@@ -126,7 +128,7 @@ apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_RESOURCES_HIDE) {
 /*@ define:input:gauntlet
 type: enumlist
 label: Supplies to force hidden
-group: Filtering
+group: The Gauntlet
 enum: [
   {
     "value": "Egniol potion (*",
@@ -155,7 +157,7 @@ apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_SUPPLIES_HIDE) {
 /*@ define:input:gauntlet
 type: enumlist
 label: Equipment to force hidden
-group: Filtering
+group: The Gauntlet
 enum: [
   {
     "value": "* halberd *",
