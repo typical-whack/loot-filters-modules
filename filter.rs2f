@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 07:51:28 UTC 2025 */
-/* Commit: b902bd4 */
+/* Built on: Sat May 10 16:24:11 UTC 2025 */
+/* Commit: a7c20a5 */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -7112,6 +7112,12 @@ apply (name:VAR_ALCHS_ITEM_LIST) {
     VAR_ALCHS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: List of alchables
+expanded: false
+*/
+
 /*@ define:input:alchs
 type: stringlist
 label: List of alchables
@@ -7162,10 +7168,16 @@ group: List of alchables
   "Water battlestaff", \
 ]
 
+/*@ define:group
+---
+name: Power User
+expanded: false
+*/
+
 /*@ define:input:alchs
 type: boolean
 label: Dont let alchables get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
+group: Power User
 */
 #define VAR_ALCHS_TERMINATE false
 
