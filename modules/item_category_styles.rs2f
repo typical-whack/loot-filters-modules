@@ -24,7 +24,7 @@ exampleItem: Bronze platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Bronze (t)
-group: Bronze (t) Armour and Weapons
+group: Bronze (t) Armour
 exampleItem: Bronze platelegs (t)
 */
 #define VAR_BRONZE_TRIMMED_CUSTOMSTYLE \
@@ -37,7 +37,7 @@ exampleItem: Bronze platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Bronze (g)
-group: Bronze (g) Armour and Weapons
+group: Bronze (g) Armour
 exampleItem: Bronze platelegs (g)
 */
 #define VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -64,7 +64,7 @@ exampleItem: Iron platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Iron (t)
-group: Iron (t) Armour and Weapons
+group: Iron (t) Armour
 exampleItem: Iron platelegs (t)
 */
 #define VAR_IRON_TRIMMED_CUSTOMSTYLE \
@@ -77,7 +77,7 @@ exampleItem: Iron platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Iron (g)
-group: Iron (g) Armour and Weapons
+group: Iron (g) Armour
 exampleItem: Iron platelegs (g)
 */
 #define VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -104,7 +104,7 @@ exampleItem: Steel platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Steel (t)
-group: Steel (t) Armour and Weapons
+group: Steel (t) Armour
 exampleItem: Steel platelegs (t)
 */
 #define VAR_STEEL_TRIMMED_CUSTOMSTYLE \
@@ -117,7 +117,7 @@ exampleItem: Steel platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Steel (g)
-group: Steel (g) Armour and Weapons
+group: Steel (g) Armour
 exampleItem: Steel platelegs (g)
 */
 #define VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -144,7 +144,7 @@ exampleItem: Black platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Black (t)
-group: Black (t) Armour and Weapons
+group: Black (t) Armour
 exampleItem: Black platelegs (t)
 */
 #define VAR_BLACK_TRIMMED_CUSTOMSTYLE \
@@ -157,7 +157,7 @@ exampleItem: Black platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Black (g)
-group: Black (g) Armour and Weapons
+group: Black (g) Armour
 exampleItem: Black platelegs (g)
 */
 #define VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -170,7 +170,7 @@ exampleItem: Black platelegs (g)
 /*@ define:input:item_category_styles
 type: style
 label: Black heraldic
-group: Black heraldic Armour and Weapons
+group: Black heraldic Armour
 exampleItem: Black helm (h1)
 */
 #define VAR_BLACK_HERALDIC_CUSTOMSTYLE \
@@ -197,7 +197,7 @@ exampleItem: Mithril platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Mithril (t)
-group: Mithril (t) Armour and Weapons
+group: Mithril (t) Armour
 exampleItem: Mithril platelegs (t)
 */
 #define VAR_MITHRIL_TRIMMED_CUSTOMSTYLE \
@@ -210,7 +210,7 @@ exampleItem: Mithril platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Mithril (g)
-group: Mithril (g) Armour and Weapons
+group: Mithril (g) Armour
 exampleItem: Mithril platelegs (g)
 */
 #define VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -237,7 +237,7 @@ exampleItem: Adamant platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Adamant (t)
-group: Adamant (t) Armour and Weapons
+group: Adamant (t) Armour
 exampleItem: Adamant platelegs (t)
 */
 #define VAR_ADAMANT_TRIMMED_CUSTOMSTYLE \
@@ -250,7 +250,7 @@ exampleItem: Adamant platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Adamant (g)
-group: Adamant (g) Armour and Weapons
+group: Adamant (g) Armour
 exampleItem: Adamant platelegs (g)
 */
 #define VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -263,7 +263,7 @@ exampleItem: Adamant platelegs (g)
 /*@ define:input:item_category_styles
 type: style
 label: Adamant heraldic
-group: Adamant heraldic Armour and Weapons
+group: Adamant heraldic Armour
 exampleItem: Adamant helm (h1)
 */
 #define VAR_ADAMANT_HERALDIC_CUSTOMSTYLE \
@@ -290,7 +290,7 @@ exampleItem: Rune platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune (t)
-group: Rune (t) Armour and Weapons
+group: Rune (t) Armour
 exampleItem: Rune platelegs (t)
 */
 #define VAR_RUNE_TRIMMED_CUSTOMSTYLE \
@@ -303,7 +303,7 @@ exampleItem: Rune platelegs (t)
 /*@ define:input:item_category_styles
 type: style
 label: Rune (g)
-group: Rune (g) Armour and Weapons
+group: Rune (g) Armour
 exampleItem: Rune platelegs (g)
 */
 #define VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -316,7 +316,7 @@ exampleItem: Rune platelegs (g)
 /*@ define:input:item_category_styles
 type: style
 label: Rune heraldic
-group: Rune heraldic Armour and Weapons
+group: Rune heraldic Armour
 exampleItem: Rune helm (h1)
 */
 #define VAR_RUNE_HERALDIC_CUSTOMSTYLE \
@@ -342,7 +342,7 @@ exampleItem: Gilded platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune ancient
-group: Rune ancient Armour and Weapons
+group: Rune ancient Armour
 exampleItem: Ancient platelegs
 */
 #define VAR_RUNE_ANCIENT_CUSTOMSTYLE \
@@ -355,7 +355,7 @@ exampleItem: Ancient platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune armadyl
-group: Rune armadyl Armour and Weapons
+group: Rune armadyl Armour
 exampleItem: Armadyl platelegs
 */
 #define VAR_RUNE_ARMADYL_CUSTOMSTYLE \
@@ -368,7 +368,7 @@ exampleItem: Armadyl platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune bandos
-group: Rune bandos Armour and Weapons
+group: Rune bandos Armour
 exampleItem: Bandos platelegs
 */
 #define VAR_RUNE_BANDOS_CUSTOMSTYLE \
@@ -381,7 +381,7 @@ exampleItem: Bandos platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune guthix
-group: Rune guthix Armour and Weapons
+group: Rune guthix Armour
 exampleItem: Guthix platelegs
 */
 #define VAR_RUNE_GUTHIX_CUSTOMSTYLE \
@@ -394,7 +394,7 @@ exampleItem: Guthix platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune saradomin
-group: Rune saradomin Armour and Weapons
+group: Rune saradomin Armour
 exampleItem: Saradomin platelegs
 */
 #define VAR_RUNE_SARADOMIN_CUSTOMSTYLE \
@@ -407,7 +407,7 @@ exampleItem: Saradomin platelegs
 /*@ define:input:item_category_styles
 type: style
 label: Rune zamorak
-group: Rune zamorak Armour and Weapons
+group: Rune zamorak Armour
 exampleItem: Zamorak platelegs
 */
 #define VAR_RUNE_ZAMORAK_CUSTOMSTYLE \
