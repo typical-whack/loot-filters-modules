@@ -1,42 +1,16 @@
-/*@ define:module:herblore_secondaries
+/*@ define:group
 ---
 name: Herblore secondaries
-subtitle: Eyes, eggs, and everything in-between
 description: |
+  Herblore secondaries
+  ---
   Provides some basic filtering for herblore secondaries.
 */
-
-#define CONST_SECONDARIES_LIST [ \
-  "Eye of newt", \
-  "Unicorn horn dust", \
-  "Limpwurt root", \
-  "Volcanic ash", \
-  "Red spiders' eggs", \
-  "Chocolate dust", \
-  "White berries", \
-  "Toad's legs", \
-  "Goat horn dust", \
-  "Snape grass", \
-  "Mort myre fungus", \
-  "Kebbit teeth dust", \
-  "Dragon scale dust", \
-  "Nail beast nails", \
-  "Yew roots", \
-  "Wine of zamorak", \
-  "Potato cactus", \
-  "Jangerberries", \
-  "Magic roots", \
-  "Crushed nest", \
-  "Poison ivy berries", \
-  "Nihil dust", \
-  "Lily of the sands", \
-  "Aldarium", \
-  "Araxyte venom sack", \
-]
 
 /*@ define:input:herblore_secondaries
 type: enumlist
 label: Secondaries to force hidden
+group: Herblore secondaries
 enum: [
   "Eye of newt",
   "Unicorn horn dust",
@@ -74,6 +48,7 @@ enum: [
 /*@ define:input:herblore_secondaries
 type: enumlist
 label: Secondaries to force shown
+group: Herblore secondaries
 enum: [
   "Eye of newt",
   "Unicorn horn dust",
@@ -113,6 +88,7 @@ enum: [
 /*@ define:input:herblore_secondaries
 type: number
 label: Minimum value to display secondaries at
+group: Herblore secondaries
 */
 #define VAR_SECONDARIES_MINIMUM_VALUE 0
 

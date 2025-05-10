@@ -1313,3 +1313,31 @@ name: Constants
   "Steam rune", \
   "Lava rune", \
 ]
+
+#define CONST_SECONDARIES_LIST [ \
+  "Eye of newt", \
+  "Unicorn horn dust", \
+  "Limpwurt root", \
+  "Volcanic ash", \
+  "Red spiders' eggs", \
+  "Chocolate dust", \
+  "White berries", \
+  "Toad's legs", \
+  "Goat horn dust", \
+  "Snape grass", \
+  "Mort myre fungus", \
+  "Kebbit teeth dust", \
+  "Dragon scale dust", \
+  "Nail beast nails", \
+  "Yew roots", \
+  "Wine of zamorak", \
+  "Potato cactus", \
+  "Jangerberries", \
+  "Magic roots", \
+  "Crushed nest", \
+  "Poison ivy berries", \
+  "Nihil dust", \
+  "Lily of the sands", \
+  "Aldarium", \
+  "Araxyte venom sack", \
+]
