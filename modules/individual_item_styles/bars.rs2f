@@ -1,0 +1,264 @@
+/*@ define:group
+---
+name: Bars Styles
+expanded: false
+description: |
+  Bars Styles
+  ---
+  This group provides custom styling for all metal bars. By default this colors all bars similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Bronze bar custom style
+group: Bars Styles
+exampleItem: Bronze bar
+*/
+#define VAR_BRONZE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50554127";\
+  borderColor = "#FF554127";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF554127";
+
+apply (name:"Bronze bar") {
+    VAR_BRONZE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Iron bar custom style
+group: Bars Styles
+exampleItem: Iron bar
+*/
+#define VAR_IRON_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504C4545";\
+  borderColor = "#FF4C4545";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4C4545";
+
+apply (name:"Iron bar") {
+    VAR_IRON_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Steel bar custom style
+group: Bars Styles
+exampleItem: Steel bar
+*/
+#define VAR_STEEL_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50887E7E";\
+  borderColor = "#FF887E7E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF887E7E";
+
+apply (name:"Steel bar") {
+    VAR_STEEL_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mithril bar custom style
+group: Bars Styles
+exampleItem: Mithril bar
+*/
+#define VAR_MITHRIL_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50484869";\
+  borderColor = "#FF484869";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF484869";
+
+apply (name:"Mithril bar") {
+    VAR_MITHRIL_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Adamantite bar custom style
+group: Bars Styles
+exampleItem: Adamantite bar
+*/
+#define VAR_ADAMANTITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50485A48";\
+  borderColor = "#FF485A48";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF485A48";
+
+apply (name:"Adamantite bar") {
+    VAR_ADAMANTITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Runite bar custom style
+group: Bars Styles
+exampleItem: Runite bar
+*/
+#define VAR_RUNITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504B6570";\
+  borderColor = "#FF4B6570";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4B6570";
+
+apply (name:"Runite bar") {
+    VAR_RUNITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Silver bar custom style
+group: Bars Styles
+exampleItem: Silver bar
+*/
+#define VAR_SILVER_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509C9CA7";\
+  borderColor = "#FF9C9CA7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9C9CA7";
+
+apply (name:"Silver bar") {
+    VAR_SILVER_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Gold bar custom style
+group: Bars Styles
+exampleItem: Gold bar
+*/
+#define VAR_GOLD_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CBA618";\
+  borderColor = "#FFCBA618";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCBA618";
+
+apply (name:"Gold bar") {
+    VAR_GOLD_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Elemental metal custom style
+group: Bars Styles
+exampleItem: Elemental metal
+*/
+#define VAR_ELEMENTAL_METAL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50691094";\
+  borderColor = "#FF691094";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF691094";
+
+apply (name:"Elemental metal") {
+    VAR_ELEMENTAL_METAL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Primed bar custom style
+group: Bars Styles
+exampleItem: Primed bar
+*/
+#define VAR_PRIMED_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509F9F93";\
+  borderColor = "#FF9F9F93";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9F9F93";
+
+apply (name:"Primed bar") {
+    VAR_PRIMED_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Primed mind bar custom style
+group: Bars Styles
+exampleItem: Primed mind bar
+*/
+#define VAR_PRIMED_MIND_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509B6913";\
+  borderColor = "#FF9B6913";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9B6913";
+
+apply (name:"Primed mind bar") {
+    VAR_PRIMED_MIND_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blurite bar custom style
+group: Bars Styles
+exampleItem: Blurite bar
+*/
+#define VAR_BLURITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#508485C8";\
+  borderColor = "#FF8485C8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8485C8";
+
+apply (name:"Blurite bar") {
+    VAR_BLURITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Enchanted bar custom style
+group: Bars Styles
+exampleItem: Enchanted bar
+*/
+#define VAR_ENCHANTED_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506F6E4B";\
+  borderColor = "#FF6F6E4B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6F6E4B";
+
+apply (name:"Enchanted bar") {
+    VAR_ENCHANTED_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lovakite bar custom style
+group: Bars Styles
+exampleItem: Lovakite bar
+*/
+#define VAR_LOVAKITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505E1409";\
+  borderColor = "#FF5E1409";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5E1409";
+
+apply (name:"Lovakite bar") {
+    VAR_LOVAKITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "'Perfect' gold bar custom style"
+group: Bars Styles
+exampleItem: "'Perfect' gold bar"
+*/
+#define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50B79517";\
+  borderColor = "#FFB79517";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFB79517";
+
+apply (name:"'Perfect' gold bar") {
+    VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE 
+}

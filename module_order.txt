@@ -14,6 +14,7 @@ individual_item_styles/tombs_of_amascut
 individual_item_styles/tormented_demons
 individual_item_styles/logs
 individual_item_styles/ores
+individual_item_styles/bars
 individual_item_styles/gems
 individual_item_styles/runes
 individual_item_styles/raw_fish
