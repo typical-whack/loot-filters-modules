@@ -21,12 +21,6 @@ exampleItem: Bronze platelegs
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF43341d";
 
-/*@ define:input:item_category_styles
-type: style
-label: Bronze (t) Armour
-group: Bronze (t) Armour
-exampleItem: Bronze platelegs (t)
-*/
 #define VAR_BRONZE_TRIMMED_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
   backgroundColor = "#8043341d";\
