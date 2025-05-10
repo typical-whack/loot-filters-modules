@@ -7,6 +7,7 @@ filtering/ownership
 filtering/clue_scrolls
 filtering/remains
 filtering/gems
+filtering/runes
 filtering/fishing
 filtering/ores
 filtering/logs
@@ -46,7 +47,6 @@ currency
 bossing
 slayer
 ammo
-runes
 bars
 herbs
 farming_seeds

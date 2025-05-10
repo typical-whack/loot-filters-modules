@@ -1,39 +1,16 @@
-/*@ define:module:runes
+/*@ define:group
 ---
 name: Runes
-subtitle: The magic things, not the armor
 description: |
-  Quantity thresholds, filters, and custom styling for runes.
+  Runes
+  ---
+  Quantity thresholds filters for runes.
 */
-
-#define CONST_RUNE_NAMES [ \
-  "Air rune", \
-  "Mind rune", \
-  "Water rune", \
-  "Earth rune", \
-  "Fire rune", \
-  "Body rune", \
-  "Cosmic rune", \
-  "Chaos rune", \
-  "Nature rune", \
-  "Law rune", \
-  "Death rune", \
-  "Sunfire rune", \
-  "Astral rune", \
-  "Blood rune", \
-  "Soul rune", \
-  "Wrath rune", \
-  "Mist rune", \
-  "Dust rune", \
-  "Mud rune", \
-  "Smoke rune", \
-  "Steam rune", \
-  "Lava rune", \
-]
 
 /*@ define:input:runes
 type: enumlist
 label: Runes to force hidden
+group: Runes
 enum: [
   "Air rune",
   "Mind rune",
@@ -64,160 +41,161 @@ enum: [
 /*@ define:input:runes
 type: boolean
 label: Force runes to be shown if they're above min quantity
+group: Runes
 */
 #define VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY false
 
 /*@ define:input:runes
 type: number
 label: Air rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_AIR_RUNE_MIN_QUANTITY 500
 
 /*@ define:input:runes
 type: number
 label: Water rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_WATER_RUNE_MIN_QUANTITY 500
 
 /*@ define:input:runes
 type: number
 label: Earth rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_EARTH_RUNE_MIN_QUANTITY 500
 
 /*@ define:input:runes
 type: number
 label: Fire rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_FIRE_RUNE_MIN_QUANTITY 500
 
 /*@ define:input:runes
 type: number
 label: Mind rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_MIND_RUNE_MIN_QUANTITY 500
 
 /*@ define:input:runes
 type: number
 label: Body rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_BODY_RUNE_MIN_QUANTITY 500
 
 /*@ define:input:runes
 type: number
 label: Cosmic rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_COSMIC_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Chaos rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_CHAOS_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Nature rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_NATURE_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Law rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_LAW_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Death rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_DEATH_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Sunfire rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Astral rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Blood rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_BLOOD_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Soul rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_SOUL_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Wrath rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_WRATH_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Mist rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_MIST_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Dust rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_DUST_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Mud rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_MUD_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Smoke rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_SMOKE_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Steam rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_STEAM_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Lava rune minimum quantity
-group: Runes Filtering
+group: Runes
 */
 #define VAR_LAVA_RUNE_MIN_QUANTITY 50
 
