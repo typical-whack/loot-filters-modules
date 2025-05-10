@@ -1,16 +1,16 @@
-
-/*@ define:module:fishing
+/*@ define:group
 ---
 name: Fishing
-subtitle: Filters for fishing equipment and raw fish
 description: |
-  This module provides filters for fishing equipment, fishing bait, and raw fish and default styles for fishing related item categories.
+  Fishing
+  ---
+  This module provides filters for fishing equipment, fishing bait, and raw fish.
 */
 
 /*@ define:input:fishing
 type: enumlist
 label: Fishing equipment to force hidden
-group: Fishing filters
+group: Fishing
 enum: [
   "Small fishing net",
   "Big fishing net",
@@ -40,7 +40,7 @@ apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
 /*@ define:input:fishing
 type: enumlist
 label: Fishing bait to force hidden
-group: Fishing filters
+group: Fishing
 enum: [
   "Sandworms",
   "Fishing bait",
@@ -67,7 +67,7 @@ apply (name:VAR_FISHING_BAIT_HIDE) {
 /*@ define:input:fishing
 type: enumlist
 label: Raw fish to force hidden
-group: Fishing filters
+group: Fishing
 enum: [
   "Raw shrimps",
   "Raw anchovies",
