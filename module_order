@@ -3,6 +3,7 @@ sorting
 filtering
 area_based_filtering/_module_definition
 area_based_filtering/gauntlet
+area_based_filtering/last_man_standing
 item_tiers
 uniques
 alchs
