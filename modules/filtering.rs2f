@@ -153,7 +153,7 @@ rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:
 
 /*@ define:group
 ---
-name: Clue Scrolls
+name: Clue Scrolls Filtering
 expanded: false
 description: |
   Clue Scrolls Filtering
