@@ -23,6 +23,7 @@ filtering/metal_equipment
 area_based_filtering/_module_definition
 area_based_filtering/chambers_of_xeric
 area_based_filtering/tombs_of_amascut
+area_based_filtering/bossing
 area_based_filtering/monsters_tormented_demons
 area_based_filtering/gauntlet
 area_based_filtering/last_man_standing
@@ -52,7 +53,6 @@ individual_item_styles/currency
 individual_item_styles/gauntlet
 rdt
 utilities
-bossing
 slayer
 final
 constants

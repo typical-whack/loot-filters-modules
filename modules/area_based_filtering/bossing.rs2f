@@ -1,14 +1,3 @@
-
-/*@ define:module:bossing
----
-name: Bossing
-subtitle: Break their bones!
-description: |
-  This provides area-based item filtering for bosses. (Just GWD covered so far)
-*/
-
-#define CONST_GOD_WARS_DUNGEON_AREA [2816, 5184, 0, 2943, 5375, 3]
-
 /*@ define:input:bossing
 type: stringlist
 label: God Wars Dungeon force shown
@@ -25,9 +14,6 @@ group: God Wars Dungeon
 */
 #define VAR_BOSSING_GOD_WARS_DUNGEON_HIDE []
 
-
-
-
 apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HIDE) {
     hidden = true;
 }
@@ -35,11 +21,6 @@ apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HID
 apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
     hidden = false;
 }
-
-
-
-#define CONST_COMMANDER_ZILYANA_AREA [2884, 5257, 0, 2908, 5276, 0]
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -66,7 +47,6 @@ enum: [
 ]
 */
 #define VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_SHOW []
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -118,7 +98,6 @@ enum: [
 */
 #define VAR_BOSSING_COMMANDER_ZILYANA_COMMON_SHOW []
 
-
 /*@ define:input:bossing
 type: enumlist
 label: Supply drops force hidden
@@ -153,9 +132,6 @@ enum: [
 */
 #define VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW []
 
-
-
-
 apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_UNIQUES_HIDE) {
     hidden = true;
 }
@@ -174,13 +150,6 @@ apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_C
 apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
     hidden = false;
 }
-
-
-
-
-
-#define CONST_GENERAL_GRAARDOR_AREA [2863, 5350, 2, 2877, 5373, 2]
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -207,7 +176,6 @@ enum: [
 ]
 */
 #define VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_SHOW []
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -263,7 +231,6 @@ enum: [
 */
 #define VAR_BOSSING_GENERAL_GRAARDOR_COMMON_SHOW []
 
-
 /*@ define:input:bossing
 type: enumlist
 label: Supply drops force hidden
@@ -311,9 +278,6 @@ enum: [
   "Chilli potato", \
 ]
 
-
-
-
 apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_UNIQUES_HIDE) {
     hidden = true;
 }
@@ -332,13 +296,6 @@ apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_COM
 apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUPPLY_SHOW) {
     hidden = false;
 }
-
-
-
-
-
-#define CONST_KREEARRA_AREA [2820, 5295, 2, 2843, 5309, 2]
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -365,7 +322,6 @@ enum: [
 ]
 */
 #define VAR_BOSSING_KREEARRA_UNIQUES_SHOW []
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -429,7 +385,6 @@ enum: [
 */
 #define VAR_BOSSING_KREEARRA_COMMON_SHOW []
 
-
 /*@ define:input:bossing
 type: enumlist
 label: Supply drops force hidden
@@ -467,9 +422,6 @@ enum: [
   "Mushroom potato", \
 ]
 
-
-
-
 apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_UNIQUES_HIDE) {
     hidden = true;
 }
@@ -488,13 +440,6 @@ apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_COMMON_SHOW) {
 apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
     hidden = false;
 }
-
-
-
-
-
-#define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -521,7 +466,6 @@ enum: [
 ]
 */
 #define VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_SHOW []
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -577,7 +521,6 @@ enum: [
 */
 #define VAR_BOSSING_KRIL_TSUTSAROTH_COMMON_SHOW []
 
-
 /*@ define:input:bossing
 type: enumlist
 label: Supply drops force hidden
@@ -612,9 +555,6 @@ enum: [
 */
 #define VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW []
 
-
-
-
 apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_UNIQUES_HIDE) {
     hidden = true;
 }
@@ -633,13 +573,6 @@ apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMO
 apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
     hidden = false;
 }
-
-
-
-
-
-#define CONST_NEX_AREA [2900, 5188, 0, 2943, 5218, 0]
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -680,7 +613,6 @@ enum: [
 ]
 */
 #define VAR_BOSSING_NEX_UNIQUES_SHOW []
-
 
 /*@ define:input:bossing
 type: enumlist
@@ -740,7 +672,6 @@ enum: [
 */
 #define VAR_BOSSING_NEX_COMMON_SHOW []
 
-
 /*@ define:input:bossing
 type: enumlist
 label: Supply drops force hidden
@@ -767,9 +698,6 @@ enum: [
 */
 #define VAR_BOSSING_NEX_SUPPLY_SHOW []
 
-
-
-
 apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_UNIQUES_HIDE) {
     hidden = true;
 }
@@ -793,6 +721,3 @@ apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_SHOW) {
 apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
     hidden = false;
 }
-
-
-
