@@ -1,0 +1,7 @@
+/*@ define:module:filtering
+---
+name: Filtering
+subtitle: Sifting through the junk
+description: |
+  Provides a few different ways to filter out items.
+*/

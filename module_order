@@ -1,6 +1,10 @@
 default_styling
 sorting
-filtering
+filtering/_module_definition
+filtering/individual_item
+filtering/value_based
+filtering/ownership
+filtering/clue_scrolls
 area_based_filtering/_module_definition
 area_based_filtering/gauntlet
 area_based_filtering/last_man_standing
