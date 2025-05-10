@@ -942,7 +942,7 @@ description: |
 /*@ define:input:fishing
 type: style
 label: Fishing equipment custom style
-group: Fishing Styles
+group: Fishing equipment Style
 exampleItem: Fishing rod
 */
 #define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
@@ -954,7 +954,7 @@ apply (name:CONST_FISHING_EQUIPMENT_LIST) {
 /*@ define:input:fishing
 type: style
 label: Fishing bait custom style
-group: Fishing Styles
+group: Fishing bait Style
 exampleItem: Fishing bait
 */
 #define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
@@ -966,7 +966,7 @@ apply (name:CONST_FISHING_BAIT_LIST) {
 /*@ define:input:fishing
 type: style
 label: Raw fish custom style
-group: Fishing Styles
+group: Raw fish Style
 exampleItem: Raw tuna
 */
 #define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
