@@ -6,6 +6,7 @@ filtering/value_based
 filtering/ownership
 filtering/clue_scrolls
 filtering/remains
+filtering/food
 filtering/gems
 filtering/runes
 filtering/fishing
@@ -52,7 +53,6 @@ ammo
 bars
 herbs
 potions
-food
 metal_equipment
 final
 constants

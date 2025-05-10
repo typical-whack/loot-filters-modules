@@ -1,16 +1,16 @@
-
-/*@ define:module:food
+/*@ define:group
 ---
 name: Food
-subtitle: The stuff you eat
 description: |
-  This module provides filters based on food groups with some sane defaults.
+  Food
+  ---
+  Provides filters based on food groups with some sane defaults.
 */
 
 /*@ define:input:food
 type: enumlist
 label: Hunter foods to force hidden
-group: Food filters
+group: Food
 enum: [
   "Cooked wild kebbit",
   "Cooked larupia",
@@ -37,7 +37,7 @@ apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
 /*@ define:input:food
 type: enumlist
 label: Fish foods to force hidden
-group: Food filters
+group: Food
 enum: [
   "Shrimp",
   "Sardine",
@@ -86,7 +86,7 @@ apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
 /*@ define:input:food
 type: enumlist
 label: Hunter foods to force shown
-group: Food filters
+group: Food
 enum: [
   "Cooked wild kebbit",
   "Cooked larupia",
@@ -112,7 +112,7 @@ apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
 /*@ define:input:food
 type: enumlist
 label: Fish foods to force shown
-group: Food filters
+group: Food
 enum: [
   "Shrimp",
   "Sardine",
