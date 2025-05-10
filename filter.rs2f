@@ -2594,18 +2594,282 @@ apply (name:"lovakite ore") {
 }
 /*@ define:group
 ---
-name: Gem Styles
+name: Bars Styles
 expanded: false
 description: |
-  Gem Styles
+  Bars Styles
+  ---
+  This group provides custom styling for all metal bars. By default this colors all bars similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Bronze bar custom style
+group: Bars Styles
+exampleItem: Bronze bar
+*/
+#define VAR_BRONZE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50554127";\
+  borderColor = "#FF554127";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF554127";
+
+apply (name:"Bronze bar") {
+    VAR_BRONZE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Iron bar custom style
+group: Bars Styles
+exampleItem: Iron bar
+*/
+#define VAR_IRON_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504C4545";\
+  borderColor = "#FF4C4545";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4C4545";
+
+apply (name:"Iron bar") {
+    VAR_IRON_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Steel bar custom style
+group: Bars Styles
+exampleItem: Steel bar
+*/
+#define VAR_STEEL_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50887E7E";\
+  borderColor = "#FF887E7E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF887E7E";
+
+apply (name:"Steel bar") {
+    VAR_STEEL_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mithril bar custom style
+group: Bars Styles
+exampleItem: Mithril bar
+*/
+#define VAR_MITHRIL_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50484869";\
+  borderColor = "#FF484869";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF484869";
+
+apply (name:"Mithril bar") {
+    VAR_MITHRIL_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Adamantite bar custom style
+group: Bars Styles
+exampleItem: Adamantite bar
+*/
+#define VAR_ADAMANTITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50485A48";\
+  borderColor = "#FF485A48";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF485A48";
+
+apply (name:"Adamantite bar") {
+    VAR_ADAMANTITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Runite bar custom style
+group: Bars Styles
+exampleItem: Runite bar
+*/
+#define VAR_RUNITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504B6570";\
+  borderColor = "#FF4B6570";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4B6570";
+
+apply (name:"Runite bar") {
+    VAR_RUNITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Silver bar custom style
+group: Bars Styles
+exampleItem: Silver bar
+*/
+#define VAR_SILVER_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509C9CA7";\
+  borderColor = "#FF9C9CA7";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9C9CA7";
+
+apply (name:"Silver bar") {
+    VAR_SILVER_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Gold bar custom style
+group: Bars Styles
+exampleItem: Gold bar
+*/
+#define VAR_GOLD_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CBA618";\
+  borderColor = "#FFCBA618";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCBA618";
+
+apply (name:"Gold bar") {
+    VAR_GOLD_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Elemental metal custom style
+group: Bars Styles
+exampleItem: Elemental metal
+*/
+#define VAR_ELEMENTAL_METAL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50691094";\
+  borderColor = "#FF691094";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF691094";
+
+apply (name:"Elemental metal") {
+    VAR_ELEMENTAL_METAL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Primed bar custom style
+group: Bars Styles
+exampleItem: Primed bar
+*/
+#define VAR_PRIMED_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509F9F93";\
+  borderColor = "#FF9F9F93";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9F9F93";
+
+apply (name:"Primed bar") {
+    VAR_PRIMED_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Primed mind bar custom style
+group: Bars Styles
+exampleItem: Primed mind bar
+*/
+#define VAR_PRIMED_MIND_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509B6913";\
+  borderColor = "#FF9B6913";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9B6913";
+
+apply (name:"Primed mind bar") {
+    VAR_PRIMED_MIND_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blurite bar custom style
+group: Bars Styles
+exampleItem: Blurite bar
+*/
+#define VAR_BLURITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#508485C8";\
+  borderColor = "#FF8485C8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8485C8";
+
+apply (name:"Blurite bar") {
+    VAR_BLURITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Enchanted bar custom style
+group: Bars Styles
+exampleItem: Enchanted bar
+*/
+#define VAR_ENCHANTED_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506F6E4B";\
+  borderColor = "#FF6F6E4B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6F6E4B";
+
+apply (name:"Enchanted bar") {
+    VAR_ENCHANTED_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lovakite bar custom style
+group: Bars Styles
+exampleItem: Lovakite bar
+*/
+#define VAR_LOVAKITE_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505E1409";\
+  borderColor = "#FF5E1409";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5E1409";
+
+apply (name:"Lovakite bar") {
+    VAR_LOVAKITE_BAR_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "'Perfect' gold bar custom style"
+group: Bars Styles
+exampleItem: "'Perfect' gold bar"
+*/
+#define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50B79517";\
+  borderColor = "#FFB79517";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFB79517";
+
+apply (name:"'Perfect' gold bar") {
+    VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE 
+}
+/*@ define:group
+---
+name: Gems Styles
+expanded: false
+description: |
+  Gems Styles
   ---
   This group provides custom styling for all gems. By default this colors all gems similar to their item color.
 */
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Sapphire custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Sapphire
 */
 #define VAR_SAPPHIRE_CUSTOMSTYLE \
@@ -2621,10 +2885,10 @@ apply (name:["Uncut sapphire", \
     VAR_SAPPHIRE_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Emerald custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Emerald
 */
 #define VAR_EMERALD_CUSTOMSTYLE \
@@ -2640,10 +2904,10 @@ apply (name:["Uncut emerald", \
     VAR_EMERALD_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Ruby custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Ruby
 */
 #define VAR_RUBY_CUSTOMSTYLE \
@@ -2659,10 +2923,10 @@ apply (name:["Uncut ruby", \
     VAR_RUBY_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Diamond custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Diamond
 */
 #define VAR_DIAMOND_CUSTOMSTYLE \
@@ -2678,10 +2942,10 @@ apply (name:["Uncut diamond", \
     VAR_DIAMOND_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Opal custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Opal
 */
 #define VAR_OPAL_CUSTOMSTYLE \
@@ -2697,10 +2961,10 @@ apply (name:["Uncut opal", \
     VAR_OPAL_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Jade custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Jade
 */
 #define VAR_JADE_CUSTOMSTYLE \
@@ -2716,10 +2980,10 @@ apply (name:["Uncut jade", \
     VAR_JADE_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Red topaz custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Red topaz
 */
 #define VAR_RED_TOPAZ_CUSTOMSTYLE \
@@ -2735,10 +2999,10 @@ apply (name:["Uncut red topaz", \
     VAR_RED_TOPAZ_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Dragonstone custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Dragonstone
 */
 #define VAR_DRAGONSTONE_CUSTOMSTYLE \
@@ -2754,10 +3018,10 @@ apply (name:["Uncut dragonstone", \
     VAR_DRAGONSTONE_CUSTOMSTYLE 
 }
 
-/*@ define:input:gems
+/*@ define:input:individual_item_styles
 type: style
 label: Onyx custom style
-group: Gem Styles
+group: Gems Styles
 exampleItem: Onyx
 */
 #define VAR_ONYX_CUSTOMSTYLE \
@@ -8355,202 +8619,9 @@ enum: [
   "Gold bar", \
 ]
 
-
-/*@ define:input:bars
-type: style
-label: Bronze bar custom style
-group: Custom Styling
-exampleItem: Bronze bar
-*/
-#define VAR_BRONZE_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50554127";\
-  borderColor = "#FF554127";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF554127";
-
-/*@ define:input:bars
-type: style
-label: Iron bar custom style
-group: Custom Styling
-exampleItem: Iron bar
-*/
-#define VAR_IRON_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#504C4545";\
-  borderColor = "#FF4C4545";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4C4545";
-
-/*@ define:input:bars
-type: style
-label: Silver bar custom style
-group: Custom Styling
-exampleItem: Silver bar
-*/
-#define VAR_SILVER_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509C9CA7";\
-  borderColor = "#FF9C9CA7";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9C9CA7";
-
-/*@ define:input:bars
-type: style
-label: Steel bar custom style
-group: Custom Styling
-exampleItem: Steel bar
-*/
-#define VAR_STEEL_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50887E7E";\
-  borderColor = "#FF887E7E";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF887E7E";
-
-/*@ define:input:bars
-type: style
-label: Gold bar custom style
-group: Custom Styling
-exampleItem: Gold bar
-*/
-#define VAR_GOLD_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50CBA618";\
-  borderColor = "#FFCBA618";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFCBA618";
-
-/*@ define:input:bars
-type: style
-label: Mithril bar custom style
-group: Custom Styling
-exampleItem: Mithril bar
-*/
-#define VAR_MITHRIL_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50484869";\
-  borderColor = "#FF484869";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF484869";
-
-/*@ define:input:bars
-type: style
-label: Adamantite bar custom style
-group: Custom Styling
-exampleItem: Adamantite bar
-*/
-#define VAR_ADAMANTITE_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50485A48";\
-  borderColor = "#FF485A48";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF485A48";
-
-/*@ define:input:bars
-type: style
-label: Runite bar custom style
-group: Custom Styling
-exampleItem: Runite bar
-*/
-#define VAR_RUNITE_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#504B6570";\
-  borderColor = "#FF4B6570";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4B6570";
-
-/*@ define:input:bars
-type: style
-label: Elemental metal custom style
-group: Custom Styling
-exampleItem: Elemental metal
-*/
-#define VAR_ELEMENTAL_METAL_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50691094";\
-  borderColor = "#FF691094";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF691094";
-
-/*@ define:input:bars
-type: style
-label: Primed bar custom style
-group: Custom Styling
-exampleItem: Primed bar
-*/
-#define VAR_PRIMED_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509F9F93";\
-  borderColor = "#FF9F9F93";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9F9F93";
-
-/*@ define:input:bars
-type: style
-label: Primed mind bar custom style
-group: Custom Styling
-exampleItem: Primed mind bar
-*/
-#define VAR_PRIMED_MIND_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509B6913";\
-  borderColor = "#FF9B6913";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9B6913";
-
-/*@ define:input:bars
-type: style
-label: Blurite bar custom style
-group: Custom Styling
-exampleItem: Blurite bar
-*/
-#define VAR_BLURITE_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#508485C8";\
-  borderColor = "#FF8485C8";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF8485C8";
-
-/*@ define:input:bars
-type: style
-label: Enchanted bar custom style
-group: Custom Styling
-exampleItem: Enchanted bar
-*/
-#define VAR_ENCHANTED_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#506F6E4B";\
-  borderColor = "#FF6F6E4B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF6F6E4B";
-
-/*@ define:input:bars
-type: style
-label: Lovakite bar custom style
-group: Custom Styling
-exampleItem: Lovakite bar
-*/
-#define VAR_LOVAKITE_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#505E1409";\
-  borderColor = "#FF5E1409";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF5E1409";
-
-/*@ define:input:bars
-type: style
-label: "'Perfect' gold bar custom style"
-group: Custom Styling
-exampleItem: "'Perfect' gold bar"
-*/
-#define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50B79517";\
-  borderColor = "#FFB79517";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFB79517";
-
+apply (name:VAR_BARS_HIDE) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8559,12 +8630,20 @@ group: Bar Filtering
 */
 #define VAR_BRONZE_BAR_MIN_QUANTITY 0
 
+apply (name:"Bronze bar" && quantity:<VAR_BRONZE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Iron bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_IRON_BAR_MIN_QUANTITY 0
+
+apply (name:"Iron bar" && quantity:<VAR_IRON_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8573,12 +8652,20 @@ group: Bar Filtering
 */
 #define VAR_SILVER_BAR_MIN_QUANTITY 0
 
+apply (name:"Silver bar" && quantity:<VAR_SILVER_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Steel bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_STEEL_BAR_MIN_QUANTITY 0
+
+apply (name:"Steel bar" && quantity:<VAR_STEEL_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8587,12 +8674,20 @@ group: Bar Filtering
 */
 #define VAR_GOLD_BAR_MIN_QUANTITY 0
 
+apply (name:"Gold bar" && quantity:<VAR_GOLD_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Mithril bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_MITHRIL_BAR_MIN_QUANTITY 0
+
+apply (name:"Mithril bar" && quantity:<VAR_MITHRIL_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8601,12 +8696,20 @@ group: Bar Filtering
 */
 #define VAR_ADAMANTITE_BAR_MIN_QUANTITY 0
 
+apply (name:"Adamantite bar" && quantity:<VAR_ADAMANTITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Runite bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_RUNITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Runite bar" && quantity:<VAR_RUNITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8615,12 +8718,20 @@ group: Bar Filtering
 */
 #define VAR_ELEMENTAL_METAL_MIN_QUANTITY 0
 
+apply (name:"Elemental metal" && quantity:<VAR_ELEMENTAL_METAL_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Primed bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_PRIMED_BAR_MIN_QUANTITY 0
+
+apply (name:"Primed bar" && quantity:<VAR_PRIMED_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8629,12 +8740,20 @@ group: Bar Filtering
 */
 #define VAR_PRIMED_MIND_BAR_MIN_QUANTITY 0
 
+apply (name:"Primed mind bar" && quantity:<VAR_PRIMED_MIND_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Blurite bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_BLURITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Blurite bar" && quantity:<VAR_BLURITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8643,12 +8762,20 @@ group: Bar Filtering
 */
 #define VAR_ENCHANTED_BAR_MIN_QUANTITY 0
 
+apply (name:"Enchanted bar" && quantity:<VAR_ENCHANTED_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:bars
 type: number
 label: Lovakite bar minimum quantity
 group: Bar Filtering
 */
 #define VAR_LOVAKITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Lovakite bar" && quantity:<VAR_LOVAKITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:bars
 type: number
@@ -8657,118 +8784,9 @@ group: Bar Filtering
 */
 #define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
 
-
-
-
-apply (name:VAR_BARS_HIDE) {
-    hidden = true;
-}
-
-apply (name:"Bronze bar") {
-    VAR_BRONZE_BAR_CUSTOMSTYLE 
-}
-apply (name:"Bronze bar" && quantity:<VAR_BRONZE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Iron bar") {
-    VAR_IRON_BAR_CUSTOMSTYLE 
-}
-apply (name:"Iron bar" && quantity:<VAR_IRON_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Silver bar") {
-    VAR_SILVER_BAR_CUSTOMSTYLE 
-}
-apply (name:"Silver bar" && quantity:<VAR_SILVER_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Steel bar") {
-    VAR_STEEL_BAR_CUSTOMSTYLE 
-}
-apply (name:"Steel bar" && quantity:<VAR_STEEL_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Gold bar") {
-    VAR_GOLD_BAR_CUSTOMSTYLE 
-}
-apply (name:"Gold bar" && quantity:<VAR_GOLD_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Mithril bar") {
-    VAR_MITHRIL_BAR_CUSTOMSTYLE 
-}
-apply (name:"Mithril bar" && quantity:<VAR_MITHRIL_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Adamantite bar") {
-    VAR_ADAMANTITE_BAR_CUSTOMSTYLE 
-}
-apply (name:"Adamantite bar" && quantity:<VAR_ADAMANTITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Runite bar") {
-    VAR_RUNITE_BAR_CUSTOMSTYLE 
-}
-apply (name:"Runite bar" && quantity:<VAR_RUNITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Elemental metal") {
-    VAR_ELEMENTAL_METAL_CUSTOMSTYLE 
-}
-apply (name:"Elemental metal" && quantity:<VAR_ELEMENTAL_METAL_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Primed bar") {
-    VAR_PRIMED_BAR_CUSTOMSTYLE 
-}
-apply (name:"Primed bar" && quantity:<VAR_PRIMED_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Primed mind bar") {
-    VAR_PRIMED_MIND_BAR_CUSTOMSTYLE 
-}
-apply (name:"Primed mind bar" && quantity:<VAR_PRIMED_MIND_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Blurite bar") {
-    VAR_BLURITE_BAR_CUSTOMSTYLE 
-}
-apply (name:"Blurite bar" && quantity:<VAR_BLURITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Enchanted bar") {
-    VAR_ENCHANTED_BAR_CUSTOMSTYLE 
-}
-apply (name:"Enchanted bar" && quantity:<VAR_ENCHANTED_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"Lovakite bar") {
-    VAR_LOVAKITE_BAR_CUSTOMSTYLE 
-}
-apply (name:"Lovakite bar" && quantity:<VAR_LOVAKITE_BAR_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"'Perfect' gold bar") {
-    VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE 
-}
 apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY) {
     hidden = true;
 }
-
 
 /*@ define:module:herbs
 ---
