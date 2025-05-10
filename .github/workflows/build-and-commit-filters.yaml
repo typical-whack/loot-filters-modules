@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "**/*.rs2f"
+      - "module_order"
   workflow_dispatch:
 
 jobs:
