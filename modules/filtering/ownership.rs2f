@@ -1,35 +1,35 @@
 /*@ define:group
 ---
-name: Ownership Filtering
+name: Ownership
 expanded: true
 description: |
-  Ownership Filtering
+  Ownership
   ---
   This has options to hide items based on their ownership.
 
   *Plugin Settings Change Required: Please disable "Ownership filter" and "Item spawn filter" in the "General" settings section of "Loot Filters" in the Runelite sidebar.*
 
-  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" lis
 */
 
 /*@ define:input:filtering
 type: boolean
 label: Hide others' drops
-group: Ownership Filtering
+group: Ownership
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
 /*@ define:input:filtering
 type: boolean
 label: Hide world spawns
-group: Ownership Filtering
+group: Ownership
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
 /*@ define:input:filtering
 type: stringlist
-label: Exceptions to ownership filtering
-group: Ownership Filtering
+label: Exceptions to ownership
+group: Ownership
 */
 #define VAR_OWNERSHIP_FILTERING_EXCEPTIONS [ \
     "Water container", \

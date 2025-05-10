@@ -1,9 +1,9 @@
 /*@ define:group
 ---
-name: Individual Item Filtering
+name: Individual Items
 expanded: true
 description: |
-  Individual Item Filtering
+  Individual Items
   ---
 
   Showing and hiding individual items.
@@ -12,7 +12,7 @@ description: |
 /*@ define:input:filtering
 type: stringlist
 label: Items to hide
-group: Individual Item Filtering
+group: Individual Items
 */
 #define VAR_GLOBAL_HIDE []
 
@@ -23,7 +23,7 @@ apply (name:VAR_GLOBAL_HIDE) {
 /*@ define:input:filtering
 type: stringlist
 label: Items to show
-group: Individual Item Filtering
+group: Individual Items
 */
 #define VAR_GLOBAL_SHOW []
 

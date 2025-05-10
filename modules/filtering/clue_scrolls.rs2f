@@ -1,9 +1,9 @@
 /*@ define:group
 ---
-name: Clue Scrolls Filtering
+name: Clue Scrolls
 expanded: false
 description: |
-  Clue Scrolls Filtering
+  Clue Scrolls
   ---
   Provides filtering out of specific clue tiers.
 */
@@ -11,7 +11,7 @@ description: |
 /*@ define:input:filtering
 type: enumlist
 label: Clue tiers to force hidden
-group: Clue Scrolls Filtering
+group: Clue Scrolls
 enum: [
   {
     "value": "Clue scroll (beginner)",
