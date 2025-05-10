@@ -20,6 +20,8 @@ name: Constants
 
 #define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
+#define CONST_GAUNTLET_AREA [1856, 5632, 0, 1983, 5695, 3]
+
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
     "1/2 meat pizza", \

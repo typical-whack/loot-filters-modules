@@ -24,6 +24,7 @@ individual_item_styles/raw_fish
 individual_item_styles/fishing_bait
 individual_item_styles/fishing_equipment
 individual_item_styles/currency
+individual_item_styles/gauntlet
 rdt
 currency
 clues
