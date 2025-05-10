@@ -13,6 +13,7 @@ filtering/runes
 filtering/herbs
 filtering/fishing
 filtering/ores
+filtering/bars
 filtering/logs
 filtering/farming_seeds
 filtering/herblore_secondaries
@@ -52,7 +53,6 @@ currency
 bossing
 slayer
 ammo
-bars
 metal_equipment
 final
 constants
