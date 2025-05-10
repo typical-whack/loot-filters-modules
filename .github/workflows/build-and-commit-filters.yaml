@@ -23,6 +23,11 @@ jobs:
           echo "Cleaning up previously built filter files"
           rm -f filter.rs2f default-filter.rs2f
 
+      - name: Compute vars
+        id: vars
+        run: |
+          echo "short_commit=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
       - name: Build
         run: |
           echo "Building filter"
@@ -49,17 +54,12 @@ jobs:
       - name: Print default filter
         run: cat default-filter.rs2f
 
-      - name: Compute vars
-        id: vars
-        run: |
-          echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-
       - name: Commit files
         run: |
           git add .
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -a -m "Build filters (sha: ${{ steps.vars.outputs.sha }})"
+          git commit -a -m "Build filters (sha: ${{ steps.vars.outputs.short_commit }})"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
