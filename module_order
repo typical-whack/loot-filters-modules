@@ -17,6 +17,7 @@ filtering/bars
 filtering/logs
 filtering/farming_seeds
 filtering/herblore_secondaries
+filtering/currency
 filtering/metal_equipment
 area_based_filtering/_module_definition
 area_based_filtering/chambers_of_xeric
@@ -50,7 +51,6 @@ individual_item_styles/currency
 individual_item_styles/gauntlet
 rdt
 utilities
-currency
 bossing
 slayer
 ammo
