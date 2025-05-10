@@ -1,0 +1,212 @@
+/*@ define:group
+---
+name: Tombs of Amascut
+description: |
+  Tombs of Amascut
+  ---
+  Provides filtering within the Tombs of Amascut. By default this filters out a MVP items and books.
+*/
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Supplies to force shown
+group: Tombs of Amascut
+enum: [
+  {
+    "value": "Honey locust (*",
+    "label": "Honey locust"
+  },
+  {
+    "value": "Ambrosia (*",
+    "label": "Ambrosia"
+  },
+  {
+    "value": "Blessed crystal scarab (*",
+    "label": "Blessed crystal scarab"
+  },
+  {
+    "value": "Liquid adrenaline (*",
+    "label": "Liquid adrenaline"
+  },
+  {
+    "value": "Nectar (*",
+    "label": "Nectar"
+  },
+  {
+    "value": "Silk dressing (*",
+    "label": "Silk dressing"
+  },
+  {
+    "value": "Smelling salts (*",
+    "label": "Smelling salts"
+  },
+  {
+    "value": "Tears of Elidinis (*",
+    "label": "Tears of Elidinis"
+  }
+]
+*/
+#define VAR_TOA_SUPPLIES_SHOW []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Supplies to force hidden
+group: Tombs of Amascut
+enum: [
+  {
+    "value": "Honey locust (*",
+    "label": "Honey locust"
+  },
+  {
+    "value": "Ambrosia (*",
+    "label": "Ambrosia"
+  },
+  {
+    "value": "Blessed crystal scarab (*",
+    "label": "Blessed crystal scarab"
+  },
+  {
+    "value": "Liquid adrenaline (*",
+    "label": "Liquid adrenaline"
+  },
+  {
+    "value": "Nectar (*",
+    "label": "Nectar"
+  },
+  {
+    "value": "Silk dressing (*",
+    "label": "Silk dressing"
+  },
+  {
+    "value": "Smelling salts (*",
+    "label": "Smelling salts"
+  },
+  {
+    "value": "Tears of Elidinis (*",
+    "label": "Tears of Elidinis"
+  }
+]
+*/
+#define VAR_TOA_SUPPLIES_HIDE []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Room items to force shown
+group: Tombs of Amascut
+enum: [
+  "Neutralising potion",
+  "Water container"
+]
+*/
+#define VAR_TOA_ROOM_ITEMS_SHOW [ \
+  "Water container", \
+]
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Room items to force hidden
+group: Tombs of Amascut
+enum: [
+  "Neutralising potion",
+  "Water container"
+]
+*/
+#define VAR_TOA_ROOM_ITEMS_HIDE [ \
+  "Neutralising potion", \
+]
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: MVP items to force shown
+group: Tombs of Amascut
+enum: [
+  "Big banana",
+  "Eldritch ashes",
+  "Fang",
+  "Scarab dung"
+]
+*/
+#define VAR_TOA_MVP_ITEMS_SHOW []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: MVP items to force hidden
+group: Tombs of Amascut
+enum: [
+  "Big banana",
+  "Eldritch ashes",
+  "Fang",
+  "Scarab dung"
+]
+*/
+#define VAR_TOA_MVP_ITEMS_HIDE [ \
+  "Big banana", \
+  "Eldritch ashes", \
+  "Fang", \
+  "Scarab dung", \
+]
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Books to force shown
+group: Tombs of Amascut
+enum: [
+  "Akila's journal",
+  "Apmeken's Capture",
+  "Crondis' Capture",
+  "Het's Capture",
+  "Scabaras' Capture",
+  "The Wardens",
+  "The Jackal's Torch"
+]
+*/
+#define VAR_TOA_BOOKS_SHOW []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Books to force hidden
+group: Tombs of Amascut
+enum: [
+  "Akila's journal",
+  "Apmeken's Capture",
+  "Crondis' Capture",
+  "Het's Capture",
+  "Scabaras' Capture",
+  "The Wardens",
+  "The Jackal's Torch"
+]
+*/
+#define VAR_TOA_BOOKS_HIDE [ \
+  "Akila's journal", \
+  "Apmeken's Capture", \
+  "Crondis' Capture", \
+  "Het's Capture", \
+  "Scabaras' Capture", \
+  "The Wardens", \
+  "The Jackal's Torch", \
+]
+
+apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
+    hidden = false;
+}

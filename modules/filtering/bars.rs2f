@@ -1,0 +1,206 @@
+/*@ define:group
+---
+name: Bars
+description: |
+  Bars
+  ---
+  This module provides bar tier filters and quantity filters for all bars.
+*/
+
+/*@ define:input:bars
+type: enumlist
+label: Bars to force hidden
+group: Bars
+enum: [
+  "Bronze bar",
+  "Iron bar",
+  "Silver bar",
+  "Steel bar",
+  "Gold bar",
+  "Mithril bar",
+  "Adamantite bar",
+  "Runite bar",
+  "Elemental metal",
+  "Primed bar",
+  "Primed mind bar",
+  "Blurite bar",
+  "Enchanted bar",
+  "Lovakite bar",
+  "'Perfect' gold bar"
+]
+*/
+#define VAR_BARS_HIDE [ \
+  "Bronze bar", \
+  "Iron bar", \
+  "Silver bar", \
+  "Gold bar", \
+]
+
+apply (name:VAR_BARS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Bronze bar minimum quantity
+group: Bars
+*/
+#define VAR_BRONZE_BAR_MIN_QUANTITY 0
+
+apply (name:"Bronze bar" && quantity:<VAR_BRONZE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Iron bar minimum quantity
+group: Bars
+*/
+#define VAR_IRON_BAR_MIN_QUANTITY 0
+
+apply (name:"Iron bar" && quantity:<VAR_IRON_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Silver bar minimum quantity
+group: Bars
+*/
+#define VAR_SILVER_BAR_MIN_QUANTITY 0
+
+apply (name:"Silver bar" && quantity:<VAR_SILVER_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Steel bar minimum quantity
+group: Bars
+*/
+#define VAR_STEEL_BAR_MIN_QUANTITY 0
+
+apply (name:"Steel bar" && quantity:<VAR_STEEL_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Gold bar minimum quantity
+group: Bars
+*/
+#define VAR_GOLD_BAR_MIN_QUANTITY 0
+
+apply (name:"Gold bar" && quantity:<VAR_GOLD_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Mithril bar minimum quantity
+group: Bars
+*/
+#define VAR_MITHRIL_BAR_MIN_QUANTITY 0
+
+apply (name:"Mithril bar" && quantity:<VAR_MITHRIL_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Adamantite bar minimum quantity
+group: Bars
+*/
+#define VAR_ADAMANTITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Adamantite bar" && quantity:<VAR_ADAMANTITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Runite bar minimum quantity
+group: Bars
+*/
+#define VAR_RUNITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Runite bar" && quantity:<VAR_RUNITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Elemental metal minimum quantity
+group: Bars
+*/
+#define VAR_ELEMENTAL_METAL_MIN_QUANTITY 0
+
+apply (name:"Elemental metal" && quantity:<VAR_ELEMENTAL_METAL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Primed bar minimum quantity
+group: Bars
+*/
+#define VAR_PRIMED_BAR_MIN_QUANTITY 0
+
+apply (name:"Primed bar" && quantity:<VAR_PRIMED_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Primed mind bar minimum quantity
+group: Bars
+*/
+#define VAR_PRIMED_MIND_BAR_MIN_QUANTITY 0
+
+apply (name:"Primed mind bar" && quantity:<VAR_PRIMED_MIND_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Blurite bar minimum quantity
+group: Bars
+*/
+#define VAR_BLURITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Blurite bar" && quantity:<VAR_BLURITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Enchanted bar minimum quantity
+group: Bars
+*/
+#define VAR_ENCHANTED_BAR_MIN_QUANTITY 0
+
+apply (name:"Enchanted bar" && quantity:<VAR_ENCHANTED_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: Lovakite bar minimum quantity
+group: Bars
+*/
+#define VAR_LOVAKITE_BAR_MIN_QUANTITY 0
+
+apply (name:"Lovakite bar" && quantity:<VAR_LOVAKITE_BAR_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:bars
+type: number
+label: "'Perfect' gold bar minimum quantity"
+group: Bars
+*/
+#define VAR_PERFECT_GOLD_BAR_MIN_QUANTITY 0
+
+apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY) {
+    hidden = true;
+}

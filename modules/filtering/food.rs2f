@@ -1,0 +1,158 @@
+/*@ define:group
+---
+name: Food
+description: |
+  Food
+  ---
+  Provides filters based on food groups with some sane defaults.
+*/
+
+/*@ define:input:food
+type: enumlist
+label: Hunter foods to force hidden
+group: Food
+enum: [
+  "Cooked wild kebbit",
+  "Cooked larupia",
+  "Cooked barb-tailed kebbit",
+  "Cooked graahk",
+  "Cooked kyatt",
+  "Cooked pyre fox",
+  "Cooked sunlight antelope",
+  "Cooked dashing kebbit",
+  "Cooked moonlight antelope"
+]
+*/
+#define VAR_FOOD_HUNTER_FOODS_HIDE [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk", \
+]
+
+apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:food
+type: enumlist
+label: Fish foods to force hidden
+group: Food
+enum: [
+  "Shrimp",
+  "Sardine",
+  "Karambwanji",
+  "Herring",
+  "Anchovies",
+  "Mackerel",
+  "Trout",
+  "Cod",
+  "Pike",
+  "Slimy eel",
+  "Salmon",
+  "Tuna",
+  "Rainbow fish",
+  "Cave eel",
+  "Lobster",
+  "Bass",
+  "Swordfish",
+  "Lava eel",
+  "Monkfish",
+  "Cooked karambwan",
+  "Shark",
+  "Sea turtle",
+  "Manta ray",
+  "Anglerfish",
+  "Dark crab"
+]
+*/
+#define VAR_FOOD_FISH_FOODS_HIDE [ \
+  "Shrimp", \
+  "Sardine", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Salmon", \
+  "Tuna", \
+]
+
+apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:food
+type: enumlist
+label: Hunter foods to force shown
+group: Food
+enum: [
+  "Cooked wild kebbit",
+  "Cooked larupia",
+  "Cooked barb-tailed kebbit",
+  "Cooked graahk",
+  "Cooked kyatt",
+  "Cooked pyre fox",
+  "Cooked sunlight antelope",
+  "Cooked dashing kebbit",
+  "Cooked moonlight antelope"
+]
+*/
+#define VAR_FOOD_HUNTER_FOODS_SHOW [ \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope", \
+]
+
+apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:food
+type: enumlist
+label: Fish foods to force shown
+group: Food
+enum: [
+  "Shrimp",
+  "Sardine",
+  "Karambwanji",
+  "Herring",
+  "Anchovies",
+  "Mackerel",
+  "Trout",
+  "Cod",
+  "Pike",
+  "Slimy eel",
+  "Salmon",
+  "Tuna",
+  "Rainbow fish",
+  "Cave eel",
+  "Lobster",
+  "Bass",
+  "Swordfish",
+  "Lava eel",
+  "Monkfish",
+  "Cooked karambwan",
+  "Shark",
+  "Sea turtle",
+  "Manta ray",
+  "Anglerfish",
+  "Dark crab"
+]
+*/
+#define VAR_FOOD_FISH_FOODS_SHOW [ \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab", \
+]
+
+apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
+    hidden = false;
+}

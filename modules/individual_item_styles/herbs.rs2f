@@ -1,0 +1,264 @@
+/*@ define:group
+---
+name: Herbs Styles
+expanded: false
+description: |
+  Herbs Styles
+  ---
+  This group provides custom styling for all herbs. By default this colors all herbs similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Guam leaf custom style
+group: Herbs Styles
+exampleItem: Guam leaf
+*/
+#define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5009550d";\
+  borderColor = "#FF09550d";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF09550d";
+
+apply (name:"*guam leaf") {
+    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Marrentill custom style
+group: Herbs Styles
+exampleItem: Marrentill
+*/
+#define VAR_HERBS_MARRENTILL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500c7610";\
+  borderColor = "#FF0c7610";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0c7610";
+
+apply (name:"*marrentill") {
+    VAR_HERBS_MARRENTILL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tarromin custom style
+group: Herbs Styles
+exampleItem: Tarromin
+*/
+#define VAR_HERBS_TARROMIN_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500c7138";\
+  borderColor = "#FF0c7138";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0c7138";
+
+apply (name:"*tarromin") {
+    VAR_HERBS_TARROMIN_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Harralander custom style
+group: Herbs Styles
+exampleItem: Harralander
+*/
+#define VAR_HERBS_HARRALANDER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5054780c";\
+  borderColor = "#FF54780c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF54780c";
+
+apply (name:"*harralander") {
+    VAR_HERBS_HARRALANDER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ranarr weed custom style
+group: Herbs Styles
+exampleItem: Ranarr weed
+*/
+#define VAR_HERBS_RANARR_WEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503c5f09";\
+  borderColor = "#FF3c5f09";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF3c5f09";
+
+apply (name:"*ranarr weed") {
+    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Toadflax custom style
+group: Herbs Styles
+exampleItem: Toadflax
+*/
+#define VAR_HERBS_TOADFLAX_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50002400";\
+  borderColor = "#FF002400";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF002400";
+
+apply (name:"*toadflax") {
+    VAR_HERBS_TOADFLAX_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Irit leaf custom style
+group: Herbs Styles
+exampleItem: Irit leaf
+*/
+#define VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50507436";\
+  borderColor = "#FF507436";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF507436";
+
+apply (name:"*irit leaf") {
+    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Avantoe custom style
+group: Herbs Styles
+exampleItem: Avantoe
+*/
+#define VAR_HERBS_AVANTOE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50145326";\
+  borderColor = "#FF145326";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF145326";
+
+apply (name:"*avantoe") {
+    VAR_HERBS_AVANTOE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Kwuarm custom style
+group: Herbs Styles
+exampleItem: Kwuarm
+*/
+#define VAR_HERBS_KWUARM_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504d5709";\
+  borderColor = "#FF4d5709";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4d5709";
+
+apply (name:"*kwuarm") {
+    VAR_HERBS_KWUARM_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Huasca custom style
+group: Herbs Styles
+exampleItem: Huasca
+*/
+#define VAR_HERBS_HUASCA_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50513748";\
+  borderColor = "#FF513748";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF513748";
+
+apply (name:"*huasca") {
+    VAR_HERBS_HUASCA_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Snapdragon custom style
+group: Herbs Styles
+exampleItem: Snapdragon
+*/
+#define VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503e4b08";\
+  borderColor = "#FF3e4b08";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF3e4b08";
+
+apply (name:"*snapdragon") {
+    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cadantine custom style
+group: Herbs Styles
+exampleItem: Cadantine
+*/
+#define VAR_HERBS_CADANTINE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5044501c";\
+  borderColor = "#FF44501c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF44501c";
+
+apply (name:"*cadantine") {
+    VAR_HERBS_CADANTINE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lantadyme custom style
+group: Herbs Styles
+exampleItem: Lantadyme
+*/
+#define VAR_HERBS_LANTADYME_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5008473c";\
+  borderColor = "#FF08473c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF08473c";
+
+apply (name:"*lantadyme") {
+    VAR_HERBS_LANTADYME_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dwarf weed custom style
+group: Herbs Styles
+exampleItem: Dwarf weed
+*/
+#define VAR_HERBS_DWARF_WEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50094809";\
+  borderColor = "#FF094809";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF094809";
+
+apply (name:"*dwarf weed") {
+    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Torstol custom style
+group: Herbs Styles
+exampleItem: Torstol
+*/
+#define VAR_HERBS_TORSTOL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5009570c";\
+  borderColor = "#FF09570c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF09570c";
+
+apply (name:"*torstol") {
+    VAR_HERBS_TORSTOL_CUSTOMSTYLE 
+}

@@ -1,0 +1,180 @@
+/*@ define:group
+---
+name: Gems Styles
+expanded: false
+description: |
+  Gems Styles
+  ---
+  This group provides custom styling for all gems. By default this colors all gems similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sapphire custom style
+group: Gems Styles
+exampleItem: Sapphire
+*/
+#define VAR_SAPPHIRE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500C1273";\
+  borderColor = "#FF0C1273";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0C1273";
+
+apply (name:["Uncut sapphire", \
+  "Sapphire", \
+]) {
+    VAR_SAPPHIRE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Emerald custom style
+group: Gems Styles
+exampleItem: Emerald
+*/
+#define VAR_EMERALD_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500C6B0F";\
+  borderColor = "#FF0C6B0F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0C6B0F";
+
+apply (name:["Uncut emerald", \
+  "Emerald", \
+]) {
+    VAR_EMERALD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ruby custom style
+group: Gems Styles
+exampleItem: Ruby
+*/
+#define VAR_RUBY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504E0F08";\
+  borderColor = "#FF4E0F08";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4E0F08";
+
+apply (name:["Uncut ruby", \
+  "Ruby", \
+]) {
+    VAR_RUBY_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Diamond custom style
+group: Gems Styles
+exampleItem: Diamond
+*/
+#define VAR_DIAMOND_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50857D7D";\
+  borderColor = "#FF857D7D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF857D7D";
+
+apply (name:["Uncut diamond", \
+  "Diamond", \
+]) {
+    VAR_DIAMOND_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Opal custom style
+group: Gems Styles
+exampleItem: Opal
+*/
+#define VAR_OPAL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#507E7D63";\
+  borderColor = "#FF7E7D63";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7E7D63";
+
+apply (name:["Uncut opal", \
+  "Opal", \
+]) {
+    VAR_OPAL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Jade custom style
+group: Gems Styles
+exampleItem: Jade
+*/
+#define VAR_JADE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506E7E64";\
+  borderColor = "#FF6E7E64";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6E7E64";
+
+apply (name:["Uncut jade", \
+  "Jade", \
+]) {
+    VAR_JADE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Red topaz custom style
+group: Gems Styles
+exampleItem: Red topaz
+*/
+#define VAR_RED_TOPAZ_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50830E4F";\
+  borderColor = "#FF830E4F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF830E4F";
+
+apply (name:["Uncut red topaz", \
+  "Red topaz", \
+]) {
+    VAR_RED_TOPAZ_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dragonstone custom style
+group: Gems Styles
+exampleItem: Dragonstone
+*/
+#define VAR_DRAGONSTONE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504C0B62";\
+  borderColor = "#FF4C0B62";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4C0B62";
+
+apply (name:["Uncut dragonstone", \
+  "Dragonstone", \
+]) {
+    VAR_DRAGONSTONE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Onyx custom style
+group: Gems Styles
+exampleItem: Onyx
+*/
+#define VAR_ONYX_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501C1A1A";\
+  borderColor = "#FF1C1A1A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1C1A1A";
+
+apply (name:["Uncut onyx", \
+  "Onyx", \
+]) {
+    VAR_ONYX_CUSTOMSTYLE 
+}

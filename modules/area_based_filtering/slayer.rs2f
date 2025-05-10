@@ -1,0 +1,267 @@
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer drops force hidden
+group: Wilderness Slayer
+enum: [
+  "Slayer's enchantment"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_HIDE [ \
+  "Slayer's enchantment", \
+]
+
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer drops force shown
+group: Wilderness Slayer
+enum: [
+  "Slayer's enchantment"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_SHOW []
+
+apply (name:VAR_SLAYER_WILDERNESS_SLAYER_HIDE) {
+    hidden = true;
+}
+
+apply (name:VAR_SLAYER_WILDERNESS_SLAYER_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer cave drops force hidden
+group: Wilderness Slayer
+enum: [
+  "Blighted entangle sack",
+  "Blighted anglerfish",
+  "Blighted manta ray",
+  "Blighted karambwan",
+  "Blighted teleport spell sack",
+  "Blighted ancient ice sack",
+  "Blighted vengeance sack",
+  "Blighted super restore(4)",
+  "Revenant cave teleport",
+  "Dareeyak teleport (tablet)",
+  "Wilderness crabs teleport",
+  "Carrallanger teleport (tablet)",
+  "Paddewwa teleport (tablet)",
+  "Annakarl teleport (tablet)",
+  "Lassar teleport (tablet)",
+  "Kharyrll teleport (tablet)",
+  "Senntisten teleport (tablet)",
+  "Ghorrock teleport (tablet)",
+  "Target teleport",
+  "Magic shortbow scroll",
+  "Ring of wealth scroll",
+  "Trouver parchment",
+  "Looting bag note"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE [ \
+  "Blighted entangle sack", \
+  "Blighted karambwan", \
+  "Blighted teleport spell sack", \
+]
+
+/*@ define:input:slayer
+type: enumlist
+label: Wilderness slayer cave drops force shown
+group: Wilderness Slayer
+enum: [
+  "Blighted entangle sack",
+  "Blighted anglerfish",
+  "Blighted manta ray",
+  "Blighted karambwan",
+  "Blighted teleport spell sack",
+  "Blighted ancient ice sack",
+  "Blighted vengeance sack",
+  "Blighted super restore(4)",
+  "Revenant cave teleport",
+  "Dareeyak teleport (tablet)",
+  "Wilderness crabs teleport",
+  "Carrallanger teleport (tablet)",
+  "Paddewwa teleport (tablet)",
+  "Annakarl teleport (tablet)",
+  "Lassar teleport (tablet)",
+  "Kharyrll teleport (tablet)",
+  "Senntisten teleport (tablet)",
+  "Ghorrock teleport (tablet)",
+  "Target teleport",
+  "Magic shortbow scroll",
+  "Ring of wealth scroll",
+  "Trouver parchment",
+  "Looting bag note"
+]
+*/
+#define VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW []
+
+apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:slayer
+type: enumlist
+label: Unique drop force hidden
+group: Smoke Devils
+enum: [
+  "Occult necklace",
+  "Dragon chainbody"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE []
+
+/*@ define:input:slayer
+type: enumlist
+label: Unique drop force shown
+group: Smoke Devils
+enum: [
+  "Occult necklace",
+  "Dragon chainbody"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW []
+
+/*@ define:input:slayer
+type: enumlist
+label: Common drop force hidden
+group: Smoke Devils
+enum: [
+  "Adamant battleaxe",
+  "Adamantite bar",
+  "Air battlestaff",
+  "Air rune",
+  "Ashes",
+  "Black d'hide vambraces",
+  "Coal",
+  "Coins",
+  "Crossbow string",
+  "Fire battlestaff",
+  "Fire rune",
+  "Magic logs",
+  "Mithril plateskirt",
+  "Red d'hide body",
+  "Rune arrow",
+  "Rune chainbody",
+  "Rune dagger",
+  "Rune full helm",
+  "Runite bolts",
+  "Shark",
+  "Smoke rune",
+  "Soul rune",
+  "Steel bar",
+  "Ugthanki kebab"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE [ \
+  "Adamant battleaxe", \
+  "Adamantite bar", \
+  "Air rune", \
+  "Ashes", \
+  "Coal", \
+  "Coins", \
+  "Crossbow string", \
+  "Fire rune", \
+  "Mithril plateskirt", \
+  "Red d'hide body", \
+  "Rune arrow", \
+  "Runite bolts", \
+  "Shark", \
+  "Steel bar", \
+  "Ugthanki kebab", \
+]
+
+/*@ define:input:slayer
+type: enumlist
+label: Common drop force shown
+group: Smoke Devils
+enum: [
+  "Adamant battleaxe",
+  "Adamantite bar",
+  "Air battlestaff",
+  "Air rune",
+  "Ashes",
+  "Black d'hide vambraces",
+  "Coal",
+  "Coins",
+  "Crossbow string",
+  "Fire battlestaff",
+  "Fire rune",
+  "Magic logs",
+  "Mithril plateskirt",
+  "Red d'hide body",
+  "Rune arrow",
+  "Rune chainbody",
+  "Rune dagger",
+  "Rune full helm",
+  "Runite bolts",
+  "Shark",
+  "Smoke rune",
+  "Soul rune",
+  "Steel bar",
+  "Ugthanki kebab"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW []
+
+/*@ define:input:slayer
+type: enumlist
+label: Herb drop force hidden
+group: Smoke Devils
+enum: [
+  "Grimy guam leaf",
+  "Grimy marrentill",
+  "Grimy tarromin",
+  "Grimy harralander",
+  "Grimy ranarr weed",
+  "Grimy irit leaf",
+  "Grimy avantoe",
+  "Grimy kwuarm",
+  "Grimy cadantine",
+  "Grimy lantadyme",
+  "Grimy dwarf weed"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE []
+
+/*@ define:input:slayer
+type: enumlist
+label: Herb drop force shown
+group: Smoke Devils
+enum: [
+  "Grimy guam leaf",
+  "Grimy marrentill",
+  "Grimy tarromin",
+  "Grimy harralander",
+  "Grimy ranarr weed",
+  "Grimy irit leaf",
+  "Grimy avantoe",
+  "Grimy kwuarm",
+  "Grimy cadantine",
+  "Grimy lantadyme",
+  "Grimy dwarf weed"
+]
+*/
+#define VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW []
+
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_UNIQUES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_COMMON_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_SHOW) {
+    hidden = false;
+}

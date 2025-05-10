@@ -1,0 +1,34 @@
+/*@ define:group
+---
+name: "Ancient Guthixian Temple (Tormented Demons)"
+description: |
+  "Ancient Guthixian Temple (Tormented Demons)"
+  ---
+  Provides filtering within the Ancient Guthixian Temple, specifically for Tormented Demons.
+*/
+
+/*@ define:input:area_based_filtering
+type: stringlist
+label: List of items to force hidden at tormented demons
+group: "Ancient Guthixian Temple (Tormented Demons)"
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_HIDE []
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:area_based_filtering
+type: stringlist
+label: List of items to force shown at tormented demons
+group: "Ancient Guthixian Temple (Tormented Demons)"
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SHOW [ \
+    "Smouldering gland", \
+    "Smouldering heart", \
+    "Smouldering pile of flesh", \
+]
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SHOW) {
+    hidden = false;
+}

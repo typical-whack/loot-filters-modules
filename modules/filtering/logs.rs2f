@@ -1,0 +1,201 @@
+/*@ define:group
+---
+name: Logs
+description: |
+  Logs
+  ---
+  Provides quantity filters and log type filters.
+*/
+
+/*@ define:input:logs
+type: enumlist
+label: Logs to force hidden
+group: Logs
+enum: [
+  "Logs",
+  "Oak logs",
+  "Willow logs",
+  "Maple logs",
+  "Yew logs",
+  "Magic logs",
+  "Redwood logs",
+  "Teak logs",
+  "Mahogany logs",
+  "Achey tree logs",
+  "Arctic pine logs",
+  "Scrapey tree logs",
+  "Juniper logs",
+  "Bark",
+  "Blisterwood logs"
+]
+*/
+#define VAR_LOGS_HIDE []
+
+/*@ define:input:logs
+type: number
+label: Logs minimum quantity
+group: Logs
+*/
+#define VAR_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Oak logs minimum quantity
+group: Logs
+*/
+#define VAR_OAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Willow logs minimum quantity
+group: Logs
+*/
+#define VAR_WILLOW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Maple logs minimum quantity
+group: Logs
+*/
+#define VAR_MAPLE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Yew logs minimum quantity
+group: Logs
+*/
+#define VAR_YEW_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Magic logs minimum quantity
+group: Logs
+*/
+#define VAR_MAGIC_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Redwood logs minimum quantity
+group: Logs
+*/
+#define VAR_REDWOOD_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Teak logs minimum quantity
+group: Logs
+*/
+#define VAR_TEAK_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Mahogany logs minimum quantity
+group: Logs
+*/
+#define VAR_MAHOGANY_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Achey tree logs minimum quantity
+group: Logs
+*/
+#define VAR_ACHEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Arctic pine logs minimum quantity
+group: Logs
+*/
+#define VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Scrapey tree logs minimum quantity
+group: Logs
+*/
+#define VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Juniper logs minimum quantity
+group: Logs
+*/
+#define VAR_JUNIPER_LOGS_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Bark minimum quantity
+group: Logs
+*/
+#define VAR_BARK_MIN_QUANTITY 0
+
+/*@ define:input:logs
+type: number
+label: Blisterwood logs minimum quantity
+group: Logs
+*/
+#define VAR_BLISTERWOOD_LOGS_MIN_QUANTITY 0
+
+apply (name:VAR_LOGS_HIDE) {
+    hidden = true;
+}
+
+apply (name:"Logs" && quantity:<VAR_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Oak logs" && quantity:<VAR_OAK_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Willow logs" && quantity:<VAR_WILLOW_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Maple logs" && quantity:<VAR_MAPLE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Yew logs" && quantity:<VAR_YEW_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Magic logs" && quantity:<VAR_MAGIC_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Redwood logs" && quantity:<VAR_REDWOOD_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Teak logs" && quantity:<VAR_TEAK_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Mahogany logs" && quantity:<VAR_MAHOGANY_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Achey tree logs" && quantity:<VAR_ACHEY_TREE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Arctic pine logs" && quantity:<VAR_ARCTIC_PINE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Scrapey tree logs" && quantity:<VAR_SCRAPEY_TREE_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Juniper logs" && quantity:<VAR_JUNIPER_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Bark" && quantity:<VAR_BARK_MIN_QUANTITY) {
+    hidden = true;
+}
+
+apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
+    hidden = true;
+}

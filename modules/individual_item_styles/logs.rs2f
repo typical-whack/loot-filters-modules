@@ -1,0 +1,264 @@
+/*@ define:group
+---
+name: Logs Styles
+expanded: false
+description: |
+  Logs Styles
+  ---
+  This group provides custom styling for all logs. By default this colors all logs similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Logs custom style
+group: Logs Styles
+exampleItem: Logs
+*/
+#define VAR_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AF8F51";\
+  borderColor = "#FF7F623A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7F623A";
+
+apply (name:"Logs") {
+    VAR_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Oak logs custom style
+group: Logs Styles
+exampleItem: Oak logs
+*/
+#define VAR_OAK_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A7875E";\
+  borderColor = "#FF8B6B40";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8B6B40";
+
+apply (name:"Oak logs") {
+    VAR_OAK_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Willow logs custom style
+group: Logs Styles
+exampleItem: Willow logs
+*/
+#define VAR_WILLOW_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5071673F";\
+  borderColor = "#FF564D20";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF564D20";
+
+apply (name:"Willow logs") {
+    VAR_WILLOW_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Maple logs custom style
+group: Logs Styles
+exampleItem: Maple logs
+*/
+#define VAR_MAPLE_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50846230";\
+  borderColor = "#FF704C0D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF704C0D";
+
+apply (name:"Maple logs") {
+    VAR_MAPLE_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Yew logs custom style
+group: Logs Styles
+exampleItem: Yew logs
+*/
+#define VAR_YEW_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50856D3D";\
+  borderColor = "#FF5C4409";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5C4409";
+
+apply (name:"Yew logs") {
+    VAR_YEW_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Magic logs custom style
+group: Logs Styles
+exampleItem: Magic logs
+*/
+#define VAR_MAGIC_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#502AA79A";\
+  borderColor = "#FF8F8560";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8F8560";
+
+apply (name:"Magic logs") {
+    VAR_MAGIC_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Redwood logs custom style
+group: Logs Styles
+exampleItem: Redwood logs
+*/
+#define VAR_REDWOOD_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50B87242";\
+  borderColor = "#FF73460D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF73460D";
+
+apply (name:"Redwood logs") {
+    VAR_REDWOOD_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Teak logs custom style
+group: Logs Styles
+exampleItem: Teak logs
+*/
+#define VAR_TEAK_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50937243";\
+  borderColor = "#FFBFA26C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFBFA26C";
+
+apply (name:"Teak logs") {
+    VAR_TEAK_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mahogany logs custom style
+group: Logs Styles
+exampleItem: Mahogany logs
+*/
+#define VAR_MAHOGANY_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50693F09";\
+  borderColor = "#FFBEA16C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFBEA16C";
+
+apply (name:"Mahogany logs") {
+    VAR_MAHOGANY_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Achey tree logs custom style
+group: Logs Styles
+exampleItem: Achey tree logs
+*/
+#define VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#508C805E";\
+  borderColor = "#FF746642";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF746642";
+
+apply (name:"Achey tree logs") {
+    VAR_ACHEY_TREE_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Arctic pine logs custom style
+group: Logs Styles
+exampleItem: Arctic pine logs
+*/
+#define VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CBAC73";\
+  borderColor = "#FFAB8C4E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFAB8C4E";
+
+apply (name:"Arctic pine logs") {
+    VAR_ARCTIC_PINE_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Scrapey tree logs custom style
+group: Logs Styles
+exampleItem: Scrapey tree logs
+*/
+#define VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503F6409";\
+  borderColor = "#FF7F683A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7F683A";
+
+apply (name:"Scrapey tree logs") {
+    VAR_SCRAPEY_TREE_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Juniper logs custom style
+group: Logs Styles
+exampleItem: Juniper logs
+*/
+#define VAR_JUNIPER_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50A28F6E";\
+  borderColor = "#FF988667";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF988667";
+
+apply (name:"Juniper logs") {
+    VAR_JUNIPER_LOGS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Bark custom style
+group: Logs Styles
+exampleItem: Bark
+*/
+#define VAR_BARK_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5087734B";\
+  borderColor = "#FF483A20";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF483A20";
+
+apply (name:"Bark") {
+    VAR_BARK_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blisterwood logs custom style
+group: Logs Styles
+exampleItem: Blisterwood logs
+*/
+#define VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50923A34";\
+  borderColor = "#FFDFDBDB";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFDFDBDB";
+
+apply (name:"Blisterwood logs") {
+    VAR_BLISTERWOOD_LOGS_CUSTOMSTYLE 
+}

@@ -1,0 +1,248 @@
+/*@ define:group
+---
+name: Last Man Standing
+expanded: false
+description: |
+  Last Man Standing
+  ---
+  Provides area-based filtering for the Last Man Standing minigame.
+*/
+
+/*@ define:input:area_based_filtering
+type: boolean
+label: Hide starting gear
+group: Last Man Standing
+*/
+#define VAR_LAST_MAN_STANDING_STARTER_GEAR_HIDE true
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:CONST_LAST_MAN_STANDING_STARTER_GEAR_LIST && VAR_LAST_MAN_STANDING_STARTER_GEAR_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:CONST_LAST_MAN_STANDING_STARTER_GEAR_LIST && VAR_LAST_MAN_STANDING_STARTER_GEAR_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:area_based_filtering
+type: number
+label: Hide ammo under this quantity
+group: Last Man Standing
+*/
+#define VAR_LAST_MAN_STANDING_AMMO_MIN_QUANTITY 100
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:CONST_LAST_MAN_STANDING_AMMO_LIST && quantity:<VAR_LAST_MAN_STANDING_AMMO_MIN_QUANTITY) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:CONST_LAST_MAN_STANDING_AMMO_LIST && quantity:<VAR_LAST_MAN_STANDING_AMMO_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Misc Hidden Items
+group: Last Man Standing
+enum: [
+  "Mithril seeds"
+]
+*/
+#define VAR_LAST_MAN_STANDING_MISC_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_MISC_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MISC_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Weapons Hidden Items
+group: Last Man Standing
+enum: [
+  "Ancient godsword",
+  "Armadyl godsword",
+  "Dharok's greataxe",
+  "Dragon claws",
+  "Dual macuahuitl",
+  "Elder maul",
+  "Ghrazi rapier",
+  "Granite maul",
+  "Inquisitor's mace",
+  "Statius's warhammer",
+  "Verac's flail",
+  "Vesta's longsword",
+  "Voidwaker"
+]
+*/
+#define VAR_LAST_MAN_STANDING_MELEE_WEAPONS_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_MELEE_WEAPONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MELEE_WEAPONS_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Armour Hidden Items
+group: Last Man Standing
+enum: [
+  "Amulet of fury",
+  "Amulet of torture",
+  "Bandos tassets",
+  "Blessed spirit shield",
+  "Blood moon chestplate",
+  "Blood moon helm",
+  "Blood moon tassets",
+  "Dharok's helm",
+  "Dharok's platebody",
+  "Dharok's platelegs",
+  "Fremennik kilt",
+  "Guthan's helm",
+  "Guthix halo",
+  "Infernal cape",
+  "Inquisitor's great helm",
+  "Inquisitor's hauberk",
+  "Inquisitor's plateskirt",
+  "Lightbearer",
+  "Saradomin halo",
+  "Spiked manacles",
+  "Torag's helm",
+  "Torag's platelegs",
+  "Verac's brassard",
+  "Verac's helm",
+  "Verac's plateskirt",
+  "Zamorak halo"
+]
+*/
+#define VAR_LAST_MAN_STANDING_MELEE_ARMOUR_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_MELEE_ARMOUR_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MELEE_ARMOUR_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Weapons Hidden Items
+group: Last Man Standing
+enum: [
+  "Armadyl crossbow",
+  "Dark bow",
+  "Dragon knife",
+  "Eclipse atlatl",
+  "Heavy ballista",
+  "Light ballista",
+  "Morrigan's javelin",
+  "Zaryte crossbow"
+]
+*/
+#define VAR_LAST_MAN_STANDING_RANGED_WEAPONS_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_RANGED_WEAPONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_RANGED_WEAPONS_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Armour Hidden Items
+group: Last Man Standing
+enum: [
+  "3rd age range coif",
+  "3rd age range legs",
+  "3rd age range top",
+  "Eclipse moon chestplate",
+  "Eclipse moon helm",
+  "Eclipse moon tassets",
+  "Guthix chaps",
+  "Karil's leathertop",
+  "Necklace of anguish",
+  "Rangers' tunic",
+  "Saradomin chaps",
+  "Zamorak chaps"
+]
+*/
+#define VAR_LAST_MAN_STANDING_RANGED_ARMOUR_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_RANGED_ARMOUR_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_RANGED_ARMOUR_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Ammo Hidden Items
+group: Last Man Standing
+enum: [
+  "Atlatl dart",
+  "Dragon arrows",
+  "Dragon javelins",
+  "Opal dragon bolts (e)"
+]
+*/
+#define VAR_LAST_MAN_STANDING_RANGED_AMMO_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_RANGED_AMMO_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_RANGED_AMMO_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Weapons Hidden Items
+group: Last Man Standing
+enum: [
+  "Blue moon spear",
+  "Kodai wand",
+  "Staff of the dead",
+  "Volatile nightmare staff",
+  "Zuriel's staff"
+]
+*/
+#define VAR_LAST_MAN_STANDING_MAGIC_WEAPONS_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_WEAPONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_WEAPONS_HIDE) {
+    hidden = true;
+}
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Armour Hidden Items
+group: Last Man Standing
+enum: [
+  "3rd age mage hat",
+  "3rd age robe",
+  "3rd age robe top",
+  "Ahrim's robetop",
+  "Ahrim's robeskirt",
+  "Ancestral hat",
+  "Ancestral robe bottom",
+  "Ancestral robe top",
+  "Blue moon chestplate",
+  "Blue moon helm",
+  "Blue moon tassets",
+  "Elder chaos hood",
+  "Elder chaos robe",
+  "Elder chaos top",
+  "Eternal boots",
+  "Infinity boots",
+  "Mage's book",
+  "Occult necklace",
+  "Seers ring (i)",
+  "Tormented bracelet",
+  "Wizard boots"
+]
+*/
+#define VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE []
+
+apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE) {
+    hidden = true;
+}
