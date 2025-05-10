@@ -137,39 +137,3 @@ enum: [
 apply (name:VAR_FISHING_RAW_FISH_HIDE) {
     hidden = true;
 }
-
-/*@ define:input:fishing
-type: style
-label: Fishing equipment custom style
-group: Fishing default styles
-exampleItem: Fishing rod
-*/
-#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_EQUIPMENT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-}
-
-/*@ define:input:fishing
-type: style
-label: Fishing bait custom style
-group: Fishing default styles
-exampleItem: Fishing bait
-*/
-#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_BAIT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
-
-/*@ define:input:fishing
-type: style
-label: Raw fish custom style
-group: Fishing default styles
-exampleItem: Raw tuna
-*/
-#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_RAW_FISH_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-}
