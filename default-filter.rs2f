@@ -941,7 +941,7 @@ description: |
 
 /*@ define:input:item_category_styles
 type: style
-label: Bronze
+label: Bronze Armour and Weapons
 group: Bronze Armour and Weapons
 exampleItem: Bronze platelegs
 */
@@ -954,7 +954,7 @@ exampleItem: Bronze platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Bronze (t)
+label: Bronze (t) Armour
 group: Bronze (t) Armour
 exampleItem: Bronze platelegs (t)
 */
@@ -967,7 +967,7 @@ exampleItem: Bronze platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Bronze (g)
+label: Bronze (g) Armour
 group: Bronze (g) Armour
 exampleItem: Bronze platelegs (g)
 */
@@ -981,7 +981,7 @@ exampleItem: Bronze platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Iron
+label: Iron Armour and Weapons
 group: Iron Armour and Weapons
 exampleItem: Iron platelegs
 */
@@ -994,7 +994,7 @@ exampleItem: Iron platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Iron (t)
+label: Iron (t) Armour
 group: Iron (t) Armour
 exampleItem: Iron platelegs (t)
 */
@@ -1007,7 +1007,7 @@ exampleItem: Iron platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Iron (g)
+label: Iron (g) Armour
 group: Iron (g) Armour
 exampleItem: Iron platelegs (g)
 */
@@ -1021,7 +1021,7 @@ exampleItem: Iron platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Steel
+label: Steel Armour and Weapons
 group: Steel Armour and Weapons
 exampleItem: Steel platelegs
 */
@@ -1034,7 +1034,7 @@ exampleItem: Steel platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Steel (t)
+label: Steel (t) Armour
 group: Steel (t) Armour
 exampleItem: Steel platelegs (t)
 */
@@ -1047,7 +1047,7 @@ exampleItem: Steel platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Steel (g)
+label: Steel (g) Armour
 group: Steel (g) Armour
 exampleItem: Steel platelegs (g)
 */
@@ -1061,7 +1061,7 @@ exampleItem: Steel platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Black
+label: Black Armour and Weapons
 group: Black Armour and Weapons
 exampleItem: Black platelegs
 */
@@ -1074,7 +1074,7 @@ exampleItem: Black platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Black (t)
+label: Black (t) Armour
 group: Black (t) Armour
 exampleItem: Black platelegs (t)
 */
@@ -1087,7 +1087,7 @@ exampleItem: Black platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Black (g)
+label: Black (g) Armour
 group: Black (g) Armour
 exampleItem: Black platelegs (g)
 */
@@ -1100,7 +1100,7 @@ exampleItem: Black platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Black heraldic
+label: Black heraldic Armour
 group: Black heraldic Armour
 exampleItem: Black helm (h1)
 */
@@ -1114,7 +1114,7 @@ exampleItem: Black helm (h1)
 
 /*@ define:input:item_category_styles
 type: style
-label: Mithril
+label: Mithril Armour and Weapons
 group: Mithril Armour and Weapons
 exampleItem: Mithril platelegs
 */
@@ -1127,7 +1127,7 @@ exampleItem: Mithril platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Mithril (t)
+label: Mithril (t) Armour
 group: Mithril (t) Armour
 exampleItem: Mithril platelegs (t)
 */
@@ -1140,7 +1140,7 @@ exampleItem: Mithril platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Mithril (g)
+label: Mithril (g) Armour
 group: Mithril (g) Armour
 exampleItem: Mithril platelegs (g)
 */
@@ -1154,7 +1154,7 @@ exampleItem: Mithril platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Adamant
+label: Adamant Armour and Weapons
 group: Adamant Armour and Weapons
 exampleItem: Adamant platelegs
 */
@@ -1167,7 +1167,7 @@ exampleItem: Adamant platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Adamant (t)
+label: Adamant (t) Armour
 group: Adamant (t) Armour
 exampleItem: Adamant platelegs (t)
 */
@@ -1180,7 +1180,7 @@ exampleItem: Adamant platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Adamant (g)
+label: Adamant (g) Armour
 group: Adamant (g) Armour
 exampleItem: Adamant platelegs (g)
 */
@@ -1193,7 +1193,7 @@ exampleItem: Adamant platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Adamant heraldic
+label: Adamant heraldic Armour
 group: Adamant heraldic Armour
 exampleItem: Adamant helm (h1)
 */
@@ -1207,7 +1207,7 @@ exampleItem: Adamant helm (h1)
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune
+label: Rune Armour and Weapons
 group: Rune Armour and Weapons
 exampleItem: Rune platelegs
 */
@@ -1220,7 +1220,7 @@ exampleItem: Rune platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune (t)
+label: Rune (t) Armour
 group: Rune (t) Armour
 exampleItem: Rune platelegs (t)
 */
@@ -1233,7 +1233,7 @@ exampleItem: Rune platelegs (t)
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune (g)
+label: Rune (g) Armour
 group: Rune (g) Armour
 exampleItem: Rune platelegs (g)
 */
@@ -1246,7 +1246,7 @@ exampleItem: Rune platelegs (g)
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune heraldic
+label: Rune heraldic Armour
 group: Rune heraldic Armour
 exampleItem: Rune helm (h1)
 */
@@ -1259,7 +1259,7 @@ exampleItem: Rune helm (h1)
 
 /*@ define:input:item_category_styles
 type: style
-label: Gilded
+label: Gilded Armour and Weapons
 group: Gilded Armour and Weapons
 exampleItem: Gilded platelegs
 */
@@ -1272,7 +1272,7 @@ exampleItem: Gilded platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune ancient
+label: Rune ancient Armour
 group: Rune ancient Armour
 exampleItem: Ancient platelegs
 */
@@ -1285,7 +1285,7 @@ exampleItem: Ancient platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune armadyl
+label: Rune armadyl Armour
 group: Rune armadyl Armour
 exampleItem: Armadyl platelegs
 */
@@ -1298,7 +1298,7 @@ exampleItem: Armadyl platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune bandos
+label: Rune bandos Armour
 group: Rune bandos Armour
 exampleItem: Bandos platelegs
 */
@@ -1311,7 +1311,7 @@ exampleItem: Bandos platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune guthix
+label: Rune guthix Armour
 group: Rune guthix Armour
 exampleItem: Guthix platelegs
 */
@@ -1324,7 +1324,7 @@ exampleItem: Guthix platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune saradomin
+label: Rune saradomin Armour
 group: Rune saradomin Armour
 exampleItem: Saradomin platelegs
 */
@@ -1337,7 +1337,7 @@ exampleItem: Saradomin platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Rune zamorak
+label: Rune zamorak Armour
 group: Rune zamorak Armour
 exampleItem: Zamorak platelegs
 */
@@ -1351,7 +1351,7 @@ exampleItem: Zamorak platelegs
 
 /*@ define:input:item_category_styles
 type: style
-label: Dragon
+label: Dragon Armour and Weapons
 group: Dragon Armour and Weapons
 exampleItem: Dragon platelegs
 */
@@ -1585,7 +1585,7 @@ apply (name:CONST_DRAGON_ARMOUR) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fishing equipment custom style
+label: Fishing equipment Style
 group: Fishing equipment Style
 exampleItem: Fishing rod
 */
@@ -1597,7 +1597,7 @@ apply (name:CONST_FISHING_EQUIPMENT_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fishing bait custom style
+label: Fishing bait Style
 group: Fishing bait Style
 exampleItem: Fishing bait
 */
@@ -1609,7 +1609,7 @@ apply (name:CONST_FISHING_BAIT_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Raw fish custom style
+label: Raw fish Style
 group: Raw fish Style
 exampleItem: Raw tuna
 */
