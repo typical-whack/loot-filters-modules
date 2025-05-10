@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 06:39:30 UTC 2025 */
-/* Commit: 31bbf36 */
+/* Built on: Sat May 10 06:40:35 UTC 2025 */
+/* Commit: 50555d1 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -183,10 +183,10 @@ description: |
 */
 /*@ define:group
 ---
-name: Individual Item Filtering
+name: Individual Items
 expanded: true
 description: |
-  Individual Item Filtering
+  Individual Items
   ---
 
   Showing and hiding individual items.
@@ -195,7 +195,7 @@ description: |
 /*@ define:input:filtering
 type: stringlist
 label: Items to hide
-group: Individual Item Filtering
+group: Individual Items
 */
 #define VAR_GLOBAL_HIDE []
 
@@ -206,7 +206,7 @@ apply (name:VAR_GLOBAL_HIDE) {
 /*@ define:input:filtering
 type: stringlist
 label: Items to show
-group: Individual Item Filtering
+group: Individual Items
 */
 #define VAR_GLOBAL_SHOW []
 
@@ -215,10 +215,10 @@ apply (name:VAR_GLOBAL_SHOW) {
 }
 /*@ define:group
 ---
-name: Value-Based Filtering
+name: Value-Based
 expanded: true
 description: |
-  Value-Based Filtering
+  Value-Based
   ---
   Hides tradeable items below a certain value. This is useful for filtering out items that are not worth picking up.
   
@@ -228,7 +228,7 @@ description: |
 /*@ define:input:filtering
 type: number
 label: Hide items below this value
-group: Value-Based Filtering
+group: Value-Based
 */
 #define VAR_GLOBAL_MINIMUM_VALUE 0
 
@@ -239,7 +239,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:filtering
 type: number
 label: Hide stackable items below this value
-group: Value-Based Filtering
+group: Value-Based
 */
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
 
@@ -250,7 +250,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (s
 /*@ define:input:filtering
 type: number
 label: Hide non-stackable items below this value
-group: Value-Based Filtering
+group: Value-Based
 */
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
@@ -259,36 +259,36 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 }
 /*@ define:group
 ---
-name: Ownership Filtering
+name: Ownership
 expanded: true
 description: |
-  Ownership Filtering
+  Ownership
   ---
   This has options to hide items based on their ownership.
 
   *Plugin Settings Change Required: Please disable "Ownership filter" and "Item spawn filter" in the "General" settings section of "Loot Filters" in the Runelite sidebar.*
 
-  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" list.*
+  *Note: These are FINAL and any exceptions must be made in the "Exceptions to ownership filtering" lis
 */
 
 /*@ define:input:filtering
 type: boolean
 label: Hide others' drops
-group: Ownership Filtering
+group: Ownership
 */
 #define VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS false
 
 /*@ define:input:filtering
 type: boolean
 label: Hide world spawns
-group: Ownership Filtering
+group: Ownership
 */
 #define VAR_GLOBAL_HIDE_SPAWN_ITEMS false
 
 /*@ define:input:filtering
 type: stringlist
-label: Exceptions to ownership filtering
-group: Ownership Filtering
+label: Exceptions to ownership
+group: Ownership
 */
 #define VAR_OWNERSHIP_FILTERING_EXCEPTIONS [ \
     "Water container", \
@@ -319,10 +319,10 @@ rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:
 }
 /*@ define:group
 ---
-name: Clue Scrolls Filtering
+name: Clue Scrolls
 expanded: false
 description: |
-  Clue Scrolls Filtering
+  Clue Scrolls
   ---
   Provides filtering out of specific clue tiers.
 */
@@ -330,7 +330,7 @@ description: |
 /*@ define:input:filtering
 type: enumlist
 label: Clue tiers to force hidden
-group: Clue Scrolls Filtering
+group: Clue Scrolls
 enum: [
   {
     "value": "Clue scroll (beginner)",
