@@ -1341,3 +1341,112 @@ name: Constants
   "Aldarium", \
   "Araxyte venom sack", \
 ]
+
+#define CONST_AMMO_STANDARD_ARROWS_LIST [ \
+  "Bronze Arrow*", \
+  "Iron Arrow*", \
+  "Steel Arrow*", \
+  "Mithril Arrow*", \
+  "Adamant Arrow*", \
+  "Rune Arrow*", \
+  "Amethyst Arrow*", \
+  "Dragon Arrow*", \
+  "Bronze fire arrow", \
+  "Iron fire arrow", \
+  "Steel fire arrow", \
+  "Mithril fire arrow", \
+  "Adamant fire arrow", \
+  "Rune fire arrow", \
+  "Amethyst fire arrow", \
+  "Dragon fire arrow", \
+]
+
+#define CONST_AMMO_DARTS_LIST [ \
+  "Bronze dart*", \
+  "Iron dart*", \
+  "Steel dart*", \
+  "Black dart*", \
+  "Mithril dart*", \
+  "Adamant dart*", \
+  "Rune dart*", \
+  "Amethyst dart*", \
+  "Dragon dart*", \
+  "Atlatl dart", \
+]
+
+#define CONST_AMMO_BOLTS_LIST [ \
+  "Bronze bolts*", \
+  "Blurite bolts*", \
+  "Silver bolts*", \
+  "Iron bolts*", \
+  "Steel bolts*", \
+  "Mithril bolts*", \
+  "Adamant bolts*", \
+  "Runite bolts*", \
+  "Dragon bolts*", \
+]
+
+#define CONST_AMMO_BOLTS_E_LIST [ \
+  "Opal bolts (e)", \
+  "Jade bolts (e)", \
+  "Pearl bolts (e)", \
+  "Topaz bolts (e)", \
+  "Sapphire bolts (e)", \
+  "Emerald bolts (e)", \
+  "Ruby bolts (e)", \
+  "Diamond bolts (e)", \
+  "Dragonstone bolts (e)", \
+  "Onyx bolts (e)", \
+]
+
+#define CONST_AMMO_DRAGON_BOLTS_E_LIST [ \
+  "Opal dragon bolts (e)", \
+  "Jade dragon bolts (e)", \
+  "Pearl dragon bolts (e)", \
+  "Topaz dragon bolts (e)", \
+  "Sapphire dragon bolts (e)", \
+  "Emerald dragon bolts (e)", \
+  "Ruby dragon bolts (e)", \
+  "Diamond dragon bolts (e)", \
+  "Dragonstone dragon bolts (e)", \
+  "Onyx dragon bolts (e)", \
+]
+
+#define CONST_AMMO_JAVELINS_LIST [ \
+  "Bronze javelin*", \
+  "Iron javelin*", \
+  "Steel javelin*", \
+  "Mithril javelin*", \
+  "Adamant javelin*", \
+  "Rune javelin*", \
+  "Amethyst javelin*", \
+  "Dragon javelin*", \
+]
+
+#define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
+  "Moonlight antler bolts", \
+  "Sunlight antler bolts", \
+  "Kebbit bolts", \
+  "Long kebbit bolts", \
+  "Broad bolts", \
+  "Amethyst broad bolts", \
+  "Barbed bolts", \
+  "Bone bolts", \
+]
+
+#define CONST_AMMO_BRUTAL_ARROWS_LIST [ \
+  "Bronze brutal", \
+  "Iron brutal", \
+  "Steel brutal", \
+  "Black brutal", \
+  "Mithril brutal", \
+  "Adamant brutal", \
+  "Rune brutal", \
+]
+
+#define CONST_AMMO_SPECIAL_ARROWS_LIST [ \
+  "Training Arrow", \
+  "Ogre Arrow", \
+  "Ice Arrow", \
+  "Broad Arrow", \
+]
