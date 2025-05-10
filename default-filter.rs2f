@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 06:53:05 UTC 2025 */
-/* Commit: cfb42ce */
+/* Built on: Sat May 10 07:04:15 UTC 2025 */
+/* Commit: 644f43b */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -370,7 +370,7 @@ description: |
   This module provides quantity filtering and tier filtering for gems.
 */
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: enumlist
 label: Gems to force hidden
 group: Gems
@@ -419,7 +419,7 @@ apply (name:VAR_GEMS_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Sapphire minimum quantity
 group: Gems
@@ -432,7 +432,7 @@ apply (name:["Uncut sapphire", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Emerald minimum quantity
 group: Gems
@@ -445,7 +445,7 @@ apply (name:["Uncut emerald", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Ruby minimum quantity
 group: Gems
@@ -458,7 +458,7 @@ apply (name:["Uncut ruby", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Diamond minimum quantity
 group: Gems
@@ -471,7 +471,7 @@ apply (name:["Uncut diamond", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Opal minimum quantity
 group: Gems
@@ -484,7 +484,7 @@ apply (name:["Uncut opal", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Jade minimum quantity
 group: Gems
@@ -497,7 +497,7 @@ apply (name:["Uncut jade", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Red topaz minimum quantity
 group: Gems
@@ -510,7 +510,7 @@ apply (name:["Uncut red topaz", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Dragonstone minimum quantity
 group: Gems
@@ -523,7 +523,7 @@ apply (name:["Uncut dragonstone", \
     hidden = true;
 }
 
-/*@ define:input:gems
+/*@ define:input:filtering
 type: number
 label: Onyx minimum quantity
 group: Gems
@@ -544,7 +544,7 @@ description: |
   This module provides filters for fishing equipment, fishing bait, and raw fish.
 */
 
-/*@ define:input:fishing
+/*@ define:input:filtering
 type: enumlist
 label: Fishing equipment to force hidden
 group: Fishing
@@ -574,7 +574,7 @@ apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:fishing
+/*@ define:input:filtering
 type: enumlist
 label: Fishing bait to force hidden
 group: Fishing
@@ -601,7 +601,7 @@ apply (name:VAR_FISHING_BAIT_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:fishing
+/*@ define:input:filtering
 type: enumlist
 label: Raw fish to force hidden
 group: Fishing
@@ -683,7 +683,7 @@ description: |
   This module provides quantity filtering and tier filtering for ores.
 */
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: enumlist
 label: Ores to force hidden
 group: Ores
@@ -709,7 +709,7 @@ apply (name:VAR_ORES_HIDE) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Copper ore minimum quantity
 group: Ores
@@ -720,7 +720,7 @@ apply (name:"copper ore" && quantity:<VAR_COPPER_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Tin ore minimum quantity
 group: Ores
@@ -731,7 +731,7 @@ apply (name:"tin ore" && quantity:<VAR_TIN_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Iron ore minimum quantity
 group: Ores
@@ -742,7 +742,7 @@ apply (name:"iron ore" && quantity:<VAR_IRON_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Silver ore minimum quantity
 group: Ores
@@ -753,7 +753,7 @@ apply (name:"silver ore" && quantity:<VAR_SILVER_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Coal minimum quantity
 group: Ores
@@ -764,7 +764,7 @@ apply (name:"coal" && quantity:<VAR_COAL_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Gold ore minimum quantity
 group: Ores
@@ -775,7 +775,7 @@ apply (name:"gold ore" && quantity:<VAR_GOLD_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Mithril ore minimum quantity
 group: Ores
@@ -786,7 +786,7 @@ apply (name:"mithril ore" && quantity:<VAR_MITHRIL_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Adamantite ore minimum quantity
 group: Ores
@@ -797,7 +797,7 @@ apply (name:"adamantite ore" && quantity:<VAR_ADAMANTITE_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Runite ore minimum quantity
 group: Ores
@@ -808,7 +808,7 @@ apply (name:"runite ore" && quantity:<VAR_RUNITE_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Daeyalt ore minimum quantity
 group: Ores
@@ -819,7 +819,7 @@ apply (name:"daeyalt ore" && quantity:<VAR_DAEYALT_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Blasted ore minimum quantity
 group: Ores
@@ -830,7 +830,7 @@ apply (name:"blasted ore" && quantity:<VAR_BLASTED_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Blurite ore minimum quantity
 group: Ores
@@ -841,7 +841,7 @@ apply (name:"blurite ore" && quantity:<VAR_BLURITE_ORE_MIN_QUANTITY) {
     hidden = true;
 }
 
-/*@ define:input:ores
+/*@ define:input:filtering
 type: number
 label: Lovakite ore minimum quantity
 group: Ores
@@ -858,6 +858,515 @@ subtitle: Sifting through the junk (in specific areas)
 description: |
   This module provides filtering for items based on the area they are in.
 */
+/*@ define:group
+---
+name: Chambers of Xeric
+description: |
+  Chambers of Xeric
+  ---
+  This provides per-item filters for all drops that happen during your chambers of xeric raid.
+*/
+
+/*@ define:input:chambers_of_xeric
+type: enumlist
+label: Potions to force hidden
+group: Chambers of Xeric
+enum: [
+  {
+    "value": "Elder*",
+    "label": "Elder potion"
+  },
+  {
+    "value": "Twisted*",
+    "label": "Twisted potion"
+  },
+  {
+    "value": "Kodai*",
+    "label": "Kodai potion"
+  },
+  {
+    "value": "Revitalisation*",
+    "label": "Revitalisation potion"
+  },
+  {
+    "value": "Prayer enhance*",
+    "label": "Prayer enhance"
+  },
+  {
+    "value": "Xeric's aid*",
+    "label": "Xeric's aid"
+  },
+  {
+    "value": "Antipoison*",
+    "label": "Antipoison potion"
+  },
+  {
+    "value": "Overload*",
+    "label": "Overload"
+  }
+]
+*/
+#define VAR_COX_POTIONS_HIDE []
+
+/*@ define:input:chambers_of_xeric
+type: enumlist
+label: Fish to force hidden
+group: Chambers of Xeric
+enum: [
+  {
+    "value": "Pysk fish (0)",
+    "label": "Pysk fish"
+  },
+  {
+    "value": "Suphi fish (1)",
+    "label": "Suphi fish"
+  },
+  {
+    "value": "Leckish fish (2)",
+    "label": "Leckish fish"
+  },
+  {
+    "value": "Brawk fish (3)",
+    "label": "Brawk fish"
+  },
+  {
+    "value": "Mycil fish (4)",
+    "label": "Mycil fish"
+  },
+  {
+    "value": "Roqed fish (5)",
+    "label": "Roqed fish"
+  },
+  {
+    "value": "Kyren fish (6)",
+    "label": "Kyren fish"
+  }
+]
+*/
+#define VAR_COX_FISH_HIDE [ \
+  "Pysk fish (0)", \
+  "Suphi fish (1)", \
+  "Leckish fish (2)", \
+  "Brawk fish (3)", \
+  "Mycil fish (4)", \
+  "Roqed fish (5)", \
+  "Kyren fish (6)", \
+]
+
+/*@ define:input:chambers_of_xeric
+type: enumlist
+label: Bats to force hidden
+group: Chambers of Xeric
+enum: [
+  {
+    "value": "Guanic bat (0)",
+    "label": "Guanic bat (0)"
+  },
+  {
+    "value": "Prael bat (1)",
+    "label": "Prael bat (1)"
+  },
+  {
+    "value": "Giral bat (2)",
+    "label": "Giral bat (2)"
+  },
+  {
+    "value": "Phluxia bat (3)",
+    "label": "Phluxia bat (3)"
+  },
+  {
+    "value": "Kryket bat (4)",
+    "label": "Kryket bat (4)"
+  },
+  {
+    "value": "Murng bat (5)",
+    "label": "Murng bat (5)"
+  },
+  {
+    "value": "Psykk bat (6)",
+    "label": "Psykk bat (6)"
+  }
+]
+*/
+#define VAR_COX_BATS_HIDE [ \
+  "Guanic bat (0)", \
+  "Prael bat (1)", \
+  "Giral bat (2)", \
+  "Phluxia bat (3)", \
+  "Kryket bat (4)", \
+  "Murng bat (5)", \
+  "Psykk bat (6)", \
+]
+
+/*@ define:input:chambers_of_xeric
+type: enumlist
+label: Seeds to force hidden
+group: Chambers of Xeric
+enum: [
+  "Golpar seed",
+  "Buchu seed",
+  "Noxifer seed"
+]
+*/
+#define VAR_COX_SEEDS_HIDE []
+
+/*@ define:input:chambers_of_xeric
+type: enumlist
+label: Misc drops to force hidden
+group: Chambers of Xeric
+enum: [
+  "Bones",
+  "Big bones",
+  "Lockpick",
+  "Fishing rod",
+  "Iron pickaxe",
+  "Iron axe",
+  "Butterfly net",
+  "Hammer",
+  "Tinderbox",
+  "Cave worms",
+  "Endarkened juice",
+  "Stinkhorn mushroom",
+  "Cicely",
+  "Mallignum root plank",
+  "Cavern grubs",
+  "Empty gourd vial",
+  "Water-filled gourd vial",
+  "Spade",
+  "Seed dipper",
+  "Rake"
+]
+*/
+#define VAR_COX_MISC_DROPS_HIDE [ \
+  "Bones", \
+  "Big bones", \
+  "Fishing rod", \
+  "Iron pickaxe", \
+  "Iron axe", \
+  "Butterfly net", \
+  "Hammer", \
+  "Tinderbox", \
+  "Cave worms", \
+]
+
+apply (area:CONST_COX_AREA && name:VAR_COX_FISH_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:VAR_COX_BATS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:VAR_COX_SEEDS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:VAR_COX_MISC_DROPS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["elder (-)*", \
+  "elder potion*", \
+  "elder (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["twisted (-)*", \
+  "twisted potion*", \
+  "twisted (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["kodai (-)*", \
+  "kodai potion*", \
+  "kodai (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
+  "revitalisation potion*", \
+  "revitalisation (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
+  "prayer enhance (4)", \
+  "prayer enhance (3)", \
+  "prayer enhance (2)", \
+  "prayer enhance (1)", \
+  "prayer enhance (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
+  "xeric's aid (4)", \
+  "xeric's aid (3)", \
+  "xeric's aid (2)", \
+  "xeric's aid (1)", \
+  "xeric's aid (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["antipoison (-)*", \
+  "antipoison (4)", \
+  "antipoison (3)", \
+  "antipoison (2)", \
+  "antipoison (1)", \
+  "antipoison (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_COX_AREA && name:["overload (-)*", \
+  "overload (4)", \
+  "overload (3)", \
+  "overload (2)", \
+  "overload (1)", \
+  "overload (+)*", \
+] && name:VAR_COX_POTIONS_HIDE) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Tombs of Amascut
+description: |
+  Tombs of Amascut
+  ---
+  Provides filtering within the Tombs of Amascut. By default this filters out a MVP items and books.
+*/
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Supplies to force shown
+group: Tombs of Amascut
+enum: [
+  {
+    "value": "Honey locust (*",
+    "label": "Honey locust"
+  },
+  {
+    "value": "Ambrosia (*",
+    "label": "Ambrosia"
+  },
+  {
+    "value": "Blessed crystal scarab (*",
+    "label": "Blessed crystal scarab"
+  },
+  {
+    "value": "Liquid adrenaline (*",
+    "label": "Liquid adrenaline"
+  },
+  {
+    "value": "Nectar (*",
+    "label": "Nectar"
+  },
+  {
+    "value": "Silk dressing (*",
+    "label": "Silk dressing"
+  },
+  {
+    "value": "Smelling salts (*",
+    "label": "Smelling salts"
+  },
+  {
+    "value": "Tears of Elidinis (*",
+    "label": "Tears of Elidinis"
+  }
+]
+*/
+#define VAR_TOA_SUPPLIES_SHOW []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Supplies to force hidden
+group: Tombs of Amascut
+enum: [
+  {
+    "value": "Honey locust (*",
+    "label": "Honey locust"
+  },
+  {
+    "value": "Ambrosia (*",
+    "label": "Ambrosia"
+  },
+  {
+    "value": "Blessed crystal scarab (*",
+    "label": "Blessed crystal scarab"
+  },
+  {
+    "value": "Liquid adrenaline (*",
+    "label": "Liquid adrenaline"
+  },
+  {
+    "value": "Nectar (*",
+    "label": "Nectar"
+  },
+  {
+    "value": "Silk dressing (*",
+    "label": "Silk dressing"
+  },
+  {
+    "value": "Smelling salts (*",
+    "label": "Smelling salts"
+  },
+  {
+    "value": "Tears of Elidinis (*",
+    "label": "Tears of Elidinis"
+  }
+]
+*/
+#define VAR_TOA_SUPPLIES_HIDE []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Room items to force shown
+group: Tombs of Amascut
+enum: [
+  "Neutralising potion",
+  "Water container"
+]
+*/
+#define VAR_TOA_ROOM_ITEMS_SHOW [ \
+  "Water container", \
+]
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Room items to force hidden
+group: Tombs of Amascut
+enum: [
+  "Neutralising potion",
+  "Water container"
+]
+*/
+#define VAR_TOA_ROOM_ITEMS_HIDE [ \
+  "Neutralising potion", \
+]
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: MVP items to force shown
+group: Tombs of Amascut
+enum: [
+  "Big banana",
+  "Eldritch ashes",
+  "Fang",
+  "Scarab dung"
+]
+*/
+#define VAR_TOA_MVP_ITEMS_SHOW []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: MVP items to force hidden
+group: Tombs of Amascut
+enum: [
+  "Big banana",
+  "Eldritch ashes",
+  "Fang",
+  "Scarab dung"
+]
+*/
+#define VAR_TOA_MVP_ITEMS_HIDE [ \
+  "Big banana", \
+  "Eldritch ashes", \
+  "Fang", \
+  "Scarab dung", \
+]
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Books to force shown
+group: Tombs of Amascut
+enum: [
+  "Akila's journal",
+  "Apmeken's Capture",
+  "Crondis' Capture",
+  "Het's Capture",
+  "Scabaras' Capture",
+  "The Wardens",
+  "The Jackal's Torch"
+]
+*/
+#define VAR_TOA_BOOKS_SHOW []
+
+/*@ define:input:area_based_filtering
+type: enumlist
+label: Books to force hidden
+group: Tombs of Amascut
+enum: [
+  "Akila's journal",
+  "Apmeken's Capture",
+  "Crondis' Capture",
+  "Het's Capture",
+  "Scabaras' Capture",
+  "The Wardens",
+  "The Jackal's Torch"
+]
+*/
+#define VAR_TOA_BOOKS_HIDE [ \
+  "Akila's journal", \
+  "Apmeken's Capture", \
+  "Crondis' Capture", \
+  "Het's Capture", \
+  "Scabaras' Capture", \
+  "The Wardens", \
+  "The Jackal's Torch", \
+]
+
+apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_SHOW) {
+    hidden = false;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
+    hidden = true;
+}
+apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
+    hidden = false;
+}
+/*@ define:group
+---
+name: "Ancient Guthixian Temple (Tormented Demons)"
+description: |
+  "Ancient Guthixian Temple (Tormented Demons)"
+  ---
+  Provides filtering within the Ancient Guthixian Temple, specifically for Tormented Demons.
+*/
+
+/*@ define:input:area_based_filtering
+type: stringlist
+label: List of items to force hidden at tormented demons
+group: "Ancient Guthixian Temple (Tormented Demons)"
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_HIDE []
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:area_based_filtering
+type: stringlist
+label: List of items to force shown at tormented demons
+group: "Ancient Guthixian Temple (Tormented Demons)"
+*/
+#define VAR_MONSTERS_TORMENTED_DEMONS_SHOW [ \
+    "Smouldering gland", \
+    "Smouldering heart", \
+    "Smouldering pile of flesh", \
+]
+
+apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SHOW) {
+    hidden = false;
+}
 /*@ define:group
 ---
 name: The Gauntlet
@@ -9095,481 +9604,6 @@ apply (name:CONST_ENSOULED_HEAD_LIST && value:<VAR_REMAINS_MINIMUM_VALUE) {
 }
 
 
-/*@ define:module:chambers_of_xeric
----
-name: Chambers of Xeric
-subtitle: The twisted bow awaits...
-description: |
-  This provides per-item filters and custom styling for all drops that happen during your chambers of xeric raid. By default this styles each drop uniquely so they are easier to pick off the ground.
-*/
-
-/*@ define:input:chambers_of_xeric
-type: enumlist
-label: Potions to force hidden
-group: COX item filters
-enum: [
-  {
-    "value": "Elder*",
-    "label": "Elder potion"
-  },
-  {
-    "value": "Twisted*",
-    "label": "Twisted potion"
-  },
-  {
-    "value": "Kodai*",
-    "label": "Kodai potion"
-  },
-  {
-    "value": "Revitalisation*",
-    "label": "Revitalisation potion"
-  },
-  {
-    "value": "Prayer enhance*",
-    "label": "Prayer enhance"
-  },
-  {
-    "value": "Xeric's aid*",
-    "label": "Xeric's aid"
-  },
-  {
-    "value": "Antipoison*",
-    "label": "Antipoison potion"
-  },
-  {
-    "value": "Overload*",
-    "label": "Overload"
-  }
-]
-*/
-#define VAR_COX_POTIONS_HIDE []
-
-/*@ define:input:chambers_of_xeric
-type: enumlist
-label: Fish to force hidden
-group: COX item filters
-enum: [
-  {
-    "value": "Pysk fish (0)",
-    "label": "Pysk fish"
-  },
-  {
-    "value": "Suphi fish (1)",
-    "label": "Suphi fish"
-  },
-  {
-    "value": "Leckish fish (2)",
-    "label": "Leckish fish"
-  },
-  {
-    "value": "Brawk fish (3)",
-    "label": "Brawk fish"
-  },
-  {
-    "value": "Mycil fish (4)",
-    "label": "Mycil fish"
-  },
-  {
-    "value": "Roqed fish (5)",
-    "label": "Roqed fish"
-  },
-  {
-    "value": "Kyren fish (6)",
-    "label": "Kyren fish"
-  }
-]
-*/
-#define VAR_COX_FISH_HIDE [ \
-  "Pysk fish (0)", \
-  "Suphi fish (1)", \
-  "Leckish fish (2)", \
-  "Brawk fish (3)", \
-  "Mycil fish (4)", \
-  "Roqed fish (5)", \
-  "Kyren fish (6)", \
-]
-
-/*@ define:input:chambers_of_xeric
-type: enumlist
-label: Bats to force hidden
-group: COX item filters
-enum: [
-  {
-    "value": "Guanic bat (0)",
-    "label": "Guanic bat (0)"
-  },
-  {
-    "value": "Prael bat (1)",
-    "label": "Prael bat (1)"
-  },
-  {
-    "value": "Giral bat (2)",
-    "label": "Giral bat (2)"
-  },
-  {
-    "value": "Phluxia bat (3)",
-    "label": "Phluxia bat (3)"
-  },
-  {
-    "value": "Kryket bat (4)",
-    "label": "Kryket bat (4)"
-  },
-  {
-    "value": "Murng bat (5)",
-    "label": "Murng bat (5)"
-  },
-  {
-    "value": "Psykk bat (6)",
-    "label": "Psykk bat (6)"
-  }
-]
-*/
-#define VAR_COX_BATS_HIDE [ \
-  "Guanic bat (0)", \
-  "Prael bat (1)", \
-  "Giral bat (2)", \
-  "Phluxia bat (3)", \
-  "Kryket bat (4)", \
-  "Murng bat (5)", \
-  "Psykk bat (6)", \
-]
-
-/*@ define:input:chambers_of_xeric
-type: enumlist
-label: Seeds to force hidden
-group: COX item filters
-enum: [
-  "Golpar seed",
-  "Buchu seed",
-  "Noxifer seed"
-]
-*/
-#define VAR_COX_SEEDS_HIDE []
-
-/*@ define:input:chambers_of_xeric
-type: enumlist
-label: Misc drops to force hidden
-group: COX item filters
-enum: [
-  "Bones",
-  "Big bones",
-  "Lockpick",
-  "Fishing rod",
-  "Iron pickaxe",
-  "Iron axe",
-  "Butterfly net",
-  "Hammer",
-  "Tinderbox",
-  "Cave worms",
-  "Endarkened juice",
-  "Stinkhorn mushroom",
-  "Cicely",
-  "Mallignum root plank",
-  "Cavern grubs",
-  "Empty gourd vial",
-  "Water-filled gourd vial",
-  "Spade",
-  "Seed dipper",
-  "Rake"
-]
-*/
-#define VAR_COX_MISC_DROPS_HIDE [ \
-  "Bones", \
-  "Big bones", \
-  "Fishing rod", \
-  "Iron pickaxe", \
-  "Iron axe", \
-  "Butterfly net", \
-  "Hammer", \
-  "Tinderbox", \
-  "Cave worms", \
-]
-
-apply (area:CONST_COX_AREA && name:VAR_COX_FISH_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:VAR_COX_BATS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:VAR_COX_SEEDS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:VAR_COX_MISC_DROPS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["elder (-)*", \
-  "elder potion*", \
-  "elder (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["twisted (-)*", \
-  "twisted potion*", \
-  "twisted (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["kodai (-)*", \
-  "kodai potion*", \
-  "kodai (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["revitalisation (-)*", \
-  "revitalisation potion*", \
-  "revitalisation (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["prayer enhance (-)*", \
-  "prayer enhance (4)", \
-  "prayer enhance (3)", \
-  "prayer enhance (2)", \
-  "prayer enhance (1)", \
-  "prayer enhance (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["xeric's aid (-)*", \
-  "xeric's aid (4)", \
-  "xeric's aid (3)", \
-  "xeric's aid (2)", \
-  "xeric's aid (1)", \
-  "xeric's aid (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["antipoison (-)*", \
-  "antipoison (4)", \
-  "antipoison (3)", \
-  "antipoison (2)", \
-  "antipoison (1)", \
-  "antipoison (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_COX_AREA && name:["overload (-)*", \
-  "overload (4)", \
-  "overload (3)", \
-  "overload (2)", \
-  "overload (1)", \
-  "overload (+)*", \
-] && name:VAR_COX_POTIONS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:module:tombs_of_amascut
----
-name: Tombs of Amascut
-subtitle: Beneath blessed sands
-description: |
-  This provides per-item filters. By default this filters out a MVP items and books.
-*/
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: Supplies to force shown
-group: TOA Item Filters
-enum: [
-  {
-    "value": "Honey locust (*",
-    "label": "Honey locust"
-  },
-  {
-    "value": "Ambrosia (*",
-    "label": "Ambrosia"
-  },
-  {
-    "value": "Blessed crystal scarab (*",
-    "label": "Blessed crystal scarab"
-  },
-  {
-    "value": "Liquid adrenaline (*",
-    "label": "Liquid adrenaline"
-  },
-  {
-    "value": "Nectar (*",
-    "label": "Nectar"
-  },
-  {
-    "value": "Silk dressing (*",
-    "label": "Silk dressing"
-  },
-  {
-    "value": "Smelling salts (*",
-    "label": "Smelling salts"
-  },
-  {
-    "value": "Tears of Elidinis (*",
-    "label": "Tears of Elidinis"
-  }
-]
-*/
-#define VAR_TOA_SUPPLIES_SHOW []
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: Supplies to force hidden
-group: TOA Item Filters
-enum: [
-  {
-    "value": "Honey locust (*",
-    "label": "Honey locust"
-  },
-  {
-    "value": "Ambrosia (*",
-    "label": "Ambrosia"
-  },
-  {
-    "value": "Blessed crystal scarab (*",
-    "label": "Blessed crystal scarab"
-  },
-  {
-    "value": "Liquid adrenaline (*",
-    "label": "Liquid adrenaline"
-  },
-  {
-    "value": "Nectar (*",
-    "label": "Nectar"
-  },
-  {
-    "value": "Silk dressing (*",
-    "label": "Silk dressing"
-  },
-  {
-    "value": "Smelling salts (*",
-    "label": "Smelling salts"
-  },
-  {
-    "value": "Tears of Elidinis (*",
-    "label": "Tears of Elidinis"
-  }
-]
-*/
-#define VAR_TOA_SUPPLIES_HIDE []
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: Room items to force shown
-group: TOA Item Filters
-enum: [
-  "Neutralising potion",
-  "Water container"
-]
-*/
-#define VAR_TOA_ROOM_ITEMS_SHOW [ \
-  "Water container", \
-]
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: Room items to force hidden
-group: TOA Item Filters
-enum: [
-  "Neutralising potion",
-  "Water container"
-]
-*/
-#define VAR_TOA_ROOM_ITEMS_HIDE [ \
-  "Neutralising potion", \
-]
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: MVP items to force shown
-group: TOA Item Filters
-enum: [
-  "Big banana",
-  "Eldritch ashes",
-  "Fang",
-  "Scarab dung"
-]
-*/
-#define VAR_TOA_MVP_ITEMS_SHOW []
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: MVP items to force hidden
-group: TOA Item Filters
-enum: [
-  "Big banana",
-  "Eldritch ashes",
-  "Fang",
-  "Scarab dung"
-]
-*/
-#define VAR_TOA_MVP_ITEMS_HIDE [ \
-  "Big banana", \
-  "Eldritch ashes", \
-  "Fang", \
-  "Scarab dung", \
-]
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: Books to force shown
-group: TOA Item Filters
-enum: [
-  "Akila's journal",
-  "Apmeken's Capture",
-  "Crondis' Capture",
-  "Het's Capture",
-  "Scabaras' Capture",
-  "The Wardens",
-  "The Jackal's Torch"
-]
-*/
-#define VAR_TOA_BOOKS_SHOW []
-
-/*@ define:input:tombs_of_amascut
-type: enumlist
-label: Books to force hidden
-group: TOA Item Filters
-enum: [
-  "Akila's journal",
-  "Apmeken's Capture",
-  "Crondis' Capture",
-  "Het's Capture",
-  "Scabaras' Capture",
-  "The Wardens",
-  "The Jackal's Torch"
-]
-*/
-#define VAR_TOA_BOOKS_HIDE [ \
-  "Akila's journal", \
-  "Apmeken's Capture", \
-  "Crondis' Capture", \
-  "Het's Capture", \
-  "Scabaras' Capture", \
-  "The Wardens", \
-  "The Jackal's Torch", \
-]
-
-apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_SUPPLIES_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_ROOM_ITEMS_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_MVP_ITEMS_SHOW) {
-    hidden = false;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
-    hidden = true;
-}
-apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
-    hidden = false;
-}
-
 /*@ define:module:bossing
 ---
 name: Bossing
@@ -10693,41 +10727,6 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 #define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
 
 #define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
-
-/*@ define:module:monsters
----
-name: Monsters
-subtitle: Bonk!
-description: |
-  Provides filtering and styling for specific monster drops
-*/
-
-
-/*@ define:input:monsters
-type: stringlist
-label: List of items to force hidden at tormented demons
-group: Tormented Demons
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_HIDE []
-
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_HIDE) {
-    hidden = true;
-}
-
-/*@ define:input:monsters
-type: stringlist
-label: List of items to force shown at tormented demons
-group: Tormented Demons
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_SHOW [ \
-    "Smouldering gland", \
-    "Smouldering heart", \
-    "Smouldering pile of flesh", \
-]
-
-apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_DEMONS_SHOW) {
-    hidden = false;
-}
 /*@ define:module:ammo
 ---
 name: Ammo
