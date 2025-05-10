@@ -4,6 +4,7 @@ filtering
 item_tiers
 uniques
 alchs
+item_category_styles
 individual_item_styles/_module_definition
 individual_item_styles/clue_scrolls
 individual_item_styles/slayer
