@@ -974,6 +974,30 @@ exampleItem: Raw tuna
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
+
+/*@ define:input:food
+type: style
+label: Hunter food style
+group: Hunter food style
+exampleItem: Cooked moonlight antelope
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:food
+type: style
+label: Fish food style
+group: Fish food style
+exampleItem: Tuna
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}
 /*@ define:module:individual_item_styles
 ---
 name: Individual Item Styles
@@ -2096,6 +2120,1199 @@ exampleItem: Scorching bow
 
 apply (name:"Scorching bow") {
   VAR_MONSTERS_TORMENTED_DEMONS_SCORCHING_BOW_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Potions Styles
+expanded: false
+description: |
+  Potions Styles
+  ---
+  This module provides custom style for potions
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Attack potion
+group: Potions Styles
+exampleItem: Attack potion(4)
+*/
+#define VAR_ATTACK_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5032C6CC";\
+  borderColor = "#FF32C6CC";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF32C6CC";
+
+apply (name:"Attack potion(*") {
+    VAR_ATTACK_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Antipoison
+group: Potions Styles
+exampleItem: Antipoison(4)
+*/
+#define VAR_ANTIPOISON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5081D838";\
+  borderColor = "#FF81D838";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF81D838";
+
+apply (name:"Antipoison(*") {
+    VAR_ANTIPOISON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Strength potion
+group: Potions Styles
+exampleItem: Strength potion(4)
+*/
+#define VAR_STRENGTH_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C9C754";\
+  borderColor = "#FFC9C754";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC9C754";
+
+apply (name:"Strength potion(*") {
+    VAR_STRENGTH_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Serum 207
+group: Potions Styles
+exampleItem: Serum 207(4)
+*/
+#define VAR_SERUM_207_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5011768B";\
+  borderColor = "#FF11768B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF11768B";
+
+apply (name:"Serum 207(*") {
+    VAR_SERUM_207_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Compost potion
+group: Potions Styles
+exampleItem: Compost potion(4)
+*/
+#define VAR_COMPOST_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#508C655E";\
+  borderColor = "#FF8C655E";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8C655E";
+
+apply (name:"Compost potion(*") {
+    VAR_COMPOST_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Restore potion
+group: Potions Styles
+exampleItem: Restore potion(4)
+*/
+#define VAR_RESTORE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D4645D";\
+  borderColor = "#FFD4645D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD4645D";
+
+apply (name:"Restore potion(*") {
+    VAR_RESTORE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Energy potion
+group: Potions Styles
+exampleItem: Energy potion(4)
+*/
+#define VAR_ENERGY_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AA616D";\
+  borderColor = "#FFAA616D";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFAA616D";
+
+apply (name:"Energy potion(*") {
+    VAR_ENERGY_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Defence potion
+group: Potions Styles
+exampleItem: Defence potion(4)
+*/
+#define VAR_DEFENCE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5059D45C";\
+  borderColor = "#FF59D45C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF59D45C";
+
+apply (name:"Defence potion(*") {
+    VAR_DEFENCE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Agility potion
+group: Potions Styles
+exampleItem: Agility potion(4)
+*/
+#define VAR_AGILITY_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#507E9812";\
+  borderColor = "#FF7E9812";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7E9812";
+
+apply (name:"Agility potion(*") {
+    VAR_AGILITY_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Combat potion
+group: Potions Styles
+exampleItem: Combat potion(4)
+*/
+#define VAR_COMBAT_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#508AB977";\
+  borderColor = "#FF8AB977";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8AB977";
+
+apply (name:"Combat potion(*") {
+    VAR_COMBAT_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Prayer potion
+group: Potions Styles
+exampleItem: Prayer potion(4)
+*/
+#define VAR_PRAYER_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5059D4A8";\
+  borderColor = "#FF59D4A8";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF59D4A8";
+
+apply (name:"Prayer potion(*") {
+    VAR_PRAYER_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super attack
+group: Potions Styles
+exampleItem: Super attack(4)
+*/
+#define VAR_SUPER_ATTACK_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505457C9";\
+  borderColor = "#FF5457C9";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5457C9";
+
+apply (name:"Super attack(*") {
+    VAR_SUPER_ATTACK_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Superantipoison
+group: Potions Styles
+exampleItem: Superantipoison(4)
+*/
+#define VAR_SUPERANTIPOISON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D03177";\
+  borderColor = "#FFD03177";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD03177";
+
+apply (name:"Superantipoison(*") {
+    VAR_SUPERANTIPOISON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fishing potion
+group: Potions Styles
+exampleItem: Fishing potion(4)
+*/
+#define VAR_FISHING_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50504B4B";\
+  borderColor = "#FF504B4B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF504B4B";
+
+apply (name:"Fishing potion(*") {
+    VAR_FISHING_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super energy
+group: Potions Styles
+exampleItem: Super energy(4)
+*/
+#define VAR_SUPER_ENERGY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C0619F";\
+  borderColor = "#FFC0619F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC0619F";
+
+apply (name:"Super energy(*") {
+    VAR_SUPER_ENERGY_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Hunter potion
+group: Potions Styles
+exampleItem: Hunter potion(4)
+*/
+#define VAR_HUNTER_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500B5E61";\
+  borderColor = "#FF0B5E61";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0B5E61";
+
+apply (name:"Hunter potion(*") {
+    VAR_HUNTER_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Goading potion
+group: Potions Styles
+exampleItem: Goading potion(4)
+*/
+#define VAR_GOADING_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AA2315";\
+  borderColor = "#FFAA2315";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFAA2315";
+
+apply (name:"Goading potion(*") {
+    VAR_GOADING_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super strength
+group: Potions Styles
+exampleItem: Super strength(4)
+*/
+#define VAR_SUPER_STRENGTH_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D5D4D4";\
+  borderColor = "#FFD5D4D4";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD5D4D4";
+
+apply (name:"Super strength(*") {
+    VAR_SUPER_STRENGTH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Prayer regeneration potion
+group: Potions Styles
+exampleItem: Prayer regeneration potion(4)
+*/
+#define VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50815248";\
+  borderColor = "#FF815248";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF815248";
+
+apply (name:"Prayer regeneration potion(*") {
+    VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super restore
+group: Potions Styles
+exampleItem: Super restore(4)
+*/
+#define VAR_SUPER_RESTORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50AE3F6C";\
+  borderColor = "#FFAE3F6C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFAE3F6C";
+
+apply (name:"Super restore(*") {
+    VAR_SUPER_RESTORE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sanfew serum
+group: Potions Styles
+exampleItem: Sanfew serum(4)
+*/
+#define VAR_SANFEW_SERUM_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50B97673";\
+  borderColor = "#FFB97673";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFB97673";
+
+apply (name:"Sanfew serum(*") {
+    VAR_SANFEW_SERUM_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super defence
+group: Potions Styles
+exampleItem: Super defence(4)
+*/
+#define VAR_SUPER_DEFENCE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D2B45C";\
+  borderColor = "#FFD2B45C";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD2B45C";
+
+apply (name:"Super defence(*") {
+    VAR_SUPER_DEFENCE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Antidote+
+group: Potions Styles
+exampleItem: Antidote+(4)
+*/
+#define VAR_ANTIDOTE_PLUS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#507E7E64";\
+  borderColor = "#FF7E7E64";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7E7E64";
+
+apply (name:"Antidote+(*") {
+    VAR_ANTIDOTE_PLUS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Antifire potion
+group: Potions Styles
+exampleItem: Antifire potion(4)
+*/
+#define VAR_ANTIFIRE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5078129B";\
+  borderColor = "#FF78129B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF78129B";
+
+apply (name:"Antifire potion(*") {
+    VAR_ANTIFIRE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine super attack potion
+group: Potions Styles
+exampleItem: Divine super attack potion(4)
+*/
+#define VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506365CD";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6365CD";
+
+apply (name:"Divine super attack potion(*") {
+    VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine super defence potion
+group: Potions Styles
+exampleItem: Divine super defence potion(4)
+*/
+#define VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CDB365";\
+  borderColor = "#FFCDB365";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCDB365";
+
+apply (name:"Divine super defence potion(*") {
+    VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine super strength potion
+group: Potions Styles
+exampleItem: Divine super strength potion(4)
+*/
+#define VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CECDCD";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCECDCD";
+
+apply (name:"Divine super strength potion(*") {
+    VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ranging potion
+group: Potions Styles
+exampleItem: Ranging potion(4)
+*/
+#define VAR_RANGING_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5052A8C9";\
+  borderColor = "#FF52A8C9";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF52A8C9";
+
+apply (name:"Ranging potion(*") {
+    VAR_RANGING_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine ranging potion
+group: Potions Styles
+exampleItem: Divine ranging potion(4)
+*/
+#define VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5068B5D3";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF68B5D3";
+
+apply (name:"Divine ranging potion(*") {
+    VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Magic potion
+group: Potions Styles
+exampleItem: Magic potion(4)
+*/
+#define VAR_MAGIC_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C8ACA3";\
+  borderColor = "#FFC8ACA3";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC8ACA3";
+
+apply (name:"Magic potion(*") {
+    VAR_MAGIC_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Stamina potion
+group: Potions Styles
+exampleItem: Stamina potion(4)
+*/
+#define VAR_STAMINA_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50977546";\
+  borderColor = "#FF977546";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF977546";
+
+apply (name:"Stamina potion(*") {
+    VAR_STAMINA_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Zamorak brew
+group: Potions Styles
+exampleItem: Zamorak brew(4)
+*/
+#define VAR_ZAMORAK_BREW_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C59418";\
+  borderColor = "#FFC59418";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC59418";
+
+apply (name:"Zamorak brew(*") {
+    VAR_ZAMORAK_BREW_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine magic potion
+group: Potions Styles
+exampleItem: Divine magic potion(4)
+*/
+#define VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50C6B1AA";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFC6B1AA";
+
+apply (name:"Divine magic potion(*") {
+    VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Antidote++
+group: Potions Styles
+exampleItem: Antidote++(4)
+*/
+#define VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#507A7E3A";\
+  borderColor = "#FF7A7E3A";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF7A7E3A";
+
+apply (name:"Antidote++(*") {
+    VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Bastion potion
+group: Potions Styles
+exampleItem: Bastion potion(4)
+*/
+#define VAR_BASTION_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50BB6216";\
+  borderColor = "#FFBB6216";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFBB6216";
+
+apply (name:"Bastion potion(*") {
+    VAR_BASTION_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Battlemage potion
+group: Potions Styles
+exampleItem: Battlemage potion(4)
+*/
+#define VAR_BATTLEMAGE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D8A942";\
+  borderColor = "#FFD8A942";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD8A942";
+
+apply (name:"Battlemage potion(*") {
+    VAR_BATTLEMAGE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Saradomin brew
+group: Potions Styles
+exampleItem: Saradomin brew(4)
+*/
+#define VAR_SARADOMIN_BREW_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50CAC962";\
+  borderColor = "#FFCAC962";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFCAC962";
+
+apply (name:"Saradomin brew(*") {
+    VAR_SARADOMIN_BREW_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Extended antifire
+group: Potions Styles
+exampleItem: Extended antifire(4)
+*/
+#define VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#506E3EC6";\
+  borderColor = "#FF6E3EC6";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF6E3EC6";
+
+apply (name:"Extended antifire(*") {
+    VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ancient brew
+group: Potions Styles
+exampleItem: Ancient brew(4)
+*/
+#define VAR_ANCIENT_BREW_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#509451C0";\
+  borderColor = "#FF9451C0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9451C0";
+
+apply (name:"Ancient brew(*") {
+    VAR_ANCIENT_BREW_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine bastion potion
+group: Potions Styles
+exampleItem: Divine bastion potion(4)
+*/
+#define VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50BB6216";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFBB6216";
+
+apply (name:"Divine bastion potion(*") {
+    VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine battlemage potion
+group: Potions Styles
+exampleItem: Divine battlemage potion(4)
+*/
+#define VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50D8A83E";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFD8A83E";
+
+apply (name:"Divine battlemage potion(*") {
+    VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Anti-venom
+group: Potions Styles
+exampleItem: Anti-venom(4)
+*/
+#define VAR_ANTI_VENOM_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503A4A42";\
+  borderColor = "#FF3A4A42";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF3A4A42";
+
+apply (name:"Anti-venom(*") {
+    VAR_ANTI_VENOM_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Menaphite remedy
+group: Potions Styles
+exampleItem: Menaphite remedy(4)
+*/
+#define VAR_MENAPHITE_REMEDY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501F7BD0";\
+  borderColor = "#FF1F7BD0";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1F7BD0";
+
+apply (name:"Menaphite remedy(*") {
+    VAR_MENAPHITE_REMEDY_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super combat potion
+group: Potions Styles
+exampleItem: Super combat potion(4)
+*/
+#define VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5019640B";\
+  borderColor = "#FF19640B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF19640B";
+
+apply (name:"Super combat potion(*") {
+    VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Forgotten brew
+group: Potions Styles
+exampleItem: Forgotten brew(4)
+*/
+#define VAR_FORGOTTEN_BREW_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50594568";\
+  borderColor = "#FF594568";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF594568";
+
+apply (name:"Forgotten brew(*") {
+    VAR_FORGOTTEN_BREW_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Super antifire potion
+group: Potions Styles
+exampleItem: Super antifire potion(4)
+*/
+#define VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#508D61AC";\
+  borderColor = "#FF8D61AC";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF8D61AC";
+
+apply (name:"Super antifire potion(*") {
+    VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Anti-venom+
+group: Potions Styles
+exampleItem: Anti-venom+(4)
+*/
+#define VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#505C494F";\
+  borderColor = "#FF5C494F";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF5C494F";
+
+apply (name:"Anti-venom+(*") {
+    VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Extended anti-venom+
+group: Potions Styles
+exampleItem: Extended anti-venom+(4)
+*/
+#define VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5066967B";\
+  borderColor = "#FF66967B";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF66967B";
+
+apply (name:"Extended anti-venom+(*") {
+    VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Divine super combat potion
+group: Potions Styles
+exampleItem: Divine super combat potion(4)
+*/
+#define VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#501C700B";\
+  borderColor = "#FFADC8C2";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF1C700B";
+
+apply (name:"Divine super combat potion(*") {
+    VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Extended super antifire
+group: Potions Styles
+exampleItem: Extended super antifire(4)
+*/
+#define VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50B393CB";\
+  borderColor = "#FFB393CB";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFB393CB";
+
+apply (name:"Extended super antifire(*") {
+    VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE 
+}
+/*@ define:group
+---
+name: Fish Styles
+expanded: false
+description: |
+  Fish Styles
+  ---
+  This module provides custom style for cooked fish. A few popular foods have been given custom styling out of the box.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Anglerfish custom style
+group: Fish Styles
+exampleItem: Anglerfish
+*/
+#define VAR_ANGLERFISH_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50624b18";\
+  borderColor = "#FF624b18";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFffd480";
+
+apply (name:"Anglerfish") {
+    VAR_ANGLERFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dark crab custom style
+group: Fish Styles
+exampleItem: Dark crab
+*/
+#define VAR_DARK_CRAB_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504a5e4b";\
+  borderColor = "#FF4a5e4b";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF9aff90";
+
+apply (name:"Dark crab") {
+    VAR_DARK_CRAB_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Manta ray custom style
+group: Fish Styles
+exampleItem: Manta ray
+*/
+#define VAR_MANTA_RAY_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5069503a";\
+  borderColor = "#FF69503a";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFffc38d";
+
+apply (name:"Manta ray") {
+    VAR_MANTA_RAY_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sea turtle custom style
+group: Fish Styles
+exampleItem: Sea turtle
+*/
+#define VAR_SEA_TURTLE_CUSTOMSTYLE 
+
+apply (name:"Sea turtle") {
+    VAR_SEA_TURTLE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Shark custom style
+group: Fish Styles
+exampleItem: Shark
+*/
+#define VAR_SHARK_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50b7977c";\
+  borderColor = "#FFb7977c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFb7977c";
+
+apply (name:"Shark") {
+    VAR_SHARK_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Karambwan custom style
+group: Fish Styles
+exampleItem: Karambwan
+*/
+#define VAR_KARAMBWAN_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50dad9d4";\
+  borderColor = "#FFdad9d4";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFdad9d4";
+
+apply (name:"Cooked Karambwan") {
+    VAR_KARAMBWAN_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Monkfish custom style
+group: Fish Styles
+exampleItem: Monkfish
+*/
+#define VAR_MONKFISH_CUSTOMSTYLE 
+
+apply (name:"Monkfish") {
+    VAR_MONKFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lava eel custom style
+group: Fish Styles
+exampleItem: Lava eel
+*/
+#define VAR_LAVA_EEL_CUSTOMSTYLE 
+
+apply (name:"Lava eel") {
+    VAR_LAVA_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Swordfish custom style
+group: Fish Styles
+exampleItem: Swordfish
+*/
+#define VAR_SWORDFISH_CUSTOMSTYLE 
+
+apply (name:"Swordfish") {
+    VAR_SWORDFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Bass custom style
+group: Fish Styles
+exampleItem: Bass
+*/
+#define VAR_BASS_CUSTOMSTYLE 
+
+apply (name:"Bass") {
+    VAR_BASS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lobster custom style
+group: Fish Styles
+exampleItem: Lobster
+*/
+#define VAR_LOBSTER_CUSTOMSTYLE 
+
+apply (name:"Lobster") {
+    VAR_LOBSTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Rainbow fish custom style
+group: Fish Styles
+exampleItem: Rainbow fish
+*/
+#define VAR_RAINBOW_FISH_CUSTOMSTYLE 
+
+apply (name:"Rainbow fish") {
+    VAR_RAINBOW_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cave eel custom style
+group: Fish Styles
+exampleItem: Cave eel
+*/
+#define VAR_CAVE_EEL_CUSTOMSTYLE 
+
+apply (name:"Cave eel") {
+    VAR_CAVE_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tuna custom style
+group: Fish Styles
+exampleItem: Tuna
+*/
+#define VAR_TUNA_CUSTOMSTYLE 
+
+apply (name:"Tuna") {
+    VAR_TUNA_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Salmon custom style
+group: Fish Styles
+exampleItem: Salmon
+*/
+#define VAR_SALMON_CUSTOMSTYLE 
+
+apply (name:"Salmon") {
+    VAR_SALMON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Slimy eel custom style
+group: Fish Styles
+exampleItem: Slimy eel
+*/
+#define VAR_SLIMY_EEL_CUSTOMSTYLE 
+
+apply (name:"Slimy eel") {
+    VAR_SLIMY_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Pike custom style
+group: Fish Styles
+exampleItem: Pike
+*/
+#define VAR_PIKE_CUSTOMSTYLE 
+
+apply (name:"Pike") {
+    VAR_PIKE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cod custom style
+group: Fish Styles
+exampleItem: Cod
+*/
+#define VAR_COD_CUSTOMSTYLE 
+
+apply (name:"Cod") {
+    VAR_COD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Trout custom style
+group: Fish Styles
+exampleItem: Trout
+*/
+#define VAR_TROUT_CUSTOMSTYLE 
+
+apply (name:"Trout") {
+    VAR_TROUT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mackerel custom style
+group: Fish Styles
+exampleItem: Mackerel
+*/
+#define VAR_MACKEREL_CUSTOMSTYLE 
+
+apply (name:"Mackerel") {
+    VAR_MACKEREL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Anchovies custom style
+group: Fish Styles
+exampleItem: Anchovies
+*/
+#define VAR_ANCHOVIES_CUSTOMSTYLE 
+
+apply (name:"Anchovies") {
+    VAR_ANCHOVIES_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Herring custom style
+group: Fish Styles
+exampleItem: Herring
+*/
+#define VAR_HERRING_CUSTOMSTYLE 
+
+apply (name:"Herring") {
+    VAR_HERRING_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Karambwanji custom style
+group: Fish Styles
+exampleItem: Karambwanji
+*/
+#define VAR_KARAMBWANJI_CUSTOMSTYLE 
+
+apply (name:"Karambwanji") {
+    VAR_KARAMBWANJI_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sardine custom style
+group: Fish Styles
+exampleItem: Sardine
+*/
+#define VAR_SARDINE_CUSTOMSTYLE 
+
+apply (name:"Sardine") {
+    VAR_SARDINE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Shrimp custom style
+group: Fish Styles
+exampleItem: Shrimp
+*/
+#define VAR_SHRIMP_CUSTOMSTYLE 
+
+apply (name:"Shrimp") {
+    VAR_SHRIMP_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
@@ -3421,6 +4638,270 @@ apply (name:"Lava rune") {
 }
 /*@ define:group
 ---
+name: Herbs Styles
+expanded: false
+description: |
+  Herbs Styles
+  ---
+  This group provides custom styling for all herbs. By default this colors all herbs similar to their item color.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Guam leaf custom style
+group: Herbs Styles
+exampleItem: Guam leaf
+*/
+#define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5009550d";\
+  borderColor = "#FF09550d";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF09550d";
+
+apply (name:"*guam leaf") {
+    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Marrentill custom style
+group: Herbs Styles
+exampleItem: Marrentill
+*/
+#define VAR_HERBS_MARRENTILL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500c7610";\
+  borderColor = "#FF0c7610";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0c7610";
+
+apply (name:"*marrentill") {
+    VAR_HERBS_MARRENTILL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Tarromin custom style
+group: Herbs Styles
+exampleItem: Tarromin
+*/
+#define VAR_HERBS_TARROMIN_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#500c7138";\
+  borderColor = "#FF0c7138";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF0c7138";
+
+apply (name:"*tarromin") {
+    VAR_HERBS_TARROMIN_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Harralander custom style
+group: Herbs Styles
+exampleItem: Harralander
+*/
+#define VAR_HERBS_HARRALANDER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5054780c";\
+  borderColor = "#FF54780c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF54780c";
+
+apply (name:"*harralander") {
+    VAR_HERBS_HARRALANDER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ranarr weed custom style
+group: Herbs Styles
+exampleItem: Ranarr weed
+*/
+#define VAR_HERBS_RANARR_WEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503c5f09";\
+  borderColor = "#FF3c5f09";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF3c5f09";
+
+apply (name:"*ranarr weed") {
+    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Toadflax custom style
+group: Herbs Styles
+exampleItem: Toadflax
+*/
+#define VAR_HERBS_TOADFLAX_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50002400";\
+  borderColor = "#FF002400";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF002400";
+
+apply (name:"*toadflax") {
+    VAR_HERBS_TOADFLAX_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Irit leaf custom style
+group: Herbs Styles
+exampleItem: Irit leaf
+*/
+#define VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50507436";\
+  borderColor = "#FF507436";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF507436";
+
+apply (name:"*irit leaf") {
+    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Avantoe custom style
+group: Herbs Styles
+exampleItem: Avantoe
+*/
+#define VAR_HERBS_AVANTOE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50145326";\
+  borderColor = "#FF145326";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF145326";
+
+apply (name:"*avantoe") {
+    VAR_HERBS_AVANTOE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Kwuarm custom style
+group: Herbs Styles
+exampleItem: Kwuarm
+*/
+#define VAR_HERBS_KWUARM_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#504d5709";\
+  borderColor = "#FF4d5709";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF4d5709";
+
+apply (name:"*kwuarm") {
+    VAR_HERBS_KWUARM_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Huasca custom style
+group: Herbs Styles
+exampleItem: Huasca
+*/
+#define VAR_HERBS_HUASCA_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50513748";\
+  borderColor = "#FF513748";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF513748";
+
+apply (name:"*huasca") {
+    VAR_HERBS_HUASCA_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Snapdragon custom style
+group: Herbs Styles
+exampleItem: Snapdragon
+*/
+#define VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#503e4b08";\
+  borderColor = "#FF3e4b08";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF3e4b08";
+
+apply (name:"*snapdragon") {
+    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Cadantine custom style
+group: Herbs Styles
+exampleItem: Cadantine
+*/
+#define VAR_HERBS_CADANTINE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5044501c";\
+  borderColor = "#FF44501c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF44501c";
+
+apply (name:"*cadantine") {
+    VAR_HERBS_CADANTINE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Lantadyme custom style
+group: Herbs Styles
+exampleItem: Lantadyme
+*/
+#define VAR_HERBS_LANTADYME_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5008473c";\
+  borderColor = "#FF08473c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF08473c";
+
+apply (name:"*lantadyme") {
+    VAR_HERBS_LANTADYME_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dwarf weed custom style
+group: Herbs Styles
+exampleItem: Dwarf weed
+*/
+#define VAR_HERBS_DWARF_WEED_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50094809";\
+  borderColor = "#FF094809";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF094809";
+
+apply (name:"*dwarf weed") {
+    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Torstol custom style
+group: Herbs Styles
+exampleItem: Torstol
+*/
+#define VAR_HERBS_TORSTOL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5009570c";\
+  borderColor = "#FF09570c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF09570c";
+
+apply (name:"*torstol") {
+    VAR_HERBS_TORSTOL_CUSTOMSTYLE 
+}
+/*@ define:group
+---
 name: Raw Fish Styles
 expanded: false
 description: |
@@ -4523,6 +6004,363 @@ exampleItem: Warrior guild token
 apply (name:"Warrior guild token") {
     VAR_WARRIOR_GUILD_TOKEN_CUSTOMSTYLE
 }
+
+/*@ define:module:rare_drop_table
+---
+name: Rare drop table
+subtitle: Give RDT some special attention
+description: |
+  Give RDT drops unique styling. This gives RDT drops a gold border by default. RDT drops are recognized by item name and quantity dropped. There will be some overlap with other drop tables.
+*/
+
+/*@ define:input:rare_drop_table
+type: enumlist
+label: Drops to force hidden
+enum: [
+  "Nature rune",
+  "Adamant javelin",
+  "Death rune",
+  "Law rune",
+  "Rune arrow",
+  "Steel arrow",
+  "Rune 2h sword",
+  "Rune battleaxe",
+  "Rune sq shield",
+  "Dragon med helm",
+  "Rune kiteshield",
+  "Coins",
+  "Loop half of key",
+  "Tooth half of key",
+  "Runite bar",
+  "Dragonstone",
+  "Silver ore",
+  "Uncut sapphire",
+  "Uncut emerald",
+  "Uncut ruby",
+  "Chaos talisman",
+  "Nature talisman",
+  "Uncut diamond",
+  "Rune javelin",
+  "Rune spear",
+  "Shield left half",
+  "Dragon spear"
+]
+*/
+#define VAR_RDT_HIDE []
+
+/*@ define:input:rare_drop_table
+type: enumlist
+label: Drops to show
+enum: [
+  "Nature rune",
+  "Adamant javelin",
+  "Death rune",
+  "Law rune",
+  "Rune arrow",
+  "Steel arrow",
+  "Rune 2h sword",
+  "Rune battleaxe",
+  "Rune sq shield",
+  "Dragon med helm",
+  "Rune kiteshield",
+  "Coins",
+  "Loop half of key",
+  "Tooth half of key",
+  "Runite bar",
+  "Dragonstone",
+  "Silver ore",
+  "Uncut sapphire",
+  "Uncut emerald",
+  "Uncut ruby",
+  "Chaos talisman",
+  "Nature talisman",
+  "Uncut diamond",
+  "Rune javelin",
+  "Rune spear",
+  "Shield left half",
+  "Dragon spear"
+]
+*/
+#define VAR_RDT_SHOW [ \
+  "Loop half of key", \
+  "Tooth half of key", \
+  "Rune spear", \
+  "Shield left half", \
+  "Dragon spear", \
+]
+
+
+/*@ define:input:rare_drop_table
+type: style
+label: RDT custom style
+exampleItem: Dragon spear
+*/
+#define VAR_RDT_CUSTOMSTYLE \
+  borderColor = "#FFdea71a";
+
+
+apply (name:"Nature rune" && quantity:==67) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Nature rune" && quantity:==67 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Nature rune" && quantity:==67 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Adamant javelin" && quantity:==20) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Death rune" && quantity:==45) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Death rune" && quantity:==45 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Death rune" && quantity:==45 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Law rune" && quantity:==45) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Law rune" && quantity:==45 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Law rune" && quantity:==45 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune arrow" && quantity:==42) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Steel arrow" && quantity:==150) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune 2h sword" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune battleaxe" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune sq shield" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Dragon med helm" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune kiteshield" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Coins" && quantity:==3000) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Coins" && quantity:==3000 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Coins" && quantity:==3000 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Loop half of key" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Tooth half of key" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Runite bar" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Runite bar" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Runite bar" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Dragonstone" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Silver ore" && quantity:==100) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Silver ore" && quantity:==100 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Silver ore" && quantity:==100 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Uncut sapphire" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Uncut emerald" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Uncut ruby" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Chaos talisman" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Nature talisman" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Uncut diamond" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune javelin" && quantity:==5) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Loop half of key" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Tooth half of key" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Rune spear" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Rune spear" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Rune spear" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Shield left half" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Shield left half" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Shield left half" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+apply (name:"Dragon spear" && quantity:==1) {
+    VAR_RDT_CUSTOMSTYLE 
+}
+apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_SHOW) {
+    hidden=false;
+}
+apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
+    hidden=true;
+}
+
 
 /*@ define:module:currency
 ---
@@ -8581,7 +10419,6 @@ apply (name:["Uncut onyx", \
 ] && quantity:<VAR_ONYX_MIN_QUANTITY) {
     hidden = true;
 }
-
 /*@ define:module:bars
 ---
 name: Bars
@@ -8787,38 +10624,23 @@ group: Bar Filtering
 apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY) {
     hidden = true;
 }
-
 /*@ define:module:herbs
 ---
 name: Herbs
 subtitle: Kaqemeex would be proud
 description: |
-  Provides herb filters, quantity filters per herb, and custom styling for each herb. By default, this gives each herb unique styling.
+  Provides herb filters and quantity filters per herb for each herb. By default, this gives each herb unique styling.
 */
-
-#define CONST_ALL_HERBS [ \
-  "*guam leaf", \
-  "*marrentill", \
-  "*tarromin", \
-  "*harralander", \
-  "*ranarr weed", \
-  "*toadflax", \
-  "*irit leaf", \
-  "*avantoe", \
-  "*kwuarm", \
-  "*huasca", \
-  "*snapdragon", \
-  "*cadantine", \
-  "*lantadyme", \
-  "*dwarf weed", \
-  "*torstol", \
-]
 
 /*@ define:input:herbs
 type: number
 label: Hide herbs below this value
 */
 #define VAR_HERBS_MINIMUM_VALUE 0
+
+apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: enumlist
@@ -8890,6 +10712,10 @@ enum: [
   "*Tarromin", \
   "*Harralander", \
 ]
+
+apply (name:VAR_HERBS_HIDE) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: enumlist
@@ -8964,202 +10790,9 @@ enum: [
   "*Torstol", \
 ]
 
-
-/*@ define:input:herbs
-type: style
-label: Guam leaf custom style
-group: Custom Styling
-exampleItem: Guam leaf
-*/
-#define VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5009550d";\
-  borderColor = "#FF09550d";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF09550d";
-
-/*@ define:input:herbs
-type: style
-label: Marrentill custom style
-group: Custom Styling
-exampleItem: Marrentill
-*/
-#define VAR_HERBS_MARRENTILL_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#500c7610";\
-  borderColor = "#FF0c7610";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF0c7610";
-
-/*@ define:input:herbs
-type: style
-label: Tarromin custom style
-group: Custom Styling
-exampleItem: Tarromin
-*/
-#define VAR_HERBS_TARROMIN_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#500c7138";\
-  borderColor = "#FF0c7138";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF0c7138";
-
-/*@ define:input:herbs
-type: style
-label: Harralander custom style
-group: Custom Styling
-exampleItem: Harralander
-*/
-#define VAR_HERBS_HARRALANDER_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5054780c";\
-  borderColor = "#FF54780c";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF54780c";
-
-/*@ define:input:herbs
-type: style
-label: Ranarr weed custom style
-group: Custom Styling
-exampleItem: Ranarr weed
-*/
-#define VAR_HERBS_RANARR_WEED_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#503c5f09";\
-  borderColor = "#FF3c5f09";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3c5f09";
-
-/*@ define:input:herbs
-type: style
-label: Toadflax custom style
-group: Custom Styling
-exampleItem: Toadflax
-*/
-#define VAR_HERBS_TOADFLAX_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50002400";\
-  borderColor = "#FF002400";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF002400";
-
-/*@ define:input:herbs
-type: style
-label: Irit leaf custom style
-group: Custom Styling
-exampleItem: Irit leaf
-*/
-#define VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50507436";\
-  borderColor = "#FF507436";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF507436";
-
-/*@ define:input:herbs
-type: style
-label: Avantoe custom style
-group: Custom Styling
-exampleItem: Avantoe
-*/
-#define VAR_HERBS_AVANTOE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50145326";\
-  borderColor = "#FF145326";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF145326";
-
-/*@ define:input:herbs
-type: style
-label: Kwuarm custom style
-group: Custom Styling
-exampleItem: Kwuarm
-*/
-#define VAR_HERBS_KWUARM_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#504d5709";\
-  borderColor = "#FF4d5709";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4d5709";
-
-/*@ define:input:herbs
-type: style
-label: Huasca custom style
-group: Custom Styling
-exampleItem: Huasca
-*/
-#define VAR_HERBS_HUASCA_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50513748";\
-  borderColor = "#FF513748";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF513748";
-
-/*@ define:input:herbs
-type: style
-label: Snapdragon custom style
-group: Custom Styling
-exampleItem: Snapdragon
-*/
-#define VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#503e4b08";\
-  borderColor = "#FF3e4b08";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3e4b08";
-
-/*@ define:input:herbs
-type: style
-label: Cadantine custom style
-group: Custom Styling
-exampleItem: Cadantine
-*/
-#define VAR_HERBS_CADANTINE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5044501c";\
-  borderColor = "#FF44501c";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF44501c";
-
-/*@ define:input:herbs
-type: style
-label: Lantadyme custom style
-group: Custom Styling
-exampleItem: Lantadyme
-*/
-#define VAR_HERBS_LANTADYME_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5008473c";\
-  borderColor = "#FF08473c";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF08473c";
-
-/*@ define:input:herbs
-type: style
-label: Dwarf weed custom style
-group: Custom Styling
-exampleItem: Dwarf weed
-*/
-#define VAR_HERBS_DWARF_WEED_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50094809";\
-  borderColor = "#FF094809";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF094809";
-
-/*@ define:input:herbs
-type: style
-label: Torstol custom style
-group: Custom Styling
-exampleItem: Torstol
-*/
-#define VAR_HERBS_TORSTOL_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5009570c";\
-  borderColor = "#FF09570c";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF09570c";
-
+apply (name:VAR_HERBS_SHOW) {
+    hidden = false;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9168,104 +10801,9 @@ group: Herb Quantity Filtering
 */
 #define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
 
-/*@ define:input:herbs
-type: number
-label: Marrentill minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Tarromin minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Harralander minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Ranarr weed minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Toadflax minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Irit leaf minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Avantoe minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Kwuarm minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Huasca minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Snapdragon minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Cadantine minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Lantadyme minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Dwarf weed minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
-
-/*@ define:input:herbs
-type: number
-label: Torstol minimum quantity
-group: Herb Quantity Filtering
-*/
-#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
-
+apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9274,12 +10812,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 0
 
+apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Marrentill minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
+
+apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Marrentill minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 0
+
+apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Tarromin minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
+
+apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9288,12 +10856,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 0
 
+apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Harralander minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
+
+apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Harralander minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 0
+
+apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
+
+apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9302,12 +10900,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 0
 
+apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Toadflax minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
+
+apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Toadflax minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 0
+
+apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
+
+apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9316,12 +10944,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 0
 
+apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Avantoe minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
+
+apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Avantoe minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 0
+
+apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
+
+apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9330,12 +10988,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 0
 
+apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Huasca minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
+
+apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Huasca minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 0
+
+apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
+
+apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9344,12 +11032,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 0
 
+apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Cadantine minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
+
+apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Cadantine minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 0
+
+apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
+
+apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9358,12 +11076,42 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 0
 
+apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
+
+apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
+    hidden = true;
+}
+
 /*@ define:input:herbs
 type: number
 label: Dwarf weed minimum quantity
 group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 0
+
+apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Torstol minimum quantity
+group: Herb Quantity Filtering
+*/
+#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
+
+apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
+    hidden = true;
+}
 
 /*@ define:input:herbs
 type: number
@@ -9372,167 +11120,9 @@ group: Noted Herb Quantity Filtering
 */
 #define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 0
 
-
-apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
-    hidden = true;
-}
-apply (name:VAR_HERBS_SHOW) {
-    hidden = false;
-}
-apply (name:VAR_HERBS_HIDE) {
-    hidden = true;
-}
-
-apply (name:"*guam leaf") {
-    VAR_HERBS_GUAM_LEAF_CUSTOMSTYLE 
-}
-apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*marrentill") {
-    VAR_HERBS_MARRENTILL_CUSTOMSTYLE 
-}
-apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*tarromin") {
-    VAR_HERBS_TARROMIN_CUSTOMSTYLE 
-}
-apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*harralander") {
-    VAR_HERBS_HARRALANDER_CUSTOMSTYLE 
-}
-apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*ranarr weed") {
-    VAR_HERBS_RANARR_WEED_CUSTOMSTYLE 
-}
-apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*toadflax") {
-    VAR_HERBS_TOADFLAX_CUSTOMSTYLE 
-}
-apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*irit leaf") {
-    VAR_HERBS_IRIT_LEAF_CUSTOMSTYLE 
-}
-apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*avantoe") {
-    VAR_HERBS_AVANTOE_CUSTOMSTYLE 
-}
-apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*kwuarm") {
-    VAR_HERBS_KWUARM_CUSTOMSTYLE 
-}
-apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*huasca") {
-    VAR_HERBS_HUASCA_CUSTOMSTYLE 
-}
-apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*snapdragon") {
-    VAR_HERBS_SNAPDRAGON_CUSTOMSTYLE 
-}
-apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*cadantine") {
-    VAR_HERBS_CADANTINE_CUSTOMSTYLE 
-}
-apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*lantadyme") {
-    VAR_HERBS_LANTADYME_CUSTOMSTYLE 
-}
-apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*dwarf weed") {
-    VAR_HERBS_DWARF_WEED_CUSTOMSTYLE 
-}
-apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
-    hidden = true;
-}
-apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
-    hidden = true;
-}
-
-apply (name:"*torstol") {
-    VAR_HERBS_TORSTOL_CUSTOMSTYLE 
-}
-apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
-    hidden = true;
-}
 apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
     hidden = true;
 }
-
 
 /*@ define:module:farming_seeds
 ---
@@ -10136,7 +11726,6 @@ apply (name:VAR_SECONDARIES_HIDE) {
 apply (name:VAR_SECONDARIES_SHOW) {
     hidden = false;
 }
-
 /*@ define:module:potions
 ---
 name: Potions
@@ -10365,6 +11954,10 @@ enum: [
   "Hunter potion(*", \
   "Antidote+(*", \
 ]
+
+apply (name:VAR_POTIONS_HIDE) {
+    hidden = true;
+}
 
 /*@ define:input:potions
 type: enumlist
@@ -10603,819 +12196,17 @@ enum: [
   "Super restore(*", \
 ]
 
-
-
-/*@ define:input:potions
-type: style
-label: Attack potion
-exampleItem: Attack potion(4)
-*/
-#define VAR_ATTACK_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5032C6CC";\
-  borderColor = "#FF32C6CC";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF32C6CC";
-
-/*@ define:input:potions
-type: style
-label: Antipoison
-exampleItem: Antipoison(4)
-*/
-#define VAR_ANTIPOISON_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5081D838";\
-  borderColor = "#FF81D838";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF81D838";
-
-/*@ define:input:potions
-type: style
-label: Strength potion
-exampleItem: Strength potion(4)
-*/
-#define VAR_STRENGTH_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C9C754";\
-  borderColor = "#FFC9C754";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC9C754";
-
-/*@ define:input:potions
-type: style
-label: Serum 207
-exampleItem: Serum 207(4)
-*/
-#define VAR_SERUM_207_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5011768B";\
-  borderColor = "#FF11768B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF11768B";
-
-/*@ define:input:potions
-type: style
-label: Compost potion
-exampleItem: Compost potion(4)
-*/
-#define VAR_COMPOST_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#508C655E";\
-  borderColor = "#FF8C655E";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF8C655E";
-
-/*@ define:input:potions
-type: style
-label: Restore potion
-exampleItem: Restore potion(4)
-*/
-#define VAR_RESTORE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D4645D";\
-  borderColor = "#FFD4645D";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD4645D";
-
-/*@ define:input:potions
-type: style
-label: Energy potion
-exampleItem: Energy potion(4)
-*/
-#define VAR_ENERGY_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50AA616D";\
-  borderColor = "#FFAA616D";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFAA616D";
-
-/*@ define:input:potions
-type: style
-label: Defence potion
-exampleItem: Defence potion(4)
-*/
-#define VAR_DEFENCE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5059D45C";\
-  borderColor = "#FF59D45C";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF59D45C";
-
-/*@ define:input:potions
-type: style
-label: Agility potion
-exampleItem: Agility potion(4)
-*/
-#define VAR_AGILITY_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#507E9812";\
-  borderColor = "#FF7E9812";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF7E9812";
-
-/*@ define:input:potions
-type: style
-label: Combat potion
-exampleItem: Combat potion(4)
-*/
-#define VAR_COMBAT_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#508AB977";\
-  borderColor = "#FF8AB977";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF8AB977";
-
-/*@ define:input:potions
-type: style
-label: Prayer potion
-exampleItem: Prayer potion(4)
-*/
-#define VAR_PRAYER_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5059D4A8";\
-  borderColor = "#FF59D4A8";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF59D4A8";
-
-/*@ define:input:potions
-type: style
-label: Super attack
-exampleItem: Super attack(4)
-*/
-#define VAR_SUPER_ATTACK_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#505457C9";\
-  borderColor = "#FF5457C9";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF5457C9";
-
-/*@ define:input:potions
-type: style
-label: Superantipoison
-exampleItem: Superantipoison(4)
-*/
-#define VAR_SUPERANTIPOISON_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D03177";\
-  borderColor = "#FFD03177";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD03177";
-
-/*@ define:input:potions
-type: style
-label: Fishing potion
-exampleItem: Fishing potion(4)
-*/
-#define VAR_FISHING_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50504B4B";\
-  borderColor = "#FF504B4B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF504B4B";
-
-/*@ define:input:potions
-type: style
-label: Super energy
-exampleItem: Super energy(4)
-*/
-#define VAR_SUPER_ENERGY_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C0619F";\
-  borderColor = "#FFC0619F";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC0619F";
-
-/*@ define:input:potions
-type: style
-label: Hunter potion
-exampleItem: Hunter potion(4)
-*/
-#define VAR_HUNTER_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#500B5E61";\
-  borderColor = "#FF0B5E61";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF0B5E61";
-
-/*@ define:input:potions
-type: style
-label: Goading potion
-exampleItem: Goading potion(4)
-*/
-#define VAR_GOADING_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50AA2315";\
-  borderColor = "#FFAA2315";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFAA2315";
-
-/*@ define:input:potions
-type: style
-label: Super strength
-exampleItem: Super strength(4)
-*/
-#define VAR_SUPER_STRENGTH_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D5D4D4";\
-  borderColor = "#FFD5D4D4";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD5D4D4";
-
-/*@ define:input:potions
-type: style
-label: Prayer regeneration potion
-exampleItem: Prayer regeneration potion(4)
-*/
-#define VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50815248";\
-  borderColor = "#FF815248";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF815248";
-
-/*@ define:input:potions
-type: style
-label: Super restore
-exampleItem: Super restore(4)
-*/
-#define VAR_SUPER_RESTORE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50AE3F6C";\
-  borderColor = "#FFAE3F6C";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFAE3F6C";
-
-/*@ define:input:potions
-type: style
-label: Sanfew serum
-exampleItem: Sanfew serum(4)
-*/
-#define VAR_SANFEW_SERUM_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50B97673";\
-  borderColor = "#FFB97673";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFB97673";
-
-/*@ define:input:potions
-type: style
-label: Super defence
-exampleItem: Super defence(4)
-*/
-#define VAR_SUPER_DEFENCE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D2B45C";\
-  borderColor = "#FFD2B45C";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD2B45C";
-
-/*@ define:input:potions
-type: style
-label: Antidote+
-exampleItem: Antidote+(4)
-*/
-#define VAR_ANTIDOTE_PLUS_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#507E7E64";\
-  borderColor = "#FF7E7E64";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF7E7E64";
-
-/*@ define:input:potions
-type: style
-label: Antifire potion
-exampleItem: Antifire potion(4)
-*/
-#define VAR_ANTIFIRE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5078129B";\
-  borderColor = "#FF78129B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF78129B";
-
-/*@ define:input:potions
-type: style
-label: Divine super attack potion
-exampleItem: Divine super attack potion(4)
-*/
-#define VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#506365CD";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF6365CD";
-
-/*@ define:input:potions
-type: style
-label: Divine super defence potion
-exampleItem: Divine super defence potion(4)
-*/
-#define VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50CDB365";\
-  borderColor = "#FFCDB365";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFCDB365";
-
-/*@ define:input:potions
-type: style
-label: Divine super strength potion
-exampleItem: Divine super strength potion(4)
-*/
-#define VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50CECDCD";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFCECDCD";
-
-/*@ define:input:potions
-type: style
-label: Ranging potion
-exampleItem: Ranging potion(4)
-*/
-#define VAR_RANGING_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5052A8C9";\
-  borderColor = "#FF52A8C9";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF52A8C9";
-
-/*@ define:input:potions
-type: style
-label: Divine ranging potion
-exampleItem: Divine ranging potion(4)
-*/
-#define VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5068B5D3";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF68B5D3";
-
-/*@ define:input:potions
-type: style
-label: Magic potion
-exampleItem: Magic potion(4)
-*/
-#define VAR_MAGIC_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C8ACA3";\
-  borderColor = "#FFC8ACA3";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC8ACA3";
-
-/*@ define:input:potions
-type: style
-label: Stamina potion
-exampleItem: Stamina potion(4)
-*/
-#define VAR_STAMINA_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50977546";\
-  borderColor = "#FF977546";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF977546";
-
-/*@ define:input:potions
-type: style
-label: Zamorak brew
-exampleItem: Zamorak brew(4)
-*/
-#define VAR_ZAMORAK_BREW_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C59418";\
-  borderColor = "#FFC59418";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC59418";
-
-/*@ define:input:potions
-type: style
-label: Divine magic potion
-exampleItem: Divine magic potion(4)
-*/
-#define VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50C6B1AA";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFC6B1AA";
-
-/*@ define:input:potions
-type: style
-label: Antidote++
-exampleItem: Antidote++(4)
-*/
-#define VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#507A7E3A";\
-  borderColor = "#FF7A7E3A";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF7A7E3A";
-
-/*@ define:input:potions
-type: style
-label: Bastion potion
-exampleItem: Bastion potion(4)
-*/
-#define VAR_BASTION_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50BB6216";\
-  borderColor = "#FFBB6216";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFBB6216";
-
-/*@ define:input:potions
-type: style
-label: Battlemage potion
-exampleItem: Battlemage potion(4)
-*/
-#define VAR_BATTLEMAGE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D8A942";\
-  borderColor = "#FFD8A942";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD8A942";
-
-/*@ define:input:potions
-type: style
-label: Saradomin brew
-exampleItem: Saradomin brew(4)
-*/
-#define VAR_SARADOMIN_BREW_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50CAC962";\
-  borderColor = "#FFCAC962";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFCAC962";
-
-/*@ define:input:potions
-type: style
-label: Extended antifire
-exampleItem: Extended antifire(4)
-*/
-#define VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#506E3EC6";\
-  borderColor = "#FF6E3EC6";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF6E3EC6";
-
-/*@ define:input:potions
-type: style
-label: Ancient brew
-exampleItem: Ancient brew(4)
-*/
-#define VAR_ANCIENT_BREW_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#509451C0";\
-  borderColor = "#FF9451C0";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9451C0";
-
-/*@ define:input:potions
-type: style
-label: Divine bastion potion
-exampleItem: Divine bastion potion(4)
-*/
-#define VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50BB6216";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFBB6216";
-
-/*@ define:input:potions
-type: style
-label: Divine battlemage potion
-exampleItem: Divine battlemage potion(4)
-*/
-#define VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50D8A83E";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFD8A83E";
-
-/*@ define:input:potions
-type: style
-label: Anti-venom
-exampleItem: Anti-venom(4)
-*/
-#define VAR_ANTI_VENOM_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#503A4A42";\
-  borderColor = "#FF3A4A42";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3A4A42";
-
-/*@ define:input:potions
-type: style
-label: Menaphite remedy
-exampleItem: Menaphite remedy(4)
-*/
-#define VAR_MENAPHITE_REMEDY_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#501F7BD0";\
-  borderColor = "#FF1F7BD0";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1F7BD0";
-
-/*@ define:input:potions
-type: style
-label: Super combat potion
-exampleItem: Super combat potion(4)
-*/
-#define VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5019640B";\
-  borderColor = "#FF19640B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF19640B";
-
-/*@ define:input:potions
-type: style
-label: Forgotten brew
-exampleItem: Forgotten brew(4)
-*/
-#define VAR_FORGOTTEN_BREW_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50594568";\
-  borderColor = "#FF594568";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF594568";
-
-/*@ define:input:potions
-type: style
-label: Super antifire potion
-exampleItem: Super antifire potion(4)
-*/
-#define VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#508D61AC";\
-  borderColor = "#FF8D61AC";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF8D61AC";
-
-/*@ define:input:potions
-type: style
-label: Anti-venom+
-exampleItem: Anti-venom+(4)
-*/
-#define VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#505C494F";\
-  borderColor = "#FF5C494F";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF5C494F";
-
-/*@ define:input:potions
-type: style
-label: Extended anti-venom+
-exampleItem: Extended anti-venom+(4)
-*/
-#define VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5066967B";\
-  borderColor = "#FF66967B";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF66967B";
-
-/*@ define:input:potions
-type: style
-label: Divine super combat potion
-exampleItem: Divine super combat potion(4)
-*/
-#define VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#501C700B";\
-  borderColor = "#FFADC8C2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1C700B";
-
-/*@ define:input:potions
-type: style
-label: Extended super antifire
-exampleItem: Extended super antifire(4)
-*/
-#define VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50B393CB";\
-  borderColor = "#FFB393CB";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFB393CB";
-
-
-
-
-apply (name:VAR_POTIONS_HIDE) {
-    hidden = true;
-}
 apply (name:VAR_POTIONS_SHOW) {
     hidden = false;
 }
-
-apply (name:"Attack potion(*") {
-    VAR_ATTACK_POTION_CUSTOMSTYLE 
-}
-apply (name:"Antipoison(*") {
-    VAR_ANTIPOISON_CUSTOMSTYLE 
-}
-apply (name:"Strength potion(*") {
-    VAR_STRENGTH_POTION_CUSTOMSTYLE 
-}
-apply (name:"Serum 207(*") {
-    VAR_SERUM_207_CUSTOMSTYLE 
-}
-apply (name:"Compost potion(*") {
-    VAR_COMPOST_POTION_CUSTOMSTYLE 
-}
-apply (name:"Restore potion(*") {
-    VAR_RESTORE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Energy potion(*") {
-    VAR_ENERGY_POTION_CUSTOMSTYLE 
-}
-apply (name:"Defence potion(*") {
-    VAR_DEFENCE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Agility potion(*") {
-    VAR_AGILITY_POTION_CUSTOMSTYLE 
-}
-apply (name:"Combat potion(*") {
-    VAR_COMBAT_POTION_CUSTOMSTYLE 
-}
-apply (name:"Prayer potion(*") {
-    VAR_PRAYER_POTION_CUSTOMSTYLE 
-}
-apply (name:"Super attack(*") {
-    VAR_SUPER_ATTACK_CUSTOMSTYLE 
-}
-apply (name:"Superantipoison(*") {
-    VAR_SUPERANTIPOISON_CUSTOMSTYLE 
-}
-apply (name:"Fishing potion(*") {
-    VAR_FISHING_POTION_CUSTOMSTYLE 
-}
-apply (name:"Super energy(*") {
-    VAR_SUPER_ENERGY_CUSTOMSTYLE 
-}
-apply (name:"Hunter potion(*") {
-    VAR_HUNTER_POTION_CUSTOMSTYLE 
-}
-apply (name:"Goading potion(*") {
-    VAR_GOADING_POTION_CUSTOMSTYLE 
-}
-apply (name:"Super strength(*") {
-    VAR_SUPER_STRENGTH_CUSTOMSTYLE 
-}
-apply (name:"Prayer regeneration potion(*") {
-    VAR_PRAYER_REGENERATION_POTION_CUSTOMSTYLE 
-}
-apply (name:"Super restore(*") {
-    VAR_SUPER_RESTORE_CUSTOMSTYLE 
-}
-apply (name:"Sanfew serum(*") {
-    VAR_SANFEW_SERUM_CUSTOMSTYLE 
-}
-apply (name:"Super defence(*") {
-    VAR_SUPER_DEFENCE_CUSTOMSTYLE 
-}
-apply (name:"Antidote+(*") {
-    VAR_ANTIDOTE_PLUS_CUSTOMSTYLE 
-}
-apply (name:"Antifire potion(*") {
-    VAR_ANTIFIRE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Divine super attack potion(*") {
-    VAR_DIVINE_SUPER_ATTACK_POTION_CUSTOMSTYLE 
-}
-apply (name:"Divine super defence potion(*") {
-    VAR_DIVINE_SUPER_DEFENCE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Divine super strength potion(*") {
-    VAR_DIVINE_SUPER_STRENGTH_POTION_CUSTOMSTYLE 
-}
-apply (name:"Ranging potion(*") {
-    VAR_RANGING_POTION_CUSTOMSTYLE 
-}
-apply (name:"Divine ranging potion(*") {
-    VAR_DIVINE_RANGING_POTION_CUSTOMSTYLE 
-}
-apply (name:"Magic potion(*") {
-    VAR_MAGIC_POTION_CUSTOMSTYLE 
-}
-apply (name:"Stamina potion(*") {
-    VAR_STAMINA_POTION_CUSTOMSTYLE 
-}
-apply (name:"Zamorak brew(*") {
-    VAR_ZAMORAK_BREW_CUSTOMSTYLE 
-}
-apply (name:"Divine magic potion(*") {
-    VAR_DIVINE_MAGIC_POTION_CUSTOMSTYLE 
-}
-apply (name:"Antidote++(*") {
-    VAR_ANTIDOTE_PLUS_PLUS_CUSTOMSTYLE 
-}
-apply (name:"Bastion potion(*") {
-    VAR_BASTION_POTION_CUSTOMSTYLE 
-}
-apply (name:"Battlemage potion(*") {
-    VAR_BATTLEMAGE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Saradomin brew(*") {
-    VAR_SARADOMIN_BREW_CUSTOMSTYLE 
-}
-apply (name:"Extended antifire(*") {
-    VAR_EXTENDED_ANTIFIRE_CUSTOMSTYLE 
-}
-apply (name:"Ancient brew(*") {
-    VAR_ANCIENT_BREW_CUSTOMSTYLE 
-}
-apply (name:"Divine bastion potion(*") {
-    VAR_DIVINE_BASTION_POTION_CUSTOMSTYLE 
-}
-apply (name:"Divine battlemage potion(*") {
-    VAR_DIVINE_BATTLEMAGE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Anti-venom(*") {
-    VAR_ANTI_VENOM_CUSTOMSTYLE 
-}
-apply (name:"Menaphite remedy(*") {
-    VAR_MENAPHITE_REMEDY_CUSTOMSTYLE 
-}
-apply (name:"Super combat potion(*") {
-    VAR_SUPER_COMBAT_POTION_CUSTOMSTYLE 
-}
-apply (name:"Forgotten brew(*") {
-    VAR_FORGOTTEN_BREW_CUSTOMSTYLE 
-}
-apply (name:"Super antifire potion(*") {
-    VAR_SUPER_ANTIFIRE_POTION_CUSTOMSTYLE 
-}
-apply (name:"Anti-venom+(*") {
-    VAR_ANTI_VENOM_PLUS_CUSTOMSTYLE 
-}
-apply (name:"Extended anti-venom+(*") {
-    VAR_EXTENDED_ANTI_VENOM_PLUS_CUSTOMSTYLE 
-}
-apply (name:"Divine super combat potion(*") {
-    VAR_DIVINE_SUPER_COMBAT_POTION_CUSTOMSTYLE 
-}
-apply (name:"Extended super antifire(*") {
-    VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE 
-}
-
-
-
 
 /*@ define:module:food
 ---
 name: Food
 subtitle: The stuff you eat
 description: |
-  This module provides filters based on food groups with some sane defaults. It also provides styling options available for every food group that has a filter. This can be done at the group level or on a food-by-food basis. A few popular foods have been given custom styling out of the box.
+  This module provides filters based on food groups with some sane defaults.
 */
-
-#define CONST_HUNTER_FOODS_LIST [ \
-  "Cooked wild kebbit", \
-  "Cooked larupia", \
-  "Cooked barb-tailed kebbit", \
-  "Cooked graahk", \
-  "Cooked kyatt", \
-  "Cooked pyre fox", \
-  "Cooked sunlight antelope", \
-  "Cooked dashing kebbit", \
-  "Cooked moonlight antelope", \
-]
-
-#define CONST_FISH_FOODS_LIST [ \
-  "Shrimp", \
-  "Sardine", \
-  "Karambwanji", \
-  "Herring", \
-  "Anchovies", \
-  "Mackerel", \
-  "Trout", \
-  "Cod", \
-  "Pike", \
-  "Slimy eel", \
-  "Salmon", \
-  "Tuna", \
-  "Rainbow fish", \
-  "Cave eel", \
-  "Lobster", \
-  "Bass", \
-  "Swordfish", \
-  "Lava eel", \
-  "Monkfish", \
-  "Cooked karambwan", \
-  "Shark", \
-  "Sea turtle", \
-  "Manta ray", \
-  "Anglerfish", \
-  "Dark crab", \
-]
 
 /*@ define:input:food
 type: enumlist
@@ -11439,6 +12230,10 @@ enum: [
   "Cooked barb-tailed kebbit", \
   "Cooked graahk", \
 ]
+
+apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
+    hidden = true;
+}
 
 /*@ define:input:food
 type: enumlist
@@ -11485,6 +12280,10 @@ enum: [
   "Tuna", \
 ]
 
+apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
+    hidden = true;
+}
+
 /*@ define:input:food
 type: enumlist
 label: Hunter foods to force shown
@@ -11506,6 +12305,10 @@ enum: [
   "Cooked dashing kebbit", \
   "Cooked moonlight antelope", \
 ]
+
+apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
+    hidden = false;
+}
 
 /*@ define:input:food
 type: enumlist
@@ -11551,341 +12354,8 @@ enum: [
   "Dark crab", \
 ]
 
-
-/*@ define:input:food
-type: style
-label: Hunter food style
-group: Food group style
-exampleItem: Cooked moonlight antelope
-*/
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Fish food default style
-group: Food group style
-exampleItem: Tuna
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Shrimp custom style
-group: Food style
-exampleItem: Shrimp
-*/
-#define VAR_SHRIMP_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Sardine custom style
-group: Food style
-exampleItem: Sardine
-*/
-#define VAR_SARDINE_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Karambwanji custom style
-group: Food style
-exampleItem: Karambwanji
-*/
-#define VAR_KARAMBWANJI_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Herring custom style
-group: Food style
-exampleItem: Herring
-*/
-#define VAR_HERRING_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Anchovies custom style
-group: Food style
-exampleItem: Anchovies
-*/
-#define VAR_ANCHOVIES_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Mackerel custom style
-group: Food style
-exampleItem: Mackerel
-*/
-#define VAR_MACKEREL_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Trout custom style
-group: Food style
-exampleItem: Trout
-*/
-#define VAR_TROUT_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Cod custom style
-group: Food style
-exampleItem: Cod
-*/
-#define VAR_COD_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Pike custom style
-group: Food style
-exampleItem: Pike
-*/
-#define VAR_PIKE_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Slimy eel custom style
-group: Food style
-exampleItem: Slimy eel
-*/
-#define VAR_SLIMY_EEL_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Salmon custom style
-group: Food style
-exampleItem: Salmon
-*/
-#define VAR_SALMON_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Tuna custom style
-group: Food style
-exampleItem: Tuna
-*/
-#define VAR_TUNA_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Rainbow fish custom style
-group: Food style
-exampleItem: Rainbow fish
-*/
-#define VAR_RAINBOW_FISH_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Cave eel custom style
-group: Food style
-exampleItem: Cave eel
-*/
-#define VAR_CAVE_EEL_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Lobster custom style
-group: Food style
-exampleItem: Lobster
-*/
-#define VAR_LOBSTER_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Bass custom style
-group: Food style
-exampleItem: Bass
-*/
-#define VAR_BASS_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Swordfish custom style
-group: Food style
-exampleItem: Swordfish
-*/
-#define VAR_SWORDFISH_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Lava eel custom style
-group: Food style
-exampleItem: Lava eel
-*/
-#define VAR_LAVA_EEL_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Monkfish custom style
-group: Food style
-exampleItem: Monkfish
-*/
-#define VAR_MONKFISH_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Karambwan custom style
-group: Food style
-exampleItem: Karambwan
-*/
-#define VAR_KARAMBWAN_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50dad9d4";\
-  borderColor = "#FFdad9d4";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFdad9d4";
-
-/*@ define:input:food
-type: style
-label: Shark custom style
-group: Food style
-exampleItem: Shark
-*/
-#define VAR_SHARK_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50b7977c";\
-  borderColor = "#FFb7977c";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFb7977c";
-
-/*@ define:input:food
-type: style
-label: Sea turtle custom style
-group: Food style
-exampleItem: Sea turtle
-*/
-#define VAR_SEA_TURTLE_CUSTOMSTYLE 
-
-/*@ define:input:food
-type: style
-label: Manta ray custom style
-group: Food style
-exampleItem: Manta ray
-*/
-#define VAR_MANTA_RAY_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#5069503a";\
-  borderColor = "#FF69503a";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFffc38d";
-
-/*@ define:input:food
-type: style
-label: Anglerfish custom style
-group: Food style
-exampleItem: Anglerfish
-*/
-#define VAR_ANGLERFISH_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#50624b18";\
-  borderColor = "#FF624b18";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFffd480";
-
-/*@ define:input:food
-type: style
-label: Dark crab custom style
-group: Food style
-exampleItem: Dark crab
-*/
-#define VAR_DARK_CRAB_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#504a5e4b";\
-  borderColor = "#FF4a5e4b";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF9aff90";
-
-apply (name:VAR_FOOD_HUNTER_FOODS_HIDE) {
-    hidden = true;
-}
-apply (name:VAR_FOOD_FISH_FOODS_HIDE) {
-    hidden = true;
-}
-apply (name:VAR_FOOD_HUNTER_FOODS_SHOW) {
-    hidden = false;
-}
 apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
     hidden = false;
-}
-
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
-}
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
-}
-apply (name:"Shrimp") {
-    VAR_SHRIMP_CUSTOMSTYLE 
-}
-apply (name:"Sardine") {
-    VAR_SARDINE_CUSTOMSTYLE 
-}
-apply (name:"Karambwanji") {
-    VAR_KARAMBWANJI_CUSTOMSTYLE 
-}
-apply (name:"Herring") {
-    VAR_HERRING_CUSTOMSTYLE 
-}
-apply (name:"Anchovies") {
-    VAR_ANCHOVIES_CUSTOMSTYLE 
-}
-apply (name:"Mackerel") {
-    VAR_MACKEREL_CUSTOMSTYLE 
-}
-apply (name:"Trout") {
-    VAR_TROUT_CUSTOMSTYLE 
-}
-apply (name:"Cod") {
-    VAR_COD_CUSTOMSTYLE 
-}
-apply (name:"Pike") {
-    VAR_PIKE_CUSTOMSTYLE 
-}
-apply (name:"Slimy eel") {
-    VAR_SLIMY_EEL_CUSTOMSTYLE 
-}
-apply (name:"Salmon") {
-    VAR_SALMON_CUSTOMSTYLE 
-}
-apply (name:"Tuna") {
-    VAR_TUNA_CUSTOMSTYLE 
-}
-apply (name:"Rainbow fish") {
-    VAR_RAINBOW_FISH_CUSTOMSTYLE 
-}
-apply (name:"Cave eel") {
-    VAR_CAVE_EEL_CUSTOMSTYLE 
-}
-apply (name:"Lobster") {
-    VAR_LOBSTER_CUSTOMSTYLE 
-}
-apply (name:"Bass") {
-    VAR_BASS_CUSTOMSTYLE 
-}
-apply (name:"Swordfish") {
-    VAR_SWORDFISH_CUSTOMSTYLE 
-}
-apply (name:"Lava eel") {
-    VAR_LAVA_EEL_CUSTOMSTYLE 
-}
-apply (name:"Monkfish") {
-    VAR_MONKFISH_CUSTOMSTYLE 
-}
-apply (name:"Cooked Karambwan") {
-    VAR_KARAMBWAN_CUSTOMSTYLE 
-}
-apply (name:"Shark") {
-    VAR_SHARK_CUSTOMSTYLE 
-}
-apply (name:"Sea turtle") {
-    VAR_SEA_TURTLE_CUSTOMSTYLE 
-}
-apply (name:"Manta ray") {
-    VAR_MANTA_RAY_CUSTOMSTYLE 
-}
-apply (name:"Anglerfish") {
-    VAR_ANGLERFISH_CUSTOMSTYLE 
-}
-apply (name:"Dark crab") {
-    VAR_DARK_CRAB_CUSTOMSTYLE 
 }
 
 /*@ define:module:metal_equipment
@@ -14241,363 +14711,6 @@ apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STAN
 apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE) {
     hidden = true;
 }
-
-/*@ define:module:rare_drop_table
----
-name: Rare drop table
-subtitle: Give RDT some special attention
-description: |
-  Give RDT drops unique styling. This gives RDT drops a gold border by default. RDT drops are recognized by item name and quantity dropped. There will be some overlap with other drop tables.
-*/
-
-/*@ define:input:rare_drop_table
-type: enumlist
-label: Drops to force hidden
-enum: [
-  "Nature rune",
-  "Adamant javelin",
-  "Death rune",
-  "Law rune",
-  "Rune arrow",
-  "Steel arrow",
-  "Rune 2h sword",
-  "Rune battleaxe",
-  "Rune sq shield",
-  "Dragon med helm",
-  "Rune kiteshield",
-  "Coins",
-  "Loop half of key",
-  "Tooth half of key",
-  "Runite bar",
-  "Dragonstone",
-  "Silver ore",
-  "Uncut sapphire",
-  "Uncut emerald",
-  "Uncut ruby",
-  "Chaos talisman",
-  "Nature talisman",
-  "Uncut diamond",
-  "Rune javelin",
-  "Rune spear",
-  "Shield left half",
-  "Dragon spear"
-]
-*/
-#define VAR_RDT_HIDE []
-
-/*@ define:input:rare_drop_table
-type: enumlist
-label: Drops to show
-enum: [
-  "Nature rune",
-  "Adamant javelin",
-  "Death rune",
-  "Law rune",
-  "Rune arrow",
-  "Steel arrow",
-  "Rune 2h sword",
-  "Rune battleaxe",
-  "Rune sq shield",
-  "Dragon med helm",
-  "Rune kiteshield",
-  "Coins",
-  "Loop half of key",
-  "Tooth half of key",
-  "Runite bar",
-  "Dragonstone",
-  "Silver ore",
-  "Uncut sapphire",
-  "Uncut emerald",
-  "Uncut ruby",
-  "Chaos talisman",
-  "Nature talisman",
-  "Uncut diamond",
-  "Rune javelin",
-  "Rune spear",
-  "Shield left half",
-  "Dragon spear"
-]
-*/
-#define VAR_RDT_SHOW [ \
-  "Loop half of key", \
-  "Tooth half of key", \
-  "Rune spear", \
-  "Shield left half", \
-  "Dragon spear", \
-]
-
-
-/*@ define:input:rare_drop_table
-type: style
-label: RDT custom style
-exampleItem: Dragon spear
-*/
-#define VAR_RDT_CUSTOMSTYLE \
-  borderColor = "#FFdea71a";
-
-
-apply (name:"Nature rune" && quantity:==67) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Nature rune" && quantity:==67 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Nature rune" && quantity:==67 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Adamant javelin" && quantity:==20) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Adamant javelin" && quantity:==20 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Death rune" && quantity:==45) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Death rune" && quantity:==45 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Death rune" && quantity:==45 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Law rune" && quantity:==45) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Law rune" && quantity:==45 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Law rune" && quantity:==45 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune arrow" && quantity:==42) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune arrow" && quantity:==42 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Steel arrow" && quantity:==150) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Steel arrow" && quantity:==150 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune 2h sword" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune 2h sword" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune battleaxe" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune battleaxe" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune sq shield" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune sq shield" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Dragon med helm" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Dragon med helm" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune kiteshield" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune kiteshield" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Coins" && quantity:==3000) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Coins" && quantity:==3000 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Coins" && quantity:==3000 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Loop half of key" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Tooth half of key" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Runite bar" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Runite bar" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Runite bar" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Dragonstone" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Dragonstone" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Silver ore" && quantity:==100) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Silver ore" && quantity:==100 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Silver ore" && quantity:==100 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Uncut sapphire" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Uncut sapphire" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Uncut emerald" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Uncut emerald" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Uncut ruby" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Uncut ruby" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Chaos talisman" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Chaos talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Nature talisman" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Nature talisman" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Uncut diamond" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Uncut diamond" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune javelin" && quantity:==5) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune javelin" && quantity:==5 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Loop half of key" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Loop half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Tooth half of key" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Tooth half of key" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Rune spear" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Rune spear" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Rune spear" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Shield left half" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Shield left half" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Shield left half" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-apply (name:"Dragon spear" && quantity:==1) {
-    VAR_RDT_CUSTOMSTYLE 
-}
-apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_SHOW) {
-    hidden=false;
-}
-apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
-    hidden=true;
-}
-
 /*@ define:module:final
 hidden: true
 name: final
@@ -15813,4 +15926,62 @@ name: Constants
   "Mottled eel", \
   "Greater siren", \
   "Raw karambwan", \
+]
+
+#define CONST_ALL_HERBS [ \
+  "*guam leaf", \
+  "*marrentill", \
+  "*tarromin", \
+  "*harralander", \
+  "*ranarr weed", \
+  "*toadflax", \
+  "*irit leaf", \
+  "*avantoe", \
+  "*kwuarm", \
+  "*huasca", \
+  "*snapdragon", \
+  "*cadantine", \
+  "*lantadyme", \
+  "*dwarf weed", \
+  "*torstol", \
+]
+
+#define CONST_HUNTER_FOODS_LIST [ \
+  "Cooked wild kebbit", \
+  "Cooked larupia", \
+  "Cooked barb-tailed kebbit", \
+  "Cooked graahk", \
+  "Cooked kyatt", \
+  "Cooked pyre fox", \
+  "Cooked sunlight antelope", \
+  "Cooked dashing kebbit", \
+  "Cooked moonlight antelope", \
+]
+
+#define CONST_FISH_FOODS_LIST [ \
+  "Shrimp", \
+  "Sardine", \
+  "Karambwanji", \
+  "Herring", \
+  "Anchovies", \
+  "Mackerel", \
+  "Trout", \
+  "Cod", \
+  "Pike", \
+  "Slimy eel", \
+  "Salmon", \
+  "Tuna", \
+  "Rainbow fish", \
+  "Cave eel", \
+  "Lobster", \
+  "Bass", \
+  "Swordfish", \
+  "Lava eel", \
+  "Monkfish", \
+  "Cooked karambwan", \
+  "Shark", \
+  "Sea turtle", \
+  "Manta ray", \
+  "Anglerfish", \
+  "Dark crab", \
 ]
