@@ -27,6 +27,7 @@ jobs:
         run: |
           echo "Building filter"
           echo -e "/*@ define:module:header\nhidden: true\nname: header\n*/" >> filter.rs2f
+          echo -e "/* Built on: $(date) */" >> filter.rs2f
           echo "meta { name = \"Joe's filter\"; }" >> filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> filter.rs2f
@@ -34,6 +35,7 @@ jobs:
 
           echo "Building default filter"
           echo -e "/*@ define:module:header\nhidden: true\nname: header\n*/" >> default-filter.rs2f
+          echo -e "/* Built on: $(date) */" >> default-filter.rs2f
           echo "meta { name = \"[default: Joe's filter]\"; }" >> default-filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> default-filter.rs2f
