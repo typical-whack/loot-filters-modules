@@ -9,6 +9,7 @@ filtering/remains
 filtering/gems
 filtering/fishing
 filtering/ores
+filtering/logs
 area_based_filtering/_module_definition
 area_based_filtering/chambers_of_xeric
 area_based_filtering/tombs_of_amascut
@@ -46,7 +47,6 @@ bossing
 slayer
 ammo
 runes
-logs
 bars
 herbs
 farming_seeds
