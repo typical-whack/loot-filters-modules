@@ -11,6 +11,7 @@ filtering/runes
 filtering/fishing
 filtering/ores
 filtering/logs
+filtering/farming_seeds
 filtering/herblore_secondaries
 area_based_filtering/_module_definition
 area_based_filtering/chambers_of_xeric
@@ -50,7 +51,6 @@ slayer
 ammo
 bars
 herbs
-farming_seeds
 potions
 food
 metal_equipment
