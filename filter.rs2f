@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Sat May 10 22:43:55 UTC 2025 */
-/* Commit: f21a015 */
+/* Built on: Sun May 11 22:25:39 UTC 2025 */
+/* Commit: 72cf7d7 */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -6744,7 +6744,8 @@ exampleItemId: 12922
 */
 #define VAR_UNIQUES_CUSTOMSTYLE \
   fontType = 3;\
-  showLootbeam = true;
+  showLootbeam = true;\
+  sound = 6765;
 
 /*@ define:group
 ---
@@ -13760,6 +13761,38 @@ group: Backpack reminder sound
 apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) && ownership:OWNERSHIP_SELF && quantity:==1 && VAR_AMMO_BACKPACK_REMINDER_SOUND) {
     sound = VAR_AMMO_BACKPACK_REMINDER_SOUND_ID;
 }
+
+/*@ define:group
+---
+name: Deathpile
+description: |
+  Deathpile
+  ---
+  This disables sounds and notifications for items on the ground in places that people often create deathpiles.
+*/
+
+/*@ define:input:utilities
+type: boolean
+label: Disable drop sounds in deathpile locations
+group: Deathpile
+*/
+#define VAR_DEATHPILE_SOUND_DISABLE true
+
+apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
+    sound = 2411; // sound name: silence
+}
+
+/*@ define:input:utilities
+type: boolean
+label: Disable drop notifications in deathpile locations
+group: Deathpile
+*/
+#define VAR_DEATHPILE_NOTIFY_DISABLE true
+
+apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
+    notify = false;
+}
+
 /*@ define:module:final
 hidden: true
 name: final
@@ -14612,6 +14645,12 @@ name: Constants
 #define CONST_SLAYER_TUROTHS_AREA [0000, 0000, 0, 0000, 0000, 0]
 #define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
 #define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
+
+#define CONST_PRIF_SPAWN_AREA [3238, 6066, 0, 3284, 6102, 0]
+#define CONST_FALADOR_SPAWN_AREA [2958, 3335, 0, 2983, 3355, 0]
+#define CONST_EDGEVILLE_NETTLES_AREA [3088, 3468, 0, 3092, 3470, 0]
+
+
 
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
