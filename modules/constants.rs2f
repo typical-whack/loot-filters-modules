@@ -67,6 +67,9 @@ name: Constants
 #define CONST_SLAYER_JELLIES_AREA [0000, 0000, 0, 0000, 0000, 0]
 #define CONST_SLAYER_BLOODVELDS_AREA [0000, 0000, 0, 0000, 0000, 0]
 
+#define CONST_PRIF_SPAWN_AREA [3238, 6066, 0, 3284, 6102, 0]
+
+
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
     "1/2 meat pizza", \
