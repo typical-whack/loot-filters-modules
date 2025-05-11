@@ -15,7 +15,8 @@ exampleItemId: 12922
 */
 #define VAR_UNIQUES_CUSTOMSTYLE \
   fontType = 3;\
-  showLootbeam = true;
+  showLootbeam = true;\
+  sound = 6765;
 
 /*@ define:group
 ---
