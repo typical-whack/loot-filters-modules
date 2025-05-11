@@ -48,23 +48,23 @@ description: |
 
 /*@ define:input:utilities
 type: boolean
-label: Disable drop sounds in deathpiles locations
+label: Disable drop sounds in deathpile locations
 group: Deathpile
 */
 #define VAR_DEATHPILE_SOUND_DISABLE true
 
-apply (VAR_DEATHPILE_SOUND_DISABLE && area:CONST_PRIF_SPAWN_AREA) {
+apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
     sound = 2411; // sound name: silence
 }
 
 /*@ define:input:utilities
 type: boolean
-label: Disable drop notifications in deathpiles locations
+label: Disable drop notifications in deathpile locations
 group: Deathpile
 */
 #define VAR_DEATHPILE_NOTIFY_DISABLE true
 
-apply (VAR_DEATHPILE_NOTIFY_DISABLE && area:CONST_PRIF_SPAWN_AREA) {
+apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
     notify = false;
 }
 
