@@ -1,35 +1,37 @@
 sprites:
   - name: Zilyana
-    sprite_id_50: 4324
+    sprite_id_50_50: 4324
   - name: General Graardor
-    sprite_id_50: 4322
+    sprite_id_50_50: 4322
   - name: Kree'arra
-    sprite_id_50: 4325
+    sprite_id_50_50: 4325
   - name: K'ril Tsutsaroth
-    sprite_id_50: 4323
+    sprite_id_50_50: 4323
   - name: Nex
-    sprite_id_50: 4331
+    sprite_id_50_50: 4331
   - name: Chambers of Xeric
-    sprite_id_50: 4328
+    sprite_id_50_50: 4328
   - name: Tombs of Amascut (entry)
-    sprite_id_35: 4660
+    sprite_id_35_35: 4660
   - name: Tombs of Amascut
-    sprite_id_25: 4297
-    sprite_id_35: 4661
+    sprite_id_25_25: 4297
+    sprite_id_35_35: 4661
   - name: Tombs of Amascut (expert)
-    sprite_id_25: 4298
-    sprite_id_35: 4662
+    sprite_id_25_25: 4298
+    sprite_id_35_35: 4662
   - name: Mimic
-    sprite_id_50: 4300
+    sprite_id_50_50: 4300
   - name: Royal Titans
-    sprite_id_50: 6375
+    sprite_id_50_50: 6375
   - name: Barrows
-    sprite_id_50: 4307
+    sprite_id_50_50: 4307
   - name: Dagannoth Kings
-    sprite_id_50: 4308
+    sprite_id_50_50: 4308
   - name: Zalcano
-    sprite_id_50: 4313
+    sprite_id_50_50: 4313
   - name: Thermonuclear Smoke Devil
-    sprite_id_25: 4277
+    sprite_id_25_25: 4277
   - name: Crystalline Hunllef
-    sprite_id_50: 4318
+    sprite_id_50_50: 4318
+  - name: Scroll with question mark
+    sprite_id_33_36: 3558
