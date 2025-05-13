@@ -22,8 +22,9 @@ exampleItemId: 12922
 ---
 name: "Uniques List"
 icon: 
-  type: itemId
-  itemId: 956
+  type: sprite
+  spriteId: 2534
+  spriteIndex: 0
 expanded: false
 */
 

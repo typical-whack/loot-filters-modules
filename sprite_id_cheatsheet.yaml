@@ -39,3 +39,5 @@ sprites:
     sprite_id_33_36: 2301
   - name: Gravestone
     sprite_id_52_52: 2520
+  - name: Big Scroll
+    sprite_id_64_64: 2534
