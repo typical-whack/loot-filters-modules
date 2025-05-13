@@ -45,7 +45,7 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 name: Deathpile
 icon: 
   type: sprite
-  spriteId: 2520
+  spriteId: 2929
   spriteIndex: 0
 description: |
   Deathpile
