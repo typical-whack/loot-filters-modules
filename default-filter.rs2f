@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 03:36:40 UTC 2025 */
-/* Commit: e7a2c6f */
+/* Built on: Tue May 13 03:50:45 UTC 2025 */
+/* Commit: d8f91dd */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -5319,8 +5319,9 @@ apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_S
 ---
 name: General Graardor
 icon: 
-  type: itemId
-  itemId: 12650
+  type: sprite
+  spriteId: 4322 
+  spriteIndex: 0
 */
 
 /*@ define:input:bossing
@@ -5474,8 +5475,9 @@ apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUP
 ---
 name: Kree'arra
 icon: 
-  type: itemId
-  itemId: 12649
+  type: sprite
+  spriteId: 4325  
+  spriteIndex: 0
 */
 
 /*@ define:input:bossing
@@ -5627,8 +5629,9 @@ apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
 ---
 name: K'ril Tsutsaroth
 icon: 
-  type: itemId
-  itemId: 12652
+  type: sprite
+  spriteId: 4323
+  spriteIndex: 0
 */
 
 /*@ define:input:bossing
@@ -5769,8 +5772,9 @@ apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPL
 ---
 name: Nex
 icon: 
-  type: itemId
-  itemId: 26348
+  type: sprite
+  spriteId: 4331
+  spriteIndex: 0
 */
 
 /*@ define:input:bossing
