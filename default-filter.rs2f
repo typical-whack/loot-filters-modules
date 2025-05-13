@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 02:27:34 UTC 2025 */
-/* Commit: 9e812e1 */
+/* Built on: Tue May 13 03:13:17 UTC 2025 */
+/* Commit: a6fdef2 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -4666,6 +4666,9 @@ description: |
 /*@ define:group
 ---
 name: Chambers of Xeric
+icon: 
+  type: itemId
+  itemId: 20851
 description: |
   Chambers of Xeric
   ---
@@ -4929,6 +4932,9 @@ apply (area:CONST_COX_AREA && name:["overload (-)*", \
 /*@ define:group
 ---
 name: Tombs of Amascut
+icon: 
+  type: itemId
+  itemId: 27352
 description: |
   Tombs of Amascut
   ---
@@ -5138,6 +5144,14 @@ apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
 apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
     hidden = false;
 }
+/*@ define:group
+---
+name: God Wars Dungeon
+icon: 
+  type: itemId
+  itemId: 11798
+*/
+
 /*@ define:input:bossing
 type: stringlist
 label: God Wars Dungeon force shown
@@ -5161,6 +5175,14 @@ apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HID
 apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
     hidden = false;
 }
+
+/*@ define:group
+---
+name: Commander Zilyana
+icon: 
+  type: itemId
+  itemId: 12651
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -5290,6 +5312,15 @@ apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_C
 apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
     hidden = false;
 }
+
+
+/*@ define:group
+---
+name: General Graardor
+icon: 
+  type: itemId
+  itemId: 12650
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -5437,6 +5468,15 @@ apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUP
     hidden = false;
 }
 
+
+/*@ define:group
+---
+name: Kree'arra
+icon: 
+  type: itemId
+  itemId: 12649
+*/
+
 /*@ define:input:bossing
 type: enumlist
 label: Unique drops force hidden
@@ -5581,6 +5621,15 @@ apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
     hidden = false;
 }
 
+
+/*@ define:group
+---
+name: K'ril Tsutsaroth
+icon: 
+  type: itemId
+  itemId: 12652
+*/
+
 /*@ define:input:bossing
 type: enumlist
 label: Unique drops force hidden
@@ -5713,6 +5762,15 @@ apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMO
 apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
     hidden = false;
 }
+
+
+/*@ define:group
+---
+name: Nex
+icon: 
+  type: itemId
+  itemId: 26348
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -5861,6 +5919,14 @@ apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_SHOW) {
 apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
     hidden = false;
 }
+/*@ define:group
+---
+name: Wilderness Slayer
+icon: 
+  type: itemId
+  itemId: 23494
+*/
+
 /*@ define:input:slayer
 type: enumlist
 label: Wilderness slayer drops force hidden
@@ -5965,6 +6031,14 @@ apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNE
 apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
     hidden = false;
 }
+
+/*@ define:group
+---
+name: Smoke Devils
+icon: 
+  type: itemId
+  itemId: 12002
+*/
 
 /*@ define:input:slayer
 type: enumlist
@@ -6131,6 +6205,9 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 /*@ define:group
 ---
 name: "Ancient Guthixian Temple (Tormented Demons)"
+icon: 
+  type: itemId
+  itemId: 29577
 description: |
   "Ancient Guthixian Temple (Tormented Demons)"
   ---
@@ -6165,6 +6242,9 @@ apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_D
 /*@ define:group
 ---
 name: The Gauntlet
+icon: 
+  type: itemId
+  itemId: 23757
 expanded: false
 description: |
   The Gauntlet
@@ -6357,6 +6437,9 @@ apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_EQUIPMENT_HIDE) {
 ---
 name: Last Man Standing
 expanded: false
+icon: 
+  type: itemId
+  itemId: 24520
 description: |
   Last Man Standing
   ---
