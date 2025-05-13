@@ -43,3 +43,5 @@ sprites:
     sprite_id_32_32: 2929
   - name: Big Scroll
     sprite_id_64_64: 2534
+  - name: Herblore Skill
+    sprite_id_64_64: 4244
