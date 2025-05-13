@@ -51,6 +51,8 @@ description: |
   - Edgeville nettles
   - Edgeville monastery second floor
   - Ardougne market chest
+  - Fortis Colosseum lobby
+  - Lumbridge Castle Cellar + Cave right outside cellar
 */
 
 /*@ define:input:utilities
@@ -60,7 +62,7 @@ group: UIM Deathpile
 */
 #define VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE true
 
-apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA)) {
+apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA || area:CONST_COLO_LOBBY_AREA || area:CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA)) {
     sound = 2411; // sound name: silence
     notify = false;
 }
