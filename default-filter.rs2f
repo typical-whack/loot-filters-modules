@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 04:12:08 UTC 2025 */
-/* Commit: 6e5a5ef */
+/* Built on: Tue May 13 04:13:36 UTC 2025 */
+/* Commit: 2706a54 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -13950,7 +13950,7 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 name: Deathpile
 icon: 
   type: sprite
-  spriteId: 2520
+  spriteId: 2929
   spriteIndex: 0
 description: |
   Deathpile
