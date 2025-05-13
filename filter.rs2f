@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 01:56:12 UTC 2025 */
-/* Commit: 2c0255c */
+/* Built on: Tue May 13 02:23:48 UTC 2025 */
+/* Commit: 35fa7e7 */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -313,6 +313,9 @@ rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:
 /*@ define:group
 ---
 name: Clue Scrolls
+icon: 
+  type: itemId
+  itemId: 19835
 expanded: false
 description: |
   Clue Scrolls
@@ -361,6 +364,9 @@ apply (name:VAR_CLUE_SCROLLS_HIDE) {
 /*@ define:group
 ---
 name: Remains
+icon: 
+  type: itemId
+  itemId: 536
 description: |
   Remains
   ---
@@ -531,6 +537,9 @@ apply (name:VAR_ENSOULED_HEADS_HIDE) {
 /*@ define:group
 ---
 name: Food
+icon: 
+  type: itemId
+  itemId: 13441
 description: |
   Food
   ---
@@ -689,6 +698,9 @@ apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
 /*@ define:group
 ---
 name: Potions
+icon: 
+  type: itemId
+  itemId: 3024
 description: |
   Potions
   ---
@@ -1165,6 +1177,9 @@ apply (name:VAR_POTIONS_SHOW) {
 /*@ define:group
 ---
 name: Ammo
+icon: 
+  type: itemId
+  itemId: 11216
 description: |
   Ammo
   ---
@@ -1688,6 +1703,9 @@ apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE
 /*@ define:group
 ---
 name: Gems
+icon: 
+  type: itemId
+  itemId: 1615
 description: |
   Gems
   ---
@@ -1862,6 +1880,9 @@ apply (name:["Uncut onyx", \
 /*@ define:group
 ---
 name: Runes
+icon: 
+  type: itemId
+  itemId: 556
 description: |
   Runes
   ---
@@ -2224,7 +2245,7 @@ apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SH
 name: Herbs
 icon: 
   type: itemId
-  itemId: 41
+  itemId: 249
 description: |
   Herbs
   ---
@@ -2728,6 +2749,9 @@ apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QU
 /*@ define:group
 ---
 name: Fishing
+icon: 
+  type: itemId
+  itemId: 307
 description: |
   Fishing
   ---
@@ -2867,6 +2891,9 @@ apply (name:VAR_FISHING_RAW_FISH_HIDE) {
 /*@ define:group
 ---
 name: Ores
+icon: 
+  type: itemId
+  itemId: 449
 description: |
   Ores
   ---
@@ -3044,6 +3071,9 @@ apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
 /*@ define:group
 ---
 name: Bars
+icon: 
+  type: itemId
+  itemId: 2363
 description: |
   Bars
   ---
@@ -3251,9 +3281,8 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
 ---
 name: Logs
 icon: 
-  type: sprite
-  spriteId: 41
-  spriteIndex: 0
+  type: itemId
+  itemId: 1515
 description: |
   Logs
   ---
@@ -3455,6 +3484,9 @@ apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
 /*@ define:group
 ---
 name: Farming seeds
+icon: 
+  type: itemId
+  itemId: 30093
 description: |
   Farming seeds
   ---
@@ -3930,6 +3962,9 @@ apply (name:VAR_FARMING_SEEDS_ANIMA_SHOW) {
 /*@ define:group
 ---
 name: Herblore secondaries
+icon: 
+  type: itemId
+  itemId: 223
 description: |
   Herblore secondaries
   ---
@@ -4035,6 +4070,9 @@ apply (name:VAR_SECONDARIES_SHOW) {
 /*@ define:group
 ---
 name: Currency
+icon: 
+  type: itemId
+  itemId: 1004
 description: |
   Currency
   ---
@@ -4441,6 +4479,9 @@ apply (name:"Warrior guild token" && quantity:<VAR_WARRIOR_GUILD_TOKEN_MIN_QUANT
 /*@ define:group
 ---
 name: Metal Equipment
+icon: 
+  type: itemId
+  itemId: 1147
 description: |
   Metal Equipment
   ---
@@ -7124,6 +7165,15 @@ apply (name:VAR_ALCHS_ITEM_LIST) {
 ---
 name: List of alchables
 expanded: false
+*/
+
+/*@ define:group
+---
+name: List of alchables
+icon: 
+  type: sprite
+  spriteId: 41
+  spriteIndex: 0
 */
 
 /*@ define:input:alchs
