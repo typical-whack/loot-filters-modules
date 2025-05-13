@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 03:26:50 UTC 2025 */
-/* Commit: ee7b821 */
+/* Built on: Tue May 13 03:29:00 UTC 2025 */
+/* Commit: b196d12 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -13903,6 +13903,9 @@ description: |
 /*@ define:group
 ---
 name: Backpack reminder sound
+icon: 
+  type: itemId
+  itemId: 22109
 description: |
   Backpack reminder sound
   ---
@@ -13932,6 +13935,9 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 /*@ define:group
 ---
 name: Deathpile
+icon: 
+  type: itemId
+  itemId: 526
 description: |
   Deathpile
   ---
@@ -13959,7 +13965,6 @@ group: Deathpile
 apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
     notify = false;
 }
-
 /*@ define:module:final
 hidden: true
 name: final
