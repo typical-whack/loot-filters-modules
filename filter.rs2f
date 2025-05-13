@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 01:51:39 UTC 2025 */
-/* Commit: 4ab211a */
+/* Built on: Tue May 13 01:56:12 UTC 2025 */
+/* Commit: 2c0255c */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -2222,6 +2222,9 @@ apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SH
 /*@ define:group
 ---
 name: Herbs
+icon: 
+  type: itemId
+  itemId: 41
 description: |
   Herbs
   ---
@@ -3247,7 +3250,10 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
 /*@ define:group
 ---
 name: Logs
-icon: "Sprite(41, 0)"
+icon: 
+  type: sprite
+  spriteId: 41
+  spriteIndex: 0
 description: |
   Logs
   ---
