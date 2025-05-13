@@ -35,3 +35,7 @@ sprites:
     sprite_id_50_50: 4318
   - name: Scroll with question mark
     sprite_id_33_36: 3558
+  - name: Compass player overview
+    sprite_id_33_36: 2301
+  - name: Gravestone
+    sprite_id_52_52: 2520
