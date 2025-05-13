@@ -1,0 +1,23 @@
+sprites:
+  - name: Zilyana
+    sprite_id_50: 4324
+  - name: General Graardor
+    sprite_id_50: 4322
+  - name: Kree'arra
+    sprite_id_50: 4325
+  - name: K'ril Tsutsaroth
+    sprite_id_50: 4323
+  - name: Nex
+    sprite_id_50: 4331
+  - name: Chambers of Xeric
+    sprite_id_50: 4328
+  - name: Mimic
+    sprite_id_50: 4300
+  - name: Royal Titans
+    sprite_id_50: 6375
+  - name: Barrows
+    sprite_id_50: 4307
+  - name: Dagannoth Kings
+    sprite_id_50: 4308
+  - name: Zalcano
+    sprite_id_50: 4313
