@@ -21,6 +21,9 @@ exampleItemId: 12922
 /*@ define:group
 ---
 name: "Uniques List"
+icon: 
+  type: itemId
+  itemId: 956
 expanded: false
 */
 

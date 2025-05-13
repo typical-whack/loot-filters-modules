@@ -34,9 +34,8 @@ apply (name:VAR_ALCHS_ITEM_LIST) {
 name: List of alchables
 expanded: false
 icon: 
-  type: sprite
-  spriteId: 41
-  spriteIndex: 0
+  type: itemId
+  itemId: 956
 */
 
 /*@ define:input:alchs
