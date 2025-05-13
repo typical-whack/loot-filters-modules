@@ -11,6 +11,10 @@ sprites:
     sprite_id_50: 4331
   - name: Chambers of Xeric
     sprite_id_50: 4328
+  - name: Tombs of Amascut
+    sprite_id_25: 4297
+  - name: Tombs of Amascut (expert)
+    sprite_id_25: 4298
   - name: Mimic
     sprite_id_50: 4300
   - name: Royal Titans

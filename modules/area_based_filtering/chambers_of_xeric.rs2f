@@ -2,8 +2,9 @@
 ---
 name: Chambers of Xeric
 icon: 
-  type: itemId
-  itemId: 20851
+  type: sprite
+  spriteId: 4328
+  spriteIndex: 0
 description: |
   Chambers of Xeric
   ---

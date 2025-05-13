@@ -2,8 +2,9 @@
 ---
 name: Tombs of Amascut
 icon: 
-  type: itemId
-  itemId: 27352
+  type: sprite
+  spriteId: 4297
+  spriteIndex: 0
 description: |
   Tombs of Amascut
   ---
