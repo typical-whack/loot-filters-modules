@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 03:29:00 UTC 2025 */
-/* Commit: b196d12 */
+/* Built on: Tue May 13 03:35:12 UTC 2025 */
+/* Commit: 322849d */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -5179,6 +5179,10 @@ apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHO
 /*@ define:group
 ---
 name: Commander Zilyana
+icon: 
+  type: sprite
+  spriteId: 4284
+  spriteIndex: 0
 icon: 
   type: itemId
   itemId: 12651
