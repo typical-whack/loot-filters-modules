@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 04:10:48 UTC 2025 */
-/* Commit: 9b7da7f */
+/* Built on: Tue May 13 04:12:08 UTC 2025 */
+/* Commit: 6e5a5ef */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -6923,8 +6923,9 @@ exampleItemId: 12922
 ---
 name: "Uniques List"
 icon: 
-  type: itemId
-  itemId: 956
+  type: sprite
+  spriteId: 2534
+  spriteIndex: 0
 expanded: false
 */
 
@@ -7293,8 +7294,9 @@ apply (name:VAR_ALCHS_ITEM_LIST) {
 name: List of alchables
 expanded: false
 icon: 
-  type: itemId
-  itemId: 956
+  type: sprite
+  spriteId: 2534
+  spriteIndex: 0
 */
 
 /*@ define:input:alchs
