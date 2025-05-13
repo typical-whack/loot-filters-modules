@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 03:35:30 UTC 2025 */
-/* Commit: b89cdf3 */
+/* Built on: Tue May 13 03:36:40 UTC 2025 */
+/* Commit: e7a2c6f */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -5183,9 +5183,6 @@ icon:
   type: sprite
   spriteId: 4284
   spriteIndex: 0
-icon: 
-  type: itemId
-  itemId: 12651
 */
 
 /*@ define:input:bossing
