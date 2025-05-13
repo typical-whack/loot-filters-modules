@@ -1,7 +1,7 @@
 /*@ define:group
 ---
 name: Logs
-icon: Sprite(41, 0)
+icon: "Sprite(41, 0)"
 description: |
   Logs
   ---
