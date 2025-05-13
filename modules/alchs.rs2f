@@ -35,6 +35,15 @@ name: List of alchables
 expanded: false
 */
 
+/*@ define:group
+---
+name: List of alchables
+icon: 
+  type: sprite
+  spriteId: 41
+  spriteIndex: 0
+*/
+
 /*@ define:input:alchs
 type: stringlist
 label: List of alchables
