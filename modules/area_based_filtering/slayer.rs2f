@@ -115,8 +115,9 @@ apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNE
 ---
 name: Smoke Devils
 icon: 
-  type: itemId
-  itemId: 12002
+  type: sprite
+  spriteId: 4277
+  spriteIndex: 0
 */
 
 /*@ define:input:slayer

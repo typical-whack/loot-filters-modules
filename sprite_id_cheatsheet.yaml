@@ -25,3 +25,7 @@ sprites:
     sprite_id_50: 4308
   - name: Zalcano
     sprite_id_50: 4313
+  - name: Thermonuclear Smoke Devil
+    sprite_id_25: 4277
+  - name: Crystalline Hunllef
+    sprite_id_50: 4318

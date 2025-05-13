@@ -2,8 +2,9 @@
 ---
 name: The Gauntlet
 icon: 
-  type: itemId
-  itemId: 23757
+  type: sprite
+  spriteId: 4318
+  spriteIndex: 0
 expanded: false
 description: |
   The Gauntlet
