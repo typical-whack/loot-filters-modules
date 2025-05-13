@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 03:54:23 UTC 2025 */
-/* Commit: 435fe43 */
+/* Built on: Tue May 13 03:56:53 UTC 2025 */
+/* Commit: f935a94 */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -6043,8 +6043,9 @@ apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNE
 ---
 name: Smoke Devils
 icon: 
-  type: itemId
-  itemId: 12002
+  type: sprite
+  spriteId: 4277
+  spriteIndex: 0
 */
 
 /*@ define:input:slayer
@@ -6250,8 +6251,9 @@ apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_D
 ---
 name: The Gauntlet
 icon: 
-  type: itemId
-  itemId: 23757
+  type: sprite
+  spriteId: 4318
+  spriteIndex: 0
 expanded: false
 description: |
   The Gauntlet
