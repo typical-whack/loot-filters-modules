@@ -11,6 +11,9 @@ description: |
 /*@ define:group
 ---
 name: Backpack reminder sound
+icon: 
+  type: itemId
+  itemId: 22109
 description: |
   Backpack reminder sound
   ---
@@ -40,6 +43,9 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 /*@ define:group
 ---
 name: Deathpile
+icon: 
+  type: itemId
+  itemId: 526
 description: |
   Deathpile
   ---
@@ -67,4 +73,3 @@ group: Deathpile
 apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
     notify = false;
 }
-
