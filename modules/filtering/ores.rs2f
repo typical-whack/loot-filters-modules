@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Ores
+icon: 
+  type: itemId
+  itemId: 449
 description: |
   Ores
   ---

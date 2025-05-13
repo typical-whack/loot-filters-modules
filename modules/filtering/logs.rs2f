@@ -2,9 +2,8 @@
 ---
 name: Logs
 icon: 
-  type: sprite
-  spriteId: 41
-  spriteIndex: 0
+  type: itemId
+  itemId: 1515
 description: |
   Logs
   ---

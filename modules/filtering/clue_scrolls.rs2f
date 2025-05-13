@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Clue Scrolls
+icon: 
+  type: itemId
+  itemId: 19835
 expanded: false
 description: |
   Clue Scrolls

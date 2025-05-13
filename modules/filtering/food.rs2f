@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Food
+icon: 
+  type: itemId
+  itemId: 13441
 description: |
   Food
   ---

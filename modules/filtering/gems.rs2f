@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Gems
+icon: 
+  type: itemId
+  itemId: 1615
 description: |
   Gems
   ---

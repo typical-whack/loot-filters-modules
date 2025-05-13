@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Bars
+icon: 
+  type: itemId
+  itemId: 2363
 description: |
   Bars
   ---

@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Currency
+icon: 
+  type: itemId
+  itemId: 1004
 description: |
   Currency
   ---

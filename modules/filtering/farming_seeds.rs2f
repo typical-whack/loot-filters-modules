@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Farming seeds
+icon: 
+  type: itemId
+  itemId: 30093
 description: |
   Farming seeds
   ---

@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Ammo
+icon: 
+  type: itemId
+  itemId: 11216
 description: |
   Ammo
   ---

@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Remains
+icon: 
+  type: itemId
+  itemId: 536
 description: |
   Remains
   ---
