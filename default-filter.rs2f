@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 00:54:36 UTC 2025 */
-/* Commit: c1109b1 */
+/* Built on: Tue May 13 01:51:39 UTC 2025 */
+/* Commit: 4ab211a */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -3247,7 +3247,7 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
 /*@ define:group
 ---
 name: Logs
-icon: Sprite(41, 0)
+icon: "Sprite(41, 0)"
 description: |
   Logs
   ---
