@@ -37,9 +37,6 @@ icon:
   type: sprite
   spriteId: 4284
   spriteIndex: 0
-icon: 
-  type: itemId
-  itemId: 12651
 */
 
 /*@ define:input:bossing
