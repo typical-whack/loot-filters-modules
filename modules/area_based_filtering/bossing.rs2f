@@ -34,6 +34,10 @@ apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHO
 ---
 name: Commander Zilyana
 icon: 
+  type: sprite
+  spriteId: 4284
+  spriteIndex: 0
+icon: 
   type: itemId
   itemId: 12651
 */
