@@ -1,0 +1,503 @@
+/*@ define:group
+---
+name: Herbs
+description: |
+  Herbs
+  ---
+  Provides herb filters and quantity filters per herb for each herb. 
+*/
+
+/*@ define:input:herbs
+type: number
+label: Hide herbs below this value
+group: Herbs
+*/
+#define VAR_HERBS_MINIMUM_VALUE 0
+
+apply (name:CONST_ALL_HERBS && value:<VAR_HERBS_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: enumlist
+label: Herbs to force hidden
+group: Herbs
+enum: [
+  {
+    "value": "*Guam leaf",
+    "label": "Guam leaf"
+  },
+  {
+    "value": "*Marrentill",
+    "label": "Marrentill"
+  },
+  {
+    "value": "*Tarromin",
+    "label": "Tarromin"
+  },
+  {
+    "value": "*Harralander",
+    "label": "Harralander"
+  },
+  {
+    "value": "*Ranarr weed",
+    "label": "Ranarr weed"
+  },
+  {
+    "value": "*Toadflax",
+    "label": "Toadflax"
+  },
+  {
+    "value": "*Irit leaf",
+    "label": "Irit leaf"
+  },
+  {
+    "value": "*Avantoe",
+    "label": "Avantoe"
+  },
+  {
+    "value": "*Kwuarm",
+    "label": "Kwuarm"
+  },
+  {
+    "value": "*Huasca",
+    "label": "Huasca"
+  },
+  {
+    "value": "*Snapdragon",
+    "label": "Snapdragon"
+  },
+  {
+    "value": "*Cadantine",
+    "label": "Cadantine"
+  },
+  {
+    "value": "*Lantadyme",
+    "label": "Lantadyme"
+  },
+  {
+    "value": "*Dwarf weed",
+    "label": "Dwarf weed"
+  },
+  {
+    "value": "*Torstol",
+    "label": "Torstol"
+  }
+]
+*/
+#define VAR_HERBS_HIDE [ \
+  "*Tarromin", \
+  "*Harralander", \
+]
+
+apply (name:VAR_HERBS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: enumlist
+label: Herbs to force shown
+group: Herbs
+enum: [
+  {
+    "value": "*Guam leaf",
+    "label": "Guam leaf"
+  },
+  {
+    "value": "*Marrentill",
+    "label": "Marrentill"
+  },
+  {
+    "value": "*Tarromin",
+    "label": "Tarromin"
+  },
+  {
+    "value": "*Harralander",
+    "label": "Harralander"
+  },
+  {
+    "value": "*Ranarr weed",
+    "label": "Ranarr weed"
+  },
+  {
+    "value": "*Toadflax",
+    "label": "Toadflax"
+  },
+  {
+    "value": "*Irit leaf",
+    "label": "Irit leaf"
+  },
+  {
+    "value": "*Avantoe",
+    "label": "Avantoe"
+  },
+  {
+    "value": "*Kwuarm",
+    "label": "Kwuarm"
+  },
+  {
+    "value": "*Huasca",
+    "label": "Huasca"
+  },
+  {
+    "value": "*Snapdragon",
+    "label": "Snapdragon"
+  },
+  {
+    "value": "*Cadantine",
+    "label": "Cadantine"
+  },
+  {
+    "value": "*Lantadyme",
+    "label": "Lantadyme"
+  },
+  {
+    "value": "*Dwarf weed",
+    "label": "Dwarf weed"
+  },
+  {
+    "value": "*Torstol",
+    "label": "Torstol"
+  }
+]
+*/
+#define VAR_HERBS_SHOW [ \
+  "*Ranarr weed", \
+  "*Huasca", \
+  "*Snapdragon", \
+  "*Torstol", \
+]
+
+apply (name:VAR_HERBS_SHOW) {
+    hidden = false;
+}
+
+/*@ define:input:herbs
+type: number
+label: Guam leaf minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_GUAM_LEAF_MIN_QUANTITY 0
+
+apply (name:"*guam leaf" && quantity:<VAR_HERBS_GUAM_LEAF_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Guam leaf noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY 0
+
+apply (name:"*guam leaf" && noted:true && quantity:<VAR_HERBS_GUAM_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Marrentill minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_MARRENTILL_MIN_QUANTITY 0
+
+apply (name:"*marrentill" && quantity:<VAR_HERBS_MARRENTILL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Marrentill noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY 0
+
+apply (name:"*marrentill" && noted:true && quantity:<VAR_HERBS_MARRENTILL_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Tarromin minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TARROMIN_MIN_QUANTITY 0
+
+apply (name:"*tarromin" && quantity:<VAR_HERBS_TARROMIN_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Tarromin noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY 0
+
+apply (name:"*tarromin" && noted:true && quantity:<VAR_HERBS_TARROMIN_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Harralander minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HARRALANDER_MIN_QUANTITY 0
+
+apply (name:"*harralander" && quantity:<VAR_HERBS_HARRALANDER_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Harralander noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY 0
+
+apply (name:"*harralander" && noted:true && quantity:<VAR_HERBS_HARRALANDER_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_RANARR_WEED_MIN_QUANTITY 0
+
+apply (name:"*ranarr weed" && quantity:<VAR_HERBS_RANARR_WEED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Ranarr weed noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY 0
+
+apply (name:"*ranarr weed" && noted:true && quantity:<VAR_HERBS_RANARR_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Toadflax minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TOADFLAX_MIN_QUANTITY 0
+
+apply (name:"*toadflax" && quantity:<VAR_HERBS_TOADFLAX_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Toadflax noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY 0
+
+apply (name:"*toadflax" && noted:true && quantity:<VAR_HERBS_TOADFLAX_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_IRIT_LEAF_MIN_QUANTITY 0
+
+apply (name:"*irit leaf" && quantity:<VAR_HERBS_IRIT_LEAF_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Irit leaf noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY 0
+
+apply (name:"*irit leaf" && noted:true && quantity:<VAR_HERBS_IRIT_LEAF_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Avantoe minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_AVANTOE_MIN_QUANTITY 0
+
+apply (name:"*avantoe" && quantity:<VAR_HERBS_AVANTOE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Avantoe noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY 0
+
+apply (name:"*avantoe" && noted:true && quantity:<VAR_HERBS_AVANTOE_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_KWUARM_MIN_QUANTITY 0
+
+apply (name:"*kwuarm" && quantity:<VAR_HERBS_KWUARM_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Kwuarm noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY 0
+
+apply (name:"*kwuarm" && noted:true && quantity:<VAR_HERBS_KWUARM_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Huasca minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HUASCA_MIN_QUANTITY 0
+
+apply (name:"*huasca" && quantity:<VAR_HERBS_HUASCA_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Huasca noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY 0
+
+apply (name:"*huasca" && noted:true && quantity:<VAR_HERBS_HUASCA_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_SNAPDRAGON_MIN_QUANTITY 0
+
+apply (name:"*snapdragon" && quantity:<VAR_HERBS_SNAPDRAGON_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Snapdragon noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY 0
+
+apply (name:"*snapdragon" && noted:true && quantity:<VAR_HERBS_SNAPDRAGON_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Cadantine minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_CADANTINE_MIN_QUANTITY 0
+
+apply (name:"*cadantine" && quantity:<VAR_HERBS_CADANTINE_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Cadantine noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY 0
+
+apply (name:"*cadantine" && noted:true && quantity:<VAR_HERBS_CADANTINE_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_LANTADYME_MIN_QUANTITY 0
+
+apply (name:"*lantadyme" && quantity:<VAR_HERBS_LANTADYME_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Lantadyme noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY 0
+
+apply (name:"*lantadyme" && noted:true && quantity:<VAR_HERBS_LANTADYME_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_DWARF_WEED_MIN_QUANTITY 0
+
+apply (name:"*dwarf weed" && quantity:<VAR_HERBS_DWARF_WEED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Dwarf weed noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY 0
+
+apply (name:"*dwarf weed" && noted:true && quantity:<VAR_HERBS_DWARF_WEED_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Torstol minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TORSTOL_MIN_QUANTITY 0
+
+apply (name:"*torstol" && quantity:<VAR_HERBS_TORSTOL_MIN_QUANTITY) {
+    hidden = true;
+}
+
+/*@ define:input:herbs
+type: number
+label: Torstol noted minimum quantity
+group: Herbs
+*/
+#define VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY 0
+
+apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QUANTITY) {
+    hidden = true;
+}

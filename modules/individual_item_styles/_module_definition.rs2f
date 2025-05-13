@@ -1,0 +1,7 @@
+/*@ define:module:individual_item_styles
+---
+name: Individual Item Styles
+subtitle: Fancy
+description: |
+  This module provides styling for individual items.
+*/

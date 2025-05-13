@@ -1,0 +1,453 @@
+/*@ define:group
+---
+name: Raw Fish Styles
+expanded: false
+description: |
+  Raw Fish Styles
+  ---
+  This module provides custom style for raw fish
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw shrimps custom style
+group: Raw Fish Styles
+exampleItem: Raw shrimps
+*/
+#define VAR_RAW_SHRIMPS_CUSTOMSTYLE 
+
+apply (name:"Raw shrimps") {
+    VAR_RAW_SHRIMPS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw anchovies custom style
+group: Raw Fish Styles
+exampleItem: Raw anchovies
+*/
+#define VAR_RAW_ANCHOVIES_CUSTOMSTYLE 
+
+apply (name:"Raw anchovies") {
+    VAR_RAW_ANCHOVIES_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw guppy custom style
+group: Raw Fish Styles
+exampleItem: Raw guppy
+*/
+#define VAR_RAW_GUPPY_CUSTOMSTYLE 
+
+apply (name:"Raw guppy") {
+    VAR_RAW_GUPPY_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw cavefish custom style
+group: Raw Fish Styles
+exampleItem: Raw cavefish
+*/
+#define VAR_RAW_CAVEFISH_CUSTOMSTYLE 
+
+apply (name:"Raw cavefish") {
+    VAR_RAW_CAVEFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw tetra custom style
+group: Raw Fish Styles
+exampleItem: Raw tetra
+*/
+#define VAR_RAW_TETRA_CUSTOMSTYLE 
+
+apply (name:"Raw tetra") {
+    VAR_RAW_TETRA_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Frog spawn custom style
+group: Raw Fish Styles
+exampleItem: Frog spawn
+*/
+#define VAR_FROG_SPAWN_CUSTOMSTYLE 
+
+apply (name:"Frog spawn") {
+    VAR_FROG_SPAWN_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw monkfish custom style
+group: Raw Fish Styles
+exampleItem: Raw monkfish
+*/
+#define VAR_RAW_MONKFISH_CUSTOMSTYLE 
+
+apply (name:"Raw monkfish") {
+    VAR_RAW_MONKFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Minnow custom style
+group: Raw Fish Styles
+exampleItem: Minnow
+*/
+#define VAR_MINNOW_CUSTOMSTYLE 
+
+apply (name:"Minnow") {
+    VAR_MINNOW_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw mackerel custom style
+group: Raw Fish Styles
+exampleItem: Raw mackerel
+*/
+#define VAR_RAW_MACKEREL_CUSTOMSTYLE 
+
+apply (name:"Raw mackerel") {
+    VAR_RAW_MACKEREL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw cod custom style
+group: Raw Fish Styles
+exampleItem: Raw cod
+*/
+#define VAR_RAW_COD_CUSTOMSTYLE 
+
+apply (name:"Raw cod") {
+    VAR_RAW_COD_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw bass custom style
+group: Raw Fish Styles
+exampleItem: Raw bass
+*/
+#define VAR_RAW_BASS_CUSTOMSTYLE 
+
+apply (name:"Raw bass") {
+    VAR_RAW_BASS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw catfish custom style
+group: Raw Fish Styles
+exampleItem: Raw catfish
+*/
+#define VAR_RAW_CATFISH_CUSTOMSTYLE 
+
+apply (name:"Raw catfish") {
+    VAR_RAW_CATFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw sardine custom style
+group: Raw Fish Styles
+exampleItem: Raw sardine
+*/
+#define VAR_RAW_SARDINE_CUSTOMSTYLE 
+
+apply (name:"Raw sardine") {
+    VAR_RAW_SARDINE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw herring custom style
+group: Raw Fish Styles
+exampleItem: Raw herring
+*/
+#define VAR_RAW_HERRING_CUSTOMSTYLE 
+
+apply (name:"Raw herring") {
+    VAR_RAW_HERRING_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw pike custom style
+group: Raw Fish Styles
+exampleItem: Raw pike
+*/
+#define VAR_RAW_PIKE_CUSTOMSTYLE 
+
+apply (name:"Raw pike") {
+    VAR_RAW_PIKE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw slimy eel custom style
+group: Raw Fish Styles
+exampleItem: Raw slimy eel
+*/
+#define VAR_RAW_SLIMY_EEL_CUSTOMSTYLE 
+
+apply (name:"Raw slimy eel") {
+    VAR_RAW_SLIMY_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw cave eel custom style
+group: Raw Fish Styles
+exampleItem: Raw cave eel
+*/
+#define VAR_RAW_CAVE_EEL_CUSTOMSTYLE 
+
+apply (name:"Raw cave eel") {
+    VAR_RAW_CAVE_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw anglerfish custom style
+group: Raw Fish Styles
+exampleItem: Raw anglerfish
+*/
+#define VAR_RAW_ANGLERFISH_CUSTOMSTYLE 
+
+apply (name:"Raw anglerfish") {
+    VAR_RAW_ANGLERFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Sacred eel custom style
+group: Raw Fish Styles
+exampleItem: Sacred eel
+*/
+#define VAR_SACRED_EEL_CUSTOMSTYLE 
+
+apply (name:"Sacred eel") {
+    VAR_SACRED_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw trout custom style
+group: Raw Fish Styles
+exampleItem: Raw trout
+*/
+#define VAR_RAW_TROUT_CUSTOMSTYLE 
+
+apply (name:"Raw trout") {
+    VAR_RAW_TROUT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw salmon custom style
+group: Raw Fish Styles
+exampleItem: Raw salmon
+*/
+#define VAR_RAW_SALMON_CUSTOMSTYLE 
+
+apply (name:"Raw salmon") {
+    VAR_RAW_SALMON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw rainbow fish custom style
+group: Raw Fish Styles
+exampleItem: Raw rainbow fish
+*/
+#define VAR_RAW_RAINBOW_FISH_CUSTOMSTYLE 
+
+apply (name:"Raw rainbow fish") {
+    VAR_RAW_RAINBOW_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw lava eel custom style
+group: Raw Fish Styles
+exampleItem: Raw lava eel
+*/
+#define VAR_RAW_LAVA_EEL_CUSTOMSTYLE 
+
+apply (name:"Raw lava eel") {
+    VAR_RAW_LAVA_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Infernal eel custom style
+group: Raw Fish Styles
+exampleItem: Infernal eel
+*/
+#define VAR_INFERNAL_EEL_CUSTOMSTYLE 
+
+apply (name:"Infernal eel") {
+    VAR_INFERNAL_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Leaping trout custom style
+group: Raw Fish Styles
+exampleItem: Leaping trout
+*/
+#define VAR_LEAPING_TROUT_CUSTOMSTYLE 
+
+apply (name:"Leaping trout") {
+    VAR_LEAPING_TROUT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Leaping salmon custom style
+group: Raw Fish Styles
+exampleItem: Leaping salmon
+*/
+#define VAR_LEAPING_SALMON_CUSTOMSTYLE 
+
+apply (name:"Leaping salmon") {
+    VAR_LEAPING_SALMON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Leaping sturgeon custom style
+group: Raw Fish Styles
+exampleItem: Leaping sturgeon
+*/
+#define VAR_LEAPING_STURGEON_CUSTOMSTYLE 
+
+apply (name:"Leaping sturgeon") {
+    VAR_LEAPING_STURGEON_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw tuna custom style
+group: Raw Fish Styles
+exampleItem: Raw tuna
+*/
+#define VAR_RAW_TUNA_CUSTOMSTYLE 
+
+apply (name:"Raw tuna") {
+    VAR_RAW_TUNA_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw swordfish custom style
+group: Raw Fish Styles
+exampleItem: Raw swordfish
+*/
+#define VAR_RAW_SWORDFISH_CUSTOMSTYLE 
+
+apply (name:"Raw swordfish") {
+    VAR_RAW_SWORDFISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw shark custom style
+group: Raw Fish Styles
+exampleItem: Raw shark
+*/
+#define VAR_RAW_SHARK_CUSTOMSTYLE 
+
+apply (name:"Raw shark") {
+    VAR_RAW_SHARK_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw lobster custom style
+group: Raw Fish Styles
+exampleItem: Raw lobster
+*/
+#define VAR_RAW_LOBSTER_CUSTOMSTYLE 
+
+apply (name:"Raw lobster") {
+    VAR_RAW_LOBSTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw dark crab custom style
+group: Raw Fish Styles
+exampleItem: Raw dark crab
+*/
+#define VAR_RAW_DARK_CRAB_CUSTOMSTYLE 
+
+apply (name:"Raw dark crab") {
+    VAR_RAW_DARK_CRAB_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Bluegill custom style
+group: Raw Fish Styles
+exampleItem: Bluegill
+*/
+#define VAR_BLUEGILL_CUSTOMSTYLE 
+
+apply (name:"Bluegill") {
+    VAR_BLUEGILL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Common tench custom style
+group: Raw Fish Styles
+exampleItem: Common tench
+*/
+#define VAR_COMMON_TENCH_CUSTOMSTYLE 
+
+apply (name:"Common tench") {
+    VAR_COMMON_TENCH_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mottled eel custom style
+group: Raw Fish Styles
+exampleItem: Mottled eel
+*/
+#define VAR_MOTTLED_EEL_CUSTOMSTYLE 
+
+apply (name:"Mottled eel") {
+    VAR_MOTTLED_EEL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Greater siren custom style
+group: Raw Fish Styles
+exampleItem: Greater siren
+*/
+#define VAR_GREATER_SIREN_CUSTOMSTYLE 
+
+apply (name:"Greater siren") {
+    VAR_GREATER_SIREN_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Raw karambwan custom style
+group: Raw Fish Styles
+exampleItem: Raw karambwan
+*/
+#define VAR_RAW_KARAMBWAN_CUSTOMSTYLE 
+
+apply (name:"Raw karambwan") {
+    VAR_RAW_KARAMBWAN_CUSTOMSTYLE 
+}

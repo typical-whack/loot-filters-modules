@@ -15,7 +15,14 @@ exampleItemId: 12922
 */
 #define VAR_UNIQUES_CUSTOMSTYLE \
   fontType = 3;\
-  showLootbeam = true;
+  showLootbeam = true;\
+  sound = 6765;
+
+/*@ define:group
+---
+name: "Uniques List"
+expanded: false
+*/
 
 /*@ define:input:uniques
 type: stringlist
@@ -332,10 +339,16 @@ apply (name:VAR_UNIQUES_LIST) {
     VAR_UNIQUES_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Power User
+expanded: false
+*/
+
 /*@ define:input:uniques
 type: boolean
 label: Dont let uniques get filtered out or restyled in future modules
-group: "Power User: Stop Filter Execution"
+group: Power User
 */
 #define VAR_UNIQUES_TERMINATE false
 

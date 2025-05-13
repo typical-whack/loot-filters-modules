@@ -1,0 +1,476 @@
+/*@ define:group
+---
+name: Potions
+description: |
+  Potions
+  ---
+  Filters for potions. By default this filters out lower tier potions
+*/
+
+/*@ define:input:potions
+type: enumlist
+label: Potions to force hidden
+group: Potions
+enum: [
+  {
+    "value": "Attack potion(*",
+    "label": "Attack potion"
+  },
+  {
+    "value": "Antipoison(*",
+    "label": "Antipoison"
+  },
+  {
+    "value": "Strength potion(*",
+    "label": "Strength potion"
+  },
+  {
+    "value": "Serum 207(*",
+    "label": "Serum 207"
+  },
+  {
+    "value": "Compost potion(*",
+    "label": "Compost potion"
+  },
+  {
+    "value": "Restore potion(*",
+    "label": "Restore potion"
+  },
+  {
+    "value": "Energy potion(*",
+    "label": "Energy potion"
+  },
+  {
+    "value": "Defence potion(*",
+    "label": "Defence potion"
+  },
+  {
+    "value": "Agility potion(*",
+    "label": "Agility potion"
+  },
+  {
+    "value": "Combat potion(*",
+    "label": "Combat potion"
+  },
+  {
+    "value": "Prayer potion(*",
+    "label": "Prayer potion"
+  },
+  {
+    "value": "Super attack(*",
+    "label": "Super attack"
+  },
+  {
+    "value": "Superantipoison(*",
+    "label": "Superantipoison"
+  },
+  {
+    "value": "Fishing potion(*",
+    "label": "Fishing potion"
+  },
+  {
+    "value": "Super energy(*",
+    "label": "Super energy"
+  },
+  {
+    "value": "Hunter potion(*",
+    "label": "Hunter potion"
+  },
+  {
+    "value": "Goading potion(*",
+    "label": "Goading potion"
+  },
+  {
+    "value": "Super strength(*",
+    "label": "Super strength"
+  },
+  {
+    "value": "Prayer regeneration potion(*",
+    "label": "Prayer regeneration potion"
+  },
+  {
+    "value": "Super restore(*",
+    "label": "Super restore"
+  },
+  {
+    "value": "Sanfew serum(*",
+    "label": "Sanfew serum"
+  },
+  {
+    "value": "Super defence(*",
+    "label": "Super defence"
+  },
+  {
+    "value": "Antidote+(*",
+    "label": "Antidote+"
+  },
+  {
+    "value": "Antifire potion(*",
+    "label": "Antifire potion"
+  },
+  {
+    "value": "Divine super attack potion(*",
+    "label": "Divine super attack potion"
+  },
+  {
+    "value": "Divine super defence potion(*",
+    "label": "Divine super defence potion"
+  },
+  {
+    "value": "Divine super strength potion(*",
+    "label": "Divine super strength potion"
+  },
+  {
+    "value": "Ranging potion(*",
+    "label": "Ranging potion"
+  },
+  {
+    "value": "Divine ranging potion(*",
+    "label": "Divine ranging potion"
+  },
+  {
+    "value": "Magic potion(*",
+    "label": "Magic potion"
+  },
+  {
+    "value": "Stamina potion(*",
+    "label": "Stamina potion"
+  },
+  {
+    "value": "Zamorak brew(*",
+    "label": "Zamorak brew"
+  },
+  {
+    "value": "Divine magic potion(*",
+    "label": "Divine magic potion"
+  },
+  {
+    "value": "Antidote++(*",
+    "label": "Antidote++"
+  },
+  {
+    "value": "Bastion potion(*",
+    "label": "Bastion potion"
+  },
+  {
+    "value": "Battlemage potion(*",
+    "label": "Battlemage potion"
+  },
+  {
+    "value": "Saradomin brew(*",
+    "label": "Saradomin brew"
+  },
+  {
+    "value": "Extended antifire(*",
+    "label": "Extended antifire"
+  },
+  {
+    "value": "Ancient brew(*",
+    "label": "Ancient brew"
+  },
+  {
+    "value": "Divine bastion potion(*",
+    "label": "Divine bastion potion"
+  },
+  {
+    "value": "Divine battlemage potion(*",
+    "label": "Divine battlemage potion"
+  },
+  {
+    "value": "Anti-venom(*",
+    "label": "Anti-venom"
+  },
+  {
+    "value": "Menaphite remedy(*",
+    "label": "Menaphite remedy"
+  },
+  {
+    "value": "Super combat potion(*",
+    "label": "Super combat potion"
+  },
+  {
+    "value": "Forgotten brew(*",
+    "label": "Forgotten brew"
+  },
+  {
+    "value": "Super antifire potion(*",
+    "label": "Super antifire potion"
+  },
+  {
+    "value": "Anti-venom+(*",
+    "label": "Anti-venom+"
+  },
+  {
+    "value": "Extended anti-venom+(*",
+    "label": "Extended anti-venom+"
+  },
+  {
+    "value": "Divine super combat potion(*",
+    "label": "Divine super combat potion"
+  },
+  {
+    "value": "Extended super antifire(*",
+    "label": "Extended super antifire"
+  }
+]
+*/
+#define VAR_POTIONS_HIDE [ \
+  "Attack potion(*", \
+  "Strength potion(*", \
+  "Serum 207(*", \
+  "Compost potion(*", \
+  "Restore potion(*", \
+  "Energy potion(*", \
+  "Defence potion(*", \
+  "Agility potion(*", \
+  "Combat potion(*", \
+  "Fishing potion(*", \
+  "Hunter potion(*", \
+  "Antidote+(*", \
+]
+
+apply (name:VAR_POTIONS_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:potions
+type: enumlist
+label: Potions to force shown
+group: Potions
+enum: [
+  {
+    "value": "Attack potion(*",
+    "label": "Attack potion"
+  },
+  {
+    "value": "Antipoison(*",
+    "label": "Antipoison"
+  },
+  {
+    "value": "Strength potion(*",
+    "label": "Strength potion"
+  },
+  {
+    "value": "Serum 207(*",
+    "label": "Serum 207"
+  },
+  {
+    "value": "Compost potion(*",
+    "label": "Compost potion"
+  },
+  {
+    "value": "Restore potion(*",
+    "label": "Restore potion"
+  },
+  {
+    "value": "Energy potion(*",
+    "label": "Energy potion"
+  },
+  {
+    "value": "Defence potion(*",
+    "label": "Defence potion"
+  },
+  {
+    "value": "Agility potion(*",
+    "label": "Agility potion"
+  },
+  {
+    "value": "Combat potion(*",
+    "label": "Combat potion"
+  },
+  {
+    "value": "Prayer potion(*",
+    "label": "Prayer potion"
+  },
+  {
+    "value": "Super attack(*",
+    "label": "Super attack"
+  },
+  {
+    "value": "Superantipoison(*",
+    "label": "Superantipoison"
+  },
+  {
+    "value": "Fishing potion(*",
+    "label": "Fishing potion"
+  },
+  {
+    "value": "Super energy(*",
+    "label": "Super energy"
+  },
+  {
+    "value": "Hunter potion(*",
+    "label": "Hunter potion"
+  },
+  {
+    "value": "Goading potion(*",
+    "label": "Goading potion"
+  },
+  {
+    "value": "Super strength(*",
+    "label": "Super strength"
+  },
+  {
+    "value": "Prayer regeneration potion(*",
+    "label": "Prayer regeneration potion"
+  },
+  {
+    "value": "Super restore(*",
+    "label": "Super restore"
+  },
+  {
+    "value": "Sanfew serum(*",
+    "label": "Sanfew serum"
+  },
+  {
+    "value": "Super defence(*",
+    "label": "Super defence"
+  },
+  {
+    "value": "Antidote+(*",
+    "label": "Antidote+"
+  },
+  {
+    "value": "Antifire potion(*",
+    "label": "Antifire potion"
+  },
+  {
+    "value": "Divine super attack potion(*",
+    "label": "Divine super attack potion"
+  },
+  {
+    "value": "Divine super defence potion(*",
+    "label": "Divine super defence potion"
+  },
+  {
+    "value": "Divine super strength potion(*",
+    "label": "Divine super strength potion"
+  },
+  {
+    "value": "Ranging potion(*",
+    "label": "Ranging potion"
+  },
+  {
+    "value": "Divine ranging potion(*",
+    "label": "Divine ranging potion"
+  },
+  {
+    "value": "Magic potion(*",
+    "label": "Magic potion"
+  },
+  {
+    "value": "Stamina potion(*",
+    "label": "Stamina potion"
+  },
+  {
+    "value": "Zamorak brew(*",
+    "label": "Zamorak brew"
+  },
+  {
+    "value": "Divine magic potion(*",
+    "label": "Divine magic potion"
+  },
+  {
+    "value": "Antidote++(*",
+    "label": "Antidote++"
+  },
+  {
+    "value": "Bastion potion(*",
+    "label": "Bastion potion"
+  },
+  {
+    "value": "Battlemage potion(*",
+    "label": "Battlemage potion"
+  },
+  {
+    "value": "Saradomin brew(*",
+    "label": "Saradomin brew"
+  },
+  {
+    "value": "Extended antifire(*",
+    "label": "Extended antifire"
+  },
+  {
+    "value": "Ancient brew(*",
+    "label": "Ancient brew"
+  },
+  {
+    "value": "Divine bastion potion(*",
+    "label": "Divine bastion potion"
+  },
+  {
+    "value": "Divine battlemage potion(*",
+    "label": "Divine battlemage potion"
+  },
+  {
+    "value": "Anti-venom(*",
+    "label": "Anti-venom"
+  },
+  {
+    "value": "Menaphite remedy(*",
+    "label": "Menaphite remedy"
+  },
+  {
+    "value": "Super combat potion(*",
+    "label": "Super combat potion"
+  },
+  {
+    "value": "Forgotten brew(*",
+    "label": "Forgotten brew"
+  },
+  {
+    "value": "Super antifire potion(*",
+    "label": "Super antifire potion"
+  },
+  {
+    "value": "Anti-venom+(*",
+    "label": "Anti-venom+"
+  },
+  {
+    "value": "Extended anti-venom+(*",
+    "label": "Extended anti-venom+"
+  },
+  {
+    "value": "Divine super combat potion(*",
+    "label": "Divine super combat potion"
+  },
+  {
+    "value": "Extended super antifire(*",
+    "label": "Extended super antifire"
+  }
+]
+*/
+#define VAR_POTIONS_SHOW [ \
+  "Anti-venom(*", \
+  "Anti-venom+(*", \
+  "Antidote++(*", \
+  "Antifire potion(*", \
+  "Bastion potion(*", \
+  "Battlemage potion(*", \
+  "Divine bastion potion(*", \
+  "Divine battlemage potion(*", \
+  "Divine magic potion(*", \
+  "Divine ranging potion(*", \
+  "Divine super attack potion(*", \
+  "Divine super combat potion(*", \
+  "Divine super defence potion(*", \
+  "Divine super strength potion(*", \
+  "Extended anti-venom+(*", \
+  "Extended antifire(*", \
+  "Extended super antifire(*", \
+  "Forgotten brew(*", \
+  "Goading potion(*", \
+  "Menaphite remedy(*", \
+  "Prayer regeneration potion(*", \
+  "Ranging potion(*", \
+  "Sanfew serum(*", \
+  "Saradomin brew(*", \
+  "Stamina potion(*", \
+  "Super antifire potion(*", \
+  "Super combat potion(*", \
+  "Super restore(*", \
+]
+
+apply (name:VAR_POTIONS_SHOW) {
+    hidden = false;
+}

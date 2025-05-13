@@ -1,0 +1,31 @@
+/*@ define:group
+---
+name: Individual Items
+description: |
+  Individual Items
+  ---
+
+  Showing and hiding individual items.
+*/
+
+/*@ define:input:filtering
+type: stringlist
+label: Items to hide
+group: Individual Items
+*/
+#define VAR_GLOBAL_HIDE []
+
+apply (name:VAR_GLOBAL_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: stringlist
+label: Items to show
+group: Individual Items
+*/
+#define VAR_GLOBAL_SHOW []
+
+apply (name:VAR_GLOBAL_SHOW) {
+    hidden = false;
+}

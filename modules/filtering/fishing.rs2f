@@ -1,0 +1,139 @@
+/*@ define:group
+---
+name: Fishing
+description: |
+  Fishing
+  ---
+  This module provides filters for fishing equipment, fishing bait, and raw fish.
+*/
+
+/*@ define:input:filtering
+type: enumlist
+label: Fishing equipment to force hidden
+group: Fishing
+enum: [
+  "Small fishing net",
+  "Big fishing net",
+  "Drift net",
+  "Fishing rod",
+  "Fly fishing rod",
+  "Oily fishing rod",
+  "Harpoon",
+  "Lobster pot",
+  "Karambwan vessel"
+]
+*/
+#define VAR_FISHING_EQUIPMENT_HIDE [ \
+  "Small fishing net", \
+  "Big fishing net", \
+  "Fishing rod", \
+  "Fly fishing rod", \
+  "Harpoon", \
+  "Lobster pot", \
+  "Karambwan vessel", \
+]
+
+apply (name:VAR_FISHING_EQUIPMENT_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: enumlist
+label: Fishing bait to force hidden
+group: Fishing
+enum: [
+  "Sandworms",
+  "Fishing bait",
+  "Feather",
+  "Stripy feather",
+  "Dark fishing bait",
+  "King worm",
+  "Fish chunks",
+  "Raw karambwanji"
+]
+*/
+#define VAR_FISHING_BAIT_HIDE [ \
+  "Fishing bait", \
+  "Feather", \
+  "Stripy feather", \
+  "King worm", \
+  "Fish chunks", \
+]
+
+apply (name:VAR_FISHING_BAIT_HIDE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: enumlist
+label: Raw fish to force hidden
+group: Fishing
+enum: [
+  "Raw shrimps",
+  "Raw anchovies",
+  "Raw guppy",
+  "Raw cavefish",
+  "Raw tetra",
+  "Frog spawn",
+  "Raw monkfish",
+  "Minnow",
+  "Raw mackerel",
+  "Raw cod",
+  "Raw bass",
+  "Raw catfish",
+  "Raw sardine",
+  "Raw herring",
+  "Raw pike",
+  "Raw slimy eel",
+  "Raw cave eel",
+  "Raw anglerfish",
+  "Sacred eel",
+  "Raw trout",
+  "Raw salmon",
+  "Raw rainbow fish",
+  "Raw lava eel",
+  "Infernal eel",
+  "Leaping trout",
+  "Leaping salmon",
+  "Leaping sturgeon",
+  "Raw tuna",
+  "Raw swordfish",
+  "Raw shark",
+  "Raw lobster",
+  "Raw dark crab",
+  "Bluegill",
+  "Common tench",
+  "Mottled eel",
+  "Greater siren",
+  "Raw karambwan"
+]
+*/
+#define VAR_FISHING_RAW_FISH_HIDE [ \
+  "Raw shrimps", \
+  "Raw anchovies", \
+  "Raw guppy", \
+  "Raw cavefish", \
+  "Raw tetra", \
+  "Frog spawn", \
+  "Raw mackerel", \
+  "Raw cod", \
+  "Raw bass", \
+  "Raw sardine", \
+  "Raw herring", \
+  "Raw pike", \
+  "Raw trout", \
+  "Raw salmon", \
+  "Raw rainbow fish", \
+  "Leaping trout", \
+  "Leaping salmon", \
+  "Leaping sturgeon", \
+  "Raw tuna", \
+  "Bluegill", \
+  "Common tench", \
+  "Mottled eel", \
+  "Greater siren", \
+]
+
+apply (name:VAR_FISHING_RAW_FISH_HIDE) {
+    hidden = true;
+}

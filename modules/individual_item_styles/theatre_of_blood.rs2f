@@ -1,0 +1,45 @@
+/*@ define:group
+---
+name: Theatre of Blood Styles
+expanded: false
+description: |
+  Theatre of Blood
+  ---
+  This provides unique styling for the dawnbringer and salve amulet (e) items which are frequently found on the ground in the theater.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Dawnbringer custom style
+group: Theatre of Blood Styles
+exampleItem: Dawnbringer
+backgroundImage: Verzik Vitur
+*/
+#define VAR_TOB_DAWNBRINGER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50ad62a7";\
+  borderColor = "#FFb8a22e";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFad62a7";
+
+/*@ define:input:individual_item_styles
+type: style
+label: Salve custom style
+group: Theatre of Blood Styles
+exampleItem: Salve amulet (e)
+backgroundImage: Verzik Vitur
+*/
+#define VAR_TOB_SALVE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50e39cb1";\
+  borderColor = "#FFf5f3f3";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFe39cb1";
+
+apply (name:"Dawnbringer") {
+    VAR_TOB_DAWNBRINGER_CUSTOMSTYLE 
+    hidden = false;
+}
+apply (name:"Salve amulet (e)") {
+    VAR_TOB_SALVE_CUSTOMSTYLE 
+}

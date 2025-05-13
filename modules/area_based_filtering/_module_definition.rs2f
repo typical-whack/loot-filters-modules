@@ -1,0 +1,7 @@
+/*@ define:module:area_based_filtering
+---
+name: Area-Based Filtering
+subtitle: Sifting through the junk (in specific areas)
+description: |
+  This module provides filtering for items based on the area they are in.
+*/
