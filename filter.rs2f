@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 03:21:11 UTC 2025 */
-/* Commit: e7eff63 */
+/* Built on: Tue May 13 03:26:50 UTC 2025 */
+/* Commit: ee7b821 */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -6692,6 +6692,14 @@ description: |
   This highlights items based on their values. By default tiers are 20k, 100k, 1m, and 10m, with loot beams appearing starting at 1m.
 */
 
+/*@ define:group
+---
+name: Tier 1
+icon: 
+  type: itemId
+  itemId: 1000
+*/
+
 /*@ define:input:item_tiers
 type: number
 label: Minimum value
@@ -6722,6 +6730,14 @@ apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || na
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Tier 2
+icon: 
+  type: itemId
+  itemId: 1002
+*/
+
 /*@ define:input:item_tiers
 type: number
 label: Minimum value
@@ -6751,6 +6767,14 @@ exampleItemId: 6920
 apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
 }
+
+/*@ define:group
+---
+name: Tier 3
+icon: 
+  type: itemId
+  itemId: 1003
+*/
 
 /*@ define:input:item_tiers
 type: number
@@ -6785,6 +6809,14 @@ exampleItemId: 4151
 apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
 }
+
+/*@ define:group
+---
+name: Tier 4
+icon: 
+  type: itemId
+  itemId: 1004
+*/
 
 /*@ define:input:item_tiers
 type: number
