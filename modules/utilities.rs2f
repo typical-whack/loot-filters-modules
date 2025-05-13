@@ -42,35 +42,34 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 
 /*@ define:group
 ---
-name: Deathpile
+name: UIM Deathpile
 icon: 
   type: sprite
   spriteId: 2929
   spriteIndex: 0
 description: |
-  Deathpile
+  UIM Deathpile
   ---
   This disables sounds and notifications for items on the ground in places that people often create deathpiles.
+
+  Locations include:
+  - Prifddinas spawn
+  - Falador spawn
+  - Edgeville nettles
+  - Edgeville monastery second floor
+  - Ardougne market chest
+  - Fortis Colosseum lobby
+  - Lumbridge Castle Cellar + Cave right outside cellar
 */
 
 /*@ define:input:utilities
 type: boolean
-label: Disable drop sounds in deathpile locations
-group: Deathpile
+label: Disable drop sounds and notifications in deathpile locations for UIM accounts
+group: UIM Deathpile
 */
-#define VAR_DEATHPILE_SOUND_DISABLE true
+#define VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE true
 
-apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
+apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA || area:CONST_COLO_LOBBY_AREA || area:CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA)) {
     sound = 2411; // sound name: silence
-}
-
-/*@ define:input:utilities
-type: boolean
-label: Disable drop notifications in deathpile locations
-group: Deathpile
-*/
-#define VAR_DEATHPILE_NOTIFY_DISABLE true
-
-apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
     notify = false;
 }

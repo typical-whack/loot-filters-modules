@@ -2,8 +2,6 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 04:15:43 UTC 2025 */
-/* Commit: edfb5b5 */
 meta { name = "[default: Joe's filter]"; }
 /*@ define:module:default_styling
 ---
@@ -13945,36 +13943,35 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 
 /*@ define:group
 ---
-name: Deathpile
+name: UIM Deathpile
 icon: 
   type: sprite
   spriteId: 2929
   spriteIndex: 0
 description: |
-  Deathpile
+  UIM Deathpile
   ---
   This disables sounds and notifications for items on the ground in places that people often create deathpiles.
+
+  Locations include:
+  - Prifddinas spawn
+  - Falador spawn
+  - Edgeville nettles
+  - Edgeville monastery second floor
+  - Ardougne market chest
+  - Fortis Colosseum lobby
+  - Lumbridge Castle Cellar + Cave right outside cellar
 */
 
 /*@ define:input:utilities
 type: boolean
-label: Disable drop sounds in deathpile locations
-group: Deathpile
+label: Disable drop sounds and notifications in deathpile locations for UIM accounts
+group: UIM Deathpile
 */
-#define VAR_DEATHPILE_SOUND_DISABLE true
+#define VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE true
 
-apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
+apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA || area:CONST_COLO_LOBBY_AREA || area:CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA)) {
     sound = 2411; // sound name: silence
-}
-
-/*@ define:input:utilities
-type: boolean
-label: Disable drop notifications in deathpile locations
-group: Deathpile
-*/
-#define VAR_DEATHPILE_NOTIFY_DISABLE true
-
-apply (VAR_DEATHPILE_SOUND_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA)) {
     notify = false;
 }
 /*@ define:module:final
@@ -14766,6 +14763,14 @@ hidden: true
 name: Constants
 */
 
+#define CONST_ACCOUNT_TYPE_MAIN 0
+#define CONST_ACCOUNT_TYPE_IRONMAN 1
+#define CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN 2
+#define CONST_ACCOUNT_TYPE_HARDCORE_IRONMAN 3
+#define CONST_ACCOUNT_TYPE_GROUP_IRONMAN 4
+#define CONST_ACCOUNT_TYPE_HARDCORE_GROUP_IRONMAN 5
+#define CONST_ACCOUNT_TYPE_UNRANKED_GROUP_IRONMAN 6
+
 #define CONST_COX_AREA [3200, 5120, 0, 3391, 5759, 2]
 
 #define CONST_COX_OLM_AREA [3211, 5703, 0, 3254, 5761, 0]
@@ -14833,6 +14838,10 @@ name: Constants
 #define CONST_PRIF_SPAWN_AREA [3238, 6066, 0, 3284, 6102, 0]
 #define CONST_FALADOR_SPAWN_AREA [2958, 3335, 0, 2983, 3355, 0]
 #define CONST_EDGEVILLE_NETTLES_AREA [3088, 3468, 0, 3092, 3470, 0]
+#define CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA [3042, 3480, 1, 3062, 3501, 1]
+#define CONST_ARDY_MARKET_CHEST_AREA [2672, 3305, 0, 2678, 3312, 0]
+#define CONST_COLO_LOBBY_AREA [1794, 9479, 0, 1856, 9538, 0]
+#define CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA [3206, 9600, 0, 3237, 9628, 0]
 
 
 
