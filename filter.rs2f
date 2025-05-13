@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 16:29:44 UTC 2025 */
-/* Commit: 00e4ed1 */
+/* Built on: Tue May 13 19:09:50 UTC 2025 */
+/* Commit: af2564e */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -13776,6 +13776,8 @@ description: |
   - Edgeville nettles
   - Edgeville monastery second floor
   - Ardougne market chest
+  - Fortis Colosseum lobby
+  - Lumbridge Castle Cellar + Cave right outside cellar
 */
 
 /*@ define:input:utilities
@@ -13785,7 +13787,7 @@ group: UIM Deathpile
 */
 #define VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE true
 
-apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA)) {
+apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA || area:CONST_COLO_LOBBY_AREA || area:CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA)) {
     sound = 2411; // sound name: silence
     notify = false;
 }
@@ -14655,6 +14657,8 @@ name: Constants
 #define CONST_EDGEVILLE_NETTLES_AREA [3088, 3468, 0, 3092, 3470, 0]
 #define CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA [3042, 3480, 1, 3062, 3501, 1]
 #define CONST_ARDY_MARKET_CHEST_AREA [2672, 3305, 0, 2678, 3312, 0]
+#define CONST_COLO_LOBBY_AREA [1794, 9479, 0, 1856, 9538, 0]
+#define CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA [3206, 9600, 0, 3237, 9628, 0]
 
 
 
