@@ -2,6 +2,9 @@
 ---
 name: Last Man Standing
 expanded: false
+icon: 
+  type: itemId
+  itemId: 24520
 description: |
   Last Man Standing
   ---

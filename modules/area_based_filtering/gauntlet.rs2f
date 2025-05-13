@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: The Gauntlet
+icon: 
+  type: itemId
+  itemId: 23757
 expanded: false
 description: |
   The Gauntlet

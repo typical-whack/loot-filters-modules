@@ -1,3 +1,11 @@
+/*@ define:group
+---
+name: Wilderness Slayer
+icon: 
+  type: itemId
+  itemId: 23494
+*/
+
 /*@ define:input:slayer
 type: enumlist
 label: Wilderness slayer drops force hidden
@@ -102,6 +110,14 @@ apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNE
 apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
     hidden = false;
 }
+
+/*@ define:group
+---
+name: Smoke Devils
+icon: 
+  type: itemId
+  itemId: 12002
+*/
 
 /*@ define:input:slayer
 type: enumlist

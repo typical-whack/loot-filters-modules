@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Tombs of Amascut
+icon: 
+  type: itemId
+  itemId: 27352
 description: |
   Tombs of Amascut
   ---

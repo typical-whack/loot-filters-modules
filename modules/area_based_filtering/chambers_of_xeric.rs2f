@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Chambers of Xeric
+icon: 
+  type: itemId
+  itemId: 20851
 description: |
   Chambers of Xeric
   ---
