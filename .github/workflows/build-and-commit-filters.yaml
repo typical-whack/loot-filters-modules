@@ -32,35 +32,24 @@ jobs:
       - name: Build
         run: |
           echo "Building filter"
-          header_module='/*@ define:module:header
-          hidden: true
-          name: header
-          */'
+          header_module='/*@ define:module:header hidden: true name: header */'
           built_on_string="/* Built on: ${{ steps.vars.outputs.current_date_and_time }} */"
           commit_string="/* Commit: ${{ steps.vars.outputs.short_commit }} */"
-          meta_string='meta {
-            name = "Joe's filter";
-          }'
-          echo $header_module
-          printf "%s\n" "$header_module" >> filter.rs2f
-          echo $built_on_string
-          echo "$built_on_string" >> filter.rs2f
-          echo $commit_string
-          echo "$commit_string" >> filter.rs2f
-          echo $meta_string
-          printf "%s\n" "$meta_string" >> filter.rs2f
+          meta_string='meta { name = "Joe'\''s filter"; description = "Offers an original color scheme with extensive support for category-based styling/filtering."; }'   echo $header_module
+          echo -e "$header_module" >> filter.rs2f
+          echo -e "$built_on_string" >> filter.rs2f
+          echo -e "$commit_string" >> filter.rs2f
+          echo -e "$meta_string" >> filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> filter.rs2f
           done
 
           echo "Building default filter"
-          default_meta_string='meta {
-            name = "[default: Joe's filter]";
-          }'
-          printf "%s\n" "$header_module" >> default-filter.rs2f
-          echo "$built_on_string" >> default-filter.rs2f
-          echo "$commit_string" >> default-filter.rs2f
-          printf "%s\n" "$default_meta_string" >> filter.rs2f
+          default_meta_string='meta { name = "[default: Joe'\''s filter]"; description = "Offers an original color scheme with extensive support for category-based styling/filtering."; }'
+          echo -e "$header_module" >> default-filter.rs2f
+          echo -e "$built_on_string" >> default-filter.rs2f
+          echo -e "$commit_string" >> default-filter.rs2f
+          echo -e "$default_meta_string" >> default-filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> default-filter.rs2f
           done
