@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: |
           echo "Building filter"
-          header_module='/*@ define:module:header hidden: true name: header */'
+          header_module="/*@ define:module:header\nhidden: true\nname: header\n*/\n"
           built_on_string="/* Built on: ${{ steps.vars.outputs.current_date_and_time }} */"
           commit_string="/* Commit: ${{ steps.vars.outputs.short_commit }} */"
           meta_string="meta {\n    name = \"Joe's filter\";\n    description = \"Offers an original color scheme with extensive support for category-based styling/filtering.\";\n}\n"
