@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Runes
+icon: 
+  type: itemId
+  itemId: 556
 description: |
   Runes
   ---

@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Logs
+icon: 
+  type: itemId
+  itemId: 1515
 description: |
   Logs
   ---

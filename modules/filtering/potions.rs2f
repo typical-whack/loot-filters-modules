@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Potions
+icon: 
+  type: itemId
+  itemId: 3024
 description: |
   Potions
   ---

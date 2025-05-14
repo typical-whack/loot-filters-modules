@@ -2,8 +2,8 @@
 hidden: true
 name: header
 */
-/* Built on: Tue May 13 19:09:50 UTC 2025 */
-/* Commit: af2564e */
+/* Built on: Tue May 13 20:32:00 UTC 2025 */
+/* Commit: 05a863c */
 meta { name = "Joe's filter"; }
 /*@ define:module:default_styling
 ---
@@ -313,6 +313,9 @@ rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:
 /*@ define:group
 ---
 name: Clue Scrolls
+icon: 
+  type: itemId
+  itemId: 19835
 expanded: false
 description: |
   Clue Scrolls
@@ -361,6 +364,9 @@ apply (name:VAR_CLUE_SCROLLS_HIDE) {
 /*@ define:group
 ---
 name: Remains
+icon: 
+  type: itemId
+  itemId: 536
 description: |
   Remains
   ---
@@ -531,6 +537,9 @@ apply (name:VAR_ENSOULED_HEADS_HIDE) {
 /*@ define:group
 ---
 name: Food
+icon: 
+  type: itemId
+  itemId: 13441
 description: |
   Food
   ---
@@ -689,6 +698,9 @@ apply (name:VAR_FOOD_FISH_FOODS_SHOW) {
 /*@ define:group
 ---
 name: Potions
+icon: 
+  type: itemId
+  itemId: 3024
 description: |
   Potions
   ---
@@ -1165,6 +1177,9 @@ apply (name:VAR_POTIONS_SHOW) {
 /*@ define:group
 ---
 name: Ammo
+icon: 
+  type: itemId
+  itemId: 11216
 description: |
   Ammo
   ---
@@ -1688,6 +1703,9 @@ apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && (name:VAR_AMMO_SPECIAL_ARROWS_HIDE
 /*@ define:group
 ---
 name: Gems
+icon: 
+  type: itemId
+  itemId: 1615
 description: |
   Gems
   ---
@@ -1862,6 +1880,9 @@ apply (name:["Uncut onyx", \
 /*@ define:group
 ---
 name: Runes
+icon: 
+  type: itemId
+  itemId: 556
 description: |
   Runes
   ---
@@ -2222,6 +2243,9 @@ apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SH
 /*@ define:group
 ---
 name: Herbs
+icon: 
+  type: itemId
+  itemId: 249
 description: |
   Herbs
   ---
@@ -2725,6 +2749,9 @@ apply (name:"*torstol" && noted:true && quantity:<VAR_HERBS_TORSTOL_NOTED_MIN_QU
 /*@ define:group
 ---
 name: Fishing
+icon: 
+  type: itemId
+  itemId: 307
 description: |
   Fishing
   ---
@@ -2864,6 +2891,9 @@ apply (name:VAR_FISHING_RAW_FISH_HIDE) {
 /*@ define:group
 ---
 name: Ores
+icon: 
+  type: itemId
+  itemId: 449
 description: |
   Ores
   ---
@@ -3041,6 +3071,9 @@ apply (name:"lovakite ore" && quantity:<VAR_LOVAKITE_ORE_MIN_QUANTITY) {
 /*@ define:group
 ---
 name: Bars
+icon: 
+  type: itemId
+  itemId: 2363
 description: |
   Bars
   ---
@@ -3247,6 +3280,9 @@ apply (name:"'Perfect' gold bar" && quantity:<VAR_PERFECT_GOLD_BAR_MIN_QUANTITY)
 /*@ define:group
 ---
 name: Logs
+icon: 
+  type: itemId
+  itemId: 1515
 description: |
   Logs
   ---
@@ -3448,6 +3484,9 @@ apply (name:"Blisterwood logs" && quantity:<VAR_BLISTERWOOD_LOGS_MIN_QUANTITY) {
 /*@ define:group
 ---
 name: Farming seeds
+icon: 
+  type: itemId
+  itemId: 30093
 description: |
   Farming seeds
   ---
@@ -3712,7 +3751,7 @@ apply (name:VAR_FARMING_SEEDS_ANIMA_HIDE) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Allotment seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Potato seed",
   "Onion seed",
@@ -3734,7 +3773,7 @@ apply (name:VAR_FARMING_SEEDS_ALLOTMENT_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Flower seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Marigold seed",
   "Rosemary seed",
@@ -3754,7 +3793,7 @@ apply (name:VAR_FARMING_SEEDS_FLOWER_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Herb seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Guam seed",
   "Marrentill seed",
@@ -3783,7 +3822,7 @@ apply (name:VAR_FARMING_SEEDS_HERB_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Hops seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Barley seed",
   "Hammerstone seed",
@@ -3804,7 +3843,7 @@ apply (name:VAR_FARMING_SEEDS_HOPS_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Bush seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Redberry seed",
   "Cadavaberry seed",
@@ -3824,7 +3863,7 @@ apply (name:VAR_FARMING_SEEDS_BUSH_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Tree seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Acorn",
   "Willow seed",
@@ -3843,7 +3882,7 @@ apply (name:VAR_FARMING_SEEDS_TREE_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Fruit tree seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Apple seed",
   "Banana seed",
@@ -3865,7 +3904,7 @@ apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Fruit tree seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Teak seed",
   "Mahogany seed",
@@ -3886,7 +3925,7 @@ apply (name:VAR_FARMING_SEEDS_SPECIAL_TREE_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Special seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Seaweed spore",
   "Grape seed",
@@ -3907,7 +3946,7 @@ apply (name:VAR_FARMING_SEEDS_SPECIAL_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Anima seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Kronos seed",
   "Iasor seed",
@@ -3923,6 +3962,9 @@ apply (name:VAR_FARMING_SEEDS_ANIMA_SHOW) {
 /*@ define:group
 ---
 name: Herblore secondaries
+icon: 
+  type: itemId
+  itemId: 223
 description: |
   Herblore secondaries
   ---
@@ -4028,6 +4070,9 @@ apply (name:VAR_SECONDARIES_SHOW) {
 /*@ define:group
 ---
 name: Currency
+icon: 
+  type: itemId
+  itemId: 1004
 description: |
   Currency
   ---
@@ -4434,6 +4479,9 @@ apply (name:"Warrior guild token" && quantity:<VAR_WARRIOR_GUILD_TOKEN_MIN_QUANT
 /*@ define:group
 ---
 name: Metal Equipment
+icon: 
+  type: itemId
+  itemId: 1147
 description: |
   Metal Equipment
   ---
@@ -4618,6 +4666,10 @@ description: |
 /*@ define:group
 ---
 name: Chambers of Xeric
+icon: 
+  type: sprite
+  spriteId: 4328
+  spriteIndex: 0
 description: |
   Chambers of Xeric
   ---
@@ -4881,6 +4933,10 @@ apply (area:CONST_COX_AREA && name:["overload (-)*", \
 /*@ define:group
 ---
 name: Tombs of Amascut
+icon: 
+  type: sprite
+  spriteId: 4297
+  spriteIndex: 0
 description: |
   Tombs of Amascut
   ---
@@ -5090,6 +5146,14 @@ apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
 apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
     hidden = false;
 }
+/*@ define:group
+---
+name: God Wars Dungeon
+icon: 
+  type: itemId
+  itemId: 11798
+*/
+
 /*@ define:input:bossing
 type: stringlist
 label: God Wars Dungeon force shown
@@ -5113,6 +5177,15 @@ apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HID
 apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
     hidden = false;
 }
+
+/*@ define:group
+---
+name: Commander Zilyana
+icon: 
+  type: sprite
+  spriteId: 4284
+  spriteIndex: 0
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -5242,6 +5315,16 @@ apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_C
 apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
     hidden = false;
 }
+
+
+/*@ define:group
+---
+name: General Graardor
+icon: 
+  type: sprite
+  spriteId: 4322 
+  spriteIndex: 0
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -5389,6 +5472,16 @@ apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUP
     hidden = false;
 }
 
+
+/*@ define:group
+---
+name: Kree'arra
+icon: 
+  type: sprite
+  spriteId: 4325  
+  spriteIndex: 0
+*/
+
 /*@ define:input:bossing
 type: enumlist
 label: Unique drops force hidden
@@ -5533,6 +5626,16 @@ apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
     hidden = false;
 }
 
+
+/*@ define:group
+---
+name: K'ril Tsutsaroth
+icon: 
+  type: sprite
+  spriteId: 4323
+  spriteIndex: 0
+*/
+
 /*@ define:input:bossing
 type: enumlist
 label: Unique drops force hidden
@@ -5665,6 +5768,16 @@ apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMO
 apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
     hidden = false;
 }
+
+
+/*@ define:group
+---
+name: Nex
+icon: 
+  type: sprite
+  spriteId: 4331
+  spriteIndex: 0
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -5813,6 +5926,14 @@ apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_COMMON_SHOW) {
 apply (area:CONST_NEX_AREA && name:VAR_BOSSING_NEX_SUPPLY_SHOW) {
     hidden = false;
 }
+/*@ define:group
+---
+name: Wilderness Slayer
+icon: 
+  type: itemId
+  itemId: 23494
+*/
+
 /*@ define:input:slayer
 type: enumlist
 label: Wilderness slayer drops force hidden
@@ -5917,6 +6038,15 @@ apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNE
 apply (area:CONST_SLAYER_WILDERNESS_SLAYER_CAVE_AREA && name:VAR_SLAYER_WILDERNESS_SLAYER_CAVE_SHOW) {
     hidden = false;
 }
+
+/*@ define:group
+---
+name: Smoke Devils
+icon: 
+  type: sprite
+  spriteId: 4277
+  spriteIndex: 0
+*/
 
 /*@ define:input:slayer
 type: enumlist
@@ -6083,6 +6213,9 @@ apply (area:CONST_SLAYER_SMOKE_DEVILS_AREA && name:VAR_SLAYER_SMOKE_DEVIL_HERBS_
 /*@ define:group
 ---
 name: "Ancient Guthixian Temple (Tormented Demons)"
+icon: 
+  type: itemId
+  itemId: 29577
 description: |
   "Ancient Guthixian Temple (Tormented Demons)"
   ---
@@ -6117,6 +6250,10 @@ apply (area:CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA && name:VAR_MONSTERS_TORMENTED_D
 /*@ define:group
 ---
 name: The Gauntlet
+icon: 
+  type: sprite
+  spriteId: 4318
+  spriteIndex: 0
 expanded: false
 description: |
   The Gauntlet
@@ -6309,6 +6446,9 @@ apply (area:CONST_GAUNTLET_AREA && name:VAR_GAUNTLET_EQUIPMENT_HIDE) {
 ---
 name: Last Man Standing
 expanded: false
+icon: 
+  type: itemId
+  itemId: 24520
 description: |
   Last Man Standing
   ---
@@ -6561,6 +6701,14 @@ description: |
   This highlights items based on their values. By default tiers are 20k, 100k, 1m, and 10m, with loot beams appearing starting at 1m.
 */
 
+/*@ define:group
+---
+name: Tier 1
+icon: 
+  type: itemId
+  itemId: 1000
+*/
+
 /*@ define:input:item_tiers
 type: number
 label: Minimum value
@@ -6591,6 +6739,14 @@ apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || na
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Tier 2
+icon: 
+  type: itemId
+  itemId: 1002
+*/
+
 /*@ define:input:item_tiers
 type: number
 label: Minimum value
@@ -6620,6 +6776,14 @@ exampleItemId: 6920
 apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
 }
+
+/*@ define:group
+---
+name: Tier 3
+icon: 
+  type: itemId
+  itemId: 1003
+*/
 
 /*@ define:input:item_tiers
 type: number
@@ -6654,6 +6818,14 @@ exampleItemId: 4151
 apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
     VAR_VALUES_TIER_3_CUSTOMSTYLE 
 }
+
+/*@ define:group
+---
+name: Tier 4
+icon: 
+  type: itemId
+  itemId: 1004
+*/
 
 /*@ define:input:item_tiers
 type: number
@@ -6750,6 +6922,9 @@ exampleItemId: 12922
 /*@ define:group
 ---
 name: "Uniques List"
+icon: 
+  type: itemId
+  itemId: 956
 expanded: false
 */
 
@@ -7117,6 +7292,9 @@ apply (name:VAR_ALCHS_ITEM_LIST) {
 ---
 name: List of alchables
 expanded: false
+icon: 
+  type: itemId
+  itemId: 956
 */
 
 /*@ define:input:alchs
@@ -13736,6 +13914,9 @@ description: |
 /*@ define:group
 ---
 name: Backpack reminder sound
+icon: 
+  type: itemId
+  itemId: 22109
 description: |
   Backpack reminder sound
   ---
@@ -13765,6 +13946,10 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 /*@ define:group
 ---
 name: UIM Deathpile
+icon: 
+  type: sprite
+  spriteId: 2929
+  spriteIndex: 0
 description: |
   UIM Deathpile
   ---

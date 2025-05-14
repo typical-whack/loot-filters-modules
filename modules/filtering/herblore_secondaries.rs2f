@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Herblore secondaries
+icon: 
+  type: itemId
+  itemId: 223
 description: |
   Herblore secondaries
   ---

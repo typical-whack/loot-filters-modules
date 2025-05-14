@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Herbs
+icon: 
+  type: itemId
+  itemId: 249
 description: |
   Herbs
   ---

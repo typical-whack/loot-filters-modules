@@ -1,0 +1,47 @@
+sprites:
+  - name: Zilyana
+    sprite_id_50_50: 4324
+  - name: General Graardor
+    sprite_id_50_50: 4322
+  - name: Kree'arra
+    sprite_id_50_50: 4325
+  - name: K'ril Tsutsaroth
+    sprite_id_50_50: 4323
+  - name: Nex
+    sprite_id_50_50: 4331
+  - name: Chambers of Xeric
+    sprite_id_50_50: 4328
+  - name: Tombs of Amascut (entry)
+    sprite_id_35_35: 4660
+  - name: Tombs of Amascut
+    sprite_id_25_25: 4297
+    sprite_id_35_35: 4661
+  - name: Tombs of Amascut (expert)
+    sprite_id_25_25: 4298
+    sprite_id_35_35: 4662
+  - name: Mimic
+    sprite_id_50_50: 4300
+  - name: Royal Titans
+    sprite_id_50_50: 6375
+  - name: Barrows
+    sprite_id_50_50: 4307
+  - name: Dagannoth Kings
+    sprite_id_50_50: 4308
+  - name: Zalcano
+    sprite_id_50_50: 4313
+  - name: Thermonuclear Smoke Devil
+    sprite_id_25_25: 4277
+  - name: Crystalline Hunllef
+    sprite_id_50_50: 4318
+  - name: Scroll with question mark
+    sprite_id_33_36: 3558
+  - name: Compass player overview
+    sprite_id_33_36: 2301
+  - name: Gravestone Big
+    sprite_id_52_52: 2520
+  - name: Gravestone Small
+    sprite_id_32_32: 2929
+  - name: Big Scroll
+    sprite_id_64_64: 2534
+  - name: Herblore Skill
+    sprite_id_64_64: 4244

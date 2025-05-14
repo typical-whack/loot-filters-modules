@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: "Ancient Guthixian Temple (Tormented Demons)"
+icon: 
+  type: itemId
+  itemId: 29577
 description: |
   "Ancient Guthixian Temple (Tormented Demons)"
   ---

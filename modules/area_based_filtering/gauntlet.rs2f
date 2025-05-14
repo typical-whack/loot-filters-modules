@@ -1,6 +1,10 @@
 /*@ define:group
 ---
 name: The Gauntlet
+icon: 
+  type: sprite
+  spriteId: 4318
+  spriteIndex: 0
 expanded: false
 description: |
   The Gauntlet

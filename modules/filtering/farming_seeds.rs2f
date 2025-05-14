@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Farming seeds
+icon: 
+  type: itemId
+  itemId: 30093
 description: |
   Farming seeds
   ---
@@ -265,7 +268,7 @@ apply (name:VAR_FARMING_SEEDS_ANIMA_HIDE) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Allotment seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Potato seed",
   "Onion seed",
@@ -287,7 +290,7 @@ apply (name:VAR_FARMING_SEEDS_ALLOTMENT_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Flower seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Marigold seed",
   "Rosemary seed",
@@ -307,7 +310,7 @@ apply (name:VAR_FARMING_SEEDS_FLOWER_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Herb seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Guam seed",
   "Marrentill seed",
@@ -336,7 +339,7 @@ apply (name:VAR_FARMING_SEEDS_HERB_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Hops seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Barley seed",
   "Hammerstone seed",
@@ -357,7 +360,7 @@ apply (name:VAR_FARMING_SEEDS_HOPS_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Bush seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Redberry seed",
   "Cadavaberry seed",
@@ -377,7 +380,7 @@ apply (name:VAR_FARMING_SEEDS_BUSH_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Tree seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Acorn",
   "Willow seed",
@@ -396,7 +399,7 @@ apply (name:VAR_FARMING_SEEDS_TREE_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Fruit tree seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Apple seed",
   "Banana seed",
@@ -418,7 +421,7 @@ apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Fruit tree seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Teak seed",
   "Mahogany seed",
@@ -439,7 +442,7 @@ apply (name:VAR_FARMING_SEEDS_SPECIAL_TREE_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Special seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Seaweed spore",
   "Grape seed",
@@ -460,7 +463,7 @@ apply (name:VAR_FARMING_SEEDS_SPECIAL_SHOW) {
 /*@ define:input:farming_seeds
 type: enumlist
 label: Anima seeds to force shown
-group: Seeds to Show
+group: Farming seeds
 enum: [
   "Kronos seed",
   "Iasor seed",

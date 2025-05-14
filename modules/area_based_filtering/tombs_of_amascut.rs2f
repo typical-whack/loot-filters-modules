@@ -1,6 +1,10 @@
 /*@ define:group
 ---
 name: Tombs of Amascut
+icon: 
+  type: sprite
+  spriteId: 4297
+  spriteIndex: 0
 description: |
   Tombs of Amascut
   ---

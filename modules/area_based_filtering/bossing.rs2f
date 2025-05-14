@@ -1,3 +1,11 @@
+/*@ define:group
+---
+name: God Wars Dungeon
+icon: 
+  type: itemId
+  itemId: 11798
+*/
+
 /*@ define:input:bossing
 type: stringlist
 label: God Wars Dungeon force shown
@@ -21,6 +29,15 @@ apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_HID
 apply (area:CONST_GOD_WARS_DUNGEON_AREA && name:VAR_BOSSING_GOD_WARS_DUNGEON_SHOW) {
     hidden = false;
 }
+
+/*@ define:group
+---
+name: Commander Zilyana
+icon: 
+  type: sprite
+  spriteId: 4284
+  spriteIndex: 0
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -150,6 +167,16 @@ apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_C
 apply (area:CONST_COMMANDER_ZILYANA_AREA && name:VAR_BOSSING_COMMANDER_ZILYANA_SUPPLY_SHOW) {
     hidden = false;
 }
+
+
+/*@ define:group
+---
+name: General Graardor
+icon: 
+  type: sprite
+  spriteId: 4322 
+  spriteIndex: 0
+*/
 
 /*@ define:input:bossing
 type: enumlist
@@ -297,6 +324,16 @@ apply (area:CONST_GENERAL_GRAARDOR_AREA && name:VAR_BOSSING_GENERAL_GRAARDOR_SUP
     hidden = false;
 }
 
+
+/*@ define:group
+---
+name: Kree'arra
+icon: 
+  type: sprite
+  spriteId: 4325  
+  spriteIndex: 0
+*/
+
 /*@ define:input:bossing
 type: enumlist
 label: Unique drops force hidden
@@ -441,6 +478,16 @@ apply (area:CONST_KREEARRA_AREA && name:VAR_BOSSING_KREEARRA_SUPPLY_SHOW) {
     hidden = false;
 }
 
+
+/*@ define:group
+---
+name: K'ril Tsutsaroth
+icon: 
+  type: sprite
+  spriteId: 4323
+  spriteIndex: 0
+*/
+
 /*@ define:input:bossing
 type: enumlist
 label: Unique drops force hidden
@@ -573,6 +620,16 @@ apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_COMMO
 apply (area:CONST_KRIL_TSUTSAROTH_AREA && name:VAR_BOSSING_KRIL_TSUTSAROTH_SUPPLY_SHOW) {
     hidden = false;
 }
+
+
+/*@ define:group
+---
+name: Nex
+icon: 
+  type: sprite
+  spriteId: 4331
+  spriteIndex: 0
+*/
 
 /*@ define:input:bossing
 type: enumlist

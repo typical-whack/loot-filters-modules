@@ -1,6 +1,9 @@
 /*@ define:group
 ---
 name: Fishing
+icon: 
+  type: itemId
+  itemId: 307
 description: |
   Fishing
   ---

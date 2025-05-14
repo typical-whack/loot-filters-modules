@@ -1,6 +1,10 @@
 /*@ define:group
 ---
 name: Chambers of Xeric
+icon: 
+  type: sprite
+  spriteId: 4328
+  spriteIndex: 0
 description: |
   Chambers of Xeric
   ---

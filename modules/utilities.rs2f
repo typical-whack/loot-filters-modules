@@ -11,6 +11,9 @@ description: |
 /*@ define:group
 ---
 name: Backpack reminder sound
+icon: 
+  type: itemId
+  itemId: 22109
 description: |
   Backpack reminder sound
   ---
@@ -40,6 +43,10 @@ apply ((name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LI
 /*@ define:group
 ---
 name: UIM Deathpile
+icon: 
+  type: sprite
+  spriteId: 2929
+  spriteIndex: 0
 description: |
   UIM Deathpile
   ---
