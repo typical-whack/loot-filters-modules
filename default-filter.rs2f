@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed May 14 16:20:26 UTC 2025 */
-/* Commit: 9e786cb */
+/* Built on: Wed May 14 21:57:32 UTC 2025 */
+/* Commit: d8cdcf1 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -5151,6 +5151,55 @@ apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_HIDE) {
 apply (area:CONST_TOA_AREA && name:VAR_TOA_BOOKS_SHOW) {
     hidden = false;
 }
+/*@ define:group
+---
+name: Yama
+icon: 
+  type: itemId
+  itemId: 20023
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: Yama force shown
+group: Yama
+*/
+#define VAR_BOSSING_YAMA_SHOW [ \
+    "Chasm teleport scroll", \
+    "Oathplate shards", \
+    "Aether catalyst", \
+    "Diabolic worms", \
+    "Barrel of demonic tallow", \
+    "Forgotten lockbox", \
+    "Rite of vile transference", \
+    "Soulflame horn", \
+    "Dossier", \
+    "Oathplate helm", \
+    "Oathplate chest", \
+    "Oathplate legs", \
+    "Pineapple pizza", \
+    "Wild pie", \
+    "Prayer potion(3)", \
+    "Super combat potion(1)", \
+    "Super restore mix(2)", \
+  ]
+  
+  /*@ define:input:bossing
+  type: stringlist
+  label: Yama force hidden
+  group: Yama
+  */
+  #define VAR_BOSSING_YAMA_HIDE [ \
+    "Hammer", \
+  ]
+  
+  apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_HIDE) {
+      hidden = true;
+  }
+  
+  apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_SHOW) {
+      hidden = false;
+  }
 /*@ define:group
 ---
 name: God Wars Dungeon
