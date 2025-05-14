@@ -10,6 +10,19 @@ description: |
 
 /*@ define:input:item_category_styles
 type: style
+label: Currency Style
+group: Currency Style
+exampleItem: Coins
+*/
+#define VAR_CURRENCY_CUSTOMSTYLE \
+  textColor = "#FFBEB287";
+
+apply (name:CONST_CURRENCY_LIST) {
+    VAR_CURRENCY_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
 label: Bronze Armour and Weapons
 group: Bronze Armour and Weapons
 exampleItem: Bronze platelegs
