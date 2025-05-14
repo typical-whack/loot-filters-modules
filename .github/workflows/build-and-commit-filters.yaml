@@ -41,10 +41,10 @@ jobs:
           meta_string='meta {
             name = "Joe's filter";
           }'
-          echo "$header_module" >> filter.rs2f
+          printf "%s\n" "$header_module" >> filter.rs2f
           echo "$built_on_string" >> filter.rs2f
           echo "$commit_string" >> filter.rs2f
-          echo "$meta_string" >> filter.rs2f
+          printf "%s\n" "$meta_string" >> filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> filter.rs2f
           done
@@ -53,10 +53,10 @@ jobs:
           default_meta_string='meta {
             name = "[default: Joe's filter]";
           }'
-          echo "$header_module" >> default-filter.rs2f
+          printf "%s\n" "$header_module" >> default-filter.rs2f
           echo "$built_on_string" >> default-filter.rs2f
           echo "$commit_string" >> default-filter.rs2f
-          echo "$default_meta_string" >> filter.rs2f
+          printf "%s\n" "$default_meta_string" >> filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> default-filter.rs2f
           done
