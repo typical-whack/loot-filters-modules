@@ -23,6 +23,66 @@ apply (name:CONST_CURRENCY_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
+label: Fishing equipment Style
+group: Fishing equipment Style
+exampleItem: Fishing rod
+*/
+#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing bait Style
+group: Fishing bait Style
+exampleItem: Fishing bait
+*/
+#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Raw fish Style
+group: Raw fish Style
+exampleItem: Raw tuna
+*/
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Hunter food style
+group: Hunter food style
+exampleItem: Cooked moonlight antelope
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fish food style
+group: Fish food style
+exampleItem: Tuna
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
 label: Bronze Armour and Weapons
 group: Bronze Armour and Weapons
 exampleItem: Bronze platelegs
@@ -60,6 +120,30 @@ exampleItem: Bronze platelegs (g)
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF43341d";
 
+apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_RANGED_WEAPONS) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_AMMO) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_ARMOUR) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
+    VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
+    VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BRONZE_OTHER) {
+    VAR_BRONZE_CUSTOMSTYLE 
+}
 
 /*@ define:input:item_category_styles
 type: style
@@ -101,6 +185,31 @@ exampleItem: Iron platelegs (g)
   menuTextColor = "#FF4f4948";
 
 
+apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_RANGED_WEAPONS) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_AMMO) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_ARMOUR) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_TRIMMED_ARMOUR) {
+    VAR_IRON_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
+    VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_IRON_OTHER) {
+    VAR_IRON_CUSTOMSTYLE 
+}
+
 /*@ define:input:item_category_styles
 type: style
 label: Steel Armour and Weapons
@@ -139,6 +248,31 @@ exampleItem: Steel platelegs (g)
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF857c7b";
+
+apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_RANGED_WEAPONS) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_AMMO) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_ARMOUR) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
+    VAR_STEEL_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
+    VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_STEEL_OTHER) {
+    VAR_STEEL_CUSTOMSTYLE 
+}
 
 
 /*@ define:input:item_category_styles
@@ -193,6 +327,33 @@ exampleItem: Black helm (h1)
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF1d1b1b";
 
+apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_RANGED_WEAPONS) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_AMMO) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_ARMOUR) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
+    VAR_BLACK_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
+    VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_OTHER) {
+    VAR_BLACK_CUSTOMSTYLE 
+}
+apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
+    VAR_BLACK_HERALDIC_CUSTOMSTYLE 
+}
 
 /*@ define:input:item_category_styles
 type: style
@@ -233,6 +394,30 @@ exampleItem: Mithril platelegs (g)
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF414161";
 
+apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_RANGED_WEAPONS) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_AMMO) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_ARMOUR) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
+    VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
+    VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_MITHRIL_OTHER) {
+    VAR_MITHRIL_CUSTOMSTYLE 
+}
 
 /*@ define:input:item_category_styles
 type: style
@@ -286,6 +471,33 @@ exampleItem: Adamant helm (h1)
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF405140";
 
+apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_RANGED_WEAPONS) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_AMMO) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_ARMOUR) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
+    VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
+    VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_OTHER) {
+    VAR_ADAMANT_CUSTOMSTYLE 
+}
+apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
+    VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
+}
 
 /*@ define:input:item_category_styles
 type: style
@@ -430,176 +642,6 @@ exampleItem: Zamorak platelegs
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF801a0d";
 
-
-/*@ define:input:item_category_styles
-type: style
-label: Dragon Armour and Weapons
-group: Dragon Armour and Weapons
-exampleItem: Dragon platelegs
-*/
-#define VAR_DRAGON_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#80541109";\
-  borderColor = "#FF541109";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FF541109";
-
-apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS) {
-    VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS) {
-    VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_RANGED_WEAPONS) {
-    VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_AMMO) {
-    VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_ARMOUR) {
-    VAR_BRONZE_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
-    VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
-    VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_BRONZE_OTHER) {
-    VAR_BRONZE_CUSTOMSTYLE 
-}
-
-apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS) {
-    VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS) {
-    VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_RANGED_WEAPONS) {
-    VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_AMMO) {
-    VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_ARMOUR) {
-    VAR_IRON_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_TRIMMED_ARMOUR) {
-    VAR_IRON_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
-    VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_IRON_OTHER) {
-    VAR_IRON_CUSTOMSTYLE 
-}
-
-apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS) {
-    VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS) {
-    VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_RANGED_WEAPONS) {
-    VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_AMMO) {
-    VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_ARMOUR) {
-    VAR_STEEL_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
-    VAR_STEEL_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
-    VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_STEEL_OTHER) {
-    VAR_STEEL_CUSTOMSTYLE 
-}
-
-apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS) {
-    VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS) {
-    VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_RANGED_WEAPONS) {
-    VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_AMMO) {
-    VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_ARMOUR) {
-    VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
-    VAR_BLACK_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
-    VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_OTHER) {
-    VAR_BLACK_CUSTOMSTYLE 
-}
-apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
-    VAR_BLACK_HERALDIC_CUSTOMSTYLE 
-}
-
-apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS) {
-    VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS) {
-    VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_RANGED_WEAPONS) {
-    VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_AMMO) {
-    VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_ARMOUR) {
-    VAR_MITHRIL_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
-    VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
-    VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_MITHRIL_OTHER) {
-    VAR_MITHRIL_CUSTOMSTYLE 
-}
-
-apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS) {
-    VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS) {
-    VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_RANGED_WEAPONS) {
-    VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_AMMO) {
-    VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_ARMOUR) {
-    VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
-    VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
-    VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_OTHER) {
-    VAR_ADAMANT_CUSTOMSTYLE 
-}
-apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
-    VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
-}
-
 apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS) {
     VAR_RUNE_CUSTOMSTYLE 
 }
@@ -649,6 +691,19 @@ apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
     VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
 }
 
+/*@ define:input:item_category_styles
+type: style
+label: Dragon Armour and Weapons
+group: Dragon Armour and Weapons
+exampleItem: Dragon platelegs
+*/
+#define VAR_DRAGON_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#80541109";\
+  borderColor = "#FF541109";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF541109";
+
 apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
@@ -663,64 +718,4 @@ apply (name:CONST_DRAGON_AMMO) {
 }
 apply (name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Fishing equipment Style
-group: Fishing equipment Style
-exampleItem: Fishing rod
-*/
-#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_EQUIPMENT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Fishing bait Style
-group: Fishing bait Style
-exampleItem: Fishing bait
-*/
-#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_BAIT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Raw fish Style
-group: Raw fish Style
-exampleItem: Raw tuna
-*/
-#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_RAW_FISH_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Hunter food style
-group: Hunter food style
-exampleItem: Cooked moonlight antelope
-*/
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
-
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Fish food style
-group: Fish food style
-exampleItem: Tuna
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
 }
