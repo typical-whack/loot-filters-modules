@@ -1,10 +1,7 @@
-/*@ define:module:header
-hidden: true
-name: header
-*/
-/* Built on: Wed May 14 02:02:23 UTC 2025 */
-/* Commit: 1cf362e */
-meta { name = "Joe's filter"; }
+/*@ define:module:header hidden: true name: header */
+/* Built on: Wed May 14 03:11:43 UTC 2025 */
+/* Commit: 284aaf4 */
+
 /*@ define:module:default_styling
 ---
 name: Default Styling
