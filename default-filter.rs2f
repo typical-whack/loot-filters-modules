@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed May 14 21:57:32 UTC 2025 */
-/* Commit: d8cdcf1 */
+/* Built on: Wed May 14 21:58:30 UTC 2025 */
+/* Commit: 7c5cb78 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -5190,7 +5190,6 @@ group: Yama
   group: Yama
   */
   #define VAR_BOSSING_YAMA_HIDE [ \
-    "Hammer", \
   ]
   
   apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_HIDE) {
