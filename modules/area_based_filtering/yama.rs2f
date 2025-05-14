@@ -37,7 +37,6 @@ group: Yama
   group: Yama
   */
   #define VAR_BOSSING_YAMA_HIDE [ \
-    "Hammer", \
   ]
   
   apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_HIDE) {
