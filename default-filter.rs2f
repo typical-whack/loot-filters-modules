@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed May 14 03:50:10 UTC 2025 */
-/* Commit: 8b148a9 */
+/* Built on: Wed May 14 16:20:26 UTC 2025 */
+/* Commit: 9e786cb */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -14829,6 +14829,8 @@ name: Constants
 #define CONST_KREEARRA_AREA [2820, 5295, 2, 2843, 5309, 2]
 #define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
 #define CONST_NEX_AREA [2900, 5188, 0, 2943, 5218, 0]
+
+#define CONST_YAMA_AREA [1485, 19964, 0, 1520, 10092, 0]
 
 #define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
