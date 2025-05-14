@@ -1,7 +1,11 @@
 /*@ define:module:header hidden: true name: header */
-/* Built on: Wed May 14 03:14:25 UTC 2025 */
-/* Commit: 6ce46ae */
-meta { name = "[default: Joe's filter]"; }
+/* Built on: Wed May 14 03:17:08 UTC 2025 */
+/* Commit: 7d61d66 */
+meta {
+    name = "[default: Joe's filter]";
+    description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
+}
+
 /*@ define:module:default_styling
 ---
 name: Default Styling
