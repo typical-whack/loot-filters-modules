@@ -35,7 +35,7 @@ jobs:
           header_module='/*@ define:module:header hidden: true name: header */'
           built_on_string="/* Built on: ${{ steps.vars.outputs.current_date_and_time }} */"
           commit_string="/* Commit: ${{ steps.vars.outputs.short_commit }} */"
-          meta_string="meta { name = \"Joe's filter\"; }"
+          meta_string="meta {\n    name = \"Joe's filter\";\n    description = \"Offers an original color scheme with extensive support for category-based styling/filtering.\";\n}\n"
           echo -e "$header_module" >> filter.rs2f
           echo -e "$built_on_string" >> filter.rs2f
           echo -e "$commit_string" >> filter.rs2f
@@ -45,7 +45,7 @@ jobs:
           done
 
           echo "Building default filter"
-          default_meta_string="meta { name = \"[default: Joe's filter]\"; }"
+          default_meta_string="meta {\n    name = \"[default: Joe's filter]\";\n    description = \"Offers an original color scheme with extensive support for category-based styling/filtering.\";\n}\n"
           echo -e "$header_module" >> default-filter.rs2f
           echo -e "$built_on_string" >> default-filter.rs2f
           echo -e "$commit_string" >> default-filter.rs2f
