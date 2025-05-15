@@ -352,7 +352,17 @@ label: Disable loot filters sounds for uniques for bosses that already have a un
 */
 #define VAR_DISABLE_UNIQUES_SOUND true
 
-apply (VAR_DISABLE_UNIQUES_SOUND && name:VAR_UNIQUES_LIST && (area:CONST_MUSPAH_AREA || area:CONST_THE_WHISPERER_AREA || area:CONST_VARDORVIS_AREA || area:CONST_DUKE_SUCELLUS_AREA || area:CONST_THE_LEVIATHAN_AREA)) {
+apply ( \
+  VAR_DISABLE_UNIQUES_SOUND \
+  && name:VAR_UNIQUES_LIST \
+  && (
+    area:CONST_MUSPAH_AREA \
+    || area:CONST_THE_WHISPERER_AREA \
+    || area:CONST_VARDORVIS_AREA \
+    || area:CONST_DUKE_SUCELLUS_AREA \
+    || area:CONST_THE_LEVIATHAN_AREA \
+  ) \
+) {
     sound = 2411; // sound name: silence
 }
 
