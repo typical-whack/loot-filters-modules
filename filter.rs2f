@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu May 15 20:38:25 UTC 2025 */
-/* Commit: 7bc197a */
+/* Built on: Thu May 15 21:12:43 UTC 2025 */
+/* Commit: fce76a2 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7323,6 +7323,7 @@ apply ( \
     || area:CONST_DUKE_SUCELLUS_AREA \
     || area:CONST_THE_LEVIATHAN_AREA \
     || area:CONST_YAMA_AREA \
+    || area:CONST_NEX_AREA \
   ) \
 ) {
     sound = 2411; // sound name: silence
