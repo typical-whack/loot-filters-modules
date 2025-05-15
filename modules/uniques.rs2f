@@ -370,6 +370,7 @@ apply ( \
     || area:CONST_THE_LEVIATHAN_AREA \
     || area:CONST_YAMA_AREA \
     || area:CONST_NEX_AREA \
+    || area:CONST_AMOXLIATL_AREA \
   ) \
 ) {
     sound = 2411; // sound name: silence
