@@ -342,6 +342,16 @@ apply (name:VAR_UNIQUES_LIST) {
     VAR_UNIQUES_CUSTOMSTYLE 
 }
 
+/*@ define:input:uniques
+type: boolean
+label: Disable loot filters sounds for uniques for bosses that already have a unique sound
+*/
+#define VAR_DISABLE_UNIQUES_SOUND true
+
+apply (VAR_DISABLE_UNIQUES_SOUND && name:VAR_UNIQUES_LIST && (area:CONST_MUSPAH_AREA || area:CONST_THE_WHISPERER_AREA || area:CONST_VARDORVIS_AREA || area:CONST_DUKE_SUCELLUS_AREA || area:CONST_THE_LEVIATHAN_AREA)) {
+    sound = 2411; // sound name: silence
+}
+
 /*@ define:group
 ---
 name: Power User
