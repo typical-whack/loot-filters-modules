@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed May 14 21:58:30 UTC 2025 */
-/* Commit: 7c5cb78 */
+/* Built on: Thu May 15 00:03:35 UTC 2025 */
+/* Commit: f86a722 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -5169,7 +5169,7 @@ group: Yama
     "Oathplate shards", \
     "Aether catalyst", \
     "Diabolic worms", \
-    "Barrel of demonic tallow", \
+    "Barrel of demonic tallow (full)", \
     "Forgotten lockbox", \
     "Rite of vile transference", \
     "Soulflame horn", \
