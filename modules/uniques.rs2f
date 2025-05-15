@@ -346,9 +346,16 @@ apply (name:VAR_UNIQUES_LIST) {
     VAR_UNIQUES_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Power User
+expanded: false
+*/
+
 /*@ define:input:uniques
 type: boolean
 label: Disable loot filters sounds for uniques for bosses that already have a unique sound
+group: Power User
 */
 #define VAR_DISABLE_UNIQUES_SOUND true
 
@@ -366,12 +373,6 @@ apply ( \
 ) {
     sound = 2411; // sound name: silence
 }
-
-/*@ define:group
----
-name: Power User
-expanded: false
-*/
 
 /*@ define:input:uniques
 type: boolean
