@@ -361,6 +361,7 @@ apply ( \
     || area:CONST_VARDORVIS_AREA \
     || area:CONST_DUKE_SUCELLUS_AREA \
     || area:CONST_THE_LEVIATHAN_AREA \
+    || area:CONST_YAMA_AREA \
   ) \
 ) {
     sound = 2411; // sound name: silence
