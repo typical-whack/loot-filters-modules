@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu May 15 00:19:31 UTC 2025 */
-/* Commit: cb6f491 */
+/* Built on: Thu May 15 20:37:05 UTC 2025 */
+/* Commit: cbab05d */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7290,10 +7290,35 @@ group: Uniques List
   "Cockatrice head", \
   "Basilisk head", \
   "Kurask head", \
+  "Soulflame horn", \
+  "Oathplate helm", \
+  "Oathplate chest", \
+  "Oathplate legs", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
     VAR_UNIQUES_CUSTOMSTYLE 
+}
+
+/*@ define:input:uniques
+type: boolean
+label: Disable loot filters sounds for uniques for bosses that already have a unique sound
+*/
+#define VAR_DISABLE_UNIQUES_SOUND true
+
+apply ( \
+  VAR_DISABLE_UNIQUES_SOUND \
+  && name:VAR_UNIQUES_LIST \
+  && (
+    area:CONST_MUSPAH_AREA \
+    || area:CONST_THE_WHISPERER_AREA \
+    || area:CONST_VARDORVIS_AREA \
+    || area:CONST_DUKE_SUCELLUS_AREA \
+    || area:CONST_THE_LEVIATHAN_AREA \
+    || area:CONST_YAMA_AREA \
+  ) \
+) {
+    sound = 2411; // sound name: silence
 }
 
 /*@ define:group
@@ -14877,6 +14902,12 @@ name: Constants
 #define CONST_KREEARRA_AREA [2820, 5295, 2, 2843, 5309, 2]
 #define CONST_KRIL_TSUTSAROTH_AREA [2917, 5317, 2, 2941, 5332, 2]
 #define CONST_NEX_AREA [2900, 5188, 0, 2943, 5218, 0]
+
+#define CONST_MUSPAH_AREA [2831, 4242, 0, 2862, 4275, 0]
+#define CONST_THE_WHISPERER_AREA [2631, 6337, 0, 2682, 6394, 0]
+#define CONST_VARDORVIS_AREA [1122, 3411, 0, 1137, 3426, 0]
+#define CONST_DUKE_SUCELLUS_AREA [3027, 6432, 0, 3052, 6460, 0]
+#define CONST_THE_LEVIATHAN_AREA [2068, 6360, 0, 2095, 6386, 0]
 
 #define CONST_YAMA_AREA [1485, 10063, 0, 1524, 10092, 0]
 
