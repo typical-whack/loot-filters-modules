@@ -336,6 +336,10 @@ group: Uniques List
   "Cockatrice head", \
   "Basilisk head", \
   "Kurask head", \
+  "Soulflame horn", \
+  "Oathplate helm", \
+  "Oathplate chest", \
+  "Oathplate legs", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
