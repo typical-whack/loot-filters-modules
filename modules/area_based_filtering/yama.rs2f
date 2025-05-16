@@ -29,7 +29,7 @@ group: Yama
     "Prayer potion(3)", \
     "Super combat potion(1)", \
     "Super restore mix(2)", \
-  ]
+]
 
 /*@ define:input:bossing
 type: stringlist
