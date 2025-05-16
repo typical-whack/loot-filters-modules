@@ -30,19 +30,19 @@ group: Yama
     "Super combat potion(1)", \
     "Super restore mix(2)", \
   ]
-  
-  /*@ define:input:bossing
-  type: stringlist
-  label: Yama force hidden
-  group: Yama
-  */
-  #define VAR_BOSSING_YAMA_HIDE [ \
-  ]
-  
-  apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_HIDE) {
-      hidden = true;
-  }
-  
-  apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_SHOW) {
-      hidden = false;
-  }
+
+/*@ define:input:bossing
+type: stringlist
+label: Yama force hidden
+group: Yama
+*/
+#define VAR_BOSSING_YAMA_HIDE [ \
+]
+
+apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_HIDE) {
+    hidden = true;
+}
+
+apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_SHOW) {
+    hidden = false;
+}
