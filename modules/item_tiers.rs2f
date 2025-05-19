@@ -66,6 +66,14 @@ group: Tier 2
 */
 #define VAR_VALUES_TIER_2_SHOW [ \
   "Dossier", \
+  "Ice quartz", \
+  "Frozen tablet", \
+  "Blood quartz", \
+  "Strangled tablet", \
+  "Shadow quartz", \
+  "Sirenic tablet", \
+  "Smoke quartz", \
+  "Scarred tablet", \
 ]
 
 /*@ define:input:item_tiers
