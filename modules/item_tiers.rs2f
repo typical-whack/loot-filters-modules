@@ -74,6 +74,7 @@ group: Tier 2
   "Sirenic tablet", \
   "Smoke quartz", \
   "Scarred tablet", \
+  "Dark claw", \
 ]
 
 /*@ define:input:item_tiers
