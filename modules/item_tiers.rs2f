@@ -30,6 +30,7 @@ group: Tier 1
   "Vorkath's head", \
   "Giantsoul amulet", \
   "Desiccated page", \
+  "Pendant of ates", \
 ]
 
 /*@ define:input:item_tiers
