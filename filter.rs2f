@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 19 21:07:05 UTC 2025 */
-/* Commit: 4a370cd */
+/* Built on: Mon May 19 21:09:09 UTC 2025 */
+/* Commit: 8fcd2b2 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6764,14 +6764,14 @@ icon:
 
 /*@ define:input:item_tiers
 type: number
-label: Minimum value
+label: Put items above this value in tier 1
 group: Tier 1
 */
 #define VAR_VALUES_TIER_1_VALUE 20000
 
 /*@ define:input:item_tiers
 type: stringlist
-label: Tier 1 force items shown
+label: Manually add items to tier 1
 group: Tier 1
 */
 #define VAR_VALUES_TIER_1_SHOW [ \
@@ -6809,14 +6809,14 @@ icon:
 
 /*@ define:input:item_tiers
 type: number
-label: Minimum value
+label: Put items above this value in tier 2
 group: Tier 2
 */
 #define VAR_VALUES_TIER_2_VALUE 100000
 
 /*@ define:input:item_tiers
 type: stringlist
-label: Tier 2 force items shown
+label: Manually add items to tier 2
 group: Tier 2
 */
 #define VAR_VALUES_TIER_2_SHOW [ \
@@ -6862,14 +6862,14 @@ icon:
 
 /*@ define:input:item_tiers
 type: number
-label: Minimum value
+label: Put items above this value in tier 3
 group: Tier 3
 */
 #define VAR_VALUES_TIER_3_VALUE 1000000
 
 /*@ define:input:item_tiers
 type: stringlist
-label: Tier 3 force items shown
+label: Manually add items to tier 3
 group: Tier 3
 */
 #define VAR_VALUES_TIER_3_SHOW [ \
@@ -6921,14 +6921,14 @@ icon:
 
 /*@ define:input:item_tiers
 type: number
-label: Minimum value
+label: Put items above this value in tier 4
 group: Tier 4
 */
 #define VAR_VALUES_TIER_4_VALUE 10000000
 
 /*@ define:input:item_tiers
 type: stringlist
-label: Tier 4 force items shown
+label: Manually add items to tier 4
 group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW [ \
