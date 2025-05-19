@@ -31,6 +31,7 @@ group: Tier 1
   "Giantsoul amulet", \
   "Desiccated page", \
   "Pendant of ates", \
+  "Long bone", \
 ]
 
 /*@ define:input:item_tiers
@@ -82,6 +83,7 @@ group: Tier 2
   "Dark claw", \
   "Frozen cache", \
   "Ancient icon", \
+  "Curved bone", \
 ]
 
 /*@ define:input:item_tiers
