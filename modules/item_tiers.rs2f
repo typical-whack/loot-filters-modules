@@ -32,6 +32,7 @@ group: Tier 1
   "Desiccated page", \
   "Pendant of ates", \
   "Long bone", \
+  "Scurrius' spine", \
 ]
 
 /*@ define:input:item_tiers
