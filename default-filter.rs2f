@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 19 20:43:13 UTC 2025 */
-/* Commit: be65016 */
+/* Built on: Mon May 19 21:07:05 UTC 2025 */
+/* Commit: 4a370cd */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6774,7 +6774,14 @@ type: stringlist
 label: Tier 1 force items shown
 group: Tier 1
 */
-#define VAR_VALUES_TIER_1_SHOW []
+#define VAR_VALUES_TIER_1_SHOW [ \
+  "Vorkath's head", \
+  "Giantsoul amulet", \
+  "Desiccated page", \
+  "Pendant of ates", \
+  "Long bone", \
+  "Scurrius' spine", \
+]
 
 /*@ define:input:item_tiers
 type: style
@@ -6812,7 +6819,22 @@ type: stringlist
 label: Tier 2 force items shown
 group: Tier 2
 */
-#define VAR_VALUES_TIER_2_SHOW []
+#define VAR_VALUES_TIER_2_SHOW [ \
+  "Dossier", \
+  "Ice quartz", \
+  "Frozen tablet", \
+  "Blood quartz", \
+  "Strangled tablet", \
+  "Shadow quartz", \
+  "Sirenic tablet", \
+  "Smoke quartz", \
+  "Scarred tablet", \
+  "Dark claw", \
+  "Frozen cache", \
+  "Ancient icon", \
+  "Curved bone", \
+  "Kq head", \
+]
 
 /*@ define:input:item_tiers
 type: style
@@ -6850,8 +6872,25 @@ type: stringlist
 label: Tier 3 force items shown
 group: Tier 3
 */
-#define VAR_VALUES_TIER_3_SHOW []
-
+#define VAR_VALUES_TIER_3_SHOW [ \
+  "Forgotten lockbox", \
+  "Noxious pommel", \
+  "Noxious point", \
+  "Noxious blade", \
+  "Hydra's eye", \
+  "Hydra's fang", \
+  "Hydra's heart", \
+  "Unsired", \
+  "Bludgeon claw", \
+  "Bludgeon spine", \
+  "Bludgeon axon", \
+  "Dark totem", \
+  "Slepey tablet", \
+  "Parasitic egg", \
+  "Mystic vigour prayer scroll", \
+  "Deadeye prayer scroll", \
+  "Kq head (tattered)", \
+]
 /*@ define:input:item_tiers
 type: style
 label: Tier 3 custom style
@@ -6901,6 +6940,9 @@ group: Tier 4
   "Executioner's axe head", \
   "Magus vestige", \
   "Eye of the duke", \
+  "Araxyte fang", \
+  "Tanzanite mutagen", \
+  "Magma mutagen", \
 ]
 
 /*@ define:input:item_tiers
