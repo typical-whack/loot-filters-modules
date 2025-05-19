@@ -75,6 +75,8 @@ group: Tier 2
   "Smoke quartz", \
   "Scarred tablet", \
   "Dark claw", \
+  "Frozen cache", \
+  "Ancient icon", \
 ]
 
 /*@ define:input:item_tiers
