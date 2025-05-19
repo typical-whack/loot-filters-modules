@@ -84,6 +84,7 @@ group: Tier 2
   "Frozen cache", \
   "Ancient icon", \
   "Curved bone", \
+  "Kq head", \
 ]
 
 /*@ define:input:item_tiers
@@ -139,6 +140,7 @@ group: Tier 3
   "Parasitic egg", \
   "Mystic vigour prayer scroll", \
   "Deadeye prayer scroll", \
+  "Kq head (tattered)", \
 ]
 /*@ define:input:item_tiers
 type: style
