@@ -185,6 +185,8 @@ group: Tier 4
   "Magus vestige", \
   "Eye of the duke", \
   "Araxyte fang", \
+  "Tanzanite mutagen", \
+  "Magma mutagen", \
 ]
 
 /*@ define:input:item_tiers
