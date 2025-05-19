@@ -26,7 +26,9 @@ type: stringlist
 label: Tier 1 force items shown
 group: Tier 1
 */
-#define VAR_VALUES_TIER_1_SHOW []
+#define VAR_VALUES_TIER_1_SHOW [ \
+  "Vorkath's head", \
+]
 
 /*@ define:input:item_tiers
 type: style
