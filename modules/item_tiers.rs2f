@@ -126,6 +126,7 @@ group: Tier 3
   "Bludgeon spine", \
   "Bludgeon axon", \
   "Dark totem", \
+  "Slepey tablet", \
 ]
 /*@ define:input:item_tiers
 type: style
