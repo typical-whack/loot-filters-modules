@@ -132,6 +132,8 @@ group: Tier 3
   "Dark totem", \
   "Slepey tablet", \
   "Parasitic egg", \
+  "Mystic vigour prayer scroll", \
+  "Deadeye prayer scroll", \
 ]
 /*@ define:input:item_tiers
 type: style
