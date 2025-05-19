@@ -174,8 +174,6 @@ label: Tier 4 force items shown
 group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW [ \
-  "Jar of darkness", \
-  "Jar of dreams", \
   "Venator vestige", \
   "Leviathan's lure", \
   "Bellator vestige", \
