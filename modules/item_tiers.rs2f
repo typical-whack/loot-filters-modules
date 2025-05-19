@@ -127,6 +127,7 @@ group: Tier 3
   "Bludgeon axon", \
   "Dark totem", \
   "Slepey tablet", \
+  "Parasitic egg", \
 ]
 /*@ define:input:item_tiers
 type: style
