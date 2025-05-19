@@ -114,6 +114,9 @@ group: Tier 3
 */
 #define VAR_VALUES_TIER_3_SHOW [ \
   "Forgotten lockbox", \
+  "Noxious pommel", \
+  "Noxious point", \
+  "Noxious blade", \
 ]
 /*@ define:input:item_tiers
 type: style
@@ -164,6 +167,7 @@ group: Tier 4
   "Executioner's axe head", \
   "Magus vestige", \
   "Eye of the duke", \
+  "Araxyte fang", \
 ]
 
 /*@ define:input:item_tiers
