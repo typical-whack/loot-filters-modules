@@ -117,6 +117,9 @@ group: Tier 3
   "Noxious pommel", \
   "Noxious point", \
   "Noxious blade", \
+  "Hydra's eye", \
+  "Hydra's fang", \
+  "Hydra's heart", \
 ]
 /*@ define:input:item_tiers
 type: style
