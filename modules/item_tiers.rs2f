@@ -64,7 +64,9 @@ type: stringlist
 label: Tier 2 force items shown
 group: Tier 2
 */
-#define VAR_VALUES_TIER_2_SHOW []
+#define VAR_VALUES_TIER_2_SHOW [ \
+  "Dossier", \
+]
 
 /*@ define:input:item_tiers
 type: style
@@ -102,8 +104,9 @@ type: stringlist
 label: Tier 3 force items shown
 group: Tier 3
 */
-#define VAR_VALUES_TIER_3_SHOW []
-
+#define VAR_VALUES_TIER_3_SHOW [ \
+  "Forgotten lockbox", \
+]
 /*@ define:input:item_tiers
 type: style
 label: Tier 3 custom style
