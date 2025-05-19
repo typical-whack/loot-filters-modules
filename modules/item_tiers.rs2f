@@ -144,7 +144,16 @@ type: stringlist
 label: Tier 4 force items shown
 group: Tier 4
 */
-#define VAR_VALUES_TIER_4_SHOW []
+#define VAR_VALUES_TIER_4_SHOW [ \
+  "Venator vestige", \
+  "Leviathan's lure", \
+  "Bellator vestige", \
+  "Siren's staff", \
+  "Ultor vestige", \
+  "Executioner's axe head", \
+  "Magus vestige", \
+  "Eye of the duke", \
+]
 
 /*@ define:input:item_tiers
 type: style
