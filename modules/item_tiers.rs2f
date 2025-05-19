@@ -28,6 +28,8 @@ group: Tier 1
 */
 #define VAR_VALUES_TIER_1_SHOW [ \
   "Vorkath's head", \
+  "Giantsoul amulet", \
+  "Desiccated page", \
 ]
 
 /*@ define:input:item_tiers
