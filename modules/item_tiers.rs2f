@@ -120,6 +120,10 @@ group: Tier 3
   "Hydra's eye", \
   "Hydra's fang", \
   "Hydra's heart", \
+  "Unsired", \
+  "Bludgeon claw", \
+  "Bludgeon spine", \
+  "Bludgeon axon", \
 ]
 /*@ define:input:item_tiers
 type: style
