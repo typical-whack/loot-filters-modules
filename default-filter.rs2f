@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 24 15:40:07 UTC 2025 */
-/* Commit: 077877b */
+/* Built on: Sat May 24 15:42:12 UTC 2025 */
+/* Commit: 869066d */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8250,6 +8250,56 @@ subtitle: Fancy
 description: |
   This module provides styling for individual items.
 */
+
+/*@ define:group
+---
+name: Misc Styles
+expanded: false
+description: |
+  Misc Item Styling
+  ---
+  This provides styling for items that deserve individual styling, but don't fall neatly into other groups 
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Ancient blood ornament kit custom style
+group: Misc Styles
+exampleItem: Ancient blood ornament kit
+exampleItemId: 28336
+*/
+#define VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE \
+  textColor = "#FFff0000";\
+  backgroundColor = "#90000000";\
+  borderColor = "#FF000000";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFff0000";\
+  icon = CurrentItem();\
+  showLootbeam = true;\
+
+apply (name:"Ancient blood ornament kit") {
+    VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Purifying sigil custom style
+group: Misc Styles
+exampleItem: Purifying sigil
+exampleItemId: 30793
+*/
+#define VAR_PURIFYING_SIGIL_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#90d0d0d0";\
+  borderColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFFFFFFF";\
+  icon = CurrentItem();\
+  showLootbeam = true;\
+
+apply (name:"Purifying sigil*") {
+    VAR_PURIFYING_SIGIL_CUSTOMSTYLE 
+}
 /*@ define:group
 ---
 name: Clue Scrolls Styles
