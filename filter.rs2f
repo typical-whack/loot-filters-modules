@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 26 20:51:03 UTC 2025 */
-/* Commit: 93b22d6 */
+/* Built on: Mon May 26 20:59:03 UTC 2025 */
+/* Commit: 898e5d0 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -1505,47 +1505,22 @@ type: enumlist
 label: Javelins to force hidden
 group: Ammo
 enum: [
-  {
-    "value": "Bronze javelin*",
-    "label": "Bronze javelins"
-  },
-  {
-    "value": "Iron javelin*",
-    "label": "Iron javelins"
-  },
-  {
-    "value": "Steel javelin*",
-    "label": "Steel javelins"
-  },
-  {
-    "value": "Mithril javelin*",
-    "label": "Mithril javelins"
-  },
-  {
-    "value": "Adamant javelin*",
-    "label": "Adamant javelins"
-  },
-  {
-    "value": "Rune javelin*",
-    "label": "Rune javelins"
-  },
-  {
-    "value": "Amethyst javelin*",
-    "label": "Amethyst javelins"
-  },
-  {
-    "value": "Dragon javelin*",
-    "label": "Dragon javelins"
-  }
+  "Bronze javelin",
+  "Iron javelin",
+  "Steel javelin",
+  "Mithril javelin",
+  "Adamant javelin",
+  "Rune javelin",
+  "Dragon javelin",
 ]
 */
 #define VAR_AMMO_JAVELINS_HIDE [ \
-  "Bronze javelin*", \
-  "Iron javelin*", \
-  "Steel javelin*", \
-  "Mithril javelin*", \
-  "Adamant javelin*", \
-  "Rune javelin*", \
+  "Bronze javelin", \
+  "Iron javelin", \
+  "Steel javelin", \
+  "Mithril javelin", \
+  "Adamant javelin", \
+  "Rune javelin", \
 ]
 
 /*@ define:input:ammo
