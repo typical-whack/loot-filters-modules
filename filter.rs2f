@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 26 20:47:42 UTC 2025 */
-/* Commit: b831d6a */
+/* Built on: Mon May 26 20:49:08 UTC 2025 */
+/* Commit: 3e6be65 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7525,54 +7525,6 @@ apply (name:CONST_CURRENCY_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fishing equipment Style
-group: Fishing equipment Style
-exampleItem: Fishing rod
-*/
-#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_EQUIPMENT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Fishing bait Style
-group: Fishing bait Style
-exampleItem: Fishing bait
-*/
-#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_BAIT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Raw fish Style
-group: Raw fish Style
-exampleItem: Raw tuna
-*/
-#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_RAW_FISH_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Hunter food style
-group: Hunter food style
-exampleItem: Cooked moonlight antelope
-*/
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
-
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
 label: Fish food style
 group: Fish food style
 exampleItem: Tuna
@@ -7592,6 +7544,18 @@ exampleItem: Tuna potato
 #define VAR_POTATOES_FOODS_CUSTOMSTYLE 
 apply (name:CONST_POTATOES_FOODS_LIST) {
     VAR_POTATOES_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Hunter food style
+group: Hunter food style
+exampleItem: Cooked moonlight antelope
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
 }
 
 /*@ define:input:item_category_styles
@@ -7625,6 +7589,42 @@ exampleItem: Chocolate cake
 #define VAR_CAKE_FOODS_CUSTOMSTYLE 
 apply (name:CONST_CAKE_FOODS_LIST) {
     VAR_CAKE_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing equipment Style
+group: Fishing equipment Style
+exampleItem: Fishing rod
+*/
+#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing bait Style
+group: Fishing bait Style
+exampleItem: Fishing bait
+*/
+#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Raw fish Style
+group: Raw fish Style
+exampleItem: Raw tuna
+*/
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
 
 /*@ define:input:item_category_styles
