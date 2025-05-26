@@ -23,6 +23,7 @@ exampleItemId: 28336
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFff0000";\
   icon = CurrentItem();\
+  fontType = 3;\
   showLootbeam = true;\
 
 apply (name:"Ancient blood ornament kit") {
@@ -43,6 +44,7 @@ exampleItemId: 30793
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFFFFFF";\
   icon = CurrentItem();\
+  fontType = 3;\
   showLootbeam = true;\
 
 apply (name:"Purifying sigil*") {
