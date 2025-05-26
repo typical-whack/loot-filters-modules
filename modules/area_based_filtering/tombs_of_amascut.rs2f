@@ -143,12 +143,7 @@ enum: [
   "Scarab dung"
 ]
 */
-#define VAR_TOA_MVP_ITEMS_HIDE [ \
-  "Big banana", \
-  "Eldritch ashes", \
-  "Fang", \
-  "Scarab dung", \
-]
+#define VAR_TOA_MVP_ITEMS_HIDE []
 
 /*@ define:input:area_based_filtering
 type: enumlist
