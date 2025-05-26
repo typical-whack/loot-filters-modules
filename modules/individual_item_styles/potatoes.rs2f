@@ -1,0 +1,86 @@
+/*@ define:group
+---
+name: Potato Styles
+expanded: false
+description: |
+  Potato Styles
+  ---
+  This module provides custom style for cooked potatoes. A few popular foods have been given custom styling out of the box.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Tuna potato
+*/
+#define VAR_TUNA_POTATO_CUSTOMSTYLE 
+apply (name:"Tuna potato") {
+    VAR_TUNA_POTATO_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Mushroom potato
+*/
+#define VAR_MUSHROOM_POTATO_CUSTOMSTYLE 
+apply (name:"Mushroom potato") {
+    VAR_MUSHROOM_POTATO_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Egg potato
+*/
+#define VAR_EGG_POTATO_CUSTOMSTYLE 
+apply (name:"Egg potato") {
+    VAR_EGG_POTATO_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Potato with cheese
+*/
+#define VAR_POTATO_WITH_CHEESE_CUSTOMSTYLE 
+apply (name:"Potato with cheese") {
+    VAR_POTATO_WITH_CHEESE_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Chilli potato
+*/
+#define VAR_CHILLI_POTATO_CUSTOMSTYLE 
+apply (name:"Chilli potato") {
+    VAR_CHILLI_POTATO_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Potato with butter
+*/
+#define VAR_POTATO_WITH_BUTTER_CUSTOMSTYLE 
+apply (name:"Potato with butter") {
+    VAR_POTATO_WITH_BUTTER_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Baked potato custom style
+group: Potato Styles
+exampleItem: Baked potato
+*/
+#define VAR_BAKED_POTATO_CUSTOMSTYLE 
+apply (name:"Baked potato") {
+    VAR_BAKED_POTATO_CUSTOMSTYLE
+}

@@ -23,6 +23,74 @@ apply (name:CONST_CURRENCY_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
+label: Fish food style
+group: Fish food style
+exampleItem: Tuna
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Potatoes foods style
+group: Potatoes foods style
+exampleItem: Tuna potato
+*/
+#define VAR_POTATOES_FOODS_CUSTOMSTYLE 
+apply (name:CONST_POTATOES_FOODS_LIST) {
+    VAR_POTATOES_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Hunter food style
+group: Hunter food style
+exampleItem: Cooked moonlight antelope
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Pie foods style
+group: Pie foods style
+exampleItem: Summer pie
+*/
+#define VAR_PIE_FOODS_CUSTOMSTYLE 
+apply (name:CONST_PIE_FOODS_LIST) {
+    VAR_PIE_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Pizza foods style
+group: Pizza foods style
+exampleItem: Pineapple pizza
+*/
+#define VAR_PIZZA_FOODS_CUSTOMSTYLE 
+apply (name:CONST_PIZZA_FOODS_LIST) {
+    VAR_PIZZA_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Cake foods style
+group: Cake foods style
+exampleItem: Chocolate cake
+*/
+#define VAR_CAKE_FOODS_CUSTOMSTYLE 
+apply (name:CONST_CAKE_FOODS_LIST) {
+    VAR_CAKE_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
 label: Fishing equipment Style
 group: Fishing equipment Style
 exampleItem: Fishing rod
@@ -55,30 +123,6 @@ exampleItem: Raw tuna
 
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Hunter food style
-group: Hunter food style
-exampleItem: Cooked moonlight antelope
-*/
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
-
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Fish food style
-group: Fish food style
-exampleItem: Tuna
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
 }
 
 /*@ define:input:item_category_styles
