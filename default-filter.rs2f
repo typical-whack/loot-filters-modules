@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 26 21:23:06 UTC 2025 */
-/* Commit: 6140d60 */
+/* Built on: Mon May 26 21:24:29 UTC 2025 */
+/* Commit: f826473 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -10723,101 +10723,13 @@ description: |
 
 /*@ define:input:individual_item_styles
 type: style
-label: Redberry pie custom style
+label: Summer pie custom style
 group: Pie Styles
-exampleItem: Redberry pie
+exampleItem: Summer pie
 */
-#define VAR_REDBERRY_PIE_CUSTOMSTYLE 
-apply (name:["Redberry pie", "Half a redberry pie"]) {
-    VAR_REDBERRY_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Meat pie custom style
-group: Pie Styles
-exampleItem: Meat pie
-*/
-#define VAR_MEAT_PIE_CUSTOMSTYLE 
-apply (name:["Meat pie", "Half a meat pie"]) {
-    VAR_MEAT_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Apple pie custom style
-group: Pie Styles
-exampleItem: Apple pie
-*/
-#define VAR_APPLE_PIE_CUSTOMSTYLE 
-apply (name:["Apple pie", "Half a apple pie"]) {
-    VAR_APPLE_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Garden pie custom style
-group: Pie Styles
-exampleItem: Garden pie
-*/
-#define VAR_GARDEN_PIE_CUSTOMSTYLE 
-apply (name:["Garden pie", "Half a garden pie"]) {
-    VAR_GARDEN_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Fish pie custom style
-group: Pie Styles
-exampleItem: Fish pie
-*/
-#define VAR_FISH_PIE_CUSTOMSTYLE 
-apply (name:["Fish pie", "Half a fish pie"]) {
-    VAR_FISH_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Botanical pie custom style
-group: Pie Styles
-exampleItem: Botanical pie
-*/
-#define VAR_BOTANICAL_PIE_CUSTOMSTYLE 
-apply (name:["Botanical pie", "Half a botanical pie"]) {
-    VAR_BOTANICAL_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Mushroom pie custom style
-group: Pie Styles
-exampleItem: Mushroom pie
-*/
-#define VAR_MUSHROOM_PIE_CUSTOMSTYLE 
-apply (name:["Mushroom pie", "Half a mushroom pie"]) {
-    VAR_MUSHROOM_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Admiral pie custom style
-group: Pie Styles
-exampleItem: Admiral pie
-*/
-#define VAR_ADMIRAL_PIE_CUSTOMSTYLE 
-apply (name:["Admiral pie", "Half a admiral pie"]) {
-    VAR_ADMIRAL_PIE_CUSTOMSTYLE 
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Dragonfruit pie custom style
-group: Pie Styles
-exampleItem: Dragonfruit pie
-*/
-#define VAR_DRAGONFRUIT_PIE_CUSTOMSTYLE 
-apply (name:["Dragonfruit pie", "Half a dragonfruit pie"]) {
-    VAR_DRAGONFRUIT_PIE_CUSTOMSTYLE 
+#define VAR_SUMMER_PIE_CUSTOMSTYLE 
+apply (name:["Summer pie", "Half a summer pie"]) {
+    VAR_SUMMER_PIE_CUSTOMSTYLE 
 }
 
 /*@ define:input:individual_item_styles
@@ -10833,15 +10745,102 @@ apply (name:["Wild pie", "Half a wild pie"]) {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Summer pie custom style
+label: Dragonfruit pie custom style
 group: Pie Styles
-exampleItem: Summer pie
+exampleItem: Dragonfruit pie
 */
-#define VAR_SUMMER_PIE_CUSTOMSTYLE 
-apply (name:["Summer pie", "Half a summer pie"]) {
-    VAR_SUMMER_PIE_CUSTOMSTYLE 
+#define VAR_DRAGONFRUIT_PIE_CUSTOMSTYLE 
+apply (name:["Dragonfruit pie", "Half a dragonfruit pie"]) {
+    VAR_DRAGONFRUIT_PIE_CUSTOMSTYLE 
 }
 
+/*@ define:input:individual_item_styles
+type: style
+label: Admiral pie custom style
+group: Pie Styles
+exampleItem: Admiral pie
+*/
+#define VAR_ADMIRAL_PIE_CUSTOMSTYLE 
+apply (name:["Admiral pie", "Half a admiral pie"]) {
+    VAR_ADMIRAL_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Mushroom pie custom style
+group: Pie Styles
+exampleItem: Mushroom pie
+*/
+#define VAR_MUSHROOM_PIE_CUSTOMSTYLE 
+apply (name:["Mushroom pie", "Half a mushroom pie"]) {
+    VAR_MUSHROOM_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Botanical pie custom style
+group: Pie Styles
+exampleItem: Botanical pie
+*/
+#define VAR_BOTANICAL_PIE_CUSTOMSTYLE 
+apply (name:["Botanical pie", "Half a botanical pie"]) {
+    VAR_BOTANICAL_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Fish pie custom style
+group: Pie Styles
+exampleItem: Fish pie
+*/
+#define VAR_FISH_PIE_CUSTOMSTYLE 
+apply (name:["Fish pie", "Half a fish pie"]) {
+    VAR_FISH_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Garden pie custom style
+group: Pie Styles
+exampleItem: Garden pie
+*/
+#define VAR_GARDEN_PIE_CUSTOMSTYLE 
+apply (name:["Garden pie", "Half a garden pie"]) {
+    VAR_GARDEN_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Apple pie custom style
+group: Pie Styles
+exampleItem: Apple pie
+*/
+#define VAR_APPLE_PIE_CUSTOMSTYLE 
+apply (name:["Apple pie", "Half a apple pie"]) {
+    VAR_APPLE_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Meat pie custom style
+group: Pie Styles
+exampleItem: Meat pie
+*/
+#define VAR_MEAT_PIE_CUSTOMSTYLE 
+apply (name:["Meat pie", "Half a meat pie"]) {
+    VAR_MEAT_PIE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Redberry pie custom style
+group: Pie Styles
+exampleItem: Redberry pie
+*/
+#define VAR_REDBERRY_PIE_CUSTOMSTYLE 
+apply (name:["Redberry pie", "Half a redberry pie"]) {
+    VAR_REDBERRY_PIE_CUSTOMSTYLE 
+}
 /*@ define:group
 ---
 name: Pizza Styles
