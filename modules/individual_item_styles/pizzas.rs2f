@@ -1,0 +1,53 @@
+/*@ define:group
+---
+name: Pizza Styles
+expanded: false
+description: |
+  Pizza Styles
+  ---
+  This module provides custom style for pizza. A few popular foods have been given custom styling out of the box.
+*/
+
+/*@ define:input:individual_item_styles
+type: style
+label: Pineapple pizza custom style
+group: Pizza Styles
+exampleItem: Pineapple pizza
+*/
+#define VAR_PINEAPPLE_PIZZA_CUSTOMSTYLE
+apply (name:["1/2 Pineapple pizza", "Pineapple pizza"]) {
+    VAR_PINEAPPLE_PIZZA_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Anchovy pizza custom style
+group: Pizza Styles
+exampleItem: Anchovy pizza
+*/
+#define VAR_ANCHOVY_PIZZA_CUSTOMSTYLE
+apply (name:["1/2 Anchovy pizza", "Anchovy pizza"]) {
+    VAR_ANCHOVY_PIZZA_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Meat pizza custom style
+group: Pizza Styles
+exampleItem: Meat pizza
+*/
+#define VAR_MEAT_PIZZA_CUSTOMSTYLE
+apply (name:["1/2 Meat pizza", "Meat pizza"]) {
+    VAR_MEAT_PIZZA_CUSTOMSTYLE
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Plain pizza custom style
+group: Pizza Styles
+exampleItem: Plain pizza
+*/
+#define VAR_PLAIN_PIZZA_CUSTOMSTYLE
+apply (name:["1/2 Plain pizza", "Plain pizza"]) {
+    VAR_PLAIN_PIZZA_CUSTOMSTYLE
+}
