@@ -54,6 +54,11 @@ group: Food
   "Manta ray", \
   "Anglerfish", \
   "Dark crab", \
+  "Pineapple pizza", \
+  "Summer pie", \
+  "Wild pie", \
+  "Tuna potato", \
+  "Mushroom potato", \
 ]
 
 apply (name:VAR_FOOD_SHOW) {
