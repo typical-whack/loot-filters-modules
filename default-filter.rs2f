@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 26 20:49:08 UTC 2025 */
-/* Commit: 3e6be65 */
+/* Built on: Mon May 26 21:03:11 UTC 2025 */
+/* Commit: aeb26ab */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -1505,47 +1505,22 @@ type: enumlist
 label: Javelins to force hidden
 group: Ammo
 enum: [
-  {
-    "value": "Bronze javelin*",
-    "label": "Bronze javelins"
-  },
-  {
-    "value": "Iron javelin*",
-    "label": "Iron javelins"
-  },
-  {
-    "value": "Steel javelin*",
-    "label": "Steel javelins"
-  },
-  {
-    "value": "Mithril javelin*",
-    "label": "Mithril javelins"
-  },
-  {
-    "value": "Adamant javelin*",
-    "label": "Adamant javelins"
-  },
-  {
-    "value": "Rune javelin*",
-    "label": "Rune javelins"
-  },
-  {
-    "value": "Amethyst javelin*",
-    "label": "Amethyst javelins"
-  },
-  {
-    "value": "Dragon javelin*",
-    "label": "Dragon javelins"
-  }
+  "Bronze javelin",
+  "Iron javelin",
+  "Steel javelin",
+  "Mithril javelin",
+  "Adamant javelin",
+  "Rune javelin",
+  "Dragon javelin",
 ]
 */
 #define VAR_AMMO_JAVELINS_HIDE [ \
-  "Bronze javelin*", \
-  "Iron javelin*", \
-  "Steel javelin*", \
-  "Mithril javelin*", \
-  "Adamant javelin*", \
-  "Rune javelin*", \
+  "Bronze javelin", \
+  "Iron javelin", \
+  "Steel javelin", \
+  "Mithril javelin", \
+  "Adamant javelin", \
+  "Rune javelin", \
 ]
 
 /*@ define:input:ammo
@@ -5080,12 +5055,7 @@ enum: [
   "Scarab dung"
 ]
 */
-#define VAR_TOA_MVP_ITEMS_HIDE [ \
-  "Big banana", \
-  "Eldritch ashes", \
-  "Fang", \
-  "Scarab dung", \
-]
+#define VAR_TOA_MVP_ITEMS_HIDE []
 
 /*@ define:input:area_based_filtering
 type: enumlist
@@ -8319,6 +8289,7 @@ exampleItemId: 28336
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFff0000";\
   icon = CurrentItem();\
+  fontType = 3;\
   showLootbeam = true;\
 
 apply (name:"Ancient blood ornament kit") {
@@ -8339,6 +8310,7 @@ exampleItemId: 30793
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFFFFFF";\
   icon = CurrentItem();\
+  fontType = 3;\
   showLootbeam = true;\
 
 apply (name:"Purifying sigil*") {

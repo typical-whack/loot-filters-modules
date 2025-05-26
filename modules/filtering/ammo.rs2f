@@ -324,47 +324,22 @@ type: enumlist
 label: Javelins to force hidden
 group: Ammo
 enum: [
-  {
-    "value": "Bronze javelin*",
-    "label": "Bronze javelins"
-  },
-  {
-    "value": "Iron javelin*",
-    "label": "Iron javelins"
-  },
-  {
-    "value": "Steel javelin*",
-    "label": "Steel javelins"
-  },
-  {
-    "value": "Mithril javelin*",
-    "label": "Mithril javelins"
-  },
-  {
-    "value": "Adamant javelin*",
-    "label": "Adamant javelins"
-  },
-  {
-    "value": "Rune javelin*",
-    "label": "Rune javelins"
-  },
-  {
-    "value": "Amethyst javelin*",
-    "label": "Amethyst javelins"
-  },
-  {
-    "value": "Dragon javelin*",
-    "label": "Dragon javelins"
-  }
+  "Bronze javelin",
+  "Iron javelin",
+  "Steel javelin",
+  "Mithril javelin",
+  "Adamant javelin",
+  "Rune javelin",
+  "Dragon javelin",
 ]
 */
 #define VAR_AMMO_JAVELINS_HIDE [ \
-  "Bronze javelin*", \
-  "Iron javelin*", \
-  "Steel javelin*", \
-  "Mithril javelin*", \
-  "Adamant javelin*", \
-  "Rune javelin*", \
+  "Bronze javelin", \
+  "Iron javelin", \
+  "Steel javelin", \
+  "Mithril javelin", \
+  "Adamant javelin", \
+  "Rune javelin", \
 ]
 
 /*@ define:input:ammo
