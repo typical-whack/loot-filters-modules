@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 26 20:59:03 UTC 2025 */
-/* Commit: 898e5d0 */
+/* Built on: Mon May 26 21:03:11 UTC 2025 */
+/* Commit: aeb26ab */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -5055,12 +5055,7 @@ enum: [
   "Scarab dung"
 ]
 */
-#define VAR_TOA_MVP_ITEMS_HIDE [ \
-  "Big banana", \
-  "Eldritch ashes", \
-  "Fang", \
-  "Scarab dung", \
-]
+#define VAR_TOA_MVP_ITEMS_HIDE []
 
 /*@ define:input:area_based_filtering
 type: enumlist
