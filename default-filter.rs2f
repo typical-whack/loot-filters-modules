@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 24 15:42:12 UTC 2025 */
-/* Commit: 869066d */
+/* Built on: Mon May 26 20:51:03 UTC 2025 */
+/* Commit: 93b22d6 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8275,6 +8275,7 @@ exampleItemId: 28336
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFff0000";\
   icon = CurrentItem();\
+  fontType = 3;\
   showLootbeam = true;\
 
 apply (name:"Ancient blood ornament kit") {
@@ -8295,6 +8296,7 @@ exampleItemId: 30793
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFFFFFF";\
   icon = CurrentItem();\
+  fontType = 3;\
   showLootbeam = true;\
 
 apply (name:"Purifying sigil*") {
