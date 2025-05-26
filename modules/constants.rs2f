@@ -563,6 +563,61 @@ name: Constants
   "Dark crab", \
 ]
 
+#define CONST_POTATOES_FOODS_LIST [ \
+  "Baked potato", \
+  "Potato with butter", \
+  "Chilli potato", \
+  "Potato with cheese", \
+  "Egg potato", \
+  "Mushroom potato", \
+  "Tuna potato", \
+]
+
+#define CONST_PIE_FOODS_LIST [ \
+  "Redberry pie", \
+  "Half a redberry pie", \
+  "Meat pie", \
+  "Half a meat pie", \
+  "Apple pie", \
+  "Half a apple pie", \
+  "Garden pie", \
+  "Half a garden pie", \
+  "Fish pie", \
+  "Half a fish pie", \
+  "Botanical pie", \
+  "Half a botanical pie", \
+  "Mushroom pie", \
+  "Half a mushroom pie", \
+  "Admiral pie", \
+  "Half a admiral pie", \
+  "Dragonfruit pie", \
+  "Half a dragonfruit pie", \
+  "Wild pie", \
+  "Half a wild pie", \
+  "Summer pie", \
+  "Half a summer pie", \
+]
+
+#define CONST_PIZZA_FOODS_LIST [ \
+  "1/2 Plain pizza", \
+  "Plain pizza", \
+  "1/2 Meat pizza", \
+  "Meat pizza", \
+  "1/2 Anchovy pizza", \
+  "Anchovy pizza", \
+  "1/2 Pineapple pizza", \
+  "Pineapple pizza", \
+]
+
+#define CONST_CAKE_FOODS_LIST [ \
+  "Cake", \
+  "2/3 Cake", \
+  "Slice of Cake", \
+  "Chocolate cake", \
+  "2/3 Chocolate cake", \
+  "Chocolate Slice", \
+]
+
 #define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [ \
   "Bronze dagger", \
   "Bronze axe", \
