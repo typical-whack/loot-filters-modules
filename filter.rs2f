@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Tue May 27 03:05:52 UTC 2025 */
-/* Commit: 877cb00 */
+/* Built on: Tue May 27 03:11:10 UTC 2025 */
+/* Commit: 4542b78 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8078,15 +8078,15 @@ exampleItem: Ancient blood ornament kit
 exampleItemId: 28336
 */
 #define VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE \
-  textColor = "#FFff0000"; \
-  backgroundColor = "#90000000"; \
-  borderColor = "#FF000000"; \
+  textColor = "#FFb02315"; \
+  backgroundColor = "#901a1818"; \
+  borderColor = "#FF1a1818"; \
   textAccentColor = "#FF000000"; \
-  menuTextColor = "#FFff0000"; \
+  menuTextColor = "#FFb02315"; \
   icon = CurrentItem(); \
   fontType = 3; \
   showLootbeam = true; \
-  lootbeamColor = "#ff000000";
+  lootbeamColor = "#ffb02315";
 
 apply (name:"Ancient blood ornament kit") {
     VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE 
