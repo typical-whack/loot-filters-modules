@@ -68,7 +68,7 @@ exampleItemId: 24186
   fontType = 3; \
   showLootbeam = true;
 
-apply (name:"Avernic defender") {
+apply (name:"Avernic defender*") {
   VAR_AVERNIC_DEFENDER_CUSTOMSTYLE 
 }
 
@@ -89,7 +89,7 @@ exampleItemId: 27550
   fontType = 3; \
   showLootbeam = true;
 
-apply (name:"Ghommal's avernic defender 5") {
+apply (name:"Ghommal's avernic defender 5*") {
   VAR_GHOMMALS_AVERNIC_DEFENDER_5_CUSTOMSTYLE 
 }
 
@@ -110,6 +110,6 @@ exampleItemId: 27552
   fontType = 3; \
   showLootbeam = true;
 
-apply (name:"Ghommal's avernic defender 6") {
+apply (name:"Ghommal's avernic defender 6*") {
   VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE 
 }
