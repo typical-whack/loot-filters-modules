@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Tue May 27 02:45:05 UTC 2025 */
-/* Commit: 997cc92 */
+/* Built on: Tue May 27 03:05:52 UTC 2025 */
+/* Commit: 877cb00 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -596,8 +596,11 @@ group: Food
   "Anglerfish", \
   "Dark crab", \
   "Pineapple pizza", \
+  "1/2 pineapple pizza", \
   "Summer pie", \
+  "Half a summer pie", \
   "Wild pie", \
+  "Half a wild pie", \
   "Tuna potato", \
   "Mushroom potato", \
 ]
