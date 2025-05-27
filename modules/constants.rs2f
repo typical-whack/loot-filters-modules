@@ -618,6 +618,42 @@ name: Constants
   "Chocolate Slice", \
 ]
 
+#define CONST_DEFENDERS_LIST [ \
+  "Bronze defender", \
+  "Bronze defender (broken)", \
+  "Bronze defender (l)", \
+  "Iron defender", \
+  "Iron defender (broken)", \
+  "Iron defender (l)", \
+  "Steel defender", \
+  "Steel defender (broken)", \
+  "Steel defender (l)", \
+  "Black defender", \
+  "Black defender (broken)", \
+  "Black defender (l)", \
+  "Mithril defender", \
+  "Mithril defender (broken)", \
+  "Mithril defender (l)", \
+  "Adamant defender", \
+  "Adamant defender (broken)", \
+  "Adamant defender (l)", \
+  "Rune defender", \
+  "Rune defender (broken)", \
+  "Rune defender (l)", \
+  "Dragon defender", \
+  "Dragon defender (broken)", \
+  "Dragon defender (l)", \
+  "Rune defender (t)", \
+  "Dragon defender (t)", \
+  "Avernic defender", \
+  "Avernic defender (broken)", \
+  "Avernic defender (l)", \
+  "Ghommal's avernic defender 5", \
+  "Ghommal's avernic defender 5 (l)", \
+  "Ghommal's avernic defender 6", \
+  "Ghommal's avernic defender 6 (l)", \
+]
+
 #define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [ \
   "Bronze dagger", \
   "Bronze axe", \
@@ -656,6 +692,8 @@ name: Constants
   "Bronze boots", \
   "Bronze gloves", \
   "Bronze defender", \
+  "Bronze defender (broken)", \
+  "Bronze defender (l)", \
   "Bronze med helm", \
   "Bronze full helm", \
   "Bronze sq shield", \
@@ -728,6 +766,8 @@ name: Constants
   "Iron boots", \
   "Iron gloves", \
   "Iron defender", \
+  "Iron defender (broken)", \
+  "Iron defender (l)", \
   "Iron med helm", \
   "Iron full helm", \
   "Iron sq shield", \
@@ -802,6 +842,8 @@ name: Constants
   "Steel boots", \
   "Steel gloves", \
   "Steel defender", \
+  "Steel defender (broken)", \
+  "Steel defender (l)", \
   "Steel med helm", \
   "Steel full helm", \
   "Steel sq shield", \
@@ -869,6 +911,8 @@ name: Constants
   "Black gloves", \
   "Black boots", \
   "Black defender", \
+  "Black defender (broken)", \
+  "Black defender (l)", \
   "Black med helm", \
   "Black full helm", \
   "Black sq shield", \
@@ -958,6 +1002,8 @@ name: Constants
   "Mithril boots", \
   "Mithril gloves", \
   "Mithril defender", \
+  "Mithril defender (broken)", \
+  "Mithril defender (l)", \
   "Mithril med helm", \
   "Mithril full helm", \
   "Mithril sq shield", \
@@ -1033,6 +1079,8 @@ name: Constants
   "Adamant boots", \
   "Adamant gloves", \
   "Adamant defender", \
+  "Adamant defender (broken)", \
+  "Adamant defender (l)", \
   "Adamant med helm", \
   "Adamant full helm", \
   "Adamant sq shield", \
@@ -1123,6 +1171,8 @@ name: Constants
   "Rune boots", \
   "Rune gloves", \
   "Rune defender", \
+  "Rune defender (broken)", \
+  "Rune defender (l)", \
   "Rune med helm", \
   "Rune full helm", \
   "Rune sq shield", \
@@ -1183,7 +1233,6 @@ name: Constants
   "Gilded platelegs", \
   "Gilded plateskirt", \
   "Gilded boots", \
-  "Gilded defender", \
   "Gilded sq shield", \
   "Gilded kiteshield", \
   "Gilded hasta", \
@@ -1287,6 +1336,8 @@ name: Constants
   "Dragon sq shield", \
   "Dragon kiteshield", \
   "Dragon defender", \
+  "Dragon defender (broken)", \
+  "Dragon defender (l)", \
 ]
 
 #define CONST_LAST_MAN_STANDING_STARTER_GEAR_LIST [ \

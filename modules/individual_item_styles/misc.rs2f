@@ -17,14 +17,15 @@ exampleItem: Ancient blood ornament kit
 exampleItemId: 28336
 */
 #define VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE \
-  textColor = "#FFff0000";\
-  backgroundColor = "#90000000";\
-  borderColor = "#FF000000";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFff0000";\
-  icon = CurrentItem();\
-  fontType = 3;\
-  showLootbeam = true;\
+  textColor = "#FFff0000"; \
+  backgroundColor = "#90000000"; \
+  borderColor = "#FF000000"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFff0000"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true; \
+  lootbeamColor = "#ff000000";
 
 apply (name:"Ancient blood ornament kit") {
     VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE 
@@ -38,15 +39,82 @@ exampleItem: Purifying sigil
 exampleItemId: 30793
 */
 #define VAR_PURIFYING_SIGIL_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#90d0d0d0";\
-  borderColor = "#FFFFFFFF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFFFFFF";\
-  icon = CurrentItem();\
-  fontType = 3;\
-  showLootbeam = true;\
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#90d0d0d0"; \
+  borderColor = "#FFFFFFFF"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFFFFFFF"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true; \
+  lootbeamColor = "#ffd0d0d0";
 
 apply (name:"Purifying sigil*") {
     VAR_PURIFYING_SIGIL_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "Avernic defender custom style"
+group: Misc Styles
+exampleItem: "Avernic defender"
+exampleItemId: 24186
+*/
+#define VAR_AVERNIC_DEFENDER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#9077776e"; \
+  borderColor = "#FF1f1c1c"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FF000000"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true; \
+  lootbeamColor = "#FF1f1c1c";
+
+apply (name:"Avernic defender*") {
+  VAR_AVERNIC_DEFENDER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "Ghommal's avernic defender 5 custom style"
+group: Misc Styles
+exampleItem: "Ghommal's avernic defender 5"
+exampleItemId: 27550
+*/
+#define VAR_GHOMMALS_AVERNIC_DEFENDER_5_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#9077776e"; \
+  borderColor = "#FF4c0c08"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FF4c0c08"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true; \
+  lootbeamColor = "#FF4c0c08";
+
+apply (name:"Ghommal's avernic defender 5*") {
+  VAR_GHOMMALS_AVERNIC_DEFENDER_5_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "Ghommal's avernic defender 6 custom style"
+group: Misc Styles
+exampleItem: "Ghommal's avernic defender 6"
+exampleItemId: 27552
+*/
+#define VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#9077776e"; \
+  borderColor = "#FFf6be3f"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFf6be3f"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true; \
+  lootbeamColor = "#FFf6be3f";
+
+apply (name:"Ghommal's avernic defender 6*") {
+  VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE 
 }
