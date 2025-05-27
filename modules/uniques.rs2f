@@ -340,6 +340,14 @@ group: Uniques List
   "Oathplate helm", \
   "Oathplate chest", \
   "Oathplate legs", \
+  "Bronze defender", \
+  "Iron defender", \
+  "Steel defender", \
+  "Black defender", \
+  "Mithril defender", \
+  "Adamant defender", \
+  "Rune defender", \
+  "Dragon defender", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
