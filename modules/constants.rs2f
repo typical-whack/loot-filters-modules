@@ -618,6 +618,22 @@ name: Constants
   "Chocolate Slice", \
 ]
 
+#define CONST_DEFENDERS_LIST [ \
+  "Bronze defender", \
+  "Iron defender", \
+  "Steel defender", \
+  "Black defender", \
+  "Mithril defender", \
+  "Adamant defender", \
+  "Rune defender", \
+  "Dragon defender", \
+  "Rune defender (t)", \
+  "Dragon defender (t)", \
+  "Avernic defender", \
+  "Ghommal's avernic defender 5", \
+  "Ghommal's avernic defender 6", \
+]
+
 #define CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS [ \
   "Bronze dagger", \
   "Bronze axe", \
