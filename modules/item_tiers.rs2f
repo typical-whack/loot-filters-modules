@@ -195,13 +195,6 @@ group: Tier 4
   "Araxyte fang", \
   "Tanzanite mutagen", \
   "Magma mutagen", \
-  "Ancient blood ornament kit", \
-  "Purifying sigil (middle)", \
-  "Purifying sigil (right)", \
-  "Purifying sigil (top)", \
-  "Purifying sigil (bottom)", \
-  "Purifying sigil (left)", \
-  "Purifying sigil", \
 ]
 
 /*@ define:input:item_tiers
