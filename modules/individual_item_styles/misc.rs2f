@@ -17,15 +17,15 @@ exampleItem: Ancient blood ornament kit
 exampleItemId: 28336
 */
 #define VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE \
-  textColor = "#FFff0000"; \
-  backgroundColor = "#90000000"; \
-  borderColor = "#FF000000"; \
+  textColor = "#FFb02315"; \
+  backgroundColor = "#901a1818"; \
+  borderColor = "#FF1a1818"; \
   textAccentColor = "#FF000000"; \
-  menuTextColor = "#FFff0000"; \
+  menuTextColor = "#FFb02315"; \
   icon = CurrentItem(); \
   fontType = 3; \
   showLootbeam = true; \
-  lootbeamColor = "#ff000000";
+  lootbeamColor = "#ffb02315";
 
 apply (name:"Ancient blood ornament kit") {
     VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE 
