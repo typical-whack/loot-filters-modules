@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Tue May 27 03:11:10 UTC 2025 */
-/* Commit: 4542b78 */
+/* Built on: Tue May 27 20:00:33 UTC 2025 */
+/* Commit: 5aaed54 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6700,13 +6700,6 @@ group: Tier 4
   "Araxyte fang", \
   "Tanzanite mutagen", \
   "Magma mutagen", \
-  "Ancient blood ornament kit", \
-  "Purifying sigil (middle)", \
-  "Purifying sigil (right)", \
-  "Purifying sigil (top)", \
-  "Purifying sigil (bottom)", \
-  "Purifying sigil (left)", \
-  "Purifying sigil", \
 ]
 
 /*@ define:input:item_tiers
