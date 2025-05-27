@@ -17,14 +17,14 @@ exampleItem: Ancient blood ornament kit
 exampleItemId: 28336
 */
 #define VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE \
-  textColor = "#FFff0000";\
-  backgroundColor = "#90000000";\
-  borderColor = "#FF000000";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFff0000";\
-  icon = CurrentItem();\
-  fontType = 3;\
-  showLootbeam = true;\
+  textColor = "#FFff0000"; \
+  backgroundColor = "#90000000"; \
+  borderColor = "#FF000000"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFff0000"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true;
 
 apply (name:"Ancient blood ornament kit") {
     VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE 
@@ -38,14 +38,14 @@ exampleItem: Purifying sigil
 exampleItemId: 30793
 */
 #define VAR_PURIFYING_SIGIL_CUSTOMSTYLE \
-  textColor = "#FFFFFFFF";\
-  backgroundColor = "#90d0d0d0";\
-  borderColor = "#FFFFFFFF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFFFFFF";\
-  icon = CurrentItem();\
-  fontType = 3;\
-  showLootbeam = true;\
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#90d0d0d0"; \
+  borderColor = "#FFFFFFFF"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFFFFFFF"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true;
 
 apply (name:"Purifying sigil*") {
     VAR_PURIFYING_SIGIL_CUSTOMSTYLE 
