@@ -24,7 +24,8 @@ exampleItemId: 28336
   menuTextColor = "#FFff0000"; \
   icon = CurrentItem(); \
   fontType = 3; \
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#ff000000";
 
 apply (name:"Ancient blood ornament kit") {
     VAR_ANCIENT_BLOOD_ORNAMENT_KIT_CUSTOMSTYLE 
@@ -45,7 +46,8 @@ exampleItemId: 30793
   menuTextColor = "#FFFFFFFF"; \
   icon = CurrentItem(); \
   fontType = 3; \
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#ffd0d0d0";
 
 apply (name:"Purifying sigil*") {
     VAR_PURIFYING_SIGIL_CUSTOMSTYLE 
@@ -66,7 +68,8 @@ exampleItemId: 24186
   menuTextColor = "#FF000000"; \
   icon = CurrentItem(); \
   fontType = 3; \
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#FF1f1c1c";
 
 apply (name:"Avernic defender*") {
   VAR_AVERNIC_DEFENDER_CUSTOMSTYLE 
@@ -87,7 +90,8 @@ exampleItemId: 27550
   menuTextColor = "#FF4c0c08"; \
   icon = CurrentItem(); \
   fontType = 3; \
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#FF4c0c08";
 
 apply (name:"Ghommal's avernic defender 5*") {
   VAR_GHOMMALS_AVERNIC_DEFENDER_5_CUSTOMSTYLE 
@@ -108,7 +112,8 @@ exampleItemId: 27552
   menuTextColor = "#FFf6be3f"; \
   icon = CurrentItem(); \
   fontType = 3; \
-  showLootbeam = true;
+  showLootbeam = true; \
+  lootbeamColor = "#FFf6be3f";
 
 apply (name:"Ghommal's avernic defender 6*") {
   VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE 
