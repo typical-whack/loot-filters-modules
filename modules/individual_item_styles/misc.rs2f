@@ -50,3 +50,66 @@ exampleItemId: 30793
 apply (name:"Purifying sigil*") {
     VAR_PURIFYING_SIGIL_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: "Avernic defender custom style"
+group: Misc Styles
+exampleItem: "Avernic defender"
+exampleItemId: 24186
+*/
+#define VAR_AVERNIC_DEFENDER_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#9077776e"; \
+  borderColor = "#FF1f1c1c"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FF000000"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true;
+
+apply (name:"Avernic defender") {
+  VAR_AVERNIC_DEFENDER_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "Ghommal's avernic defender 5 custom style"
+group: Misc Styles
+exampleItem: "Ghommal's avernic defender 5"
+exampleItemId: 27550
+*/
+#define VAR_GHOMMALS_AVERNIC_DEFENDER_5_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#9077776e"; \
+  borderColor = "#FF4c0c08"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FF4c0c08"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true;
+
+apply (name:"Ghommal's avernic defender 5") {
+  VAR_GHOMMALS_AVERNIC_DEFENDER_5_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: "Ghommal's avernic defender 6 custom style"
+group: Misc Styles
+exampleItem: "Ghommal's avernic defender 6"
+exampleItemId: 27552
+*/
+#define VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#9077776e"; \
+  borderColor = "#FFf6be3f"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFf6be3f"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true;
+
+apply (name:"Ghommal's avernic defender 6") {
+  VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE 
+}
