@@ -1,0 +1,40 @@
+/*@ define:group
+---
+name: "Venenatis / Spindel"
+icon: 
+  type: sprite
+  spriteId: 5624
+  spriteIndex: 0
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: "Venenatis / Spindel Items to show"
+group: "Venenatis / Spindel"
+*/
+#define VAR_BOSSING_VENENATIS_SHOW [ \
+    "Blighted anglerfish", \
+    "Blighted karambwan", \
+    "Blighted super restore(3)", \
+    "Blighted super restore(4)", \
+    "Super restore(4)", \
+    "Dark crab", \
+    "Strange fruit", \
+    "Dark fishing bait", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: "Venenatis / Spindel Items to hide"
+group: "Venenatis / Spindel"
+*/
+#define VAR_BOSSING_VENENATIS_HIDE [ \
+]
+
+apply ((area:CONST_VENENATIS_AREA || area:CONST_SPINDEL_AREA) && name:VAR_BOSSING_VENENATIS_HIDE) {
+    hidden = true;
+}
+
+apply ((area:CONST_VENENATIS_AREA || area:CONST_SPINDEL_AREA) && name:VAR_BOSSING_VENENATIS_SHOW) {
+    hidden = false;
+}

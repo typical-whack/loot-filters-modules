@@ -45,3 +45,9 @@ sprites:
     sprite_id_64_64: 2534
   - name: Herblore Skill
     sprite_id_64_64: 4244
+  - name: Venenatis
+    sprite_id_25_25: 5624
+  - name: Callisto
+    sprite_id_25_25: 5622
+  - name: Vet'ion
+    sprite_id_25_25: 5623

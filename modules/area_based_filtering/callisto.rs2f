@@ -1,0 +1,40 @@
+/*@ define:group
+---
+name: "Callisto / Artio"
+icon: 
+  type: sprite
+  spriteId: 5622
+  spriteIndex: 0
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: "Callisto / Artio Items to show"
+group: "Callisto / Artio"
+*/
+#define VAR_BOSSING_CALLISTO_SHOW [ \
+    "Blighted anglerfish", \
+    "Blighted karambwan", \
+    "Blighted super restore(3)", \
+    "Blighted super restore(4)", \
+    "Super restore(4)", \
+    "Dark crab", \
+    "Strange fruit", \
+    "Dark fishing bait", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: "Callisto / Artio Items to hide"
+group: "Callisto / Artio"
+*/
+#define VAR_BOSSING_CALLISTO_HIDE [ \
+]
+
+apply ((area:CONST_CALLISTO_AREA || area:CONST_ARTIO_AREA) && name:VAR_BOSSING_CALLISTO_HIDE) {
+    hidden = true;
+}
+
+apply ((area:CONST_CALLISTO_AREA || area:CONST_ARTIO_AREA) && name:VAR_BOSSING_CALLISTO_SHOW) {
+    hidden = false;
+}

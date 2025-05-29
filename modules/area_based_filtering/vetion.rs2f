@@ -1,0 +1,40 @@
+/*@ define:group
+---
+name: "Vet'ion / Calvar'ion"
+icon: 
+  type: sprite
+  spriteId: 5623
+  spriteIndex: 0
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: "Vet'ion / Calvar'ion Items to show"
+group: "Vet'ion / Calvar'ion"
+*/
+#define VAR_BOSSING_VETION_SHOW [ \
+    "Blighted anglerfish", \
+    "Blighted karambwan", \
+    "Blighted super restore(3)", \
+    "Blighted super restore(4)", \
+    "Super restore(4)", \
+    "Dark crab", \
+    "Strange fruit", \
+    "Dark fishing bait", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: "Vet'ion / Calvar'ion Items to hide"
+group: "Vet'ion / Calvar'ion"
+*/
+#define VAR_BOSSING_VETION_HIDE [ \
+]
+
+apply ((area:CONST_VETION_AREA || area:CONST_CALVARION_AREA) && name:VAR_BOSSING_VETION_HIDE) {
+    hidden = true;
+}
+
+apply ((area:CONST_VETION_AREA || area:CONST_CALVARION_AREA) && name:VAR_BOSSING_VETION_SHOW) {
+    hidden = false;
+}
