@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Tue May 27 20:00:33 UTC 2025 */
-/* Commit: 5aaed54 */
+/* Built on: Thu May 29 03:43:17 UTC 2025 */
+/* Commit: a8e295a */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -4954,6 +4954,126 @@ apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_HIDE) {
 }
 
 apply (area:CONST_YAMA_AREA && name:VAR_BOSSING_YAMA_SHOW) {
+    hidden = false;
+}
+/*@ define:group
+---
+name: "Callisto / Artio"
+icon: 
+  type: sprite
+  spriteId: 5622
+  spriteIndex: 0
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: "Callisto / Artio Items to show"
+group: "Callisto / Artio"
+*/
+#define VAR_BOSSING_CALLISTO_SHOW [ \
+    "Blighted anglerfish", \
+    "Blighted karambwan", \
+    "Blighted super restore(3)", \
+    "Blighted super restore(4)", \
+    "Super restore(4)", \
+    "Dark crab", \
+    "Strange fruit", \
+    "Dark fishing bait", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: "Callisto / Artio Items to hide"
+group: "Callisto / Artio"
+*/
+#define VAR_BOSSING_CALLISTO_HIDE [ \
+]
+
+apply ((area:CONST_CALLISTO_AREA || area:CONST_ARTIO_AREA) && name:VAR_BOSSING_CALLISTO_HIDE) {
+    hidden = true;
+}
+
+apply ((area:CONST_CALLISTO_AREA || area:CONST_ARTIO_AREA) && name:VAR_BOSSING_CALLISTO_SHOW) {
+    hidden = false;
+}
+/*@ define:group
+---
+name: "Venenatis / Spindel"
+icon: 
+  type: sprite
+  spriteId: 5624
+  spriteIndex: 0
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: "Venenatis / Spindel Items to show"
+group: "Venenatis / Spindel"
+*/
+#define VAR_BOSSING_VENENATIS_SHOW [ \
+    "Blighted anglerfish", \
+    "Blighted karambwan", \
+    "Blighted super restore(3)", \
+    "Blighted super restore(4)", \
+    "Super restore(4)", \
+    "Dark crab", \
+    "Strange fruit", \
+    "Dark fishing bait", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: "Venenatis / Spindel Items to hide"
+group: "Venenatis / Spindel"
+*/
+#define VAR_BOSSING_VENENATIS_HIDE [ \
+]
+
+apply ((area:CONST_VENENATIS_AREA || area:CONST_SPINDEL_AREA) && name:VAR_BOSSING_VENENATIS_HIDE) {
+    hidden = true;
+}
+
+apply ((area:CONST_VENENATIS_AREA || area:CONST_SPINDEL_AREA) && name:VAR_BOSSING_VENENATIS_SHOW) {
+    hidden = false;
+}
+/*@ define:group
+---
+name: "Vet'ion / Calvar'ion"
+icon: 
+  type: sprite
+  spriteId: 5623
+  spriteIndex: 0
+*/
+
+/*@ define:input:bossing
+type: stringlist
+label: "Vet'ion / Calvar'ion Items to show"
+group: "Vet'ion / Calvar'ion"
+*/
+#define VAR_BOSSING_VETION_SHOW [ \
+    "Blighted anglerfish", \
+    "Blighted karambwan", \
+    "Blighted super restore(3)", \
+    "Blighted super restore(4)", \
+    "Super restore(4)", \
+    "Dark crab", \
+    "Strange fruit", \
+    "Dark fishing bait", \
+]
+
+/*@ define:input:bossing
+type: stringlist
+label: "Vet'ion / Calvar'ion Items to hide"
+group: "Vet'ion / Calvar'ion"
+*/
+#define VAR_BOSSING_VETION_HIDE [ \
+]
+
+apply ((area:CONST_VETION_AREA || area:CONST_CALVARION_AREA) && name:VAR_BOSSING_VETION_HIDE) {
+    hidden = true;
+}
+
+apply ((area:CONST_VETION_AREA || area:CONST_CALVARION_AREA) && name:VAR_BOSSING_VETION_SHOW) {
     hidden = false;
 }
 /*@ define:group
@@ -15132,6 +15252,13 @@ name: Constants
 #define CONST_ACCOUNT_TYPE_GROUP_IRONMAN 4
 #define CONST_ACCOUNT_TYPE_HARDCORE_GROUP_IRONMAN 5
 #define CONST_ACCOUNT_TYPE_UNRANKED_GROUP_IRONMAN 6
+
+#define CONST_SPINDEL_AREA [1595, 11520, 2, 1672, 11588, 2]
+#define CONST_CALVARION_AREA [1871, 11530, 1, 1901, 11564, 1]
+#define CONST_ARTIO_AREA [1735, 11519, 0, 1783, 11568, 0]
+#define CONST_VENENATIS_AREA [3391, 10181, 2, 3457, 10241, 2]
+#define CONST_VETION_AREA [3283, 10189, 1, 3307, 10217, 1]
+#define CONST_CALLISTO_AREA [3335, 10305, 0, 3383, 10353, 0]
 
 #define CONST_COX_AREA [3200, 5120, 0, 3391, 5759, 2]
 
