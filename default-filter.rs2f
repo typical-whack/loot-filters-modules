@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu May 29 03:43:17 UTC 2025 */
-/* Commit: a8e295a */
+/* Built on: Fri May 30 04:22:34 UTC 2025 */
+/* Commit: 7858ca7 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -14453,6 +14453,30 @@ group: UIM Deathpile
 #define VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE true
 
 apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_PRIF_SPAWN_AREA || area:CONST_FALADOR_SPAWN_AREA || area:CONST_EDGEVILLE_NETTLES_AREA || area:CONST_EDGEVILLE_MONASTERY_SECOND_FLOOR_AREA || area:CONST_ARDY_MARKET_CHEST_AREA || area:CONST_COLO_LOBBY_AREA || area:CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA)) {
+    sound = 2411; // sound name: silence
+    notify = false;
+}
+
+/*@ define:group
+---
+name: Last Man Standing Sounds and Notifications
+icon: 
+  type: itemId
+  itemId: 24520
+description: |
+  Last Man Standing Sounds and Notifications
+  ---
+  This disables sounds and notifications for items on the ground in LMS.
+*/
+
+/*@ define:input:utilities
+type: boolean
+label: Disable drop sounds and notifications in LMS
+group: Last Man Standing Sounds and Notifications
+*/
+#define VAR_LAST_MAN_STANDING_SOUND_AND_NOTIFICATIONS_DISABLE true
+
+apply (VAR_LAST_MAN_STANDING_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA || area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA)) {
     sound = 2411; // sound name: silence
     notify = false;
 }
