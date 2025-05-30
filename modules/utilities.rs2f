@@ -3,9 +3,7 @@
 name: Utilities
 subtitle: Forgetting your backpack?
 description: |
-  Provides utilities based on items on the ground.
-  
-  Currently only provides a sound backpack reminder.
+  Provides misc utilities that dont fall neatly into other categories.
 */
 
 /*@ define:group
