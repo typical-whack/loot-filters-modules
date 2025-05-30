@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri May 30 04:22:34 UTC 2025 */
-/* Commit: 7858ca7 */
+/* Built on: Fri May 30 04:25:44 UTC 2025 */
+/* Commit: 92f9049 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -14386,9 +14386,7 @@ apply (name:"Dragon spear" && quantity:==1 && name:VAR_RDT_HIDE) {
 name: Utilities
 subtitle: Forgetting your backpack?
 description: |
-  Provides utilities based on items on the ground.
-  
-  Currently only provides a sound backpack reminder.
+  Provides misc utilities that dont fall neatly into other categories.
 */
 
 /*@ define:group
