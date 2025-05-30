@@ -73,3 +73,27 @@ apply (accountType:CONST_ACCOUNT_TYPE_ULTIMATE_IRONMAN && VAR_DEATHPILE_SOUND_AN
     sound = 2411; // sound name: silence
     notify = false;
 }
+
+/*@ define:group
+---
+name: Last Man Standing Sounds and Notifications
+icon: 
+  type: itemId
+  itemId: 24520
+description: |
+  Last Man Standing Sounds and Notifications
+  ---
+  This disables sounds and notifications for items on the ground in LMS.
+*/
+
+/*@ define:input:utilities
+type: boolean
+label: Disable drop sounds and notifications in LMS
+group: Last Man Standing Sounds and Notifications
+*/
+#define VAR_LAST_MAN_STANDING_SOUND_AND_NOTIFICATIONS_DISABLE true
+
+apply (VAR_LAST_MAN_STANDING_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA || area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA)) {
+    sound = 2411; // sound name: silence
+    notify = false;
+}
