@@ -104,6 +104,29 @@ apply (name:CONST_ALL_HERBS) {
 
 /*@ define:group
 ---
+name: Herblore secondaries Style
+icon: 
+  type: sprite
+  spriteId: 4244
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Herblore secondaries Style
+group: Herblore secondaries Style
+exampleItem: Eye of newt
+exampleItemId: 221
+*/
+#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_SECONDARIES_LIST) {
+    VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Logs Style
 icon: 
   type: sprite
