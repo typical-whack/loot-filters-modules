@@ -36,7 +36,8 @@ enum: [
   "Mud rune",
   "Smoke rune",
   "Steam rune",
-  "Lava rune"
+  "Lava rune",
+  "Aether rune"
 ]
 */
 #define VAR_RUNES_HIDE []
@@ -202,6 +203,13 @@ group: Runes
 */
 #define VAR_LAVA_RUNE_MIN_QUANTITY 50
 
+/*@ define:input:runes
+type: number
+label: Aether rune minimum quantity
+group: Runes
+*/
+#define VAR_AETHER_RUNE_MIN_QUANTITY 0
+
 apply (name:VAR_RUNES_HIDE) {
     hidden = true;
 }
@@ -294,6 +302,9 @@ apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
+apply (name:"Aether rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
+  hidden = true;
+}
 
 apply (name:"Air rune" && quantity:>=VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
@@ -359,5 +370,8 @@ apply (name:"Steam rune" && quantity:>=VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_
   hidden = false;
 }
 apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Aether rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }

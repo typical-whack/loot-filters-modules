@@ -381,3 +381,21 @@ exampleItem: Lava rune
 apply (name:"Lava rune") {
     VAR_LAVA_RUNE_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: Aether rune custom style
+group: Runes Styles
+exampleItem: Aether rune
+exampleItemId: 30843
+*/
+#define VAR_AETHER_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50d8d68d";\
+  borderColor = "#FFa4d2bb";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFd8d68d";
+
+apply (name:"Aether rune") {
+  VAR_AETHER_RUNE_CUSTOMSTYLE 
+}
