@@ -1631,3 +1631,21 @@ name: Constants
   "Ice Arrow", \
   "Broad Arrow", \
 ]
+
+#define CONST_LOGS_LIST [ \ 
+  "Logs", \
+  "Oak logs", \
+  "Willow logs", \
+  "Maple logs", \
+  "Yew logs", \
+  "Magic logs", \
+  "Redwood logs", \
+  "Teak logs", \
+  "Mahogany logs", \
+  "Achey tree logs", \
+  "Arctic pine logs", \
+  "Scrapey tree logs", \
+  "Juniper logs", \
+  "Bark", \
+  "Blisterwood logs", \
+]
