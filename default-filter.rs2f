@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 20:26:51 UTC 2025 */
-/* Commit: 2a459e1 */
+/* Built on: Sat May 31 20:28:36 UTC 2025 */
+/* Commit: fb9865c */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -17132,36 +17132,36 @@ name: Constants
 ]
 
 #define CONST_BARS_LIST [ \
-  "Bronze bar", \ 
-  "Iron bar", \ 
-  "Silver bar", \ 
-  "Steel bar", \ 
-  "Gold bar", \ 
-  "Mithril bar", \ 
-  "Adamantite bar", \ 
-  "Runite bar", \ 
-  "Elemental metal", \ 
-  "Primed bar", \ 
-  "Primed mind bar", \ 
-  "Blurite bar", \ 
-  "Enchanted bar", \ 
-  "Lovakite bar", \ 
-  "'Perfect' gold bar", \ 
+  "Bronze bar", \
+  "Iron bar", \
+  "Silver bar", \
+  "Steel bar", \
+  "Gold bar", \
+  "Mithril bar", \
+  "Adamantite bar", \
+  "Runite bar", \
+  "Elemental metal", \
+  "Primed bar", \
+  "Primed mind bar", \
+  "Blurite bar", \
+  "Enchanted bar", \
+  "Lovakite bar", \
+  "'Perfect' gold bar", \
 ]
 
 #define CONST_ORES_LIST [ \
-  "copper ore", \ 
-  "tin ore", \ 
-  "iron ore", \ 
-  "silver ore", \ 
-  "coal", \ 
-  "gold ore", \ 
-  "mithril ore", \ 
-  "adamantite ore", \ 
-  "runite ore", \ 
-  "daeyalt ore", \ 
-  "blasted ore", \ 
-  "blurite ore", \ 
-  "lovakite ore", \ 
+  "copper ore", \
+  "tin ore", \
+  "iron ore", \
+  "silver ore", \
+  "coal", \
+  "gold ore", \
+  "mithril ore", \
+  "adamantite ore", \
+  "runite ore", \
+  "daeyalt ore", \
+  "blasted ore", \
+  "blurite ore", \
+  "lovakite ore", \
 ]
 
