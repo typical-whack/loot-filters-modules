@@ -35,6 +35,29 @@ apply (name:CONST_FISH_FOODS_LIST) {
 
 /*@ define:group
 ---
+name: Herbs Style
+icon: 
+  type: sprite
+  spriteId: 4244
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Herbs Style
+group: Herbs Style
+exampleItem: Guam leaf
+exampleItemId: 249
+*/
+#define VAR_CATEGORY_HERBS_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_ALL_HERBS) {
+    VAR_CATEGORY_HERBS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Logs Style
 icon: 
   type: sprite
