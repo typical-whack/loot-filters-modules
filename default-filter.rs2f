@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 20:38:09 UTC 2025 */
-/* Commit: 07f8840 */
+/* Built on: Sat May 31 20:41:46 UTC 2025 */
+/* Commit: 831772c */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -1803,7 +1803,8 @@ enum: [
   "Mud rune",
   "Smoke rune",
   "Steam rune",
-  "Lava rune"
+  "Lava rune",
+  "Aether rune"
 ]
 */
 #define VAR_RUNES_HIDE []
@@ -1969,6 +1970,13 @@ group: Runes
 */
 #define VAR_LAVA_RUNE_MIN_QUANTITY 50
 
+/*@ define:input:runes
+type: number
+label: Aether rune minimum quantity
+group: Runes
+*/
+#define VAR_AETHER_RUNE_MIN_QUANTITY 0
+
 apply (name:VAR_RUNES_HIDE) {
     hidden = true;
 }
@@ -2061,6 +2069,9 @@ apply (name:"Lava rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
     hidden = true;
 }
 
+apply (name:"Aether rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY) {
+  hidden = true;
+}
 
 apply (name:"Air rune" && quantity:>=VAR_AIR_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
@@ -2126,6 +2137,9 @@ apply (name:"Steam rune" && quantity:>=VAR_STEAM_RUNE_MIN_QUANTITY && VAR_RUNES_
   hidden = false;
 }
 apply (name:"Lava rune" && quantity:>=VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
+  hidden = false;
+}
+apply (name:"Aether rune" && quantity:<VAR_LAVA_RUNE_MIN_QUANTITY && VAR_RUNES_SHOW_ABOVE_MIN_QUANTITY) {
   hidden = false;
 }
 /*@ define:group
@@ -12432,6 +12446,24 @@ exampleItem: Lava rune
 apply (name:"Lava rune") {
     VAR_LAVA_RUNE_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: Aether rune custom style
+group: Runes Styles
+exampleItem: Aether rune
+exampleItemId: 30843
+*/
+#define VAR_AETHER_RUNE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50d8d68d";\
+  borderColor = "#FFa4d2bb";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFd8d68d";
+
+apply (name:"Aether rune") {
+  VAR_AETHER_RUNE_CUSTOMSTYLE 
+}
 /*@ define:group
 ---
 name: Herbs Styles
@@ -17211,4 +17243,5 @@ name: Constants
   "Smoke rune", \
   "Steam rune", \
   "Lava rune", \
+  "Aether rune", \
 ]
