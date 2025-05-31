@@ -1649,3 +1649,21 @@ name: Constants
   "Bark", \
   "Blisterwood logs", \
 ]
+
+#define CONST_BARS_LIST [ \
+  "Bronze bar", \ 
+  "Iron bar", \ 
+  "Silver bar", \ 
+  "Steel bar", \ 
+  "Gold bar", \ 
+  "Mithril bar", \ 
+  "Adamantite bar", \ 
+  "Runite bar", \ 
+  "Elemental metal", \ 
+  "Primed bar", \ 
+  "Primed mind bar", \ 
+  "Blurite bar", \ 
+  "Enchanted bar", \ 
+  "Lovakite bar", \ 
+  "'Perfect' gold bar", \ 
+]

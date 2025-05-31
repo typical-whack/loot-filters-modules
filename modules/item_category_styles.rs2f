@@ -35,6 +35,29 @@ apply (name:CONST_FISH_FOODS_LIST) {
 
 /*@ define:group
 ---
+name: Bars Style
+icon: 
+  type: sprite
+  spriteId: 4249
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Bars Style
+group: Bars Style
+exampleItem: Bronze bar
+exampleItemId: 2349
+*/
+#define VAR_CATEGORY_BARS_CUSTOMSTYLE \
+  icon = Sprite(3201, 0);
+
+apply (name:CONST_BARS_LIST) {
+    VAR_CATEGORY_BARS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Herbs Style
 icon: 
   type: sprite
