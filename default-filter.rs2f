@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 20:28:36 UTC 2025 */
-/* Commit: fb9865c */
+/* Built on: Sat May 31 20:38:09 UTC 2025 */
+/* Commit: 07f8840 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7411,6 +7411,29 @@ exampleItem: Tuna
 
 apply (name:CONST_FISH_FOODS_LIST) {
     VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Runes Style
+icon: 
+  type: sprite
+  spriteId: 4241
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Runes Style
+group: Runes Style
+exampleItem: Air rune
+exampleItemId: 556
+*/
+#define VAR_CATEGORY_RUNES_CUSTOMSTYLE \
+  icon = Sprite(3192, 0);
+
+apply (name:CONST_RUNES_LIST) {
+    VAR_CATEGORY_RUNES_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -17165,3 +17188,27 @@ name: Constants
   "lovakite ore", \
 ]
 
+#define CONST_RUNES_LIST [ \
+  "Air rune", \
+  "Mind rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Sunfire rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+]
