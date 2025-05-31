@@ -150,6 +150,28 @@ apply (name:CONST_LOGS_LIST) {
 
 /*@ define:group
 ---
+name: Raw fish Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Raw fish Style
+group: Raw fish Style
+exampleItem: Raw tuna
+*/
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
 name: Bones Style
 icon: 
   type: sprite
@@ -318,28 +340,6 @@ exampleItem: Fishing bait
 
 apply (name:CONST_FISHING_BAIT_LIST) {
     VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
-
-/*@ define:group
----
-name: Raw fish Style
-icon: 
-  type: sprite
-  spriteId: 4250 
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Raw fish Style
-group: Raw fish Style
-exampleItem: Raw tuna
-*/
-#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
-  icon = Sprite(3202, 0);
-
-apply (name:CONST_FISHING_RAW_FISH_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
 
 /*@ define:input:item_category_styles
