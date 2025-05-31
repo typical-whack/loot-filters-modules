@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 19:46:11 UTC 2025 */
-/* Commit: bc58890 */
+/* Built on: Sat May 31 20:07:16 UTC 2025 */
+/* Commit: 59a8498 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7411,6 +7411,29 @@ exampleItem: Tuna
 
 apply (name:CONST_FISH_FOODS_LIST) {
     VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Logs Style
+icon: 
+  type: sprite
+  spriteId: 4253
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Logs Style
+group: Logs Style
+exampleItem: Logs
+exampleItemId: 1511
+*/
+#define VAR_CATEGORY_LOGS_CUSTOMSTYLE \
+  icon = Sprite(3205, 0);
+
+apply (name:CONST_LOGS_LIST) {
+    VAR_CATEGORY_LOGS_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -16986,4 +17009,22 @@ name: Constants
   "Ogre Arrow", \
   "Ice Arrow", \
   "Broad Arrow", \
+]
+
+#define CONST_LOGS_LIST [ \ 
+  "Logs", \
+  "Oak logs", \
+  "Willow logs", \
+  "Maple logs", \
+  "Yew logs", \
+  "Magic logs", \
+  "Redwood logs", \
+  "Teak logs", \
+  "Mahogany logs", \
+  "Achey tree logs", \
+  "Arctic pine logs", \
+  "Scrapey tree logs", \
+  "Juniper logs", \
+  "Bark", \
+  "Blisterwood logs", \
 ]
