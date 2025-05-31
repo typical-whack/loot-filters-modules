@@ -1684,3 +1684,27 @@ name: Constants
   "lovakite ore", \
 ]
 
+#define CONST_RUNES_LIST [ \
+  "Air rune", \
+  "Mind rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Sunfire rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+]
