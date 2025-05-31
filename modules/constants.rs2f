@@ -1632,7 +1632,7 @@ name: Constants
   "Broad Arrow", \
 ]
 
-#define CONST_LOGS_LIST [ \ 
+#define CONST_LOGS_LIST [ \
   "Logs", \
   "Oak logs", \
   "Willow logs", \
