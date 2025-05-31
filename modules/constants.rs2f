@@ -1667,3 +1667,20 @@ name: Constants
   "Lovakite bar", \ 
   "'Perfect' gold bar", \ 
 ]
+
+#define CONST_ORES_LIST [ \
+  "copper ore", \ 
+  "tin ore", \ 
+  "iron ore", \ 
+  "silver ore", \ 
+  "coal", \ 
+  "gold ore", \ 
+  "mithril ore", \ 
+  "adamantite ore", \ 
+  "runite ore", \ 
+  "daeyalt ore", \ 
+  "blasted ore", \ 
+  "blurite ore", \ 
+  "lovakite ore", \ 
+]
+

@@ -35,6 +35,29 @@ apply (name:CONST_FISH_FOODS_LIST) {
 
 /*@ define:group
 ---
+name: Ores Style
+icon: 
+  type: sprite
+  spriteId: 4248
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ores Style
+group: Ores Style
+exampleItem: Copper ore
+exampleItemId: 436
+*/
+#define VAR_CATEGORY_ORES_CUSTOMSTYLE \
+  icon = Sprite(3200, 0);
+
+apply (name:CONST_ORES_LIST) {
+    VAR_CATEGORY_ORES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Bars Style
 icon: 
   type: sprite
