@@ -33,6 +33,98 @@ apply (name:CONST_FISH_FOODS_LIST) {
     VAR_FOOD_FISH_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Bones Style
+icon: 
+  type: sprite
+  spriteId: 4240
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Bones Style
+group: Bones Style
+exampleItem: Bones
+exampleItemId: 526
+*/
+#define VAR_BONES_CUSTOMSTYLE \
+  icon = Sprite(1405, 0);
+  
+apply (name:CONST_BONES_LIST) {
+    VAR_BONES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Ashes Style
+icon: 
+  type: sprite
+  spriteId: 4240
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ashes Style
+group: Ashes Style
+exampleItem: Fiendish ashes
+exampleItemId: 25766
+*/
+#define VAR_ASHES_CUSTOMSTYLE \
+  icon = Sprite(1405, 0);
+
+apply (name:CONST_ASHES_LIST) {
+    VAR_ASHES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Shades Remains Style
+icon: 
+  type: sprite
+  spriteId: 4240
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Shades Remains Style
+group: Shades Remains Style
+exampleItem: Loar remains
+exampleItemId: 3396
+*/
+#define VAR_SHADES_REMAINS_CUSTOMSTYLE \
+  icon = Sprite(1405, 0);
+
+apply (name:CONST_SHADES_REMAINS_LIST) {
+    VAR_SHADES_REMAINS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Ensouled Head Style
+icon: 
+  type: sprite
+  spriteId: 4240
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ensouled Head Style
+group: Ensouled Head Style
+exampleItem: Ensouled goblin head
+exampleItemId: 13448
+*/
+#define VAR_ENSOULED_HEAD_CUSTOMSTYLE \
+  icon = Sprite(1405, 0);
+
+apply (name:CONST_ENSOULED_HEAD_LIST) {
+    VAR_ENSOULED_HEAD_CUSTOMSTYLE
+}
+
 /*@ define:input:item_category_styles
 type: style
 label: Potatoes foods style

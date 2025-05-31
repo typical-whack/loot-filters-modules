@@ -51,3 +51,6 @@ sprites:
     sprite_id_25_25: 5622
   - name: Vet'ion
     sprite_id_25_25: 5623
+  - name: Prayer Skill
+    sprite_id_22_22: 1405
+    sprite_id_64_64: 4240
