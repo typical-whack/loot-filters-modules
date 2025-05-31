@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 20:12:15 UTC 2025 */
-/* Commit: 0ea208f */
+/* Built on: Sat May 31 20:21:21 UTC 2025 */
+/* Commit: 7872318 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7411,6 +7411,75 @@ exampleItem: Tuna
 
 apply (name:CONST_FISH_FOODS_LIST) {
     VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Ores Style
+icon: 
+  type: sprite
+  spriteId: 4248
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ores Style
+group: Ores Style
+exampleItem: Copper ore
+exampleItemId: 436
+*/
+#define VAR_CATEGORY_ORES_CUSTOMSTYLE \
+  icon = Sprite(3200, 0);
+
+apply (name:CONST_ORES_LIST) {
+    VAR_CATEGORY_ORES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Bars Style
+icon: 
+  type: sprite
+  spriteId: 4249
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Bars Style
+group: Bars Style
+exampleItem: Bronze bar
+exampleItemId: 2349
+*/
+#define VAR_CATEGORY_BARS_CUSTOMSTYLE \
+  icon = Sprite(3201, 0);
+
+apply (name:CONST_BARS_LIST) {
+    VAR_CATEGORY_BARS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Herbs Style
+icon: 
+  type: sprite
+  spriteId: 4244
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Herbs Style
+group: Herbs Style
+exampleItem: Guam leaf
+exampleItemId: 249
+*/
+#define VAR_CATEGORY_HERBS_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_ALL_HERBS) {
+    VAR_CATEGORY_HERBS_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -17038,3 +17107,38 @@ name: Constants
   "Bark", \
   "Blisterwood logs", \
 ]
+
+#define CONST_BARS_LIST [ \
+  "Bronze bar", \ 
+  "Iron bar", \ 
+  "Silver bar", \ 
+  "Steel bar", \ 
+  "Gold bar", \ 
+  "Mithril bar", \ 
+  "Adamantite bar", \ 
+  "Runite bar", \ 
+  "Elemental metal", \ 
+  "Primed bar", \ 
+  "Primed mind bar", \ 
+  "Blurite bar", \ 
+  "Enchanted bar", \ 
+  "Lovakite bar", \ 
+  "'Perfect' gold bar", \ 
+]
+
+#define CONST_ORES_LIST [ \
+  "copper ore", \ 
+  "tin ore", \ 
+  "iron ore", \ 
+  "silver ore", \ 
+  "coal", \ 
+  "gold ore", \ 
+  "mithril ore", \ 
+  "adamantite ore", \ 
+  "runite ore", \ 
+  "daeyalt ore", \ 
+  "blasted ore", \ 
+  "blurite ore", \ 
+  "lovakite ore", \ 
+]
+
