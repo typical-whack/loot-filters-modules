@@ -50,8 +50,8 @@ exampleItem: Bones
 exampleItemId: 526
 */
 #define VAR_BONES_CUSTOMSTYLE \
-  icon = Sprite(1405, 0);
-  
+  icon = Sprite(3191, 0);
+
 apply (name:CONST_BONES_LIST) {
     VAR_BONES_CUSTOMSTYLE
 }
@@ -73,7 +73,7 @@ exampleItem: Fiendish ashes
 exampleItemId: 25766
 */
 #define VAR_ASHES_CUSTOMSTYLE \
-  icon = Sprite(1405, 0);
+  icon = Sprite(3191, 0);
 
 apply (name:CONST_ASHES_LIST) {
     VAR_ASHES_CUSTOMSTYLE
@@ -96,7 +96,7 @@ exampleItem: Loar remains
 exampleItemId: 3396
 */
 #define VAR_SHADES_REMAINS_CUSTOMSTYLE \
-  icon = Sprite(1405, 0);
+  icon = Sprite(3191, 0);
 
 apply (name:CONST_SHADES_REMAINS_LIST) {
     VAR_SHADES_REMAINS_CUSTOMSTYLE
@@ -119,7 +119,7 @@ exampleItem: Ensouled goblin head
 exampleItemId: 13448
 */
 #define VAR_ENSOULED_HEAD_CUSTOMSTYLE \
-  icon = Sprite(1405, 0);
+  icon = Sprite(3191, 0);
 
 apply (name:CONST_ENSOULED_HEAD_LIST) {
     VAR_ENSOULED_HEAD_CUSTOMSTYLE

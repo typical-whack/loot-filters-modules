@@ -54,3 +54,7 @@ sprites:
   - name: Prayer Skill
     sprite_id_22_22: 1405
     sprite_id_64_64: 4240
+  - name: Map Icon Altar
+    sprite_id_15_15: 1467
+  - name: Clan Icon Prayer
+    sprite_id_13_13: 3191
