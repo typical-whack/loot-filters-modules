@@ -58,3 +58,5 @@ sprites:
     sprite_id_15_15: 1467
   - name: Clan Icon Prayer
     sprite_id_13_13: 3191
+  - name: Clan Icon Woodcutting
+    sprite_id_13_13: 3205

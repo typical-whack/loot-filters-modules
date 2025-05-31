@@ -35,6 +35,166 @@ apply (name:CONST_FISH_FOODS_LIST) {
 
 /*@ define:group
 ---
+name: Runes Style
+icon: 
+  type: sprite
+  spriteId: 4241
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Runes Style
+group: Runes Style
+exampleItem: Air rune
+exampleItemId: 556
+*/
+#define VAR_CATEGORY_RUNES_CUSTOMSTYLE \
+  icon = Sprite(3192, 0);
+
+apply (name:CONST_RUNES_LIST) {
+    VAR_CATEGORY_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Ores Style
+icon: 
+  type: sprite
+  spriteId: 4248
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ores Style
+group: Ores Style
+exampleItem: Copper ore
+exampleItemId: 436
+*/
+#define VAR_CATEGORY_ORES_CUSTOMSTYLE \
+  icon = Sprite(3200, 0);
+
+apply (name:CONST_ORES_LIST) {
+    VAR_CATEGORY_ORES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Bars Style
+icon: 
+  type: sprite
+  spriteId: 4249
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Bars Style
+group: Bars Style
+exampleItem: Bronze bar
+exampleItemId: 2349
+*/
+#define VAR_CATEGORY_BARS_CUSTOMSTYLE \
+  icon = Sprite(3201, 0);
+
+apply (name:CONST_BARS_LIST) {
+    VAR_CATEGORY_BARS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Herbs Style
+icon: 
+  type: sprite
+  spriteId: 4244
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Herbs Style
+group: Herbs Style
+exampleItem: Guam leaf
+exampleItemId: 249
+*/
+#define VAR_CATEGORY_HERBS_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_ALL_HERBS) {
+    VAR_CATEGORY_HERBS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Herblore secondaries Style
+icon: 
+  type: sprite
+  spriteId: 4244
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Herblore secondaries Style
+group: Herblore secondaries Style
+exampleItem: Eye of newt
+exampleItemId: 221
+*/
+#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_SECONDARIES_LIST) {
+    VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Logs Style
+icon: 
+  type: sprite
+  spriteId: 4253
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Logs Style
+group: Logs Style
+exampleItem: Logs
+exampleItemId: 1511
+*/
+#define VAR_CATEGORY_LOGS_CUSTOMSTYLE \
+  icon = Sprite(3205, 0);
+
+apply (name:CONST_LOGS_LIST) {
+    VAR_CATEGORY_LOGS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Raw fish Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Raw fish Style
+group: Raw fish Style
+exampleItem: Raw tuna
+*/
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
 name: Bones Style
 icon: 
   type: sprite
@@ -203,18 +363,6 @@ exampleItem: Fishing bait
 
 apply (name:CONST_FISHING_BAIT_LIST) {
     VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Raw fish Style
-group: Raw fish Style
-exampleItem: Raw tuna
-*/
-#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISHING_RAW_FISH_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
 
 /*@ define:input:item_category_styles

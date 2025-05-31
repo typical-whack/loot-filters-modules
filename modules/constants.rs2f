@@ -1631,3 +1631,81 @@ name: Constants
   "Ice Arrow", \
   "Broad Arrow", \
 ]
+
+#define CONST_LOGS_LIST [ \
+  "Logs", \
+  "Oak logs", \
+  "Willow logs", \
+  "Maple logs", \
+  "Yew logs", \
+  "Magic logs", \
+  "Redwood logs", \
+  "Teak logs", \
+  "Mahogany logs", \
+  "Achey tree logs", \
+  "Arctic pine logs", \
+  "Scrapey tree logs", \
+  "Juniper logs", \
+  "Bark", \
+  "Blisterwood logs", \
+]
+
+#define CONST_BARS_LIST [ \
+  "Bronze bar", \
+  "Iron bar", \
+  "Silver bar", \
+  "Steel bar", \
+  "Gold bar", \
+  "Mithril bar", \
+  "Adamantite bar", \
+  "Runite bar", \
+  "Elemental metal", \
+  "Primed bar", \
+  "Primed mind bar", \
+  "Blurite bar", \
+  "Enchanted bar", \
+  "Lovakite bar", \
+  "'Perfect' gold bar", \
+]
+
+#define CONST_ORES_LIST [ \
+  "copper ore", \
+  "tin ore", \
+  "iron ore", \
+  "silver ore", \
+  "coal", \
+  "gold ore", \
+  "mithril ore", \
+  "adamantite ore", \
+  "runite ore", \
+  "daeyalt ore", \
+  "blasted ore", \
+  "blurite ore", \
+  "lovakite ore", \
+]
+
+#define CONST_RUNES_LIST [ \
+  "Air rune", \
+  "Mind rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Sunfire rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+  "Aether rune", \
+]
