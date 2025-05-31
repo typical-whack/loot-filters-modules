@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 20:21:21 UTC 2025 */
-/* Commit: 7872318 */
+/* Built on: Sat May 31 20:23:26 UTC 2025 */
+/* Commit: 8bc60c8 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7480,6 +7480,29 @@ exampleItemId: 249
 
 apply (name:CONST_ALL_HERBS) {
     VAR_CATEGORY_HERBS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Herblore secondaries Style
+icon: 
+  type: sprite
+  spriteId: 4244
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Herblore secondaries Style
+group: Herblore secondaries Style
+exampleItem: Eye of newt
+exampleItemId: 221
+*/
+#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_SECONDARIES_LIST) {
+    VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
 }
 
 /*@ define:group
