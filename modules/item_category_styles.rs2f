@@ -24,6 +24,29 @@ apply (name:CONST_CURRENCY_LIST) {
 
 /*@ define:group
 ---
+name: Ammo Style
+icon: 
+  type: sprite
+  spriteId: 4239
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ammo Style
+group: Ammo Style
+exampleItem: Bronze arrow
+exampleItemId: 897
+*/
+#define VAR_CATEGORY_AMMO_CUSTOMSTYLE \
+  icon = Sprite(3190, 0);
+
+apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+    VAR_CATEGORY_AMMO_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Runes Style
 icon: 
   type: sprite
