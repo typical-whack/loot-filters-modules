@@ -103,7 +103,7 @@ type: number
 label: Hide prices for items below this value
 group: Value-Based Style Settings
 */
-#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 5000
 
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE) {
     showValue = false;
