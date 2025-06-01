@@ -21,18 +21,6 @@ apply (name:CONST_CURRENCY_LIST) {
     VAR_CURRENCY_CUSTOMSTYLE 
 }
 
-/*@ define:input:item_category_styles
-type: style
-label: Fish food style
-group: Fish food style
-exampleItem: Tuna
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
-}
-
 /*@ define:group
 ---
 name: Runes Style
@@ -283,6 +271,18 @@ exampleItemId: 13448
 
 apply (name:CONST_ENSOULED_HEAD_LIST) {
     VAR_ENSOULED_HEAD_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fish food style
+group: Fish food style
+exampleItem: Tuna
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE 
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
 }
 
 /*@ define:input:item_category_styles
