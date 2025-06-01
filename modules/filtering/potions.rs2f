@@ -214,6 +214,10 @@ enum: [
   {
     "value": "Extended super antifire(*",
     "label": "Extended super antifire"
+  },
+  {
+    "value": "Surge potion(*",
+    "label": "Surge potion"
   }
 ]
 */
@@ -440,6 +444,10 @@ enum: [
   {
     "value": "Extended super antifire(*",
     "label": "Extended super antifire"
+  },
+  {
+    "value": "Surge potion(*",
+    "label": "Surge potion"
   }
 ]
 */
@@ -472,6 +480,7 @@ enum: [
   "Super antifire potion(*", \
   "Super combat potion(*", \
   "Super restore(*", \
+  "Surge potion(*", \
 ]
 
 apply (name:VAR_POTIONS_SHOW) {
