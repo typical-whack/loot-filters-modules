@@ -1709,3 +1709,89 @@ name: Constants
   "Lava rune", \
   "Aether rune", \
 ]
+
+#define CONST_POTIONS_LIST [ \
+  "Attack potion(*", \
+  "Antipoison(*", \
+  "Strength potion(*", \
+  "Serum 207(*", \
+  "Compost potion(*", \
+  "Restore potion(*", \
+  "Energy potion(*", \
+  "Defence potion(*", \
+  "Agility potion(*", \
+  "Combat potion(*", \
+  "Prayer potion(*", \
+  "Super attack(*", \
+  "Superantipoison(*", \
+  "Fishing potion(*", \
+  "Super energy(*", \
+  "Hunter potion(*", \
+  "Goading potion(*", \
+  "Super strength(*", \
+  "Prayer regeneration potion(*", \
+  "Super restore(*", \
+  "Sanfew serum(*", \
+  "Super defence(*", \
+  "Antidote+(*", \
+  "Antifire potion(*", \
+  "Divine super attack potion(*", \
+  "Divine super defence potion(*", \
+  "Divine super strength potion(*", \
+  "Ranging potion(*", \
+  "Divine ranging potion(*", \
+  "Magic potion(*", \
+  "Stamina potion(*", \
+  "Zamorak brew(*", \
+  "Divine magic potion(*", \
+  "Antidote++(*", \
+  "Bastion potion(*", \
+  "Battlemage potion(*", \
+  "Saradomin brew(*", \
+  "Extended antifire(*", \
+  "Ancient brew(*", \
+  "Divine bastion potion(*", \
+  "Divine battlemage potion(*", \
+  "Anti-venom(*", \
+  "Menaphite remedy(*", \
+  "Super combat potion(*", \
+  "Forgotten brew(*", \
+  "Super antifire potion(*", \
+  "Anti-venom+(*", \
+  "Extended anti-venom+(*", \
+  "Divine super combat potion(*", \
+  "Extended super antifire(*", \
+  "Surge potion(*", \
+]
+
+#define CONST_BARB_POTIONS_LIST [ \
+  "Attack mix*", \
+  "Antipoison mix*", \
+  "Relicym's mix*", \
+  "Strength mix*", \
+  "Restore mix*", \
+  "Energy mix*", \
+  "Defence mix*", \
+  "Agility mix*", \
+  "Combat mix*", \
+  "Prayer mix*", \
+  "Superattack mix*", \
+  "Anti-poison supermix*", \
+  "Fishing mix*", \
+  "Super energy mix*", \
+  "Hunting mix*", \
+  "Super str. mix*", \
+  "Magic essence mix*", \
+  "Super restore mix*", \
+  "Super def. mix*", \
+  "Antidote+ mix*", \
+  "Antifire mix*", \
+  "Ranging mix*", \
+  "Magic mix*", \
+  "Zamorak mix*", \
+  "Stamina mix*", \
+  "Extended antifire mix*", \
+  "Ancient mix*", \
+  "Super antifire mix*", \
+  "Extended super antifire mix*", \
+]

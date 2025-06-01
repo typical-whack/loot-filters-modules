@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat May 31 20:48:30 UTC 2025 */
-/* Commit: 8e52c7e */
+/* Built on: Sun Jun  1 16:18:11 UTC 2025 */
+/* Commit: e33ca8d */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -824,6 +824,10 @@ enum: [
   {
     "value": "Extended super antifire(*",
     "label": "Extended super antifire"
+  },
+  {
+    "value": "Surge potion(*",
+    "label": "Surge potion"
   }
 ]
 */
@@ -1050,6 +1054,10 @@ enum: [
   {
     "value": "Extended super antifire(*",
     "label": "Extended super antifire"
+  },
+  {
+    "value": "Surge potion(*",
+    "label": "Surge potion"
   }
 ]
 */
@@ -1082,6 +1090,7 @@ enum: [
   "Super antifire potion(*", \
   "Super combat potion(*", \
   "Super restore(*", \
+  "Surge potion(*", \
 ]
 
 apply (name:VAR_POTIONS_SHOW) {
@@ -7415,18 +7424,6 @@ apply (name:CONST_CURRENCY_LIST) {
     VAR_CURRENCY_CUSTOMSTYLE 
 }
 
-/*@ define:input:item_category_styles
-type: style
-label: Fish food style
-group: Fish food style
-exampleItem: Tuna
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
-
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
-}
-
 /*@ define:group
 ---
 name: Runes Style
@@ -7540,6 +7537,52 @@ exampleItemId: 221
 
 apply (name:CONST_SECONDARIES_LIST) {
     VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Potions Style
+icon: 
+  type: sprite
+  spriteId: 3231
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Potions Style
+group: Potions Style
+exampleItem: Attack potion(3)
+exampleItemId: 121
+*/
+#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
+  icon = Sprite(3231, 0);
+
+apply (name:CONST_POTIONS_LIST) {
+  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Barb Potions Style
+icon: 
+  type: sprite
+  spriteId: 3231
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Barb Potions Style
+group: Barb Potions Style
+exampleItem: Attack mix(2)
+exampleItemId: 11429
+*/
+#define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE \
+  icon = Sprite(3231, 0);
+
+apply (name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -7679,58 +7722,137 @@ apply (name:CONST_ENSOULED_HEAD_LIST) {
     VAR_ENSOULED_HEAD_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Fish Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Potatoes foods style
-group: Potatoes foods style
+label: Fish Food Style
+group: Fish Food Style
+exampleItem: Tuna
+exampleItemId: 361
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Potatoes Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Potatoes Food Style
+group: Potatoes Food Style
 exampleItem: Tuna potato
 */
-#define VAR_POTATOES_FOODS_CUSTOMSTYLE 
+#define VAR_POTATOES_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_POTATOES_FOODS_LIST) {
     VAR_POTATOES_FOODS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Hunter Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Hunter food style
-group: Hunter food style
+label: Hunter Food Style
+group: Hunter Food Style
 exampleItem: Cooked moonlight antelope
+exampleItemId: 29143
 */
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
 
 apply (name:CONST_HUNTER_FOODS_LIST) {
     VAR_FOOD_HUNTER_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Pie Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Pie foods style
-group: Pie foods style
+label: Pie Food Style
+group: Pie Food Style
 exampleItem: Summer pie
+exampleItemId: 7218
 */
-#define VAR_PIE_FOODS_CUSTOMSTYLE 
+#define VAR_PIE_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_PIE_FOODS_LIST) {
     VAR_PIE_FOODS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Pizza Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Pizza foods style
-group: Pizza foods style
+label: Pizza Food Style
+group: Pizza Food Style
 exampleItem: Pineapple pizza
 */
-#define VAR_PIZZA_FOODS_CUSTOMSTYLE 
+#define VAR_PIZZA_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_PIZZA_FOODS_LIST) {
     VAR_PIZZA_FOODS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Cake Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Cake foods style
-group: Cake foods style
+label: Cake Food Style
+group: Cake Food Style
 exampleItem: Chocolate cake
 */
-#define VAR_CAKE_FOODS_CUSTOMSTYLE 
+#define VAR_CAKE_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_CAKE_FOODS_LIST) {
     VAR_CAKE_FOODS_CUSTOMSTYLE
 }
@@ -17244,4 +17366,90 @@ name: Constants
   "Steam rune", \
   "Lava rune", \
   "Aether rune", \
+]
+
+#define CONST_POTIONS_LIST [ \
+  "Attack potion(*", \
+  "Antipoison(*", \
+  "Strength potion(*", \
+  "Serum 207(*", \
+  "Compost potion(*", \
+  "Restore potion(*", \
+  "Energy potion(*", \
+  "Defence potion(*", \
+  "Agility potion(*", \
+  "Combat potion(*", \
+  "Prayer potion(*", \
+  "Super attack(*", \
+  "Superantipoison(*", \
+  "Fishing potion(*", \
+  "Super energy(*", \
+  "Hunter potion(*", \
+  "Goading potion(*", \
+  "Super strength(*", \
+  "Prayer regeneration potion(*", \
+  "Super restore(*", \
+  "Sanfew serum(*", \
+  "Super defence(*", \
+  "Antidote+(*", \
+  "Antifire potion(*", \
+  "Divine super attack potion(*", \
+  "Divine super defence potion(*", \
+  "Divine super strength potion(*", \
+  "Ranging potion(*", \
+  "Divine ranging potion(*", \
+  "Magic potion(*", \
+  "Stamina potion(*", \
+  "Zamorak brew(*", \
+  "Divine magic potion(*", \
+  "Antidote++(*", \
+  "Bastion potion(*", \
+  "Battlemage potion(*", \
+  "Saradomin brew(*", \
+  "Extended antifire(*", \
+  "Ancient brew(*", \
+  "Divine bastion potion(*", \
+  "Divine battlemage potion(*", \
+  "Anti-venom(*", \
+  "Menaphite remedy(*", \
+  "Super combat potion(*", \
+  "Forgotten brew(*", \
+  "Super antifire potion(*", \
+  "Anti-venom+(*", \
+  "Extended anti-venom+(*", \
+  "Divine super combat potion(*", \
+  "Extended super antifire(*", \
+  "Surge potion(*", \
+]
+
+#define CONST_BARB_POTIONS_LIST [ \
+  "Attack mix*", \
+  "Antipoison mix*", \
+  "Relicym's mix*", \
+  "Strength mix*", \
+  "Restore mix*", \
+  "Energy mix*", \
+  "Defence mix*", \
+  "Agility mix*", \
+  "Combat mix*", \
+  "Prayer mix*", \
+  "Superattack mix*", \
+  "Anti-poison supermix*", \
+  "Fishing mix*", \
+  "Super energy mix*", \
+  "Hunting mix*", \
+  "Super str. mix*", \
+  "Magic essence mix*", \
+  "Super restore mix*", \
+  "Super def. mix*", \
+  "Antidote+ mix*", \
+  "Antifire mix*", \
+  "Ranging mix*", \
+  "Magic mix*", \
+  "Zamorak mix*", \
+  "Stamina mix*", \
+  "Extended antifire mix*", \
+  "Ancient mix*", \
+  "Super antifire mix*", \
+  "Extended super antifire mix*", \
 ]
