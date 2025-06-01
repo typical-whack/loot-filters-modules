@@ -167,6 +167,8 @@ icon:
   type: sprite
   spriteId: 3231
   spriteIndex: 0
+description: |
+  Covers both potions and barbarians potions.
 */
 
 /*@ define:input:item_category_styles
@@ -179,31 +181,8 @@ exampleItemId: 121
 #define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
   icon = Sprite(3231, 0);
 
-apply (name:CONST_POTIONS_LIST) {
+apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
   VAR_CATEGORY_POTIONS_CUSTOMSTYLE
-}
-
-/*@ define:group
----
-name: Barb Potions Style
-icon: 
-  type: sprite
-  spriteId: 3231
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Barb Potions Style
-group: Barb Potions Style
-exampleItem: Attack mix(2)
-exampleItemId: 11429
-*/
-#define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE \
-  icon = Sprite(3231, 0);
-
-apply (name:CONST_BARB_POTIONS_LIST) {
-  VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -251,7 +230,6 @@ exampleItemId: 359
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
-
 
 /*@ define:group
 ---
@@ -508,117 +486,27 @@ apply (name:CONST_CAKE_FOODS_LIST) {
 
 /*@ define:group
 ---
-name: Fletching Unstrung Shortbows Style
+name: Fletching Unstrung Style
 icon: 
   type: sprite
   spriteId: 4247
   spriteIndex: 0
+description: |
+  Covers unstrung shortbows, longbows, and crossbows.
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unstrung Shortbows Style
-group: Fletching Unstrung Shortbows Style
+label: Fletching Unstrung Style
+group: Fletching Unstrung Style
 exampleItem: Shortbow (u)
 exampleItemId: 50
 */
-#define VAR_CATEGORY_FLETCHING_UNSTRUNG_SHORTBOW_CUSTOMSTYLE \
+#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE \
   icon = Sprite(3199, 0);
 
-apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST) {
-  VAR_CATEGORY_FLETCHING_UNSTRUNG_SHORTBOW_CUSTOMSTYLE
-}
-
-/*@ define:group
----
-name: Fletching Unstrung Longbows Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Fletching Unstrung Longbows Style
-group: Fletching Unstrung Longbows Style
-exampleItem: Longbow (u)
-exampleItemId: 48
-*/
-#define VAR_CATEGORY_FLETCHING_UNSTRUNG_LONGBOW_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
-
-apply (name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST) {
-  VAR_CATEGORY_FLETCHING_UNSTRUNG_LONGBOW_CUSTOMSTYLE
-}
-
-/*@ define:group
----
-name: Fletching Crossbow Stocks Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Fletching Crossbow Stocks Style
-group: Fletching Crossbow Stocks Style
-exampleItem: Wooden stock
-exampleItemId: 9440
-*/
-#define VAR_CATEGORY_FLETCHING_CROSSBOW_STOCK_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
-
-apply (name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
-  VAR_CATEGORY_FLETCHING_CROSSBOW_STOCK_CUSTOMSTYLE
-}
-
-/*@ define:group
----
-name: Fletching Crossbow Limbs Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Fletching Crossbow Limbs Style
-group: Fletching Crossbow Limbs Style
-exampleItem: Bronze limbs
-exampleItemId: 9420
-*/
-#define VAR_CATEGORY_FLETCHING_CROSSBOW_LIMBS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
-
-apply (name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST) {
-  VAR_CATEGORY_FLETCHING_CROSSBOW_LIMBS_CUSTOMSTYLE
-}
-
-/*@ define:group
----
-name: Fletching Unstrung Crossbows Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Fletching Unstrung Crossbows Style
-group: Fletching Unstrung Crossbows Style
-exampleItem: Bronze crossbow (u)
-exampleItemId: 9454
-*/
-#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CROSSBOW_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
-
-apply (name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST) {
-  VAR_CATEGORY_FLETCHING_UNSTRUNG_CROSSBOW_CUSTOMSTYLE
+apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST) {
+  VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -743,6 +631,18 @@ icon:
   type: sprite
   spriteId: 4247
   spriteIndex: 0
+description: |
+  Covers:
+  - Crossbow limbs
+  - Crossbow stocks
+  - Bow string
+  - Crossbow string
+  - Unstrung comp bow
+  - Javelin shaft
+  - Arrow shaft
+  - Ogre arrow shaft
+  - Headless arrow
+  - Flighted ogre arrow
 */
 
 /*@ define:input:item_category_styles
@@ -755,7 +655,7 @@ exampleItemId: 19584
 #define VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE \
   icon = Sprite(3199, 0);
 
-apply (name:CONST_FLETCHING_MISC_LIST) {
+apply (name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST || name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
   VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 }
 
