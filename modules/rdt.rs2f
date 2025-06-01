@@ -88,6 +88,7 @@ enum: [
 type: style
 label: RDT custom style
 exampleItem: Dragon spear
+exampleItemId: 1249
 */
 #define VAR_RDT_CUSTOMSTYLE \
   borderColor = "#FFdea71a";

@@ -13,6 +13,7 @@ type: style
 label: Bronze bar custom style
 group: Bars Styles
 exampleItem: Bronze bar
+exampleItemId: 2349
 */
 #define VAR_BRONZE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -30,6 +31,7 @@ type: style
 label: Iron bar custom style
 group: Bars Styles
 exampleItem: Iron bar
+exampleItemId: 2351
 */
 #define VAR_IRON_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -47,6 +49,7 @@ type: style
 label: Steel bar custom style
 group: Bars Styles
 exampleItem: Steel bar
+exampleItemId: 2353
 */
 #define VAR_STEEL_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -64,6 +67,7 @@ type: style
 label: Mithril bar custom style
 group: Bars Styles
 exampleItem: Mithril bar
+exampleItemId: 2359
 */
 #define VAR_MITHRIL_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -81,6 +85,7 @@ type: style
 label: Adamantite bar custom style
 group: Bars Styles
 exampleItem: Adamantite bar
+exampleItemId: 2361
 */
 #define VAR_ADAMANTITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -98,6 +103,7 @@ type: style
 label: Runite bar custom style
 group: Bars Styles
 exampleItem: Runite bar
+exampleItemId: 2363
 */
 #define VAR_RUNITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -115,6 +121,7 @@ type: style
 label: Silver bar custom style
 group: Bars Styles
 exampleItem: Silver bar
+exampleItemId: 2355
 */
 #define VAR_SILVER_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -132,6 +139,7 @@ type: style
 label: Gold bar custom style
 group: Bars Styles
 exampleItem: Gold bar
+exampleItemId: 2357
 */
 #define VAR_GOLD_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -149,6 +157,7 @@ type: style
 label: Elemental metal custom style
 group: Bars Styles
 exampleItem: Elemental metal
+exampleItemId: 2893
 */
 #define VAR_ELEMENTAL_METAL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -166,6 +175,7 @@ type: style
 label: Primed bar custom style
 group: Bars Styles
 exampleItem: Primed bar
+exampleItemId: 9727
 */
 #define VAR_PRIMED_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -183,6 +193,7 @@ type: style
 label: Primed mind bar custom style
 group: Bars Styles
 exampleItem: Primed mind bar
+exampleItemId: 9728
 */
 #define VAR_PRIMED_MIND_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -200,6 +211,7 @@ type: style
 label: Blurite bar custom style
 group: Bars Styles
 exampleItem: Blurite bar
+exampleItemId: 9467
 */
 #define VAR_BLURITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -217,6 +229,7 @@ type: style
 label: Enchanted bar custom style
 group: Bars Styles
 exampleItem: Enchanted bar
+exampleItemId: 4007
 */
 #define VAR_ENCHANTED_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -234,6 +247,7 @@ type: style
 label: Lovakite bar custom style
 group: Bars Styles
 exampleItem: Lovakite bar
+exampleItemId: 13354
 */
 #define VAR_LOVAKITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -251,6 +265,7 @@ type: style
 label: "'Perfect' gold bar custom style"
 group: Bars Styles
 exampleItem: "'Perfect' gold bar"
+exampleItemId: 2365
 */
 #define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\

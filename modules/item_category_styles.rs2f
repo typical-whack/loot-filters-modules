@@ -13,6 +13,7 @@ type: style
 label: Currency Style
 group: Currency Style
 exampleItem: Coins
+exampleItemId: 1004
 */
 #define VAR_CURRENCY_CUSTOMSTYLE \
   textColor = "#FFBEB287";
@@ -424,6 +425,7 @@ type: style
 label: Pizza Food Style
 group: Pizza Food Style
 exampleItem: Pineapple pizza
+exampleItemId: 2301
 */
 #define VAR_PIZZA_FOODS_CUSTOMSTYLE \
   icon = Sprite(3288, 0);
@@ -446,6 +448,7 @@ type: style
 label: Cake Food Style
 group: Cake Food Style
 exampleItem: Chocolate cake
+exampleItemId: 1897
 */
 #define VAR_CAKE_FOODS_CUSTOMSTYLE \
   icon = Sprite(3288, 0);
@@ -459,6 +462,7 @@ type: style
 label: Fishing equipment Style
 group: Fishing equipment Style
 exampleItem: Fishing rod
+exampleItemId: 307
 */
 #define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
 
@@ -471,6 +475,7 @@ type: style
 label: Fishing bait Style
 group: Fishing bait Style
 exampleItem: Fishing bait
+exampleItemId: 313
 */
 #define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
 
@@ -483,6 +488,7 @@ type: style
 label: Bronze Armour and Weapons
 group: Bronze Armour and Weapons
 exampleItem: Bronze platelegs
+exampleItemId: 1075
 */
 #define VAR_BRONZE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -515,6 +521,7 @@ type: style
 label: Iron Armour and Weapons
 group: Iron Armour and Weapons
 exampleItem: Iron platelegs
+exampleItemId: 1067
 */
 #define VAR_IRON_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -547,6 +554,7 @@ type: style
 label: Steel Armour and Weapons
 group: Steel Armour and Weapons
 exampleItem: Steel platelegs
+exampleItemId: 1069
 */
 #define VAR_STEEL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -579,6 +587,7 @@ type: style
 label: Black Armour and Weapons
 group: Black Armour and Weapons
 exampleItem: Black platelegs
+exampleItemId: 1077
 */
 #define VAR_BLACK_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -611,6 +620,7 @@ type: style
 label: Mithril Armour and Weapons
 group: Mithril Armour and Weapons
 exampleItem: Mithril platelegs
+exampleItemId: 1071
 */
 #define VAR_MITHRIL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -643,6 +653,7 @@ type: style
 label: Adamant Armour and Weapons
 group: Adamant Armour and Weapons
 exampleItem: Adamant platelegs
+exampleItemId: 1073
 */
 #define VAR_ADAMANT_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -675,6 +686,7 @@ type: style
 label: Rune Armour and Weapons
 group: Rune Armour and Weapons
 exampleItem: Rune platelegs
+exampleItemId: 1079
 */
 #define VAR_RUNE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -707,6 +719,7 @@ type: style
 label: Dragon Armour and Weapons
 group: Dragon Armour and Weapons
 exampleItem: Dragon platelegs
+exampleItemId: 4087
 */
 #define VAR_DRAGON_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
