@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 19:58:28 UTC 2025 */
-/* Commit: 191015f */
+/* Built on: Sun Jun  1 20:05:43 UTC 2025 */
+/* Commit: 4d1caf7 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7671,6 +7671,30 @@ exampleItemId: 359
 
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
     VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
+
+
+/*@ define:group
+---
+name: Farming Seeds Style
+icon: 
+  type: sprite
+  spriteId: 4256 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Farming Seeds Style
+group: Farming Seeds Style
+exampleItem: Potato seed
+exampleItemId: 5318
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE \
+  icon = Sprite(3207, 0);
+
+apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE
 }
 
 /*@ define:group
