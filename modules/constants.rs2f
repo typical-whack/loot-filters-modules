@@ -1795,3 +1795,125 @@ name: Constants
   "Super antifire mix*", \
   "Extended super antifire mix*", \
 ]
+
+#define CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST [ \
+  "Shortbow (u)", \
+  "Oak shortbow (u)", \
+  "Willow shortbow (u)", \
+  "Maple shortbow (u)", \
+  "Yew shortbow (u)", \
+  "Magic shortbow (u)", \
+]
+
+#define CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST [ \
+  "Longbow (u)", \
+  "Oak Longbow (u)", \
+  "Willow Longbow (u)", \
+  "Maple Longbow (u)", \
+  "Yew Longbow (u)", \
+  "Magic Longbow (u)", \
+]
+
+#define CONST_FLETCHING_CROSSBOW_STOCK_LIST [ \
+  "Wooden stock", \
+  "Oak stock", \
+  "Willow stock", \
+  "Teak stock", \
+  "Maple stock", \
+  "Mahogany stock", \
+  "Yew stock", \
+  "Magic stock", \
+]
+
+#define CONST_FLETCHING_CROSSBOW_LIMBS_LIST [ \
+  "Bronze limbs", \
+  "Blurite limbs", \
+  "Iron limbs", \
+  "Steel limbs", \
+  "Mithril limbs", \
+  "Adamantite limbs", \
+  "Runite limbs", \
+]
+
+#define CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST [ \
+  "Bronze crossbow (u)", \
+  "Blurite crossbow (u)", \
+  "Iron crossbow (u)", \
+  "Steel crossbow (u)", \
+  "Mithril crossbow (u)", \
+  "Adamant crossbow (u)", \
+  "Runite crossbow (u)", \
+]
+
+#define CONST_FLETCHING_ARROW_TIPS_LIST [ \
+  "Bronze arrowtips", \
+  "Iron arrowtips", \
+  "Steel arrowtips", \
+  "Mithril arrowtips", \
+  "Adamant arrowtips", \
+  "Rune arrowtips", \
+  "Amethyst arrowtips", \
+  "Dragon arrowtips", \
+  "Broad arrowheads", \
+  "Wolfbone arrowtips", \
+]
+
+#define CONST_FLETCHING_DART_TIP_LIST [ \
+  "Bronze dart tip", \
+  "Iron dart tip", \
+  "Steel dart tip", \
+  "Mithril dart tip", \
+  "Adamant dart tip", \
+  "Rune dart tip", \
+  "Amethyst dart tip", \
+  "Dragon dart tip", \
+]
+
+#define CONST_FLETCHING_JAVELIN_HEADS_LIST [ \
+  "Bronze javelin heads", \
+  "Iron javelin heads", \
+  "Steel javelin heads", \
+  "Mithril javelin heads", \
+  "Adamant javelin heads", \
+  "Rune javelin heads", \
+  "Amethyst javelin heads", \
+  "Dragon javelin heads", \
+]
+
+#define CONST_FLETCHING_UNFINISHED_BOLTS_LIST [ \
+  "Bronze bolts (unf)", \
+  "Iron bolts (unf)", \
+  "Steel bolts (unf)", \
+  "Mithril bolts (unf)", \
+  "Adamant bolts(unf)", \
+  "Runite bolts (unf)", \
+  "Dragon bolts (unf)", \
+  "Blurite bolts (unf)", \
+  "Silver bolts (unf)", \
+  "Unfinished broad bolts", \
+]
+
+#define CONST_FLETCHING_BOLT_TIPS_LIST [ \
+  "Opal bolt tips", \
+  "Jade bolt tips", \
+  "Pearl bolt tips", \
+  "Red topaz bolt tips", \
+  "Sapphire bolt tips", \
+  "Emerald bolt tips", \
+  "Ruby bolt tips", \
+  "Diamond bolt tips", \
+  "Amethyst bolt tips", \
+  "Dragonstone bolt tips", \
+  "Onyx bolt tips", \
+]
+
+#define CONST_FLETCHING_MISC_LIST [ \
+  "Bow string", \
+  "Crossbow string", \
+  "Unstrung comp bow", \
+  "Javelin shaft", \
+  "Arrow shaft", \
+  "Ogre arrow shaft", \
+  "Headless arrow", \
+  "Flighted ogre arrow", \
+]
