@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 18:52:08 UTC 2025 */
-/* Commit: 04cfc7f */
+/* Built on: Sun Jun  1 19:01:53 UTC 2025 */
+/* Commit: f1f7cfa */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6843,6 +6843,16 @@ group: Tier 4
   "Araxyte fang", \
   "Tanzanite mutagen", \
   "Magma mutagen", \
+  "Earth Warrior champion scroll", \
+  "Ghoul champion scroll", \
+  "Giant champion scroll", \
+  "Goblin champion scroll", \
+  "Hobgoblin champion scroll", \
+  "Imp champion scroll", \
+  "Jogre champion scroll", \
+  "Lesser Demon champion scroll", \
+  "Skeleton champion scroll", \
+  "Zombie champion scroll", \
 ]
 
 /*@ define:input:item_tiers
