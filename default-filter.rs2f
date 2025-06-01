@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 16:20:55 UTC 2025 */
-/* Commit: 93b18ec */
+/* Built on: Sun Jun  1 17:01:33 UTC 2025 */
+/* Commit: c54a8a5 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -10642,6 +10642,23 @@ exampleItem: Extended super antifire(4)
 
 apply (name:"Extended super antifire(*") {
     VAR_EXTENDED_SUPER_ANTIFIRE_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Surge potion
+group: Potions Styles
+exampleItem: Surge potion(4)
+*/
+#define VAR_SURGE_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#5070939c";\
+  borderColor = "#FF70939c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF70939c";
+
+apply (name:"Surge potion(*") {
+    VAR_SURGE_POTION_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
