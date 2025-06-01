@@ -13,6 +13,7 @@ type: style
 label: Abyssal pearls custom style
 group: Currency Styles
 exampleItem: Abyssal pearls
+exampleItemId: 26792
 */
 #define VAR_ABYSSAL_PEARLS_CUSTOMSTYLE 
 
@@ -25,6 +26,7 @@ type: style
 label: Agility arena ticket custom style
 group: Currency Styles
 exampleItem: Agility arena ticket
+exampleItemId: 29480
 */
 #define VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE 
 
@@ -37,6 +39,7 @@ type: style
 label: Anima-infused bark custom style
 group: Currency Styles
 exampleItem: Anima-infused bark
+exampleItemId: 28134
 */
 #define VAR_ANIMA_INFUSED_BARK_CUSTOMSTYLE 
 
@@ -49,6 +52,7 @@ type: style
 label: Archery ticket custom style
 group: Currency Styles
 exampleItem: Archery ticket
+exampleItemId: 1464
 */
 #define VAR_ARCHERY_TICKET_CUSTOMSTYLE 
 
@@ -61,6 +65,7 @@ type: style
 label: Barronite shards custom style
 group: Currency Styles
 exampleItem: Barronite shards
+exampleItemId: 25676
 */
 #define VAR_BARRONITE_SHARDS_CUSTOMSTYLE 
 
@@ -73,6 +78,7 @@ type: style
 label: Blood money custom style
 group: Currency Styles
 exampleItem: Blood money
+exampleItemId: 13307
 */
 #define VAR_BLOOD_MONEY_CUSTOMSTYLE 
 
@@ -85,6 +91,7 @@ type: style
 label: Brimhaven voucher custom style
 group: Currency Styles
 exampleItem: Brimhaven voucher
+exampleItemId: 29482
 */
 #define VAR_BRIMHAVEN_VOUCHER_CUSTOMSTYLE 
 
@@ -97,6 +104,7 @@ type: style
 label: Castle wars ticket custom style
 group: Currency Styles
 exampleItem: Castle wars ticket
+exampleItemId: 4067
 */
 #define VAR_CASTLE_WARS_TICKET_CUSTOMSTYLE 
 
@@ -109,6 +117,7 @@ type: style
 label: Coins custom style
 group: Currency Styles
 exampleItem: Coins
+exampleItemId: 1004
 */
 #define VAR_COINS_CUSTOMSTYLE 
 
@@ -121,6 +130,7 @@ type: style
 label: Ecto-token custom style
 group: Currency Styles
 exampleItem: Ecto-token
+exampleItemId: 4278
 */
 #define VAR_ECTO_TOKEN_CUSTOMSTYLE 
 
@@ -133,6 +143,7 @@ type: style
 label: Frog token custom style
 group: Currency Styles
 exampleItem: Frog token
+exampleItemId: 6183
 */
 #define VAR_FROG_TOKEN_CUSTOMSTYLE 
 
@@ -145,6 +156,7 @@ type: style
 label: Glistening tear custom style
 group: Currency Styles
 exampleItem: Glistening tear
+exampleItemId: 22207
 */
 #define VAR_GLISTENING_TEAR_CUSTOMSTYLE 
 
@@ -157,6 +169,7 @@ type: style
 label: Golden nugget custom style
 group: Currency Styles
 exampleItem: Golden nugget
+exampleItemId: 12012
 */
 #define VAR_GOLDEN_NUGGET_CUSTOMSTYLE 
 
@@ -169,6 +182,7 @@ type: style
 label: Hallowed mark custom style
 group: Currency Styles
 exampleItem: Hallowed mark
+exampleItemId: 24711
 */
 #define VAR_HALLOWED_MARK_CUSTOMSTYLE 
 
@@ -181,6 +195,7 @@ type: style
 label: Intelligence custom style
 group: Currency Styles
 exampleItem: Intelligence
+exampleItemId: 13395
 */
 #define VAR_INTELLIGENCE_CUSTOMSTYLE 
 
@@ -193,6 +208,7 @@ type: style
 label: Mark of grace custom style
 group: Currency Styles
 exampleItem: Mark of grace
+exampleItemId: 11849
 */
 #define VAR_MARK_OF_GRACE_CUSTOMSTYLE 
 
@@ -205,6 +221,7 @@ type: style
 label: Mermaid's tear custom style
 group: Currency Styles
 exampleItem: Mermaid's tear
+exampleItemId: 21656
 */
 #define VAR_MERMAIDS_TEAR_CUSTOMSTYLE 
 
@@ -217,6 +234,7 @@ type: style
 label: Minnow custom style
 group: Currency Styles
 exampleItem: Minnow
+exampleItemId: 21356
 */
 #define VAR_MINNOW_CUSTOMSTYLE 
 
@@ -229,6 +247,7 @@ type: style
 label: Molch pearl custom style
 group: Currency Styles
 exampleItem: Molch pearl
+exampleItemId: 22820
 */
 #define VAR_MOLCH_PEARL_CUSTOMSTYLE 
 
@@ -241,6 +260,7 @@ type: style
 label: Mole claw custom style
 group: Currency Styles
 exampleItem: Mole claw
+exampleItemId: 7416
 */
 #define VAR_MOLE_CLAW_CUSTOMSTYLE 
 
@@ -253,6 +273,7 @@ type: style
 label: Mole skin custom style
 group: Currency Styles
 exampleItem: Mole skin
+exampleItemId: 7418
 */
 #define VAR_MOLE_SKIN_CUSTOMSTYLE 
 
@@ -265,6 +286,7 @@ type: style
 label: Nuggets custom style
 group: Currency Styles
 exampleItem: Nuggets
+exampleItemId: 680
 */
 #define VAR_NUGGETS_CUSTOMSTYLE 
 
@@ -277,6 +299,7 @@ type: style
 label: Numulite custom style
 group: Currency Styles
 exampleItem: Numulite
+exampleItemId: 21555
 */
 #define VAR_NUMULITE_CUSTOMSTYLE 
 
@@ -289,6 +312,7 @@ type: style
 label: Paramaya ticket custom style
 group: Currency Styles
 exampleItem: Paramaya ticket
+exampleItemId: 619
 */
 #define VAR_PARAMAYA_TICKET_CUSTOMSTYLE 
 
@@ -301,6 +325,7 @@ type: style
 label: Platinum token custom style
 group: Currency Styles
 exampleItem: Platinum token
+exampleItemId: 13204
 */
 #define VAR_PLATINUM_TOKEN_CUSTOMSTYLE 
 
@@ -310,33 +335,10 @@ apply (name:"Platinum token") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Rare creature parts custom style
-group: Currency Styles
-exampleItem: Rare creature parts
-*/
-#define VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE 
-
-apply (name:"Rare creature parts") {
-    VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Reward token credits custom style
-group: Currency Styles
-exampleItem: Reward token credits
-*/
-#define VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE 
-
-apply (name:"Reward token credits") {
-    VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE
-}
-
-/*@ define:input:individual_item_styles
-type: style
 label: Shantay pass custom style
 group: Currency Styles
 exampleItem: Shantay pass
+exampleItemId: 1854
 */
 #define VAR_SHANTAY_PASS_CUSTOMSTYLE 
 
@@ -349,6 +351,7 @@ type: style
 label: Ship ticket custom style
 group: Currency Styles
 exampleItem: Ship ticket
+exampleItemId: 621
 */
 #define VAR_SHIP_TICKET_CUSTOMSTYLE 
 
@@ -361,6 +364,7 @@ type: style
 label: Stardust custom style
 group: Currency Styles
 exampleItem: Stardust
+exampleItemId: 25527
 */
 #define VAR_STARDUST_CUSTOMSTYLE 
 
@@ -373,6 +377,7 @@ type: style
 label: Termites custom style
 group: Currency Styles
 exampleItem: Termites
+exampleItemId: 30038
 */
 #define VAR_TERMITES_CUSTOMSTYLE 
 
@@ -385,6 +390,7 @@ type: style
 label: Tokkul custom style
 group: Currency Styles
 exampleItem: Tokkul
+exampleItemId: 6529
 */
 #define VAR_TOKKUL_CUSTOMSTYLE 
 
@@ -397,6 +403,7 @@ type: style
 label: Trading sticks custom style
 group: Currency Styles
 exampleItem: Trading sticks
+exampleItemId: 6306
 */
 #define VAR_TRADING_STICKS_CUSTOMSTYLE 
 
@@ -409,6 +416,7 @@ type: style
 label: Unidentified minerals custom style
 group: Currency Styles
 exampleItem: Unidentified minerals
+exampleItemId: 21341
 */
 #define VAR_UNIDENTIFIED_MINERALS_CUSTOMSTYLE 
 
@@ -421,6 +429,7 @@ type: style
 label: Warrior guild token custom style
 group: Currency Styles
 exampleItem: Warrior guild token
+exampleItemId: 8851
 */
 #define VAR_WARRIOR_GUILD_TOKEN_CUSTOMSTYLE 
 

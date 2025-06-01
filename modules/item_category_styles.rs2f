@@ -220,6 +220,7 @@ type: style
 label: Raw fish Style
 group: Raw fish Style
 exampleItem: Raw tuna
+exampleItemId: 359
 */
 #define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
   icon = Sprite(3202, 0);
@@ -357,6 +358,7 @@ type: style
 label: Potatoes Food Style
 group: Potatoes Food Style
 exampleItem: Tuna potato
+exampleItemId: 7060
 */
 #define VAR_POTATOES_FOODS_CUSTOMSTYLE \
   icon = Sprite(3288, 0);
