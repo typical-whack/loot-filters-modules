@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 18:43:19 UTC 2025 */
-/* Commit: d225ef3 */
+/* Built on: Sun Jun  1 18:52:08 UTC 2025 */
+/* Commit: 04cfc7f */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -561,7 +561,7 @@ group: Food
   "Cooked larupia", \
   "Cooked barb-tailed kebbit", \
   "Cooked graahk", \
-  "Shrimp", \
+  "Shrimps", \
   "Sardine", \
   "Herring", \
   "Anchovies", \
@@ -10922,13 +10922,13 @@ apply (name:"Salmon") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Slimy eel custom style
+label: Cooked slimy eel custom style
 group: Fish Styles
-exampleItem: Slimy eel
+exampleItem: Cooked slimy eel
 */
 #define VAR_SLIMY_EEL_CUSTOMSTYLE 
 
-apply (name:"Slimy eel") {
+apply (name:"Cooked slimy eel") {
     VAR_SLIMY_EEL_CUSTOMSTYLE 
 }
 
@@ -11030,13 +11030,13 @@ apply (name:"Sardine") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Shrimp custom style
+label: Shrimps custom style
 group: Fish Styles
-exampleItem: Shrimp
+exampleItem: Shrimps
 */
 #define VAR_SHRIMP_CUSTOMSTYLE 
 
-apply (name:"Shrimp") {
+apply (name:"Shrimps") {
     VAR_SHRIMP_CUSTOMSTYLE 
 }
 /*@ define:group
@@ -16288,7 +16288,7 @@ name: Constants
 ]
 
 #define CONST_FISH_FOODS_LIST [ \
-  "Shrimp", \
+  "Shrimps", \
   "Sardine", \
   "Karambwanji", \
   "Herring", \
@@ -16297,7 +16297,7 @@ name: Constants
   "Trout", \
   "Cod", \
   "Pike", \
-  "Slimy eel", \
+  "Cooked slimy eel", \
   "Salmon", \
   "Tuna", \
   "Rainbow fish", \
