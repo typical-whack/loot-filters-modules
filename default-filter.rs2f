@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 19:53:05 UTC 2025 */
-/* Commit: 8310f4d */
+/* Built on: Sun Jun  1 19:58:28 UTC 2025 */
+/* Commit: 191015f */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -115,7 +115,7 @@ type: number
 label: Hide prices for items below this value
 group: Value-Based Style Settings
 */
-#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 0
+#define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 5000
 
 apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE) {
     showValue = false;
