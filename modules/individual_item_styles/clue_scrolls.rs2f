@@ -13,6 +13,7 @@ type: style
 label: Beginner clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (beginner)
+exampleItemId: 23182
 */
 #define VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -30,6 +31,7 @@ type: style
 label: Easy clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (easy)
+exampleItemId: 2677
 */
 #define VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -47,6 +49,7 @@ type: style
 label: Medium clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (medium)
+exampleItemId: 2801
 */
 #define VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -64,6 +67,7 @@ type: style
 label: Hard clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (hard)
+exampleItemId: 2722
 */
 #define VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -81,6 +85,7 @@ type: style
 label: Elite clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (elite)
+exampleItemId: 12073
 */
 #define VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -98,6 +103,7 @@ type: style
 label: Master clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (master)
+exampleItemId: 19835
 */
 #define VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
