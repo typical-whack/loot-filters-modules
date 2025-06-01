@@ -319,70 +319,137 @@ apply (name:CONST_ENSOULED_HEAD_LIST) {
     VAR_ENSOULED_HEAD_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Fish Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Fish food style
-group: Fish food style
+label: Fish Food Style
+group: Fish Food Style
 exampleItem: Tuna
+exampleItemId: 361
 */
-#define VAR_FOOD_FISH_CUSTOMSTYLE 
+#define VAR_FOOD_FISH_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
 
 apply (name:CONST_FISH_FOODS_LIST) {
     VAR_FOOD_FISH_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Potatoes Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Potatoes foods style
-group: Potatoes foods style
+label: Potatoes Food Style
+group: Potatoes Food Style
 exampleItem: Tuna potato
 */
-#define VAR_POTATOES_FOODS_CUSTOMSTYLE 
+#define VAR_POTATOES_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_POTATOES_FOODS_LIST) {
     VAR_POTATOES_FOODS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Hunter Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Hunter food style
-group: Hunter food style
+label: Hunter Food Style
+group: Hunter Food Style
 exampleItem: Cooked moonlight antelope
+exampleItemId: 29143
 */
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE 
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
 
 apply (name:CONST_HUNTER_FOODS_LIST) {
     VAR_FOOD_HUNTER_CUSTOMSTYLE 
 }
 
+/*@ define:group
+---
+name: Pie Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Pie foods style
-group: Pie foods style
+label: Pie Food Style
+group: Pie Food Style
 exampleItem: Summer pie
+exampleItemId: 7218
 */
-#define VAR_PIE_FOODS_CUSTOMSTYLE 
+#define VAR_PIE_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_PIE_FOODS_LIST) {
     VAR_PIE_FOODS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Pizza Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Pizza foods style
-group: Pizza foods style
+label: Pizza Food Style
+group: Pizza Food Style
 exampleItem: Pineapple pizza
 */
-#define VAR_PIZZA_FOODS_CUSTOMSTYLE 
+#define VAR_PIZZA_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_PIZZA_FOODS_LIST) {
     VAR_PIZZA_FOODS_CUSTOMSTYLE
 }
 
+/*@ define:group
+---
+name: Cake Food Style
+icon: 
+  type: sprite
+  spriteId: 3288
+  spriteIndex: 0
+*/
+
 /*@ define:input:item_category_styles
 type: style
-label: Cake foods style
-group: Cake foods style
+label: Cake Food Style
+group: Cake Food Style
 exampleItem: Chocolate cake
 */
-#define VAR_CAKE_FOODS_CUSTOMSTYLE 
+#define VAR_CAKE_FOODS_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
 apply (name:CONST_CAKE_FOODS_LIST) {
     VAR_CAKE_FOODS_CUSTOMSTYLE
 }
