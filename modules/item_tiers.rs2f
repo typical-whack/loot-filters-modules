@@ -195,6 +195,16 @@ group: Tier 4
   "Araxyte fang", \
   "Tanzanite mutagen", \
   "Magma mutagen", \
+  "Earth Warrior champion scroll", \
+  "Ghoul champion scroll", \
+  "Giant champion scroll", \
+  "Goblin champion scroll", \
+  "Hobgoblin champion scroll", \
+  "Imp champion scroll", \
+  "Jogre champion scroll", \
+  "Lesser Demon champion scroll", \
+  "Skeleton champion scroll", \
+  "Zombie champion scroll", \
 ]
 
 /*@ define:input:item_tiers
