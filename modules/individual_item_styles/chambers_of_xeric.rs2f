@@ -63,7 +63,7 @@ type: style
 label: Revitalisation potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Revitalisation potion
-exampleItemId: 0000
+exampleItemId: 20960
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_REVITALISATION_CUSTOMSTYLE \
@@ -85,7 +85,7 @@ type: style
 label: Prayer enhance custom style
 group: Chambers of Xeric Styles
 exampleItem: Prayer enhance
-exampleItemId: 0000
+exampleItemId: 20972
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
@@ -110,7 +110,7 @@ type: style
 label: Elder potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Elder potion
-exampleItemId: 0000
+exampleItemId: 20924
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ELDER_CUSTOMSTYLE \
@@ -132,7 +132,7 @@ type: style
 label: Twisted potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Twisted potion
-exampleItemId: 0000
+exampleItemId: 20936
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_TWISTED_CUSTOMSTYLE \
@@ -154,7 +154,7 @@ type: style
 label: Kodai potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Kodai potion
-exampleItemId: 0000
+exampleItemId: 20948
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_KODAI_CUSTOMSTYLE \
@@ -176,7 +176,7 @@ type: style
 label: Antipoison custom style
 group: Chambers of Xeric Styles
 exampleItem: Antipoison
-exampleItemId: 0000
+exampleItemId: 25765
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ANTIPOISON_CUSTOMSTYLE \
@@ -201,7 +201,7 @@ type: style
 label: Golpar seed custom style
 group: Chambers of Xeric Styles
 exampleItem: Golpar seed
-exampleItemId: 0000
+exampleItemId: 20906
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_SEED_CUSTOMSTYLE \
@@ -220,7 +220,7 @@ type: style
 label: Buchu seed custom style
 group: Chambers of Xeric Styles
 exampleItem: Buchu seed
-exampleItemId: 0000
+exampleItemId: 20909
 backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_SEED_CUSTOMSTYLE \
@@ -239,7 +239,7 @@ type: style
 label: Noxifer seed custom style
 group: Chambers of Xeric Styles
 exampleItem: Noxifer seed
-exampleItemId: 0000
+exampleItemId: 20903
 backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_SEED_CUSTOMSTYLE \
@@ -258,7 +258,7 @@ type: style
 label: Grimy golpar custom style
 group: Chambers of Xeric Styles
 exampleItem: Grimy golpar
-exampleItemId: 0000
+exampleItemId: 20904
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_GOLPAR_CUSTOMSTYLE \
@@ -277,7 +277,7 @@ type: style
 label: Grimy buchu leaf custom style
 group: Chambers of Xeric Styles
 exampleItem: Grimy buchu leaf
-exampleItemId: 0000
+exampleItemId: 20907
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE \
@@ -296,7 +296,7 @@ type: style
 label: Grimy noxifer custom style
 group: Chambers of Xeric Styles
 exampleItem: Grimy noxifer
-exampleItemId: 0000
+exampleItemId: 20901
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_NOXIFER_CUSTOMSTYLE \
@@ -315,7 +315,7 @@ type: style
 label: Golpar custom style
 group: Chambers of Xeric Styles
 exampleItem: Golpar
-exampleItemId: 0000
+exampleItemId: 20905
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_CUSTOMSTYLE \
@@ -334,7 +334,7 @@ type: style
 label: Buchu leaf custom style
 group: Chambers of Xeric Styles
 exampleItem: Buchu leaf
-exampleItemId: 0000
+exampleItemId: 20908
 backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_LEAF_CUSTOMSTYLE \
@@ -353,7 +353,7 @@ type: style
 label: Noxifer custom style
 group: Chambers of Xeric Styles
 exampleItem: Noxifer
-exampleItemId: 0000
+exampleItemId: 20902
 backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_CUSTOMSTYLE \
@@ -372,7 +372,7 @@ type: style
 label: Endarkened juice custom style
 group: Chambers of Xeric Styles
 exampleItem: Endarkened juice
-exampleItemId: 0000
+exampleItemId: 20911
 backgroundImage: Chambers of Xeric
 */
 #define VAR_ENDARKENED_JUICE_CUSTOMSTYLE \
@@ -391,7 +391,7 @@ type: style
 label: Stinkhorn mushroom custom style
 group: Chambers of Xeric Styles
 exampleItem: Stinkhorn mushroom
-exampleItemId: 0000
+exampleItemId: 20910
 backgroundImage: Chambers of Xeric
 */
 #define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE \
@@ -410,7 +410,7 @@ type: style
 label: Cicely custom style
 group: Chambers of Xeric Styles
 exampleItem: Cicely
-exampleItemId: 0000
+exampleItemId: 20912
 backgroundImage: Chambers of Xeric
 */
 #define VAR_CICELY_CUSTOMSTYLE \
@@ -429,7 +429,7 @@ type: style
 label: Mallignum root plank custom style
 group: Chambers of Xeric Styles
 exampleItem: Mallignum root plank
-exampleItemId: 0000
+exampleItemId: 21036
 backgroundImage: Chambers of Xeric
 */
 #define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE \
@@ -448,7 +448,7 @@ type: style
 label: Cavern grubs custom style
 group: Chambers of Xeric Styles
 exampleItem: Cavern grubs
-exampleItemId: 0000
+exampleItemId: 20885
 backgroundImage: Chambers of Xeric
 */
 #define VAR_CAVERN_GRUBS_CUSTOMSTYLE \
@@ -467,7 +467,7 @@ type: style
 label: Empty gourd vial custom style
 group: Chambers of Xeric Styles
 exampleItem: Empty gourd vial
-exampleItemId: 0000
+exampleItemId: 20800
 backgroundImage: Chambers of Xeric
 */
 #define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE \
@@ -486,7 +486,7 @@ type: style
 label: Water-filled gourd vial custom style
 group: Chambers of Xeric Styles
 exampleItem: Water-filled gourd vial
-exampleItemId: 0000
+exampleItemId: 20801
 backgroundImage: Chambers of Xeric
 */
 #define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE \
