@@ -348,6 +348,16 @@ group: Uniques List
   "Adamant defender", \
   "Rune defender", \
   "Dragon defender", \
+  "Earth Warrior champion scroll", \
+  "Ghoul champion scroll", \
+  "Giant champion scroll", \
+  "Goblin champion scroll", \
+  "Hobgoblin champion scroll", \
+  "Imp champion scroll", \
+  "Jogre champion scroll", \
+  "Lesser Demon champion scroll", \
+  "Skeleton champion scroll", \
+  "Zombie champion scroll", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
