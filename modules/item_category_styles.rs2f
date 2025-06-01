@@ -161,6 +161,29 @@ apply (name:CONST_POTIONS_LIST) {
 
 /*@ define:group
 ---
+name: Barb Potions Style
+icon: 
+  type: sprite
+  spriteId: 3231
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Barb Potions Style
+group: Barb Potions Style
+exampleItem: Attack mix(2)
+exampleItemId: 11429
+*/
+#define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE \
+  icon = Sprite(3231, 0);
+
+apply (name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Logs Style
 icon: 
   type: sprite

@@ -1763,3 +1763,35 @@ name: Constants
   "Extended super antifire(*", \
   "Surge potion(*", \
 ]
+
+#define CONST_BARB_POTIONS_LIST [ \
+  "Attack mix*", \
+  "Antipoison mix*", \
+  "Relicym's mix*", \
+  "Strength mix*", \
+  "Restore mix*", \
+  "Energy mix*", \
+  "Defence mix*", \
+  "Agility mix*", \
+  "Combat mix*", \
+  "Prayer mix*", \
+  "Superattack mix*", \
+  "Anti-poison supermix*", \
+  "Fishing mix*", \
+  "Super energy mix*", \
+  "Hunting mix*", \
+  "Super str. mix*", \
+  "Magic essence mix*", \
+  "Super restore mix*", \
+  "Super def. mix*", \
+  "Antidote+ mix*", \
+  "Antifire mix*", \
+  "Ranging mix*", \
+  "Magic mix*", \
+  "Zamorak mix*", \
+  "Stamina mix*", \
+  "Extended antifire mix*", \
+  "Ancient mix*", \
+  "Super antifire mix*", \
+  "Extended super antifire mix*", \
+]
