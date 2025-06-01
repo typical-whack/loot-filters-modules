@@ -543,7 +543,7 @@ name: Constants
 ]
 
 #define CONST_FISH_FOODS_LIST [ \
-  "Shrimp", \
+  "Shrimps", \
   "Sardine", \
   "Karambwanji", \
   "Herring", \
@@ -552,7 +552,7 @@ name: Constants
   "Trout", \
   "Cod", \
   "Pike", \
-  "Slimy eel", \
+  "Cooked slimy eel", \
   "Salmon", \
   "Tuna", \
   "Rainbow fish", \

@@ -215,13 +215,13 @@ apply (name:"Salmon") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Slimy eel custom style
+label: Cooked slimy eel custom style
 group: Fish Styles
-exampleItem: Slimy eel
+exampleItem: Cooked slimy eel
 */
 #define VAR_SLIMY_EEL_CUSTOMSTYLE 
 
-apply (name:"Slimy eel") {
+apply (name:"Cooked slimy eel") {
     VAR_SLIMY_EEL_CUSTOMSTYLE 
 }
 
@@ -323,12 +323,12 @@ apply (name:"Sardine") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Shrimp custom style
+label: Shrimps custom style
 group: Fish Styles
-exampleItem: Shrimp
+exampleItem: Shrimps
 */
 #define VAR_SHRIMP_CUSTOMSTYLE 
 
-apply (name:"Shrimp") {
+apply (name:"Shrimps") {
     VAR_SHRIMP_CUSTOMSTYLE 
 }
