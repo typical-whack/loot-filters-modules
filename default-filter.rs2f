@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 17:01:33 UTC 2025 */
-/* Commit: c54a8a5 */
+/* Built on: Sun Jun  1 18:43:19 UTC 2025 */
+/* Commit: d225ef3 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7416,6 +7416,7 @@ type: style
 label: Currency Style
 group: Currency Style
 exampleItem: Coins
+exampleItemId: 1004
 */
 #define VAR_CURRENCY_CUSTOMSTYLE \
   textColor = "#FFBEB287";
@@ -7622,6 +7623,7 @@ type: style
 label: Raw fish Style
 group: Raw fish Style
 exampleItem: Raw tuna
+exampleItemId: 359
 */
 #define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
   icon = Sprite(3202, 0);
@@ -7759,6 +7761,7 @@ type: style
 label: Potatoes Food Style
 group: Potatoes Food Style
 exampleItem: Tuna potato
+exampleItemId: 7060
 */
 #define VAR_POTATOES_FOODS_CUSTOMSTYLE \
   icon = Sprite(3288, 0);
@@ -7827,6 +7830,7 @@ type: style
 label: Pizza Food Style
 group: Pizza Food Style
 exampleItem: Pineapple pizza
+exampleItemId: 2301
 */
 #define VAR_PIZZA_FOODS_CUSTOMSTYLE \
   icon = Sprite(3288, 0);
@@ -7849,6 +7853,7 @@ type: style
 label: Cake Food Style
 group: Cake Food Style
 exampleItem: Chocolate cake
+exampleItemId: 1897
 */
 #define VAR_CAKE_FOODS_CUSTOMSTYLE \
   icon = Sprite(3288, 0);
@@ -7862,6 +7867,7 @@ type: style
 label: Fishing equipment Style
 group: Fishing equipment Style
 exampleItem: Fishing rod
+exampleItemId: 307
 */
 #define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
 
@@ -7874,6 +7880,7 @@ type: style
 label: Fishing bait Style
 group: Fishing bait Style
 exampleItem: Fishing bait
+exampleItemId: 313
 */
 #define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
 
@@ -7886,6 +7893,7 @@ type: style
 label: Bronze Armour and Weapons
 group: Bronze Armour and Weapons
 exampleItem: Bronze platelegs
+exampleItemId: 1075
 */
 #define VAR_BRONZE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -7918,6 +7926,7 @@ type: style
 label: Iron Armour and Weapons
 group: Iron Armour and Weapons
 exampleItem: Iron platelegs
+exampleItemId: 1067
 */
 #define VAR_IRON_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -7950,6 +7959,7 @@ type: style
 label: Steel Armour and Weapons
 group: Steel Armour and Weapons
 exampleItem: Steel platelegs
+exampleItemId: 1069
 */
 #define VAR_STEEL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -7982,6 +7992,7 @@ type: style
 label: Black Armour and Weapons
 group: Black Armour and Weapons
 exampleItem: Black platelegs
+exampleItemId: 1077
 */
 #define VAR_BLACK_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8014,6 +8025,7 @@ type: style
 label: Mithril Armour and Weapons
 group: Mithril Armour and Weapons
 exampleItem: Mithril platelegs
+exampleItemId: 1071
 */
 #define VAR_MITHRIL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8046,6 +8058,7 @@ type: style
 label: Adamant Armour and Weapons
 group: Adamant Armour and Weapons
 exampleItem: Adamant platelegs
+exampleItemId: 1073
 */
 #define VAR_ADAMANT_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8078,6 +8091,7 @@ type: style
 label: Rune Armour and Weapons
 group: Rune Armour and Weapons
 exampleItem: Rune platelegs
+exampleItemId: 1079
 */
 #define VAR_RUNE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8110,6 +8124,7 @@ type: style
 label: Dragon Armour and Weapons
 group: Dragon Armour and Weapons
 exampleItem: Dragon platelegs
+exampleItemId: 4087
 */
 #define VAR_DRAGON_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8683,6 +8698,7 @@ type: style
 label: Beginner clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (beginner)
+exampleItemId: 23182
 */
 #define VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8700,6 +8716,7 @@ type: style
 label: Easy clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (easy)
+exampleItemId: 2677
 */
 #define VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8717,6 +8734,7 @@ type: style
 label: Medium clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (medium)
+exampleItemId: 2801
 */
 #define VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8734,6 +8752,7 @@ type: style
 label: Hard clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (hard)
+exampleItemId: 2722
 */
 #define VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8751,6 +8770,7 @@ type: style
 label: Elite clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (elite)
+exampleItemId: 12073
 */
 #define VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8768,6 +8788,7 @@ type: style
 label: Master clue scroll custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (master)
+exampleItemId: 19835
 */
 #define VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -8911,6 +8932,7 @@ type: style
 label: Overload custom style
 group: Chambers of Xeric Styles
 exampleItem: Overload
+exampleItemId: 20996
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_OVERLOAD_CUSTOMSTYLE \
@@ -8935,6 +8957,7 @@ type: style
 label: Xeric's aid custom style
 group: Chambers of Xeric Styles
 exampleItem: Xeric's aid
+exampleItemId: 20984
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_XERICS_AID_CUSTOMSTYLE \
@@ -8959,6 +8982,7 @@ type: style
 label: Revitalisation potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Revitalisation potion
+exampleItemId: 20960
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_REVITALISATION_CUSTOMSTYLE \
@@ -8980,6 +9004,7 @@ type: style
 label: Prayer enhance custom style
 group: Chambers of Xeric Styles
 exampleItem: Prayer enhance
+exampleItemId: 20972
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_PRAYER_ENHANCE_CUSTOMSTYLE \
@@ -9004,6 +9029,7 @@ type: style
 label: Elder potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Elder potion
+exampleItemId: 20924
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ELDER_CUSTOMSTYLE \
@@ -9025,6 +9051,7 @@ type: style
 label: Twisted potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Twisted potion
+exampleItemId: 20936
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_TWISTED_CUSTOMSTYLE \
@@ -9046,6 +9073,7 @@ type: style
 label: Kodai potion custom style
 group: Chambers of Xeric Styles
 exampleItem: Kodai potion
+exampleItemId: 20948
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_KODAI_CUSTOMSTYLE \
@@ -9067,6 +9095,7 @@ type: style
 label: Antipoison custom style
 group: Chambers of Xeric Styles
 exampleItem: Antipoison
+exampleItemId: 25765
 backgroundImage: Chambers of Xeric
 */
 #define VAR_COX_ANTIPOISON_CUSTOMSTYLE \
@@ -9091,6 +9120,7 @@ type: style
 label: Golpar seed custom style
 group: Chambers of Xeric Styles
 exampleItem: Golpar seed
+exampleItemId: 20906
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_SEED_CUSTOMSTYLE \
@@ -9109,6 +9139,7 @@ type: style
 label: Buchu seed custom style
 group: Chambers of Xeric Styles
 exampleItem: Buchu seed
+exampleItemId: 20909
 backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_SEED_CUSTOMSTYLE \
@@ -9127,6 +9158,7 @@ type: style
 label: Noxifer seed custom style
 group: Chambers of Xeric Styles
 exampleItem: Noxifer seed
+exampleItemId: 20903
 backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_SEED_CUSTOMSTYLE \
@@ -9145,6 +9177,7 @@ type: style
 label: Grimy golpar custom style
 group: Chambers of Xeric Styles
 exampleItem: Grimy golpar
+exampleItemId: 20904
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_GOLPAR_CUSTOMSTYLE \
@@ -9163,6 +9196,7 @@ type: style
 label: Grimy buchu leaf custom style
 group: Chambers of Xeric Styles
 exampleItem: Grimy buchu leaf
+exampleItemId: 20907
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_BUCHU_LEAF_CUSTOMSTYLE \
@@ -9181,6 +9215,7 @@ type: style
 label: Grimy noxifer custom style
 group: Chambers of Xeric Styles
 exampleItem: Grimy noxifer
+exampleItemId: 20901
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GRIMY_NOXIFER_CUSTOMSTYLE \
@@ -9199,6 +9234,7 @@ type: style
 label: Golpar custom style
 group: Chambers of Xeric Styles
 exampleItem: Golpar
+exampleItemId: 20905
 backgroundImage: Chambers of Xeric
 */
 #define VAR_GOLPAR_CUSTOMSTYLE \
@@ -9217,6 +9253,7 @@ type: style
 label: Buchu leaf custom style
 group: Chambers of Xeric Styles
 exampleItem: Buchu leaf
+exampleItemId: 20908
 backgroundImage: Chambers of Xeric
 */
 #define VAR_BUCHU_LEAF_CUSTOMSTYLE \
@@ -9235,6 +9272,7 @@ type: style
 label: Noxifer custom style
 group: Chambers of Xeric Styles
 exampleItem: Noxifer
+exampleItemId: 20902
 backgroundImage: Chambers of Xeric
 */
 #define VAR_NOXIFER_CUSTOMSTYLE \
@@ -9253,6 +9291,7 @@ type: style
 label: Endarkened juice custom style
 group: Chambers of Xeric Styles
 exampleItem: Endarkened juice
+exampleItemId: 20911
 backgroundImage: Chambers of Xeric
 */
 #define VAR_ENDARKENED_JUICE_CUSTOMSTYLE \
@@ -9271,6 +9310,7 @@ type: style
 label: Stinkhorn mushroom custom style
 group: Chambers of Xeric Styles
 exampleItem: Stinkhorn mushroom
+exampleItemId: 20910
 backgroundImage: Chambers of Xeric
 */
 #define VAR_STINKHORN_MUSHROOM_CUSTOMSTYLE \
@@ -9289,6 +9329,7 @@ type: style
 label: Cicely custom style
 group: Chambers of Xeric Styles
 exampleItem: Cicely
+exampleItemId: 20912
 backgroundImage: Chambers of Xeric
 */
 #define VAR_CICELY_CUSTOMSTYLE \
@@ -9307,6 +9348,7 @@ type: style
 label: Mallignum root plank custom style
 group: Chambers of Xeric Styles
 exampleItem: Mallignum root plank
+exampleItemId: 21036
 backgroundImage: Chambers of Xeric
 */
 #define VAR_MALLIGNUM_ROOT_PLANK_CUSTOMSTYLE \
@@ -9325,6 +9367,7 @@ type: style
 label: Cavern grubs custom style
 group: Chambers of Xeric Styles
 exampleItem: Cavern grubs
+exampleItemId: 20885
 backgroundImage: Chambers of Xeric
 */
 #define VAR_CAVERN_GRUBS_CUSTOMSTYLE \
@@ -9343,6 +9386,7 @@ type: style
 label: Empty gourd vial custom style
 group: Chambers of Xeric Styles
 exampleItem: Empty gourd vial
+exampleItemId: 20800
 backgroundImage: Chambers of Xeric
 */
 #define VAR_EMPTY_GOURD_VIAL_CUSTOMSTYLE \
@@ -9361,6 +9405,7 @@ type: style
 label: Water-filled gourd vial custom style
 group: Chambers of Xeric Styles
 exampleItem: Water-filled gourd vial
+exampleItemId: 20801
 backgroundImage: Chambers of Xeric
 */
 #define VAR_WATER_FILLED_GOURD_VIAL_CUSTOMSTYLE \
@@ -11773,6 +11818,7 @@ type: style
 label: Bronze bar custom style
 group: Bars Styles
 exampleItem: Bronze bar
+exampleItemId: 2349
 */
 #define VAR_BRONZE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11790,6 +11836,7 @@ type: style
 label: Iron bar custom style
 group: Bars Styles
 exampleItem: Iron bar
+exampleItemId: 2351
 */
 #define VAR_IRON_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11807,6 +11854,7 @@ type: style
 label: Steel bar custom style
 group: Bars Styles
 exampleItem: Steel bar
+exampleItemId: 2353
 */
 #define VAR_STEEL_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11824,6 +11872,7 @@ type: style
 label: Mithril bar custom style
 group: Bars Styles
 exampleItem: Mithril bar
+exampleItemId: 2359
 */
 #define VAR_MITHRIL_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11841,6 +11890,7 @@ type: style
 label: Adamantite bar custom style
 group: Bars Styles
 exampleItem: Adamantite bar
+exampleItemId: 2361
 */
 #define VAR_ADAMANTITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11858,6 +11908,7 @@ type: style
 label: Runite bar custom style
 group: Bars Styles
 exampleItem: Runite bar
+exampleItemId: 2363
 */
 #define VAR_RUNITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11875,6 +11926,7 @@ type: style
 label: Silver bar custom style
 group: Bars Styles
 exampleItem: Silver bar
+exampleItemId: 2355
 */
 #define VAR_SILVER_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11892,6 +11944,7 @@ type: style
 label: Gold bar custom style
 group: Bars Styles
 exampleItem: Gold bar
+exampleItemId: 2357
 */
 #define VAR_GOLD_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11909,6 +11962,7 @@ type: style
 label: Elemental metal custom style
 group: Bars Styles
 exampleItem: Elemental metal
+exampleItemId: 2893
 */
 #define VAR_ELEMENTAL_METAL_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11926,6 +11980,7 @@ type: style
 label: Primed bar custom style
 group: Bars Styles
 exampleItem: Primed bar
+exampleItemId: 9727
 */
 #define VAR_PRIMED_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11943,6 +11998,7 @@ type: style
 label: Primed mind bar custom style
 group: Bars Styles
 exampleItem: Primed mind bar
+exampleItemId: 9728
 */
 #define VAR_PRIMED_MIND_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11960,6 +12016,7 @@ type: style
 label: Blurite bar custom style
 group: Bars Styles
 exampleItem: Blurite bar
+exampleItemId: 9467
 */
 #define VAR_BLURITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11977,6 +12034,7 @@ type: style
 label: Enchanted bar custom style
 group: Bars Styles
 exampleItem: Enchanted bar
+exampleItemId: 4007
 */
 #define VAR_ENCHANTED_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -11994,6 +12052,7 @@ type: style
 label: Lovakite bar custom style
 group: Bars Styles
 exampleItem: Lovakite bar
+exampleItemId: 13354
 */
 #define VAR_LOVAKITE_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -12011,6 +12070,7 @@ type: style
 label: "'Perfect' gold bar custom style"
 group: Bars Styles
 exampleItem: "'Perfect' gold bar"
+exampleItemId: 2365
 */
 #define VAR_PERFECT_GOLD_BAR_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
@@ -13557,6 +13617,7 @@ type: style
 label: Abyssal pearls custom style
 group: Currency Styles
 exampleItem: Abyssal pearls
+exampleItemId: 26792
 */
 #define VAR_ABYSSAL_PEARLS_CUSTOMSTYLE 
 
@@ -13569,6 +13630,7 @@ type: style
 label: Agility arena ticket custom style
 group: Currency Styles
 exampleItem: Agility arena ticket
+exampleItemId: 29480
 */
 #define VAR_AGILITY_ARENA_TICKET_CUSTOMSTYLE 
 
@@ -13581,6 +13643,7 @@ type: style
 label: Anima-infused bark custom style
 group: Currency Styles
 exampleItem: Anima-infused bark
+exampleItemId: 28134
 */
 #define VAR_ANIMA_INFUSED_BARK_CUSTOMSTYLE 
 
@@ -13593,6 +13656,7 @@ type: style
 label: Archery ticket custom style
 group: Currency Styles
 exampleItem: Archery ticket
+exampleItemId: 1464
 */
 #define VAR_ARCHERY_TICKET_CUSTOMSTYLE 
 
@@ -13605,6 +13669,7 @@ type: style
 label: Barronite shards custom style
 group: Currency Styles
 exampleItem: Barronite shards
+exampleItemId: 25676
 */
 #define VAR_BARRONITE_SHARDS_CUSTOMSTYLE 
 
@@ -13617,6 +13682,7 @@ type: style
 label: Blood money custom style
 group: Currency Styles
 exampleItem: Blood money
+exampleItemId: 13307
 */
 #define VAR_BLOOD_MONEY_CUSTOMSTYLE 
 
@@ -13629,6 +13695,7 @@ type: style
 label: Brimhaven voucher custom style
 group: Currency Styles
 exampleItem: Brimhaven voucher
+exampleItemId: 29482
 */
 #define VAR_BRIMHAVEN_VOUCHER_CUSTOMSTYLE 
 
@@ -13641,6 +13708,7 @@ type: style
 label: Castle wars ticket custom style
 group: Currency Styles
 exampleItem: Castle wars ticket
+exampleItemId: 4067
 */
 #define VAR_CASTLE_WARS_TICKET_CUSTOMSTYLE 
 
@@ -13653,6 +13721,7 @@ type: style
 label: Coins custom style
 group: Currency Styles
 exampleItem: Coins
+exampleItemId: 1004
 */
 #define VAR_COINS_CUSTOMSTYLE 
 
@@ -13665,6 +13734,7 @@ type: style
 label: Ecto-token custom style
 group: Currency Styles
 exampleItem: Ecto-token
+exampleItemId: 4278
 */
 #define VAR_ECTO_TOKEN_CUSTOMSTYLE 
 
@@ -13677,6 +13747,7 @@ type: style
 label: Frog token custom style
 group: Currency Styles
 exampleItem: Frog token
+exampleItemId: 6183
 */
 #define VAR_FROG_TOKEN_CUSTOMSTYLE 
 
@@ -13689,6 +13760,7 @@ type: style
 label: Glistening tear custom style
 group: Currency Styles
 exampleItem: Glistening tear
+exampleItemId: 22207
 */
 #define VAR_GLISTENING_TEAR_CUSTOMSTYLE 
 
@@ -13701,6 +13773,7 @@ type: style
 label: Golden nugget custom style
 group: Currency Styles
 exampleItem: Golden nugget
+exampleItemId: 12012
 */
 #define VAR_GOLDEN_NUGGET_CUSTOMSTYLE 
 
@@ -13713,6 +13786,7 @@ type: style
 label: Hallowed mark custom style
 group: Currency Styles
 exampleItem: Hallowed mark
+exampleItemId: 24711
 */
 #define VAR_HALLOWED_MARK_CUSTOMSTYLE 
 
@@ -13725,6 +13799,7 @@ type: style
 label: Intelligence custom style
 group: Currency Styles
 exampleItem: Intelligence
+exampleItemId: 13395
 */
 #define VAR_INTELLIGENCE_CUSTOMSTYLE 
 
@@ -13737,6 +13812,7 @@ type: style
 label: Mark of grace custom style
 group: Currency Styles
 exampleItem: Mark of grace
+exampleItemId: 11849
 */
 #define VAR_MARK_OF_GRACE_CUSTOMSTYLE 
 
@@ -13749,6 +13825,7 @@ type: style
 label: Mermaid's tear custom style
 group: Currency Styles
 exampleItem: Mermaid's tear
+exampleItemId: 21656
 */
 #define VAR_MERMAIDS_TEAR_CUSTOMSTYLE 
 
@@ -13761,6 +13838,7 @@ type: style
 label: Minnow custom style
 group: Currency Styles
 exampleItem: Minnow
+exampleItemId: 21356
 */
 #define VAR_MINNOW_CUSTOMSTYLE 
 
@@ -13773,6 +13851,7 @@ type: style
 label: Molch pearl custom style
 group: Currency Styles
 exampleItem: Molch pearl
+exampleItemId: 22820
 */
 #define VAR_MOLCH_PEARL_CUSTOMSTYLE 
 
@@ -13785,6 +13864,7 @@ type: style
 label: Mole claw custom style
 group: Currency Styles
 exampleItem: Mole claw
+exampleItemId: 7416
 */
 #define VAR_MOLE_CLAW_CUSTOMSTYLE 
 
@@ -13797,6 +13877,7 @@ type: style
 label: Mole skin custom style
 group: Currency Styles
 exampleItem: Mole skin
+exampleItemId: 7418
 */
 #define VAR_MOLE_SKIN_CUSTOMSTYLE 
 
@@ -13809,6 +13890,7 @@ type: style
 label: Nuggets custom style
 group: Currency Styles
 exampleItem: Nuggets
+exampleItemId: 680
 */
 #define VAR_NUGGETS_CUSTOMSTYLE 
 
@@ -13821,6 +13903,7 @@ type: style
 label: Numulite custom style
 group: Currency Styles
 exampleItem: Numulite
+exampleItemId: 21555
 */
 #define VAR_NUMULITE_CUSTOMSTYLE 
 
@@ -13833,6 +13916,7 @@ type: style
 label: Paramaya ticket custom style
 group: Currency Styles
 exampleItem: Paramaya ticket
+exampleItemId: 619
 */
 #define VAR_PARAMAYA_TICKET_CUSTOMSTYLE 
 
@@ -13845,6 +13929,7 @@ type: style
 label: Platinum token custom style
 group: Currency Styles
 exampleItem: Platinum token
+exampleItemId: 13204
 */
 #define VAR_PLATINUM_TOKEN_CUSTOMSTYLE 
 
@@ -13854,33 +13939,10 @@ apply (name:"Platinum token") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Rare creature parts custom style
-group: Currency Styles
-exampleItem: Rare creature parts
-*/
-#define VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE 
-
-apply (name:"Rare creature parts") {
-    VAR_RARE_CREATURE_PARTS_CUSTOMSTYLE
-}
-
-/*@ define:input:individual_item_styles
-type: style
-label: Reward token credits custom style
-group: Currency Styles
-exampleItem: Reward token credits
-*/
-#define VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE 
-
-apply (name:"Reward token credits") {
-    VAR_REWARD_TOKEN_CREDITS_CUSTOMSTYLE
-}
-
-/*@ define:input:individual_item_styles
-type: style
 label: Shantay pass custom style
 group: Currency Styles
 exampleItem: Shantay pass
+exampleItemId: 1854
 */
 #define VAR_SHANTAY_PASS_CUSTOMSTYLE 
 
@@ -13893,6 +13955,7 @@ type: style
 label: Ship ticket custom style
 group: Currency Styles
 exampleItem: Ship ticket
+exampleItemId: 621
 */
 #define VAR_SHIP_TICKET_CUSTOMSTYLE 
 
@@ -13905,6 +13968,7 @@ type: style
 label: Stardust custom style
 group: Currency Styles
 exampleItem: Stardust
+exampleItemId: 25527
 */
 #define VAR_STARDUST_CUSTOMSTYLE 
 
@@ -13917,6 +13981,7 @@ type: style
 label: Termites custom style
 group: Currency Styles
 exampleItem: Termites
+exampleItemId: 30038
 */
 #define VAR_TERMITES_CUSTOMSTYLE 
 
@@ -13929,6 +13994,7 @@ type: style
 label: Tokkul custom style
 group: Currency Styles
 exampleItem: Tokkul
+exampleItemId: 6529
 */
 #define VAR_TOKKUL_CUSTOMSTYLE 
 
@@ -13941,6 +14007,7 @@ type: style
 label: Trading sticks custom style
 group: Currency Styles
 exampleItem: Trading sticks
+exampleItemId: 6306
 */
 #define VAR_TRADING_STICKS_CUSTOMSTYLE 
 
@@ -13953,6 +14020,7 @@ type: style
 label: Unidentified minerals custom style
 group: Currency Styles
 exampleItem: Unidentified minerals
+exampleItemId: 21341
 */
 #define VAR_UNIDENTIFIED_MINERALS_CUSTOMSTYLE 
 
@@ -13965,6 +14033,7 @@ type: style
 label: Warrior guild token custom style
 group: Currency Styles
 exampleItem: Warrior guild token
+exampleItemId: 8851
 */
 #define VAR_WARRIOR_GUILD_TOKEN_CUSTOMSTYLE 
 
@@ -14525,6 +14594,7 @@ enum: [
 type: style
 label: RDT custom style
 exampleItem: Dragon spear
+exampleItemId: 1249
 */
 #define VAR_RDT_CUSTOMSTYLE \
   borderColor = "#FFdea71a";
