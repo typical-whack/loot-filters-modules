@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun  1 19:02:42 UTC 2025 */
-/* Commit: 15da667 */
+/* Built on: Sun Jun  1 19:53:05 UTC 2025 */
+/* Commit: 8310f4d */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6992,8 +6992,6 @@ group: Uniques List
   "Hydra's fang", \
   "Hydra's eye", \
   "Hydra's heart", \
-  "Dragon knife", \
-  "Dragon thrownaxe", \
   "Alchemical hydra heads", \
   "Ahrim's hood", \
   "Ahrim's robetop", \
@@ -7447,6 +7445,29 @@ apply (name:CONST_CURRENCY_LIST) {
 
 /*@ define:group
 ---
+name: Ammo Style
+icon: 
+  type: sprite
+  spriteId: 4239
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Ammo Style
+group: Ammo Style
+exampleItem: Bronze arrow
+exampleItemId: 897
+*/
+#define VAR_CATEGORY_AMMO_CUSTOMSTYLE \
+  icon = Sprite(3190, 0);
+
+apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+    VAR_CATEGORY_AMMO_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
 name: Runes Style
 icon: 
   type: sprite
@@ -7880,6 +7901,259 @@ exampleItemId: 1897
 
 apply (name:CONST_CAKE_FOODS_LIST) {
     VAR_CAKE_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Unstrung Shortbows Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Unstrung Shortbows Style
+group: Fletching Unstrung Shortbows Style
+exampleItem: Shortbow (u)
+exampleItemId: 50
+*/
+#define VAR_CATEGORY_FLETCHING_UNSTRUNG_SHORTBOW_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST) {
+  VAR_CATEGORY_FLETCHING_UNSTRUNG_SHORTBOW_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Unstrung Longbows Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Unstrung Longbows Style
+group: Fletching Unstrung Longbows Style
+exampleItem: Longbow (u)
+exampleItemId: 48
+*/
+#define VAR_CATEGORY_FLETCHING_UNSTRUNG_LONGBOW_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST) {
+  VAR_CATEGORY_FLETCHING_UNSTRUNG_LONGBOW_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Crossbow Stocks Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Crossbow Stocks Style
+group: Fletching Crossbow Stocks Style
+exampleItem: Wooden stock
+exampleItemId: 9440
+*/
+#define VAR_CATEGORY_FLETCHING_CROSSBOW_STOCK_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
+  VAR_CATEGORY_FLETCHING_CROSSBOW_STOCK_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Crossbow Limbs Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Crossbow Limbs Style
+group: Fletching Crossbow Limbs Style
+exampleItem: Bronze limbs
+exampleItemId: 9420
+*/
+#define VAR_CATEGORY_FLETCHING_CROSSBOW_LIMBS_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST) {
+  VAR_CATEGORY_FLETCHING_CROSSBOW_LIMBS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Unstrung Crossbows Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Unstrung Crossbows Style
+group: Fletching Unstrung Crossbows Style
+exampleItem: Bronze crossbow (u)
+exampleItemId: 9454
+*/
+#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CROSSBOW_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST) {
+  VAR_CATEGORY_FLETCHING_UNSTRUNG_CROSSBOW_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Arrowtips Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Arrowtips Style
+group: Fletching Arrowtips Style
+exampleItem: Bronze arrowtips
+exampleItemId: 39
+*/
+#define VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_ARROW_TIPS_LIST) {
+  VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Dart Tips Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Dart Tips Style
+group: Fletching Dart Tips Style
+exampleItem: Bronze dart tip
+exampleItemId: 819
+*/
+#define VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_DART_TIP_LIST) {
+  VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Javelin Heads Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Javelin Heads Style
+group: Fletching Javelin Heads Style
+exampleItem: Bronze javelin heads
+exampleItemId: 19570
+*/
+#define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_JAVELIN_HEADS_LIST) {
+  VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Unfinished Bolts Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Unfinished Bolts Style
+group: Fletching Unfinished Bolts Style
+exampleItem: Bronze bolts (unf)
+exampleItemId: 9375
+*/
+#define VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_UNFINISHED_BOLTS_LIST) {
+  VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Bolt Tips Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Bolt Tips Style
+group: Fletching Bolt Tips Style
+exampleItem: Opal bolt tips
+exampleItemId: 45
+*/
+#define VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_BOLT_TIPS_LIST) {
+  VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE
+}
+
+/*@ define:group
+---
+name: Fletching Misc Style
+icon: 
+  type: sprite
+  spriteId: 4247
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fletching Misc Style
+group: Fletching Misc Style
+exampleItem: Javelin shaft
+exampleItemId: 19584
+*/
+#define VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_MISC_LIST) {
+  VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 }
 
 /*@ define:input:item_category_styles
@@ -17559,4 +17833,126 @@ name: Constants
   "Ancient mix*", \
   "Super antifire mix*", \
   "Extended super antifire mix*", \
+]
+
+#define CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST [ \
+  "Shortbow (u)", \
+  "Oak shortbow (u)", \
+  "Willow shortbow (u)", \
+  "Maple shortbow (u)", \
+  "Yew shortbow (u)", \
+  "Magic shortbow (u)", \
+]
+
+#define CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST [ \
+  "Longbow (u)", \
+  "Oak Longbow (u)", \
+  "Willow Longbow (u)", \
+  "Maple Longbow (u)", \
+  "Yew Longbow (u)", \
+  "Magic Longbow (u)", \
+]
+
+#define CONST_FLETCHING_CROSSBOW_STOCK_LIST [ \
+  "Wooden stock", \
+  "Oak stock", \
+  "Willow stock", \
+  "Teak stock", \
+  "Maple stock", \
+  "Mahogany stock", \
+  "Yew stock", \
+  "Magic stock", \
+]
+
+#define CONST_FLETCHING_CROSSBOW_LIMBS_LIST [ \
+  "Bronze limbs", \
+  "Blurite limbs", \
+  "Iron limbs", \
+  "Steel limbs", \
+  "Mithril limbs", \
+  "Adamantite limbs", \
+  "Runite limbs", \
+]
+
+#define CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST [ \
+  "Bronze crossbow (u)", \
+  "Blurite crossbow (u)", \
+  "Iron crossbow (u)", \
+  "Steel crossbow (u)", \
+  "Mithril crossbow (u)", \
+  "Adamant crossbow (u)", \
+  "Runite crossbow (u)", \
+]
+
+#define CONST_FLETCHING_ARROW_TIPS_LIST [ \
+  "Bronze arrowtips", \
+  "Iron arrowtips", \
+  "Steel arrowtips", \
+  "Mithril arrowtips", \
+  "Adamant arrowtips", \
+  "Rune arrowtips", \
+  "Amethyst arrowtips", \
+  "Dragon arrowtips", \
+  "Broad arrowheads", \
+  "Wolfbone arrowtips", \
+]
+
+#define CONST_FLETCHING_DART_TIP_LIST [ \
+  "Bronze dart tip", \
+  "Iron dart tip", \
+  "Steel dart tip", \
+  "Mithril dart tip", \
+  "Adamant dart tip", \
+  "Rune dart tip", \
+  "Amethyst dart tip", \
+  "Dragon dart tip", \
+]
+
+#define CONST_FLETCHING_JAVELIN_HEADS_LIST [ \
+  "Bronze javelin heads", \
+  "Iron javelin heads", \
+  "Steel javelin heads", \
+  "Mithril javelin heads", \
+  "Adamant javelin heads", \
+  "Rune javelin heads", \
+  "Amethyst javelin heads", \
+  "Dragon javelin heads", \
+]
+
+#define CONST_FLETCHING_UNFINISHED_BOLTS_LIST [ \
+  "Bronze bolts (unf)", \
+  "Iron bolts (unf)", \
+  "Steel bolts (unf)", \
+  "Mithril bolts (unf)", \
+  "Adamant bolts(unf)", \
+  "Runite bolts (unf)", \
+  "Dragon bolts (unf)", \
+  "Blurite bolts (unf)", \
+  "Silver bolts (unf)", \
+  "Unfinished broad bolts", \
+]
+
+#define CONST_FLETCHING_BOLT_TIPS_LIST [ \
+  "Opal bolt tips", \
+  "Jade bolt tips", \
+  "Pearl bolt tips", \
+  "Red topaz bolt tips", \
+  "Sapphire bolt tips", \
+  "Emerald bolt tips", \
+  "Ruby bolt tips", \
+  "Diamond bolt tips", \
+  "Amethyst bolt tips", \
+  "Dragonstone bolt tips", \
+  "Onyx bolt tips", \
+]
+
+#define CONST_FLETCHING_MISC_LIST [ \
+  "Bow string", \
+  "Crossbow string", \
+  "Unstrung comp bow", \
+  "Javelin shaft", \
+  "Arrow shaft", \
+  "Ogre arrow shaft", \
+  "Headless arrow", \
+  "Flighted ogre arrow", \
 ]
