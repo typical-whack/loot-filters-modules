@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon Jun  2 04:33:31 UTC 2025 */
-/* Commit: 92307bc */
+/* Built on: Mon Jun  2 16:00:26 UTC 2025 */
+/* Commit: 80ae7cb */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -1562,29 +1562,16 @@ type: enumlist
 label: Special arrows to force hidden
 group: Ammo
 enum: [
-  {
-    "value": "Training Arrow",
-    "label": "Training Arrows"
-  },
-  {
-    "value": "Ogre Arrow",
-    "label": "Ogre Arrows"
-  },
-  {
-    "value": "Ice Arrow",
-    "label": "Ice Arrows"
-  },
-  {
-    "value": "Broad Arrow",
-    "label": "Broad Arrows"
-  }
+  "Training Arrows",
+  "Ogre Arrow",
+  "Ice Arrows",
+  "Broad Arrows"
 ]
 */
 #define VAR_AMMO_SPECIAL_ARROWS_HIDE [ \
-  "Training Arrow", \
+  "Training Arrows", \
   "Ogre Arrow", \
-  "Ice Arrow", \
-  "Broad Arrow", \
+  "Broad Arrows", \
 ]
 
 /*@ define:input:ammo
