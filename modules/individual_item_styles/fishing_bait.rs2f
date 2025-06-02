@@ -103,3 +103,15 @@ exampleItem: Raw karambwanji
 apply (name:"Raw karambwanji") {
     VAR_RAW_KARAMBWANJI_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: Diabolic worms custom style
+group: Fishing Bait Styles
+exampleItem: Diabolic worms
+*/
+#define VAR_DIABOLIC_WORMS_CUSTOMSTYLE 
+
+apply (name:"Diabolic worms") {
+    VAR_DIABOLIC_WORMS_CUSTOMSTYLE 
+}

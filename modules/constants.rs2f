@@ -470,6 +470,7 @@ name: Constants
   "King worm", \
   "Fish chunks", \
   "Raw karambwanji", \
+  "Diabolic worms", \
 ]
 
 #define CONST_FISHING_RAW_FISH_LIST [ \
