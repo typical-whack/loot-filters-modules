@@ -464,29 +464,16 @@ type: enumlist
 label: Special arrows to force hidden
 group: Ammo
 enum: [
-  {
-    "value": "Training Arrow",
-    "label": "Training Arrows"
-  },
-  {
-    "value": "Ogre Arrow",
-    "label": "Ogre Arrows"
-  },
-  {
-    "value": "Ice Arrow",
-    "label": "Ice Arrows"
-  },
-  {
-    "value": "Broad Arrow",
-    "label": "Broad Arrows"
-  }
+  "Training Arrows",
+  "Ogre Arrow",
+  "Ice Arrows",
+  "Broad Arrows"
 ]
 */
 #define VAR_AMMO_SPECIAL_ARROWS_HIDE [ \
-  "Training Arrow", \
+  "Training Arrows", \
   "Ogre Arrow", \
-  "Ice Arrow", \
-  "Broad Arrow", \
+  "Broad Arrows", \
 ]
 
 /*@ define:input:ammo
