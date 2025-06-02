@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon Jun  2 23:42:49 UTC 2025 */
-/* Commit: f6e2ef3 */
+/* Built on: Mon Jun  2 23:58:03 UTC 2025 */
+/* Commit: 166e1bc */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7483,6 +7483,15 @@ icon:
   type: sprite
   spriteId: 4239
   spriteIndex: 0
+description: |
+  Covers:
+  - Standard Arrows
+  - Darts
+  - Bolts
+  - Javelins
+  - Special Bolts
+  - Brutal Arrows
+  - Special Arrows
 */
 
 /*@ define:input:item_category_styles
@@ -7598,6 +7607,33 @@ icon:
   type: sprite
   spriteId: 4244
   spriteIndex: 0
+description: |
+  Covers:
+  - Eye of newt
+  - Unicorn horn dust
+  - Limpwurt root
+  - Volcanic ash
+  - Red spiders' eggs
+  - Chocolate dust
+  - White berries
+  - Toad's legs
+  - Goat horn dust
+  - Snape grass
+  - Mort myre fungus
+  - Kebbit teeth dust
+  - Dragon scale dust
+  - Nail beast nails
+  - Yew roots
+  - Wine of zamorak
+  - Potato cactus
+  - Jangerberries
+  - Magic roots
+  - Crushed nest
+  - Poison ivy berries
+  - Nihil dust
+  - Lily of the sands
+  - Aldarium
+  - Araxyte venom sack
 */
 
 /*@ define:input:item_category_styles
