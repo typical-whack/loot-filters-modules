@@ -1917,3 +1917,33 @@ name: Constants
   "Headless arrow", \
   "Flighted ogre arrow", \
 ]
+
+#define CONST_CONSTRUCTION_PLANKS_LIST [ \
+  "Plank", \
+  "Oak Plank", \
+  "Teak Plank", \
+  "Mahogany Plank", \
+]
+
+#define CONST_CONSTRUCTION_NAILS_LIST [ \
+  "Bronze Nails", \
+  "Iron Nails", \
+  "Steel Nails", \
+  "Black Nails", \
+  "Mithril Nails", \
+  "Adamant Nails", \
+  "Rune Nails", \
+]
+
+#define CONST_CONSTRUCTION_STONEMASON_LIST [ \
+  "Limestone brick", \
+  "Marble block", \
+  "Gold leaf", \
+  "Condensed gold", \
+  "Magic stone", \
+]
+
+#define CONST_CONSTRUCTION_MISC_LIST [ \
+  "Bolt of cloth", \
+  "Saw", \
+]

@@ -659,6 +659,37 @@ apply (name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIS
   VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 }
 
+
+/*@ define:group
+---
+name: Construction Style
+icon: 
+  type: sprite
+  spriteId: 4258
+  spriteIndex: 0
+description: |
+  Covers:
+  - Planks
+  - Nails
+  - Stonemason items
+  - Bolt of cloth
+  - Saw
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Construction Style
+group: Construction Style
+exampleItem: Plank
+exampleItemId: 960
+*/
+#define VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE \
+  icon = Sprite(3208, 0);
+
+apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST || name:CONST_CONSTRUCTION_STONEMASON_LIST || name:CONST_CONSTRUCTION_MISC_LIST) {
+  VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE
+}
+
 /*@ define:input:item_category_styles
 type: style
 label: Fishing equipment Style
