@@ -8,6 +8,52 @@ description: |
   Individual item styles will replace these styles if they are defined.
 */
 
+/*@ define:group
+---
+name: Currency Style
+icon: 
+  type: sprite
+  spriteId: 1531
+  spriteIndex: 0
+description: |
+  Covers:
+  - Abyssal pearls
+  - Agility arena ticket
+  - Anima-infused bark
+  - Archery ticket
+  - Barronite shards
+  - Blood money
+  - Brimhaven voucher
+  - Castle wars ticket
+  - Coins
+  - Ecto-token
+  - Frog token
+  - Glistening tear
+  - Golden nugget
+  - Hallowed mark
+  - Intelligence
+  - Mark of grace
+  - Mermaid's tear
+  - Minnow
+  - Molch pearl
+  - Mole claw
+  - Mole skin
+  - Nuggets
+  - Numulite
+  - Paramaya ticket
+  - Platinum token
+  - Rare creature parts
+  - Reward token credits
+  - Shantay pass
+  - Ship ticket
+  - Stardust
+  - Termites
+  - Tokkul
+  - Trading sticks
+  - Unidentified minerals
+  - Warrior guild token
+*/
+
 /*@ define:input:item_category_styles
 type: style
 label: Currency Style
