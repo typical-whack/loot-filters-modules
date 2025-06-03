@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon Jun  2 16:00:26 UTC 2025 */
-/* Commit: 80ae7cb */
+/* Built on: Tue Jun  3 01:22:31 UTC 2025 */
+/* Commit: 9eeb694 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7387,6 +7387,7 @@ group: List of alchables
   "Rune spear", \
   "Rune sq shield", \
   "Rune sword", \
+  "Rune warhammer", \
   "Runite crossbow (u)", \
   "Runite limbs", \
   "Water battlestaff", \
