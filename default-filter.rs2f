@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon Jun  2 23:58:03 UTC 2025 */
-/* Commit: 166e1bc */
+/* Built on: Tue Jun  3 01:05:19 UTC 2025 */
+/* Commit: 335e87d */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7415,7 +7415,6 @@ description: |
 
   Individual item styles will replace these styles if they are defined.
 */
-
 /*@ define:group
 ---
 name: Currency Style
@@ -7475,7 +7474,6 @@ exampleItemId: 1004
 apply (name:CONST_CURRENCY_LIST) {
     VAR_CURRENCY_CUSTOMSTYLE 
 }
-
 /*@ define:group
 ---
 name: Ammo Style
@@ -7507,7 +7505,6 @@ exampleItemId: 897
 apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
     VAR_CATEGORY_AMMO_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Runes Style
@@ -7530,7 +7527,6 @@ exampleItemId: 556
 apply (name:CONST_RUNES_LIST) {
     VAR_CATEGORY_RUNES_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Ores Style
@@ -7553,7 +7549,6 @@ exampleItemId: 436
 apply (name:CONST_ORES_LIST) {
     VAR_CATEGORY_ORES_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Bars Style
@@ -7576,7 +7571,6 @@ exampleItemId: 2349
 apply (name:CONST_BARS_LIST) {
     VAR_CATEGORY_BARS_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Herbs Style
@@ -7649,7 +7643,6 @@ exampleItemId: 221
 apply (name:CONST_SECONDARIES_LIST) {
     VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Potions Style
@@ -7674,7 +7667,6 @@ exampleItemId: 121
 apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
   VAR_CATEGORY_POTIONS_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Logs Style
@@ -7697,7 +7689,6 @@ exampleItemId: 1511
 apply (name:CONST_LOGS_LIST) {
     VAR_CATEGORY_LOGS_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Raw fish Style
@@ -7723,6 +7714,51 @@ apply (name:CONST_FISHING_RAW_FISH_LIST) {
 
 /*@ define:group
 ---
+name: Fishing equipment Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing equipment Style
+group: Fishing equipment Style
+exampleItem: Fishing rod
+exampleItemId: 307
+*/
+#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Fishing bait Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing bait Style
+group: Fishing bait Style
+exampleItem: Fishing bait
+exampleItemId: 313
+*/
+#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+}
+/*@ define:group
+---
 name: Farming Seeds Style
 icon: 
   type: sprite
@@ -7743,7 +7779,6 @@ exampleItemId: 5318
 apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) {
   VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Bones Style
@@ -7835,7 +7870,6 @@ exampleItemId: 13448
 apply (name:CONST_ENSOULED_HEAD_LIST) {
     VAR_ENSOULED_HEAD_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Fish Food Style
@@ -7973,7 +8007,6 @@ exampleItemId: 1897
 apply (name:CONST_CAKE_FOODS_LIST) {
     VAR_CAKE_FOODS_CUSTOMSTYLE
 }
-
 /*@ define:group
 ---
 name: Fletching Unstrung Style
@@ -8148,8 +8181,6 @@ exampleItemId: 19584
 apply (name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST || name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
   VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 }
-
-
 /*@ define:group
 ---
 name: Construction Style
@@ -8179,53 +8210,6 @@ exampleItemId: 960
 apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST || name:CONST_CONSTRUCTION_STONEMASON_LIST || name:CONST_CONSTRUCTION_MISC_LIST) {
   VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Fishing equipment Style
-icon: 
-  type: sprite
-  spriteId: 4250 
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Fishing equipment Style
-group: Fishing equipment Style
-exampleItem: Fishing rod
-exampleItemId: 307
-*/
-#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE \
-  icon = Sprite(3202, 0);
-
-apply (name:CONST_FISHING_EQUIPMENT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
-}
-
-/*@ define:group
----
-name: Fishing bait Style
-icon: 
-  type: sprite
-  spriteId: 4250 
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Fishing bait Style
-group: Fishing bait Style
-exampleItem: Fishing bait
-exampleItemId: 313
-*/
-#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE \
-  icon = Sprite(3202, 0);
-
-apply (name:CONST_FISHING_BAIT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
-}
-
 /*@ define:group
 ---
 name: Bronze Armour and Weapons
