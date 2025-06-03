@@ -1,0 +1,24 @@
+/*@ define:group
+---
+name: Potions Style
+icon: 
+  type: sprite
+  spriteId: 3231
+  spriteIndex: 0
+description: |
+  Covers both potions and barbarians potions.
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Potions Style
+group: Potions Style
+exampleItem: Attack potion(3)
+exampleItemId: 121
+*/
+#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
+  icon = Sprite(3231, 0);
+
+apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}

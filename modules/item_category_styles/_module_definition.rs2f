@@ -1,0 +1,9 @@
+/*@ define:module:item_category_styles
+---
+name: Item Category Styles
+subtitle: Style large groups of items with simple rules
+description: |
+  This module provides styling for large groups of items based on their categories. This is useful for applying consistent styles to similar items without needing to define individual styles for each item.
+
+  Individual item styles will replace these styles if they are defined.
+*/
