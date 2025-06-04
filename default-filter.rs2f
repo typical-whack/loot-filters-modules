@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:30:17 UTC 2025 */
-/* Commit: b3d3eae */
+/* Built on: Wed Jun  4 03:31:44 UTC 2025 */
+/* Commit: 15d35e7 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7533,10 +7533,10 @@ apply (name:CONST_POTIONS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Potions Style
+label: Barbarian Potions Style
 group: Potions
-exampleItem: Attack potion(3)
-exampleItemId: 121
+exampleItem: Attack mix(2)
+exampleItemId: 11429
 */
 #define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
 
