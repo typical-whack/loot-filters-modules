@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Farming Seeds Style
+name: Farming
 icon: 
   type: sprite
   spriteId: 4256 
@@ -9,14 +9,144 @@ icon:
 
 /*@ define:input:item_category_styles
 type: style
-label: Farming Seeds Style
-group: Farming Seeds Style
-exampleItem: Potato seed
-exampleItemId: 5318
+label: All Farming Items Style
+group: Farming
+exampleItem: Torstol seed
+exampleItemId: 5304
 */
 #define VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE \
   icon = Sprite(3207, 0);
 
 apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) {
   VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Allotment Seeds Style
+group: Farming
+exampleItem: Potato seed
+exampleItemId: 5318
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_ALLOTMENT_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_ALLOTMENT_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Flower Seeds Style
+group: Farming
+exampleItem: Marigold seed
+exampleItemId: 5096
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_FLOWER_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_FLOWER_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_FLOWER_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Herb Seeds Style
+group: Farming
+exampleItem: Guam seed
+exampleItemId: 5291
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_HERB_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_HERB_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_HERB_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Hops Seeds Style
+group: Farming
+exampleItem: Barley seed
+exampleItemId: 5305
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_HOPS_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_HOPS_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_HOPS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Bush Seeds Style
+group: Farming
+exampleItem: Redberry seed
+exampleItemId: 5101
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_BUSH_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_BUSH_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_BUSH_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Tree Seeds Style
+group: Farming
+exampleItem: Acorn
+exampleItemId: 5312
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_TREE_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_TREE_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_TREE_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fruit Tree Seeds Style
+group: Farming
+exampleItem: Apple tree seed
+exampleItemId: 5283
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_FRUIT_TREE_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_FRUIT_TREE_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Special Tree Seeds Style
+group: Farming
+exampleItem: Teak seed
+exampleItemId: 21486
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_SPECIAL_TREE_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_SPECIAL_TREE_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Special Seeds Style
+group: Farming
+exampleItem: Seaweed spore
+exampleItemId: 21490
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_SPECIAL_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_SPECIAL_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_SPECIAL_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Anima Seeds Style
+group: Farming
+exampleItem: Attas seed
+exampleItemId: 22881
+*/
+#define VAR_CATEGORY_FARMING_SEEDS_ANIMA_CUSTOMSTYLE
+
+apply (name:CONST_FARMING_SEEDS_ANIMA_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_ANIMA_CUSTOMSTYLE
 }
