@@ -16,8 +16,8 @@ description: |
 type: style
 label: All Herblore Items Style
 group: Herblore
-exampleItem: Guam leaf
-exampleItemId: 249
+exampleItem: Grimy ranarr weed
+exampleItemId: 207
 */
 #define VAR_CATEGORY_HERBLORE_CUSTOMSTYLE \
   icon = Sprite(3196, 0);
