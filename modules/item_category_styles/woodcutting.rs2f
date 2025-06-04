@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Logs Style
+name: Woodcutting
 icon: 
   type: sprite
   spriteId: 4253
@@ -10,7 +10,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Logs Style
-group: Logs Style
+group: Woodcutting
 exampleItem: Logs
 exampleItemId: 1511
 */
