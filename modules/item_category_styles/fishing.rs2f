@@ -1,0 +1,68 @@
+/*@ define:group
+---
+name: Raw fish Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Raw fish Style
+group: Raw fish Style
+exampleItem: Raw tuna
+exampleItemId: 359
+*/
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_RAW_FISH_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Fishing equipment Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing equipment Style
+group: Fishing equipment Style
+exampleItem: Fishing rod
+exampleItemId: 307
+*/
+#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_EQUIPMENT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+}
+
+/*@ define:group
+---
+name: Fishing bait Style
+icon: 
+  type: sprite
+  spriteId: 4250 
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Fishing bait Style
+group: Fishing bait Style
+exampleItem: Fishing bait
+exampleItemId: 313
+*/
+#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_BAIT_LIST) {
+    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+}

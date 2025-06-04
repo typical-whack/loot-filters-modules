@@ -1,0 +1,22 @@
+/*@ define:group
+---
+name: Logs Style
+icon: 
+  type: sprite
+  spriteId: 4253
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Logs Style
+group: Logs Style
+exampleItem: Logs
+exampleItemId: 1511
+*/
+#define VAR_CATEGORY_LOGS_CUSTOMSTYLE \
+  icon = Sprite(3205, 0);
+
+apply (name:CONST_LOGS_LIST) {
+    VAR_CATEGORY_LOGS_CUSTOMSTYLE
+}
