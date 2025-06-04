@@ -114,7 +114,7 @@ apply (name:CONST_AMMO_CHINCHOMPAS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Misc Ammo Style
+label: "Misc Ammo Style (Atlatl dart, Toktz-xil-ul, etc.)"
 group: Ammo
 exampleItem: Toktz-xil-ul
 exampleItemId: 6522

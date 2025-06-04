@@ -49,7 +49,7 @@ apply (name:CONST_SECONDARIES_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Herblore Equipment Style
+label: "Herblore Equipment Style (pestle and mortar, vials, etc.)"
 group: Herblore
 exampleItem: Pestle and mortar
 exampleItemId: 233

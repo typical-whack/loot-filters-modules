@@ -36,7 +36,7 @@ apply (name:CONST_FISHING_RAW_FISH_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fishing equipment Style
+label: "Fishing equipment Style (fishing rods, harpoons, etc.)"
 group: Fishing
 exampleItem: Fishing rod
 exampleItemId: 307
