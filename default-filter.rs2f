@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:00:49 UTC 2025 */
-/* Commit: a82156a */
+/* Built on: Wed Jun  4 03:03:39 UTC 2025 */
+/* Commit: b5f8be9 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7795,6 +7795,7 @@ apply (name:CONST_LOGS_LIST) {
 /*@ define:group
 ---
 name: Fishing
+icon: 
   type: sprite
   spriteId: 4250 
   spriteIndex: 0
