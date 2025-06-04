@@ -1759,6 +1759,38 @@ name: Constants
   "Aether rune", \
 ]
 
+#define CONST_RUNES_ELEMENTAL_LIST [ \
+  "Air rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Sunfire rune", \
+]
+
+#define CONST_RUNES_CATALYTIC_LIST [ \
+  "Mind rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+]
+
+#define CONST_RUNES_COMBINATION_LIST [ \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+  "Aether rune", \
+]
+
 #define CONST_POTIONS_LIST [ \
   "Attack potion(*", \
   "Antipoison(*", \

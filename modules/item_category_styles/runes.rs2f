@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Runes Style
+name: Runes
 icon: 
   type: sprite
   spriteId: 4241
@@ -10,13 +10,52 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Runes Style
-group: Runes Style
-exampleItem: Air rune
-exampleItemId: 556
+group: Runes
+exampleItem: Wrath rune
+exampleItemId: 21880
 */
 #define VAR_CATEGORY_RUNES_CUSTOMSTYLE \
   icon = Sprite(3192, 0);
 
 apply (name:CONST_RUNES_LIST) {
     VAR_CATEGORY_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Elemental Runes Style
+group: Runes
+exampleItem: Air rune
+exampleItemId: 556
+*/
+#define VAR_CATEGORY_ELEMENTAL_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_ELEMENTAL_LIST) {
+  VAR_CATEGORY_ELEMENTAL_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Catalytic Runes Style
+group: Runes
+exampleItem: Mind rune
+exampleItemId: 558
+*/
+#define VAR_CATEGORY_CATALYTIC_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_CATALYTIC_LIST) {
+  VAR_CATEGORY_CATALYTIC_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Combination Runes Style
+group: Runes
+exampleItem: Mist rune
+exampleItemId: 4695
+*/
+#define VAR_CATEGORY_COMBINATION_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_COMBINATION_LIST) {
+  VAR_CATEGORY_COMBINATION_RUNES_CUSTOMSTYLE
 }
