@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 00:42:35 UTC 2025 */
-/* Commit: a1ae175 */
+/* Built on: Wed Jun  4 00:43:05 UTC 2025 */
+/* Commit: f51aed5 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7558,11 +7558,6 @@ icon:
   type: sprite
   spriteId: 4244
   spriteIndex: 0
-description: |
-  All Herblore Items Style covers:
-  - all herbs
-  - all secondaries
-  - all herblore equipment
 */
 
 /*@ define:input:item_category_styles
