@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 00:43:05 UTC 2025 */
-/* Commit: f51aed5 */
+/* Built on: Wed Jun  4 02:45:04 UTC 2025 */
+/* Commit: e042901 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7456,38 +7456,133 @@ apply (name:CONST_CURRENCY_LIST) {
 }
 /*@ define:group
 ---
-name: Ammo Style
+name: Ammo
 icon: 
   type: sprite
   spriteId: 4239
   spriteIndex: 0
-description: |
-  Covers:
-  - Standard Arrows
-  - Darts
-  - Bolts
-  - Javelins
-  - Special Bolts
-  - Brutal Arrows
-  - Special Arrows
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Ammo Style
-group: Ammo Style
-exampleItem: Bronze arrow
-exampleItemId: 897
+label: All Ammo Items Style
+group: Ammo
+exampleItem: Dragon arrow
+exampleItemId: 11212
 */
 #define VAR_CATEGORY_AMMO_CUSTOMSTYLE \
   icon = Sprite(3190, 0);
 
-apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_KNIVES_LIST || name:CONST_AMMO_THROWING_AXES_LIST || name:CONST_AMMO_CHINCHOMPAS_LIST || name:CONST_AMMO_MISC_LIST) {
     VAR_CATEGORY_AMMO_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Arrows Style
+group: Ammo
+exampleItem: Bronze arrow
+exampleItemId: 882
+*/
+#define VAR_AMMO_ARROWS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+  VAR_AMMO_ARROWS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Darts Style
+group: Ammo
+exampleItem: Bronze dart
+exampleItemId: 806
+*/
+#define VAR_AMMO_DARTS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_DARTS_LIST) {
+  VAR_AMMO_DARTS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Bolts Style
+group: Ammo
+exampleItem: Bronze bolts
+exampleItemId: 877
+*/
+#define VAR_AMMO_BOLTS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) {
+  VAR_AMMO_BOLTS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Javelins Style
+group: Ammo
+exampleItem: Bronze javelin
+exampleItemId: 825
+*/
+#define VAR_AMMO_JAVELINS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_JAVELINS_LIST) {
+  VAR_AMMO_JAVELINS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Knives Style
+group: Ammo
+exampleItem: Bronze knife
+exampleItemId: 864
+*/
+#define VAR_AMMO_KNIVES_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_KNIVES_LIST) {
+  VAR_AMMO_KNIVES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Thowing Axes Style
+group: Ammo
+exampleItem: Bronze thrownaxe
+exampleItemId: 800
+*/
+#define VAR_AMMO_THROWING_AXES_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_THROWING_AXES_LIST) {
+  VAR_AMMO_THROWING_AXES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Chinchompas Style
+group: Ammo
+exampleItem: Chinchompa
+exampleItemId: 10033
+*/
+#define VAR_AMMO_CHINCHOMPAS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_CHINCHOMPAS_LIST) {
+  VAR_AMMO_CHINCHOMPAS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Misc Ammo Style
+group: Ammo
+exampleItem: Toktz-xil-ul
+exampleItemId: 6522
+*/
+#define VAR_AMMO_MISC_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_MISC_LIST) {
+  VAR_AMMO_MISC_CUSTOMSTYLE
 }
 /*@ define:group
 ---
-name: Runes Style
+name: Runes
 icon: 
   type: sprite
   spriteId: 4241
@@ -7497,15 +7592,54 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Runes Style
-group: Runes Style
-exampleItem: Air rune
-exampleItemId: 556
+group: Runes
+exampleItem: Wrath rune
+exampleItemId: 21880
 */
 #define VAR_CATEGORY_RUNES_CUSTOMSTYLE \
   icon = Sprite(3192, 0);
 
 apply (name:CONST_RUNES_LIST) {
     VAR_CATEGORY_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Elemental Runes Style
+group: Runes
+exampleItem: Air rune
+exampleItemId: 556
+*/
+#define VAR_CATEGORY_ELEMENTAL_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_ELEMENTAL_LIST) {
+  VAR_CATEGORY_ELEMENTAL_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Catalytic Runes Style
+group: Runes
+exampleItem: Mind rune
+exampleItemId: 558
+*/
+#define VAR_CATEGORY_CATALYTIC_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_CATALYTIC_LIST) {
+  VAR_CATEGORY_CATALYTIC_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Combination Runes Style
+group: Runes
+exampleItem: Mist rune
+exampleItemId: 4695
+*/
+#define VAR_CATEGORY_COMBINATION_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_COMBINATION_LIST) {
+  VAR_CATEGORY_COMBINATION_RUNES_CUSTOMSTYLE
 }
 /*@ define:group
 ---
@@ -17801,6 +17935,7 @@ name: Constants
   "Rune javelin*", \
   "Amethyst javelin*", \
   "Dragon javelin*", \
+  "Morrigan's javelin (bh)*", \
 ]
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
@@ -17829,6 +17964,42 @@ name: Constants
   "Ogre Arrow", \
   "Ice Arrow", \
   "Broad Arrow", \
+]
+
+#define CONST_AMMO_KNIVES_LIST [ \
+  "Bronze knife", \
+  "Iron knife", \
+  "Steel knife", \
+  "Black knife", \
+  "Mithril knife", \
+  "Adamant knife", \
+  "Rune knife", \
+  "Dragon knife", \
+]
+
+#define CONST_AMMO_THROWING_AXES_LIST [ \
+  "Bronze thrownaxe", \
+  "Iron thrownaxe", \
+  "Steel thrownaxe", \
+  "Mithril thrownaxe", \
+  "Adamant thrownaxe", \
+  "Rune thrownaxe", \
+  "Dragon thrownaxe", \
+  "Morrigan's throwing axe (bh)*", \
+]
+
+#define CONST_AMMO_CHINCHOMPAS_LIST [ \
+  "Chinchompa", \
+  "Red chinchompa", \
+  "Black chinchompa", \
+]
+
+#define CONST_AMMO_MISC_LIST [ \
+  "Atlatl dart", \
+  "Toktz-xil-ul", \
+  "Hunter's spear", \
+  "Holy water", \
+  "Mud pie", \
 ]
 
 #define CONST_LOGS_LIST [ \
@@ -17900,6 +18071,38 @@ name: Constants
   "Blood rune", \
   "Soul rune", \
   "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+  "Aether rune", \
+]
+
+#define CONST_RUNES_ELEMENTAL_LIST [ \
+  "Air rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Sunfire rune", \
+]
+
+#define CONST_RUNES_CATALYTIC_LIST [ \
+  "Mind rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+]
+
+#define CONST_RUNES_COMBINATION_LIST [ \
   "Mist rune", \
   "Dust rune", \
   "Mud rune", \
