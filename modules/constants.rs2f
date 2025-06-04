@@ -531,6 +531,17 @@ name: Constants
   "*torstol", \
 ]
 
+#define CONST_ALL_HERBLORE_EQUIPMENT [ \
+  "Pestle and mortar", \
+  "Vial", \
+  "Vial of water", \
+  "Alchemist gloves", \
+  "Alchemist pants", \
+  "Alchemist labcoat", \
+  "Prescription goggles", \
+  "Alchemist's amulet", \
+]
+
 #define CONST_HUNTER_FOODS_LIST [ \
   "Cooked wild kebbit", \
   "Cooked larupia", \
