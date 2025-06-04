@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:03:39 UTC 2025 */
-/* Commit: b5f8be9 */
+/* Built on: Wed Jun  4 03:18:23 UTC 2025 */
+/* Commit: 4e90c3c */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7877,7 +7877,7 @@ apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWE
 }
 /*@ define:group
 ---
-name: Bones Style
+name: Prayer
 icon: 
   type: sprite
   spriteId: 4240
@@ -7886,82 +7886,65 @@ icon:
 
 /*@ define:input:item_category_styles
 type: style
+label: All Prayer Items Style
+group: Prayer
+exampleItem: Superior dragon bones
+exampleItemId: 22124
+*/
+#define VAR_CATEGORY_PRAYER_CUSTOMSTYLE \
+  icon = Sprite(3191, 0);
+
+apply (name:CONST_BONES_LIST || name:CONST_ASHES_LIST || name:CONST_SHADES_REMAINS_LIST || name:CONST_ENSOULED_HEAD_LIST) {
+  VAR_CATEGORY_PRAYER_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
 label: Bones Style
-group: Bones Style
+group: Prayer
 exampleItem: Bones
 exampleItemId: 526
 */
-#define VAR_BONES_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_BONES_CUSTOMSTYLE
 
 apply (name:CONST_BONES_LIST) {
     VAR_BONES_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Ashes Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Ashes Style
-group: Ashes Style
+group: Prayer
 exampleItem: Fiendish ashes
 exampleItemId: 25766
 */
-#define VAR_ASHES_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_ASHES_CUSTOMSTYLE
 
 apply (name:CONST_ASHES_LIST) {
     VAR_ASHES_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Shades Remains Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Shades Remains Style
-group: Shades Remains Style
+group: Prayer
 exampleItem: Loar remains
 exampleItemId: 3396
 */
-#define VAR_SHADES_REMAINS_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_SHADES_REMAINS_CUSTOMSTYLE
 
 apply (name:CONST_SHADES_REMAINS_LIST) {
     VAR_SHADES_REMAINS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Ensouled Head Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Ensouled Head Style
-group: Ensouled Head Style
+group: Prayer
 exampleItem: Ensouled goblin head
 exampleItemId: 13448
 */
-#define VAR_ENSOULED_HEAD_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_ENSOULED_HEAD_CUSTOMSTYLE
 
 apply (name:CONST_ENSOULED_HEAD_LIST) {
     VAR_ENSOULED_HEAD_CUSTOMSTYLE
@@ -8186,27 +8169,69 @@ icon:
   type: sprite
   spriteId: 4258
   spriteIndex: 0
-description: |
-  Covers:
-  - Planks
-  - Nails
-  - Stonemason items
-  - Bolt of cloth
-  - Saw
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Construction Style
-group: Construction Style
-exampleItem: Plank
-exampleItemId: 960
+label: All Construction Items Style
+group: Construction
+exampleItem: Mahogany plank
+exampleItemId: 8782
 */
 #define VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE \
   icon = Sprite(3208, 0);
 
 apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST || name:CONST_CONSTRUCTION_STONEMASON_LIST || name:CONST_CONSTRUCTION_MISC_LIST) {
   VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+group: Construction
+exampleItem: Plank
+exampleItemId: 960
+*/
+#define VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_PLANKS_LIST) {
+  VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+group: Construction
+exampleItem: Bronze nails
+exampleItemId: 4819
+*/
+#define VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
+  VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+group: Construction
+exampleItem: Limestone brick
+exampleItemId: 3420
+*/
+#define VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
+  VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+group: Construction
+exampleItem: Bolt of cloth
+exampleItemId: 8790
+*/
+#define VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_MISC_LIST) {
+  VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
 }
 /*@ define:group
 ---
