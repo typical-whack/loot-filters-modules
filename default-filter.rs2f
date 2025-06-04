@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:20:35 UTC 2025 */
-/* Commit: 4a2782a */
+/* Built on: Wed Jun  4 03:21:21 UTC 2025 */
+/* Commit: 25076bb */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7397,62 +7397,201 @@ description: |
 */
 /*@ define:group
 ---
-name: Currency Style
+name: Food
 icon: 
   type: sprite
-  spriteId: 1531
+  spriteId: 3288
   spriteIndex: 0
-description: |
-  Covers:
-  - Abyssal pearls
-  - Agility arena ticket
-  - Anima-infused bark
-  - Archery ticket
-  - Barronite shards
-  - Blood money
-  - Brimhaven voucher
-  - Castle wars ticket
-  - Coins
-  - Ecto-token
-  - Frog token
-  - Glistening tear
-  - Golden nugget
-  - Hallowed mark
-  - Intelligence
-  - Mark of grace
-  - Mermaid's tear
-  - Minnow
-  - Molch pearl
-  - Mole claw
-  - Mole skin
-  - Nuggets
-  - Numulite
-  - Paramaya ticket
-  - Platinum token
-  - Rare creature parts
-  - Reward token credits
-  - Shantay pass
-  - Ship ticket
-  - Stardust
-  - Termites
-  - Tokkul
-  - Trading sticks
-  - Unidentified minerals
-  - Warrior guild token
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Currency Style
-group: Currency Style
-exampleItem: Coins
-exampleItemId: 1004
+label: All Food Items Style
+group: Food
+exampleItem: Anglerfish
+exampleItemId: 13441
 */
-#define VAR_CURRENCY_CUSTOMSTYLE \
-  textColor = "#FFBEB287";
+#define VAR_CATEGORY_FOOD_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
 
-apply (name:CONST_CURRENCY_LIST) {
-    VAR_CURRENCY_CUSTOMSTYLE 
+apply(name:CONST_FISH_FOODS_LIST || name:CONST_POTATOES_FOODS_LIST || name:CONST_HUNTER_FOODS_LIST || name:CONST_PIE_FOODS_LIST || name:CONST_PIZZA_FOODS_LIST || name:CONST_CAKE_FOODS_LIST) {
+    VAR_CATEGORY_FOOD_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fish Food Style
+group: Food
+exampleItem: Tuna
+exampleItemId: 361
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Potatoes Food Style
+group: Food
+exampleItem: Tuna potato
+exampleItemId: 7060
+*/
+#define VAR_POTATOES_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_POTATOES_FOODS_LIST) {
+    VAR_POTATOES_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Hunter Food Style
+group: Food
+exampleItem: Cooked moonlight antelope
+exampleItemId: 29143
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Pie Food Style
+group: Food
+exampleItem: Summer pie
+exampleItemId: 7218
+*/
+#define VAR_PIE_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_PIE_FOODS_LIST) {
+    VAR_PIE_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Pizza Food Style
+group: Food
+exampleItem: Pineapple pizza
+exampleItemId: 2301
+*/
+#define VAR_PIZZA_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_PIZZA_FOODS_LIST) {
+    VAR_PIZZA_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Cake Food Style
+group: Food
+exampleItem: Chocolate cake
+exampleItemId: 1897
+*/
+#define VAR_CAKE_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_CAKE_FOODS_LIST) {
+    VAR_CAKE_FOODS_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Potions Style
+icon: 
+  type: sprite
+  spriteId: 3231
+  spriteIndex: 0
+description: |
+  Covers both potions and barbarians potions.
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Potions Style
+group: Potions Style
+exampleItem: Attack potion(3)
+exampleItemId: 121
+*/
+#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
+  icon = Sprite(3231, 0);
+
+apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Prayer
+icon: 
+  type: sprite
+  spriteId: 4240
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: All Prayer Items Style
+group: Prayer
+exampleItem: Superior dragon bones
+exampleItemId: 22124
+*/
+#define VAR_CATEGORY_PRAYER_CUSTOMSTYLE \
+  icon = Sprite(3191, 0);
+
+apply (name:CONST_BONES_LIST || name:CONST_ASHES_LIST || name:CONST_SHADES_REMAINS_LIST || name:CONST_ENSOULED_HEAD_LIST) {
+  VAR_CATEGORY_PRAYER_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Bones Style
+group: Prayer
+exampleItem: Bones
+exampleItemId: 526
+*/
+#define VAR_BONES_CUSTOMSTYLE
+
+apply (name:CONST_BONES_LIST) {
+    VAR_BONES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Ashes Style
+group: Prayer
+exampleItem: Fiendish ashes
+exampleItemId: 25766
+*/
+#define VAR_ASHES_CUSTOMSTYLE
+
+apply (name:CONST_ASHES_LIST) {
+    VAR_ASHES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Shades Remains Style
+group: Prayer
+exampleItem: Loar remains
+exampleItemId: 3396
+*/
+#define VAR_SHADES_REMAINS_CUSTOMSTYLE
+
+apply (name:CONST_SHADES_REMAINS_LIST) {
+    VAR_SHADES_REMAINS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Ensouled Head Style
+group: Prayer
+exampleItem: Ensouled goblin head
+exampleItemId: 13448
+*/
+#define VAR_ENSOULED_HEAD_CUSTOMSTYLE
+
+apply (name:CONST_ENSOULED_HEAD_LIST) {
+    VAR_ENSOULED_HEAD_CUSTOMSTYLE
 }
 /*@ define:group
 ---
@@ -7579,6 +7718,65 @@ exampleItemId: 6522
 
 apply (name:CONST_AMMO_MISC_LIST) {
   VAR_AMMO_MISC_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Currency Style
+icon: 
+  type: sprite
+  spriteId: 1531
+  spriteIndex: 0
+description: |
+  Covers:
+  - Abyssal pearls
+  - Agility arena ticket
+  - Anima-infused bark
+  - Archery ticket
+  - Barronite shards
+  - Blood money
+  - Brimhaven voucher
+  - Castle wars ticket
+  - Coins
+  - Ecto-token
+  - Frog token
+  - Glistening tear
+  - Golden nugget
+  - Hallowed mark
+  - Intelligence
+  - Mark of grace
+  - Mermaid's tear
+  - Minnow
+  - Molch pearl
+  - Mole claw
+  - Mole skin
+  - Nuggets
+  - Numulite
+  - Paramaya ticket
+  - Platinum token
+  - Rare creature parts
+  - Reward token credits
+  - Shantay pass
+  - Ship ticket
+  - Stardust
+  - Termites
+  - Tokkul
+  - Trading sticks
+  - Unidentified minerals
+  - Warrior guild token
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Currency Style
+group: Currency Style
+exampleItem: Coins
+exampleItemId: 1004
+*/
+#define VAR_CURRENCY_CUSTOMSTYLE \
+  textColor = "#FFBEB287";
+
+apply (name:CONST_CURRENCY_LIST) {
+    VAR_CURRENCY_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
@@ -7748,30 +7946,6 @@ apply (name:CONST_ALL_HERBLORE_EQUIPMENT) {
 }
 /*@ define:group
 ---
-name: Potions Style
-icon: 
-  type: sprite
-  spriteId: 3231
-  spriteIndex: 0
-description: |
-  Covers both potions and barbarians potions.
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Potions Style
-group: Potions Style
-exampleItem: Attack potion(3)
-exampleItemId: 121
-*/
-#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
-  icon = Sprite(3231, 0);
-
-apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
-  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
-}
-/*@ define:group
----
 name: Logs Style
 icon: 
   type: sprite
@@ -7874,180 +8048,6 @@ exampleItemId: 5318
 
 apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) {
   VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE
-}
-/*@ define:group
----
-name: Prayer
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: All Prayer Items Style
-group: Prayer
-exampleItem: Superior dragon bones
-exampleItemId: 22124
-*/
-#define VAR_CATEGORY_PRAYER_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
-
-apply (name:CONST_BONES_LIST || name:CONST_ASHES_LIST || name:CONST_SHADES_REMAINS_LIST || name:CONST_ENSOULED_HEAD_LIST) {
-  VAR_CATEGORY_PRAYER_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Bones Style
-group: Prayer
-exampleItem: Bones
-exampleItemId: 526
-*/
-#define VAR_BONES_CUSTOMSTYLE
-
-apply (name:CONST_BONES_LIST) {
-    VAR_BONES_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Ashes Style
-group: Prayer
-exampleItem: Fiendish ashes
-exampleItemId: 25766
-*/
-#define VAR_ASHES_CUSTOMSTYLE
-
-apply (name:CONST_ASHES_LIST) {
-    VAR_ASHES_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Shades Remains Style
-group: Prayer
-exampleItem: Loar remains
-exampleItemId: 3396
-*/
-#define VAR_SHADES_REMAINS_CUSTOMSTYLE
-
-apply (name:CONST_SHADES_REMAINS_LIST) {
-    VAR_SHADES_REMAINS_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Ensouled Head Style
-group: Prayer
-exampleItem: Ensouled goblin head
-exampleItemId: 13448
-*/
-#define VAR_ENSOULED_HEAD_CUSTOMSTYLE
-
-apply (name:CONST_ENSOULED_HEAD_LIST) {
-    VAR_ENSOULED_HEAD_CUSTOMSTYLE
-}
-/*@ define:group
----
-name: Food
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: All Food Items Style
-group: Food
-exampleItem: Anglerfish
-exampleItemId: 13441
-*/
-#define VAR_CATEGORY_FOOD_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
-
-apply(name:CONST_FISH_FOODS_LIST || name:CONST_POTATOES_FOODS_LIST || name:CONST_HUNTER_FOODS_LIST || name:CONST_PIE_FOODS_LIST || name:CONST_PIZZA_FOODS_LIST || name:CONST_CAKE_FOODS_LIST) {
-    VAR_CATEGORY_FOOD_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Fish Food Style
-group: Food
-exampleItem: Tuna
-exampleItemId: 361
-*/
-#define VAR_FOOD_FISH_CUSTOMSTYLE
-
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Potatoes Food Style
-group: Food
-exampleItem: Tuna potato
-exampleItemId: 7060
-*/
-#define VAR_POTATOES_FOODS_CUSTOMSTYLE
-
-apply (name:CONST_POTATOES_FOODS_LIST) {
-    VAR_POTATOES_FOODS_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Hunter Food Style
-group: Food
-exampleItem: Cooked moonlight antelope
-exampleItemId: 29143
-*/
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE
-
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Pie Food Style
-group: Food
-exampleItem: Summer pie
-exampleItemId: 7218
-*/
-#define VAR_PIE_FOODS_CUSTOMSTYLE
-
-apply (name:CONST_PIE_FOODS_LIST) {
-    VAR_PIE_FOODS_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Pizza Food Style
-group: Food
-exampleItem: Pineapple pizza
-exampleItemId: 2301
-*/
-#define VAR_PIZZA_FOODS_CUSTOMSTYLE
-
-apply (name:CONST_PIZZA_FOODS_LIST) {
-    VAR_PIZZA_FOODS_CUSTOMSTYLE
-}
-
-/*@ define:input:item_category_styles
-type: style
-label: Cake Food Style
-group: Food
-exampleItem: Chocolate cake
-exampleItemId: 1897
-*/
-#define VAR_CAKE_FOODS_CUSTOMSTYLE
-
-apply (name:CONST_CAKE_FOODS_LIST) {
-    VAR_CAKE_FOODS_CUSTOMSTYLE
 }
 /*@ define:group
 ---
