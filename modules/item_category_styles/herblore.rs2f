@@ -5,11 +5,6 @@ icon:
   type: sprite
   spriteId: 4244
   spriteIndex: 0
-description: |
-  All Herblore Items Style covers:
-  - all herbs
-  - all secondaries
-  - all herblore equipment
 */
 
 /*@ define:input:item_category_styles
