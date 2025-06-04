@@ -1,72 +1,61 @@
 /*@ define:group
 ---
-name: Herbs Style
+name: Herblore
 icon: 
   type: sprite
   spriteId: 4244
   spriteIndex: 0
 */
+
+/*@ define:input:item_category_styles
+type: style
+label: All Herblore Items Style
+group: Herblore
+exampleItem: Grimy ranarr weed
+exampleItemId: 207
+*/
+#define VAR_CATEGORY_HERBLORE_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_ALL_HERBS || name:CONST_SECONDARIES_LIST || name:CONST_ALL_HERBLORE_EQUIPMENT) {
+  VAR_CATEGORY_HERBLORE_CUSTOMSTYLE
+}
 
 /*@ define:input:item_category_styles
 type: style
 label: Herbs Style
-group: Herbs Style
+group: Herblore
 exampleItem: Guam leaf
 exampleItemId: 249
 */
-#define VAR_CATEGORY_HERBS_CUSTOMSTYLE \
-  icon = Sprite(3196, 0);
+#define VAR_CATEGORY_HERBS_CUSTOMSTYLE
 
 apply (name:CONST_ALL_HERBS) {
-    VAR_CATEGORY_HERBS_CUSTOMSTYLE
+  VAR_CATEGORY_HERBS_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Herblore secondaries Style
-icon: 
-  type: sprite
-  spriteId: 4244
-  spriteIndex: 0
-description: |
-  Covers:
-  - Eye of newt
-  - Unicorn horn dust
-  - Limpwurt root
-  - Volcanic ash
-  - Red spiders' eggs
-  - Chocolate dust
-  - White berries
-  - Toad's legs
-  - Goat horn dust
-  - Snape grass
-  - Mort myre fungus
-  - Kebbit teeth dust
-  - Dragon scale dust
-  - Nail beast nails
-  - Yew roots
-  - Wine of zamorak
-  - Potato cactus
-  - Jangerberries
-  - Magic roots
-  - Crushed nest
-  - Poison ivy berries
-  - Nihil dust
-  - Lily of the sands
-  - Aldarium
-  - Araxyte venom sack
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Herblore secondaries Style
-group: Herblore secondaries Style
+label: Secondaries Style
+group: Herblore
 exampleItem: Eye of newt
 exampleItemId: 221
 */
-#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE \
-  icon = Sprite(3196, 0);
+#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
 
 apply (name:CONST_SECONDARIES_LIST) {
-    VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+  VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: "Herblore Equipment Style (pestle and mortar, vials, etc.)"
+group: Herblore
+exampleItem: Pestle and mortar
+exampleItemId: 233
+*/
+#define VAR_CATEGORY_HERBLORE_EQUIPMENT_CUSTOMSTYLE
+
+apply (name:CONST_ALL_HERBLORE_EQUIPMENT) {
+  VAR_CATEGORY_HERBLORE_EQUIPMENT_CUSTOMSTYLE
 }

@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Bars Style
+name: Smithing
 icon: 
   type: sprite
   spriteId: 4249
@@ -10,7 +10,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Bars Style
-group: Bars Style
+group: Smithing
 exampleItem: Bronze bar
 exampleItemId: 2349
 */

@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 00:22:38 UTC 2025 */
-/* Commit: a7ababe */
+/* Built on: Wed Jun  4 04:08:47 UTC 2025 */
+/* Commit: 9500749 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7397,7 +7397,7 @@ description: |
 */
 /*@ define:group
 ---
-name: Currency Style
+name: Currency
 icon: 
   type: sprite
   spriteId: 1531
@@ -7444,7 +7444,7 @@ description: |
 /*@ define:input:item_category_styles
 type: style
 label: Currency Style
-group: Currency Style
+group: Currency
 exampleItem: Coins
 exampleItemId: 1004
 */
@@ -7456,38 +7456,355 @@ apply (name:CONST_CURRENCY_LIST) {
 }
 /*@ define:group
 ---
-name: Ammo Style
+name: Food
 icon: 
   type: sprite
-  spriteId: 4239
+  spriteId: 3288
   spriteIndex: 0
-description: |
-  Covers:
-  - Standard Arrows
-  - Darts
-  - Bolts
-  - Javelins
-  - Special Bolts
-  - Brutal Arrows
-  - Special Arrows
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Ammo Style
-group: Ammo Style
-exampleItem: Bronze arrow
-exampleItemId: 897
+label: All Food Items Style
+group: Food
+exampleItem: Anglerfish
+exampleItemId: 13441
+*/
+#define VAR_CATEGORY_FOOD_CUSTOMSTYLE \
+  icon = Sprite(3288, 0);
+
+apply(name:CONST_FISH_FOODS_LIST || name:CONST_POTATOES_FOODS_LIST || name:CONST_HUNTER_FOODS_LIST || name:CONST_PIE_FOODS_LIST || name:CONST_PIZZA_FOODS_LIST || name:CONST_CAKE_FOODS_LIST) {
+    VAR_CATEGORY_FOOD_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Fish Food Style
+group: Food
+exampleItem: Tuna
+exampleItemId: 361
+*/
+#define VAR_FOOD_FISH_CUSTOMSTYLE
+
+apply (name:CONST_FISH_FOODS_LIST) {
+    VAR_FOOD_FISH_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Potatoes Food Style
+group: Food
+exampleItem: Tuna potato
+exampleItemId: 7060
+*/
+#define VAR_POTATOES_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_POTATOES_FOODS_LIST) {
+    VAR_POTATOES_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Hunter Food Style
+group: Food
+exampleItem: Cooked moonlight antelope
+exampleItemId: 29143
+*/
+#define VAR_FOOD_HUNTER_CUSTOMSTYLE
+
+apply (name:CONST_HUNTER_FOODS_LIST) {
+    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Pie Food Style
+group: Food
+exampleItem: Summer pie
+exampleItemId: 7218
+*/
+#define VAR_PIE_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_PIE_FOODS_LIST) {
+    VAR_PIE_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Pizza Food Style
+group: Food
+exampleItem: Pineapple pizza
+exampleItemId: 2301
+*/
+#define VAR_PIZZA_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_PIZZA_FOODS_LIST) {
+    VAR_PIZZA_FOODS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Cake Food Style
+group: Food
+exampleItem: Chocolate cake
+exampleItemId: 1897
+*/
+#define VAR_CAKE_FOODS_CUSTOMSTYLE
+
+apply (name:CONST_CAKE_FOODS_LIST) {
+    VAR_CAKE_FOODS_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Potions
+icon: 
+  type: sprite
+  spriteId: 3231
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: All Potion Items Style
+group: Potions
+exampleItem: Divine super combat potion(4)
+exampleItemId: 23685
+*/
+#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
+  icon = Sprite(3231, 0);
+
+apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Potions Style
+group: Potions
+exampleItem: Attack potion(3)
+exampleItemId: 121
+*/
+#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+
+apply (name:CONST_POTIONS_LIST) {
+  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Barbarian Potions Style
+group: Potions
+exampleItem: Attack mix(2)
+exampleItemId: 11429
+*/
+#define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
+
+apply (name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Prayer
+icon: 
+  type: sprite
+  spriteId: 4240
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: All Prayer Items Style
+group: Prayer
+exampleItem: Superior dragon bones
+exampleItemId: 22124
+*/
+#define VAR_CATEGORY_PRAYER_CUSTOMSTYLE \
+  icon = Sprite(3191, 0);
+
+apply (name:CONST_BONES_LIST || name:CONST_ASHES_LIST || name:CONST_SHADES_REMAINS_LIST || name:CONST_ENSOULED_HEAD_LIST) {
+  VAR_CATEGORY_PRAYER_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Bones Style
+group: Prayer
+exampleItem: Bones
+exampleItemId: 526
+*/
+#define VAR_BONES_CUSTOMSTYLE
+
+apply (name:CONST_BONES_LIST) {
+    VAR_BONES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Ashes Style
+group: Prayer
+exampleItem: Fiendish ashes
+exampleItemId: 25766
+*/
+#define VAR_ASHES_CUSTOMSTYLE
+
+apply (name:CONST_ASHES_LIST) {
+    VAR_ASHES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Shades Remains Style
+group: Prayer
+exampleItem: Loar remains
+exampleItemId: 3396
+*/
+#define VAR_SHADES_REMAINS_CUSTOMSTYLE
+
+apply (name:CONST_SHADES_REMAINS_LIST) {
+    VAR_SHADES_REMAINS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Ensouled Head Style
+group: Prayer
+exampleItem: Ensouled goblin head
+exampleItemId: 13448
+*/
+#define VAR_ENSOULED_HEAD_CUSTOMSTYLE
+
+apply (name:CONST_ENSOULED_HEAD_LIST) {
+    VAR_ENSOULED_HEAD_CUSTOMSTYLE
+}
+/*@ define:group
+---
+name: Ammo
+icon: 
+  type: sprite
+  spriteId: 4239
+  spriteIndex: 0
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: All Ammo Items Style
+group: Ammo
+exampleItem: Dragon arrow
+exampleItemId: 11212
 */
 #define VAR_CATEGORY_AMMO_CUSTOMSTYLE \
   icon = Sprite(3190, 0);
 
-apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_KNIVES_LIST || name:CONST_AMMO_THROWING_AXES_LIST || name:CONST_AMMO_CHINCHOMPAS_LIST || name:CONST_AMMO_MISC_LIST) {
     VAR_CATEGORY_AMMO_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Arrows Style
+group: Ammo
+exampleItem: Bronze arrow
+exampleItemId: 882
+*/
+#define VAR_AMMO_ARROWS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+  VAR_AMMO_ARROWS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Darts Style
+group: Ammo
+exampleItem: Bronze dart
+exampleItemId: 806
+*/
+#define VAR_AMMO_DARTS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_DARTS_LIST) {
+  VAR_AMMO_DARTS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Bolts Style
+group: Ammo
+exampleItem: Bronze bolts
+exampleItemId: 877
+*/
+#define VAR_AMMO_BOLTS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) {
+  VAR_AMMO_BOLTS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Javelins Style
+group: Ammo
+exampleItem: Bronze javelin
+exampleItemId: 825
+*/
+#define VAR_AMMO_JAVELINS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_JAVELINS_LIST) {
+  VAR_AMMO_JAVELINS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Knives Style
+group: Ammo
+exampleItem: Bronze knife
+exampleItemId: 864
+*/
+#define VAR_AMMO_KNIVES_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_KNIVES_LIST) {
+  VAR_AMMO_KNIVES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Thowing Axes Style
+group: Ammo
+exampleItem: Bronze thrownaxe
+exampleItemId: 800
+*/
+#define VAR_AMMO_THROWING_AXES_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_THROWING_AXES_LIST) {
+  VAR_AMMO_THROWING_AXES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Chinchompas Style
+group: Ammo
+exampleItem: Chinchompa
+exampleItemId: 10033
+*/
+#define VAR_AMMO_CHINCHOMPAS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_CHINCHOMPAS_LIST) {
+  VAR_AMMO_CHINCHOMPAS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: "Misc Ammo Style (Atlatl dart, Toktz-xil-ul, etc.)"
+group: Ammo
+exampleItem: Toktz-xil-ul
+exampleItemId: 6522
+*/
+#define VAR_AMMO_MISC_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_MISC_LIST) {
+  VAR_AMMO_MISC_CUSTOMSTYLE
 }
 /*@ define:group
 ---
-name: Runes Style
+name: Runes
 icon: 
   type: sprite
   spriteId: 4241
@@ -7496,10 +7813,10 @@ icon:
 
 /*@ define:input:item_category_styles
 type: style
-label: Runes Style
-group: Runes Style
-exampleItem: Air rune
-exampleItemId: 556
+label: All Runes Items Style
+group: Runes
+exampleItem: Wrath rune
+exampleItemId: 21880
 */
 #define VAR_CATEGORY_RUNES_CUSTOMSTYLE \
   icon = Sprite(3192, 0);
@@ -7507,9 +7824,48 @@ exampleItemId: 556
 apply (name:CONST_RUNES_LIST) {
     VAR_CATEGORY_RUNES_CUSTOMSTYLE
 }
+
+/*@ define:input:item_category_styles
+type: style
+label: Elemental Runes Style
+group: Runes
+exampleItem: Air rune
+exampleItemId: 556
+*/
+#define VAR_CATEGORY_ELEMENTAL_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_ELEMENTAL_LIST) {
+  VAR_CATEGORY_ELEMENTAL_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Catalytic Runes Style
+group: Runes
+exampleItem: Mind rune
+exampleItemId: 558
+*/
+#define VAR_CATEGORY_CATALYTIC_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_CATALYTIC_LIST) {
+  VAR_CATEGORY_CATALYTIC_RUNES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Combination Runes Style
+group: Runes
+exampleItem: Mist rune
+exampleItemId: 4695
+*/
+#define VAR_CATEGORY_COMBINATION_RUNES_CUSTOMSTYLE
+
+apply (name:CONST_RUNES_COMBINATION_LIST) {
+  VAR_CATEGORY_COMBINATION_RUNES_CUSTOMSTYLE
+}
 /*@ define:group
 ---
-name: Ores Style
+name: Mining
 icon: 
   type: sprite
   spriteId: 4248
@@ -7519,7 +7875,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Ores Style
-group: Ores Style
+group: Mining
 exampleItem: Copper ore
 exampleItemId: 436
 */
@@ -7531,7 +7887,7 @@ apply (name:CONST_ORES_LIST) {
 }
 /*@ define:group
 ---
-name: Bars Style
+name: Smithing
 icon: 
   type: sprite
   spriteId: 4249
@@ -7541,7 +7897,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Bars Style
-group: Bars Style
+group: Smithing
 exampleItem: Bronze bar
 exampleItemId: 2349
 */
@@ -7553,103 +7909,68 @@ apply (name:CONST_BARS_LIST) {
 }
 /*@ define:group
 ---
-name: Herbs Style
+name: Herblore
 icon: 
   type: sprite
   spriteId: 4244
   spriteIndex: 0
 */
+
+/*@ define:input:item_category_styles
+type: style
+label: All Herblore Items Style
+group: Herblore
+exampleItem: Grimy ranarr weed
+exampleItemId: 207
+*/
+#define VAR_CATEGORY_HERBLORE_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_ALL_HERBS || name:CONST_SECONDARIES_LIST || name:CONST_ALL_HERBLORE_EQUIPMENT) {
+  VAR_CATEGORY_HERBLORE_CUSTOMSTYLE
+}
 
 /*@ define:input:item_category_styles
 type: style
 label: Herbs Style
-group: Herbs Style
+group: Herblore
 exampleItem: Guam leaf
 exampleItemId: 249
 */
-#define VAR_CATEGORY_HERBS_CUSTOMSTYLE \
-  icon = Sprite(3196, 0);
+#define VAR_CATEGORY_HERBS_CUSTOMSTYLE
 
 apply (name:CONST_ALL_HERBS) {
-    VAR_CATEGORY_HERBS_CUSTOMSTYLE
+  VAR_CATEGORY_HERBS_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Herblore secondaries Style
-icon: 
-  type: sprite
-  spriteId: 4244
-  spriteIndex: 0
-description: |
-  Covers:
-  - Eye of newt
-  - Unicorn horn dust
-  - Limpwurt root
-  - Volcanic ash
-  - Red spiders' eggs
-  - Chocolate dust
-  - White berries
-  - Toad's legs
-  - Goat horn dust
-  - Snape grass
-  - Mort myre fungus
-  - Kebbit teeth dust
-  - Dragon scale dust
-  - Nail beast nails
-  - Yew roots
-  - Wine of zamorak
-  - Potato cactus
-  - Jangerberries
-  - Magic roots
-  - Crushed nest
-  - Poison ivy berries
-  - Nihil dust
-  - Lily of the sands
-  - Aldarium
-  - Araxyte venom sack
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Herblore secondaries Style
-group: Herblore secondaries Style
+label: Secondaries Style
+group: Herblore
 exampleItem: Eye of newt
 exampleItemId: 221
 */
-#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE \
-  icon = Sprite(3196, 0);
+#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
 
 apply (name:CONST_SECONDARIES_LIST) {
-    VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+  VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
 }
-/*@ define:group
----
-name: Potions Style
-icon: 
-  type: sprite
-  spriteId: 3231
-  spriteIndex: 0
-description: |
-  Covers both potions and barbarians potions.
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Potions Style
-group: Potions Style
-exampleItem: Attack potion(3)
-exampleItemId: 121
+label: "Herblore Equipment Style (pestle and mortar, vials, etc.)"
+group: Herblore
+exampleItem: Pestle and mortar
+exampleItemId: 233
 */
-#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
-  icon = Sprite(3231, 0);
+#define VAR_CATEGORY_HERBLORE_EQUIPMENT_CUSTOMSTYLE
 
-apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
-  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+apply (name:CONST_ALL_HERBLORE_EQUIPMENT) {
+  VAR_CATEGORY_HERBLORE_EQUIPMENT_CUSTOMSTYLE
 }
 /*@ define:group
 ---
-name: Logs Style
+name: Woodcutting
 icon: 
   type: sprite
   spriteId: 4253
@@ -7659,7 +7980,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Logs Style
-group: Logs Style
+group: Woodcutting
 exampleItem: Logs
 exampleItemId: 1511
 */
@@ -7671,75 +7992,68 @@ apply (name:CONST_LOGS_LIST) {
 }
 /*@ define:group
 ---
-name: Raw fish Style
+name: Fishing
 icon: 
   type: sprite
   spriteId: 4250 
   spriteIndex: 0
 */
+
+/*@ define:input:item_category_styles
+type: style
+label: All Fishing Items Style
+group: Fishing
+exampleItem: Raw anglerfish
+exampleItemId: 13439
+*/
+#define VAR_CATEGORY_STYLE_FISHING_CUSTOMSTYLE \
+  icon = Sprite(3202, 0);
+
+apply (name:CONST_FISHING_RAW_FISH_LIST || name:CONST_FISHING_EQUIPMENT_LIST || name:CONST_FISHING_BAIT_LIST) {
+  VAR_CATEGORY_STYLE_FISHING_CUSTOMSTYLE
+}
 
 /*@ define:input:item_category_styles
 type: style
 label: Raw fish Style
-group: Raw fish Style
+group: Fishing
 exampleItem: Raw tuna
 exampleItemId: 359
 */
-#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE \
-  icon = Sprite(3202, 0);
+#define VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE
 
 apply (name:CONST_FISHING_RAW_FISH_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
+  VAR_CATEGORY_STYLE_FISHING_RAW_FISH_CUSTOMSTYLE 
 }
-
-/*@ define:group
----
-name: Fishing equipment Style
-icon: 
-  type: sprite
-  spriteId: 4250 
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Fishing equipment Style
-group: Fishing equipment Style
+label: "Fishing equipment Style (fishing rods, harpoons, etc.)"
+group: Fishing
 exampleItem: Fishing rod
 exampleItemId: 307
 */
-#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE \
-  icon = Sprite(3202, 0);
+#define VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE
 
 apply (name:CONST_FISHING_EQUIPMENT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
+  VAR_CATEGORY_STYLE_FISHING_EQUIPMENT_CUSTOMSTYLE 
 }
-
-/*@ define:group
----
-name: Fishing bait Style
-icon: 
-  type: sprite
-  spriteId: 4250 
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
 label: Fishing bait Style
-group: Fishing bait Style
+group: Fishing
 exampleItem: Fishing bait
 exampleItemId: 313
 */
-#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE \
-  icon = Sprite(3202, 0);
+#define VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE
 
 apply (name:CONST_FISHING_BAIT_LIST) {
-    VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
+  VAR_CATEGORY_STYLE_FISHING_BAIT_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
-name: Farming Seeds Style
+name: Farming
 icon: 
   type: sprite
   spriteId: 4256 
@@ -7748,10 +8062,10 @@ icon:
 
 /*@ define:input:item_category_styles
 type: style
-label: Farming Seeds Style
-group: Farming Seeds Style
-exampleItem: Potato seed
-exampleItemId: 5318
+label: All Farming Items Style
+group: Farming
+exampleItem: Torstol seed
+exampleItemId: 5304
 */
 #define VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE \
   icon = Sprite(3207, 0);
@@ -7759,430 +8073,264 @@ exampleItemId: 5318
 apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST || name:CONST_FARMING_SEEDS_FLOWER_LIST || name:CONST_FARMING_SEEDS_HERB_LIST || name:CONST_FARMING_SEEDS_HOPS_LIST || name:CONST_FARMING_SEEDS_BUSH_LIST || name:CONST_FARMING_SEEDS_TREE_LIST || name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST || name:CONST_FARMING_SEEDS_SPECIAL_LIST || name:CONST_FARMING_SEEDS_ANIMA_LIST) {
   VAR_CATEGORY_FARMING_SEEDS_CUSTOMSTYLE
 }
-/*@ define:group
----
-name: Bones Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Bones Style
-group: Bones Style
-exampleItem: Bones
-exampleItemId: 526
+label: Allotment Seeds Style
+group: Farming
+exampleItem: Potato seed
+exampleItemId: 5318
 */
-#define VAR_BONES_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_ALLOTMENT_CUSTOMSTYLE
 
-apply (name:CONST_BONES_LIST) {
-    VAR_BONES_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_ALLOTMENT_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_ALLOTMENT_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Ashes Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Ashes Style
-group: Ashes Style
-exampleItem: Fiendish ashes
-exampleItemId: 25766
+label: Flower Seeds Style
+group: Farming
+exampleItem: Marigold seed
+exampleItemId: 5096
 */
-#define VAR_ASHES_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_FLOWER_CUSTOMSTYLE
 
-apply (name:CONST_ASHES_LIST) {
-    VAR_ASHES_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_FLOWER_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_FLOWER_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Shades Remains Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Shades Remains Style
-group: Shades Remains Style
-exampleItem: Loar remains
-exampleItemId: 3396
+label: Herb Seeds Style
+group: Farming
+exampleItem: Guam seed
+exampleItemId: 5291
 */
-#define VAR_SHADES_REMAINS_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_HERB_CUSTOMSTYLE
 
-apply (name:CONST_SHADES_REMAINS_LIST) {
-    VAR_SHADES_REMAINS_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_HERB_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_HERB_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Ensouled Head Style
-icon: 
-  type: sprite
-  spriteId: 4240
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Ensouled Head Style
-group: Ensouled Head Style
-exampleItem: Ensouled goblin head
-exampleItemId: 13448
+label: Hops Seeds Style
+group: Farming
+exampleItem: Barley seed
+exampleItemId: 5305
 */
-#define VAR_ENSOULED_HEAD_CUSTOMSTYLE \
-  icon = Sprite(3191, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_HOPS_CUSTOMSTYLE
 
-apply (name:CONST_ENSOULED_HEAD_LIST) {
-    VAR_ENSOULED_HEAD_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_HOPS_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_HOPS_CUSTOMSTYLE
 }
-/*@ define:group
----
-name: Fish Food Style
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Fish Food Style
-group: Fish Food Style
-exampleItem: Tuna
-exampleItemId: 361
+label: Bush Seeds Style
+group: Farming
+exampleItem: Redberry seed
+exampleItemId: 5101
 */
-#define VAR_FOOD_FISH_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_BUSH_CUSTOMSTYLE
 
-apply (name:CONST_FISH_FOODS_LIST) {
-    VAR_FOOD_FISH_CUSTOMSTYLE 
+apply (name:CONST_FARMING_SEEDS_BUSH_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_BUSH_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Potatoes Food Style
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Potatoes Food Style
-group: Potatoes Food Style
-exampleItem: Tuna potato
-exampleItemId: 7060
+label: Tree Seeds Style
+group: Farming
+exampleItem: Acorn
+exampleItemId: 5312
 */
-#define VAR_POTATOES_FOODS_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_TREE_CUSTOMSTYLE
 
-apply (name:CONST_POTATOES_FOODS_LIST) {
-    VAR_POTATOES_FOODS_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_TREE_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_TREE_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Hunter Food Style
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Hunter Food Style
-group: Hunter Food Style
-exampleItem: Cooked moonlight antelope
-exampleItemId: 29143
+label: Fruit Tree Seeds Style
+group: Farming
+exampleItem: Apple tree seed
+exampleItemId: 5283
 */
-#define VAR_FOOD_HUNTER_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_FRUIT_TREE_CUSTOMSTYLE
 
-apply (name:CONST_HUNTER_FOODS_LIST) {
-    VAR_FOOD_HUNTER_CUSTOMSTYLE 
+apply (name:CONST_FARMING_SEEDS_FRUIT_TREE_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_FRUIT_TREE_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Pie Food Style
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Pie Food Style
-group: Pie Food Style
-exampleItem: Summer pie
-exampleItemId: 7218
+label: Special Tree Seeds Style
+group: Farming
+exampleItem: Teak seed
+exampleItemId: 21486
 */
-#define VAR_PIE_FOODS_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_SPECIAL_TREE_CUSTOMSTYLE
 
-apply (name:CONST_PIE_FOODS_LIST) {
-    VAR_PIE_FOODS_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_SPECIAL_TREE_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_SPECIAL_TREE_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Pizza Food Style
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Pizza Food Style
-group: Pizza Food Style
-exampleItem: Pineapple pizza
-exampleItemId: 2301
+label: Special Seeds Style
+group: Farming
+exampleItem: Seaweed spore
+exampleItemId: 21490
 */
-#define VAR_PIZZA_FOODS_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_SPECIAL_CUSTOMSTYLE
 
-apply (name:CONST_PIZZA_FOODS_LIST) {
-    VAR_PIZZA_FOODS_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_SPECIAL_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_SPECIAL_CUSTOMSTYLE
 }
-
-/*@ define:group
----
-name: Cake Food Style
-icon: 
-  type: sprite
-  spriteId: 3288
-  spriteIndex: 0
-*/
 
 /*@ define:input:item_category_styles
 type: style
-label: Cake Food Style
-group: Cake Food Style
-exampleItem: Chocolate cake
-exampleItemId: 1897
+label: Anima Seeds Style
+group: Farming
+exampleItem: Attas seed
+exampleItemId: 22881
 */
-#define VAR_CAKE_FOODS_CUSTOMSTYLE \
-  icon = Sprite(3288, 0);
+#define VAR_CATEGORY_FARMING_SEEDS_ANIMA_CUSTOMSTYLE
 
-apply (name:CONST_CAKE_FOODS_LIST) {
-    VAR_CAKE_FOODS_CUSTOMSTYLE
+apply (name:CONST_FARMING_SEEDS_ANIMA_LIST) {
+  VAR_CATEGORY_FARMING_SEEDS_ANIMA_CUSTOMSTYLE
 }
 /*@ define:group
 ---
-name: Fletching Unstrung Style
+name: Fletching
 icon: 
   type: sprite
   spriteId: 4247
   spriteIndex: 0
-description: |
-  Covers unstrung shortbows, longbows, and crossbows.
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unstrung Style
-group: Fletching Unstrung Style
+label: All Fletching Items Style
+group: Fletching
+exampleItem: Magic longbow (u)
+exampleItemId: 70
+*/
+#define VAR_CATEGORY_FLETCHING_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST || name:CONST_FLETCHING_ARROW_TIPS_LIST || name:CONST_FLETCHING_DART_TIP_LIST || name:CONST_FLETCHING_JAVELIN_HEADS_LIST || name:CONST_FLETCHING_UNFINISHED_BOLTS_LIST || name:CONST_FLETCHING_BOLT_TIPS_LIST || name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST || name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
+  VAR_CATEGORY_FLETCHING_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: "Unstrung Style (unstrung shortbows, longbows, and crossbows)"
+group: Fletching
 exampleItem: Shortbow (u)
 exampleItemId: 50
 */
-#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST) {
   VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Arrowtips Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Arrowtips Style
-group: Fletching Arrowtips Style
+label: Arrowtips Style
+group: Fletching
 exampleItem: Bronze arrowtips
 exampleItemId: 39
 */
-#define VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_ARROW_TIPS_LIST) {
   VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Dart Tips Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Dart Tips Style
-group: Fletching Dart Tips Style
+label: Dart Tips Style
+group: Fletching
 exampleItem: Bronze dart tip
 exampleItemId: 819
 */
-#define VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_DART_TIP_LIST) {
   VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Javelin Heads Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Javelin Heads Style
-group: Fletching Javelin Heads Style
+label: Javelin Heads Style
+group: Fletching
 exampleItem: Bronze javelin heads
 exampleItemId: 19570
 */
-#define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_JAVELIN_HEADS_LIST) {
   VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Unfinished Bolts Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unfinished Bolts Style
-group: Fletching Unfinished Bolts Style
+label: Unfinished Bolts Style
+group: Fletching
 exampleItem: Bronze bolts (unf)
 exampleItemId: 9375
 */
-#define VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_UNFINISHED_BOLTS_LIST) {
   VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Bolt Tips Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Bolt Tips Style
-group: Fletching Bolt Tips Style
+label: Bolt Tips Style
+group: Fletching
 exampleItem: Opal bolt tips
 exampleItemId: 45
 */
-#define VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_BOLT_TIPS_LIST) {
   VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Misc Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-description: |
-  Covers:
-  - Crossbow limbs
-  - Crossbow stocks
-  - Bow string
-  - Crossbow string
-  - Unstrung comp bow
-  - Javelin shaft
-  - Arrow shaft
-  - Ogre arrow shaft
-  - Headless arrow
-  - Flighted ogre arrow
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Misc Style
-group: Fletching Misc Style
+label: "Misc Style (arrow shafts, bow strings, etc.)"
+group: Fletching
 exampleItem: Javelin shaft
 exampleItemId: 19584
 */
-#define VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST || name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
   VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 }
 /*@ define:group
 ---
-name: Construction Style
+name: Construction
 icon: 
   type: sprite
   spriteId: 4258
   spriteIndex: 0
-description: |
-  Covers:
-  - Planks
-  - Nails
-  - Stonemason items
-  - Bolt of cloth
-  - Saw
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Construction Style
-group: Construction Style
-exampleItem: Plank
-exampleItemId: 960
+label: All Construction Items Style
+group: Construction
+exampleItem: Mahogany plank
+exampleItemId: 8782
 */
 #define VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE \
   icon = Sprite(3208, 0);
@@ -8190,18 +8338,67 @@ exampleItemId: 960
 apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST || name:CONST_CONSTRUCTION_STONEMASON_LIST || name:CONST_CONSTRUCTION_MISC_LIST) {
   VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE
 }
+
+/*@ define:input:item_category_styles
+type: style
+label: Planks Style
+group: Construction
+exampleItem: Plank
+exampleItemId: 960
+*/
+#define VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_PLANKS_LIST) {
+  VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: Nails Style
+group: Construction
+exampleItem: Bronze nails
+exampleItemId: 4819
+*/
+#define VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
+  VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: "Stonemason Style (limestone brick, marble block, etc.)"
+group: Construction
+exampleItem: Limestone brick
+exampleItemId: 3420
+*/
+#define VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
+  VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: "Misc Construction Style (bolt of cloth, saw)"
+group: Construction
+exampleItem: Bolt of cloth
+exampleItemId: 8790
+*/
+#define VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_MISC_LIST) {
+  VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+}
 /*@ define:group
 ---
-name: Bronze Armour and Weapons
+name: Metal Equipment
 icon: 
   type: itemId
-  itemId: 1189
+  itemId: 21895
 */
 
 /*@ define:input:item_category_styles
 type: style
 label: Bronze Armour and Weapons
-group: Bronze Armour and Weapons
+group: Metal Equipment
 exampleItem: Bronze platelegs
 exampleItemId: 1075
 */
@@ -8210,24 +8407,16 @@ exampleItemId: 1075
   backgroundColor = "#8043341d";\
   borderColor = "#FF43341d";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF43341d";
+  menuTextColor = "#FF6a5432";
 
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS || name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS || name:CONST_BRONZE_RANGED_WEAPONS || name:CONST_BRONZE_AMMO || name:CONST_BRONZE_ARMOUR || name:CONST_BRONZE_OTHER) {
     VAR_BRONZE_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Iron Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1191
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Iron Armour and Weapons
-group: Iron Armour and Weapons
+group: Metal Equipment
 exampleItem: Iron platelegs
 exampleItemId: 1067
 */
@@ -8236,24 +8425,16 @@ exampleItemId: 1067
   backgroundColor = "#804f4948";\
   borderColor = "#FF4f4948";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4f4948";
+  menuTextColor = "#FF6b5f58";
 
 apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS || name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS || name:CONST_IRON_RANGED_WEAPONS || name:CONST_IRON_AMMO || name:CONST_IRON_ARMOUR || name:CONST_IRON_OTHER) {
     VAR_IRON_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Steel Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1193
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Steel Armour and Weapons
-group: Steel Armour and Weapons
+group: Metal Equipment
 exampleItem: Steel platelegs
 exampleItemId: 1069
 */
@@ -8262,24 +8443,16 @@ exampleItemId: 1069
   backgroundColor = "#80857c7b";\
   borderColor = "#FF857c7b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF857c7b";
+  menuTextColor = "#FFa09a8b";
 
 apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS || name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS || name:CONST_STEEL_RANGED_WEAPONS || name:CONST_STEEL_AMMO || name:CONST_STEEL_ARMOUR || name:CONST_STEEL_OTHER) {
     VAR_STEEL_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1195
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black Armour and Weapons
-group: Black Armour and Weapons
+group: Metal Equipment
 exampleItem: Black platelegs
 exampleItemId: 1077
 */
@@ -8288,24 +8461,16 @@ exampleItemId: 1077
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2b3a3a";
 
 apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS || name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS || name:CONST_BLACK_RANGED_WEAPONS || name:CONST_BLACK_AMMO || name:CONST_BLACK_ARMOUR || name:CONST_BLACK_OTHER) {
     VAR_BLACK_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Mithril Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1197
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Mithril Armour and Weapons
-group: Mithril Armour and Weapons
+group: Metal Equipment
 exampleItem: Mithril platelegs
 exampleItemId: 1071
 */
@@ -8314,24 +8479,16 @@ exampleItemId: 1071
   backgroundColor = "#80414161";\
   borderColor = "#FF414161";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF414161";
+  menuTextColor = "#FF5a5a7a";
 
 apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS || name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS || name:CONST_MITHRIL_RANGED_WEAPONS || name:CONST_MITHRIL_AMMO || name:CONST_MITHRIL_ARMOUR || name:CONST_MITHRIL_OTHER) {
     VAR_MITHRIL_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1199
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant Armour and Weapons
-group: Adamant Armour and Weapons
+group: Metal Equipment
 exampleItem: Adamant platelegs
 exampleItemId: 1073
 */
@@ -8340,24 +8497,16 @@ exampleItemId: 1073
   backgroundColor = "#80405140";\
   borderColor = "#FF405140";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF5a7a5a";
 
 apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS || name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS || name:CONST_ADAMANT_RANGED_WEAPONS || name:CONST_ADAMANT_AMMO || name:CONST_ADAMANT_ARMOUR || name:CONST_ADAMANT_OTHER) {
     VAR_ADAMANT_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1201
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune Armour and Weapons
-group: Rune Armour and Weapons
+group: Metal Equipment
 exampleItem: Rune platelegs
 exampleItemId: 1079
 */
@@ -8366,24 +8515,16 @@ exampleItemId: 1079
   backgroundColor = "#80415760";\
   borderColor = "#FF415760";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF5a7a90";
 
 apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS || name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS || name:CONST_RUNE_RANGED_WEAPONS || name:CONST_RUNE_AMMO || name:CONST_RUNE_ARMOUR || name:CONST_RUNE_OTHER) {
     VAR_RUNE_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Dragon Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 21895
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Dragon Armour and Weapons
-group: Dragon Armour and Weapons
+group: Metal Equipment
 exampleItem: Dragon platelegs
 exampleItemId: 4087
 */
@@ -8392,24 +8533,16 @@ exampleItemId: 4087
   backgroundColor = "#80541109";\
   borderColor = "#FF541109";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF541109";
+  menuTextColor = "#FF7a3a19";
 
 apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS || name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS || name:CONST_DRAGON_RANGED_WEAPONS || name:CONST_DRAGON_AMMO || name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Bronze (t) Armour
-icon: 
-  type: itemId
-  itemId: 12223
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Bronze (t) Armour
-group: Bronze (t) Armour
+group: Metal Equipment
 exampleItem: Bronze platelegs (t)
 */
 #define VAR_BRONZE_TRIMMED_CUSTOMSTYLE \
@@ -8417,24 +8550,16 @@ exampleItem: Bronze platelegs (t)
   backgroundColor = "#8043341d";\
   borderColor = "#FF615c2d";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF43341d";
+  menuTextColor = "#FF7a5a2d";
 
 apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
     VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Iron (t) Armour
-icon: 
-  type: itemId
-  itemId: 12233
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Iron (t) Armour
-group: Iron (t) Armour
+group: Metal Equipment
 exampleItem: Iron platelegs (t)
 */
 #define VAR_IRON_TRIMMED_CUSTOMSTYLE \
@@ -8442,24 +8567,16 @@ exampleItem: Iron platelegs (t)
   backgroundColor = "#804f4948";\
   borderColor = "#FF151111";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4f4948";
+  menuTextColor = "#FF7a6a68";
 
 apply (name:CONST_IRON_TRIMMED_ARMOUR) {
     VAR_IRON_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Steel (t) Armour
-icon: 
-  type: itemId
-  itemId: 20196
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Steel (t) Armour
-group: Steel (t) Armour
+group: Metal Equipment
 exampleItem: Steel platelegs (t)
 */
 #define VAR_STEEL_TRIMMED_CUSTOMSTYLE \
@@ -8467,24 +8584,16 @@ exampleItem: Steel platelegs (t)
   backgroundColor = "#80857c7b";\
   borderColor = "#FFb1a6a6";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF857c7b";
+  menuTextColor = "#FFb0a09b";
 
 apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
     VAR_STEEL_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black (t) Armour
-icon: 
-  type: itemId
-  itemId: 2589
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black (t) Armour
-group: Black (t) Armour
+group: Metal Equipment
 exampleItem: Black platelegs (t)
 */
 #define VAR_BLACK_TRIMMED_CUSTOMSTYLE \
@@ -8492,24 +8601,16 @@ exampleItem: Black platelegs (t)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF423e3e";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF3b4a4a";
 
 apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Mithril (t) Armour
-icon: 
-  type: itemId
-  itemId: 12291
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Mithril (t) Armour
-group: Mithril (t) Armour
+group: Metal Equipment
 exampleItem: Mithril platelegs (t)
 */
 #define VAR_MITHRIL_TRIMMED_CUSTOMSTYLE \
@@ -8517,24 +8618,16 @@ exampleItem: Mithril platelegs (t)
   backgroundColor = "#80414161";\
   borderColor = "#FF6e8aa3";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF414161";
+  menuTextColor = "#FF6a6a8a";
 
 apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
     VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant (t) Armour
-icon: 
-  type: itemId
-  itemId: 2603
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant (t) Armour
-group: Adamant (t) Armour
+group: Metal Equipment
 exampleItem: Adamant platelegs (t)
 */
 #define VAR_ADAMANT_TRIMMED_CUSTOMSTYLE \
@@ -8542,24 +8635,16 @@ exampleItem: Adamant platelegs (t)
   backgroundColor = "#80405140";\
   borderColor = "#FF6a725a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF6a8a6a";
 
 apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
     VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune (t) Armour
-icon: 
-  type: itemId
-  itemId: 2629
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune (t) Armour
-group: Rune (t) Armour
+group: Metal Equipment
 exampleItem: Rune platelegs (t)
 */
 #define VAR_RUNE_TRIMMED_CUSTOMSTYLE \
@@ -8567,24 +8652,16 @@ exampleItem: Rune platelegs (t)
   backgroundColor = "#80415760";\
   borderColor = "#FF6d88a1";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF6a8a9a";
 
 apply (name:CONST_RUNE_TRIMMED_ARMOUR) {
     VAR_RUNE_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Bronze (g) Armour
-icon: 
-  type: itemId
-  itemId: 12213
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Bronze (g) Armour
-group: Bronze (g) Armour
+group: Metal Equipment
 exampleItem: Bronze platelegs (g)
 */
 #define VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8592,24 +8669,16 @@ exampleItem: Bronze platelegs (g)
   backgroundColor = "#8043341d";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF43341d";
+  menuTextColor = "#FF7a6a2d";
 
 apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
     VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Iron (g) Armour
-icon: 
-  type: itemId
-  itemId: 12243
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Iron (g) Armour
-group: Iron (g) Armour
+group: Metal Equipment
 exampleItem: Iron platelegs (g)
 */
 #define VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8617,24 +8686,16 @@ exampleItem: Iron platelegs (g)
   backgroundColor = "#804f4948";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4f4948";
+  menuTextColor = "#FF7a7a58";
 
 apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
     VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Steel (g) Armour
-icon: 
-  type: itemId
-  itemId: 20181
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Steel (g) Armour
-group: Steel (g) Armour
+group: Metal Equipment
 exampleItem: Steel platelegs (g)
 */
 #define VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8642,24 +8703,16 @@ exampleItem: Steel platelegs (g)
   backgroundColor = "#80857c7b";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF857c7b";
+  menuTextColor = "#FFb0b08b";
 
 apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
     VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black (g) Armour
-icon: 
-  type: itemId
-  itemId: 2597
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black (g) Armour
-group: Black (g) Armour
+group: Metal Equipment
 exampleItem: Black platelegs (g)
 */
 #define VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8667,24 +8720,16 @@ exampleItem: Black platelegs (g)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2b4a4a";
 
 apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Mithril (g) Armour
-icon: 
-  type: itemId
-  itemId: 12281
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Mithril (g) Armour
-group: Mithril (g) Armour
+group: Metal Equipment
 exampleItem: Mithril platelegs (g)
 */
 #define VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8692,24 +8737,16 @@ exampleItem: Mithril platelegs (g)
   backgroundColor = "#80414161";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF414161";
+  menuTextColor = "#FF7a7a6a";
 
 apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
     VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant (g) Armour
-icon: 
-  type: itemId
-  itemId: 2611
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant (g) Armour
-group: Adamant (g) Armour
+group: Metal Equipment
 exampleItem: Adamant platelegs (g)
 */
 #define VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8717,24 +8754,16 @@ exampleItem: Adamant platelegs (g)
   backgroundColor = "#80405140";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF7a8a6a";
 
 apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
     VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune (g) Armour
-icon: 
-  type: itemId
-  itemId: 2621
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune (g) Armour
-group: Rune (g) Armour
+group: Metal Equipment
 exampleItem: Rune platelegs (g)
 */
 #define VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8742,24 +8771,16 @@ exampleItem: Rune platelegs (g)
   backgroundColor = "#80415760";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF7a9a8a";
 
 apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
     VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black heraldic Armour
-icon: 
-  type: itemId
-  itemId: 7332
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black heraldic Armour
-group: Black heraldic Armour
+group: Metal Equipment
 exampleItem: Black helm (h1)
 */
 #define VAR_BLACK_HERALDIC_CUSTOMSTYLE \
@@ -8767,24 +8788,16 @@ exampleItem: Black helm (h1)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2b3b3a";
 
 apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant heraldic Armour
-icon: 
-  type: itemId
-  itemId: 7334
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant heraldic Armour
-group: Adamant heraldic Armour
+group: Metal Equipment
 exampleItem: Adamant helm (h1)
 */
 #define VAR_ADAMANT_HERALDIC_CUSTOMSTYLE \
@@ -8792,24 +8805,16 @@ exampleItem: Adamant helm (h1)
   backgroundColor = "#80405140";\
   borderColor = "#FF405140";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF5a7a6a";
 
 apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
     VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune heraldic Armour
-icon: 
-  type: itemId
-  itemId: 7336
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune heraldic Armour
-group: Rune heraldic Armour
+group: Metal Equipment
 exampleItem: Rune helm (h1)
 */
 #define VAR_RUNE_HERALDIC_CUSTOMSTYLE \
@@ -8817,24 +8822,16 @@ exampleItem: Rune helm (h1)
   backgroundColor = "#80415760";\
   borderColor = "#FF415760";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF5a7a8a";
 
 apply (name:CONST_RUNE_HERALDIC_ARMOUR) {
     VAR_RUNE_HERALDIC_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune saradomin Armour
-icon: 
-  type: itemId
-  itemId: 2667
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune saradomin Armour
-group: Rune saradomin Armour
+group: Metal Equipment
 exampleItem: Saradomin platelegs
 */
 #define VAR_RUNE_SARADOMIN_CUSTOMSTYLE \
@@ -8842,24 +8839,16 @@ exampleItem: Saradomin platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FFacab88";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFacab88";
+  menuTextColor = "#FFbcbba8";
 
 apply (name:CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR) {
     VAR_RUNE_SARADOMIN_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune guthix Armour
-icon: 
-  type: itemId
-  itemId: 2675
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune guthix Armour
-group: Rune guthix Armour
+group: Metal Equipment
 exampleItem: Guthix platelegs
 */
 #define VAR_RUNE_GUTHIX_CUSTOMSTYLE \
@@ -8867,24 +8856,16 @@ exampleItem: Guthix platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF437745";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF437745";
+  menuTextColor = "#FF63a755";
 
 apply (name:CONST_RUNE_GUTHIX_TRIMMED_ARMOUR) {
     VAR_RUNE_GUTHIX_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune zamorak Armour
-icon: 
-  type: itemId
-  itemId: 2659
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune zamorak Armour
-group: Rune zamorak Armour
+group: Metal Equipment
 exampleItem: Zamorak platelegs
 */
 #define VAR_RUNE_ZAMORAK_CUSTOMSTYLE \
@@ -8892,24 +8873,16 @@ exampleItem: Zamorak platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF801a0d";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF801a0d";
+  menuTextColor = "#FFa03a2d";
 
 apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
     VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune ancient Armour
-icon: 
-  type: itemId
-  itemId: 12468
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune ancient Armour
-group: Rune ancient Armour
+group: Metal Equipment
 exampleItem: Ancient platelegs
 */
 #define VAR_RUNE_ANCIENT_CUSTOMSTYLE \
@@ -8917,24 +8890,16 @@ exampleItem: Ancient platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF552f53";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF552f53";
+  menuTextColor = "#FF7a4f73";
 
 apply (name:CONST_RUNE_ANCIENT_TRIMMED_ARMOUR) {
     VAR_RUNE_ANCIENT_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune armadyl Armour
-icon: 
-  type: itemId
-  itemId: 12478
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune armadyl Armour
-group: Rune armadyl Armour
+group: Metal Equipment
 exampleItem: Armadyl platelegs
 */
 #define VAR_RUNE_ARMADYL_CUSTOMSTYLE \
@@ -8942,24 +8907,16 @@ exampleItem: Armadyl platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF706868";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF706868";
+  menuTextColor = "#FF908888";
 
 apply (name:CONST_RUNE_ARMADYL_TRIMMED_ARMOUR) {
     VAR_RUNE_ARMADYL_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune bandos Armour
-icon: 
-  type: itemId
-  itemId: 12488
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune bandos Armour
-group: Rune bandos Armour
+group: Metal Equipment
 exampleItem: Bandos platelegs
 */
 #define VAR_RUNE_BANDOS_CUSTOMSTYLE \
@@ -8967,24 +8924,16 @@ exampleItem: Bandos platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF746228";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF746228";
+  menuTextColor = "#FFa48238";
 
 apply (name:CONST_RUNE_BANDOS_TRIMMED_ARMOUR) {
     VAR_RUNE_BANDOS_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Gilded Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 3488
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Gilded Armour and Weapons
-group: Gilded Armour and Weapons
+group: Metal Equipment
 exampleItem: Gilded platelegs
 */
 #define VAR_RUNE_GILDED_CUSTOMSTYLE \
@@ -8992,7 +8941,7 @@ exampleItem: Gilded platelegs
   backgroundColor = "#80c39318";\
   borderColor = "#FF7c540c";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF7c540c";
+  menuTextColor = "#FFbca41c";
 
 apply (name:CONST_RUNE_GILDED) {
     VAR_RUNE_GILDED_CUSTOMSTYLE 
@@ -11804,7 +11753,7 @@ exampleItem: Willow logs
   backgroundColor = "#5071673F";\
   borderColor = "#FF564D20";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF564D20";
+  menuTextColor = "#FF5A5028";
 
 apply (name:"Willow logs") {
     VAR_WILLOW_LOGS_CUSTOMSTYLE 
@@ -11821,7 +11770,7 @@ exampleItem: Maple logs
   backgroundColor = "#50846230";\
   borderColor = "#FF704C0D";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF704C0D";
+  menuTextColor = "#FF6A5528";
 
 apply (name:"Maple logs") {
     VAR_MAPLE_LOGS_CUSTOMSTYLE 
@@ -16729,6 +16678,17 @@ name: Constants
   "*torstol", \
 ]
 
+#define CONST_ALL_HERBLORE_EQUIPMENT [ \
+  "Pestle and mortar", \
+  "Vial", \
+  "Vial of water", \
+  "Alchemist gloves", \
+  "Alchemist pants", \
+  "Alchemist labcoat", \
+  "Prescription goggles", \
+  "Alchemist's amulet", \
+]
+
 #define CONST_HUNTER_FOODS_LIST [ \
   "Cooked wild kebbit", \
   "Cooked larupia", \
@@ -17801,6 +17761,7 @@ name: Constants
   "Rune javelin*", \
   "Amethyst javelin*", \
   "Dragon javelin*", \
+  "Morrigan's javelin (bh)*", \
 ]
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
@@ -17829,6 +17790,42 @@ name: Constants
   "Ogre Arrow", \
   "Ice Arrow", \
   "Broad Arrow", \
+]
+
+#define CONST_AMMO_KNIVES_LIST [ \
+  "Bronze knife", \
+  "Iron knife", \
+  "Steel knife", \
+  "Black knife", \
+  "Mithril knife", \
+  "Adamant knife", \
+  "Rune knife", \
+  "Dragon knife", \
+]
+
+#define CONST_AMMO_THROWING_AXES_LIST [ \
+  "Bronze thrownaxe", \
+  "Iron thrownaxe", \
+  "Steel thrownaxe", \
+  "Mithril thrownaxe", \
+  "Adamant thrownaxe", \
+  "Rune thrownaxe", \
+  "Dragon thrownaxe", \
+  "Morrigan's throwing axe (bh)*", \
+]
+
+#define CONST_AMMO_CHINCHOMPAS_LIST [ \
+  "Chinchompa", \
+  "Red chinchompa", \
+  "Black chinchompa", \
+]
+
+#define CONST_AMMO_MISC_LIST [ \
+  "Atlatl dart", \
+  "Toktz-xil-ul", \
+  "Hunter's spear", \
+  "Holy water", \
+  "Mud pie", \
 ]
 
 #define CONST_LOGS_LIST [ \
@@ -17900,6 +17897,38 @@ name: Constants
   "Blood rune", \
   "Soul rune", \
   "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+  "Aether rune", \
+]
+
+#define CONST_RUNES_ELEMENTAL_LIST [ \
+  "Air rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Sunfire rune", \
+]
+
+#define CONST_RUNES_CATALYTIC_LIST [ \
+  "Mind rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+]
+
+#define CONST_RUNES_COMBINATION_LIST [ \
   "Mist rune", \
   "Dust rune", \
   "Mud rune", \

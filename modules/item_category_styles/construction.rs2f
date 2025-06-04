@@ -1,29 +1,71 @@
 /*@ define:group
 ---
-name: Construction Style
+name: Construction
 icon: 
   type: sprite
   spriteId: 4258
   spriteIndex: 0
-description: |
-  Covers:
-  - Planks
-  - Nails
-  - Stonemason items
-  - Bolt of cloth
-  - Saw
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Construction Style
-group: Construction Style
-exampleItem: Plank
-exampleItemId: 960
+label: All Construction Items Style
+group: Construction
+exampleItem: Mahogany plank
+exampleItemId: 8782
 */
 #define VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE \
   icon = Sprite(3208, 0);
 
 apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST || name:CONST_CONSTRUCTION_STONEMASON_LIST || name:CONST_CONSTRUCTION_MISC_LIST) {
   VAR_CATEGORY_CONSTRUCTION_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Planks Style
+group: Construction
+exampleItem: Plank
+exampleItemId: 960
+*/
+#define VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_PLANKS_LIST) {
+  VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: Nails Style
+group: Construction
+exampleItem: Bronze nails
+exampleItemId: 4819
+*/
+#define VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
+  VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: "Stonemason Style (limestone brick, marble block, etc.)"
+group: Construction
+exampleItem: Limestone brick
+exampleItemId: 3420
+*/
+#define VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
+  VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+}
+/*@ define:input:item_category_styles
+type: style
+label: "Misc Construction Style (bolt of cloth, saw)"
+group: Construction
+exampleItem: Bolt of cloth
+exampleItemId: 8790
+*/
+#define VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+
+apply (name:CONST_CONSTRUCTION_MISC_LIST) {
+  VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
 }

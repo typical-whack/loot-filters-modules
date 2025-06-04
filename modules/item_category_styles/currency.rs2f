@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Currency Style
+name: Currency
 icon: 
   type: sprite
   spriteId: 1531
@@ -47,7 +47,7 @@ description: |
 /*@ define:input:item_category_styles
 type: style
 label: Currency Style
-group: Currency Style
+group: Currency
 exampleItem: Coins
 exampleItemId: 1004
 */

@@ -1,24 +1,48 @@
 /*@ define:group
 ---
-name: Potions Style
+name: Potions
 icon: 
   type: sprite
   spriteId: 3231
   spriteIndex: 0
-description: |
-  Covers both potions and barbarians potions.
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Potions Style
-group: Potions Style
-exampleItem: Attack potion(3)
-exampleItemId: 121
+label: All Potion Items Style
+group: Potions
+exampleItem: Divine super combat potion(4)
+exampleItemId: 23685
 */
 #define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
   icon = Sprite(3231, 0);
 
 apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
   VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Potions Style
+group: Potions
+exampleItem: Attack potion(3)
+exampleItemId: 121
+*/
+#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+
+apply (name:CONST_POTIONS_LIST) {
+  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Barbarian Potions Style
+group: Potions
+exampleItem: Attack mix(2)
+exampleItemId: 11429
+*/
+#define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
+
+apply (name:CONST_BARB_POTIONS_LIST) {
+  VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
 }

@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Ores Style
+name: Mining
 icon: 
   type: sprite
   spriteId: 4248
@@ -10,7 +10,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Ores Style
-group: Ores Style
+group: Mining
 exampleItem: Copper ore
 exampleItemId: 436
 */

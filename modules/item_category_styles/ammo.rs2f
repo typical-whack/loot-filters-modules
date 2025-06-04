@@ -1,31 +1,126 @@
 /*@ define:group
 ---
-name: Ammo Style
+name: Ammo
 icon: 
   type: sprite
   spriteId: 4239
   spriteIndex: 0
-description: |
-  Covers:
-  - Standard Arrows
-  - Darts
-  - Bolts
-  - Javelins
-  - Special Bolts
-  - Brutal Arrows
-  - Special Arrows
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Ammo Style
-group: Ammo Style
-exampleItem: Bronze arrow
-exampleItemId: 897
+label: All Ammo Items Style
+group: Ammo
+exampleItem: Dragon arrow
+exampleItemId: 11212
 */
 #define VAR_CATEGORY_AMMO_CUSTOMSTYLE \
   icon = Sprite(3190, 0);
 
-apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+apply (name:CONST_BRONZE_AMMO || name:CONST_IRON_AMMO || name:CONST_STEEL_AMMO || name:CONST_BLACK_AMMO || name:CONST_MITHRIL_AMMO || name:CONST_ADAMANT_AMMO || name:CONST_RUNE_AMMO || name:CONST_DRAGON_AMMO || name:CONST_LAST_MAN_STANDING_AMMO_LIST || name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_DARTS_LIST || name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_JAVELINS_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST || name:CONST_AMMO_KNIVES_LIST || name:CONST_AMMO_THROWING_AXES_LIST || name:CONST_AMMO_CHINCHOMPAS_LIST || name:CONST_AMMO_MISC_LIST) {
     VAR_CATEGORY_AMMO_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Arrows Style
+group: Ammo
+exampleItem: Bronze arrow
+exampleItemId: 882
+*/
+#define VAR_AMMO_ARROWS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_STANDARD_ARROWS_LIST || name:CONST_AMMO_BRUTAL_ARROWS_LIST || name:CONST_AMMO_SPECIAL_ARROWS_LIST) {
+  VAR_AMMO_ARROWS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Darts Style
+group: Ammo
+exampleItem: Bronze dart
+exampleItemId: 806
+*/
+#define VAR_AMMO_DARTS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_DARTS_LIST) {
+  VAR_AMMO_DARTS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Bolts Style
+group: Ammo
+exampleItem: Bronze bolts
+exampleItemId: 877
+*/
+#define VAR_AMMO_BOLTS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_BOLTS_LIST || name:CONST_AMMO_BOLTS_E_LIST || name:CONST_AMMO_DRAGON_BOLTS_E_LIST || name:CONST_AMMO_SPECIAL_BOLTS_LIST) {
+  VAR_AMMO_BOLTS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Javelins Style
+group: Ammo
+exampleItem: Bronze javelin
+exampleItemId: 825
+*/
+#define VAR_AMMO_JAVELINS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_JAVELINS_LIST) {
+  VAR_AMMO_JAVELINS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Knives Style
+group: Ammo
+exampleItem: Bronze knife
+exampleItemId: 864
+*/
+#define VAR_AMMO_KNIVES_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_KNIVES_LIST) {
+  VAR_AMMO_KNIVES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Thowing Axes Style
+group: Ammo
+exampleItem: Bronze thrownaxe
+exampleItemId: 800
+*/
+#define VAR_AMMO_THROWING_AXES_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_THROWING_AXES_LIST) {
+  VAR_AMMO_THROWING_AXES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Chinchompas Style
+group: Ammo
+exampleItem: Chinchompa
+exampleItemId: 10033
+*/
+#define VAR_AMMO_CHINCHOMPAS_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_CHINCHOMPAS_LIST) {
+  VAR_AMMO_CHINCHOMPAS_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: "Misc Ammo Style (Atlatl dart, Toktz-xil-ul, etc.)"
+group: Ammo
+exampleItem: Toktz-xil-ul
+exampleItemId: 6522
+*/
+#define VAR_AMMO_MISC_CUSTOMSTYLE
+
+apply (name:CONST_AMMO_MISC_LIST) {
+  VAR_AMMO_MISC_CUSTOMSTYLE
 }

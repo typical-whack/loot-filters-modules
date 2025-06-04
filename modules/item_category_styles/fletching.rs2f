@@ -1,173 +1,112 @@
 /*@ define:group
 ---
-name: Fletching Unstrung Style
+name: Fletching
 icon: 
   type: sprite
   spriteId: 4247
   spriteIndex: 0
-description: |
-  Covers unstrung shortbows, longbows, and crossbows.
 */
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unstrung Style
-group: Fletching Unstrung Style
+label: All Fletching Items Style
+group: Fletching
+exampleItem: Magic longbow (u)
+exampleItemId: 70
+*/
+#define VAR_CATEGORY_FLETCHING_CUSTOMSTYLE \
+  icon = Sprite(3199, 0);
+
+apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST || name:CONST_FLETCHING_ARROW_TIPS_LIST || name:CONST_FLETCHING_DART_TIP_LIST || name:CONST_FLETCHING_JAVELIN_HEADS_LIST || name:CONST_FLETCHING_UNFINISHED_BOLTS_LIST || name:CONST_FLETCHING_BOLT_TIPS_LIST || name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST || name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
+  VAR_CATEGORY_FLETCHING_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: "Unstrung Style (unstrung shortbows, longbows, and crossbows)"
+group: Fletching
 exampleItem: Shortbow (u)
 exampleItemId: 50
 */
-#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_LONGBOW_LIST || name:CONST_FLETCHING_UNSTRUNG_CROSSBOW_LIST) {
   VAR_CATEGORY_FLETCHING_UNSTRUNG_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Arrowtips Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Arrowtips Style
-group: Fletching Arrowtips Style
+label: Arrowtips Style
+group: Fletching
 exampleItem: Bronze arrowtips
 exampleItemId: 39
 */
-#define VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_ARROW_TIPS_LIST) {
   VAR_CATEGORY_FLETCHING_ARROW_TIPS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Dart Tips Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Dart Tips Style
-group: Fletching Dart Tips Style
+label: Dart Tips Style
+group: Fletching
 exampleItem: Bronze dart tip
 exampleItemId: 819
 */
-#define VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_DART_TIP_LIST) {
   VAR_CATEGORY_FLETCHING_DART_TIP_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Javelin Heads Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Javelin Heads Style
-group: Fletching Javelin Heads Style
+label: Javelin Heads Style
+group: Fletching
 exampleItem: Bronze javelin heads
 exampleItemId: 19570
 */
-#define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_JAVELIN_HEADS_LIST) {
   VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Unfinished Bolts Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unfinished Bolts Style
-group: Fletching Unfinished Bolts Style
+label: Unfinished Bolts Style
+group: Fletching
 exampleItem: Bronze bolts (unf)
 exampleItemId: 9375
 */
-#define VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_UNFINISHED_BOLTS_LIST) {
   VAR_CATEGORY_FLETCHING_UNFINISHED_BOLTS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Bolt Tips Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Bolt Tips Style
-group: Fletching Bolt Tips Style
+label: Bolt Tips Style
+group: Fletching
 exampleItem: Opal bolt tips
 exampleItemId: 45
 */
-#define VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_BOLT_TIPS_LIST) {
   VAR_CATEGORY_FLETCHING_BOLT_TIPS_CUSTOMSTYLE
 }
 
-/*@ define:group
----
-name: Fletching Misc Style
-icon: 
-  type: sprite
-  spriteId: 4247
-  spriteIndex: 0
-description: |
-  Covers:
-  - Crossbow limbs
-  - Crossbow stocks
-  - Bow string
-  - Crossbow string
-  - Unstrung comp bow
-  - Javelin shaft
-  - Arrow shaft
-  - Ogre arrow shaft
-  - Headless arrow
-  - Flighted ogre arrow
-*/
-
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Misc Style
-group: Fletching Misc Style
+label: "Misc Style (arrow shafts, bow strings, etc.)"
+group: Fletching
 exampleItem: Javelin shaft
 exampleItemId: 19584
 */
-#define VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE \
-  icon = Sprite(3199, 0);
+#define VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE
 
 apply (name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIST || name:CONST_FLETCHING_CROSSBOW_STOCK_LIST) {
   VAR_CATEGORY_FLETCHING_MISC_CUSTOMSTYLE

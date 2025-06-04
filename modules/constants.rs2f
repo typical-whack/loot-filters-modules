@@ -531,6 +531,17 @@ name: Constants
   "*torstol", \
 ]
 
+#define CONST_ALL_HERBLORE_EQUIPMENT [ \
+  "Pestle and mortar", \
+  "Vial", \
+  "Vial of water", \
+  "Alchemist gloves", \
+  "Alchemist pants", \
+  "Alchemist labcoat", \
+  "Prescription goggles", \
+  "Alchemist's amulet", \
+]
+
 #define CONST_HUNTER_FOODS_LIST [ \
   "Cooked wild kebbit", \
   "Cooked larupia", \
@@ -1603,6 +1614,7 @@ name: Constants
   "Rune javelin*", \
   "Amethyst javelin*", \
   "Dragon javelin*", \
+  "Morrigan's javelin (bh)*", \
 ]
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
@@ -1631,6 +1643,42 @@ name: Constants
   "Ogre Arrow", \
   "Ice Arrow", \
   "Broad Arrow", \
+]
+
+#define CONST_AMMO_KNIVES_LIST [ \
+  "Bronze knife", \
+  "Iron knife", \
+  "Steel knife", \
+  "Black knife", \
+  "Mithril knife", \
+  "Adamant knife", \
+  "Rune knife", \
+  "Dragon knife", \
+]
+
+#define CONST_AMMO_THROWING_AXES_LIST [ \
+  "Bronze thrownaxe", \
+  "Iron thrownaxe", \
+  "Steel thrownaxe", \
+  "Mithril thrownaxe", \
+  "Adamant thrownaxe", \
+  "Rune thrownaxe", \
+  "Dragon thrownaxe", \
+  "Morrigan's throwing axe (bh)*", \
+]
+
+#define CONST_AMMO_CHINCHOMPAS_LIST [ \
+  "Chinchompa", \
+  "Red chinchompa", \
+  "Black chinchompa", \
+]
+
+#define CONST_AMMO_MISC_LIST [ \
+  "Atlatl dart", \
+  "Toktz-xil-ul", \
+  "Hunter's spear", \
+  "Holy water", \
+  "Mud pie", \
 ]
 
 #define CONST_LOGS_LIST [ \
@@ -1702,6 +1750,38 @@ name: Constants
   "Blood rune", \
   "Soul rune", \
   "Wrath rune", \
+  "Mist rune", \
+  "Dust rune", \
+  "Mud rune", \
+  "Smoke rune", \
+  "Steam rune", \
+  "Lava rune", \
+  "Aether rune", \
+]
+
+#define CONST_RUNES_ELEMENTAL_LIST [ \
+  "Air rune", \
+  "Water rune", \
+  "Earth rune", \
+  "Fire rune", \
+  "Sunfire rune", \
+]
+
+#define CONST_RUNES_CATALYTIC_LIST [ \
+  "Mind rune", \
+  "Body rune", \
+  "Cosmic rune", \
+  "Chaos rune", \
+  "Nature rune", \
+  "Law rune", \
+  "Death rune", \
+  "Astral rune", \
+  "Blood rune", \
+  "Soul rune", \
+  "Wrath rune", \
+]
+
+#define CONST_RUNES_COMBINATION_LIST [ \
   "Mist rune", \
   "Dust rune", \
   "Mud rune", \
