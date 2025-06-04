@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:31:44 UTC 2025 */
-/* Commit: 15d35e7 */
+/* Built on: Wed Jun  4 03:36:42 UTC 2025 */
+/* Commit: 7bb12a4 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7397,6 +7397,65 @@ description: |
 */
 /*@ define:group
 ---
+name: Currency Style
+icon: 
+  type: sprite
+  spriteId: 1531
+  spriteIndex: 0
+description: |
+  Covers:
+  - Abyssal pearls
+  - Agility arena ticket
+  - Anima-infused bark
+  - Archery ticket
+  - Barronite shards
+  - Blood money
+  - Brimhaven voucher
+  - Castle wars ticket
+  - Coins
+  - Ecto-token
+  - Frog token
+  - Glistening tear
+  - Golden nugget
+  - Hallowed mark
+  - Intelligence
+  - Mark of grace
+  - Mermaid's tear
+  - Minnow
+  - Molch pearl
+  - Mole claw
+  - Mole skin
+  - Nuggets
+  - Numulite
+  - Paramaya ticket
+  - Platinum token
+  - Rare creature parts
+  - Reward token credits
+  - Shantay pass
+  - Ship ticket
+  - Stardust
+  - Termites
+  - Tokkul
+  - Trading sticks
+  - Unidentified minerals
+  - Warrior guild token
+*/
+
+/*@ define:input:item_category_styles
+type: style
+label: Currency Style
+group: Currency Style
+exampleItem: Coins
+exampleItemId: 1004
+*/
+#define VAR_CURRENCY_CUSTOMSTYLE \
+  textColor = "#FFBEB287";
+
+apply (name:CONST_CURRENCY_LIST) {
+    VAR_CURRENCY_CUSTOMSTYLE 
+}
+/*@ define:group
+---
 name: Food
 icon: 
   type: sprite
@@ -7745,65 +7804,6 @@ apply (name:CONST_AMMO_MISC_LIST) {
 }
 /*@ define:group
 ---
-name: Currency Style
-icon: 
-  type: sprite
-  spriteId: 1531
-  spriteIndex: 0
-description: |
-  Covers:
-  - Abyssal pearls
-  - Agility arena ticket
-  - Anima-infused bark
-  - Archery ticket
-  - Barronite shards
-  - Blood money
-  - Brimhaven voucher
-  - Castle wars ticket
-  - Coins
-  - Ecto-token
-  - Frog token
-  - Glistening tear
-  - Golden nugget
-  - Hallowed mark
-  - Intelligence
-  - Mark of grace
-  - Mermaid's tear
-  - Minnow
-  - Molch pearl
-  - Mole claw
-  - Mole skin
-  - Nuggets
-  - Numulite
-  - Paramaya ticket
-  - Platinum token
-  - Rare creature parts
-  - Reward token credits
-  - Shantay pass
-  - Ship ticket
-  - Stardust
-  - Termites
-  - Tokkul
-  - Trading sticks
-  - Unidentified minerals
-  - Warrior guild token
-*/
-
-/*@ define:input:item_category_styles
-type: style
-label: Currency Style
-group: Currency Style
-exampleItem: Coins
-exampleItemId: 1004
-*/
-#define VAR_CURRENCY_CUSTOMSTYLE \
-  textColor = "#FFBEB287";
-
-apply (name:CONST_CURRENCY_LIST) {
-    VAR_CURRENCY_CUSTOMSTYLE 
-}
-/*@ define:group
----
 name: Runes
 icon: 
   type: sprite
@@ -7970,7 +7970,7 @@ apply (name:CONST_ALL_HERBLORE_EQUIPMENT) {
 }
 /*@ define:group
 ---
-name: Logs Style
+name: Woodcutting
 icon: 
   type: sprite
   spriteId: 4253
@@ -7980,7 +7980,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Logs Style
-group: Logs Style
+group: Woodcutting
 exampleItem: Logs
 exampleItemId: 1511
 */
