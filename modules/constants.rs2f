@@ -1614,6 +1614,7 @@ name: Constants
   "Rune javelin*", \
   "Amethyst javelin*", \
   "Dragon javelin*", \
+  "Morrigan's javelin (bh)*", \
 ]
 
 #define CONST_AMMO_SPECIAL_BOLTS_LIST [ \
@@ -1642,6 +1643,34 @@ name: Constants
   "Ogre Arrow", \
   "Ice Arrow", \
   "Broad Arrow", \
+]
+
+#define CONST_AMMO_KNIVES_LIST [ \
+  "Bronze knife", \
+  "Iron knife", \
+  "Steel knife", \
+  "Black knife", \
+  "Mithril knife", \
+  "Adamant knife", \
+  "Rune knife", \
+  "Dragon knife", \
+]
+
+#define CONST_AMMO_THROWING_AXES_LIST [ \
+  "Bronze thrownaxe", \
+  "Iron thrownaxe", \
+  "Steel thrownaxe", \
+  "Mithril thrownaxe", \
+  "Adamant thrownaxe", \
+  "Rune thrownaxe", \
+  "Dragon thrownaxe", \
+  "Morrigan's throwing axe (bh)*", \
+]
+
+#define CONST_AMMO_CHINCHOMPAS_LIST [ \
+  "Chinchompa", \
+  "Red chinchompa", \
+  "Black chinchompa", \
 ]
 
 #define CONST_LOGS_LIST [ \
