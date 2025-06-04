@@ -23,7 +23,7 @@ apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTR
 
 /*@ define:input:item_category_styles
 type: style
-label: Unstrung Style
+label: "Unstrung Style (unstrung shortbows, longbows, and crossbows)"
 group: Fletching
 exampleItem: Shortbow (u)
 exampleItemId: 50
@@ -101,7 +101,7 @@ apply (name:CONST_FLETCHING_BOLT_TIPS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Misc Style
+label: "Misc Style (arrow shafts, bow strings, etc.)"
 group: Fletching
 exampleItem: Javelin shaft
 exampleItemId: 19584
