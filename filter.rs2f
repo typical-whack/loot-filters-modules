@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:50:46 UTC 2025 */
-/* Commit: fc99c87 */
+/* Built on: Wed Jun  4 03:57:46 UTC 2025 */
+/* Commit: 0b8edb0 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8461,7 +8461,7 @@ exampleItemId: 1077
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3a2b2b";
+  menuTextColor = "#FF2b3a3a";
 
 apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS || name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS || name:CONST_BLACK_RANGED_WEAPONS || name:CONST_BLACK_AMMO || name:CONST_BLACK_ARMOUR || name:CONST_BLACK_OTHER) {
     VAR_BLACK_CUSTOMSTYLE 
@@ -8601,7 +8601,7 @@ exampleItem: Black platelegs (t)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF423e3e";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4a3b3b";
+  menuTextColor = "#FF3b4a4a";
 
 apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
@@ -8720,7 +8720,7 @@ exampleItem: Black platelegs (g)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4a4a2b";
+  menuTextColor = "#FF2b4a4a";
 
 apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8788,7 +8788,7 @@ exampleItem: Black helm (h1)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3a2b3b";
+  menuTextColor = "#FF2b3b3a";
 
 apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
@@ -11753,7 +11753,7 @@ exampleItem: Willow logs
   backgroundColor = "#5071673F";\
   borderColor = "#FF564D20";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF564D20";
+  menuTextColor = "#FF20564D";
 
 apply (name:"Willow logs") {
     VAR_WILLOW_LOGS_CUSTOMSTYLE 
@@ -11770,7 +11770,7 @@ exampleItem: Maple logs
   backgroundColor = "#50846230";\
   borderColor = "#FF704C0D";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF704C0D";
+  menuTextColor = "#FF0D4C70";
 
 apply (name:"Maple logs") {
     VAR_MAPLE_LOGS_CUSTOMSTYLE 
