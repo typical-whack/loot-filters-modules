@@ -23,7 +23,7 @@ apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTR
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unstrung Style
+label: Unstrung Style
 group: Fletching
 exampleItem: Shortbow (u)
 exampleItemId: 50
@@ -36,7 +36,7 @@ apply (name:CONST_FLETCHING_UNSTRUNG_SHORTBOW_LIST || name:CONST_FLETCHING_UNSTR
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Arrowtips Style
+label: Arrowtips Style
 group: Fletching
 exampleItem: Bronze arrowtips
 exampleItemId: 39
@@ -49,7 +49,7 @@ apply (name:CONST_FLETCHING_ARROW_TIPS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Dart Tips Style
+label: Dart Tips Style
 group: Fletching
 exampleItem: Bronze dart tip
 exampleItemId: 819
@@ -62,7 +62,7 @@ apply (name:CONST_FLETCHING_DART_TIP_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Javelin Heads Style
+label: Javelin Heads Style
 group: Fletching
 exampleItem: Bronze javelin heads
 exampleItemId: 19570
@@ -75,7 +75,7 @@ apply (name:CONST_FLETCHING_JAVELIN_HEADS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Unfinished Bolts Style
+label: Unfinished Bolts Style
 group: Fletching
 exampleItem: Bronze bolts (unf)
 exampleItemId: 9375
@@ -88,7 +88,7 @@ apply (name:CONST_FLETCHING_UNFINISHED_BOLTS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Bolt Tips Style
+label: Bolt Tips Style
 group: Fletching
 exampleItem: Opal bolt tips
 exampleItemId: 45
@@ -101,7 +101,7 @@ apply (name:CONST_FLETCHING_BOLT_TIPS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Fletching Misc Style
+label: Misc Style
 group: Fletching
 exampleItem: Javelin shaft
 exampleItemId: 19584
