@@ -53,7 +53,7 @@ exampleItem: Willow logs
   backgroundColor = "#5071673F";\
   borderColor = "#FF564D20";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF564D20";
+  menuTextColor = "#FF20564D";
 
 apply (name:"Willow logs") {
     VAR_WILLOW_LOGS_CUSTOMSTYLE 
@@ -70,7 +70,7 @@ exampleItem: Maple logs
   backgroundColor = "#50846230";\
   borderColor = "#FF704C0D";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF704C0D";
+  menuTextColor = "#FF0D4C70";
 
 apply (name:"Maple logs") {
     VAR_MAPLE_LOGS_CUSTOMSTYLE 

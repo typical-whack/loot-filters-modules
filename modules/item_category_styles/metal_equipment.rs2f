@@ -72,7 +72,7 @@ exampleItemId: 1077
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3a2b2b";
+  menuTextColor = "#FF2b3a3a";
 
 apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS || name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS || name:CONST_BLACK_RANGED_WEAPONS || name:CONST_BLACK_AMMO || name:CONST_BLACK_ARMOUR || name:CONST_BLACK_OTHER) {
     VAR_BLACK_CUSTOMSTYLE 
@@ -212,7 +212,7 @@ exampleItem: Black platelegs (t)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF423e3e";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4a3b3b";
+  menuTextColor = "#FF3b4a4a";
 
 apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
@@ -331,7 +331,7 @@ exampleItem: Black platelegs (g)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4a4a2b";
+  menuTextColor = "#FF2b4a4a";
 
 apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -399,7 +399,7 @@ exampleItem: Black helm (h1)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF3a2b3b";
+  menuTextColor = "#FF2b3b3a";
 
 apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
