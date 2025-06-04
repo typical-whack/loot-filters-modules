@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 00:29:45 UTC 2025 */
-/* Commit: b9c40d6 */
+/* Built on: Wed Jun  4 00:41:21 UTC 2025 */
+/* Commit: d58347a */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7558,37 +7558,26 @@ icon:
   type: sprite
   spriteId: 4244
   spriteIndex: 0
-
 description: |
-  Herbs Style covers all grimy and clean herbs.
-
-  Secondaries Style covers:
-  - Eye of newt
-  - Unicorn horn dust
-  - Limpwurt root
-  - Volcanic ash
-  - Red spiders' eggs
-  - Chocolate dust
-  - White berries
-  - Toad's legs
-  - Goat horn dust
-  - Snape grass
-  - Mort myre fungus
-  - Kebbit teeth dust
-  - Dragon scale dust
-  - Nail beast nails
-  - Yew roots
-  - Wine of zamorak
-  - Potato cactus
-  - Jangerberries
-  - Magic roots
-  - Crushed nest
-  - Poison ivy berries
-  - Nihil dust
-  - Lily of the sands
-  - Aldarium
-  - Araxyte venom sack
+  All Herblore Items Style covers:
+  - all herbs
+  - all secondaries
+  - all herblore equipment
 */
+
+/*@ define:input:item_category_styles
+type: style
+label: All Herblore Items Style
+group: Herblore
+exampleItem: Guam leaf
+exampleItemId: 249
+*/
+#define VAR_CATEGORY_HERBLORE_CUSTOMSTYLE \
+  icon = Sprite(3196, 0);
+
+apply (name:CONST_ALL_HERBS || name:CONST_SECONDARIES_LIST || name:CONST_ALL_HERBLORE_EQUIPMENT) {
+  VAR_CATEGORY_HERBLORE_CUSTOMSTYLE
+}
 
 /*@ define:input:item_category_styles
 type: style
@@ -7597,11 +7586,10 @@ group: Herblore
 exampleItem: Guam leaf
 exampleItemId: 249
 */
-#define VAR_CATEGORY_HERBS_CUSTOMSTYLE \
-  icon = Sprite(3196, 0);
+#define VAR_CATEGORY_HERBS_CUSTOMSTYLE
 
 apply (name:CONST_ALL_HERBS) {
-    VAR_CATEGORY_HERBS_CUSTOMSTYLE
+  VAR_CATEGORY_HERBS_CUSTOMSTYLE
 }
 
 /*@ define:input:item_category_styles
@@ -7611,11 +7599,23 @@ group: Herblore
 exampleItem: Eye of newt
 exampleItemId: 221
 */
-#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE \
-  icon = Sprite(3196, 0);
+#define VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
 
 apply (name:CONST_SECONDARIES_LIST) {
-    VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+  VAR_CATEGORY_HERBLORE_SECONDARIES_CUSTOMSTYLE
+}
+
+/*@ define:input:item_category_styles
+type: style
+label: Herblore Equipment Style
+group: Herblore
+exampleItem: Pestle and mortar
+exampleItemId: 233
+*/
+#define VAR_CATEGORY_HERBLORE_EQUIPMENT_CUSTOMSTYLE
+
+apply (name:CONST_ALL_HERBLORE_EQUIPMENT) {
+  VAR_CATEGORY_HERBLORE_EQUIPMENT_CUSTOMSTYLE
 }
 /*@ define:group
 ---
@@ -16721,6 +16721,17 @@ name: Constants
   "*lantadyme", \
   "*dwarf weed", \
   "*torstol", \
+]
+
+#define CONST_ALL_HERBLORE_EQUIPMENT [ \
+  "Pestle and mortar", \
+  "Vial", \
+  "Vial of water", \
+  "Alchemist gloves", \
+  "Alchemist pants", \
+  "Alchemist labcoat", \
+  "Prescription goggles", \
+  "Alchemist's amulet", \
 ]
 
 #define CONST_HUNTER_FOODS_LIST [ \
