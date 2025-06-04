@@ -9,7 +9,7 @@ icon:
 
 /*@ define:input:item_category_styles
 type: style
-label: Runes Style
+label: All Runes Items Style
 group: Runes
 exampleItem: Wrath rune
 exampleItemId: 21880
