@@ -1,6 +1,6 @@
 /*@ define:group
 ---
-name: Construction Style
+name: Construction
 icon: 
   type: sprite
   spriteId: 4258
@@ -23,7 +23,7 @@ apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST
 
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+label: Planks Style
 group: Construction
 exampleItem: Plank
 exampleItemId: 960
@@ -35,7 +35,7 @@ apply (name:CONST_CONSTRUCTION_PLANKS_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+label: Nails Style
 group: Construction
 exampleItem: Bronze nails
 exampleItemId: 4819
@@ -47,7 +47,7 @@ apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+label: Stonemason Style
 group: Construction
 exampleItem: Limestone brick
 exampleItemId: 3420
@@ -59,7 +59,7 @@ apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+label: Misc Construction Style
 group: Construction
 exampleItem: Bolt of cloth
 exampleItemId: 8790
