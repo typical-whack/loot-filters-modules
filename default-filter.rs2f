@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:40:56 UTC 2025 */
-/* Commit: 0229e02 */
+/* Built on: Wed Jun  4 03:49:29 UTC 2025 */
+/* Commit: 1169310 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8407,7 +8407,7 @@ exampleItemId: 1075
   backgroundColor = "#8043341d";\
   borderColor = "#FF43341d";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF43341d";
+  menuTextColor = "#FF53442d";
 
 apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS || name:CONST_BRONZE_TWO_HANDED_MELEE_WEAPONS || name:CONST_BRONZE_RANGED_WEAPONS || name:CONST_BRONZE_AMMO || name:CONST_BRONZE_ARMOUR || name:CONST_BRONZE_OTHER) {
     VAR_BRONZE_CUSTOMSTYLE 
@@ -8425,7 +8425,7 @@ exampleItemId: 1067
   backgroundColor = "#804f4948";\
   borderColor = "#FF4f4948";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4f4948";
+  menuTextColor = "#FF5f5958";
 
 apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS || name:CONST_IRON_TWO_HANDED_MELEE_WEAPONS || name:CONST_IRON_RANGED_WEAPONS || name:CONST_IRON_AMMO || name:CONST_IRON_ARMOUR || name:CONST_IRON_OTHER) {
     VAR_IRON_CUSTOMSTYLE 
@@ -8443,7 +8443,7 @@ exampleItemId: 1069
   backgroundColor = "#80857c7b";\
   borderColor = "#FF857c7b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF857c7b";
+  menuTextColor = "#FF958c8b";
 
 apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS || name:CONST_STEEL_TWO_HANDED_MELEE_WEAPONS || name:CONST_STEEL_RANGED_WEAPONS || name:CONST_STEEL_AMMO || name:CONST_STEEL_ARMOUR || name:CONST_STEEL_OTHER) {
     VAR_STEEL_CUSTOMSTYLE 
@@ -8461,7 +8461,7 @@ exampleItemId: 1077
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2d2b2b";
 
 apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS || name:CONST_BLACK_TWO_HANDED_MELEE_WEAPONS || name:CONST_BLACK_RANGED_WEAPONS || name:CONST_BLACK_AMMO || name:CONST_BLACK_ARMOUR || name:CONST_BLACK_OTHER) {
     VAR_BLACK_CUSTOMSTYLE 
@@ -8479,7 +8479,7 @@ exampleItemId: 1071
   backgroundColor = "#80414161";\
   borderColor = "#FF414161";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF414161";
+  menuTextColor = "#FF515171";
 
 apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS || name:CONST_MITHRIL_TWO_HANDED_MELEE_WEAPONS || name:CONST_MITHRIL_RANGED_WEAPONS || name:CONST_MITHRIL_AMMO || name:CONST_MITHRIL_ARMOUR || name:CONST_MITHRIL_OTHER) {
     VAR_MITHRIL_CUSTOMSTYLE 
@@ -8497,7 +8497,7 @@ exampleItemId: 1073
   backgroundColor = "#80405140";\
   borderColor = "#FF405140";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF506150";
 
 apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS || name:CONST_ADAMANT_TWO_HANDED_MELEE_WEAPONS || name:CONST_ADAMANT_RANGED_WEAPONS || name:CONST_ADAMANT_AMMO || name:CONST_ADAMANT_ARMOUR || name:CONST_ADAMANT_OTHER) {
     VAR_ADAMANT_CUSTOMSTYLE 
@@ -8515,7 +8515,7 @@ exampleItemId: 1079
   backgroundColor = "#80415760";\
   borderColor = "#FF415760";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF516770";
 
 apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS || name:CONST_RUNE_TWO_HANDED_MELEE_WEAPONS || name:CONST_RUNE_RANGED_WEAPONS || name:CONST_RUNE_AMMO || name:CONST_RUNE_ARMOUR || name:CONST_RUNE_OTHER) {
     VAR_RUNE_CUSTOMSTYLE 
@@ -8533,7 +8533,7 @@ exampleItemId: 4087
   backgroundColor = "#80541109";\
   borderColor = "#FF541109";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF541109";
+  menuTextColor = "#FF642119";
 
 apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS || name:CONST_DRAGON_TWO_HANDED_MELEE_WEAPONS || name:CONST_DRAGON_RANGED_WEAPONS || name:CONST_DRAGON_AMMO || name:CONST_DRAGON_ARMOUR) {
     VAR_DRAGON_CUSTOMSTYLE 
@@ -8550,7 +8550,7 @@ exampleItem: Bronze platelegs (t)
   backgroundColor = "#8043341d";\
   borderColor = "#FF615c2d";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF43341d";
+  menuTextColor = "#FF53442d";
 
 apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
     VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
@@ -8567,7 +8567,7 @@ exampleItem: Iron platelegs (t)
   backgroundColor = "#804f4948";\
   borderColor = "#FF151111";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4f4948";
+  menuTextColor = "#FF5f5958";
 
 apply (name:CONST_IRON_TRIMMED_ARMOUR) {
     VAR_IRON_TRIMMED_CUSTOMSTYLE 
@@ -8584,7 +8584,7 @@ exampleItem: Steel platelegs (t)
   backgroundColor = "#80857c7b";\
   borderColor = "#FFb1a6a6";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF857c7b";
+  menuTextColor = "#FF958c8b";
 
 apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
     VAR_STEEL_TRIMMED_CUSTOMSTYLE 
@@ -8601,7 +8601,7 @@ exampleItem: Black platelegs (t)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF423e3e";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2d2b2b";
 
 apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
@@ -8618,7 +8618,7 @@ exampleItem: Mithril platelegs (t)
   backgroundColor = "#80414161";\
   borderColor = "#FF6e8aa3";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF414161";
+  menuTextColor = "#FF515171";
 
 apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
     VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
@@ -8635,7 +8635,7 @@ exampleItem: Adamant platelegs (t)
   backgroundColor = "#80405140";\
   borderColor = "#FF6a725a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF506150";
 
 apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
     VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
@@ -8652,7 +8652,7 @@ exampleItem: Rune platelegs (t)
   backgroundColor = "#80415760";\
   borderColor = "#FF6d88a1";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF516770";
 
 apply (name:CONST_RUNE_TRIMMED_ARMOUR) {
     VAR_RUNE_TRIMMED_CUSTOMSTYLE 
@@ -8669,7 +8669,7 @@ exampleItem: Bronze platelegs (g)
   backgroundColor = "#8043341d";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF43341d";
+  menuTextColor = "#FF53442d";
 
 apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
     VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8686,7 +8686,7 @@ exampleItem: Iron platelegs (g)
   backgroundColor = "#804f4948";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF4f4948";
+  menuTextColor = "#FF5f5958";
 
 apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
     VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8703,7 +8703,7 @@ exampleItem: Steel platelegs (g)
   backgroundColor = "#80857c7b";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF857c7b";
+  menuTextColor = "#FF958c8b";
 
 apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
     VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8720,7 +8720,7 @@ exampleItem: Black platelegs (g)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2d2b2b";
 
 apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8737,7 +8737,7 @@ exampleItem: Mithril platelegs (g)
   backgroundColor = "#80414161";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF414161";
+  menuTextColor = "#FF515171";
 
 apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
     VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8754,7 +8754,7 @@ exampleItem: Adamant platelegs (g)
   backgroundColor = "#80405140";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF506150";
 
 apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
     VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8771,7 +8771,7 @@ exampleItem: Rune platelegs (g)
   backgroundColor = "#80415760";\
   borderColor = "#FFdea71a";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF516770";
 
 apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
     VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE 
@@ -8788,7 +8788,7 @@ exampleItem: Black helm (h1)
   backgroundColor = "#801d1b1b";\
   borderColor = "#FF1d1b1b";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF1d1b1b";
+  menuTextColor = "#FF2d2b2b";
 
 apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
@@ -8805,7 +8805,7 @@ exampleItem: Adamant helm (h1)
   backgroundColor = "#80405140";\
   borderColor = "#FF405140";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF405140";
+  menuTextColor = "#FF506150";
 
 apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
     VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
@@ -8822,7 +8822,7 @@ exampleItem: Rune helm (h1)
   backgroundColor = "#80415760";\
   borderColor = "#FF415760";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF415760";
+  menuTextColor = "#FF516770";
 
 apply (name:CONST_RUNE_HERALDIC_ARMOUR) {
     VAR_RUNE_HERALDIC_CUSTOMSTYLE 
@@ -8839,7 +8839,7 @@ exampleItem: Saradomin platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FFacab88";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FFacab88";
+  menuTextColor = "#FFbcbb98";
 
 apply (name:CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR) {
     VAR_RUNE_SARADOMIN_CUSTOMSTYLE 
@@ -8856,7 +8856,7 @@ exampleItem: Guthix platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF437745";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF437745";
+  menuTextColor = "#FF538755";
 
 apply (name:CONST_RUNE_GUTHIX_TRIMMED_ARMOUR) {
     VAR_RUNE_GUTHIX_CUSTOMSTYLE 
@@ -8873,7 +8873,7 @@ exampleItem: Zamorak platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF801a0d";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF801a0d";
+  menuTextColor = "#FF902a1d";
 
 apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
     VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
@@ -8890,7 +8890,7 @@ exampleItem: Ancient platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF552f53";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF552f53";
+  menuTextColor = "#FF653f63";
 
 apply (name:CONST_RUNE_ANCIENT_TRIMMED_ARMOUR) {
     VAR_RUNE_ANCIENT_CUSTOMSTYLE 
@@ -8907,7 +8907,7 @@ exampleItem: Armadyl platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF706868";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF706868";
+  menuTextColor = "#FF807878";
 
 apply (name:CONST_RUNE_ARMADYL_TRIMMED_ARMOUR) {
     VAR_RUNE_ARMADYL_CUSTOMSTYLE 
@@ -8924,7 +8924,7 @@ exampleItem: Bandos platelegs
   backgroundColor = "#80415760";\
   borderColor = "#FF746228";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF746228";
+  menuTextColor = "#FF847238";
 
 apply (name:CONST_RUNE_BANDOS_TRIMMED_ARMOUR) {
     VAR_RUNE_BANDOS_CUSTOMSTYLE 
@@ -8941,7 +8941,7 @@ exampleItem: Gilded platelegs
   backgroundColor = "#80c39318";\
   borderColor = "#FF7c540c";\
   textAccentColor = "#FF000000";\
-  menuTextColor = "#FF7c540c";
+  menuTextColor = "#FF8c641c";
 
 apply (name:CONST_RUNE_GILDED) {
     VAR_RUNE_GILDED_CUSTOMSTYLE 
