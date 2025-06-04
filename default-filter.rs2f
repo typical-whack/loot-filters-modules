@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:57:46 UTC 2025 */
-/* Commit: 0b8edb0 */
+/* Built on: Wed Jun  4 04:00:14 UTC 2025 */
+/* Commit: a9e29c8 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8365,7 +8365,7 @@ apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: Stonemason Style
+label: "Stonemason Style (limestone brick, marble block, etc.)"
 group: Construction
 exampleItem: Limestone brick
 exampleItemId: 3420
@@ -8377,7 +8377,7 @@ apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: Misc Construction Style
+label: "Misc Construction Style (bolt of cloth, saw)"
 group: Construction
 exampleItem: Bolt of cloth
 exampleItemId: 8790
