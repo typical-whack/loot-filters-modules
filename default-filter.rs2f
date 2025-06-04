@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 00:41:21 UTC 2025 */
-/* Commit: d58347a */
+/* Built on: Wed Jun  4 00:42:35 UTC 2025 */
+/* Commit: a1ae175 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7569,8 +7569,8 @@ description: |
 type: style
 label: All Herblore Items Style
 group: Herblore
-exampleItem: Guam leaf
-exampleItemId: 249
+exampleItem: Grimy ranarr weed
+exampleItemId: 207
 */
 #define VAR_CATEGORY_HERBLORE_CUSTOMSTYLE \
   icon = Sprite(3196, 0);
