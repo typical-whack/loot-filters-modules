@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:18:23 UTC 2025 */
-/* Commit: 4e90c3c */
+/* Built on: Wed Jun  4 03:20:35 UTC 2025 */
+/* Commit: 4a2782a */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8164,7 +8164,7 @@ apply (name:CONST_FLETCHING_MISC_LIST || name:CONST_FLETCHING_CROSSBOW_LIMBS_LIS
 }
 /*@ define:group
 ---
-name: Construction Style
+name: Construction
 icon: 
   type: sprite
   spriteId: 4258
@@ -8187,7 +8187,7 @@ apply (name:CONST_CONSTRUCTION_PLANKS_LIST || name:CONST_CONSTRUCTION_NAILS_LIST
 
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_PLANKS_CUSTOMSTYLE
+label: Planks Style
 group: Construction
 exampleItem: Plank
 exampleItemId: 960
@@ -8199,7 +8199,7 @@ apply (name:CONST_CONSTRUCTION_PLANKS_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_NAILS_CUSTOMSTYLE
+label: Nails Style
 group: Construction
 exampleItem: Bronze nails
 exampleItemId: 4819
@@ -8211,7 +8211,7 @@ apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_STONEMASON_CUSTOMSTYLE
+label: Stonemason Style
 group: Construction
 exampleItem: Limestone brick
 exampleItemId: 3420
@@ -8223,7 +8223,7 @@ apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: VAR_CONSTRUCTION_MISC_CUSTOMSTYLE
+label: Misc Construction Style
 group: Construction
 exampleItem: Bolt of cloth
 exampleItemId: 8790
