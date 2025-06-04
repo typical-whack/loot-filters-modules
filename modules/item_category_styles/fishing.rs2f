@@ -1,6 +1,7 @@
 /*@ define:group
 ---
 name: Fishing
+icon: 
   type: sprite
   spriteId: 4250 
   spriteIndex: 0
