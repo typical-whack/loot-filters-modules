@@ -36,10 +36,10 @@ apply (name:CONST_POTIONS_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Potions Style
+label: Barbarian Potions Style
 group: Potions
-exampleItem: Attack potion(3)
-exampleItemId: 121
+exampleItem: Attack mix(2)
+exampleItemId: 11429
 */
 #define VAR_CATEGORY_BARB_POTIONS_CUSTOMSTYLE
 
