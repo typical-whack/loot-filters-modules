@@ -47,7 +47,7 @@ apply (name:CONST_CONSTRUCTION_NAILS_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: Stonemason Style
+label: "Stonemason Style (limestone brick, marble block, etc.)"
 group: Construction
 exampleItem: Limestone brick
 exampleItemId: 3420
@@ -59,7 +59,7 @@ apply (name:CONST_CONSTRUCTION_STONEMASON_LIST) {
 }
 /*@ define:input:item_category_styles
 type: style
-label: Misc Construction Style
+label: "Misc Construction Style (bolt of cloth, saw)"
 group: Construction
 exampleItem: Bolt of cloth
 exampleItemId: 8790
