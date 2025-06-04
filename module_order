@@ -36,11 +36,11 @@ item_tiers
 uniques
 alchs
 item_category_styles/_module_definition
+item_category_styles/currency
 item_category_styles/food
 item_category_styles/potions
 item_category_styles/prayer
 item_category_styles/ammo
-item_category_styles/currency
 item_category_styles/runes
 item_category_styles/ores
 item_category_styles/bars
