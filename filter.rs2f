@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jun  4 03:36:42 UTC 2025 */
-/* Commit: 7bb12a4 */
+/* Built on: Wed Jun  4 03:40:56 UTC 2025 */
+/* Commit: 0229e02 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7397,7 +7397,7 @@ description: |
 */
 /*@ define:group
 ---
-name: Currency Style
+name: Currency
 icon: 
   type: sprite
   spriteId: 1531
@@ -7444,7 +7444,7 @@ description: |
 /*@ define:input:item_category_styles
 type: style
 label: Currency Style
-group: Currency Style
+group: Currency
 exampleItem: Coins
 exampleItemId: 1004
 */
@@ -7865,7 +7865,7 @@ apply (name:CONST_RUNES_COMBINATION_LIST) {
 }
 /*@ define:group
 ---
-name: Ores Style
+name: Mining
 icon: 
   type: sprite
   spriteId: 4248
@@ -7875,7 +7875,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Ores Style
-group: Ores Style
+group: Mining
 exampleItem: Copper ore
 exampleItemId: 436
 */
@@ -7887,7 +7887,7 @@ apply (name:CONST_ORES_LIST) {
 }
 /*@ define:group
 ---
-name: Bars Style
+name: Smithing
 icon: 
   type: sprite
   spriteId: 4249
@@ -7897,7 +7897,7 @@ icon:
 /*@ define:input:item_category_styles
 type: style
 label: Bars Style
-group: Bars Style
+group: Smithing
 exampleItem: Bronze bar
 exampleItemId: 2349
 */
@@ -8389,16 +8389,16 @@ apply (name:CONST_CONSTRUCTION_MISC_LIST) {
 }
 /*@ define:group
 ---
-name: Bronze Armour and Weapons
+name: Metal Equipment
 icon: 
   type: itemId
-  itemId: 1189
+  itemId: 21895
 */
 
 /*@ define:input:item_category_styles
 type: style
 label: Bronze Armour and Weapons
-group: Bronze Armour and Weapons
+group: Metal Equipment
 exampleItem: Bronze platelegs
 exampleItemId: 1075
 */
@@ -8413,18 +8413,10 @@ apply (name:CONST_BRONZE_ONE_HANDED_MELEE_WEAPONS || name:CONST_BRONZE_TWO_HANDE
     VAR_BRONZE_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Iron Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1191
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Iron Armour and Weapons
-group: Iron Armour and Weapons
+group: Metal Equipment
 exampleItem: Iron platelegs
 exampleItemId: 1067
 */
@@ -8439,18 +8431,10 @@ apply (name:CONST_IRON_ONE_HANDED_MELEE_WEAPONS || name:CONST_IRON_TWO_HANDED_ME
     VAR_IRON_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Steel Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1193
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Steel Armour and Weapons
-group: Steel Armour and Weapons
+group: Metal Equipment
 exampleItem: Steel platelegs
 exampleItemId: 1069
 */
@@ -8465,18 +8449,10 @@ apply (name:CONST_STEEL_ONE_HANDED_MELEE_WEAPONS || name:CONST_STEEL_TWO_HANDED_
     VAR_STEEL_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1195
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black Armour and Weapons
-group: Black Armour and Weapons
+group: Metal Equipment
 exampleItem: Black platelegs
 exampleItemId: 1077
 */
@@ -8491,18 +8467,10 @@ apply (name:CONST_BLACK_ONE_HANDED_MELEE_WEAPONS || name:CONST_BLACK_TWO_HANDED_
     VAR_BLACK_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Mithril Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1197
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Mithril Armour and Weapons
-group: Mithril Armour and Weapons
+group: Metal Equipment
 exampleItem: Mithril platelegs
 exampleItemId: 1071
 */
@@ -8517,18 +8485,10 @@ apply (name:CONST_MITHRIL_ONE_HANDED_MELEE_WEAPONS || name:CONST_MITHRIL_TWO_HAN
     VAR_MITHRIL_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1199
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant Armour and Weapons
-group: Adamant Armour and Weapons
+group: Metal Equipment
 exampleItem: Adamant platelegs
 exampleItemId: 1073
 */
@@ -8543,18 +8503,10 @@ apply (name:CONST_ADAMANT_ONE_HANDED_MELEE_WEAPONS || name:CONST_ADAMANT_TWO_HAN
     VAR_ADAMANT_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 1201
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune Armour and Weapons
-group: Rune Armour and Weapons
+group: Metal Equipment
 exampleItem: Rune platelegs
 exampleItemId: 1079
 */
@@ -8569,18 +8521,10 @@ apply (name:CONST_RUNE_ONE_HANDED_MELEE_WEAPONS || name:CONST_RUNE_TWO_HANDED_ME
     VAR_RUNE_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Dragon Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 21895
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Dragon Armour and Weapons
-group: Dragon Armour and Weapons
+group: Metal Equipment
 exampleItem: Dragon platelegs
 exampleItemId: 4087
 */
@@ -8595,18 +8539,10 @@ apply (name:CONST_DRAGON_ONE_HANDED_MELEE_WEAPONS || name:CONST_DRAGON_TWO_HANDE
     VAR_DRAGON_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Bronze (t) Armour
-icon: 
-  type: itemId
-  itemId: 12223
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Bronze (t) Armour
-group: Bronze (t) Armour
+group: Metal Equipment
 exampleItem: Bronze platelegs (t)
 */
 #define VAR_BRONZE_TRIMMED_CUSTOMSTYLE \
@@ -8620,18 +8556,10 @@ apply (name:CONST_BRONZE_TRIMMED_ARMOUR) {
     VAR_BRONZE_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Iron (t) Armour
-icon: 
-  type: itemId
-  itemId: 12233
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Iron (t) Armour
-group: Iron (t) Armour
+group: Metal Equipment
 exampleItem: Iron platelegs (t)
 */
 #define VAR_IRON_TRIMMED_CUSTOMSTYLE \
@@ -8645,18 +8573,10 @@ apply (name:CONST_IRON_TRIMMED_ARMOUR) {
     VAR_IRON_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Steel (t) Armour
-icon: 
-  type: itemId
-  itemId: 20196
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Steel (t) Armour
-group: Steel (t) Armour
+group: Metal Equipment
 exampleItem: Steel platelegs (t)
 */
 #define VAR_STEEL_TRIMMED_CUSTOMSTYLE \
@@ -8670,18 +8590,10 @@ apply (name:CONST_STEEL_TRIMMED_ARMOUR) {
     VAR_STEEL_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black (t) Armour
-icon: 
-  type: itemId
-  itemId: 2589
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black (t) Armour
-group: Black (t) Armour
+group: Metal Equipment
 exampleItem: Black platelegs (t)
 */
 #define VAR_BLACK_TRIMMED_CUSTOMSTYLE \
@@ -8695,18 +8607,10 @@ apply (name:CONST_BLACK_TRIMMED_ARMOUR) {
     VAR_BLACK_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Mithril (t) Armour
-icon: 
-  type: itemId
-  itemId: 12291
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Mithril (t) Armour
-group: Mithril (t) Armour
+group: Metal Equipment
 exampleItem: Mithril platelegs (t)
 */
 #define VAR_MITHRIL_TRIMMED_CUSTOMSTYLE \
@@ -8720,18 +8624,10 @@ apply (name:CONST_MITHRIL_TRIMMED_ARMOUR) {
     VAR_MITHRIL_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant (t) Armour
-icon: 
-  type: itemId
-  itemId: 2603
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant (t) Armour
-group: Adamant (t) Armour
+group: Metal Equipment
 exampleItem: Adamant platelegs (t)
 */
 #define VAR_ADAMANT_TRIMMED_CUSTOMSTYLE \
@@ -8745,18 +8641,10 @@ apply (name:CONST_ADAMANT_TRIMMED_ARMOUR) {
     VAR_ADAMANT_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune (t) Armour
-icon: 
-  type: itemId
-  itemId: 2629
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune (t) Armour
-group: Rune (t) Armour
+group: Metal Equipment
 exampleItem: Rune platelegs (t)
 */
 #define VAR_RUNE_TRIMMED_CUSTOMSTYLE \
@@ -8770,18 +8658,10 @@ apply (name:CONST_RUNE_TRIMMED_ARMOUR) {
     VAR_RUNE_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Bronze (g) Armour
-icon: 
-  type: itemId
-  itemId: 12213
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Bronze (g) Armour
-group: Bronze (g) Armour
+group: Metal Equipment
 exampleItem: Bronze platelegs (g)
 */
 #define VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8795,18 +8675,10 @@ apply (name:CONST_BRONZE_GOLD_TRIMMED_ARMOUR) {
     VAR_BRONZE_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Iron (g) Armour
-icon: 
-  type: itemId
-  itemId: 12243
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Iron (g) Armour
-group: Iron (g) Armour
+group: Metal Equipment
 exampleItem: Iron platelegs (g)
 */
 #define VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8820,18 +8692,10 @@ apply (name:CONST_IRON_GOLD_TRIMMED_ARMOUR) {
     VAR_IRON_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Steel (g) Armour
-icon: 
-  type: itemId
-  itemId: 20181
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Steel (g) Armour
-group: Steel (g) Armour
+group: Metal Equipment
 exampleItem: Steel platelegs (g)
 */
 #define VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8845,18 +8709,10 @@ apply (name:CONST_STEEL_GOLD_TRIMMED_ARMOUR) {
     VAR_STEEL_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black (g) Armour
-icon: 
-  type: itemId
-  itemId: 2597
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black (g) Armour
-group: Black (g) Armour
+group: Metal Equipment
 exampleItem: Black platelegs (g)
 */
 #define VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8870,18 +8726,10 @@ apply (name:CONST_BLACK_GOLD_TRIMMED_ARMOUR) {
     VAR_BLACK_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Mithril (g) Armour
-icon: 
-  type: itemId
-  itemId: 12281
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Mithril (g) Armour
-group: Mithril (g) Armour
+group: Metal Equipment
 exampleItem: Mithril platelegs (g)
 */
 #define VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8895,18 +8743,10 @@ apply (name:CONST_MITHRIL_GOLD_TRIMMED_ARMOUR) {
     VAR_MITHRIL_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant (g) Armour
-icon: 
-  type: itemId
-  itemId: 2611
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant (g) Armour
-group: Adamant (g) Armour
+group: Metal Equipment
 exampleItem: Adamant platelegs (g)
 */
 #define VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8920,18 +8760,10 @@ apply (name:CONST_ADAMANT_GOLD_TRIMMED_ARMOUR) {
     VAR_ADAMANT_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune (g) Armour
-icon: 
-  type: itemId
-  itemId: 2621
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune (g) Armour
-group: Rune (g) Armour
+group: Metal Equipment
 exampleItem: Rune platelegs (g)
 */
 #define VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE \
@@ -8945,18 +8777,10 @@ apply (name:CONST_RUNE_GOLD_TRIMMED_ARMOUR) {
     VAR_RUNE_GOLD_TRIMMED_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Black heraldic Armour
-icon: 
-  type: itemId
-  itemId: 7332
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Black heraldic Armour
-group: Black heraldic Armour
+group: Metal Equipment
 exampleItem: Black helm (h1)
 */
 #define VAR_BLACK_HERALDIC_CUSTOMSTYLE \
@@ -8970,18 +8794,10 @@ apply (name:CONST_BLACK_HERALDIC_ARMOUR) {
     VAR_BLACK_HERALDIC_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Adamant heraldic Armour
-icon: 
-  type: itemId
-  itemId: 7334
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Adamant heraldic Armour
-group: Adamant heraldic Armour
+group: Metal Equipment
 exampleItem: Adamant helm (h1)
 */
 #define VAR_ADAMANT_HERALDIC_CUSTOMSTYLE \
@@ -8995,18 +8811,10 @@ apply (name:CONST_ADAMANT_HERALDIC_ARMOUR) {
     VAR_ADAMANT_HERALDIC_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune heraldic Armour
-icon: 
-  type: itemId
-  itemId: 7336
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune heraldic Armour
-group: Rune heraldic Armour
+group: Metal Equipment
 exampleItem: Rune helm (h1)
 */
 #define VAR_RUNE_HERALDIC_CUSTOMSTYLE \
@@ -9020,18 +8828,10 @@ apply (name:CONST_RUNE_HERALDIC_ARMOUR) {
     VAR_RUNE_HERALDIC_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune saradomin Armour
-icon: 
-  type: itemId
-  itemId: 2667
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune saradomin Armour
-group: Rune saradomin Armour
+group: Metal Equipment
 exampleItem: Saradomin platelegs
 */
 #define VAR_RUNE_SARADOMIN_CUSTOMSTYLE \
@@ -9045,18 +8845,10 @@ apply (name:CONST_RUNE_SARADOMIN_TRIMMED_ARMOUR) {
     VAR_RUNE_SARADOMIN_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune guthix Armour
-icon: 
-  type: itemId
-  itemId: 2675
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune guthix Armour
-group: Rune guthix Armour
+group: Metal Equipment
 exampleItem: Guthix platelegs
 */
 #define VAR_RUNE_GUTHIX_CUSTOMSTYLE \
@@ -9070,18 +8862,10 @@ apply (name:CONST_RUNE_GUTHIX_TRIMMED_ARMOUR) {
     VAR_RUNE_GUTHIX_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune zamorak Armour
-icon: 
-  type: itemId
-  itemId: 2659
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune zamorak Armour
-group: Rune zamorak Armour
+group: Metal Equipment
 exampleItem: Zamorak platelegs
 */
 #define VAR_RUNE_ZAMORAK_CUSTOMSTYLE \
@@ -9095,18 +8879,10 @@ apply (name:CONST_RUNE_ZAMORAK_TRIMMED_ARMOUR) {
     VAR_RUNE_ZAMORAK_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune ancient Armour
-icon: 
-  type: itemId
-  itemId: 12468
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune ancient Armour
-group: Rune ancient Armour
+group: Metal Equipment
 exampleItem: Ancient platelegs
 */
 #define VAR_RUNE_ANCIENT_CUSTOMSTYLE \
@@ -9120,18 +8896,10 @@ apply (name:CONST_RUNE_ANCIENT_TRIMMED_ARMOUR) {
     VAR_RUNE_ANCIENT_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune armadyl Armour
-icon: 
-  type: itemId
-  itemId: 12478
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune armadyl Armour
-group: Rune armadyl Armour
+group: Metal Equipment
 exampleItem: Armadyl platelegs
 */
 #define VAR_RUNE_ARMADYL_CUSTOMSTYLE \
@@ -9145,18 +8913,10 @@ apply (name:CONST_RUNE_ARMADYL_TRIMMED_ARMOUR) {
     VAR_RUNE_ARMADYL_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Rune bandos Armour
-icon: 
-  type: itemId
-  itemId: 12488
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Rune bandos Armour
-group: Rune bandos Armour
+group: Metal Equipment
 exampleItem: Bandos platelegs
 */
 #define VAR_RUNE_BANDOS_CUSTOMSTYLE \
@@ -9170,18 +8930,10 @@ apply (name:CONST_RUNE_BANDOS_TRIMMED_ARMOUR) {
     VAR_RUNE_BANDOS_CUSTOMSTYLE 
 }
 
-/*@ define:group
----
-name: Gilded Armour and Weapons
-icon: 
-  type: itemId
-  itemId: 3488
-*/
-
 /*@ define:input:item_category_styles
 type: style
 label: Gilded Armour and Weapons
-group: Gilded Armour and Weapons
+group: Metal Equipment
 exampleItem: Gilded platelegs
 */
 #define VAR_RUNE_GILDED_CUSTOMSTYLE \
