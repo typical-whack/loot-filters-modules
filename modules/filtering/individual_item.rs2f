@@ -24,7 +24,13 @@ type: stringlist
 label: Items to show
 group: Individual Items
 */
-#define VAR_GLOBAL_SHOW []
+#define VAR_GLOBAL_SHOW [ \
+  "Loop half of key", \
+  "Tooth half of key", \
+  "Rune spear", \
+  "Shield left half", \
+  "Dragon spear", \
+]
 
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
