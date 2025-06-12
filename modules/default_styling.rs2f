@@ -15,7 +15,8 @@ exampleItem: Santa hat
 exampleItemId: 1050
 */
 #define VAR_GLOBAL_CUSTOMSTYLE \
-  icon = CurrentItem();\
+  textColor = "#FFFFFFFF"; \
+  icon = CurrentItem(); \
   showDespawn = true;
 
 apply (true) {
