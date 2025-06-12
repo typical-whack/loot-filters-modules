@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Jun 12 21:02:24 UTC 2025 */
-/* Commit: 8ea44d2 */
+/* Built on: Thu Jun 12 21:04:07 UTC 2025 */
+/* Commit: 43376e9 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -177,7 +177,10 @@ type: stringlist
 label: Items to hide
 group: Individual Items
 */
-#define VAR_GLOBAL_HIDE []
+#define VAR_GLOBAL_HIDE [ \
+  "broken arrow", \
+  "old boot", \
+]
 
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
