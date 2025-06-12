@@ -13,7 +13,10 @@ type: stringlist
 label: Items to hide
 group: Individual Items
 */
-#define VAR_GLOBAL_HIDE []
+#define VAR_GLOBAL_HIDE [ \
+  "broken arrow", \
+  "old boot", \
+]
 
 apply (name:VAR_GLOBAL_HIDE) {
     hidden = true;
