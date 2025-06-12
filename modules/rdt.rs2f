@@ -1,92 +1,14 @@
-
 /*@ define:module:rare_drop_table
 ---
-name: Rare drop table
+name: Rare Drop Table Style
 subtitle: Give RDT some special attention
 description: |
-  Give RDT drops unique styling. This gives RDT drops a gold border by default. RDT drops are recognized by item name and quantity dropped. There will be some overlap with other drop tables.
+  This module makes a best guess at if an item was sourced from the Rare Drop Table (RDT) based on its name and quantity. It then applies a unique styling to those items. By default, this gives RDT drops a golden border. There will be some overlap with other drop tables.
 */
-
-/*@ define:input:rare_drop_table
-type: enumlist
-label: Drops to force hidden
-enum: [
-  "Nature rune",
-  "Adamant javelin",
-  "Death rune",
-  "Law rune",
-  "Rune arrow",
-  "Steel arrow",
-  "Rune 2h sword",
-  "Rune battleaxe",
-  "Rune sq shield",
-  "Dragon med helm",
-  "Rune kiteshield",
-  "Coins",
-  "Loop half of key",
-  "Tooth half of key",
-  "Runite bar",
-  "Dragonstone",
-  "Silver ore",
-  "Uncut sapphire",
-  "Uncut emerald",
-  "Uncut ruby",
-  "Chaos talisman",
-  "Nature talisman",
-  "Uncut diamond",
-  "Rune javelin",
-  "Rune spear",
-  "Shield left half",
-  "Dragon spear"
-]
-*/
-#define VAR_RDT_HIDE []
-
-/*@ define:input:rare_drop_table
-type: enumlist
-label: Drops to show
-enum: [
-  "Nature rune",
-  "Adamant javelin",
-  "Death rune",
-  "Law rune",
-  "Rune arrow",
-  "Steel arrow",
-  "Rune 2h sword",
-  "Rune battleaxe",
-  "Rune sq shield",
-  "Dragon med helm",
-  "Rune kiteshield",
-  "Coins",
-  "Loop half of key",
-  "Tooth half of key",
-  "Runite bar",
-  "Dragonstone",
-  "Silver ore",
-  "Uncut sapphire",
-  "Uncut emerald",
-  "Uncut ruby",
-  "Chaos talisman",
-  "Nature talisman",
-  "Uncut diamond",
-  "Rune javelin",
-  "Rune spear",
-  "Shield left half",
-  "Dragon spear"
-]
-*/
-#define VAR_RDT_SHOW [ \
-  "Loop half of key", \
-  "Tooth half of key", \
-  "Rune spear", \
-  "Shield left half", \
-  "Dragon spear", \
-]
-
 
 /*@ define:input:rare_drop_table
 type: style
-label: RDT custom style
+label: Rare Drop Table Item Style
 exampleItem: Dragon spear
 exampleItemId: 1249
 */
