@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Jun 12 16:13:22 UTC 2025 */
-/* Commit: 620e2f5 */
+/* Built on: Thu Jun 12 16:19:14 UTC 2025 */
+/* Commit: 9f4871b */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6658,9 +6658,9 @@ exampleItem: Helm of neitiznot
 exampleItemId: 10828
 */
 #define VAR_VALUES_TIER_1_CUSTOMSTYLE \
-  textColor = "#FF66B2FF";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";
+  textColor = "#FF66B2FF"; \
+  menuTextColor = "#FF66B2FF"; \
+  textAccentColor = "#FF000000";
 
 apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
@@ -6711,9 +6711,9 @@ exampleItem: Infinity boots
 exampleItemId: 6920
 */
 #define VAR_VALUES_TIER_2_CUSTOMSTYLE \
-  textColor = "#FF99FF99";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";
+  textColor = "#FF99FF99"; \
+  menuTextColor = "#FF99FF99"; \
+  textAccentColor = "#FF000000";
 
 apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
     VAR_VALUES_TIER_2_CUSTOMSTYLE 
@@ -6766,11 +6766,11 @@ exampleItem: Abyssal whip
 exampleItemId: 4151
 */
 #define VAR_VALUES_TIER_3_CUSTOMSTYLE \
-  textColor = "#FFFF9600";\
-  backgroundColor = "#50FFFFFF";\
-  borderColor = "#FFFF9600";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF9600";\
+  textColor = "#FFFF9600"; \
+  menuTextColor = "#FFFF9600"; \
+  backgroundColor = "#50FFFFFF"; \
+  borderColor = "#FFFF9600"; \
+  textAccentColor = "#FF000000"; \
   showLootbeam = true; \
   lootbeamColor = "#FFFF9600";
 
@@ -6830,11 +6830,11 @@ exampleItem: Twisted bow
 exampleItemId: 20997
 */
 #define VAR_VALUES_TIER_4_CUSTOMSTYLE \
-  textColor = "#FFFF66B2";\
-  backgroundColor = "#50FFFFFF";\
-  borderColor = "#FFFF66B2";\
-  textAccentColor = "#FF000000";\
-  menuTextColor = "#FFFF66B2";\
+  textColor = "#FFFF66B2"; \
+  menuTextColor = "#FFFF66B2"; \
+  backgroundColor = "#50FFFFFF"; \
+  borderColor = "#FFFF66B2"; \
+  textAccentColor = "#FF000000"; \
   showLootbeam = true; \
   lootbeamColor = "#FFFF66B2";
 
