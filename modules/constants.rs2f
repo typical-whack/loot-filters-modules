@@ -1843,6 +1843,7 @@ name: Constants
   "Divine super combat potion(*", \
   "Extended super antifire(*", \
   "Surge potion(*", \
+  "Blighted super restore(*", \
 ]
 
 #define CONST_BARB_POTIONS_LIST [ \

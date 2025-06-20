@@ -14,11 +14,11 @@ group: Potions
 exampleItem: Divine super combat potion(4)
 exampleItemId: 23685
 */
-#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
+#define VAR_CATEGORY_ALL_POTIONS_CUSTOMSTYLE \
   icon = Sprite(3231, 0);
 
 apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
-  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+  VAR_CATEGORY_ALL_POTIONS_CUSTOMSTYLE
 }
 
 /*@ define:input:item_category_styles
