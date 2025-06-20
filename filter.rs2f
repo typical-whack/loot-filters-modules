@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Jun 12 21:06:09 UTC 2025 */
-/* Commit: dc74555 */
+/* Built on: Fri Jun 20 23:58:33 UTC 2025 */
+/* Commit: 85c6292 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -3552,21 +3552,21 @@ type: enumlist
 label: Fruit tree seeds to force hidden
 group: Farming seeds
 enum: [
-  "Apple seed",
-  "Banana seed",
-  "Orange seed",
-  "Curry seed",
+  "Apple tree seed",
+  "Banana tree seed",
+  "Orange tree seed",
+  "Curry tree seed",
   "Pineapple seed",
-  "Papaya seed",
+  "Papaya tree seed",
   "Palm tree seed",
-  "Dragonfruit seed"
+  "Dragonfruit tree seed"
 ]
 */
 #define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE [ \
-  "Apple seed", \
-  "Banana seed", \
-  "Orange seed", \
-  "Curry seed", \
+  "Apple tree seed", \
+  "Banana tree seed", \
+  "Orange tree seed", \
+  "Curry tree seed", \
   "Pineapple seed", \
 ]
 
@@ -7580,11 +7580,11 @@ group: Potions
 exampleItem: Divine super combat potion(4)
 exampleItemId: 23685
 */
-#define VAR_CATEGORY_POTIONS_CUSTOMSTYLE \
+#define VAR_CATEGORY_ALL_POTIONS_CUSTOMSTYLE \
   icon = Sprite(3231, 0);
 
 apply (name:CONST_POTIONS_LIST || name:CONST_BARB_POTIONS_LIST) {
-  VAR_CATEGORY_POTIONS_CUSTOMSTYLE
+  VAR_CATEGORY_ALL_POTIONS_CUSTOMSTYLE
 }
 
 /*@ define:input:item_category_styles
@@ -11104,6 +11104,23 @@ exampleItem: Surge potion(4)
 
 apply (name:"Surge potion(*") {
     VAR_SURGE_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Blighted Super Restore
+group: Potions Styles
+exampleItem: Blighted super restore(4)
+*/
+#define VAR_BLIGHTED_SUPER_RESTORE_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50a54b6c";\
+  borderColor = "#FFa54b6c";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FFa54b6c";
+
+apply (name:"Blighted super restore(*") {
+  VAR_BLIGHTED_SUPER_RESTORE_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
@@ -17748,6 +17765,7 @@ name: Constants
   "Divine super combat potion(*", \
   "Extended super antifire(*", \
   "Surge potion(*", \
+  "Blighted super restore(*", \
 ]
 
 #define CONST_BARB_POTIONS_LIST [ \
