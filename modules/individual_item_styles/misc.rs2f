@@ -118,3 +118,25 @@ exampleItemId: 27552
 apply (name:"Ghommal's avernic defender 6*") {
   VAR_GHOMMALS_AVERNIC_DEFENDER_6_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: "DT2 Gold Ring Style"
+group: Misc Styles
+exampleItem: "Gold ring"
+exampleItemId: 1635
+*/
+#define VAR_DT2_GOLD_RING_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF"; \
+  backgroundColor = "#50c6b120"; \
+  borderColor = "#FFfce32e"; \
+  textAccentColor = "#FF000000"; \
+  menuTextColor = "#FFfce32e"; \
+  icon = CurrentItem(); \
+  fontType = 3; \
+  showLootbeam = true; \
+  lootbeamColor = "#FFfce32e";
+
+apply (name:"Gold ring" && (area:CONST_THE_WHISPERER_AREA || area:CONST_VARDORVIS_AREA || area:CONST_DUKE_SUCELLUS_AREA || area:CONST_THE_LEVIATHAN_AREA)) {
+  VAR_DT2_GOLD_RING_CUSTOMSTYLE 
+}
