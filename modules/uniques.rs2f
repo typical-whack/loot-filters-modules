@@ -387,6 +387,7 @@ apply ( \
     || area:CONST_YAMA_AREA \
     || area:CONST_NEX_AREA \
     || area:CONST_AMOXLIATL_AREA \
+    || area:CONST_HUEYCOATL_AREA \
   ) \
 ) {
     sound = 2411; // sound name: silence
