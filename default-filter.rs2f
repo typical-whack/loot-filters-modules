@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Jun 27 19:50:49 UTC 2025 */
-/* Commit: e9bffec */
+/* Built on: Fri Jun 27 20:01:04 UTC 2025 */
+/* Commit: 5a9eff1 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7278,6 +7278,7 @@ apply ( \
     || area:CONST_YAMA_AREA \
     || area:CONST_NEX_AREA \
     || area:CONST_AMOXLIATL_AREA \
+    || area:CONST_HUEYCOATL_AREA \
   ) \
 ) {
     sound = 2411; // sound name: silence
@@ -15986,6 +15987,7 @@ name: Constants
 
 #define CONST_AMOXLIATL_AREA [1347, 4493, 0, 1388, 4530, 0]
 
+#define CONST_HUEYCOATL_AREA [1502, 3275, 0, 1521, 3294, 0]
 #define CONST_MUSPAH_AREA [2831, 4242, 0, 2862, 4275, 0]
 #define CONST_THE_WHISPERER_AREA [2631, 6337, 0, 2682, 6394, 0]
 #define CONST_VARDORVIS_AREA [1122, 3411, 0, 1137, 3426, 0]
