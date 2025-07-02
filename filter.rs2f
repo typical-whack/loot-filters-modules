@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Jun 27 20:01:04 UTC 2025 */
-/* Commit: 5a9eff1 */
+/* Built on: Wed Jul  2 14:24:53 UTC 2025 */
+/* Commit: 8752b7a */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -9130,7 +9130,7 @@ exampleItemId: 23182
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFCFC8C8";
 
-apply (name:"Clue scroll (beginner)") {
+apply (name:"Clue scroll (beginner)" || name:"Scroll box (beginner)") {
     VAR_CLUE_SCROLLS_BEGINNER_CUSTOMSTYLE 
 }
 
@@ -9148,7 +9148,7 @@ exampleItemId: 2677
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF248F26";
 
-apply (name:"Clue scroll (easy)") {
+apply (name:"Clue scroll (easy)" || name:"Scroll box (easy)") {
     VAR_CLUE_SCROLLS_EASY_CUSTOMSTYLE 
 }
 
@@ -9166,7 +9166,7 @@ exampleItemId: 2801
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF6CBBBF";
 
-apply (name:"Clue scroll (medium)") {
+apply (name:"Clue scroll (medium)" || name:"Scroll box (medium)") {
     VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE 
 }
 
@@ -9184,7 +9184,7 @@ exampleItemId: 2722
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFA343BD";
 
-apply (name:"Clue scroll (hard)") {
+apply (name:"Clue scroll (hard)" || name:"Scroll box (hard)") {
     VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE 
 }
 
@@ -9202,7 +9202,7 @@ exampleItemId: 12073
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFEED11D";
 
-apply (name:"Clue scroll (elite)") {
+apply (name:"Clue scroll (elite)" || name:"Scroll box (elite)") {
     VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE 
 }
 
@@ -9220,7 +9220,7 @@ exampleItemId: 19835
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFC33C30";
 
-apply (name:"Clue scroll (master)") {
+apply (name:"Clue scroll (master)" || name:"Scroll box (master)") {
     VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE 
 }
 /*@ define:group
