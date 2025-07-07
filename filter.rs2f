@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jul  2 14:24:53 UTC 2025 */
-/* Commit: 8752b7a */
+/* Built on: Mon Jul  7 01:24:20 UTC 2025 */
+/* Commit: 4ff729b */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -299,10 +299,14 @@ group: Ownership
 
 rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
+    sound = 2411; // sound name: silence
+    notify = false;
 }
 
 rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
+    sound = 2411; // sound name: silence
+    notify = false;
 }
 /*@ define:group
 ---
