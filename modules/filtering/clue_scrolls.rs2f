@@ -47,5 +47,3 @@ enum: [
 apply (name:VAR_CLUE_SCROLLS_HIDE) {
     hidden = true;
 }
-
-/* TODO: add filtering of specific steps based on item ID */

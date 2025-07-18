@@ -58,7 +58,7 @@ exampleItemId: 2801
   textAccentColor = "#FF000000";\
   menuTextColor = "#FF6CBBBF";
 
-apply (name:"Clue scroll (medium)" || name:"Scroll box (medium)") {
+apply (name:"Clue scroll (medium)" || name:"Scroll box (medium)" || "Challenge scroll (medium)") {
     VAR_CLUE_SCROLLS_MEDIUM_CUSTOMSTYLE 
 }
 
@@ -76,7 +76,7 @@ exampleItemId: 2722
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFA343BD";
 
-apply (name:"Clue scroll (hard)" || name:"Scroll box (hard)") {
+apply (name:"Clue scroll (hard)" || name:"Scroll box (hard)" || "Challenge scroll (hard)") {
     VAR_CLUE_SCROLLS_HARD_CUSTOMSTYLE 
 }
 
@@ -94,7 +94,7 @@ exampleItemId: 12073
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFEED11D";
 
-apply (name:"Clue scroll (elite)" || name:"Scroll box (elite)") {
+apply (name:"Clue scroll (elite)" || name:"Scroll box (elite)" || "Challenge scroll (elite)") {
     VAR_CLUE_SCROLLS_ELITE_CUSTOMSTYLE 
 }
 
