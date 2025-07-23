@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Jul 18 14:58:40 UTC 2025 */
-/* Commit: 42b7ee7 */
+/* Built on: Wed Jul 23 05:45:30 UTC 2025 */
+/* Commit: 3efc869 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6831,6 +6831,9 @@ group: Tier 4
   "Lesser Demon champion scroll", \
   "Skeleton champion scroll", \
   "Zombie champion scroll", \
+  "Mokhaiotl cloth", \
+  "Eye of ayak", \
+  "Avernic treads", \
 ]
 
 /*@ define:input:item_tiers
@@ -7249,6 +7252,11 @@ group: Uniques List
   "Lesser Demon champion scroll", \
   "Skeleton champion scroll", \
   "Zombie champion scroll", \
+  "Mokhaiotl cloth", \
+  "Eye of ayak", \
+  "Avernic treads", \
+  "Earthbound tecpatl", \
+  "Antler guard", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
