@@ -356,6 +356,11 @@ group: Uniques List
   "Lesser Demon champion scroll", \
   "Skeleton champion scroll", \
   "Zombie champion scroll", \
+  "Mokhaiotl cloth", \
+  "Eye of ayak", \
+  "Avernic treads", \
+  "Earthbound tecpatl", \
+  "Antler guard", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
