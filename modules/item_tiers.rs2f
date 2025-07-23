@@ -205,6 +205,9 @@ group: Tier 4
   "Lesser Demon champion scroll", \
   "Skeleton champion scroll", \
   "Zombie champion scroll", \
+  "Mokhaiotl cloth", \
+  "Eye of ayak", \
+  "Avernic treads", \
 ]
 
 /*@ define:input:item_tiers
