@@ -43,7 +43,7 @@ exampleItemId: 10976
 */
 #define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE
 
-apply (tradeable:false) {
+apply (tradeable:false && !name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) {
     VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
 }
 
