@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Tue Jul 29 23:56:53 UTC 2025 */
-/* Commit: 87dd241 */
+/* Built on: Tue Jul 29 23:58:49 UTC 2025 */
+/* Commit: c28d889 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -55,7 +55,7 @@ exampleItemId: 10976
 */
 #define VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE
 
-apply (tradeable:false) {
+apply (tradeable:false && !name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) {
     VAR_DEFAULT_UNTRADEABLE_CUSTOMSTYLE 
 }
 
