@@ -308,6 +308,29 @@ name: Constants
     "Water rune pack", \
     "Water-filled vial pack", \
     "Weapon store key", \
+    "Ensouled goblin head", \
+    "Ensouled monkey head", \
+    "Ensouled imp head", \
+    "Ensouled minotaur head", \
+    "Ensouled scorpion head", \
+    "Ensouled bear head", \
+    "Ensouled unicorn head", \
+    "Ensouled dog head", \
+    "Ensouled chaos druid head", \
+    "Ensouled giant head", \
+    "Ensouled ogre head", \
+    "Ensouled elf head", \
+    "Ensouled troll head", \
+    "Ensouled horror head", \
+    "Ensouled kalphite head", \
+    "Ensouled dagannoth head", \
+    "Ensouled bloodveld head", \
+    "Ensouled tzHaar head", \
+    "Ensouled demon head", \
+    "Ensouled hellhound head", \
+    "Ensouled aviansie head", \
+    "Ensouled abyssal head", \
+    "Ensouled dragon head", \
 ]
 
 #define CONST_FARMING_SEEDS_ALLOTMENT_LIST [ \
