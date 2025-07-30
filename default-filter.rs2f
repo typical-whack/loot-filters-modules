@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Tue Jul 29 23:58:49 UTC 2025 */
-/* Commit: c28d889 */
+/* Built on: Wed Jul 30 16:11:42 UTC 2025 */
+/* Commit: c8724fe */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -16286,6 +16286,9 @@ name: Constants
     "Ensouled aviansie head", \
     "Ensouled abyssal head", \
     "Ensouled dragon head", \
+    "Waterskin(1)", \
+    "Waterskin(2)", \
+    "Waterskin(3)", \
 ]
 
 #define CONST_FARMING_SEEDS_ALLOTMENT_LIST [ \
