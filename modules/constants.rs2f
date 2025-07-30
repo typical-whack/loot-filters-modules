@@ -331,6 +331,9 @@ name: Constants
     "Ensouled aviansie head", \
     "Ensouled abyssal head", \
     "Ensouled dragon head", \
+    "Waterskin(1)", \
+    "Waterskin(2)", \
+    "Waterskin(3)", \
 ]
 
 #define CONST_FARMING_SEEDS_ALLOTMENT_LIST [ \
