@@ -402,14 +402,14 @@ name: Constants
 ]
 
 #define CONST_FARMING_SEEDS_FRUIT_TREE_LIST [ \
-  "Apple seed", \
-  "Banana seed", \
-  "Orange seed", \
-  "Curry seed", \
+  "Apple tree seed", \
+  "Banana tree seed", \
+  "Orange tree seed", \
+  "Curry tree seed", \
   "Pineapple seed", \
-  "Papaya seed", \
+  "Papaya tree seed", \
   "Palm tree seed", \
-  "Dragonfruit seed", \
+  "Dragonfruit tree seed", \
 ]
 
 #define CONST_FARMING_SEEDS_SPECIAL_TREE_LIST [ \

@@ -401,14 +401,14 @@ type: enumlist
 label: Fruit tree seeds to force shown
 group: Farming seeds
 enum: [
-  "Apple seed",
-  "Banana seed",
-  "Orange seed",
-  "Curry seed",
+  "Apple tree seed",
+  "Banana tree seed",
+  "Orange tree seed",
+  "Curry tree seed",
   "Pineapple seed",
-  "Papaya seed",
+  "Papaya tree seed",
   "Palm tree seed",
-  "Dragonfruit seed"
+  "Dragonfruit tree seed"
 ]
 */
 #define VAR_FARMING_SEEDS_FRUIT_TREE_SHOW [ \
