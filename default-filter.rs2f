@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Aug 28 19:32:14 UTC 2025 */
-/* Commit: 8b7daee */
+/* Built on: Thu Aug 28 19:38:32 UTC 2025 */
+/* Commit: 3921cb8 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -9235,6 +9235,13 @@ apply (name:"Clue scroll (master)" || name:"Scroll box (master)") {
 }
 
 /*@ define:input:individual_item_styles
+type: boolean
+label: Style wilderness steps differently
+group: Clue Scrolls Styles
+*/
+#define VAR_CLUE_SCROLLS_WILDERNESS_STEPS true
+
+/*@ define:input:individual_item_styles
 type: style
 label: Hard clue scroll - wilderness step
 group: Clue Scrolls Styles
@@ -9248,7 +9255,7 @@ exampleItemId: 2722
   borderColor = "#FF000000";\
   menuTextColor = "#FF000000";
 
-apply (id:CONST_CLUE_HARD_WILDY_IDS) {
+apply (VAR_CLUE_SCROLLS_WILDERNESS_STEPS && id:CONST_CLUE_HARD_WILDY_IDS) {
     VAR_CLUE_SCROLLS_HARD_WILDERNESS_CUSTOMSTYLE 
 }
 
@@ -9266,7 +9273,7 @@ exampleItemId: 12073
   borderColor = "#FF000000";\
   menuTextColor = "#FF000000";
 
-apply (id:CONST_CLUE_ELITE_WILDY_IDS) {
+apply (VAR_CLUE_SCROLLS_WILDERNESS_STEPS && id:CONST_CLUE_ELITE_WILDY_IDS) {
     VAR_CLUE_SCROLLS_ELITE_WILDERNESS_CUSTOMSTYLE 
 }
 /*@ define:group
