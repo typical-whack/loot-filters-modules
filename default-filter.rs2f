@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Aug 28 16:39:38 UTC 2025 */
-/* Commit: a824a33 */
+/* Built on: Thu Aug 28 16:41:27 UTC 2025 */
+/* Commit: 4d9fd96 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -9236,7 +9236,7 @@ apply (name:"Clue scroll (master)" || name:"Scroll box (master)") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Wilderness clue scroll custom style
+label: Wilderness clue scroll step custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (hard)
 exampleItemId: 19835
