@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Aug 28 16:43:07 UTC 2025 */
-/* Commit: 4428403 */
+/* Built on: Thu Aug 28 19:32:14 UTC 2025 */
+/* Commit: 8b7daee */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -9128,7 +9128,7 @@ description: |
 
 /*@ define:input:individual_item_styles
 type: style
-label: Beginner clue scroll custom style
+label: Beginner clue scroll
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (beginner)
 exampleItemId: 23182
@@ -9146,7 +9146,7 @@ apply (name:"Clue scroll (beginner)" || name:"Scroll box (beginner)") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Easy clue scroll custom style
+label: Easy clue scroll
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (easy)
 exampleItemId: 2677
@@ -9164,7 +9164,7 @@ apply (name:"Clue scroll (easy)" || name:"Scroll box (easy)") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Medium clue scroll custom style
+label: Medium clue scroll
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (medium)
 exampleItemId: 2801
@@ -9182,7 +9182,7 @@ apply (name:"Clue scroll (medium)" || name:"Scroll box (medium)" || name:"Challe
 
 /*@ define:input:individual_item_styles
 type: style
-label: Hard clue scroll custom style
+label: Hard clue scroll
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (hard)
 exampleItemId: 2722
@@ -9200,7 +9200,7 @@ apply (name:"Clue scroll (hard)" || name:"Scroll box (hard)" || name:"Challenge 
 
 /*@ define:input:individual_item_styles
 type: style
-label: Elite clue scroll custom style
+label: Elite clue scroll
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (elite)
 exampleItemId: 12073
@@ -9218,7 +9218,7 @@ apply (name:"Clue scroll (elite)" || name:"Scroll box (elite)" || name:"Challeng
 
 /*@ define:input:individual_item_styles
 type: style
-label: Master clue scroll custom style
+label: Master clue scroll
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (master)
 exampleItemId: 19835
@@ -9236,20 +9236,38 @@ apply (name:"Clue scroll (master)" || name:"Scroll box (master)") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Wilderness clue scroll step custom style
+label: Hard clue scroll - wilderness step
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (hard)
-exampleItemId: 19835
+exampleItemId: 2722
 */
-#define VAR_CLUE_SCROLLS_WILDERNESS_CUSTOMSTYLE \
+#define VAR_CLUE_SCROLLS_HARD_WILDERNESS_CUSTOMSTYLE \
   textColor = "#FFFFFFFF";\
   textAccentColor = "#FF000000";\
   backgroundColor = "#80908062";\
   borderColor = "#FF000000";\
   menuTextColor = "#FF000000";
 
-apply (id:CONST_CLUE_HARD_WILDY_IDS || id:CONST_CLUE_ELITE_WILDY_IDS) {
-    VAR_CLUE_SCROLLS_WILDERNESS_CUSTOMSTYLE 
+apply (id:CONST_CLUE_HARD_WILDY_IDS) {
+    VAR_CLUE_SCROLLS_HARD_WILDERNESS_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
+label: Elite clue scroll - wilderness step
+group: Clue Scrolls Styles
+exampleItem: Clue scroll (elite)
+exampleItemId: 12073
+*/
+#define VAR_CLUE_SCROLLS_ELITE_WILDERNESS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  backgroundColor = "#80908062";\
+  borderColor = "#FF000000";\
+  menuTextColor = "#FF000000";
+
+apply (id:CONST_CLUE_ELITE_WILDY_IDS) {
+    VAR_CLUE_SCROLLS_ELITE_WILDERNESS_CUSTOMSTYLE 
 }
 /*@ define:group
 ---
