@@ -100,7 +100,51 @@ name: Constants
 #define CONST_COLO_LOBBY_AREA [1794, 9479, 0, 1856, 9538, 0]
 #define CONST_LUMBRIDGE_BASEMENT_CAVE_EXIT_AREA [3206, 9600, 0, 3237, 9628, 0]
 
+#define CONST_CLUE_HARD_WILDY_IDS [ \
+  2723, \
+  2725, \
+  2727, \
+  2729, \
+  2731, \
+  2733, \
+  2735, \
+  2737, \
+  2739, \
+  2741, \
+  2743, \
+  2745, \
+  2747, \
+  2786, \
+  2788, \
+  3525, \
+  3556, \
+  3558, \
+  7239, \
+  7260, \
+  7262, \
+  7264, \
+  10244, \
+  10234, \
+  12546, \
+  12564, \
+  19888, \
+  23168, \
+  23169, \
+]
 
+#define CONST_CLUE_ELITE_WILDY_IDS [ \
+  12075, \
+  12093, \
+  12095, \
+  12097, \
+  12109, \
+  12101, \
+  12134, \
+  12150, \
+  19807, \
+  23144, \
+  23146, \
+]
 
 #define CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS [ \
     "1/2 anchovy pizza", \
