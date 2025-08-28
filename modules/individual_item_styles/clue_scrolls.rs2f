@@ -118,7 +118,7 @@ apply (name:"Clue scroll (master)" || name:"Scroll box (master)") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Wilderness clue scroll custom style
+label: Wilderness clue scroll step custom style
 group: Clue Scrolls Styles
 exampleItem: Clue scroll (hard)
 exampleItemId: 19835
