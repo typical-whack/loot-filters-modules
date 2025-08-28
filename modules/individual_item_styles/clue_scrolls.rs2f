@@ -115,3 +115,21 @@ exampleItemId: 19835
 apply (name:"Clue scroll (master)" || name:"Scroll box (master)") {
     VAR_CLUE_SCROLLS_MASTER_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: Wilderness clue scroll custom style
+group: Clue Scrolls Styles
+exampleItem: Clue scroll (hard)
+exampleItemId: 19835
+*/
+#define VAR_CLUE_SCROLLS_WILDERNESS_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  textAccentColor = "#FF000000";\
+  backgroundColor = "#80908062";\
+  borderColor = "#FF000000";\
+  menuTextColor = "#FF000000";
+
+apply (id:CONST_CLUE_HARD_WILDY_IDS || id:CONST_CLUE_ELITE_WILDY_IDS) {
+    VAR_CLUE_SCROLLS_WILDERNESS_CUSTOMSTYLE 
+}
