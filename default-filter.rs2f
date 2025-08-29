@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Aug 29 02:08:08 UTC 2025 */
-/* Commit: a2184e8 */
+/* Built on: Fri Aug 29 02:10:17 UTC 2025 */
+/* Commit: e5ec3e8 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6638,17 +6638,6 @@ description: |
 */
 
 /*@ define:input:area_based_filtering
-type: stringlist
-label: Items to hide in Bounty Hunter
-group: Bounty Hunter
-*/
-#define VAR_BOUNTY_HUNTER_HIDDEN_LIST []
-
-apply (area:CONST_BOUNTY_HUNTER_AREA && name:VAR_BOUNTY_HUNTER_HIDDEN_LIST) {
-    hidden = true;
-}
-
-/*@ define:input:filtering
 type: number
 label: Hide items below this value
 group: Bounty Hunter
@@ -6659,7 +6648,7 @@ apply (area:CONST_BOUNTY_HUNTER_AREA && (tradeable:true || name:CONST_GLOBAL_TRA
     hidden = true;
 }
 
-/*@ define:input:filtering
+/*@ define:input:area_based_filtering
 type: number
 label: Hide stackable items below this value
 group: Bounty Hunter
@@ -6670,7 +6659,7 @@ apply (area:CONST_BOUNTY_HUNTER_AREA && (tradeable:true || name:CONST_GLOBAL_TRA
     hidden = true;
 }
 
-/*@ define:input:filtering
+/*@ define:input:area_based_filtering
 type: number
 label: Hide non-stackable items below this value
 group: Bounty Hunter
@@ -6678,6 +6667,17 @@ group: Bounty Hunter
 #define VAR_BOUNTY_HUNTER_NON_STACKABLE_MINIMUM_VALUE 0
 
 apply (area:CONST_BOUNTY_HUNTER_AREA && (tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_BOUNTY_HUNTER_NON_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:area_based_filtering
+type: stringlist
+label: Items to hide in Bounty Hunter
+group: Bounty Hunter
+*/
+#define VAR_BOUNTY_HUNTER_HIDDEN_LIST []
+
+apply (area:CONST_BOUNTY_HUNTER_AREA && name:VAR_BOUNTY_HUNTER_HIDDEN_LIST) {
     hidden = true;
 }
 /*@ define:module:item_tiers
