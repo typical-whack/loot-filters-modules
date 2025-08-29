@@ -95,3 +95,29 @@ apply (VAR_LAST_MAN_STANDING_SOUND_AND_NOTIFICATIONS_DISABLE && (area:CONST_LAST
     sound = 2411; // sound name: silence
     notify = false;
 }
+
+/*@ define:group
+---
+name: "Ownership-related sound and notification settings"
+icon: 
+  type: itemId
+  itemId: 10593
+description: |
+  Ownership-related sound and notification settings
+  ---
+  This offers options to disable sounds and notifications for world spawned items and items owned by other players
+*/
+
+/*@ define:input:filtering
+type: boolean
+label: "Silence sounds and notifications for world spawn items"
+group: "Ownership-related sound and notification settings"
+*/
+#define VAR_SILENCE_OTHER_PLAYERS_ITEMS false
+
+/*@ define:input:filtering
+type: boolean
+label: "Silence sounds and notifications for other players' items"
+group: "Ownership-related sound and notification settings"
+*/
+#define VAR_SILENCE_HIDE_SPAWN_ITEMS false

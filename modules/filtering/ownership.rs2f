@@ -50,13 +50,13 @@ group: Ownership
     "Mallignum root plank", \
 ]
 
-rule (ownership:OWNERSHIP_NONE && VAR_GLOBAL_HIDE_SPAWN_ITEMS  && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
+rule (VAR_GLOBAL_HIDE_SPAWN_ITEMS && ownership:OWNERSHIP_NONE && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
     sound = 2411; // sound name: silence
     notify = false;
 }
 
-rule (ownership:OWNERSHIP_OTHER && VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
+rule (VAR_GLOBAL_HIDE_OTHER_PLAYERS_ITEMS && ownership:OWNERSHIP_OTHER && !name:VAR_OWNERSHIP_FILTERING_EXCEPTIONS) {
     hidden = true;
     sound = 2411; // sound name: silence
     notify = false;
