@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Aug 29 02:03:50 UTC 2025 */
-/* Commit: 903d9cb */
+/* Built on: Fri Aug 29 02:05:52 UTC 2025 */
+/* Commit: 4ff2e0f */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6622,6 +6622,62 @@ apply (area:CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA && name:VAR_LAST_MAN_STAN
     hidden = true;
 }
 apply (area:CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA && name:VAR_LAST_MAN_STANDING_MAGIC_ARMOUR_HIDE) {
+    hidden = true;
+}
+/*@ define:group
+---
+name: Bounty Hunter
+expanded: false
+icon: 
+  type: itemId
+  itemId: 24520
+description: |
+  Bounty Hunter
+  ---
+  Provides area-based filtering for the Bounty Hunter minigame.
+*/
+
+/*@ define:input:area_based_filtering
+type: stringlist
+label: Items to hide in Bounty Hunter
+group: Bounty Hunter
+*/
+#define VAR_BOUNTY_HUNTER_HIDDEN_LIST []
+
+apply (area:CONST_BOUNTY_HUNTER_AREA && name:VAR_BOUNTY_HUNTER_HIDDEN_LIST) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: number
+label: Hide items below this value
+group: Bounty Hunter
+*/
+#define VAR_BOUNTY_HUNTER_MINIMUM_VALUE 0
+
+apply (area:CONST_BOUNTY_HUNTER_AREA && (tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && value:<VAR_BOUNTY_HUNTER_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: number
+label: Hide stackable items below this value
+group: Bounty Hunter
+*/
+#define VAR_BOUNTY_HUNTER_STACKABLE_MINIMUM_VALUE 0
+
+apply (area:CONST_BOUNTY_HUNTER_AREA && (tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (stackable:true || noted:true) && value:<VAR_BOUNTY_HUNTER_STACKABLE_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+/*@ define:input:filtering
+type: number
+label: Hide non-stackable items below this value
+group: Bounty Hunter
+*/
+#define VAR_BOUNTY_HUNTER_NON_STACKABLE_MINIMUM_VALUE 0
+
+apply (area:CONST_BOUNTY_HUNTER_AREA && (tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && stackable:false && noted:false && value:<VAR_BOUNTY_HUNTER_NON_STACKABLE_MINIMUM_VALUE) {
     hidden = true;
 }
 /*@ define:module:item_tiers
