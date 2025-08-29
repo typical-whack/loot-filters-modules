@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Aug 29 00:45:27 UTC 2025 */
-/* Commit: d2e85a8 */
+/* Built on: Fri Aug 29 02:03:50 UTC 2025 */
+/* Commit: 903d9cb */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -16083,6 +16083,8 @@ name: Constants
 #define CONST_ANCIENT_GUTHIXIAN_TEMPLE_AREA [4020, 4350, 0, 4163, 4484, 0]
 
 #define CONST_GAUNTLET_AREA [1856, 5632, 0, 1983, 5695, 3]
+
+#define CONST_BOUNTY_HUNTER_AREA [3338, 3989, 0, 3504, 4140, 3]
 
 #define CONST_LAST_MAN_STANDING_DESERT_ISLAND_AREA [3391, 5758, 0, 3521, 5889, 3]
 #define CONST_LAST_MAN_STANDING_WILD_VARROCK_AREA [3457, 6017, 0, 3646, 6205, 3]
