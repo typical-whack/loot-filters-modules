@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Aug 29 02:05:52 UTC 2025 */
-/* Commit: 4ff2e0f */
+/* Built on: Fri Aug 29 02:08:08 UTC 2025 */
+/* Commit: a2184e8 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6630,7 +6630,7 @@ name: Bounty Hunter
 expanded: false
 icon: 
   type: itemId
-  itemId: 24520
+  itemId: 27904
 description: |
   Bounty Hunter
   ---
