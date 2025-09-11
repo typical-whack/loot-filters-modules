@@ -12,18 +12,6 @@ apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
 }
 
-/* --- Silencing drops from unowned sources --- */
-
-apply (VAR_SILENCE_OTHER_PLAYERS_ITEMS && ownership:OWNERSHIP_OTHER) {
-    sound = 2411; // sound name: silence
-    notify = false;
-}
-
-apply (VAR_SILENCE_HIDE_SPAWN_ITEMS && ownership:OWNERSHIP_NONE) {
-    sound = 2411; // sound name: silence
-    notify = false;
-}
-
 /* --- sorting menu by value --- */
 
 apply ((VAR_SORTING_MENU_SORT_BY_VALUE || VAR_SORTING_MENU_SORT_BY_VALUE_STACKABLES_FIRST) && value:>=0 && value:<10) {

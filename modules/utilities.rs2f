@@ -115,9 +115,19 @@ group: "Ownership-related sound and notification settings"
 */
 #define VAR_SILENCE_OTHER_PLAYERS_ITEMS false
 
+apply (VAR_SILENCE_OTHER_PLAYERS_ITEMS && ownership:OWNERSHIP_OTHER) {
+    sound = 2411; // sound name: silence
+    notify = false;
+}
+
 /*@ define:input:filtering
 type: boolean
 label: "Silence sounds and notifications for other players' items"
 group: "Ownership-related sound and notification settings"
 */
 #define VAR_SILENCE_HIDE_SPAWN_ITEMS false
+
+apply (VAR_SILENCE_HIDE_SPAWN_ITEMS && ownership:OWNERSHIP_NONE) {
+    sound = 2411; // sound name: silence
+    notify = false;
+}
