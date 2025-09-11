@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Aug 29 02:12:55 UTC 2025 */
-/* Commit: 11ff1ee */
+/* Built on: Thu Sep 11 13:37:01 UTC 2025 */
+/* Commit: 5e86f10 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -15281,12 +15281,22 @@ group: "Ownership-related sound and notification settings"
 */
 #define VAR_SILENCE_OTHER_PLAYERS_ITEMS false
 
+apply (VAR_SILENCE_OTHER_PLAYERS_ITEMS && ownership:OWNERSHIP_OTHER) {
+    sound = 2411; // sound name: silence
+    notify = false;
+}
+
 /*@ define:input:filtering
 type: boolean
 label: "Silence sounds and notifications for other players' items"
 group: "Ownership-related sound and notification settings"
 */
 #define VAR_SILENCE_HIDE_SPAWN_ITEMS false
+
+apply (VAR_SILENCE_HIDE_SPAWN_ITEMS && ownership:OWNERSHIP_NONE) {
+    sound = 2411; // sound name: silence
+    notify = false;
+}
 /*@ define:module:final
 hidden: true
 name: final
@@ -15299,18 +15309,6 @@ apply (name:VAR_GLOBAL_HIDE) {
 }
 apply (name:VAR_GLOBAL_SHOW) {
     hidden = false;
-}
-
-/* --- Silencing drops from unowned sources --- */
-
-apply (VAR_SILENCE_OTHER_PLAYERS_ITEMS && ownership:OWNERSHIP_OTHER) {
-    sound = 2411; // sound name: silence
-    notify = false;
-}
-
-apply (VAR_SILENCE_HIDE_SPAWN_ITEMS && ownership:OWNERSHIP_NONE) {
-    sound = 2411; // sound name: silence
-    notify = false;
 }
 
 /* --- sorting menu by value --- */
