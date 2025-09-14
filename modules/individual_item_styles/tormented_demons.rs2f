@@ -73,25 +73,13 @@ apply (name:"Tormented synapse") {
 
 /*@ define:input:individual_item_styles
 type: style
-label: Burning claw
-group: Tormented Demons Drop Styles
-exampleItem: Burning claw
-*/
-#define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
-
-apply (name:"Burning claw") {
-    VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
-}
-
-/*@ define:input:individual_item_styles
-type: style
 label: Burning claws
 group: Tormented Demons Drop Styles
 exampleItem: Burning claws
 */
 #define VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
 
-apply (name:"Burning claws") {
+apply (name:"Burning claw" || name:"Burning claws") {
     VAR_MONSTERS_TORMENTED_DEMONS_BURNING_CLAW_CUSTOMSTYLE
 }
 
