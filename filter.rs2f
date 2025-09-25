@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Sep 14 23:34:54 UTC 2025 */
-/* Commit: 290aac9 */
+/* Built on: Thu Sep 25 05:19:35 UTC 2025 */
+/* Commit: 0327296 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6715,6 +6715,7 @@ group: Tier 1
   "Pendant of ates", \
   "Long bone", \
   "Scurrius' spine", \
+  "Alchemist's signet", \
 ]
 
 /*@ define:input:item_tiers
