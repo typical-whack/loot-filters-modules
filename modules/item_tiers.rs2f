@@ -33,6 +33,7 @@ group: Tier 1
   "Pendant of ates", \
   "Long bone", \
   "Scurrius' spine", \
+  "Alchemist's signet", \
 ]
 
 /*@ define:input:item_tiers
