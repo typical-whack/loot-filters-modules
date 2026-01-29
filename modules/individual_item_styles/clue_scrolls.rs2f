@@ -151,3 +151,16 @@ exampleItemId: 12073
 apply (id:CONST_CLUE_ELITE_WILDY_IDS) {
     VAR_CLUE_SCROLLS_ELITE_WILDERNESS_CUSTOMSTYLE 
 }
+
+/*@ define:input:individual_item_styles
+type: style
+label: Elite clue scroll - challenge scroll
+group: Clue Scrolls Styles
+exampleItem: Challenge scroll (elite)
+exampleItemId: 12128
+*/
+#define VAR_CLUE_SCROLLS_ELITE_CHALLENGE_CUSTOMSTYLE 
+
+apply (name:"Challenge scroll (elite)") {
+    VAR_CLUE_SCROLLS_ELITE_CHALLENGE_CUSTOMSTYLE
+}
