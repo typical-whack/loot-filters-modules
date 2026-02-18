@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Jan 29 02:56:34 UTC 2026 */
-/* Commit: ea47564 */
+/* Built on: Wed Feb 18 04:56:07 UTC 2026 */
+/* Commit: cc07170 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -3578,7 +3578,7 @@ apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_HIDE) {
 
 /*@ define:input:farming_seeds
 type: enumlist
-label: Fruit tree seeds to force hidden
+label: Hardwood tree seeds to force hidden
 group: Farming seeds
 enum: [
   "Teak seed",
@@ -3792,7 +3792,7 @@ apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_SHOW) {
 
 /*@ define:input:farming_seeds
 type: enumlist
-label: Fruit tree seeds to force shown
+label: Hardwood tree seeds to force shown
 group: Farming seeds
 enum: [
   "Teak seed",
