@@ -206,7 +206,7 @@ apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_HIDE) {
 
 /*@ define:input:farming_seeds
 type: enumlist
-label: Fruit tree seeds to force hidden
+label: Hardwood tree seeds to force hidden
 group: Farming seeds
 enum: [
   "Teak seed",
@@ -420,7 +420,7 @@ apply (name:VAR_FARMING_SEEDS_FRUIT_TREE_SHOW) {
 
 /*@ define:input:farming_seeds
 type: enumlist
-label: Fruit tree seeds to force shown
+label: Hardwood tree seeds to force shown
 group: Farming seeds
 enum: [
   "Teak seed",
