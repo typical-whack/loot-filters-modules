@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Feb 18 04:56:07 UTC 2026 */
-/* Commit: cc07170 */
+/* Built on: Tue Apr 28 20:52:28 UTC 2026 */
+/* Commit: 404e04f */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6825,6 +6825,7 @@ group: Tier 3
   "Mystic vigour prayer scroll", \
   "Deadeye prayer scroll", \
   "Kq head (tattered)", \
+  "Brittle key", \
 ]
 /*@ define:input:item_tiers
 type: style
