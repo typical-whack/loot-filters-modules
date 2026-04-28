@@ -144,6 +144,7 @@ group: Tier 3
   "Deadeye prayer scroll", \
   "Kq head (tattered)", \
   "Brittle key", \
+  "* echo orb", \
 ]
 /*@ define:input:item_tiers
 type: style
