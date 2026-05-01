@@ -364,6 +364,7 @@ group: Uniques List
   "Eternal boots", \
   "Pegasian boots", \
   "Primordial boots", \
+  "Chewed bones", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
