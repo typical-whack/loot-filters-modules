@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri May  1 15:37:14 UTC 2026 */
-/* Commit: f120780 */
+/* Built on: Fri May  1 15:37:59 UTC 2026 */
+/* Commit: c0327f1 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -6716,6 +6716,7 @@ group: Tier 1
   "Long bone", \
   "Scurrius' spine", \
   "Alchemist's signet", \
+  "Chewed bones", \
 ]
 
 /*@ define:input:item_tiers
