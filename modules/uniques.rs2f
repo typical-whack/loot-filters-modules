@@ -361,6 +361,9 @@ group: Uniques List
   "Avernic treads", \
   "Earthbound tecpatl", \
   "Antler guard", \
+  "Eternal boots", \
+  "Pegasian boots", \
+  "Primordial boots", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
