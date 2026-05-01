@@ -34,6 +34,7 @@ group: Tier 1
   "Long bone", \
   "Scurrius' spine", \
   "Alchemist's signet", \
+  "Chewed bones", \
 ]
 
 /*@ define:input:item_tiers
