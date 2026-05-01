@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri May  1 02:09:28 UTC 2026 */
-/* Commit: 1bc9e4d */
+/* Built on: Fri May  1 15:37:14 UTC 2026 */
+/* Commit: f120780 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7330,6 +7330,7 @@ group: Uniques List
   "Eternal boots", \
   "Pegasian boots", \
   "Primordial boots", \
+  "Chewed bones", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
