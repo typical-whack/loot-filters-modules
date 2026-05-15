@@ -369,6 +369,7 @@ group: Uniques List
   "Mooleta", \
   "Bottomless milk bucket*", \
   "Cow slippers", \
+  "Brutus slippers", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
