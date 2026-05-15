@@ -36,6 +36,9 @@ group: Tier 1
   "Alchemist's signet", \
   "Chewed bones", \
   "Immaculate mole skin", \
+  "Mooleta", \
+  "Bottomless milk bucket*", \
+  "Cow slippers", \
 ]
 
 /*@ define:input:item_tiers
