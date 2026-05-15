@@ -1511,6 +1511,7 @@ name: Constants
   "Gorilla bones", \
   "Bearded gorilla bones", \
   "Giant bones", \
+  "Bull bones", \
 ]
 
 #define CONST_ASHES_LIST [ \
