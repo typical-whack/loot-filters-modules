@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri May  1 15:37:59 UTC 2026 */
-/* Commit: c0327f1 */
+/* Built on: Fri May 15 20:34:42 UTC 2026 */
+/* Commit: af589a7 */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -8363,9 +8363,9 @@ apply (name:CONST_FLETCHING_DART_TIP_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Javelin Heads Style
+label: Javelin Tips Style
 group: Fletching
-exampleItem: Bronze javelin heads
+exampleItem: Bronze javelin tips
 exampleItemId: 19570
 */
 #define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
@@ -16917,7 +16917,7 @@ name: Constants
 
 #define CONST_BRONZE_OTHER [ \
   "Bronze Nails", \
-  "Bronze Javelin heads", \
+  "Bronze javelin tips", \
   "Bronze Arrowtips", \
   "Bronze Dart tips", \
   "Bronze Unfinished bolts", \
@@ -16991,7 +16991,7 @@ name: Constants
 
 #define CONST_IRON_OTHER [ \
   "Iron Nails", \
-  "Iron Javelin heads", \
+  "Iron javelin tips", \
   "Iron Arrowtips", \
   "Iron Dart tips", \
   "Iron Unfinished bolts", \
@@ -17067,7 +17067,7 @@ name: Constants
 
 #define CONST_STEEL_OTHER [ \
   "Steel Nails", \
-  "Steel Javelin heads", \
+  "Steel javelin tips", \
   "Steel Arrowtips", \
   "Steel Dart tips", \
   "Steel Unfinished bolts", \
@@ -17227,7 +17227,7 @@ name: Constants
 
 #define CONST_MITHRIL_OTHER [ \
   "Mithril Nails", \
-  "Mithril Javelin heads", \
+  "Mithril javelin tips", \
   "Mithril Arrowtips", \
   "Mithril Dart tips", \
   "Mithril Unfinished bolts", \
@@ -17304,7 +17304,7 @@ name: Constants
 
 #define CONST_ADAMANT_OTHER [ \
   "Adamant Nails", \
-  "Adamant Javelin heads", \
+  "Adamant javelin tips", \
   "Adamant Arrowtips", \
   "Adamant Dart tips", \
   "Adamant Unfinished bolts", \
@@ -17396,7 +17396,7 @@ name: Constants
 
 #define CONST_RUNE_OTHER [ \
   "Rune Nails", \
-  "Rune Javelin heads", \
+  "Rune javelin tips", \
   "Rune Arrowtips", \
   "Rune Dart tips", \
   "Rune Unfinished bolts", \
@@ -18128,14 +18128,14 @@ name: Constants
 ]
 
 #define CONST_FLETCHING_JAVELIN_HEADS_LIST [ \
-  "Bronze javelin heads", \
-  "Iron javelin heads", \
-  "Steel javelin heads", \
-  "Mithril javelin heads", \
-  "Adamant javelin heads", \
-  "Rune javelin heads", \
-  "Amethyst javelin heads", \
-  "Dragon javelin heads", \
+  "Bronze javelin tips", \
+  "Iron javelin tips", \
+  "Steel javelin tips", \
+  "Mithril javelin tips", \
+  "Adamant javelin tips", \
+  "Rune javelin tips", \
+  "Amethyst javelin tips", \
+  "Dragon javelin tips", \
 ]
 
 #define CONST_FLETCHING_UNFINISHED_BOLTS_LIST [ \
