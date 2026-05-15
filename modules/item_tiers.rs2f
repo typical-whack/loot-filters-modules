@@ -35,6 +35,7 @@ group: Tier 1
   "Scurrius' spine", \
   "Alchemist's signet", \
   "Chewed bones", \
+  "Immaculate mole skin", \
 ]
 
 /*@ define:input:item_tiers
