@@ -366,6 +366,9 @@ group: Uniques List
   "Primordial boots", \
   "Chewed bones", \
   "Immaculate mole skin", \
+  "Mooleta", \
+  "Bottomless milk bucket*", \
+  "Cow slippers", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
