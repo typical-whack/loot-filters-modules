@@ -13828,13 +13828,13 @@ Used for creating compost and crafting Forester's rations.",-1,13758,48250,1774
 19567,Combat scarred key,mm2_thieving_key1,FALSE,TRUE,0,1,A key to a door in a maze beneath Ape Atoll.,10,Drop,Take,,-1,-1,2372,0
 19568,Combat scratched key,mm2_thieving_key2,FALSE,TRUE,0,1,A key to a door in a maze beneath Ape Atoll.,10,Drop,Take,,-1,-1,2372,0
 19569,Combat damaged key,mm2_thieving_key3,FALSE,TRUE,0,1,A key to a door in a maze beneath Ape Atoll.,10,Drop,Take,,-1,-1,2372,0
-19570,Bronze javelin heads,bronze_javelin_head,TRUE,TRUE,1,25,Needs a shaft.,0,Drop,Take,,-1,19571,31502,0
-19572,Iron javelin heads,iron_javelin_head,TRUE,TRUE,1,35,Needs a shaft.,0,Drop,Take,,-1,19573,31502,0
-19574,Steel javelin heads,steel_javelin_head,TRUE,TRUE,1,90,Needs a shaft.,0,Drop,Take,,-1,19575,31502,0
-19576,Mithril javelin heads,mithril_javelin_head,TRUE,TRUE,1,165,Needs a shaft.,0,Drop,Take,,-1,19577,31502,0
-19578,Adamant javelin heads,adamant_javelin_head,TRUE,TRUE,1,440,Needs a shaft.,0,Drop,Take,,-1,19579,31502,0
-19580,Rune javelin heads,rune_javelin_head,TRUE,TRUE,1,1350,Needs a shaft.,0,Drop,Take,,-1,19581,31502,0
-19582,Dragon javelin heads,dragon_javelin_head,TRUE,TRUE,1,1950,Needs a shaft.,0,Drop,Take,,-1,19583,31502,0
+19570,Bronze javelin tips,bronze_javelin_head,TRUE,TRUE,1,25,Needs a shaft.,0,Drop,Take,,-1,19571,31502,0
+19572,Iron javelin tips,iron_javelin_head,TRUE,TRUE,1,35,Needs a shaft.,0,Drop,Take,,-1,19573,31502,0
+19574,Steel javelin tips,steel_javelin_head,TRUE,TRUE,1,90,Needs a shaft.,0,Drop,Take,,-1,19575,31502,0
+19576,Mithril javelin tips,mithril_javelin_head,TRUE,TRUE,1,165,Needs a shaft.,0,Drop,Take,,-1,19577,31502,0
+19578,Adamant javelin tips,adamant_javelin_head,TRUE,TRUE,1,440,Needs a shaft.,0,Drop,Take,,-1,19579,31502,0
+19580,Rune javelin tips,rune_javelin_head,TRUE,TRUE,1,1350,Needs a shaft.,0,Drop,Take,,-1,19581,31502,0
+19582,Dragon javelin tips,dragon_javelin_head,TRUE,TRUE,1,1950,Needs a shaft.,0,Drop,Take,,-1,19583,31502,0
 19584,Javelin shaft,javelin_shaft,TRUE,TRUE,1,1,"It's not very strong, but it could be pointy if you put a pointy tip on it.",0,Drop,Take,"9, 3",-1,19585,31499,0
 19586,Light frame,ballista_frame_light,TRUE,TRUE,0,50000,A light wooden frame.,2250,Drop,Take,,19587,19588,31508,0
 19587,null,cert_ballista_frame_light,FALSE,FALSE,0,1,Swap this note at any bank for the equivalent item.,0,Drop,Take,,19586,-1,0,0
@@ -15228,7 +15228,7 @@ opponent's Prayer.
 21347,Amethyst,amethyst,TRUE,TRUE,0,3900,Maybe I can make something with this.,1360,Drop,Take,,21348,21349,33175,91
 21348,null,cert_amethyst,FALSE,FALSE,0,1,Swap this note at any bank for the equivalent item.,0,Drop,Take,,21347,-1,0,0
 21350,Amethyst arrowtips,amethyst_arrowheads,TRUE,TRUE,1,245,I can make some arrows with these.,0,Drop,Take,,-1,21351,2551,968
-21352,Amethyst javelin heads,amethyst_javelin_head,TRUE,TRUE,1,1520,Needs a shaft.,0,Drop,Take,,-1,21353,31502,0
+21352,Amethyst javelin tips,amethyst_javelin_head,TRUE,TRUE,1,1520,Needs a shaft.,0,Drop,Take,,-1,21353,31502,0
 21354,Hand fan,midsummer_fan,FALSE,FALSE,0,0,I'm not a huge fan.,20,"Chill, Destroy",Take,"-100, -100, -50, -10, 4",-1,21355,33178,55
 21356,Minnow,minnow,FALSE,TRUE,1,1,A tiny fish.,0,Drop,Take,,-1,21357,33189,0
 21358,Rock golem,skillpetmining_lovakite,FALSE,TRUE,0,1,Found somewhere between a rock and a hard place.,15,Drop,Take,1691,-1,-1,29755,1042

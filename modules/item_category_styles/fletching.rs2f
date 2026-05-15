@@ -62,9 +62,9 @@ apply (name:CONST_FLETCHING_DART_TIP_LIST) {
 
 /*@ define:input:item_category_styles
 type: style
-label: Javelin Heads Style
+label: Javelin Tips Style
 group: Fletching
-exampleItem: Bronze javelin heads
+exampleItem: Bronze javelin tips
 exampleItemId: 19570
 */
 #define VAR_CATEGORY_FLETCHING_JAVELIN_HEADS_CUSTOMSTYLE
