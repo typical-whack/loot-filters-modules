@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri May 15 20:43:27 UTC 2026 */
-/* Commit: c93a760 */
+/* Built on: Mon May 18 18:27:08 UTC 2026 */
+/* Commit: d7be708 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -7341,6 +7341,17 @@ group: Uniques List
   "Mooleta", \
   "Bottomless milk bucket*", \
   "Cow slippers", \
+  "Brutus slippers", \
+  "Fang of the hound", \
+  "Drygore blowpipe", \
+  "V's helm", \
+  "Devil's element", \
+  "Shadowflame quadrant", \
+  "Nature's recurve", \
+  "Lithic sceptre", \
+  "Crystal blessing", \
+  "Infernal tecpatl", \
+  "King's barrage", \
   "Brutus slippers", \
 ]
 
