@@ -370,6 +370,17 @@ group: Uniques List
   "Bottomless milk bucket*", \
   "Cow slippers", \
   "Brutus slippers", \
+  "Fang of the hound", \
+  "Drygore blowpipe", \
+  "V's helm", \
+  "Devil's element", \
+  "Shadowflame quadrant", \
+  "Nature's recurve", \
+  "Lithic sceptre", \
+  "Crystal blessing", \
+  "Infernal tecpatl", \
+  "King's barrage", \
+  "Brutus slippers", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
