@@ -28,6 +28,8 @@ jobs:
         run: |
           echo "short_commit=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
           echo "current_date_and_time=$(date)" >> $GITHUB_OUTPUT
+          echo "repo=${{ github.repository }}" >> $GITHUB_OUTPUT
+          echo "branch=${{ github.ref_name }}" >> $GITHUB_OUTPUT
 
       - name: Build
         run: |
@@ -35,10 +37,15 @@ jobs:
           header_module="/*@ define:module:header\nhidden: true\nname: header\n*/\n"
           built_on_string="/* Built on: ${{ steps.vars.outputs.current_date_and_time }} */"
           commit_string="/* Commit: ${{ steps.vars.outputs.short_commit }} */"
+          repo_string="/* Repo: ${{ steps.vars.outputs.repo }} */"
+          branch_string="/* Branch: ${{ steps.vars.outputs.branch }} */"
+
           meta_string="meta {\n    name = \"Joe's filter\";\n    description = \"Offers an original color scheme with extensive support for category-based styling/filtering.\";\n}\n"
           echo -e "$header_module" >> filter.rs2f
           echo -e "$built_on_string" >> filter.rs2f
           echo -e "$commit_string" >> filter.rs2f
+          echo -e "$repo_string" >> filter.rs2f
+          echo -e "$branch_string" >> filter.rs2f
           echo -e "$meta_string" >> filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> filter.rs2f
@@ -49,6 +56,8 @@ jobs:
           echo -e "$header_module" >> default-filter.rs2f
           echo -e "$built_on_string" >> default-filter.rs2f
           echo -e "$commit_string" >> default-filter.rs2f
+          echo -e "$repo_string" >> default-filter.rs2f
+          echo -e "$branch_string" >> default-filter.rs2f
           echo -e "$default_meta_string" >> default-filter.rs2f
           cat module_order | while read line || [[ -n $line ]]; do
             cat modules/$line.rs2f >> default-filter.rs2f
