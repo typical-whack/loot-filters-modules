@@ -3,8 +3,10 @@ hidden: true
 name: header
 */
 
-/* Built on: Mon May 18 18:27:08 UTC 2026 */
-/* Commit: d7be708 */
+/* Built on: Thu Jun 11 18:34:41 UTC 2026 */
+/* Commit: 7b2c57e */
+/* Repo: typical-whack/loot-filters-modules */
+/* Branch: main */
 meta {
     name = "[default: Joe's filter]";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
