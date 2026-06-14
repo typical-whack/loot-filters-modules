@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Jun 11 18:34:41 UTC 2026 */
-/* Commit: 7b2c57e */
+/* Built on: Sun Jun 14 17:05:14 UTC 2026 */
+/* Commit: 56c4e5c */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -7169,6 +7169,7 @@ group: Uniques List
   "Draconic visage", \
   "Skeletal visage", \
   "Dragonbone necklace", \
+  "Ancient icon", \
   "Venator shard", \
   "Inquisitor's mace", \
   "Inquisitor's great helm", \
