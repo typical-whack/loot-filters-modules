@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Jul  3 14:03:04 UTC 2026 */
-/* Commit: 05359d0 */
+/* Built on: Fri Jul  3 14:07:27 UTC 2026 */
+/* Commit: 64fd0da */
 /* Repo: Kaqemeex/loot-filters-modules */
 /* Branch: patch-5 */
 meta {
@@ -17734,7 +17734,7 @@ name: Constants
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
-  "Araxyte venom sack", \
+  "Araxyte venom sac", \
 ]
 
 #define CONST_AMMO_STANDARD_ARROWS_LIST [ \
