@@ -1607,7 +1607,7 @@ name: Constants
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
-  "Araxyte venom sack", \
+  "Araxyte venom sac", \
 ]
 
 #define CONST_AMMO_STANDARD_ARROWS_LIST [ \

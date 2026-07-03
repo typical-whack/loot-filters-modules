@@ -3,10 +3,10 @@ hidden: true
 name: header
 */
 
-/* Built on: Sun Jun 14 17:05:14 UTC 2026 */
-/* Commit: 56c4e5c */
-/* Repo: typical-whack/loot-filters-modules */
-/* Branch: main */
+/* Built on: Fri Jul  3 14:07:27 UTC 2026 */
+/* Commit: 64fd0da */
+/* Repo: Kaqemeex/loot-filters-modules */
+/* Branch: patch-5 */
 meta {
     name = "Joe's filter";
     description = "Offers an original color scheme with extensive support for category-based styling/filtering.";
@@ -3891,7 +3891,7 @@ enum: [
   "Nihil dust",
   "Lily of the sands",
   "Aldarium",
-  "Araxyte venom sack"
+  "Araxyte venom sac"
 ]
 */
 #define VAR_SECONDARIES_HIDE [ \
@@ -3929,7 +3929,7 @@ enum: [
   "Nihil dust",
   "Lily of the sands",
   "Aldarium",
-  "Araxyte venom sack"
+  "Araxyte venom sac"
 ]
 */
 #define VAR_SECONDARIES_SHOW [ \
@@ -3937,7 +3937,7 @@ enum: [
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
-  "Araxyte venom sack" \
+  "Araxyte venom sac" \
 ]
 
 /*@ define:input:herblore_secondaries
@@ -17734,7 +17734,7 @@ name: Constants
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
-  "Araxyte venom sack", \
+  "Araxyte venom sac", \
 ]
 
 #define CONST_AMMO_STANDARD_ARROWS_LIST [ \
