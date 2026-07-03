@@ -85,7 +85,7 @@ enum: [
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
-  "Araxyte venom sack" \
+  "Araxyte venom sac" \
 ]
 
 /*@ define:input:herblore_secondaries
