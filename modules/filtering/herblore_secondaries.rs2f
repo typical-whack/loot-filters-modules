@@ -39,7 +39,7 @@ enum: [
   "Nihil dust",
   "Lily of the sands",
   "Aldarium",
-  "Araxyte venom sack"
+  "Araxyte venom sac"
 ]
 */
 #define VAR_SECONDARIES_HIDE [ \
@@ -77,7 +77,7 @@ enum: [
   "Nihil dust",
   "Lily of the sands",
   "Aldarium",
-  "Araxyte venom sack"
+  "Araxyte venom sac"
 ]
 */
 #define VAR_SECONDARIES_SHOW [ \
