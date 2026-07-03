@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Jul  3 14:01:21 UTC 2026 */
-/* Commit: d5bf9dc */
+/* Built on: Fri Jul  3 14:03:04 UTC 2026 */
+/* Commit: 05359d0 */
 /* Repo: Kaqemeex/loot-filters-modules */
 /* Branch: patch-5 */
 meta {
@@ -3937,7 +3937,7 @@ enum: [
   "Nihil dust", \
   "Lily of the sands", \
   "Aldarium", \
-  "Araxyte venom sack" \
+  "Araxyte venom sac" \
 ]
 
 /*@ define:input:herblore_secondaries
