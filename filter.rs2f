@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat Jul  4 05:08:04 UTC 2026 */
-/* Commit: d9e81fa */
+/* Built on: Sat Jul  4 05:08:40 UTC 2026 */
+/* Commit: 51b1ecd */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -6912,6 +6912,7 @@ group: Tier 4
   "Infernal tecpatl", \
   "King's barrage", \
   "Brutus slippers", \
+  "Elder venator fang", \
 ]
 
 /*@ define:input:item_tiers
