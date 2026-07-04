@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Fri Jul  3 14:40:51 UTC 2026 */
-/* Commit: cb32128 */
+/* Built on: Sat Jul  4 05:08:04 UTC 2026 */
+/* Commit: d9e81fa */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -7356,6 +7356,8 @@ group: Uniques List
   "Infernal tecpatl", \
   "King's barrage", \
   "Brutus slippers", \
+  "Elder venator fang", \
+  "Crimson kisten", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
