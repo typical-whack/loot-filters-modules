@@ -382,6 +382,8 @@ group: Uniques List
   "Infernal tecpatl", \
   "King's barrage", \
   "Brutus slippers", \
+  "Elder venator fang", \
+  "Crimson kisten", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
