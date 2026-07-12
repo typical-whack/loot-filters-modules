@@ -537,6 +537,23 @@ apply (name:"Stamina potion(*") {
 
 /*@ define:input:individual_item_styles
 type: style
+label: Extended stamina potion
+group: Potions Styles
+exampleItem: Extended stamina potion(4)
+*/
+#define VAR_EXTENDED_STAMINA_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50977546";\
+  borderColor = "#FF977546";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF977546";
+
+apply (name:"Extended stamina potion(*") {
+    VAR_EXTENDED_STAMINA_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
 label: Zamorak brew
 group: Potions Styles
 exampleItem: Zamorak brew(4)

@@ -140,6 +140,10 @@ enum: [
     "label": "Stamina potion"
   },
   {
+    "value": "Extended stamina potion(*",
+    "label": "Extended stamina potion"
+  },
+  {
     "value": "Zamorak brew(*",
     "label": "Zamorak brew"
   },
@@ -370,6 +374,10 @@ enum: [
     "label": "Stamina potion"
   },
   {
+    "value": "Extended stamina potion(*",
+    "label": "Extended stamina potion"
+  },
+  {
     "value": "Zamorak brew(*",
     "label": "Zamorak brew"
   },
@@ -477,6 +485,7 @@ enum: [
   "Sanfew serum(*", \
   "Saradomin brew(*", \
   "Stamina potion(*", \
+  "Extended stamina potion(*", \
   "Super antifire potion(*", \
   "Super combat potion(*", \
   "Super restore(*", \
