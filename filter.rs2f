@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat Jul  4 05:08:40 UTC 2026 */
-/* Commit: 51b1ecd */
+/* Built on: Sun Jul 12 17:02:46 UTC 2026 */
+/* Commit: 336511e */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -743,6 +743,10 @@ enum: [
     "label": "Stamina potion"
   },
   {
+    "value": "Extended stamina potion(*",
+    "label": "Extended stamina potion"
+  },
+  {
     "value": "Zamorak brew(*",
     "label": "Zamorak brew"
   },
@@ -973,6 +977,10 @@ enum: [
     "label": "Stamina potion"
   },
   {
+    "value": "Extended stamina potion(*",
+    "label": "Extended stamina potion"
+  },
+  {
     "value": "Zamorak brew(*",
     "label": "Zamorak brew"
   },
@@ -1080,6 +1088,7 @@ enum: [
   "Sanfew serum(*", \
   "Saradomin brew(*", \
   "Stamina potion(*", \
+  "Extended stamina potion(*", \
   "Super antifire potion(*", \
   "Super combat potion(*", \
   "Super restore(*", \
@@ -10940,6 +10949,23 @@ apply (name:"Stamina potion(*") {
 
 /*@ define:input:individual_item_styles
 type: style
+label: Extended stamina potion
+group: Potions Styles
+exampleItem: Extended stamina potion(4)
+*/
+#define VAR_EXTENDED_STAMINA_POTION_CUSTOMSTYLE \
+  textColor = "#FFFFFFFF";\
+  backgroundColor = "#50977546";\
+  borderColor = "#FF977546";\
+  textAccentColor = "#FF000000";\
+  menuTextColor = "#FF977546";
+
+apply (name:"Extended stamina potion(*") {
+    VAR_EXTENDED_STAMINA_POTION_CUSTOMSTYLE 
+}
+
+/*@ define:input:individual_item_styles
+type: style
 label: Zamorak brew
 group: Potions Styles
 exampleItem: Zamorak brew(4)
@@ -18028,6 +18054,7 @@ name: Constants
   "Divine ranging potion(*", \
   "Magic potion(*", \
   "Stamina potion(*", \
+  "Extended stamina potion(*", \
   "Zamorak brew(*", \
   "Divine magic potion(*", \
   "Antidote++(*", \
