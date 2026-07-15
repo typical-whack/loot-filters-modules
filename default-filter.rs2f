@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jul 15 01:55:57 UTC 2026 */
-/* Commit: 02cb912 */
+/* Built on: Wed Jul 15 01:57:43 UTC 2026 */
+/* Commit: b371174 */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -16187,7 +16187,7 @@ name: Constants
 
 #define CONST_TOB_AREA [3153, 4233, 0, 3322, 4479, 0]
 
-#define CONST_TOA_AREA [3515, 5126, 0, 3965, 5432, 0]
+#define CONST_TOA_AREA [3515, 5126, 0, 3965, 5432, 3]
 
 #define CONST_GOD_WARS_DUNGEON_AREA [2816, 5184, 0, 2943, 5375, 3]
 #define CONST_COMMANDER_ZILYANA_AREA [2884, 5257, 0, 2908, 5276, 0]
