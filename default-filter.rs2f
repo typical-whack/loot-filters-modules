@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Wed Jul 15 01:57:43 UTC 2026 */
-/* Commit: b371174 */
+/* Built on: Sat Jul 18 18:17:57 UTC 2026 */
+/* Commit: e7898c9 */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -6773,13 +6773,9 @@ group: Tier 2
 #define VAR_VALUES_TIER_2_SHOW [ \
   "Dossier", \
   "Ice quartz", \
-  "Frozen tablet", \
   "Blood quartz", \
-  "Strangled tablet", \
   "Shadow quartz", \
-  "Sirenic tablet", \
   "Smoke quartz", \
-  "Scarred tablet", \
   "Dark claw", \
   "Frozen cache", \
   "Ancient icon", \
@@ -6843,6 +6839,10 @@ group: Tier 3
   "Kq head (tattered)", \
   "Brittle key", \
   "* echo orb", \
+  "Frozen tablet", \
+  "Strangled tablet", \
+  "Sirenic tablet", \
+  "Scarred tablet", \
 ]
 
 /*@ define:input:item_tiers
@@ -7368,6 +7368,10 @@ group: Uniques List
   "Brutus slippers", \
   "Elder venator fang", \
   "Crimson kisten", \
+  "Sirenic tablet", \
+  "Scarred tablet", \
+  "Strangled tablet", \
+  "Frozen tablet", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
