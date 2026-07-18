@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Sat Jul 18 18:17:57 UTC 2026 */
-/* Commit: e7898c9 */
+/* Built on: Sat Jul 18 18:20:12 UTC 2026 */
+/* Commit: a034785 */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -6887,12 +6887,12 @@ group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW [ \
   "Venator vestige", \
-  "Leviathan's lure", \
   "Bellator vestige", \
-  "Siren's staff", \
   "Ultor vestige", \
-  "Executioner's axe head", \
   "Magus vestige", \
+  "Leviathan's lure", \
+  "Siren's staff", \
+  "Executioner's axe head", \
   "Eye of the duke", \
   "Araxyte fang", \
   "Tanzanite mutagen", \
@@ -7190,21 +7190,6 @@ group: Uniques List
   "Harmonised orb", \
   "Eldritch orb", \
   "Parasitic egg", \
-  "Virtus mask", \
-  "Virtus robe top", \
-  "Virtus robe bottom", \
-  "Magus vestige", \
-  "Eye of the duke", \
-  "Ice quartz", \
-  "Venator vestige", \
-  "Leviathan's lure", \
-  "Smoke quartz", \
-  "Bellator vestige", \
-  "Siren's staff", \
-  "Shadow quartz", \
-  "Ultor vestige", \
-  "Executioner's axe head", \
-  "Blood quartz", \
   "Hill giant club", \
   "Bryophyta's essence", \
   "Ring of 3rd age", \
@@ -7372,6 +7357,21 @@ group: Uniques List
   "Scarred tablet", \
   "Strangled tablet", \
   "Frozen tablet", \
+  "Ice quartz", \
+  "Blood quartz", \
+  "Shadow quartz", \
+  "Smoke quartz", \
+  "Virtus mask", \
+  "Virtus robe top", \
+  "Virtus robe bottom", \
+  "Magus vestige", \
+  "Venator vestige", \
+  "Bellator vestige", \
+  "Ultor vestige", \
+  "Eye of the duke", \
+  "Leviathan's lure", \
+  "Siren's staff", \
+  "Executioner's axe head", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
