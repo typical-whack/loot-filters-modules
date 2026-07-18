@@ -206,21 +206,6 @@ group: Uniques List
   "Harmonised orb", \
   "Eldritch orb", \
   "Parasitic egg", \
-  "Virtus mask", \
-  "Virtus robe top", \
-  "Virtus robe bottom", \
-  "Magus vestige", \
-  "Eye of the duke", \
-  "Ice quartz", \
-  "Venator vestige", \
-  "Leviathan's lure", \
-  "Smoke quartz", \
-  "Bellator vestige", \
-  "Siren's staff", \
-  "Shadow quartz", \
-  "Ultor vestige", \
-  "Executioner's axe head", \
-  "Blood quartz", \
   "Hill giant club", \
   "Bryophyta's essence", \
   "Ring of 3rd age", \
@@ -388,6 +373,21 @@ group: Uniques List
   "Scarred tablet", \
   "Strangled tablet", \
   "Frozen tablet", \
+  "Ice quartz", \
+  "Blood quartz", \
+  "Shadow quartz", \
+  "Smoke quartz", \
+  "Virtus mask", \
+  "Virtus robe top", \
+  "Virtus robe bottom", \
+  "Magus vestige", \
+  "Venator vestige", \
+  "Bellator vestige", \
+  "Ultor vestige", \
+  "Eye of the duke", \
+  "Leviathan's lure", \
+  "Siren's staff", \
+  "Executioner's axe head", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {

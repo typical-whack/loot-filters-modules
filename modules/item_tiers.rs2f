@@ -194,12 +194,12 @@ group: Tier 4
 */
 #define VAR_VALUES_TIER_4_SHOW [ \
   "Venator vestige", \
-  "Leviathan's lure", \
   "Bellator vestige", \
-  "Siren's staff", \
   "Ultor vestige", \
-  "Executioner's axe head", \
   "Magus vestige", \
+  "Leviathan's lure", \
+  "Siren's staff", \
+  "Executioner's axe head", \
   "Eye of the duke", \
   "Araxyte fang", \
   "Tanzanite mutagen", \
