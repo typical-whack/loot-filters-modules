@@ -384,6 +384,10 @@ group: Uniques List
   "Brutus slippers", \
   "Elder venator fang", \
   "Crimson kisten", \
+  "Sirenic tablet", \
+  "Scarred tablet", \
+  "Strangled tablet", \
+  "Frozen tablet", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
