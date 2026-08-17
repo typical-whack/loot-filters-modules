@@ -1,0 +1,199 @@
+# RuneScape Loot Filter (.rs2f) — Agent Reference
+
+## Project Structure
+- **config.rs2f** — Main config: global settings, `#define` variables, applies all modules
+- **modules/filtering/** — Item filtering rules by category (bars, gems, ores, logs, runes, food, potions, herbs, currency, farming_seeds, fishing, ammo, clue_scrolls, metal_equipment, ownership, value_based)
+- **modules/individual_item_styles/** — Per-item styling for specific categories
+- **modules/item_category_styles/** — Bulk styling per skill/activity (construction, farming, fishing, fletching, herblore, mining, prayer, smithing, woodcutting, etc.)
+- Each directory contains `_module_definition.rs2f` defining module structure and UI options
+
+---
+
+## File Structure & Syntax
+
+```rs2f
+meta { name = "author/filter"; description = "..."; }  // REQUIRED; name must be unique
+
+#define VAR_NAME value          // user-configurable (VAR_ prefix) or constant (CONST_ prefix)
+
+apply (condition) { prop=val; }  // non-terminal: applies settings, continues evaluating
+rule (condition) { prop=val; }   // terminal: stops evaluation on match
+```
+
+### Module & Input UI Annotations
+Structured comments for the filterscape UI. Place between `meta{}` and `#define` blocks:
+
+```rs2f
+/*@ define:module:[id]
+name: Display Name
+subtitle: Short phrase
+description: |
+    Markdown-supported description
+*/
+
+/*@ define:input:module_id
+type: boolean|number|stringlist|enumlist|style
+label: UI Label
+*/
+#define VAR_X default_value   // input comment MUST sit directly above #define
+```
+
+| Input Type | Description | Example Default |
+|-----------|-------------|-----------------|
+| `boolean` | Checkbox toggle | `#define VAR_X true` |
+| `number` | Integer input | `#define VAR_X 100` |
+| `stringlist` | Free-form string array | `#define VAR_X ["item"]` |
+| `enumlist` | Dropdown (value/label pairs) | `#define VAR_X ["option"]` |
+| `style` | Visual settings (colors in `#AARRGGBB`) | `#define VAR_X textColor="#FFFFFFFF"` |
+
+---
+
+## Conditions
+
+### Syntax: `<type>:<operator><value>`
+
+| Type | Syntax | Notes |
+|------|--------|-------|
+| `id` | `id:<n>`, `id:[n,n]` | Exact item ID(s) |
+| `name` | `name:"str"`, `name:["a","b"]` | Case-insensitive, wildcard `*` on either/both sides |
+| `quantity` | `quantity:<op><n>` | |
+| `value` | `value:<op><n>` | Highest of GE vs HA value |
+| `gevalue` | `gevalue:<op><n>` | GE price only |
+| `havalue` | `havalue:<op><n>` | High alchemy only |
+| `tradeable` | `tradeable:<bool>` | |
+| `stackable` | `stackable:<bool>` | |
+| `noted` | `noted:<bool>` | |
+| `ownership` | `ownership:<n>` | 0=none, 1=self, 2=other, 3=group |
+| `area` | `area:[x0,y0,z0,x1,y1,z1]` | World coordinate bounding box |
+
+### Operators
+- Comparison: `==`, `>`, `<`, `>=`, `<=` — **NO `!=`**, use `!` prefix: `!quantity:==1`
+- Logical: `&&`, `||`, `!` — precedence: `&&` > `||`; use parentheses for control
+
+### Examples
+```rs2f
+name:"coins" && quantity:>100_000
+!quantity:==1                    // quantity != 1
+(name:"blue dragonhide" || name:"green dragonhide") && value:>500
+```
+
+---
+
+## Display Settings
+
+Set inside `{ }`, **semicolon-terminated**. Defaults noted where applicable.
+
+### Visibility & Overlay
+| Setting | Type | Description |
+|---------|------|-------------|
+| `hidden` | bool | Hides everything (no lootbeam, no tile highlight) |
+| `hideOverlay` | bool | Hides text overlay only |
+| `showValue` | bool | Show item value in overlay |
+| `showDespawn` | bool | Show despawn timer |
+
+### Text Styling
+| Setting | Type | Description |
+|---------|------|-------------|
+| `color`, `textColor` | color string | Text color |
+| `backgroundColor` | color string | Background behind text |
+| `borderColor` | color string | Border around text |
+| `fontType` | enum | `FONTTYPE_SMALL`(1, default), `FONTTYPE_NORMAL`(2), `FONTTYPE_BOLD`(3) |
+| `textAccent` | enum | `TEXTACCENT_SHADOW`(1, default), `TEXTACCENT_OUTLINE`(2), `TEXTACCENT_NONE`(3), `TEXTACCENT_BOLD_SHADOW`(4) |
+| `textAccentColor` | color string | Accent/shadow color (default: black) |
+| `menuTextColor` | color string | Menu entry text color (defaults to textColor) |
+
+### Lootbeam
+| Setting | Type | Description |
+|---------|------|-------------|
+| `showLootbeam`, `showLootBeam` | bool | Show in-world lootbeam |
+| `lootbeamColor`, `lootBeamColor` | color string | Beam color (defaults to textColor) |
+
+### Tile Highlighting
+| Setting | Type | Description |
+|---------|------|-------------|
+| `highlightTile` | bool | Highlight item's ground tile |
+| `tileStrokeColor` | color string | Tile outline color (defaults to textColor) |
+| `tileFillColor` | color string | Tile fill color (no fill when unset) |
+
+### Notifications & Audio
+| Setting | Type | Description |
+|---------|------|-------------|
+| `notify` | bool | Fire system notification on drop |
+| `sound` | int or string | Sound ID from game cache, OR filename from `.runelite/loot-filters/sounds/` (WAV recommended) |
+
+### Icons
+```rs2f
+icon = Sprite(index, imageIndex)   // Game sprite — browse: https://abextm.github.io/cache2/#/viewer/sprite
+icon = Item(itemId)                // Item icon by ID
+icon = File("name.png")            // Custom from .runelite/loot-filters/icons/ (PNG recommended)
+icon = CurrentItem()               // Item's own icon
+```
+
+### Menu Sorting
+| Setting | Type | Description |
+|---------|------|-------------|
+| `menuSort` | int | Pickup menu order. Higher = higher priority. Negative values supported. |
+
+---
+
+## Colors & Macros
+
+### Color Formats (all equivalent)
+`"#rrggbb"`, `"#aarrggbb"`, `"rrggbb"`, `"aarrggbb"` — 8-digit `#AARRGGBB` preferred for UI inputs.
+
+### Macros (`#define`)
+```rs2f
+#define ORANGE "#ffa500"
+
+// Multi-line (backslash continuation)
+#define IMPORTANT(_name, _color) rule (name:_name) {\
+  color = _color; \
+  notify = true;\
+}
+IMPORTANT("twisted bow", GREEN)
+```
+
+---
+
+## Complete Example
+
+```rs2f
+meta { name = "riktenx/test"; description = "demo filter"; }
+
+/*@ define:module:my_module
+name: My Module
+subtitle: Filtering controls
+description: |
+    Configure item visibility and styling
+*/
+
+/*@ define:input:my_module
+type: stringlist
+label: Items To Hide
+*/
+#define VAR_ITEMS_TO_HIDE ["ashes"]
+
+apply (value:>10_000) { borderColor = "#ff80ff"; }   // non-terminal: stacks
+rule (name:"anglerfish") { color = MAGENTA; }         // terminal: stops here
+rule (name:"coins") { color = YELLOW; showLootbeam = true; }
+
+if (name:VAR_ITEMS_TO_HIDE) {
+    hidden = true;
+}
+```
+
+---
+
+## Agent Rules
+
+1. **Always include `meta` block** with a unique `name`
+2. **Top-down evaluation** — order matters, first matching `rule` wins
+3. **`apply` for stacking**, `rule` for final decisions
+4. **No nested rules** — flatten: `rule (a && b) { ... }`
+5. **Semicolons required** after display settings; whitespace is flexible
+6. **Numeric literals support underscores:** `100_000` = 100000
+7. **No `!=` operator** — use negation: `!quantity:==1`
+8. **Input comments MUST sit directly above** their `#define` (default value is pulled from it)
+9. **Naming conventions:** `VAR_` prefix for configurable, `CONST_` for constants
+10. **New rules go in appropriate module files**; prefer user-configurable settings with UI annotations
+11. **Preserve existing functionality** unless explicitly asked to change
