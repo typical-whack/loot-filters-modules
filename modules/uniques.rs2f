@@ -388,6 +388,8 @@ group: Uniques List
   "Leviathan's lure", \
   "Siren's staff", \
   "Executioner's axe head", \
+  "Hallowfell", \
+  "Jar of Light", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
