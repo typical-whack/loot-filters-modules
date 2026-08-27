@@ -150,6 +150,9 @@ group: Tier 3
   "Strangled tablet", \
   "Sirenic tablet", \
   "Scarred tablet", \
+  "Jar of light", \
+  "Jar of feathers", \
+  "Jar of venom", \
 ]
 
 /*@ define:input:item_tiers
