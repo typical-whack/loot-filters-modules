@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Aug 27 00:46:06 UTC 2026 */
-/* Commit: 814b3e4 */
+/* Built on: Thu Aug 27 00:47:47 UTC 2026 */
+/* Commit: 67e569d */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -6843,6 +6843,9 @@ group: Tier 3
   "Strangled tablet", \
   "Sirenic tablet", \
   "Scarred tablet", \
+  "Jar of light", \
+  "Jar of feathers", \
+  "Jar of venom", \
 ]
 
 /*@ define:input:item_tiers
