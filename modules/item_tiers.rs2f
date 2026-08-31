@@ -9,7 +9,7 @@ description: |
 /*@ define:group
 ---
 name: Tier 1
-icon: 
+icon:
   type: itemId
   itemId: 1000
 */
@@ -54,13 +54,13 @@ exampleItemId: 10828
   textAccentColor = "#FF000000";
 
 apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW) {
-    VAR_VALUES_TIER_1_CUSTOMSTYLE 
+    VAR_VALUES_TIER_1_CUSTOMSTYLE
 }
 
 /*@ define:group
 ---
 name: Tier 2
-icon: 
+icon:
   type: itemId
   itemId: 1002
 */
@@ -103,13 +103,13 @@ exampleItemId: 6920
   textAccentColor = "#FF000000";
 
 apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
-    VAR_VALUES_TIER_2_CUSTOMSTYLE 
+    VAR_VALUES_TIER_2_CUSTOMSTYLE
 }
 
 /*@ define:group
 ---
 name: Tier 3
-icon: 
+icon:
   type: itemId
   itemId: 1003
 */
@@ -172,13 +172,13 @@ exampleItemId: 4151
   lootbeamColor = "#FFFF9600";
 
 apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
+    VAR_VALUES_TIER_3_CUSTOMSTYLE
 }
 
 /*@ define:group
 ---
 name: Tier 4
-icon: 
+icon:
   type: itemId
   itemId: 1004
 */
@@ -232,6 +232,7 @@ group: Tier 4
   "King's barrage", \
   "Brutus slippers", \
   "Elder venator fang", \
+  "Vampyre snelm", \
 ]
 
 /*@ define:input:item_tiers
@@ -251,7 +252,7 @@ exampleItemId: 20997
   lootbeamColor = "#FFFF66B2";
 
 apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
-    VAR_VALUES_TIER_4_CUSTOMSTYLE 
+    VAR_VALUES_TIER_4_CUSTOMSTYLE
 }
 
 /*@ define:group

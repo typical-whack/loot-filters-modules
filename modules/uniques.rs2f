@@ -21,7 +21,7 @@ exampleItemId: 12922
 /*@ define:group
 ---
 name: "Uniques List"
-icon: 
+icon:
   type: itemId
   itemId: 956
 expanded: false
@@ -390,10 +390,11 @@ group: Uniques List
   "Executioner's axe head", \
   "Hallowfell", \
   "Jar of Light", \
+  "Vampyre snelm", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
-    VAR_UNIQUES_CUSTOMSTYLE 
+    VAR_UNIQUES_CUSTOMSTYLE
 }
 
 /*@ define:group
