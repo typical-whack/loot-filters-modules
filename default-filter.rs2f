@@ -3,8 +3,8 @@ hidden: true
 name: header
 */
 
-/* Built on: Thu Aug 27 00:47:47 UTC 2026 */
-/* Commit: 67e569d */
+/* Built on: Mon Aug 31 16:21:46 UTC 2026 */
+/* Commit: 539d672 */
 /* Repo: typical-whack/loot-filters-modules */
 /* Branch: main */
 meta {
@@ -6702,7 +6702,7 @@ description: |
 /*@ define:group
 ---
 name: Tier 1
-icon: 
+icon:
   type: itemId
   itemId: 1000
 */
@@ -6747,13 +6747,13 @@ exampleItemId: 10828
   textAccentColor = "#FF000000";
 
 apply ((value:>=VAR_VALUES_TIER_1_VALUE && value:<VAR_VALUES_TIER_2_VALUE) || name:VAR_VALUES_TIER_1_SHOW) {
-    VAR_VALUES_TIER_1_CUSTOMSTYLE 
+    VAR_VALUES_TIER_1_CUSTOMSTYLE
 }
 
 /*@ define:group
 ---
 name: Tier 2
-icon: 
+icon:
   type: itemId
   itemId: 1002
 */
@@ -6796,13 +6796,13 @@ exampleItemId: 6920
   textAccentColor = "#FF000000";
 
 apply ((value:>=VAR_VALUES_TIER_2_VALUE && value:<VAR_VALUES_TIER_3_VALUE) || name:VAR_VALUES_TIER_2_SHOW) {
-    VAR_VALUES_TIER_2_CUSTOMSTYLE 
+    VAR_VALUES_TIER_2_CUSTOMSTYLE
 }
 
 /*@ define:group
 ---
 name: Tier 3
-icon: 
+icon:
   type: itemId
   itemId: 1003
 */
@@ -6865,13 +6865,13 @@ exampleItemId: 4151
   lootbeamColor = "#FFFF9600";
 
 apply ((value:>=VAR_VALUES_TIER_3_VALUE && value:<VAR_VALUES_TIER_4_VALUE) || name:VAR_VALUES_TIER_3_SHOW) {
-    VAR_VALUES_TIER_3_CUSTOMSTYLE 
+    VAR_VALUES_TIER_3_CUSTOMSTYLE
 }
 
 /*@ define:group
 ---
 name: Tier 4
-icon: 
+icon:
   type: itemId
   itemId: 1004
 */
@@ -6925,6 +6925,7 @@ group: Tier 4
   "King's barrage", \
   "Brutus slippers", \
   "Elder venator fang", \
+  "Vampyre snelm", \
 ]
 
 /*@ define:input:item_tiers
@@ -6944,7 +6945,7 @@ exampleItemId: 20997
   lootbeamColor = "#FFFF66B2";
 
 apply (value:>=VAR_VALUES_TIER_4_VALUE || name:VAR_VALUES_TIER_4_SHOW) {
-    VAR_VALUES_TIER_4_CUSTOMSTYLE 
+    VAR_VALUES_TIER_4_CUSTOMSTYLE
 }
 
 /*@ define:group
@@ -7008,7 +7009,7 @@ exampleItemId: 12922
 /*@ define:group
 ---
 name: "Uniques List"
-icon: 
+icon:
   type: itemId
   itemId: 956
 expanded: false
@@ -7377,10 +7378,11 @@ group: Uniques List
   "Executioner's axe head", \
   "Hallowfell", \
   "Jar of Light", \
+  "Vampyre snelm", \
 ]
 
 apply (name:VAR_UNIQUES_LIST) {
-    VAR_UNIQUES_CUSTOMSTYLE 
+    VAR_UNIQUES_CUSTOMSTYLE
 }
 
 /*@ define:group
